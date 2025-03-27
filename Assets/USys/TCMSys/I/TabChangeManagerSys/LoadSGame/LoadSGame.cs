@@ -1,8 +1,9 @@
 using UnityEngine.SceneManagement;
+using UnityEngine;
 
 namespace project_pkdsim.Assets.USys.TabChangeManagerSys.I.LoadSavedGame
 {
-    public class LoadSGame
+    public class LoadSGame : MonoBehaviour
     {
         public void LoadSavedGameI()
         {

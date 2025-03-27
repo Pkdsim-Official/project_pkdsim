@@ -1,7 +1,7 @@
 using project_pkdsim.Assets.USys.HolidaySys.ULoader.Assets.I.AssetsSorterI;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Holiday.AssetsSorter.NewYear
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Holiday.AssetsSorter.NewYear
 {
 	public class NewYears_ITAssets : MonoBehaviour
 	{

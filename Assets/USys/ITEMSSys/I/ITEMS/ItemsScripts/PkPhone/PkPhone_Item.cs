@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.PkPhone
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.PkPhone
 {
 	public class PkPhone_Item : MonoBehaviour
 	{

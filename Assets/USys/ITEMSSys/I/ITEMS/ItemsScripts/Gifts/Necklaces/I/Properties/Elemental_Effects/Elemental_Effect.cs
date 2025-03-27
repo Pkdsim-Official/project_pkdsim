@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.I.Elemental_Effect
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.I.Elemental_Effect
 {
     public class Elemental_Effect : MonoBehaviour
     {

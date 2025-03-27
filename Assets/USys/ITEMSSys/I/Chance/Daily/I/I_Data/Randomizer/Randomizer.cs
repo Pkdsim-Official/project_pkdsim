@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.Chance.Daily.I.I_Data.Randomizer
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.Chance.Daily.I.I_Data.Randomizer
 {
 	public class ItemsChanceDaily_Randomizer : MonoBehaviour 
 	{	

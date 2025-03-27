@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text;
 using TMPro;
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink.I.Menu_I
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink.I.Menu_I
 {
     public class TABSys_SettingsMenu
     {

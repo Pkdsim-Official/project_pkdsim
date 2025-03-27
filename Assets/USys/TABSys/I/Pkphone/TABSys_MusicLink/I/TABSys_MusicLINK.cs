@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I
 {
 	public class TABSys_MusicLINK : MonoBehaviour
     {

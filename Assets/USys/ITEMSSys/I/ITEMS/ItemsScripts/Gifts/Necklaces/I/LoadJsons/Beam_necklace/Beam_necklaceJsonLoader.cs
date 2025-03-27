@@ -1,14 +1,14 @@
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.Beam_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.Steel.Beam_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Properties.LoadJson.Beam_necklace
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.LoadJson.Beam_necklace
 {
     public class Beam_necklaceJsonLoader : MonoBehaviour
     {
-         private Beam_NecklaceItem necklaceData;
+        private Beam_NecklaceItem necklaceData;
         public void LoadJson()
         {
             string filePath = Path.Combine(Application.dataPath, "Resources", "Beam_necklace.json");

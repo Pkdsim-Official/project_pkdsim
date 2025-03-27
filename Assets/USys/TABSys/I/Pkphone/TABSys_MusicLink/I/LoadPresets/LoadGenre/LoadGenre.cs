@@ -1,6 +1,6 @@
 using project_pkdsim.Assets.USys.AUDIOSys.I.MUSICSys.I.Presets.I.Genre.I;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets.LoadGenre
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets.LoadGenre
 {
 	public class LoadMusicGenre : GenreI 
 	{

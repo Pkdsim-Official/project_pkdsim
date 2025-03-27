@@ -1,7 +1,7 @@
 using UnityEngine;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink.I;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink.I;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink
 {
     public class TABSys_SettingsLinker: MonoBehaviour
     {

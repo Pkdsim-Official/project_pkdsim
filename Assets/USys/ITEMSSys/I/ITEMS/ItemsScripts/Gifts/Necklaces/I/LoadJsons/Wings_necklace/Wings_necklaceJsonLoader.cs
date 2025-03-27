@@ -1,10 +1,10 @@
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.Wings_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.Flying.Wings_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Properties.LoadJson.WaterDrop_necklace
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.LoadJson.Wings_necklace
 {
     public class Wings_necklaceJsonLoader : MonoBehaviour
     {

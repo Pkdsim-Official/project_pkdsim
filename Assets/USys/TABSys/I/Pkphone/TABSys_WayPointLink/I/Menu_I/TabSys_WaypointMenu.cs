@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_WayPointLink.I.Menu_I.Houses;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_WayPointLink.I.Menu_I.Houses;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_WayPointLink.I.Menu_I
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_WayPointLink.I.Menu_I
 {
     public class TabSys_WaypointMenu : MonoBehaviour
     {

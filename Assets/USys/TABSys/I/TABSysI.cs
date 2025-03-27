@@ -1,6 +1,6 @@
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS;
 
-namespace project_pkdsim.Assets.USys.TabSys.I
+namespace project_pkdsim.Assets.USys.TabManagerSys
 {
     public class TABSysI
     {

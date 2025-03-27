@@ -10,6 +10,7 @@ namespace project_pkdsim.Assets.USys.DialogueSys.I.Load_Positive_Dialogue
 			LoadPositiveDialogue02();
 			LoadPositiveDialogue03();
 		}
+		// TODO: load positive dialogues
 		private void LoadPositiveDialogue01() 
 		{
 			

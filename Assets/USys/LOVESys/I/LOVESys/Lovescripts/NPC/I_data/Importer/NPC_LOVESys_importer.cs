@@ -64,7 +64,7 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Importer
 		private Vespiquen_LL Vespiquen_LL;
 		private Zoroark_LL Zoroark_LL;
 
-		protected void Get_NPC_LLSys()
+		public void Get_NPC_LLSys()
 		{
 			Get_Absol_LLSys();
 			Get_Beedrill_LLSys();

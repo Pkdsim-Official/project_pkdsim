@@ -20,10 +20,10 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Dragapul
             LoveLevel = new List<bool>()
             {
                 Dragapult_LL1,
-                Dragapult_LL2, 
-                Dragapult_LL3, 
-                Dragapult_LL4, 
-                Dragapult_LL5, 
+                Dragapult_LL2,
+                Dragapult_LL3,
+                Dragapult_LL4,
+                Dragapult_LL5,
                 Dragapult_LL6,
                 Dragapult_LL7
             };
@@ -67,6 +67,15 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Dragapul
             {
                 Dragapult_LL7 = true;
             }
+        }
+        public int GetActiveLoveLevel()
+        {
+            int count = 0;
+            foreach (bool level in LoveLevel)
+            {
+                if (level) count++;
+            }
+            return count;
         }
     }
 }

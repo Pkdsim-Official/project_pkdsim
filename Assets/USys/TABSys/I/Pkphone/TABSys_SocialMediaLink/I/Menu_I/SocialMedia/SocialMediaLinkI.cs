@@ -1,8 +1,8 @@
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.DiscordLink;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.PatreonLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.DiscordLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.PatreonLink;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.SocialMedia
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.SocialMedia
 {
 	public class SocialMediaLinkI : MonoBehaviour 
 	{

@@ -68,5 +68,14 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Beedrill
                 Beedrill_LL6 = true;
             }
         }
+        public int GetActiveLoveLevel()
+        {
+            int count = 0;
+            foreach (bool level in LoveLevel)
+            {
+                if (level) count++;
+            }
+            return count;
+        }
     }
 }

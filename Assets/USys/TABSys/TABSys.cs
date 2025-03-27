@@ -1,7 +1,7 @@
 using UnityEngine;
-using project_pkdsim.Assets.USys.TabSys.I;
+using project_pkdsim.Assets.USys.TabManagerSys;
 
-namespace project_pkdsim.Assets.USys.TabSys
+namespace project_pkdsim.Assets.USys.TabManagerSys
 {
     public class TABSys : MonoBehaviour
     {

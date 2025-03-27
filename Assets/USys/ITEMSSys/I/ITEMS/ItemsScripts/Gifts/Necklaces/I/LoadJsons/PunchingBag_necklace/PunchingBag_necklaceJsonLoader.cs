@@ -1,14 +1,14 @@
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.PunchingBag_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.Fighting.PunchingBag_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.LoadJson.PunchingBag_necklace
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.LoadJson.PunchingBag_necklace
 {
 	public class PunchingBag_NecklaceJsonLoader : MonoBehaviour 
 	{
-		 private PunchingBag_NecklaceItem necklaceData;
+		private PunchingBag_NecklaceItem necklaceData;
 
 		public void LoadJson()
 		{

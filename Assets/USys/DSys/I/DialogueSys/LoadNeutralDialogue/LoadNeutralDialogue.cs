@@ -10,6 +10,7 @@ namespace project_pkdsim.Assets.USys.DialogueSys.I.Load_Neutral_Dialogue
 			LoadNeutralDialogue02();
 			LoadNeutralDialogue03();
 		}
+		// TODO: load neutral dialogues
 		private void LoadNeutralDialogue01() 
 		{
 			

@@ -1,10 +1,10 @@
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.WaterDroplet_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.Water.WaterDroplet_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Properties.LoadJson.WaterDrop_necklace
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.LoadJson.WaterDrop_necklace
 {
     public class WaterDroplet_necklaceJsonLoader : MonoBehaviour
     {

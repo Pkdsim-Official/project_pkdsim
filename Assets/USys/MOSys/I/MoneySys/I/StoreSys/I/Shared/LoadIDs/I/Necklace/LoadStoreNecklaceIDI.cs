@@ -1,22 +1,22 @@
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Beam_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Bolt_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Brick_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Cat_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Crust_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Heart_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Hypno_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Snowflake_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Soul_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Spark_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Sun_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.WaterDroplet_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Leaf_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Butterfly_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.PunchingBag_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Lunar_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts.Necklaces.Wings_necklace;
 using UnityEngine;
 using System.Collections.Generic;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Electric.Bolt_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Ghost.Soul_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Fire.Sun_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Ice.Snowflake_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Electric.Spark_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Psychic.Hypno_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Fairy.Heart_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Ground.Crust_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Beam_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Brick_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Normal.Cat_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Flying.Wings_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Bug.Butterfly_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Fighting.PunchingBag_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Grass.Leaf_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.Dark.Lunar_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts.Necklaces.WaterDroplet_necklace;
 
 namespace project_pkdsim.Assets.USys.MoneySys.I.STORESys.I.Shared.LoadIDs.I.Necklace
 {
@@ -34,15 +34,10 @@ namespace project_pkdsim.Assets.USys.MoneySys.I.STORESys.I.Shared.LoadIDs.I.Neck
 		private Sun_NecklaceItemID Sun_NecklaceItemID;
 		private Soul_NecklaceItemID Soul_NecklaceItemID;
 		private WaterDroplet_NecklaceItemID WaterDroplet_NecklaceItemID;
-
 		private Lunar_NecklaceItemID Lunar_NecklaceItemID;
-
 		private Leaf_NecklaceItemID Leaf_NecklaceItemID;
-		
 		private PunchingBag_NecklaceItemID PunchingBag_NecklaceItemID;
-		
 		private Butterfly_NecklaceItemID Butterfly_NecklaceItemID;
-
 		private Wings_NecklaceItemID Wings_NecklaceItemID;
 		public Dictionary<string, int> ItemNecklacePrices = new Dictionary<string, int>();
 		public void Get_Items_NecklaceIDs()

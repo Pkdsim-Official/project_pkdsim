@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.USys.TabSys.TABSys_UIL.I;
+using project_pkdsim.Assets.USys.TabManagerSys.TABSys_UIL.I;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_UIL
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_UIL
 {
 	public class TABSys_UIL : MonoBehaviour 
 	{
