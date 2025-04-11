@@ -10,6 +10,7 @@ namespace project_pkdsim.Assets.USys.DSys.I.DialogueSys.LoadImmuneDialogue
 			LoadImmuneDialogue02();
 			LoadImmuneDialogue03();
 		}
+		// TODO: load immune dialogues
 		private void LoadImmuneDialogue01() 
 		{
 			

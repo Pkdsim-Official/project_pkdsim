@@ -10,6 +10,7 @@ namespace project_pkdsim.Assets.USys.DialogueSys.I.Load_Negative_Dialogue
 			LoadNegativeDialogue02();
 			LoadNegativeDialogue03();
 		}
+		// TODO: load negative dialogues
 		private void LoadNegativeDialogue01() 
 		{
 			

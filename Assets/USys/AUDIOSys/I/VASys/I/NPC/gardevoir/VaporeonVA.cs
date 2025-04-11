@@ -4,6 +4,6 @@ namespace project_pkdsim.Assets.USys.AUDIOSys.I.VoiceActorsSys.I.NPC.Gardevoir
 {
 	public class GardevoirVA : MonoBehaviour 
 	{
-
+		// TODO: Get a Gardevoir NPC voice actor
 	}
 }

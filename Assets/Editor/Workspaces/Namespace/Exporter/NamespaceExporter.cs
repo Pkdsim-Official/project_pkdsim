@@ -10,8 +10,8 @@ namespace project_pkdsim.Assets.Editor.Workspaces.Namespace.Exporter
     {
         private static string csvPath = "C:/Users/pkdsim_offical/project_pkdsim/PS/NamespaceList.csv";
 
-        [MenuItem("Window/Export Namespaces to CSV")]
-        public void ExportNamespaces()
+        [MenuItem("Pkdsim/Jobs/Tools/Namespace/Export Namespaces to CSV")]
+        private static void ExportNamespaces()
         {
             string[] scriptFiles = Directory.GetFiles(Application.dataPath, "*.cs", SearchOption.AllDirectories);
             StringBuilder csvContent = new StringBuilder();
@@ -32,6 +32,13 @@ namespace project_pkdsim.Assets.Editor.Workspaces.Namespace.Exporter
             AssetDatabase.Refresh();
 
             Debug.Log($"Namespace export completed! File saved at: {csvPath}");
+        }
+        public void OnGUI()
+        {
+            if (GUILayout.Button("Export Namespaces to CSV"))
+            {
+                ExportNamespaces();
+            }
         }
     }
 }

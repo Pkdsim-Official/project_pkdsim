@@ -1,0 +1,224 @@
+Folder PATH listing for volume Windows
+Volume serial number is DEF7-2F3C
+C:.
+¦   Alternative_Indie.meta
+¦   Bass.meta
+¦   Blues.meta
+¦   Classical.meta
+¦   Country.meta
+¦   Dance.meta
+¦   Disco.meta
+¦   Drum.meta
+¦   Dubstep.meta
+¦   Electronic.meta
+¦   Folk.meta
+¦   Funk.meta
+¦   Gospel.meta
+¦   Hip_Hop.meta
+¦   House.meta
+¦   Jazz.meta
+¦   Latin.meta
+¦   Metal.meta
+¦   Pop.meta
+¦   Punk.meta
+¦   Rap.meta
+¦   Reggae.meta
+¦   Rhythm.meta
+¦   Rock.meta
+¦   Soul.meta
+¦   Synthwave.meta
+¦   Techno.meta
+¦   Trance.meta
+¦   Trap.meta
+¦   treeoutput.txt
+¦   World.meta
+¦   
++---Alternative_Indie
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Bass
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Blues
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       ¦   Shadows on Steel Strings.meta
+¦       ¦   Shadows on the Steel Strings.meta
+¦       ¦   
+¦       +---Shadows on Steel Strings
+¦       ¦       Shadows on Steel Strings.wav
+¦       ¦       
+¦       +---Shadows on the Steel Strings
+¦               Shadows on the Steel Strings.wav
+¦               
++---Classical
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Country
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Dance
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Disco
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Drum
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Dubstep
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       +---Shocks
+¦       ¦       Shocks.wav
+¦       ¦       
+¦       +---Shockwaves
+¦               Shockwaves.wav
+¦               
++---Electronic
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Folk
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Funk
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Gospel
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Hip_Hop
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---House
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Jazz
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       +---When the Trumpet Whispers
+¦               When the Trumpet Whispers.wav
+¦               
++---Latin
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Metal
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Pop
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       ¦   Beat in My Veins.meta
+¦       ¦   The Beat in My Veins.meta
+¦       ¦   
+¦       +---Beat in My Veins
+¦       ¦       Beat in My Veins.wav
+¦       ¦       
+¦       +---The Beat in My Veins
+¦               The Beat in My Veins.wav
+¦               
++---Punk
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       ¦   Riot of Silence.meta
+¦       ¦   Riot of the Pokemon.meta
+¦       ¦   
+¦       +---Riot of Silence
+¦       ¦       Riot of Silence.wav
+¦       ¦       
+¦       +---Riot of the Pokemon
+¦               Riot of the Pokemon.wav
+¦               
++---Rap
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       ¦   Bridge of Silence.meta
+¦       ¦   Verse in Silence.meta
+¦       ¦   
+¦       +---Bridge of Silence
+¦       ¦       Bridge of Silence.wav
+¦       ¦       
+¦       +---Verse in Silence
+¦               Verse in Silence.wav
+¦               
++---Reggae
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Rhythm
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Rock
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       ¦   Electric Whispers.meta
+¦       ¦   
+¦       +---Electric Whispers
+¦               Electric Whispers.wav
+¦               
++---Soul
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       ¦   Feel the Echoes.meta
+¦       ¦   Feeling the Echoes.meta
+¦       ¦   Whispers in the Wind.meta
+¦       ¦   
+¦       +---Feel the Echoes
+¦       ¦       Feel the Echoes.wav
+¦       ¦       
+¦       +---Feeling the Echoes
+¦       ¦       Feeling the Echoes.wav
+¦       ¦       
+¦       +---Whispers in the Wind
+¦               Whispers in the Wind.wav
+¦               
++---Synthwave
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       +---Neon in My Veins
+¦               Neon in My Veins.wav
+¦               
++---Techno
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
+¦       +---Electric Pulse
+¦               Electric Pulse.wav
+¦               
++---Trance
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---Trap
+¦   ¦   Umbre07.meta
+¦   ¦   
+¦   +---Umbre07
++---World
+    ¦   Umbre07.meta
+    ¦   
+    +---Umbre07

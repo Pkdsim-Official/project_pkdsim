@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: 655560ff3b5af1a479e054c3e3aeff42
   m_SerializeEntries:
   - m_GUID: c45300c076b88d04ea7c369c82fcad67
-    m_Address: models
+    m_Address: Models
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

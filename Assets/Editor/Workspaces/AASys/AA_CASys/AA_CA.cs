@@ -6,8 +6,8 @@ namespace project_pkdsim.Assets.Editor.Workspaces.AASys.ClearAddressablesCacheSy
 {
 	public class AA_CASys : MonoBehaviour
 	{
-		[MenuItem("Jobs/Tools/Addressables/Clear Cache")]
-		private void ClearCache()
+		[MenuItem("Pkdsim/Jobs/Tools/Addressables/Clear Cache")]
+		private static void ClearCache()
 		{
 			AddressableAssetSettings.CleanPlayerContent();
 			Debug.Log("Addressables cache cleared.");

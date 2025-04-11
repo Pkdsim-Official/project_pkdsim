@@ -4,6 +4,6 @@ namespace project_pkdsim.Assets.USys.AUDIOSys.I.VoiceActorsSys.I.NPC.Dragapult
 {
 	public class DragapultVA : MonoBehaviour 
 	{
-
+		// TODO: Get a Dragapult NPC voice actor
 	}
 }

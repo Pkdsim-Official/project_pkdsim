@@ -1,15 +1,15 @@
-using project_pkdsim.Assets.Editor.Workspaces.Namespace.Exporter;
+using project_pkdsim.Assets.Editor.Workspaces.Namespace;
 using UnityEngine;
 
 namespace project_pkdsim.Assets.Editor.Workspaces
 {
 	public class EditorWorkspaces : MonoBehaviour 
 	{
-		private NamespaceExporter namespaceExporter;
+		private Namespacer namespacer;
 		private Editor_AAsys editor_AAsys;
 		private void Init() 
 		{
-			namespaceExporter.ExportNamespaces();
+			namespacer.NamespaceI();
 			editor_AAsys.Editor_AAsysI();
 		}
 

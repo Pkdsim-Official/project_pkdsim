@@ -4,6 +4,6 @@ namespace project_pkdsim.Assets.USys.AUDIOSys.I.VoiceActorsSys.I.NPC.Garchomp
 {
 	public class GarchompVA : MonoBehaviour 
 	{
-
+		// TODO: Get a Garchomp NPC voice actor
 	}
 }

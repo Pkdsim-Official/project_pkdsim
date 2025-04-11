@@ -16,7 +16,7 @@ MonoBehaviour:
   m_GUID: a17725d13b1af8a47adb3b9b5ea1ab82
   m_SerializeEntries:
   - m_GUID: 5f66df632f3098a4b9a83268371568d8
-    m_Address: materials
+    m_Address: Materials
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

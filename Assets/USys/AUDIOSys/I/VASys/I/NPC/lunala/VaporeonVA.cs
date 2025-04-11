@@ -4,6 +4,6 @@ namespace project_pkdsim.Assets.USys.AUDIOSys.I.VoiceActorsSys.I.NPC.Lunala
 {
 	public class LunalaVA : MonoBehaviour 
 	{
-
+		// TODO: Get a Lunala NPC voice actor
 	}
 }
