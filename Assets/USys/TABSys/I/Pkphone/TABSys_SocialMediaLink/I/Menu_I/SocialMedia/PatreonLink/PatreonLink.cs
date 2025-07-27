@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.PatreonLink
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.SocialMediaLink.I.PatreonLink
 {
 	public class PatreonLinker : MonoBehaviour 
 	{

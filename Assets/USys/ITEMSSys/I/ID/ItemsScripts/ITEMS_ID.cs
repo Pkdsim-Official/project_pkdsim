@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts.Gifts;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts.Gifts;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.ID.ItemsScripts
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ID.ItemsScripts
 {
     public class ITEMS_ID : MonoBehaviour
     {

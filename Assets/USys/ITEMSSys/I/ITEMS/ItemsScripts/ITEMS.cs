@@ -1,8 +1,8 @@
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts;
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Holiday.HolidayITEM;
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.PkPhone;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Holiday.HolidayITEM;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.PkPhone;
 using UnityEngine;
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts
 {
     public class ITEMS_Main : MonoBehaviour
     {

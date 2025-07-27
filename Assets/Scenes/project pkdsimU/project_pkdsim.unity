@@ -42,7 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -612,8 +613,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2068227600}
-        m_TargetAssemblyTypeName: Assets.USys.TCMSys.TCMSys, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_TargetAssemblyTypeName: project_pkdsim.Assets.USys.TabChangeManagerSys.I.TCMSysI,
+          Assembly-CSharp
+        m_MethodName: LQG
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -997,6 +999,7 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
 --- !u!1 &1297827606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,8 +1084,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2068227600}
-        m_TargetAssemblyTypeName: Assets.USys.TCMSys.TCMSys, Assembly-CSharp
-        m_MethodName: LoadNewGame
+        m_TargetAssemblyTypeName: project_pkdsim.Assets.USys.TabChangeManagerSys.I.TCMSysI,
+          Assembly-CSharp
+        m_MethodName: LNG
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1214,8 +1218,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2068227600}
-        m_TargetAssemblyTypeName: Assets.USys.TCMSys.TCMSys, Assembly-CSharp
-        m_MethodName: LoadSavedGame
+        m_TargetAssemblyTypeName: project_pkdsim.Assets.USys.TabChangeManagerSys.I.TCMSysI,
+          Assembly-CSharp
+        m_MethodName: LSG
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1602,7 +1607,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2068227598}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f568a55ccfa75f44c98b09cf420d356f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a739069535761a4b8da407c09458bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807

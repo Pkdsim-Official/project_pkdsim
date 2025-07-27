@@ -1,8 +1,8 @@
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE.GetBuyMenu;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE.GetSellMenu;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE.GetBuyMenu;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE.GetSellMenu;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE
 {
 	public class TABSys_MenuStore : MonoBehaviour 
 	{

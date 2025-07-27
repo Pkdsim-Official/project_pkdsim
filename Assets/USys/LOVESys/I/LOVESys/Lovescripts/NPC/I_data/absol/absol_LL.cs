@@ -19,10 +19,10 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Absol
             LoveLevel = new List<bool>()
             {
                 Absol_LL1,
-                Absol_LL2, 
-                Absol_LL3, 
-                Absol_LL4, 
-                Absol_LL5, 
+                Absol_LL2,
+                Absol_LL3,
+                Absol_LL4,
+                Absol_LL5,
                 Absol_LL6,
                 Absol_LL7
             };
@@ -66,6 +66,15 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Absol
             {
                 Absol_LL7 = true;
             }
+        }
+        public int GetActiveLoveLevel()
+        {
+            int count = 0;
+            foreach (bool level in LoveLevel)
+            {
+                if (level) count++;
+            }
+            return count;
         }
     }
 }

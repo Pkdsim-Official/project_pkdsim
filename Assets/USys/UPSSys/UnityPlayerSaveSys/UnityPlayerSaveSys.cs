@@ -1,4 +1,4 @@
-using project_pkdsim.Assets.USys.USystemsSys.INVENTORY;
+using project_pkdsim.Assets.USys.UItemsSystemSys.INVENTORY;
 using project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC;
 
 namespace project_pkdsim.Assets.USys.UnityPlayerSaveSys

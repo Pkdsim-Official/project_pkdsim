@@ -1,6 +1,6 @@
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.I
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.I
 {
 	public class ITEMSDatabaseSys : ITEMS_Main
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.DSys.I.DialogueSys.LoadImmuneDialogue
+namespace project_pkdsim.Assets.USys.DialogueSys.I.Load_Immune_Dialogue
 {
 	public class LoadImmuneDialogue : MonoBehaviour 
 	{

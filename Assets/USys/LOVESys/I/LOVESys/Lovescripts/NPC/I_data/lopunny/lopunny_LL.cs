@@ -68,5 +68,14 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Lopunny
                 Lopunny_LL7 = true;
             }
         }
+        public int GetActiveLoveLevel()
+        {
+            int count = 0;
+            foreach (bool level in LoveLevel)
+            {
+                if (level) count++;
+            }
+            return count;
+        }
     }
 }

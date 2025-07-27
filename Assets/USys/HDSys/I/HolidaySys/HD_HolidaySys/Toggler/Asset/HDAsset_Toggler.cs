@@ -19,9 +19,7 @@ namespace project_pkdsim.Assets.USys.HolidaySys.Toggler.Asset
 		
 		private Holiday_Base holidayBase; // Reference to holiday base
 
-		#pragma warning disable IDE0052 // Remove unread private members
-        private bool hasError = false; // Flag to indicate if any component is missing
-		#pragma warning restore IDE0052 // Remove unread private members
+		protected bool hasError; // Flag to indicate if any component is missing
 
         private void Start()
 		{

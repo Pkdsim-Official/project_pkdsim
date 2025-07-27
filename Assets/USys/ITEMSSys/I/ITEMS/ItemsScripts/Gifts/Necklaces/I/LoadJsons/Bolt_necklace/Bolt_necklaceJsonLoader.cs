@@ -1,9 +1,10 @@
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.Bolt_necklace;
-using project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.Electric.Bolt_necklace;
+using project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.Base_Properties;
 using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
-namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.LoadJson.Bolt_necklace
+
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.ITEMS.ItemsScripts.Gifts.Necklaces.I.LoadJson.Bolt_necklace
 {
 	public class Bolt_necklaceJsonLoader : MonoBehaviour
 	{
@@ -79,7 +80,7 @@ namespace project_pkdsim.Assets.USys.USystemsSys.ITEMS.ItemsScripts.Gifts.Neckla
             return 0; // Neutral if no special effect for the type
         }
 
-		public void BoltLoveSys_Stager()
+		public void BoltNecklace_LoveSys_Stager()
 		{
 			LoadJson();
 

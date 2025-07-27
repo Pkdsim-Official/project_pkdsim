@@ -1,6 +1,6 @@
-using project_pkdsim.Assets.USys.USystemsSys.I;
+using project_pkdsim.Assets.USys.UItemsSystemSys.I;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.INVENTORY 
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.INVENTORY 
 {
 	public class InventorySystem : ITEMSDatabaseSys
 	{

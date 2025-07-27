@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.USys.USystemsSys.Chance.Daily.I.I_Data.Randomizer;
+using project_pkdsim.Assets.USys.UItemsSystemSys.Chance.Daily.I.I_Data.Randomizer;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.Chance.Daily.I.I_Data
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.Chance.Daily.I.I_Data
 {
 	public class ItemsChanceDaily_I_Data : MonoBehaviour 
 	{

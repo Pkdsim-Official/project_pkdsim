@@ -1,8 +1,8 @@
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets.LoadGenre;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets.LoadCustom;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets.LoadGenre;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets.LoadCustom;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink.I.LoadPresets
 {
 	public class LoadMusicPresets : MonoBehaviour 
 	{

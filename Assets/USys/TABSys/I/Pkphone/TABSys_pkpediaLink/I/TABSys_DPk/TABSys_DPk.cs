@@ -5,7 +5,7 @@ using System.Text;
 using System;
 using project_pkdsim.Assets.Models.pkpedia.Npc.pkpedia_database;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_PkpediaLink.I.TSys_DPk
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_PkpediaLink.I.TSys_DPk
 {
     public class TABSys_DPk : MonoBehaviour
     {

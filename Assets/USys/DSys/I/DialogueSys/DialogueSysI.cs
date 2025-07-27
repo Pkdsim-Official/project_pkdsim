@@ -1,7 +1,7 @@
 using project_pkdsim.Assets.USys.DialogueSys.I.Load_Negative_Dialogue;
 using project_pkdsim.Assets.USys.DialogueSys.I.Load_Neutral_Dialogue;
 using project_pkdsim.Assets.USys.DialogueSys.I.Load_Positive_Dialogue;
-using project_pkdsim.Assets.USys.DSys.I.DialogueSys.LoadImmuneDialogue;
+using project_pkdsim.Assets.USys.DialogueSys.I.Load_Immune_Dialogue;
 using project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.AITEMS.Base.Affection_Score;
 using TMPro;
 using UnityEngine;
@@ -26,52 +26,59 @@ namespace project_pkdsim.Assets.USys.DialogueSys.I
 			Load_DialogueBackground();
 		}
 
-		private bool Load_DialogueBackground() 
+		private bool Load_DialogueBackground()
 		{
 
-			if(DialogueBackground != null && DialogueText != null && NPC_LOVESys != null)
+			if (DialogueBackground != null && DialogueText != null && NPC_LOVESys != null && DialogueActivated != false)
 			{
-				// Non-null, Non-null, Non-null
+				// Non-null, Non-null, Non-null, (false)
+				DialogueActivated = true;
 				Load_Dialogue();
 				return true;
 			}
 
-			else if(DialogueBackground == null && DialogueText != null && NPC_LOVESys != null)
+			else if (DialogueBackground == null && DialogueText != null && NPC_LOVESys != null && DialogueActivated != true)
 			{
-				// null, Non-null, Non-null
+				// null, Non-null, Non-null, (false)
 				Debug.Log("DialogueText is Active but DialogueBackground is not.");
+				DialogueActivated = false;
 			}
 
-			else if(DialogueBackground != null && DialogueText == null && NPC_LOVESys != null)
+			else if (DialogueBackground != null && DialogueText == null && NPC_LOVESys != null && DialogueActivated != true)
 			{
-				// Non-null, null, Non-null
+				// Non-null, null, Non-null, (false)
 				Debug.Log("DialogueBackground is Active but DialogueText is not.");
+				DialogueActivated = false;
 			}
 
-			else if(DialogueBackground == null && DialogueText != null && NPC_LOVESys == null)
+			else if (DialogueBackground == null && DialogueText != null && NPC_LOVESys == null && DialogueActivated != true)
 			{
-				// null, Non-null, null
+				// null, Non-null, null, (false)
 				Debug.Log("DialogueText is Active and NPC_LOVESys is Active but DialogueBackground is not.");
+				DialogueActivated = false;
 			}
 
-			else if(DialogueBackground != null && DialogueText == null && NPC_LOVESys == null)
+			else if (DialogueBackground != null && DialogueText == null && NPC_LOVESys == null && DialogueActivated != true)
 			{
-				// Non-null, null, null
+				// Non-null, null, null, (false)
 				Debug.Log("DialogueBackground is Active but DialogueText is Null and NPC_LOVESys is Null.");
+				DialogueActivated = false;
 			}
 
-			else if(DialogueBackground == null && DialogueText == null && NPC_LOVESys != null)
+			else if (DialogueBackground == null && DialogueText == null && NPC_LOVESys != null && DialogueActivated != true)
 			{
-				// null, null, Non-null
+				// null, null, Non-null, (false)
 				Debug.Log("NPC_LOVESys is Active but DialogueBackground and DialogueText are Null.");
+				DialogueActivated = false;
 			}
 
-			else if(DialogueBackground == null && DialogueText == null && NPC_LOVESys == null)
+			else if (DialogueBackground == null && DialogueText == null && NPC_LOVESys == null && DialogueActivated != true)
 			{
-				// null, null, null
+				// null, null, null, (false)
 				Debug.Log("DialogueBackground and DialogueText and NPC_LOVESys are all Null.");
+				DialogueActivated = false;
 			}
-			return false;
+			return false && DialogueActivated;
 		}
 
 		private void Load_Dialogue()
@@ -80,7 +87,6 @@ namespace project_pkdsim.Assets.USys.DialogueSys.I
 			{
 				Load_DialogueValues();
 			}
-
 			else
 			{
 				Debug.Log("Disabled or not Actionable");
@@ -94,6 +100,7 @@ namespace project_pkdsim.Assets.USys.DialogueSys.I
 				Load_Neutral_Dialogue();
 				Load_Positive_Dialogue();
 				Load_Negative_Dialogue();
+				Load_Immune_Dialogue();
 			}
 		}
 		private void Load_Neutral_Dialogue()

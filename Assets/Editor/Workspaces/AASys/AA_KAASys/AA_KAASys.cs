@@ -6,28 +6,29 @@ using UnityEngine;
 
 namespace project_pkdsim.Assets.Editor.Workspaces.AASys.AddressableKeyAutoAssigner
 {
-	public static class AddressableKeyAutoAssigner
+	public class AA_KAASys
 	{
 		[MenuItem("Pkdsim/Jobs/Tools/Addressables/Auto Assign Addressable Keys")]
 		public static void AutoAssignKeys()
 		{
 			var settings = AddressableAssetSettingsDefaultObject.Settings;
 
-			string[] guids = AssetDatabase.FindAssets("", new[] { "Assets/UPokemon" });
+			string[] guids = AssetDatabase.FindAssets("", new[] { "Assets/t_posed_models" });
 
 			foreach (var guid in guids)
 			{
 				string path = AssetDatabase.GUIDToAssetPath(guid);
 				var entry = settings.CreateOrMoveEntry(guid, settings.DefaultGroup);
-				string key = path.Replace("Assets/", "").Replace(".prefab", "").Replace(".anim", "");
+				string key = path.Replace("Assets/", "").Replace(".prefab", "").Replace(".anim", "").Replace(".controller", "").Replace(".fbx", "");
 				entry.address = key; // Mimics full folder path structure
 			}
 
 			AssetDatabase.SaveAssets();
 			Debug.Log("Addressable keys set based on folder structure.");
 		}
-		public void AASys_AutoAssignKeysInitializer () {
-			
+		public void AASys_AutoAssignKeysInitializer() 
+		{
+			AutoAssignKeys();
 		}
 	}
 }

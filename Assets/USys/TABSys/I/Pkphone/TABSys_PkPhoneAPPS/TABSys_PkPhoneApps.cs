@@ -1,12 +1,13 @@
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_PkpediaLink;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SocialMediaLink;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_WayPointLink;
-using project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_PkpediaLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SettingsLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_SocialMediaLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_WayPointLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_MusicLink;
+using project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_AffectionLink;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS
 {
 	public class TABSys_PkPhoneApps : MonoBehaviour 
 	{
@@ -16,6 +17,7 @@ namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS
 		private TABSys_StoreLinker TABSys_PkPhoneUI_StoreAPP;
 		private TABSys_SocialMediaLinker TABSys_PkPhoneUI_SocialMediaAPP;
 		private TABSys_MusicLinker TABSys_PkPhoneUI_MusicAPP;
+		private TABSys_AffectionLinker TABSys_PkPhoneUI_AffectionAPP;
 
 		private void PkPhone_pkpediaAPP()
 		{
@@ -41,7 +43,11 @@ namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS
 		{
 			TABSys_PkPhoneUI_MusicAPP.TABSys_musicLink();
 		}
-		public void TabSys_PkPhoneApps() 
+		private void PkPhone_AffectionAPP() 
+		{
+			TABSys_PkPhoneUI_AffectionAPP.TABSys_affectionLink();
+		}
+		public void TabSys_PkPhoneApps()
 		{
 			PkPhone_pkpediaAPP();
 			PkPhone_SetAPP();
@@ -49,6 +55,7 @@ namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS
 			PkPhone_StoreAPP();
 			PkPhone_SocialMediaAPP();
 			PkPhone_MusicAPP();
+			PkPhone_AffectionAPP();
 		}
 		public TABSys_PkPhoneApps()
 		{
@@ -58,6 +65,7 @@ namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS
 			TABSys_PkPhoneUI_StoreAPP = new TABSys_StoreLinker();
 			TABSys_PkPhoneUI_SocialMediaAPP = new TABSys_SocialMediaLinker();
 			TABSys_PkPhoneUI_MusicAPP = new TABSys_MusicLinker();
+			TABSys_PkPhoneUI_AffectionAPP = new TABSys_AffectionLinker();
 		}
 	}
 }

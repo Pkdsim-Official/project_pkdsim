@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Assets.USys.TabSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE.GetSellMenu
+namespace project_pkdsim.Assets.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_StoreLink.I.Menu_I.STORE.GetSellMenu
 {
 	public class Get_Sell_Menu : MonoBehaviour 
 	{

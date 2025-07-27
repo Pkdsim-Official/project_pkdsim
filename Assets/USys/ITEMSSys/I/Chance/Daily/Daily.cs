@@ -1,6 +1,6 @@
-using project_pkdsim.Assets.USys.USystemsSys.Chance.Daily.I;
+using project_pkdsim.Assets.USys.UItemsSystemSys.Chance.Daily.I;
 
-namespace project_pkdsim.Assets.USys.USystemsSys.Chance.Daily
+namespace project_pkdsim.Assets.USys.UItemsSystemSys.Chance.Daily
 {
 	public class ItemsChanceDaily : ItemsChanceDailyI 
 	{

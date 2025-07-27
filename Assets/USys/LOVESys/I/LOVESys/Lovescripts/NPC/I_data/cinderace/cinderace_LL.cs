@@ -20,10 +20,10 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Cinderac
             LoveLevel = new List<bool>()
             {
                 Cinderace_LL1,
-                Cinderace_LL2, 
-                Cinderace_LL3, 
-                Cinderace_LL4, 
-                Cinderace_LL5, 
+                Cinderace_LL2,
+                Cinderace_LL3,
+                Cinderace_LL4,
+                Cinderace_LL5,
                 Cinderace_LL6,
                 Cinderace_LL7
             };
@@ -67,6 +67,15 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Cinderac
             {
                 Cinderace_LL7 = true;
             }
+        }
+        public int GetActiveLoveLevel()
+        {
+            int count = 0;
+            foreach (bool level in LoveLevel)
+            {
+                if (level) count++;
+            }
+            return count;
         }
     }
 }

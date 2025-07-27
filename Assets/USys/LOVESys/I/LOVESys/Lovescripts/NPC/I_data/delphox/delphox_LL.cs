@@ -20,10 +20,10 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Delphox
             LoveLevel = new List<bool>()
             {
                 Delphox_LL1,
-                Delphox_LL2, 
-                Delphox_LL3, 
-                Delphox_LL4, 
-                Delphox_LL5, 
+                Delphox_LL2,
+                Delphox_LL3,
+                Delphox_LL4,
+                Delphox_LL5,
                 Delphox_LL6,
                 Delphox_LL7
             };
@@ -67,6 +67,15 @@ namespace project_pkdsim.Assets.USys.LoveSys.I.LoveScripts.I.NPC.I_data.Delphox
             {
                 Delphox_LL7 = true;
             }
+        }
+        public int GetActiveLoveLevel()
+        {
+            int count = 0;
+            foreach (bool level in LoveLevel)
+            {
+                if (level) count++;
+            }
+            return count;
         }
     }
 }

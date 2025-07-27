@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace project_pkdsim.Assets.USys.TabSys.TABSys_UIL.I.PkPhone
+namespace project_pkdsim.Assets.USys.TabManagerSys.TABSys_UIL.I.PkPhone
 {
     // PkPhone UI Listener 
     public class TABSys_PkphoneUIL : MonoBehaviour
@@ -13,6 +13,7 @@ namespace project_pkdsim.Assets.USys.TabSys.TABSys_UIL.I.PkPhone
         public GameObject PkPhone_StorePanel;
         public GameObject PkPhone_SocialMediaPanel;
         public GameObject PkPhone_MusicPanel;
+        public GameObject PkPhone_AffectionPanel;
 
         public Button PkPhone_HomePage;
         public Button PkPhone_Pkpedia;
@@ -21,6 +22,7 @@ namespace project_pkdsim.Assets.USys.TabSys.TABSys_UIL.I.PkPhone
         public Button PkPhone_Store;
         public Button PkPhone_SocialMedia;
         public Button PkPhone_Music;
+        public Button PkPhone_Affection;
 
         private void Start()
         {
@@ -34,10 +36,10 @@ namespace project_pkdsim.Assets.USys.TabSys.TABSys_UIL.I.PkPhone
             PkPhone_HomePagePanel.SetActive(true);
         }
 
-        private void OpenMainMenuPanel()
+        private void OpenPkpediaPanel()
         {
             SetAllPanelsInactive();
-            PkPhone_HomePagePanel.SetActive(true);
+            PkPhone_PkpediaPanel.SetActive(true);
         }
 
         private void OpenSettingPanel()
@@ -67,6 +69,11 @@ namespace project_pkdsim.Assets.USys.TabSys.TABSys_UIL.I.PkPhone
             SetAllPanelsInactive();
             PkPhone_MusicPanel.SetActive(true);
         }
+        private void OpenAffectionPanel() 
+        {
+            SetAllPanelsInactive();
+            PkPhone_AffectionPanel.SetActive(true);
+        }
 
         private void SetAllPanelsInactive()
         {
@@ -77,17 +84,19 @@ namespace project_pkdsim.Assets.USys.TabSys.TABSys_UIL.I.PkPhone
             PkPhone_StorePanel.SetActive(false);
             PkPhone_SocialMediaPanel.SetActive(false);
             PkPhone_MusicPanel.SetActive(false);
+            PkPhone_AffectionPanel.SetActive(false);
         }
 
-        private void PkPhone_Panel_Listeners() 
+        private void PkPhone_Panel_Listeners()
         {
             PkPhone_HomePage.onClick.AddListener(OpenHomePagePanel);
-            PkPhone_Pkpedia.onClick.AddListener(OpenMainMenuPanel);
+            PkPhone_Pkpedia.onClick.AddListener(OpenPkpediaPanel);
             PkPhone_Settings.onClick.AddListener(OpenSettingPanel);
             PkPhone_Waypoint.onClick.AddListener(OpenWaypointPanel);
             PkPhone_Store.onClick.AddListener(OpenStorePanel);
             PkPhone_SocialMedia.onClick.AddListener(OpenSocialMediaPanel);
             PkPhone_Music.onClick.AddListener(OpenMusicPanel);
+            PkPhone_Affection.onClick.AddListener(OpenAffectionPanel);
         }
         public void PkPhone_Panels() 
         {
