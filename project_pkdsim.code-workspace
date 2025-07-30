@@ -1,11 +1,15 @@
 {
-  "folders": [
-    {
-      "path": "."
-    }
-  ],
-  "settings": {
-    "dotnet.defaultSolution": "project_pkdsim.sln",
-    "cSpell.words": ["Addressables"]
-  }
+	"folders": 
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings": 
+	{
+		"dotnet.defaultSolution": "project_pkdsim.sln",
+		"cSpell.words": [
+			"Lovescripts"
+		]
+	}
 }
