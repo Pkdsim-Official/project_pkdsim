@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.Editor.Workspaces;
+using project_pkdsim.Editor.Workspaces;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.Editor
+namespace project_pkdsim.Editor
 {
 	public class Project_PkdsimEditor : MonoBehaviour 
 	{

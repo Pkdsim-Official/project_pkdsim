@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations.SittingTo.SittingToStartWalking
+{
+	public class LO_LFS_SittingToStartWalking : MonoBehaviour 
+	{
+		public void LO_LFS_SittingToStartWalkingController() 
+		{
+	
+		}
+	}
+}

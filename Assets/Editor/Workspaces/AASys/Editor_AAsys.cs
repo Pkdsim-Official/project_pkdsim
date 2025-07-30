@@ -1,6 +1,6 @@
-using project_pkdsim.Assets.Editor.Workspaces.AASys.I;
+using project_pkdsim.Editor.Workspaces.AASys.I;
 
-namespace project_pkdsim.Assets.Editor.Workspaces
+namespace project_pkdsim.Editor.Workspaces
 {
 	public class Editor_AAsys : Editor_AASysI 
 	{

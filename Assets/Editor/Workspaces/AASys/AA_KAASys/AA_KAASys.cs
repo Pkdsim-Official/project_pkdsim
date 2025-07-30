@@ -4,7 +4,7 @@ using UnityEditor.AddressableAssets.Settings;
 using UnityEditor.AddressableAssets.Settings.GroupSchemas;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.Editor.Workspaces.AASys.AddressableKeyAutoAssigner
+namespace project_pkdsim.Editor.Workspaces.AASys.AddressableKeyAutoAssigner
 {
 	public class AA_KAASys
 	{

@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.USys.AUDIOSys.Modules.MUSICSys.Modules.Presets.Modules.Genre.Modules.Synthwave
+{
+	public class Synthwave : MonoBehaviour 
+	{
+		public void SynthwaveLoader() 
+		{
+			
+		}
+	}
+}

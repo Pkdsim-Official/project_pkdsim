@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.Models.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning
+{
+	public class FL_Turning : MonoBehaviour	
+	{
+		public void FL_TurningController()
+		{
+         // Start in the Idle animation state
+		}
+	}
+}

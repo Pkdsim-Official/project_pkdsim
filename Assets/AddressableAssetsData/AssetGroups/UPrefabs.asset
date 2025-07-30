@@ -14,12 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: UPrefabs
   m_GUID: 4f37a1fe4e3cc0e418950e44d3cb3448
-  m_SerializeEntries:
-  - m_GUID: f28eade3cefeb6f4ca530bd4b4b44871
-    m_Address: project pkdsimU/PREFABS
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 628516a5ae1178847915e013d6a9640a, type: 2}
   m_SchemaSet:

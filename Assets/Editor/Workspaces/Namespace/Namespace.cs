@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.Editor.Workspaces.Namespace.Exporter;
+using project_pkdsim.Editor.Workspaces.Namespace.Exporter;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.Editor.Workspaces.Namespace
+namespace project_pkdsim.Editor.Workspaces.Namespace
 {
 	public class Namespacer : MonoBehaviour 
 	{

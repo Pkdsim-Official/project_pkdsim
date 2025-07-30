@@ -1,9 +1,9 @@
-using project_pkdsim.Assets.Editor.Workspaces.AASys.CloudSaveInitializerSys;
-using project_pkdsim.Assets.Editor.Workspaces.AASys.ClearAddressablesCacheSys;
-using project_pkdsim.Assets.Editor.Workspaces.AASys.AddressableKeyAutoAssigner;
+using project_pkdsim.Editor.Workspaces.AASys.CloudSaveInitializerSys;
+using project_pkdsim.Editor.Workspaces.AASys.ClearAddressablesCacheSys;
+using project_pkdsim.Editor.Workspaces.AASys.AddressableKeyAutoAssigner;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.Editor.Workspaces.AASys.I
+namespace project_pkdsim.Editor.Workspaces.AASys.I
 {
 	public class Editor_AASysI : MonoBehaviour 
 	{

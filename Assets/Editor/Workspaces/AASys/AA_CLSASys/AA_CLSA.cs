@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEditor;
 
-namespace project_pkdsim.Assets.Editor.Workspaces.AASys.CloudSaveInitializerSys
+namespace project_pkdsim.Editor.Workspaces.AASys.CloudSaveInitializerSys
 {
     public class AA_CLSASys : MonoBehaviour
     {

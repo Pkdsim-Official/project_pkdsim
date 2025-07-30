@@ -1,7 +1,7 @@
-using project_pkdsim.Assets.Editor.Workspaces.Namespace;
+using project_pkdsim.Editor.Workspaces.Namespace;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.Editor.Workspaces
+namespace project_pkdsim.Editor.Workspaces
 {
 	public class EditorWorkspaces : MonoBehaviour 
 	{
