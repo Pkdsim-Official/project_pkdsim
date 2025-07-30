@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.converteranimations.SittingTo.SittingToStartWalking
+{
+	public class SParentMom_SittingToStartWalking : MonoBehaviour 
+	{
+		public void SParentMom_SittingToStartWalkingController() 
+		{
+	
+		}
+	}
+}

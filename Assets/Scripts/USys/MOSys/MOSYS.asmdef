@@ -1,0 +1,13 @@
+{
+  "name": "project_pkdsim.USys.MoneySys",
+  "rootNamespace": "project_pkdsim.USys.MoneySys",
+  "references": 
+  [
+    "project_pkdsim.USys.MoneySys.UnityItemSys",
+
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.Collections",
+    "Unity.Newtonsoft.Json"
+  ]
+}

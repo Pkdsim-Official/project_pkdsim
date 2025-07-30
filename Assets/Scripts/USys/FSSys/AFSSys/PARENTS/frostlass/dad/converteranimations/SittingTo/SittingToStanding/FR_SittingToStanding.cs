@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.converteranimations.SittingTo.SittingToStanding
+{
+	public class FR_SittingToStanding : MonoBehaviour 
+	{
+		public void FR_SittingToStandingController()
+		{
+			
+		}
+	}
+}

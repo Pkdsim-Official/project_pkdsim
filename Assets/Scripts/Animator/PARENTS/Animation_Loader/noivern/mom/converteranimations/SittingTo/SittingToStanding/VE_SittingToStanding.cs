@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.converteranimations.SittingTo.SittingToStanding
+{
+	public class NOIParentMom_SittingToStanding : MonoBehaviour 
+	{
+		public void NOIParentMom_SittingToStandingController()
+		{
+			
+		}
+	}
+}

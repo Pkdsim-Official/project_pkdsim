@@ -1,0 +1,25 @@
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.WalkingTo.WalkingToStanding;
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.WalkingTo
+{
+		public class LEParentMom_WalkingTo : MonoBehaviour 
+	{
+		private LEParentMom_WalkingToSitting LopunnyParentMomWalkingToSitting;
+		private LEParentMom_WalkingToStanding LopunnyParentMomWalkingToStanding;
+		public void LEParentMom_WalkingToController()
+		{
+			LEParentMom_WalkingToStartWalking();
+			LEParentMom_WalkingToStanding();
+		}
+		private void LEParentMom_WalkingToStartWalking()
+		{
+			LopunnyParentMomWalkingToSitting.LEParentMom_WalkingToSittingController();
+		}
+		private void LEParentMom_WalkingToStanding()
+		{
+			LopunnyParentMomWalkingToStanding.LEParentMom_WalkingToStandingController();
+		}
+	}
+}

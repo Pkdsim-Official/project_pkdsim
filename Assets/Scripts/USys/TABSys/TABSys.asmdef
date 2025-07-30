@@ -1,0 +1,9 @@
+{
+  "name": "project_pkdsim.USys.TabManagerSys",
+  "rootNamespace": "project_pkdsim.USys.TabManagerSys",
+  "references": 
+  [
+    "project_pkdsim.USys.TabManagerSys.Pkphone",
+    "project_pkdsim.USys.TabManagerSys.UI"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "project_pkdsim.USys.Dialogue",
+  "rootNamespace": "project_pkdsim.USys.Dialogue",
+  "references": 
+  [
+    "project_pkdsim.USys.LoveSys",
+
+    "Unity.TextMeshPro"
+  ]
+}
+
+

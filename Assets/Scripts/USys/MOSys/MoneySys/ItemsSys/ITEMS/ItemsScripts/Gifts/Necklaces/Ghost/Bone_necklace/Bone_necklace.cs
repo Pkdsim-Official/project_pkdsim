@@ -1,0 +1,25 @@
+using System.Collections.Generic;
+using UnityEngine;
+using project_pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.Base_Properties;
+
+namespace project_pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Ghost.Bone_necklace
+{
+    public class Bone_NecklaceItem : MonoBehaviour
+    {
+        public List<Sys_Properties> SYS_properties { get; set; }
+
+        public class Sys_Properties
+        {
+            public LoveEffectPropertiesBase SYS_properties { get; set; }
+        }
+
+        private class Bone_Necklace_Item
+        {
+            public List<Sys_Properties> SYS_properties { get; set; }
+        }
+        public void GetBuilder()
+        {
+            
+        }
+    }
+}

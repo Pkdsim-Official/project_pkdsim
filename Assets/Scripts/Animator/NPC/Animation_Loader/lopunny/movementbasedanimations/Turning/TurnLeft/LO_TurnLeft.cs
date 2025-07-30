@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.movementbasedanimations.Turning.TurnLeft
+{
+	public class LO_TurnLeft : MonoBehaviour 
+	{
+		public void LO_TurnLeftController()
+		{
+			
+		}
+	}
+}

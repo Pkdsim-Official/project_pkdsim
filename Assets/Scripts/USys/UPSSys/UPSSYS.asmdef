@@ -1,0 +1,11 @@
+{
+  "name": "project_pkdsim.USys.UnityPlayerSaveSys",
+  "rootNamespace": "project_pkdsim.USys.UnityPlayerSaveSys",
+  "references": 
+  [
+    "project_pkdsim.USys.LoveSys",
+    "project_pkdsim.USys.MoneySys",
+
+    "UnityEngine.UI"
+  ]
+}

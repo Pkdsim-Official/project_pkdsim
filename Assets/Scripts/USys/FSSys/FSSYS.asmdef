@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.FailSafeSys",
+  "rootNamespace": "project_pkdsim.USys.FailSafeSys",
+  "references": 
+  [
+     "UnityEngine.AnimationModule"
+  ]
+}
