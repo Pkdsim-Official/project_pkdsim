@@ -1,0 +1,9 @@
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Strafing.StrafeLeft
+{
+	public class LE_StrafeLeft : MonoBehaviour 
+	{
+
+	}
+}

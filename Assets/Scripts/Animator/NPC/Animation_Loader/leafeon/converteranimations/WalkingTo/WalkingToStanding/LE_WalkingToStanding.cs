@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo.WalkingToStanding
+{
+	public class LE_WalkingToStanding : MonoBehaviour 
+	{
+		public void LE_WalkingToStandingController()
+		{
+			
+		}
+	}
+}
