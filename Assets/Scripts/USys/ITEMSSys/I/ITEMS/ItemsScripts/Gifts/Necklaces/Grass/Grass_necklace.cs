@@ -1,7 +1,7 @@
 using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Grass.Leaf_necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.ITEMSSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Grass
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Grass
 {
 	public class Grass_Necklace : MonoBehaviour
 	{

@@ -1,7 +1,7 @@
 using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Normal.Cat_necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.ITEMSSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Normal
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Normal
 {
 	public class Normal_Necklaces : MonoBehaviour
 	{

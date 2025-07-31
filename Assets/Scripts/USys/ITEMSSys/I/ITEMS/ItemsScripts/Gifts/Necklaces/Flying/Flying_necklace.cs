@@ -1,7 +1,7 @@
 using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Flying.Wings_necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.ITEMSSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Flying
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Flying
 {
 	public class Flying_Necklace : MonoBehaviour
 	{

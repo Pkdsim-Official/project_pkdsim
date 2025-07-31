@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.Base_Properties;
 
-
 namespace project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Psychic.Hypno_necklace
 {
     public class Hypno_NecklaceItem : MonoBehaviour

@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.Base_Properties;
 
-namespace project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fighting.PunchingBag_necklace
+namespace project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fighting.Punching_Bag_necklace
 {
-    public class PunchingBag_NecklaceItem : MonoBehaviour
+    public class Punching_Bag_NecklaceItem : MonoBehaviour
     {
         public List<Sys_Properties> SYS_properties { get; set; }
 
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.N
             public LoveEffectPropertiesBase SYS_properties { get; set; }
         }
 
-        private class PunchingBag_Necklace_Item
+        private class Punching_Bag_Necklace_Item
         {
             public List<Sys_Properties> SYS_properties { get; set; }
         }

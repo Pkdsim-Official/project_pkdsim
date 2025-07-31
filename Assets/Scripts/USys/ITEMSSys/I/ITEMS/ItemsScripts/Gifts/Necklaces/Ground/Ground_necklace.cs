@@ -1,7 +1,7 @@
 using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Ground.Crust_necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.ITEMSSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Ground
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Ground
 {
 	public class Ground_Necklace : MonoBehaviour
 	{

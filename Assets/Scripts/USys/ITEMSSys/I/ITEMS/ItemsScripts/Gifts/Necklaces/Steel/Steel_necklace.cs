@@ -1,7 +1,7 @@
 using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Steel.Beam_necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.ITEMSSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Beam
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Beam
 {
 	public class Steel_Necklace : MonoBehaviour
 	{

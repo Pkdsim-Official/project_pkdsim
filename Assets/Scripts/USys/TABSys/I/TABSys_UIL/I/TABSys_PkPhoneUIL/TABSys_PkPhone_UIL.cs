@@ -1,106 +1,86 @@
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_AffectionLink;
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_HomeLink;
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_MusicLink;
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_PkpediaLink;
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_SettingsLink;
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_SocialMediaLink;
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_StoreLink;
+using project_pkdsim.USys.TabManagerSys.Modules.TABSys_UIL.Modules.TABSys_PkPhoneUIL.TABSys_PkPhoneAPPS.TABSys_WayPointLink;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace project_pkdsim.USys.TabManagerSys.TABSys_UIL.Modules.PkPhone
 {
     // PkPhone UI Listener 
     public class TABSys_PkphoneUIL : MonoBehaviour
     {
-        public GameObject PkPhone_HomePagePanel;
-        public GameObject PkPhone_PkpediaPanel;
-        public GameObject PkPhone_SettingsPanel;
-        public GameObject PkPhone_WaypointPanel;
-        public GameObject PkPhone_StorePanel;
-        public GameObject PkPhone_SocialMediaPanel;
-        public GameObject PkPhone_MusicPanel;
-        public GameObject PkPhone_AffectionPanel;
+        private TABSys_WaypointPanelLinker TABSys_WaypointPanelLinker;
+        private TABSys_MusicPanelLinker TABSys_MusicPanelLinker;
+        private TABSys_PkpediaPanelLinker TABSys_PkpediaPanelLinker;
+        private TABSys_SettingsPanelLinker TABSys_SettingsPanelLinker;
+        private TABSys_StorePanelLinker TABSys_StorePanelLinker;
+        private TABSys_SocialMediaPanelLinker TABSys_SocialMediaPanelLinker;
+        private TABSys_AffectionPanelLinker TABSys_AffectionPanelLinker;
+        private TABSys_HomePagePanelLinker TABSys_HomePagePanelLinker;
 
-        public Button PkPhone_HomePage;
-        public Button PkPhone_Pkpedia;
-        public Button PkPhone_Settings;
-        public Button PkPhone_Waypoint;
-        public Button PkPhone_Store;
-        public Button PkPhone_SocialMedia;
-        public Button PkPhone_Music;
-        public Button PkPhone_Affection;
-
-        private void Start()
+        public void TABSys_AffectionPanelLink()
         {
-            PkPhone_Panel_Listeners();
-            OpenHomePagePanel(); // Ensures homepage is active on start
+            TABSys_AffectionPanelLinker.TABSys_AffectionMenuI();
         }
-
-        private void OpenHomePagePanel()
+        public void TABSys_HomePagePanelLink()
         {
-            SetAllPanelsInactive();
-            PkPhone_HomePagePanel.SetActive(true);
+            TABSys_HomePagePanelLinker.TABSys_HomePageMenuI();
         }
-
-        private void OpenPkpediaPanel()
+        public void TABSys_SettingsPanelLink()
         {
-            SetAllPanelsInactive();
-            PkPhone_PkpediaPanel.SetActive(true);
+            TABSys_SettingsPanelLinker.TABSys_SettingsMenuI();
         }
-
-        private void OpenSettingPanel()
+        public void TABSys_StorePanelLink()
         {
-            SetAllPanelsInactive();
-            PkPhone_SettingsPanel.SetActive(true);
+            TABSys_StorePanelLinker.TABSys_StoreMenuI();
         }
-
-        private void OpenWaypointPanel() 
+        public void TABSys_SocialMediaPanelLink()
         {
-            SetAllPanelsInactive();
-            PkPhone_WaypointPanel.SetActive(true);
+            TABSys_SocialMediaPanelLinker.TABSys_SocialMediaMenuI();
         }
-
-        private void OpenStorePanel() 
+        public void TABSys_MusicPanelLink()
         {
-            SetAllPanelsInactive();
-            PkPhone_StorePanel.SetActive(true);
+            TABSys_MusicPanelLinker.TABSys_MusicMenuI();
         }
-        private void OpenSocialMediaPanel() 
+        public void TABSys_PkpediaPanelLink()
         {
-            SetAllPanelsInactive();
-            PkPhone_SocialMediaPanel.SetActive(true);
+            TABSys_PkpediaPanelLinker.TABSys_PkpediaMenuI();
         }
-        private void OpenMusicPanel() 
+        public void TABSys_WaypointPanelLink()
         {
-            SetAllPanelsInactive();
-            PkPhone_MusicPanel.SetActive(true);
+            TABSys_WaypointPanelLinker.TABSys_WaypointMenuI();
         }
-        private void OpenAffectionPanel() 
+        public void PkPhone_Panels()
         {
-            SetAllPanelsInactive();
-            PkPhone_AffectionPanel.SetActive(true);
+            TABSys_WaypointPanelLinker.TABSys_WaypointMenuI();
+            TABSys_MusicPanelLinker.TABSys_MusicMenuI();
+            TABSys_PkpediaPanelLinker.TABSys_PkpediaMenuI();
+            TABSys_SettingsPanelLinker.TABSys_SettingsMenuI();
+            TABSys_StorePanelLinker.TABSys_StoreMenuI();
+            TABSys_SocialMediaPanelLinker.TABSys_SocialMediaMenuI();
+            TABSys_AffectionPanelLinker.TABSys_AffectionMenuI();
+            TABSys_HomePagePanelLinker.TABSys_HomePageMenuI();
         }
-
-        private void SetAllPanelsInactive()
+        public void PkPhone_Panels_Listener()
         {
-            PkPhone_HomePagePanel.SetActive(false);
-            PkPhone_PkpediaPanel.SetActive(false);
-            PkPhone_SettingsPanel.SetActive(false);
-            PkPhone_WaypointPanel.SetActive(false);
-            PkPhone_StorePanel.SetActive(false);
-            PkPhone_SocialMediaPanel.SetActive(false);
-            PkPhone_MusicPanel.SetActive(false);
-            PkPhone_AffectionPanel.SetActive(false);
+            TABSys_WaypointPanelLinker = new TABSys_WaypointPanelLinker();
+            TABSys_MusicPanelLinker = new TABSys_MusicPanelLinker();
+            TABSys_PkpediaPanelLinker = new TABSys_PkpediaPanelLinker();
+            TABSys_SettingsPanelLinker = new TABSys_SettingsPanelLinker();
+            TABSys_StorePanelLinker = new TABSys_StorePanelLinker();
+            TABSys_SocialMediaPanelLinker = new TABSys_SocialMediaPanelLinker();
+            TABSys_AffectionPanelLinker = new TABSys_AffectionPanelLinker();
+            TABSys_HomePagePanelLinker = new TABSys_HomePagePanelLinker();
+        }
+        public void TABSys_PkPhoneAppsI()
+        {
+            PkPhone_Panels_Listener();
+            PkPhone_Panels();
         }
 
-        private void PkPhone_Panel_Listeners()
-        {
-            PkPhone_HomePage.onClick.AddListener(OpenHomePagePanel);
-            PkPhone_Pkpedia.onClick.AddListener(OpenPkpediaPanel);
-            PkPhone_Settings.onClick.AddListener(OpenSettingPanel);
-            PkPhone_Waypoint.onClick.AddListener(OpenWaypointPanel);
-            PkPhone_Store.onClick.AddListener(OpenStorePanel);
-            PkPhone_SocialMedia.onClick.AddListener(OpenSocialMediaPanel);
-            PkPhone_Music.onClick.AddListener(OpenMusicPanel);
-            PkPhone_Affection.onClick.AddListener(OpenAffectionPanel);
-        }
-        public void PkPhone_Panels() 
-        {
-            PkPhone_Panel_Listeners();
-        }
     }
 }

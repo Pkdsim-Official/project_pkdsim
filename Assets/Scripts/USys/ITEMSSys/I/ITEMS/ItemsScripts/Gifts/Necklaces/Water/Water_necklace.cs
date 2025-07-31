@@ -1,11 +1,11 @@
-using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Water.WaterDroplet_necklace;
+using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Water.Water_Droplet_necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.ITEMSSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Water
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Water
 {
 	public class Water_necklace : MonoBehaviour
 	{
-		private WaterDroplet_NecklaceItem WaterDroplet_NecklaceItem;
+		private Water_Droplet_NecklaceItem WaterDroplet_NecklaceItem;
 
 		public void Get_WaterDropletNecklace()
 		{

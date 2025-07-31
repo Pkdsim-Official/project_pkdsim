@@ -1,4 +1,4 @@
-using project_pkdsim.Assets.Scripts.USys.ITEMSSys.I.ITEMS.ItemsScripts.PkPhone.inventory;
+using project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.PkPhone.inventory;
 using UnityEngine;
 
 namespace project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.PkPhone

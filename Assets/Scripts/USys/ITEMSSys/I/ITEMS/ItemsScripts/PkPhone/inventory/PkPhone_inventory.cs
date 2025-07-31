@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace project_pkdsim.Assets.Scripts.USys.ITEMSSys.I.ITEMS.ItemsScripts.PkPhone.inventory
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.PkPhone.inventory
 {
 	public class PkPhone_inventory : MonoBehaviour
 	{

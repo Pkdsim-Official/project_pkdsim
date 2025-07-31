@@ -1,15 +1,15 @@
-using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fighting.PunchingBag_necklace;
+using project_pkdsim.USys.UItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fighting.Punching_Bag_necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.ITEMSSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fighting
+namespace project_pkdsim.USysUItemsSystemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fighting
 {
 	public class Fighting_Necklace : MonoBehaviour
 	{
-		private PunchingBag_NecklaceItem PunchingBag_NecklaceItem;
+		private Punching_Bag_NecklaceItem Punching_Bag_NecklaceItem;
 
 		public void Get_PunchingBagNecklace()
 		{
-			PunchingBag_NecklaceItem.GetBuilder();
+			Punching_Bag_NecklaceItem.GetBuilder();
 		}
 	}
 }
