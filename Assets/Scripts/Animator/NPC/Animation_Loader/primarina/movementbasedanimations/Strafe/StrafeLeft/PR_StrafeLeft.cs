@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafe.StrafeLeft
 {
-	public class PR_LFS_StrafeLeft : MonoBehaviour 
+	public class PR_StrafeLeft : MonoBehaviour 
 	{
-		public void PR_LFS_StrafeLeftController() 
+		public void PR_StrafeLeftController() 
 		{
 			
 		}

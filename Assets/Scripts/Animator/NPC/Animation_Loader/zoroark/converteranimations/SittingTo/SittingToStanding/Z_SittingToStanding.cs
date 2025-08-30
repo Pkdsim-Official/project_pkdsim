@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStanding
 {
-	public class Z_LFS_SittingToStanding : MonoBehaviour 
+	public class ZSittingToStanding : MonoBehaviour 
 	{
-		public void Z_LFS_SittingToStandingController()
+		public void ZSittingToStandingController()
 		{
 			
 		}

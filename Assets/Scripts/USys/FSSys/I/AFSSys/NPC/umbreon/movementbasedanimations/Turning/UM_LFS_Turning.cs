@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.mov
 	public class UM_LFS_Turning : MonoBehaviour	
 	{
 		UM_LFS_TurnLeft UM_LFS_turnleft;
-		UM_LFS_TurnRIght UM_LFS_turnright;
+		UM_LFS_TurnRight UM_LFS_turnright;
 
 		public void UM_LFS_TurningController()
 		{

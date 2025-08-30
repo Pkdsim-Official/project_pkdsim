@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo.IdleToWalk
 {
-	public class Z_LFS_IdleToWalk : MonoBehaviour 
+	public class ZIdleToWalk : MonoBehaviour 
 	{
-		public void Z_LFS_IdleToWalkController() 
+		public void ZIdleToWalkController() 
 		{
 	
 		}

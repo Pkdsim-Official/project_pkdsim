@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Gardevoir.m
 	public class GARD_LFS_Turning : MonoBehaviour	
 	{
 		private GARD_LFS_TurnLeft GARD_LFS_turnleft;
-		private GARD_LFS_TurnRIght GARD_LFS_turnright;
+		private GARD_LFS_TurnRight GARD_LFS_turnright;
 
 		public void GARD_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Gardevoir.m
 			}
 			if (GARD_LFS_turnright == null)
 			{
-				GARD_LFS_turnright = GetComponent<GARD_LFS_TurnRIght>();
+				GARD_LFS_turnright = GetComponent<GARD_LFS_TurnRight>();
 				Load_GARD_turnRight();
 			}
 			

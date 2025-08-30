@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations.Strafe
 {
-	public class NOI_LFS_Strafing : MonoBehaviour 
+	public class NOI_Strafing : MonoBehaviour 
 	{
-		private NOI_LFS_StrafeLeft NOI_strafeleft;
+		private NOI_StrafeLeft NOI_strafeleft;
 		
-		private NOI_LFS_StrafeRight NOI_straferight;
+		private NOI_StrafeRight NOI_straferight;
 
-		public void NOI_LFS_StrafingController()
+		public void NOI_StrafingController()
 		{
 			if (NOI_strafeleft == null)
 			{
-				NOI_strafeleft = GetComponent<NOI_LFS_StrafeLeft>();
-				Load_NOI_LFS_StrafeLeft();
+				Load_NOI_StrafeLeft();
 			}
 			if (NOI_straferight == null)
 			{
-				NOI_straferight = GetComponent<NOI_LFS_StrafeRight>();
-				Load_NOI_LFS_StrafeRight();
+				Load_NOI_StrafeRight();
 			}
 			
 
 		}
-		private void Load_NOI_LFS_StrafeRight()
+		private void Load_NOI_StrafeRight()
 		{
-			NOI_straferight.NOI_LFS_StrafeRightController();
+			NOI_straferight.NOI_StrafeRightController();
 		}
 		
-		private void Load_NOI_LFS_StrafeLeft()
+		private void Load_NOI_StrafeLeft()
 		{
-			NOI_strafeleft.NOI_LFS_StrafeLeftController();
+			NOI_strafeleft.NOI_StrafeLeftController();
 		}
 	}
 }

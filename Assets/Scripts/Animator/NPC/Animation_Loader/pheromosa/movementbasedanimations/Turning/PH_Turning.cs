@@ -4,19 +4,19 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning
 {
-	public class PH_LFS_Turning : MonoBehaviour	
+	public class PH_Turning : MonoBehaviour	
 	{
-		PH_LFS_TurnLeft PH_LFS_turnleft;
-		PH_LFS_TurnRIght PH_LFS_turnright;
+		private PH_TurnLeft PH_turnleft;
+		private PH_TurnRight PH_turnright;
 
-		public void PH_LFS_TurningController()
+		public void PH_TurningController()
 		{
-			if (PH_LFS_turnleft != null)
+			if (PH_turnleft != null)
 			{
 				Load_PH_turnLeft();
 			}
 			
-			if (PH_LFS_turnright != null)
+			if (PH_turnright != null)
 			{
 				Load_PH_turnRight();
 			}
@@ -25,12 +25,12 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.T
 		}
 		private void Load_PH_turnRight()
 		{
-			PH_LFS_turnright.PH_LFS_TurnRightController();
+			PH_turnright.PH_TurnRightController();
 		}
 		
 		private void Load_PH_turnLeft()
 		{
-			PH_LFS_turnleft.PH_LFS_TurnLeftController();
+			PH_turnleft.PH_TurnLeftController();
 		}
 	}
 }

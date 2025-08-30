@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleStanding
 {
-	public class BL_LFS_IdleStanding : MonoBehaviour 
+	public class BLIdleStanding : MonoBehaviour 
 	{
 		public Animator Blaziken_Animator;
-		public void BL_LFS_IdleStandingController()
+		public void BLIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Blaziken_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

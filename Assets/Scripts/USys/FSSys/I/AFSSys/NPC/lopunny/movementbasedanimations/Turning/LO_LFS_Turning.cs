@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.mov
 	public class LO_LFS_Turning : MonoBehaviour	
 	{
 		private LO_LFS_TurnLeft LO_LFS_turnleft;
-		private LO_LFS_TurnRIght LO_LFS_turnright;
+		private LO_LFS_TurnRight LO_LFS_turnright;
 
 		public void LO_LFS_TurningController()
 		{

@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.idlebaseanimation
 {
-	public class Beedrill_LFS_IdleAnimatorController : MonoBehaviour 
+	public class BeedrillIdleAnimatorController : MonoBehaviour 
 	{
-		private BE_LFS_IdleStanding Beedrill_LFS_idlestanding;
+		private BEIdleStanding Beedrillidlestanding;
 		
-		private BE_LFS_IdleSitting Beedrill_LFS_idlesitting;
+		private BEIdleSitting Beedrillidlesitting;
 		
-		public void	BE_LFS_IdleAnimatorController()
+		public void	BEIdleAnimatorController()
 		{
-			BE_LFS_IdleStandingAnimatorController();
-			BE_LFS_IdleSittingAnimatorController();
+			BEIdleStandingAnimatorController();
+			BEIdleSittingAnimatorController();
 		}
-		private void BE_LFS_IdleStandingAnimatorController()
+		private void BEIdleStandingAnimatorController()
 		{
-			Beedrill_LFS_idlestanding.BE_LFS_IdleStandingController();
+			Beedrillidlestanding.BEIdleStandingController();
 		}
-		private void BE_LFS_IdleSittingAnimatorController()
+		private void BEIdleSittingAnimatorController()
 		{
-			Beedrill_LFS_idlesitting.BE_LFS_IdleSittingController();
+			Beedrillidlesitting.BEIdleSittingController();
 		}
 	}
 }

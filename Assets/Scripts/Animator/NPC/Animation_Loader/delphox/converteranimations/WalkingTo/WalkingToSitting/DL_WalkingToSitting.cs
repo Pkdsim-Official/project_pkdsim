@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class DL_LFS_WalkingToSitting : MonoBehaviour 
+	public class DLWalkingToSitting : MonoBehaviour 
 	{
-		public void DL_LFS_WalkingToSittingController() 
+		public void DLWalkingToSittingController() 
 		{
 			
 		}

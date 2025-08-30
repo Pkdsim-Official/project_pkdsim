@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations.Strafe.StrafeRight
 {
-	public class HAT_LFS_StrafeRight : MonoBehaviour
+	public class HAT_StrafeRight : MonoBehaviour
 	{
-		public void HAT_LFS_StrafeRightController() 
+		public void HAT_StrafeRightController() 
 		{
 			
 		}

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class PH_LFS_WalkingToSitting : MonoBehaviour 
+	public class PHWalkingToSitting : MonoBehaviour 
 	{
-		public void PH_LFS_WalkingToSittingController()
+		public void PHWalkingToSittingController()
 		{
 			
 		}

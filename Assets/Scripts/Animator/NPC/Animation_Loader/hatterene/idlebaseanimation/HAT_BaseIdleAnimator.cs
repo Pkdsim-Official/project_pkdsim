@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.idlebaseanimation
 {
-	public class Hatterene_LFS_IdleAnimatorController : MonoBehaviour 
+	public class HattereneIdleAnimatorController : MonoBehaviour 
 	{
-		private HAT_LFS_IdleStanding HAT_LFS_idlestanding;
+		private HATIdleStanding HATidlestanding;
 		
-		private HAT_LFS_IdleSitting HAT_LFS_idlesitting;
+		private HATIdleSitting HATidlesitting;
 		
-		public void	HAT_LFS_IdleAnimatorController()
+		public void	HATIdleAnimatorController()
 		{
-			HAT_LFS_IdleStandingAnimatorController();
-			HAT_LFS_IdleSittingAnimatorController();
+			HATIdleStandingAnimatorController();
+			HATIdleSittingAnimatorController();
 		}
-		private void HAT_LFS_IdleStandingAnimatorController()
+		private void HATIdleStandingAnimatorController()
 		{
-			HAT_LFS_idlestanding.HAT_LFS_IdleStandingController();
+			HATidlestanding.HATIdleStandingController();
 		}
-		private void HAT_LFS_IdleSittingAnimatorController()
+		private void HATIdleSittingAnimatorController()
 		{
-			HAT_LFS_idlesitting.HAT_LFS_IdleSittingController();
+			HATidlesitting.HATIdleSittingController();
 		}
 	}
 }

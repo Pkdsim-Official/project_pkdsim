@@ -4,33 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafe
 {
-	public class GARD_LFS_Strafing : MonoBehaviour 
+	public class GARD_Strafing : MonoBehaviour 
 	{
-		private GARD_LFS_StrafeLeft GARD_strafeleft;
+		private GARD_StrafeLeft GARD_strafeleft;
 		
-		private GARD_LFS_StrafeRight GARD_straferight;
+		private GARD_StrafeRight GARD_straferight;
 
-		public void GARD_LFS_StrafingController()
+		public void GARD_StrafingController()
 		{
 			if (GARD_strafeleft == null)
 			{
-				Load_GARD_LFS_StrafeLeft();
+				Load_GARD_StrafeLeft();
 			}
 			if (GARD_straferight == null)
 			{
-				Load_GARD_LFS_StrafeRight();
+				Load_GARD_StrafeRight();
 			}
 			
 
 		}
-		private void Load_GARD_LFS_StrafeRight()
+		private void Load_GARD_StrafeRight()
 		{
-			GARD_straferight.GARD_LFS_StrafeRightController();
+			GARD_straferight.GARD_StrafeRightController();
 		}
 		
-		private void Load_GARD_LFS_StrafeLeft()
+		private void Load_GARD_StrafeLeft()
 		{
-			GARD_strafeleft.GARD_LFS_StrafeLeftController();
+			GARD_strafeleft.GARD_StrafeLeftController();
 		}
 	}
 }

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStanding
 {
-	public class C_LFS_SittingToStanding : MonoBehaviour 
+	public class CSittingToStanding : MonoBehaviour 
 	{
-		public void C_LFS_SittingToStandingController()
+		public void CSittingToStandingController()
 		{
 			
 		}

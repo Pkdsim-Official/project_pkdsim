@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.mov
 	public class JT_LFS_Turning : MonoBehaviour	
 	{
 		JT_LFS_TurnLeft JT_LFS_turnleft;
-		JT_LFS_TurnRIght JT_LFS_turnright;
+		JT_LFS_TurnRight JT_LFS_turnright;
 
 		public void JT_LFS_TurningController()
 		{

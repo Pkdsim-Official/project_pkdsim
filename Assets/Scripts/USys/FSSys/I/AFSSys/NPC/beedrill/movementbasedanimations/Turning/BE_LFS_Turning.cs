@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Beedrill.mo
 	public class BE_LFS_Turning : MonoBehaviour	
 	{
 		private BE_LFS_TurnLeft BE_LFS_turnleft;
-		private BE_LFS_TurnRIght BE_LFS_turnright;
+		private BE_LFS_TurnRight BE_LFS_turnright;
 
 		public void BE_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Beedrill.mo
 			}
 			if (BE_LFS_turnright == null)
 			{
-				BE_LFS_turnright = GetComponent<BE_LFS_TurnRIght>();
+				BE_LFS_turnright = GetComponent<BE_LFS_TurnRight>();
 				Load_BE_turnRight();
 			}
 			

@@ -10,9 +10,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.Animator_I
 		public Animator Beedrill_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Beedrill_LFS_CoverterAnimatorController LFSBeedrill_AnimatorCCA;
+		private BeedrillCoverterAnimatorController LFSBeedrill_AnimatorCCA;
 		private Beedrill_AnimatorBaseMovementController LFSBeedrill_AnimatorCMA;
-		private Beedrill_LFS_IdleAnimatorController LFSBeedrill_AnimatorICA;
+		private BeedrillIdleAnimatorController LFSBeedrill_AnimatorICA;
 
 
 		public void LoadFailSafeBeedrill_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.Animator_I
 		}
 		private void LoadFailSafeBeedrill_ConvertToAnimatorController()
 		{
-			LFSBeedrill_AnimatorCCA.BE_LFS_CoverterToAnimatorController();
+			LFSBeedrill_AnimatorCCA.BECoverterToAnimatorController();
 		}
 		private void LoadFailSafeBeedrill_MovementAnimatorController()
 		{
-			LFSBeedrill_AnimatorCMA.BE_LFS_MovementAnimatorController();
+			LFSBeedrill_AnimatorCMA.BEMovementAnimatorController();
 		}
 		private void LoadFailSafeBeedrill_IdleAnimatorController()
 		{
-			LFSBeedrill_AnimatorICA.BE_LFS_IdleAnimatorController();
+			LFSBeedrill_AnimatorICA.BEIdleAnimatorController();
 		}
 	}
 }

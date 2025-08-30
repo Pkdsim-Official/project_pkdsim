@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.idlebaseanimation.IdleStanding
 {
-	public class PR_LFS_IdleStanding : MonoBehaviour 
+	public class PRIdleStanding : MonoBehaviour 
 	{
 		public Animator Primarina_Animator;
-		public void PR_LFS_IdleStandingController()
+		public void PRIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Primarina_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

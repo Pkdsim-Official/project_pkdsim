@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lunala.move
 	public class LUNA_LFS_Turning : MonoBehaviour	
 	{
 		private LUNA_LFS_TurnLeft LUNA_LFS_turnleft;
-		private LUNA_LFS_TurnRIght LUNA_LFS_turnright;
+		private LUNA_LFS_TurnRight LUNA_LFS_turnright;
 
 		public void LUNA_LFS_TurningController()
 		{

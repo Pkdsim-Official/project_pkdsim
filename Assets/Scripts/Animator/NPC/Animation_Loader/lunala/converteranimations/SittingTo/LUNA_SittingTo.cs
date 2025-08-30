@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.converteranimations.SittingTo
 {
-	public class LUNA_LFS_SittingTo : MonoBehaviour 
+	public class LUNASittingTo : MonoBehaviour 
 	{
-		private LUNA_LFS_SittingToStartWalking Lunala_LFS_sittingToStartWalking;
-		private LUNA_LFS_SittingToStanding Lunala_LFS_sittingToStanding;
-		public void LUNA_LFS_SittingToController()
+		private LUNASittingToStartWalking LunalasittingToStartWalking;
+		private LUNASittingToStanding LunalasittingToStanding;
+		public void LUNASittingToController()
 		{
-			LUNA_LFS_SittingToStartWalking();
-			LUNA_LFS_SittingToStanding();
+			LUNASittingToStartWalking();
+			LUNASittingToStanding();
 		}
-		private void LUNA_LFS_SittingToStartWalking()
+		private void LUNASittingToStartWalking()
 		{
-			Lunala_LFS_sittingToStartWalking.LUNA_LFS_SittingToStartWalkingController();
+			LunalasittingToStartWalking.LUNASittingToStartWalkingController();
 		}
-		private void LUNA_LFS_SittingToStanding()
+		private void LUNASittingToStanding()
 		{
-			Lunala_LFS_sittingToStanding.LUNA_LFS_SittingToStandingController();
+			LunalasittingToStanding.LUNASittingToStandingController();
 		}
 
 	}

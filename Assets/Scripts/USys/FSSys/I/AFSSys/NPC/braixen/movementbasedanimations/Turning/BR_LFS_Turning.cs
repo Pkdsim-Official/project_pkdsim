@@ -6,19 +6,17 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Braixen.mov
 {
 	public class BR_LFS_Turning : MonoBehaviour	
 	{
-		BR_LFS_TurnLeft BR_LFS_turnleft;
-		BR_LFS_TurnRIght BR_LFS_turnright;
+		private BR_LFS_TurnLeft BR_LFS_turnleft;
+		private BR_LFS_TurnRight BR_LFS_turnright;
 
 		public void BR_LFS_TurningController()
 		{
 			if (BR_LFS_turnleft == null)
 			{
-				BR_LFS_turnleft = GetComponent<BR_LFS_TurnLeft>();
 				Load_BR_turnLeft();
 			}
 			if (BR_LFS_turnright == null)
 			{
-				BR_LFS_turnright = GetComponent<BR_LFS_TurnRIght>();
 				Load_BR_turnRight();
 			}
 			

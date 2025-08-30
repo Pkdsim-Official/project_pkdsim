@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo.IdleToWalk
 {
-	public class LO_LFS_IdleToWalk : MonoBehaviour 
+	public class LOIdleToWalk : MonoBehaviour 
 	{
-		public void LO_LFS_IdleToWalkController() 
+		public void LOIdleToWalkController() 
 		{
 			
 		}

@@ -4,6 +4,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.movementbasedanimations.Tur
 {
 	public class LE_TurnLeft : MonoBehaviour 
 	{
-
+		public void LE_TurnLeftController()
+		{
+			
+		}
 	}
 }

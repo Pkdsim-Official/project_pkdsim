@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.converteranimations
 {
-	public class Delphox_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class DelphoxCoverterAnimatorController : MonoBehaviour 
 	{
-		private DL_LFS_SittingTo Delphox_LFS_sittingto;
+		private DLSittingTo Delphoxsittingto;
 		
-		private DL_LFS_WalkingTo Delphox_LFS_walkingto;
+		private DLWalkingTo Delphoxwalkingto;
 		
-		private DL_LFS_IdleTo Delphox_LFS_idleto;
+		private DLIdleTo Delphoxidleto;
 
-		public void DL_LFS_CoverterToAnimatorController()
+		public void DLCoverterToAnimatorController()
 		{
-			Delphox_LFS_walkingto.DL_LFS_WalkingToController();
+			Delphoxwalkingto.DLWalkingToController();
 
-			Delphox_LFS_idleto.DL_LFS_IdleToController();
+			Delphoxidleto.DLIdleToController();
 			
-			Delphox_LFS_sittingto.DL_LFS_SittingToController();	
+			Delphoxsittingto.DLSittingToController();	
 		}
 	}
 }

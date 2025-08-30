@@ -4,34 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Turning
 {
-	public class GARD_LFS_Turning : MonoBehaviour	
+	public class GARD_Turning : MonoBehaviour	
 	{
-		private GARD_LFS_TurnLeft GARD_LFS_turnleft;
-		private GARD_LFS_TurnRIght GARD_LFS_turnright;
+		private GARD_TurnLeft GARD_turnleft;
+		private GARD_TurnRight GARD_turnright;
 
-		public void GARD_LFS_TurningController()
+		public void GARD_TurningController()
 		{
-			if (GARD_LFS_turnleft == null)
+			if (GARD_turnleft == null)
 			{
-				GARD_LFS_turnleft = GetComponent<GARD_LFS_TurnLeft>();
 				Load_GARD_turnLeft();
 			}
-			if (GARD_LFS_turnright == null)
+			if (GARD_turnright == null)
 			{
-				GARD_LFS_turnright = GetComponent<GARD_LFS_TurnRIght>();
 				Load_GARD_turnRight();
 			}
-			
-
 		}
+
 		private void Load_GARD_turnRight()
 		{
-			GARD_LFS_turnright.GARD_LFS_TurnRightController();
+			GARD_turnright.GARD_TurnRightController();
 		}
 		
 		private void Load_GARD_turnLeft()
 		{
-			GARD_LFS_turnleft.GARD_LFS_TurnLeftController();
+			GARD_turnleft.GARD_TurnLeftController();
 		}
 	}
 }

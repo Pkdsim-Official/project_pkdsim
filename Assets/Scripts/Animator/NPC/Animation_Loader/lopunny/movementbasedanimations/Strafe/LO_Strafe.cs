@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafe
 {
-	public class LO_LFS_Strafing : MonoBehaviour 
+	public class LO_Strafing : MonoBehaviour 
 	{
-		private LO_LFS_StrafeLeft LO_strafeleft;
+		private LO_StrafeLeft LO_strafeleft;
 		
-		private LO_LFS_StrafeRight LO_straferight;
+		private LO_StrafeRight LO_straferight;
 
-		public void LO_LFS_StrafingController()
+		public void LO_StrafingController()
 		{
 			if (LO_strafeleft == null)
 			{
-				LO_strafeleft = GetComponent<LO_LFS_StrafeLeft>();
-				Load_LO_LFS_StrafeLeft();
+				Load_LO_StrafeLeft();
 			}
 			if (LO_straferight == null)
 			{
-				LO_straferight = GetComponent<LO_LFS_StrafeRight>();
-				Load_LO_LFS_StrafeRight();
+				Load_LO_StrafeRight();
 			}
 			
 
 		}
-		private void Load_LO_LFS_StrafeRight()
+		private void Load_LO_StrafeRight()
 		{
-			LO_straferight.LO_LFS_StrafeRightController();
+			LO_straferight.LO_StrafeRightController();
 		}
 		
-		private void Load_LO_LFS_StrafeLeft()
+		private void Load_LO_StrafeLeft()
 		{
-			LO_strafeleft.LO_LFS_StrafeLeftController();
+			LO_strafeleft.LO_StrafeLeftController();
 		}
 	}
 }

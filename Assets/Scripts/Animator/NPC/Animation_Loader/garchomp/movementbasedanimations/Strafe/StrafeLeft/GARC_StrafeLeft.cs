@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.movementbasedanimations.Strafe.StrafeLeft
 {
-	public class GARC_LFS_StrafeLeft : MonoBehaviour 
+	public class GARC_StrafeLeft : MonoBehaviour 
 	{
-		public void GARC_LFS_StrafeLeftController() 
+		public void GARC_StrafeLeftController() 
 		{
 			
 		}

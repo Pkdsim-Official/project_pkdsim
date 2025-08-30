@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo
 {
-	public class GARD_LFS_IdleTo : MonoBehaviour 
+	public class GARDIdleTo : MonoBehaviour 
 	{
-		private GARD_LFS_IdleToWalk Gardevoir_LFS_IdleToWalk;
-		private GARD_LFS_IdleToRun Gardevoir_LFS_IdleToRun;
-		public void GARD_LFS_IdleToController()
+		private GARDIdleToWalk GardevoirIdleToWalk;
+		private GARDIdleToRun GardevoirIdleToRun;
+		public void GARDIdleToController()
 		{
-			Load_GARD_LFS_idleToRun();
-			Load_GARD_LFS_idleToWalk();
+			Load_GARDidleToRun();
+			Load_GARDidleToWalk();
 		}
-		private void Load_GARD_LFS_idleToRun()
+		private void Load_GARDidleToRun()
 		{
-			Gardevoir_LFS_IdleToRun.GARD_LFS_IdleToRunController();
+			GardevoirIdleToRun.GARDIdleToRunController();
 		}
-		private void Load_GARD_LFS_idleToWalk()
+		private void Load_GARDidleToWalk()
 		{
-			Gardevoir_LFS_IdleToWalk.GARD_LFS_IdleToWalkController();
+			GardevoirIdleToWalk.GARDIdleToWalkController();
 		}
 	}
 }

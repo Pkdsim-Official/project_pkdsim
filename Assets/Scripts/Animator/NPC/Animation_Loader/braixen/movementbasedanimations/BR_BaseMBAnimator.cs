@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations
 {
 	public class Braixen_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private BR_LFS_Jumping BR_MBA_Jumping;
+		private BR_Jumping BR_MBA_Jumping;
 		
-		private BR_LFS_Running BR_MBA_Running;
+		private BR_Running BR_MBA_Running;
 
 
-		private BR_LFS_Turning BR_MBA_Turning;
+		private BR_Turning BR_MBA_Turning;
 
-		private BR_LFS_Strafing BR_MBA_Strafe;
+		private BR_Strafing BR_MBA_Strafe;
 
-		public void BR_LFS_MovementAnimatorController()
+		public void BRMovementAnimatorController()
 		{
-			BR_MBA_Running.BR_LFS_RunningController();
+			BR_MBA_Running.BR_RunningController();
 
-			BR_MBA_Jumping.BR_LFS_JumpingController();
+			BR_MBA_Jumping.BR_JumpingController();
 
-			BR_MBA_Turning.BR_LFS_TurningController();	
+			BR_MBA_Turning.BR_TurningController();	
 
-			BR_MBA_Strafe.BR_LFS_StrafingController();
+			BR_MBA_Strafe.BR_StrafingController();
 		}
 	}
 }

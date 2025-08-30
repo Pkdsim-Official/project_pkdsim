@@ -7,7 +7,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.movementbasedanimations.Run
 		public void LE_RunningController()
 		{
 			// Leafeon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			// Leafeon_Animator.Play("Running");         // Start in the Idle animation state
+			// Leafeon_Animator.Play("_Running");         // Start in the Idle animation state
 		}
 	}
 }

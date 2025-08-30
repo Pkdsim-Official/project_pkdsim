@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafe.StrafeLeft
 {
-	public class BR_LFS_StrafeLeft : MonoBehaviour 
+	public class BRStrafeLeft : MonoBehaviour 
 	{
-		public void BR_LFS_StrafeLeftController() 
+		public void BRStrafeLeftController() 
 		{
 			
 		}

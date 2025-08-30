@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.mov
 	public class FL_LFS_Turning : MonoBehaviour	
 	{
 		FL_LFS_TurnLeft FL_LFS_turnleft;
-		FL_LFS_TurnRIght FL_LFS_turnright;
+		FL_LFS_TurnRight FL_LFS_turnright;
 
 		public void FL_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.mov
 			}
 			if (FL_LFS_turnright == null)
 			{
-				FL_LFS_turnright = GetComponent<FL_LFS_TurnRIght>();
+				FL_LFS_turnright = GetComponent<FL_LFS_TurnRight>();
 				Load_FL_turnRight();
 			}
 			

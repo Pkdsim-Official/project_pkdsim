@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.idlebaseanimation
 {
-	public class Lucario_LFS_IdleAnimatorController : MonoBehaviour 
+	public class LucarioIdleAnimatorController : MonoBehaviour 
 	{
-		private LUCA_LFS_IdleStanding Lucario_LFS_IdleStanding;
+		private LUCAIdleStanding LucarioIdleStanding;
 		
-		private LUCA_LFS_IdleSitting Lucario_LFS_IdleSitting;
+		private LUCAIdleSitting LucarioIdleSitting;
 		
-		public void	LUCA_LFS_IdleAnimatorController()
+		public void	LUCAIdleAnimatorController()
 		{
-			LUCA_LFS_IdleStandingAnimatorController();
-			LUCA_LFS_IdleSittingAnimatorController();
+			LUCAIdleStandingAnimatorController();
+			LUCAIdleSittingAnimatorController();
 		}
-		private void LUCA_LFS_IdleStandingAnimatorController()
+		private void LUCAIdleStandingAnimatorController()
 		{
-			Lucario_LFS_IdleStanding.LUCA_LFS_IdleStandingController();
+			LucarioIdleStanding.LUCAIdleStandingController();
 		}
-		private void LUCA_LFS_IdleSittingAnimatorController()
+		private void LUCAIdleSittingAnimatorController()
 		{
-			Lucario_LFS_IdleSitting.LUCA_LFS_IdleSittingController();
+			LucarioIdleSitting.LUCAIdleSittingController();
 		}
 	}
 }

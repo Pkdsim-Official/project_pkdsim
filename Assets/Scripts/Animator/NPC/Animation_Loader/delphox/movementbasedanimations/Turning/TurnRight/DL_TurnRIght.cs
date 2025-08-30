@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning.TurnRight
 {
-    public class DL_LFS_TurnRIght : MonoBehaviour 
+    public class DL_TurnRight : MonoBehaviour 
     {
-        public void DL_LFS_TurnRightController()
+        public void DL_TurnRightController()
         {
 
         }

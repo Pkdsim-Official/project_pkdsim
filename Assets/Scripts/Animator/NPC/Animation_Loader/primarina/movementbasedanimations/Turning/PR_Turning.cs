@@ -4,19 +4,19 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.movementbasedanimations.Turning
 {
-	public class PR_LFS_Turning : MonoBehaviour	
+	public class PR_Turning : MonoBehaviour	
 	{
-		PR_LFS_TurnLeft PR_LFS_turnleft;
-		PR_LFS_TurnRIght PR_LFS_turnright;
+		private PR_TurnLeft PR_turnleft;
+		private PR_TurnRight PR_turnright;
 
-		public void PR_LFS_TurningController()
+		public void PR_TurningController()
 		{
-			if (PR_LFS_turnleft != null)
+			if (PR_turnleft != null)
 			{
 				Load_PR_turnLeft();
 			}
 
-			if (PR_LFS_turnright != null)
+			if (PR_turnright != null)
 			{
 				Load_PR_turnRight();
 			}
@@ -24,12 +24,12 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.movementbasedanimations.T
 		}
 		private void Load_PR_turnRight()
 		{
-			PR_LFS_turnright.PR_LFS_TurnRightController();
+			PR_turnright.PR_TurnRightController();
 		}
 		
 		private void Load_PR_turnLeft()
 		{
-			PR_LFS_turnleft.PR_LFS_TurnLeftController();
+			PR_turnleft.PR_TurnLeftController();
 		}
 	}
 }

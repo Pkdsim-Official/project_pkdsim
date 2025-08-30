@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafe
 {
-	public class T_LFS_Strafing : MonoBehaviour 
+	public class T_Strafing : MonoBehaviour 
 	{
-		private T_LFS_StrafeLeft T_strafeleft;
+		private T_StrafeLeft T_strafeleft;
 		
-		private T_LFS_StrafeRight T_straferight;
+		private T_StrafeRight T_straferight;
 
-		public void T_LFS_StrafingController()
+		public void T_StrafingController()
 		{
 			if (T_strafeleft == null)
 			{
-				T_strafeleft = GetComponent<T_LFS_StrafeLeft>();
-				Load_T_LFS_StrafeLeft();
+				Load_T_StrafeLeft();
 			}
 			if (T_straferight == null)
 			{
-				T_straferight = GetComponent<T_LFS_StrafeRight>();
-				Load_T_LFS_StrafeRight();
+				Load_T_StrafeRight();
 			}
 			
 
 		}
-		private void Load_T_LFS_StrafeRight()
+		private void Load_T_StrafeRight()
 		{
-			T_straferight.T_LFS_StrafeRightController();
+			T_straferight.T_StrafeRightController();
 		}
 		
-		private void Load_T_LFS_StrafeLeft()
+		private void Load_T_StrafeLeft()
 		{
-			T_strafeleft.T_LFS_StrafeLeftController();
+			T_strafeleft.T_StrafeLeftController();
 		}
 	}
 }

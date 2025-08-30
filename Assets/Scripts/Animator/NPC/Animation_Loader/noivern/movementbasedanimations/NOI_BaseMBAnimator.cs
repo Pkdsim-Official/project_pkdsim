@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations
 {
 	public class Noivern_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private NOI_LFS_Jumping Noivern_MBA_Jumping;
+		private NOI_Jumping Noivern_MBA_Jumping;
 		
-		private NOI_LFS_Running Noivern_MBA_Running;
+		private NOI_Running Noivern_MBA_Running;
 
 
-		private NOI_LFS_Turning Noivern_MBA_Turning;
+		private NOI_Turning Noivern_MBA_Turning;
 
-		private NOI_LFS_Strafing Noivern_MBA_Strafe;
+		private NOI_Strafing Noivern_MBA_Strafe;
 
-		public void NOI_LFS_MovementAnimatorController()
+		public void NOIMovementAnimatorController()
 		{
-			Noivern_MBA_Running.NOI_LFS_RunningController();
+			Noivern_MBA_Running.NOI_RunningController();
 
-			Noivern_MBA_Jumping.NOI_LFS_JumpingController();
+			Noivern_MBA_Jumping.NOI_JumpingController();
 
-			Noivern_MBA_Turning.NOI_LFS_TurningController();	
+			Noivern_MBA_Turning.NOI_TurningController();	
 
-			Noivern_MBA_Strafe.NOI_LFS_StrafingController();
+			Noivern_MBA_Strafe.NOI_StrafingController();
 		}
 	}
 }

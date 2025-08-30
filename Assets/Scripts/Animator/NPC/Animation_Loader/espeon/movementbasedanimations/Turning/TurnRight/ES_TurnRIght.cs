@@ -4,7 +4,6 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Turn
 {
 	public class ES_TurnRight : MonoBehaviour 
 	{
-		
 		public void ES_TurningRightController() 
 		{
 			

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.IdleTo.IdleToWalk
 {
-	public class LUCA_LFS_IdleToWalk : MonoBehaviour 
+	public class LUCAIdleToWalk : MonoBehaviour 
 	{
-		public void LUCA_LFS_IdleToWalkController() 
+		public void LUCAIdleToWalkController() 
 		{
 			
 		}

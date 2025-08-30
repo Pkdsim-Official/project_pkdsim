@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.m
 	public class C_LFS_Turning : MonoBehaviour	
 	{
 		private C_LFS_TurnLeft C_LFS_turnleft;
-		private C_LFS_TurnRIght C_LFS_turnright;
+		private C_LFS_TurnRight C_LFS_turnright;
 
 		public void C_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.m
 			}
 			if (C_LFS_turnright == null)
 			{
-				C_LFS_turnright = GetComponent<C_LFS_TurnRIght>();
+				C_LFS_turnright = GetComponent<C_LFS_TurnRight>();
 				Load_C_turnRight();
 			}
 			

@@ -7,7 +7,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Tu
 	public class SA_Turning : MonoBehaviour	
 	{
 		private SA_TurnLeft SA_turnleft;
-		private SA_TurnRIght SA_turnright;
+		private SA_TurnRight SA_turnright;
 
 		public void SA_TurningController()
 		{

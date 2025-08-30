@@ -10,9 +10,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.Animator_I
 		public Animator Zoroark_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Zoroark_LFS_CoverterAnimatorController LFSZoroark_AnimatorCCA;
+		private ZoroarkCoverterAnimatorController LFSZoroark_AnimatorCCA;
 		private Zoroark_AnimatorBaseMovementController LFSZoroark_AnimatorCMA;
-		private Zoroark_LFS_IdleAnimatorController LFSZoroark_AnimatorICA;
+		private ZoroarkIdleAnimatorController LFSZoroark_AnimatorICA;
 
 
 		public void LoadFailSafeZoroark_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.Animator_I
 		}
 		private void LoadFailSafeZoroark_ConvertToAnimatorController()
 		{
-			LFSZoroark_AnimatorCCA.Z_LFS_CoverterToAnimatorController();
+			LFSZoroark_AnimatorCCA.ZCoverterToAnimatorController();
 		}
 		private void LoadFailSafeZoroark_MovementAnimatorController()
 		{
-			LFSZoroark_AnimatorCMA.Z_LFS_MovementAnimatorController();
+			LFSZoroark_AnimatorCMA.ZMovementAnimatorController();
 		}
 		private void LoadFailSafeZoroark_IdleAnimatorController()
 		{
-			LFSZoroark_AnimatorICA.Z_LFS_IdleAnimatorController();
+			LFSZoroark_AnimatorICA.ZIdleAnimatorController();
 		}
 	}
 }

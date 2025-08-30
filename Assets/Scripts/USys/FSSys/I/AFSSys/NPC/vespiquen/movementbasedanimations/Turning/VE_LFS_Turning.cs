@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vespiquen.m
 	public class VE_LFS_Turning : MonoBehaviour	
 	{
 		VE_LFS_TurnLeft VE_LFS_turnleft;
-		VE_LFS_TurnRIght VE_LFS_turnright;
+		VE_LFS_TurnRight VE_LFS_turnright;
 
 		public void VE_LFS_TurningController()
 		{

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo
 {
-	public class LO_LFS_IdleTo : MonoBehaviour 
+	public class LOIdleTo : MonoBehaviour 
 	{
-		private LO_LFS_IdleToRun Lopunny_LFS_IdleToRun;
-		private LO_LFS_IdleToWalk Lopunny_LFS_IdleToWalk;
-		public void LO_LFS_IdleToController()
+		private LOIdleToRun LopunnyIdleToRun;
+		private LOIdleToWalk LopunnyIdleToWalk;
+		public void LOIdleToController()
 		{
-			Load_LO_LFS_idleToRun();
-			Load_LO_LFS_idleToWalk();
+			Load_LOidleToRun();
+			Load_LOidleToWalk();
 		}
-		private void Load_LO_LFS_idleToRun()
+		private void Load_LOidleToRun()
 		{
-			Lopunny_LFS_IdleToRun.LO_LFS_IdleToRunController();
+			LopunnyIdleToRun.LOIdleToRunController();
 		}
-		private void Load_LO_LFS_idleToWalk()
+		private void Load_LOidleToWalk()
 		{
-			Lopunny_LFS_IdleToWalk.LO_LFS_IdleToWalkController();
+			LopunnyIdleToWalk.LOIdleToWalkController();
 		}
 	}
 }

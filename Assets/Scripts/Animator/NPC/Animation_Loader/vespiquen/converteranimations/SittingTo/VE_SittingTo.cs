@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo
 {
-	public class VE_LFS_SittingTo : MonoBehaviour 
+	public class VESittingTo : MonoBehaviour 
 	{
-		private VE_LFS_SittingToStartWalking Vespiquen_LFS_sittingToStartWalking;
-		private VE_LFS_SittingToStanding Vespiquen_LFS_sittingToStanding;
-		public void VE_LFS_SittingToController()
+		private VESittingToStartWalking VespiquensittingToStartWalking;
+		private VESittingToStanding VespiquensittingToStanding;
+		public void VESittingToController()
 		{
-			VE_LFS_SittingToStartWalking();
-			VE_LFS_SittingToStanding();
+			VESittingToStartWalking();
+			VESittingToStanding();
 		}
-		private void VE_LFS_SittingToStartWalking()
+		private void VESittingToStartWalking()
 		{
-			Vespiquen_LFS_sittingToStartWalking.VE_LFS_SittingToStartWalkingController();
+			VespiquensittingToStartWalking.VESittingToStartWalkingController();
 		}
-		private void VE_LFS_SittingToStanding()
+		private void VESittingToStanding()
 		{
-			Vespiquen_LFS_sittingToStanding.VE_LFS_SittingToStandingController();
+			VespiquensittingToStanding.VESittingToStandingController();
 		}
 
 	}

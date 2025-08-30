@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Running
 {
-	public class LO_LFS_Running : MonoBehaviour 
+	public class LO_Running : MonoBehaviour 
 	{
-		public void LO_LFS_RunningController() 
+		public void LO_RunningController() 
 		{
 			
 		}

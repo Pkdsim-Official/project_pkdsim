@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning.TurnLeft
 {
-	public class MEOW_LFS_TurnLeft : MonoBehaviour 
+	public class MEOW_TurnLeft : MonoBehaviour 
 	{
-		public void MEOW_LFS_TurnLeftController()
+		public void MEOW_TurnLeftController()
 		{
 			
 		}

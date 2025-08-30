@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Running
 {
-	public class LUCA_LFS_Running : MonoBehaviour 
+	public class LUCA_Running : MonoBehaviour 
 	{
-		public void LUCA_LFS_RunningController() 
+		public void LUCA_RunningController() 
 		{
 			
 		}

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations
 {
-	public class Meowscarada_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class MeowscaradaCoverterAnimatorController : MonoBehaviour 
 	{
-		private MEOW_LFS_SittingTo Meowscarada_LFS_sittingto;
+		private MEOWSittingTo Meowscaradasittingto;
 		
-		private MEOW_LFS_WalkingTo Meowscarada_LFS_walkingto;
+		private MEOWWalkingTo Meowscaradawalkingto;
 		
-		private MEOW_LFS_IdleTo Meowscarada_LFS_idleto;
+		private MEOWIdleTo Meowscaradaidleto;
 
-		public void MEOW_LFS_CoverterToAnimatorController()
+		public void MEOWCoverterToAnimatorController()
 		{
-			Meowscarada_LFS_walkingto.MEOW_LFS_WalkingToController();
+			Meowscaradawalkingto.MEOWWalkingToController();
 
-			Meowscarada_LFS_idleto.MEOW_LFS_IdleToController();
+			Meowscaradaidleto.MEOWIdleToController();
 			
-			Meowscarada_LFS_sittingto.MEOW_LFS_SittingToController();	
+			Meowscaradasittingto.MEOWSittingToController();	
 		}
 	}
 }

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.converteranimations.IdleTo.IdleToWalk
 {
-	public class LUNA_LFS_IdleToWalk : MonoBehaviour 
+	public class LUNAIdleToWalk : MonoBehaviour 
 	{
-		public void LUNA_LFS_IdleToWalkController() 
+		public void LUNAIdleToWalkController() 
 		{
 			
 		}

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations
 {
-	public class Pheromosa_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class PheromosaCoverterAnimatorController : MonoBehaviour 
 	{
-		private PH_LFS_SittingTo Pheromosa_LFS_sittingto;
+		private PHSittingTo Pheromosasittingto;
 		
-		private PH_LFS_WalkingTo Pheromosa_LFS_walkingto;
+		private PHWalkingTo Pheromosawalkingto;
 		
-		private PH_LFS_IdleTo Pheromosa_LFS_idleto;
+		private PHIdleTo Pheromosaidleto;
 
-		public void PH_LFS_CoverterToAnimatorController()
+		public void PHCoverterToAnimatorController()
 		{
-			Pheromosa_LFS_walkingto.PH_LFS_WalkingToController();
+			Pheromosawalkingto.PHWalkingToController();
 
-			Pheromosa_LFS_idleto.PH_LFS_IdleToController();
+			Pheromosaidleto.PHIdleToController();
 			
-			Pheromosa_LFS_sittingto.PH_LFS_SittingToController();	
+			Pheromosasittingto.PHSittingToController();	
 		}
 	}
 }

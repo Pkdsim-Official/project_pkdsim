@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo
 {
-	public class HAT_LFS_WalkingTo : MonoBehaviour 
+	public class HATWalkingTo : MonoBehaviour 
 	{
-		private HAT_LFS_WalkingToStanding Hatterene_LFS_WalkingToStanding;
-		private HAT_LFS_WalkingToSitting Hatterene_LFS_WalkingToSitting;
-		public void HAT_LFS_WalkingToController()
+		private HATWalkingToStanding HattereneWalkingToStanding;
+		private HATWalkingToSitting HattereneWalkingToSitting;
+		public void HATWalkingToController()
 		{
-			Load_HAT_LFS_WalkingToStanding();
-			Load_HAT_LFS_WalkingToWSitting();
+			Load_HATWalkingToStanding();
+			Load_HATWalkingToWSitting();
 		}
-		private void Load_HAT_LFS_WalkingToStanding()
+		private void Load_HATWalkingToStanding()
 		{
-			Hatterene_LFS_WalkingToStanding.HAT_LFS_WalkingToStandingController();
+			HattereneWalkingToStanding.HATWalkingToStandingController();
 		}
-		private void Load_HAT_LFS_WalkingToWSitting()
+		private void Load_HATWalkingToWSitting()
 		{
-			Hatterene_LFS_WalkingToSitting.HAT_LFS_WalkingToSittingController();
+			HattereneWalkingToSitting.HATWalkingToSittingController();
 		}
 	}
 }

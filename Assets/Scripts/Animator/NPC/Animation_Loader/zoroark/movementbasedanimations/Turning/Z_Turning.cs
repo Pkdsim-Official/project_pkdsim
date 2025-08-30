@@ -4,31 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning
 {
-	public class Z_LFS_Turning : MonoBehaviour	
+	public class Z_Turning : MonoBehaviour	
 	{
-		Z_LFS_TurnLeft Z_LFS_turnleft;
-		Z_LFS_TurnRIght Z_LFS_turnright;
+		private Z_TurnLeft Z_turnleft;
+		private Z_TurnRight Z_turnright;
 
-		public void Z_LFS_TurningController()
+		public void Z_TurningController()
 		{
-			if (Z_LFS_turnleft != null)
+			if (Z_turnleft != null)
 			{
 				Load_Z_turnLeft();
 			}
 			
-			if (Z_LFS_turnright != null)
+			if (Z_turnright != null)
 			{
 				Load_Z_turnRight();
 			}
 		}
 		private void Load_Z_turnRight()
 		{
-			Z_LFS_turnright.Z_LFS_TurnRightController();
+			Z_turnright.Z_TurnRightController();
 		}
 		
 		private void Load_Z_turnLeft()
 		{
-			Z_LFS_turnleft.Z_LFS_TurnLeftController();
+			Z_turnleft.Z_TurnLeftController();
 		}
 	}
 }

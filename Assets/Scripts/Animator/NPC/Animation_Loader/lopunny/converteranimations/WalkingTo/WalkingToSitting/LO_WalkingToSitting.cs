@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class LO_LFS_WalkingToSitting : MonoBehaviour 
+	public class LOWalkingToSitting : MonoBehaviour 
 	{
-		public void LO_LFS_WalkingToSittingController() 
+		public void LOWalkingToSittingController() 
 		{
 			
 		}

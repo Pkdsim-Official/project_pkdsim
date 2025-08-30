@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo.SittingToStanding
 {
-	public class BL_LFS_SittingToStanding : MonoBehaviour 
+	public class BLSittingToStanding : MonoBehaviour 
 	{
-		public void BL_LFS_SittingToStandingController()
+		public void BLSittingToStandingController()
 		{
 			
 		}

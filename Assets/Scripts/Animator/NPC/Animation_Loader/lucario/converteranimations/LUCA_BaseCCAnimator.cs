@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations
 {
-	public class Lucario_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class LucarioCoverterAnimatorController : MonoBehaviour 
 	{
-		private LUCA_LFS_SittingTo Lucario_LFS_sittingto;
+		private LUCASittingTo Lucariosittingto;
 		
-		private LUCA_LFS_WalkingTo Lucario_LFS_walkingto;
+		private LUCAWalkingTo Lucariowalkingto;
 		
-		private LUCA_LFS_IdleTo Lucario_LFS_idleto;
+		private LUCAIdleTo Lucarioidleto;
 
-		public void LUCA_LFS_CoverterToAnimatorController()
+		public void LUCACoverterToAnimatorController()
 		{
-			Lucario_LFS_walkingto.LUCA_LFS_WalkingToController();
+			Lucariowalkingto.LUCAWalkingToController();
 
-			Lucario_LFS_idleto.LUCA_LFS_IdleToController();
+			Lucarioidleto.LUCAIdleToController();
 			
-			Lucario_LFS_sittingto.LUCA_LFS_SittingToController();	
+			Lucariosittingto.LUCASittingToController();	
 		}
 	}
 }

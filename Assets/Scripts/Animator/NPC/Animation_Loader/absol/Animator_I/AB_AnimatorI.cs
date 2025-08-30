@@ -10,9 +10,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.Animator_I
 		public Animator Absol_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Absol_LFS_CoverterAnimatorController LFSAbsol_AnimatorCCA;
+		private AbsolCoverterAnimatorController LFSAbsol_AnimatorCCA;
 		private Absol_AnimatorBaseMovementController LFSAbsol_AnimatorCMA;
-		private Absol_LFS_IdleAnimatorController LFSAbsol_AnimatorICA;
+		private AbsolIdleAnimatorController LFSAbsol_AnimatorICA;
 
 
 		public void LoadFailSafeAbsol_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.Animator_I
 		}
 		private void LoadFailSafeAbsol_ConvertToAnimatorController()
 		{
-			LFSAbsol_AnimatorCCA.AB_LFS_CoverterToAnimatorController();
+			LFSAbsol_AnimatorCCA.ABCoverterToAnimatorController();
 		}
 		private void LoadFailSafeAbsol_MovementAnimatorController()
 		{
-			LFSAbsol_AnimatorCMA.AB_LFS_MovementAnimatorController();
+			LFSAbsol_AnimatorCMA.ABMovementAnimatorController();
 		}
 		private void LoadFailSafeAbsol_IdleAnimatorController()
 		{
-			LFSAbsol_AnimatorICA.AB_LFS_IdleAnimatorController();
+			LFSAbsol_AnimatorICA.ABIdleAnimatorController();
 		}
 	}
 }

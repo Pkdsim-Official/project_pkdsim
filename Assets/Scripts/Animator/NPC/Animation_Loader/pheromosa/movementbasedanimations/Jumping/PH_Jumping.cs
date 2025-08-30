@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Jumping
 {
-	public class PH_LFS_Jumping : MonoBehaviour 
+	public class PH_Jumping : MonoBehaviour 
 	{
-		public void PH_LFS_JumpingController() 
+		public void PH_JumpingController() 
 		{
 			
 		}

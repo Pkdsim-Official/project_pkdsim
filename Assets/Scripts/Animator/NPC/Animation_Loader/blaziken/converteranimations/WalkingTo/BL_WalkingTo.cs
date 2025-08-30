@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations.WalkingTo
 {
-	public class BL_LFS_WalkingTo : MonoBehaviour 
+	public class BLWalkingTo : MonoBehaviour 
 	{
-		public void BL_LFS_WalkingToController() 
+		public void BLWalkingToController() 
 		{
 	
 		}

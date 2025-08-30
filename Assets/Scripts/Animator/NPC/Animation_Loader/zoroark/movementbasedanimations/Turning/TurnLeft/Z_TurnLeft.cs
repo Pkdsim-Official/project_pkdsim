@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning.TurnLeft
 {
-	public class Z_LFS_TurnLeft : MonoBehaviour 
+	public class Z_TurnLeft : MonoBehaviour 
 	{
-		public void Z_LFS_TurnLeftController()
+		public void Z_TurnLeftController()
 		{
 			
 		}

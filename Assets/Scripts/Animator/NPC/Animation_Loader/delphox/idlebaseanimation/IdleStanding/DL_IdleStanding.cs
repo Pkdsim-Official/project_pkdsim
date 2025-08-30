@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.idlebaseanimation.IdleStanding
 {
-	public class DL_LFS_IdleStanding : MonoBehaviour 
+	public class DLIdleStanding : MonoBehaviour 
 	{
 		public Animator Delphox_Animator;
-		public void DL_LFS_IdleStandingController()
+		public void DLIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Delphox_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

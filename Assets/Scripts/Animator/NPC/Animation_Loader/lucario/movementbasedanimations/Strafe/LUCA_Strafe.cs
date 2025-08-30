@@ -4,35 +4,35 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafe
 {
-	public class LUCA_LFS_Strafing : MonoBehaviour 
+	public class LUCA_Strafing : MonoBehaviour 
 	{
-		private LUCA_LFS_StrafeLeft LUCA_strafeleft;
+		private LUCA_StrafeLeft LUCA_strafeleft;
 		
-		private LUCA_LFS_StrafeRight LUCA_straferight;
+		private LUCA_StrafeRight LUCA_straferight;
 
-		public void LUCA_LFS_StrafingController()
+		public void LUCA_StrafingController()
 		{
 			if (LUCA_strafeleft == null)
 			{
-				LUCA_strafeleft = GetComponent<LUCA_LFS_StrafeLeft>();
-				Load_LUCA_LFS_StrafeLeft();
+				LUCA_strafeleft = GetComponent<LUCA_StrafeLeft>();
+				Load_LUCA_StrafeLeft();
 			}
 			if (LUCA_straferight == null)
 			{
-				LUCA_straferight = GetComponent<LUCA_LFS_StrafeRight>();
-				Load_LUCA_LFS_StrafeRight();
+				LUCA_straferight = GetComponent<LUCA_StrafeRight>();
+				Load_LUCA_StrafeRight();
 			}
 			
 
 		}
-		private void Load_LUCA_LFS_StrafeRight()
+		private void Load_LUCA_StrafeRight()
 		{
-			LUCA_straferight.LUCA_LFS_StrafeRightController();
+			LUCA_straferight.LUCA_StrafeRightController();
 		}
 		
-		private void Load_LUCA_LFS_StrafeLeft()
+		private void Load_LUCA_StrafeLeft()
 		{
-			LUCA_strafeleft.LUCA_LFS_StrafeLeftController();
+			LUCA_strafeleft.LUCA_StrafeLeftController();
 		}
 	}
 }

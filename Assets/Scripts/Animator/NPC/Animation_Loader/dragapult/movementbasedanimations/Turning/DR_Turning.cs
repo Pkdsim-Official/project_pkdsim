@@ -4,34 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning
 {
-	public class DR_LFS_Turning : MonoBehaviour	
+	public class DR_Turning : MonoBehaviour	
 	{
-		private DR_LFS_TurnLeft DR_LFS_turnleft;
-		private DR_LFS_TurnRIght DR_LFS_turnright;
+		private DR_TurnLeft DR_turnleft;
+		private DR_TurnRight DR_turnright;
 
-		public void DR_LFS_TurningController()
+		public void DR_TurningController()
 		{
-			if (DR_LFS_turnleft == null)
+			if (DR_turnleft == null)
 			{
-				DR_LFS_turnleft = GetComponent<DR_LFS_TurnLeft>();
 				Load_DR_turnLeft();
 			}
-			if (DR_LFS_turnright == null)
+			if (DR_turnright == null)
 			{
-				DR_LFS_turnright = GetComponent<DR_LFS_TurnRIght>();
 				Load_DR_turnRight();
 			}
-			
-
 		}
+
 		private void Load_DR_turnRight()
 		{
-			DR_LFS_turnright.DR_LFS_TurnRightController();
+			DR_turnright.DR_TurnRightController();
 		}
 		
 		private void Load_DR_turnLeft()
 		{
-			DR_LFS_turnleft.DR_LFS_TurnLeftController();
+			DR_turnleft.DR_TurnLeftController();
 		}
 	}
 }

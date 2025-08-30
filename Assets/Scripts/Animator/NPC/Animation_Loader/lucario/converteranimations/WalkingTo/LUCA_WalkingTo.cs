@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo
 {
-	public class LUCA_LFS_WalkingTo : MonoBehaviour 
+	public class LUCAWalkingTo : MonoBehaviour 
 	{
-		private LUCA_LFS_WalkingToStanding Lucario_LFS_WalkingToStanding;
-		private LUCA_LFS_WalkingToSitting Lucario_LFS_WalkingToSitting;
-		public void LUCA_LFS_WalkingToController()
+		private LUCAWalkingToStanding LucarioWalkingToStanding;
+		private LUCAWalkingToSitting LucarioWalkingToSitting;
+		public void LUCAWalkingToController()
 		{
-			Load_LUCA_LFS_WalkingToStanding();
-			Load_LUCA_LFS_WalkingToWSitting();
+			Load_LUCAWalkingToStanding();
+			Load_LUCAWalkingToWSitting();
 		}
-		private void Load_LUCA_LFS_WalkingToStanding()
+		private void Load_LUCAWalkingToStanding()
 		{
-			Lucario_LFS_WalkingToStanding.LUCA_LFS_WalkingToStandingController();
+			LucarioWalkingToStanding.LUCAWalkingToStandingController();
 		}
-		private void Load_LUCA_LFS_WalkingToWSitting()
+		private void Load_LUCAWalkingToWSitting()
 		{
-			Lucario_LFS_WalkingToSitting.LUCA_LFS_WalkingToSittingController();
+			LucarioWalkingToSitting.LUCAWalkingToSittingController();
 		}
 	}
 }

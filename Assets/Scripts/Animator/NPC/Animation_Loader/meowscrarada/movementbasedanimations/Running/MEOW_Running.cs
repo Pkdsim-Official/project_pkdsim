@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Running
 {
-	public class MEOW_LFS_Running : MonoBehaviour 
+	public class MEOW_Running : MonoBehaviour 
 	{
-		public void MEOW_LFS_RunningController() 
+		public void MEOW_RunningController() 
 		{
 			
 		}

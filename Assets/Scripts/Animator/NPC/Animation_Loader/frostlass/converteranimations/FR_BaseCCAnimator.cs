@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations
 {
-	public class Frostlass_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class FrostlassCoverterAnimatorController : MonoBehaviour 
 	{
-		private FR_LFS_SittingTo Frostlass_LFS_sittingto;
+		private FRSittingTo Frostlasssittingto;
 		
-		private FR_LFS_WalkingTo Frostlass_LFS_walkingto;
+		private FRWalkingTo Frostlasswalkingto;
 		
-		private FR_LFS_IdleTo Frostlass_LFS_idleto;
+		private FRIdleTo Frostlassidleto;
 
-		public void FR_LFS_CoverterToAnimatorController()
+		public void FRCoverterToAnimatorController()
 		{
-			Frostlass_LFS_walkingto.FR_LFS_WalkingToController();
+			Frostlasswalkingto.FRWalkingToController();
 
-			Frostlass_LFS_idleto.FR_LFS_IdleToController();
+			Frostlassidleto.FRIdleToController();
 			
-			Frostlass_LFS_sittingto.FR_LFS_SittingToController();	
+			Frostlasssittingto.FRSittingToController();	
 		}
 	}
 }

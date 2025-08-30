@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.idlebaseanimation.IdleStanding
 {
-	public class AB_LFS_IdleStanding : MonoBehaviour 
+	public class ABIdleStanding : MonoBehaviour 
 	{
 		public Animator Absol_Animator;
-		public void AB_LFS_IdleStandingController()
+		public void ABIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Absol_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

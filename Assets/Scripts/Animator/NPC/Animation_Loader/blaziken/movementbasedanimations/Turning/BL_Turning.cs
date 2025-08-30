@@ -4,34 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations.Turning
 {
-	public class BL_LFS_Turning : MonoBehaviour	
+	public class BL_Turning : MonoBehaviour	
 	{
-		BL_LFS_TurnLeft BL_LFS_turnleft;
-		BL_LFS_TurnRIght BL_LFS_turnright;
+		private BL_TurnLeft BL_turnleft;
+		private BL_TurnRight BL_turnright;
 
-		public void BL_LFS_TurningController()
+		public void BL_TurningController()
 		{
-			if (BL_LFS_turnleft == null)
+			if (BL_turnleft == null)
 			{
-				BL_LFS_turnleft = GetComponent<BL_LFS_TurnLeft>();
 				Load_BL_turnLeft();
 			}
-			if (BL_LFS_turnright == null)
+			if (BL_turnright == null)
 			{
-				BL_LFS_turnright = GetComponent<BL_LFS_TurnRIght>();
 				Load_BL_turnRight();
 			}
-			
-
 		}
+
 		private void Load_BL_turnRight()
 		{
-			BL_LFS_turnright.BL_LFS_TurnRightController();
+			BL_turnright.BL_TurnRightController();
 		}
 		
 		private void Load_BL_turnLeft()
 		{
-			BL_LFS_turnleft.BL_LFS_TurnLeftController();
+			BL_turnleft.BL_TurnLeftController();
 		}
 	}
 }

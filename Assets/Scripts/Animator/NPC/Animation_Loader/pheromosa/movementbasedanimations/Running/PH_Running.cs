@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Running
 {
-	public class PH_LFS_Running : MonoBehaviour 
+	public class PH_Running : MonoBehaviour 
 	{
-		public void PH_LFS_RunningController() 
+		public void PH_RunningController() 
 		{
 			
 		}

@@ -10,9 +10,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.Animator_I
 		public Animator Delphox_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Delphox_LFS_CoverterAnimatorController LFSDelphox_AnimatorCCA;
+		private DelphoxCoverterAnimatorController LFSDelphox_AnimatorCCA;
 		private Delphox_AnimatorBaseMovementController LFSDelphox_AnimatorCMA;
-		private Delphox_LFS_IdleAnimatorController LFSDelphox_AnimatorICA;
+		private DelphoxIdleAnimatorController LFSDelphox_AnimatorICA;
 
 
 		public void LoadFailSafeDelphox_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.Animator_I
 		}
 		private void LoadFailSafeDelphox_ConvertToAnimatorController()
 		{
-			LFSDelphox_AnimatorCCA.DL_LFS_CoverterToAnimatorController();
+			LFSDelphox_AnimatorCCA.DLCoverterToAnimatorController();
 		}
 		private void LoadFailSafeDelphox_MovementAnimatorController()
 		{
-			LFSDelphox_AnimatorCMA.DL_LFS_MovementAnimatorController();
+			LFSDelphox_AnimatorCMA.DLMovementAnimatorController();
 		}
 		private void LoadFailSafeDelphox_IdleAnimatorController()
 		{
-			LFSDelphox_AnimatorICA.DL_LFS_IdleAnimatorController();
+			LFSDelphox_AnimatorICA.DLIdleAnimatorController();
 		}
 	}
 }

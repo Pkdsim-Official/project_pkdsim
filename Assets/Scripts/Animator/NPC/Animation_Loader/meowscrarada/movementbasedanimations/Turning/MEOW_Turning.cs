@@ -4,34 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning
 {
-	public class MEOW_LFS_Turning : MonoBehaviour	
+	public class MEOW_Turning : MonoBehaviour	
 	{
-		MEOW_LFS_TurnLeft MEOW_LFS_turnleft;
-		MEOW_LFS_TurnRIght MEOW_LFS_turnright;
+		private MEOW_TurnLeft MEOW_turnleft;
+		private MEOW_TurnRight MEOW_turnright;
 
-		public void MEOW_LFS_TurningController()
+		public void MEOW_TurningController()
 		{
-			if (MEOW_LFS_turnleft == null)
+			if (MEOW_turnleft == null)
 			{
-				MEOW_LFS_turnleft = GetComponent<MEOW_LFS_TurnLeft>();
 				Load_MEOW_turnLeft();
 			}
-			if (MEOW_LFS_turnright == null)
+			if (MEOW_turnright == null)
 			{
-				MEOW_LFS_turnright = GetComponent<MEOW_LFS_TurnRIght>();
 				Load_MEOW_turnRight();
 			}
-			
-
 		}
+
 		private void Load_MEOW_turnRight()
 		{
-			MEOW_LFS_turnright.MEOW_LFS_TurnRightController();
+			MEOW_turnright.MEOW_TurnRightController();
 		}
 		
 		private void Load_MEOW_turnLeft()
 		{
-			MEOW_LFS_turnleft.MEOW_LFS_TurnLeftController();
+			MEOW_turnleft.MEOW_TurnLeftController();
 		}
 	}
 }

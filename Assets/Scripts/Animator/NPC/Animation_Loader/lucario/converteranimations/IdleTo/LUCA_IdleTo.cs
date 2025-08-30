@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.IdleTo
 {
-	public class LUCA_LFS_IdleTo : MonoBehaviour 
+	public class LUCAIdleTo : MonoBehaviour 
 	{
-		private LUCA_LFS_IdleToRun Lucario_LFS_IdleToRun;
-		private LUCA_LFS_IdleToWalk Lucario_LFS_IdleToWalk;
+		private LUCAIdleToRun LucarioIdleToRun;
+		private LUCAIdleToWalk LucarioIdleToWalk;
 
-		public void LUCA_LFS_IdleToController()
+		public void LUCAIdleToController()
 		{
-			Load_LUCA_LFS_idleToRun();
-			Load_LUCA_LFS_idleToWalk();
+			Load_LUCAidleToRun();
+			Load_LUCAidleToWalk();
 		}
-		private void Load_LUCA_LFS_idleToRun()
+		private void Load_LUCAidleToRun()
 		{
-			Lucario_LFS_IdleToRun.LUCA_LFS_IdleToRunController();
+			LucarioIdleToRun.LUCAIdleToRunController();
 		}
-		private void Load_LUCA_LFS_idleToWalk()
+		private void Load_LUCAidleToWalk()
 		{
-			Lucario_LFS_IdleToWalk.LUCA_LFS_IdleToWalkController();
+			LucarioIdleToWalk.LUCAIdleToWalkController();
 		}
 	}
 }

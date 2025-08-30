@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class C_LFS_WalkingToSitting : MonoBehaviour 
+	public class CWalkingToSitting : MonoBehaviour 
 	{
-		public void C_LFS_WalkingToSittingController() 
+		public void CWalkingToSittingController() 
 		{
 			
 		}

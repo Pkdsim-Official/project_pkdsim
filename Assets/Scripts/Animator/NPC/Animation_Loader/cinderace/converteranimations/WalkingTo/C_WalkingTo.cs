@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo
 {
-	public class C_LFS_WalkingTo : MonoBehaviour 
+	public class CWalkingTo : MonoBehaviour 
 	{
-		private C_LFS_WalkingToSitting Cinderace_LFS_WalkingToSitting;
-		private C_LFS_WalkingToStanding Cinderace_LFS_WalkingToStanding;
-		public void C_LFS_WalkingToController()
+		private CWalkingToSitting CinderaceWalkingToSitting;
+		private CWalkingToStanding CinderaceWalkingToStanding;
+		public void CWalkingToController()
 		{
-			C_LFS_WalkingToStartWalking();
-			C_LFS_WalkingToStanding();
+			CWalkingToStartWalking();
+			CWalkingToStanding();
 		}
-		private void C_LFS_WalkingToStartWalking()
+		private void CWalkingToStartWalking()
 		{
-			Cinderace_LFS_WalkingToSitting.C_LFS_WalkingToSittingController();
+			CinderaceWalkingToSitting.CWalkingToSittingController();
 		}
-		private void C_LFS_WalkingToStanding()
+		private void CWalkingToStanding()
 		{
-			Cinderace_LFS_WalkingToStanding.C_LFS_WalkingToStandingController();
+			CinderaceWalkingToStanding.CWalkingToStandingController();
 		}
 	}
 }

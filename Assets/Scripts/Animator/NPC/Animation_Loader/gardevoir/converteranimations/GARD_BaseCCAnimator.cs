@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations
 {
-	public class Gardevoir_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class GardevoirCoverterAnimatorController : MonoBehaviour 
 	{
-		private GARD_LFS_SittingTo Gardevoir_LFS_sittingto;
+		private GARDSittingTo Gardevoirsittingto;
 		
-		private GARD_LFS_WalkingTo Gardevoir_LFS_walkingto;
+		private GARDWalkingTo Gardevoirwalkingto;
 		
-		private GARD_LFS_IdleTo Gardevoir_LFS_idleto;
+		private GARDIdleTo Gardevoiridleto;
 
-		public void GARD_LFS_CoverterToAnimatorController()
+		public void GARDCoverterToAnimatorController()
 		{
-			Gardevoir_LFS_walkingto.GARD_LFS_WalkingToController();
+			Gardevoirwalkingto.GARDWalkingToController();
 
-			Gardevoir_LFS_idleto.GARD_LFS_IdleToController();
+			Gardevoiridleto.GARDIdleToController();
 			
-			Gardevoir_LFS_sittingto.GARD_LFS_SittingToController();	
+			Gardevoirsittingto.GARDSittingToController();	
 		}
 	}
 }

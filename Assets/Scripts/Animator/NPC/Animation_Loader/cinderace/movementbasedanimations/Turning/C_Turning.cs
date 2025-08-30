@@ -4,34 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning
 {
-	public class C_LFS_Turning : MonoBehaviour	
+	public class C_Turning : MonoBehaviour	
 	{
-		private C_LFS_TurnLeft C_LFS_turnleft;
-		private C_LFS_TurnRIght C_LFS_turnright;
+		private C_TurnLeft C_turnleft;
+		private C_TurnRight C_turnright;
 
-		public void C_LFS_TurningController()
+		public void C_TurningController()
 		{
-			if (C_LFS_turnleft == null)
+			if (C_turnleft == null)
 			{
-				C_LFS_turnleft = GetComponent<C_LFS_TurnLeft>();
 				Load_C_turnLeft();
 			}
-			if (C_LFS_turnright == null)
+			if (C_turnright == null)
 			{
-				C_LFS_turnright = GetComponent<C_LFS_TurnRIght>();
 				Load_C_turnRight();
 			}
-			
-
 		}
+
 		private void Load_C_turnRight()
 		{
-			C_LFS_turnright.C_LFS_TurnRightController();
+			C_turnright.C_TurnRightController();
 		}
 		
 		private void Load_C_turnLeft()
 		{
-			C_LFS_turnleft.C_LFS_TurnLeftController();
+			C_turnleft.C_TurnLeftController();
 		}
 	}
 }

@@ -10,9 +10,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.Animator_I
 		public Animator Primarina_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Primarina_LFS_CoverterAnimatorController LFSPrimarina_AnimatorCCA;
+		private PrimarinaCoverterAnimatorController LFSPrimarina_AnimatorCCA;
 		private Primarina_AnimatorBaseMovementController LFSPrimarina_AnimatorCMA;
-		private Primarina_LFS_IdleAnimatorController LFSPrimarina_AnimatorICA;
+		private PrimarinaIdleAnimatorController LFSPrimarina_AnimatorICA;
 
 
 		public void LoadFailSafePrimarina_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.Animator_I
 		}
 		private void LoadFailSafePrimarina_ConvertToAnimatorController()
 		{
-			LFSPrimarina_AnimatorCCA.PR_LFS_CoverterToAnimatorController();
+			LFSPrimarina_AnimatorCCA.PRCoverterToAnimatorController();
 		}
 		private void LoadFailSafePrimarina_MovementAnimatorController()
 		{
-			LFSPrimarina_AnimatorCMA.PR_LFS_MovementAnimatorController();
+			LFSPrimarina_AnimatorCMA.PRMovementAnimatorController();
 		}
 		private void LoadFailSafePrimarina_IdleAnimatorController()
 		{
-			LFSPrimarina_AnimatorICA.PR_LFS_IdleAnimatorController();
+			LFSPrimarina_AnimatorICA.PRIdleAnimatorController();
 		}
 	}
 }

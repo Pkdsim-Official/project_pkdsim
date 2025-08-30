@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class VE_LFS_SittingToStartWalking : MonoBehaviour 
+	public class VESittingToStartWalking : MonoBehaviour 
 	{
-		public void VE_LFS_SittingToStartWalkingController() 
+		public void VESittingToStartWalkingController() 
 		{
 	
 		}

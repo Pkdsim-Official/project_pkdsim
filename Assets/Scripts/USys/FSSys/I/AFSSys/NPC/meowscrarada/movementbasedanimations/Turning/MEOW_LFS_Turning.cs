@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Meowscarada
 	public class MEOW_LFS_Turning : MonoBehaviour	
 	{
 		MEOW_LFS_TurnLeft MEOW_LFS_turnleft;
-		MEOW_LFS_TurnRIght MEOW_LFS_turnright;
+		MEOW_LFS_TurnRight MEOW_LFS_turnright;
 
 		public void MEOW_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Meowscarada
 			}
 			if (MEOW_LFS_turnright == null)
 			{
-				MEOW_LFS_turnright = GetComponent<MEOW_LFS_TurnRIght>();
+				MEOW_LFS_turnright = GetComponent<MEOW_LFS_TurnRight>();
 				Load_MEOW_turnRight();
 			}
 			

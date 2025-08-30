@@ -10,9 +10,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.Animator_I
 		public Animator Lunala_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Lunala_LFS_CoverterAnimatorController LFSLunala_AnimatorCCA;
+		private LunalaCoverterAnimatorController LFSLunala_AnimatorCCA;
 		private Lunala_AnimatorBaseMovementController LFSLunala_AnimatorCMA;
-		private Lunala_LFS_IdleAnimatorController LFSLunala_AnimatorICA;
+		private LunalaIdleAnimatorController LFSLunala_AnimatorICA;
 
 
 		public void LoadFailSafeLunala_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.Animator_I
 		}
 		private void LoadFailSafeLunala_ConvertToAnimatorController()
 		{
-			LFSLunala_AnimatorCCA.LUNA_LFS_CoverterToAnimatorController();
+			LFSLunala_AnimatorCCA.LUNACoverterToAnimatorController();
 		}
 		private void LoadFailSafeLunala_MovementAnimatorController()
 		{
-			LFSLunala_AnimatorCMA.LUNA_LFS_MovementAnimatorController();
+			LFSLunala_AnimatorCMA.LUNAMovementAnimatorController();
 		}
 		private void LoadFailSafeLunala_IdleAnimatorController()
 		{
-			LFSLunala_AnimatorICA.LUNA_LFS_IdleAnimatorController();
+			LFSLunala_AnimatorICA.LUNAIdleAnimatorController();
 		}
 	}
 }

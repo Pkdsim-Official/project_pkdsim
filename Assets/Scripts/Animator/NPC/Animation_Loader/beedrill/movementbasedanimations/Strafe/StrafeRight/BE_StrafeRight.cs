@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafe.StrafeRight
 {
-	public class BE_LFS_StrafeRight : MonoBehaviour
+	public class BE_StrafeRight : MonoBehaviour
 	{
-		public void BE_LFS_StrafeRightController() 
+		public void BE_StrafeRightController() 
 		{
 			
 		}

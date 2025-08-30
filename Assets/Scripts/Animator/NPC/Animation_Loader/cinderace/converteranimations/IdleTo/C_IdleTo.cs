@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo
 {
-	public class C_LFS_IdleTo : MonoBehaviour 
+	public class CIdleTo : MonoBehaviour 
 	{
-		private C_LFS_IdleToRun Cinderace_LFS_IdleToRun;
-		private C_LFS_IdleToWalk Cinderace_LFS_IdleToWalk;
-		public void C_LFS_IdleToController()
+		private CIdleToRun CinderaceIdleToRun;
+		private CIdleToWalk CinderaceIdleToWalk;
+		public void CIdleToController()
 		{
-			Load_C_LFS_idleToRun();
-			Load_C_LFS_idleToWalk();
+			Load_CidleToRun();
+			Load_CidleToWalk();
 		}
-		private void Load_C_LFS_idleToRun()
+		private void Load_CidleToRun()
 		{
-			Cinderace_LFS_IdleToRun.C_LFS_IdleToRunController();
+			CinderaceIdleToRun.CIdleToRunController();
 		}
-		private void Load_C_LFS_idleToWalk()
+		private void Load_CidleToWalk()
 		{
-			Cinderace_LFS_IdleToWalk.C_LFS_IdleToWalkController();
+			CinderaceIdleToWalk.CIdleToWalkController();
 		}
 	}
 }

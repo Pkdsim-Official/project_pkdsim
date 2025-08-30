@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.idlebaseanimation
 {
-	public class Primarina_LFS_IdleAnimatorController : MonoBehaviour 
+	public class PrimarinaIdleAnimatorController : MonoBehaviour 
 	{
-		private PR_LFS_IdleStanding Primarina_LFS_idlestanding;
+		private PRIdleStanding Primarinaidlestanding;
 		
-		private PR_LFS_IdleSitting Primarina_LFS_idlesitting;
+		private PRIdleSitting Primarinaidlesitting;
 		
-		public void	PR_LFS_IdleAnimatorController()
+		public void	PRIdleAnimatorController()
 		{
-			PR_LFS_IdleStandingAnimatorController();
-			PR_LFS_IdleSittingAnimatorController();
+			PRIdleStandingAnimatorController();
+			PRIdleSittingAnimatorController();
 		}
-		private void PR_LFS_IdleStandingAnimatorController()
+		private void PRIdleStandingAnimatorController()
 		{
-			Primarina_LFS_idlestanding.PR_LFS_IdleStandingController();
+			Primarinaidlestanding.PRIdleStandingController();
 		}
-		private void PR_LFS_IdleSittingAnimatorController()
+		private void PRIdleSittingAnimatorController()
 		{
-			Primarina_LFS_idlesitting.PR_LFS_IdleSittingController();
+			Primarinaidlesitting.PRIdleSittingController();
 		}
 	}
 }

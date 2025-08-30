@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.mov
 	public class LUCA_LFS_Turning : MonoBehaviour	
 	{
 		LUCA_LFS_TurnLeft LUCA_LFS_turnleft;
-		LUCA_LFS_TurnRIght LUCA_LFS_turnright;
+		LUCA_LFS_TurnRight LUCA_LFS_turnright;
 
 		public void LUCA_LFS_TurningController()
 		{

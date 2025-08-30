@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Running
 {
-	public class FR_LFS_Running : MonoBehaviour 
+	public class FR_Running : MonoBehaviour 
 	{
-		public void FR_LFS_RunningController() 
+		public void FR_RunningController() 
 		{
 			
 		}

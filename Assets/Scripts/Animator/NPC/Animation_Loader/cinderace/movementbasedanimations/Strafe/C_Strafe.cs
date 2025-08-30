@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafe
 {
-	public class C_LFS_Strafing : MonoBehaviour 
+	public class C_Strafing : MonoBehaviour 
 	{
-		private C_LFS_StrafeLeft C_strafeleft;
+		private C_StrafeLeft C_strafeleft;
 		
-		private C_LFS_StrafeRight C_straferight;
+		private C_StrafeRight C_straferight;
 
-		public void C_LFS_StrafingController()
+		public void C_StrafingController()
 		{
 			if (C_strafeleft == null)
 			{
-				C_strafeleft = GetComponent<C_LFS_StrafeLeft>();
-				Load_C_LFS_StrafeLeft();
+				Load_C_StrafeLeft();
 			}
 			if (C_straferight == null)
 			{
-				C_straferight = GetComponent<C_LFS_StrafeRight>();
-				Load_C_LFS_StrafeRight();
+				Load_C_StrafeRight();
 			}
 			
 
 		}
-		private void Load_C_LFS_StrafeRight()
+		private void Load_C_StrafeRight()
 		{
-			C_straferight.C_LFS_StrafeRightController();
+			C_straferight.C_StrafeRightController();
 		}
 		
-		private void Load_C_LFS_StrafeLeft()
+		private void Load_C_StrafeLeft()
 		{
-			C_strafeleft.C_LFS_StrafeLeftController();
+			C_strafeleft.C_StrafeLeftController();
 		}
 	}
 }

@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.m
 	public class DR_LFS_Turning : MonoBehaviour	
 	{
 		private DR_LFS_TurnLeft DR_LFS_turnleft;
-		private DR_LFS_TurnRIght DR_LFS_turnright;
+		private DR_LFS_TurnRight DR_LFS_turnright;
 
 		public void DR_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.m
 			}
 			if (DR_LFS_turnright == null)
 			{
-				DR_LFS_turnright = GetComponent<DR_LFS_TurnRIght>();
+				DR_LFS_turnright = GetComponent<DR_LFS_TurnRight>();
 				Load_DR_turnRight();
 			}
 			

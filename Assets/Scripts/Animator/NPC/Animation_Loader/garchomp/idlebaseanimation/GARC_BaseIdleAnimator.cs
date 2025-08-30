@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.idlebaseanimation
 {
-	public class Garchomp_LFS_IdleAnimatorController : MonoBehaviour 
+	public class GarchompIdleAnimatorController : MonoBehaviour 
 	{
-		private GARC_LFS_IdleStanding Garchomp_LFS_idlestanding;
+		private GARCIdleStanding Garchompidlestanding;
 		
-		private GARC_LFS_IdleSitting Garchomp_LFS_idlesitting;
+		private GARCIdleSitting Garchompidlesitting;
 		
-		public void	GARC_LFS_IdleAnimatorController()
+		public void	GARCIdleAnimatorController()
 		{
-			GARC_LFS_IdleStandingAnimatorController();
-			GARC_LFS_IdleSittingAnimatorController();
+			GARCIdleStandingAnimatorController();
+			GARCIdleSittingAnimatorController();
 		}
-		private void GARC_LFS_IdleStandingAnimatorController()
+		private void GARCIdleStandingAnimatorController()
 		{
-			Garchomp_LFS_idlestanding.GARC_LFS_IdleStandingController();
+			Garchompidlestanding.GARCIdleStandingController();
 		}
-		private void GARC_LFS_IdleSittingAnimatorController()
+		private void GARCIdleSittingAnimatorController()
 		{
-			Garchomp_LFS_idlesitting.GARC_LFS_IdleSittingController();
+			Garchompidlesitting.GARCIdleSittingController();
 		}
 	}
 }

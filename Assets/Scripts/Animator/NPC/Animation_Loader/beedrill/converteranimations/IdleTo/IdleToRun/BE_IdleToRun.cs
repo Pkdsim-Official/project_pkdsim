@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo.IdleToRun
 {
-	public class BE_LFS_IdleToRun : MonoBehaviour 
+	public class BEIdleToRun : MonoBehaviour 
 	{
-		public void BE_LFS_IdleToRunController() 
+		public void BEIdleToRunController() 
 		{
 			
 		}

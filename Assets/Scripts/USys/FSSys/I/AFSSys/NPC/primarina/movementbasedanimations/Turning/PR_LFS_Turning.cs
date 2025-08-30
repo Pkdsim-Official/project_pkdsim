@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Primarina.m
 	public class PR_LFS_Turning : MonoBehaviour	
 	{
 		PR_LFS_TurnLeft PR_LFS_turnleft;
-		PR_LFS_TurnRIght PR_LFS_turnright;
+		PR_LFS_TurnRight PR_LFS_turnright;
 
 		public void PR_LFS_TurningController()
 		{

@@ -4,6 +4,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Tur
 {
 	public class UM_TurnLeft : MonoBehaviour 
 	{
-
+		public void UM_TurnLeftController()
+		{
+			
+		}
 	}
 }

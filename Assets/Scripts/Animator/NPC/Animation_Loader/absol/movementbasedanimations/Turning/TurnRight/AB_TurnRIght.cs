@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Turning.TurnRight
 {
-    public class AB_LFS_TurnRIght : MonoBehaviour 
+    public class AB_TurnRight : MonoBehaviour 
     {
-        public void AB_LFS_TurnRightController()
+        public void AB_TurnRightController()
         {
 
         }

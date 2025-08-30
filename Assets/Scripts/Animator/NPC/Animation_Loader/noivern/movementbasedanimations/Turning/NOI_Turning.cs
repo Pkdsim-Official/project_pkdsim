@@ -4,32 +4,32 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning
 {
-	public class NOI_LFS_Turning : MonoBehaviour	
+	public class NOI_Turning : MonoBehaviour	
 	{
-		NOI_LFS_TurnLeft NOI_LFS_turnleft;
-		NOI_LFS_TurnRIght NOI_LFS_turnright;
+		private NOI_TurnLeft NOI_turnleft;
+		private NOI_TurnRight NOI_turnright;
 
-		public void NOI_LFS_TurningController()
+		public void NOI_TurningController()
 		{
-			if (NOI_LFS_turnleft == null)
+			if (NOI_turnleft == null)
 			{
 				Load_NOI_turnLeft();
 			}
 
-			if (NOI_LFS_turnright == null)
+			if (NOI_turnright == null)
 			{
 				Load_NOI_turnRight();
 			}
-			
 		}
+
 		private void Load_NOI_turnRight()
 		{
-			NOI_LFS_turnright.NOI_LFS_TurnRightController();
+			NOI_turnright.NOI_TurnRightController();
 		}
 		
 		private void Load_NOI_turnLeft()
 		{
-			NOI_LFS_turnleft.NOI_LFS_TurnLeftController();
+			NOI_turnleft.NOI_TurnLeftController();
 		}
 	}
 }

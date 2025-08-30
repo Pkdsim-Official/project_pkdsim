@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations
 {
 	public class Beedrill_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private BE_LFS_Jumping Beedrill_MBA_Jumping;
+		private BE_Jumping Beedrill_MBA_Jumping;
 		
-		private BE_LFS_Running Beedrill_MBA_Running;
+		private BE_Running Beedrill_MBA_Running;
 
 
-		private BE_LFS_Turning Beedrill_MBA_Turning;
+		private BE_Turning Beedrill_MBA_Turning;
 
-		private BE_LFS_Strafing Beedrill_MBA_Strafe;
+		private BE_Strafing Beedrill_MBA_Strafe;
 
-		public void BE_LFS_MovementAnimatorController()
+		public void BEMovementAnimatorController()
 		{
-			Beedrill_MBA_Running.BE_LFS_RunningController();
+			Beedrill_MBA_Running.BE_RunningController();
 
-			Beedrill_MBA_Jumping.BE_LFS_JumpingController();
+			Beedrill_MBA_Jumping.BE_JumpingController();
 
-			Beedrill_MBA_Turning.BE_LFS_TurningController();	
+			Beedrill_MBA_Turning.BE_TurningController();	
 
-			Beedrill_MBA_Strafe.BE_LFS_StrafingController();
+			Beedrill_MBA_Strafe.BE_StrafingController();
 		}
 	}
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo
 {
-	public class Z_LFS_IdleTo : MonoBehaviour 
+	public class ZIdleTo : MonoBehaviour 
 	{
-		private Z_LFS_IdleToRun Zoroark_LFS_IdleToRun;
-		private Z_LFS_IdleToWalk Zoroark_LFS_IdleToWalk;
-		public void Z_LFS_IdleToController()
+		private ZIdleToRun ZoroarkIdleToRun;
+		private ZIdleToWalk ZoroarkIdleToWalk;
+		public void ZIdleToController()
 		{
-			Load_Z_LFS_idleToRun();
-			Load_Z_LFS_idleToWalk();
+			Load_ZidleToRun();
+			Load_ZidleToWalk();
 		}
-		private void Load_Z_LFS_idleToRun()
+		private void Load_ZidleToRun()
 		{
-			Zoroark_LFS_IdleToRun.Z_LFS_IdleToRunController();
+			ZoroarkIdleToRun.ZIdleToRunController();
 		}
-		private void Load_Z_LFS_idleToWalk()
+		private void Load_ZidleToWalk()
 		{
-			Zoroark_LFS_IdleToWalk.Z_LFS_IdleToWalkController();
+			ZoroarkIdleToWalk.ZIdleToWalkController();
 		}
 	}
 }

@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Absol.movem
 	public class AB_LFS_Turning : MonoBehaviour	
 	{
 		AB_LFS_TurnLeft AB_LFS_turnleft;
-		AB_LFS_TurnRIght AB_LFS_turnright;
+		AB_LFS_TurnRight AB_LFS_turnright;
 
 		public void AB_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Absol.movem
 			}
 			if (AB_LFS_turnright == null)
 			{
-				AB_LFS_turnright = GetComponent<AB_LFS_TurnRIght>();
+				AB_LFS_turnright = GetComponent<AB_LFS_TurnRight>();
 				Load_AB_turnRight();
 			}
 			

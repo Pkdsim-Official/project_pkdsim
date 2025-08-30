@@ -7,7 +7,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.movementbasedanimations.Jum
 		public void LE_JumpingController()
 		{
 			// Leafeon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			// Leafeon_Animator.Play("Jumping");         // Start in the Idle animation state
+			// Leafeon_Animator.Play("_Jumping");         // Start in the Idle animation state
 		}
 	}
 }

@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations
 {
 	public class Absol_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private AB_LFS_Jumping AB_MBA_Jumping;
+		private AB_Jumping AB_MBA_Jumping;
 		
-		private AB_LFS_Running AB_MBA_Running;
+		private AB_Running AB_MBA_Running;
 
 
-		private AB_LFS_Turning AB_MBA_Turning;
+		private AB_Turning AB_MBA_Turning;
 
-		private AB_LFS_Strafing AB_MBA_Strafe;
+		private AB_Strafing AB_MBA_Strafe;
 
-		public void AB_LFS_MovementAnimatorController()
+		public void ABMovementAnimatorController()
 		{
-			AB_MBA_Running.AB_LFS_RunningController();
+			AB_MBA_Running.AB_RunningController();
 
-			AB_MBA_Jumping.AB_LFS_JumpingController();
+			AB_MBA_Jumping.AB_JumpingController();
 
-			AB_MBA_Turning.AB_LFS_TurningController();	
+			AB_MBA_Turning.AB_TurningController();	
 
-			AB_MBA_Strafe.AB_LFS_StrafingController();
+			AB_MBA_Strafe.AB_StrafingController();
 		}
 	}
 }

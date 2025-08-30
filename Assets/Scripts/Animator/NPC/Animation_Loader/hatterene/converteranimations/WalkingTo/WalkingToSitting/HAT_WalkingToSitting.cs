@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class HAT_LFS_WalkingToSitting : MonoBehaviour 
+	public class HATWalkingToSitting : MonoBehaviour 
 	{
-		public void HAT_LFS_WalkingToSittingController() 
+		public void HATWalkingToSittingController() 
 		{
 			
 		}

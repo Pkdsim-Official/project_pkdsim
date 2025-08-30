@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Running
 {
-	public class Z_LFS_Running : MonoBehaviour 
+	public class Z_Running : MonoBehaviour 
 	{
-		public void Z_LFS_RunningController() 
+		public void Z_RunningController() 
 		{
 			
 		}

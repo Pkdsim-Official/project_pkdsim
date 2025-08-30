@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.idlebaseanimation.IdleStanding
 {
-	public class LO_LFS_IdleStanding : MonoBehaviour 
+	public class LOIdleStanding : MonoBehaviour 
 	{
 		public Animator Lopunny_Animator;
-		public void LO_LFS_IdleStandingController()
+		public void LOIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Lopunny_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

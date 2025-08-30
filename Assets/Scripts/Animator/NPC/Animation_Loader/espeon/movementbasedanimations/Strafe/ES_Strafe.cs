@@ -14,12 +14,10 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Stra
 		{
 			if (ES_strafeleft == null)
 			{
-				ES_strafeleft = GetComponent<ES_StrafeLeft>();
 				Load_ES_StrafeLeft();
 			}
 			if (ES_straferight == null)
 			{
-				ES_straferight = GetComponent<ES_StrafeRight>();
 				Load_ES_StrafeRight();
 			}
 			

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo
 {
-	public class PH_LFS_IdleTo : MonoBehaviour 
+	public class PHIdleTo : MonoBehaviour 
 	{
-		private PH_LFS_IdleToRun Pheromosa_LFS_IdleToRun;
-		private PH_LFS_IdleToWalk Pheromosa_LFS_IdleToWalk;
-		public void PH_LFS_IdleToController()
+		private PHIdleToRun PheromosaIdleToRun;
+		private PHIdleToWalk PheromosaIdleToWalk;
+		public void PHIdleToController()
 		{
-			Load_PH_LFS_idleToRun();
-			Load_PH_LFS_idleToWalk();
+			Load_PHidleToRun();
+			Load_PHidleToWalk();
 		}
-		private void Load_PH_LFS_idleToRun()
+		private void Load_PHidleToRun()
 		{
-			Pheromosa_LFS_IdleToRun.PH_LFS_IdleToRunController();
+			PheromosaIdleToRun.PHIdleToRunController();
 		}
-		private void Load_PH_LFS_idleToWalk()
+		private void Load_PHidleToWalk()
 		{
-			Pheromosa_LFS_IdleToWalk.PH_LFS_IdleToWalkController();
+			PheromosaIdleToWalk.PHIdleToWalkController();
 		}
 	}
 }

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations
 {
-	public class Noivern_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class NoivernCoverterAnimatorController : MonoBehaviour 
 	{
-		private NOI_LFS_SittingTo Noivern_LFS_sittingto;
+		private NOISittingTo Noivernsittingto;
 		
-		private NOI_LFS_WalkingTo Noivern_LFS_walkingto;
+		private NOIWalkingTo Noivernwalkingto;
 		
-		private NOI_LFS_IdleTo Noivern_LFS_idleto;
+		private NOIIdleTo Noivernidleto;
 
-		public void NOI_LFS_CoverterToAnimatorController()
+		public void NOICoverterToAnimatorController()
 		{
-			Noivern_LFS_walkingto.NOI_LFS_WalkingToController();
+			Noivernwalkingto.NOIWalkingToController();
 
-			Noivern_LFS_idleto.NOI_LFS_IdleToController();
+			Noivernidleto.NOIIdleToController();
 			
-			Noivern_LFS_sittingto.NOI_LFS_SittingToController();	
+			Noivernsittingto.NOISittingToController();	
 		}
 	}
 }

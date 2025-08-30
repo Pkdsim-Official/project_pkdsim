@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Jumping
 {
-	public class GARD_LFS_Jumping : MonoBehaviour 
+	public class GARD_Jumping : MonoBehaviour 
 	{
-		public void GARD_LFS_JumpingController() 
+		public void GARD_JumpingController() 
 		{
 			
 		}

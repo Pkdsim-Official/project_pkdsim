@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.converteranimations
 {
-	public class Lunala_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class LunalaCoverterAnimatorController : MonoBehaviour 
 	{
-		private LUNA_LFS_SittingTo Lunala_LFS_sittingto;
+		private LUNASittingTo Lunalasittingto;
 		
-		private LUNA_LFS_WalkingTo Lunala_LFS_walkingto;
+		private LUNAWalkingTo Lunalawalkingto;
 		
-		private LUNA_LFS_IdleTo Lunala_LFS_idleto;
+		private LUNAIdleTo Lunalaidleto;
 
-		public void LUNA_LFS_CoverterToAnimatorController()
+		public void LUNACoverterToAnimatorController()
 		{
-			Lunala_LFS_walkingto.LUNA_LFS_WalkingToController();
+			Lunalawalkingto.LUNAWalkingToController();
 
-			Lunala_LFS_idleto.LUNA_LFS_IdleToController();
+			Lunalaidleto.LUNAIdleToController();
 			
-			Lunala_LFS_sittingto.LUNA_LFS_SittingToController();	
+			Lunalasittingto.LUNASittingToController();	
 		}
 	}
 }

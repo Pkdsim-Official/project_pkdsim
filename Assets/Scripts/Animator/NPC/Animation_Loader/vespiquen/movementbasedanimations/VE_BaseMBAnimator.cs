@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations
 {
 	public class Vespiquen_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private VE_LFS_Jumping VE_MBA_Jumping;
+		private VE_Jumping VE_MBA_Jumping;
 		
-		private VE_LFS_Running VE_MBA_Running;
+		private VE_Running VE_MBA_Running;
 
 
-		private VE_LFS_Turning VE_MBA_Turning;
+		private VE_Turning VE_MBATurning;
 
-		private VE_LFS_Strafing VE_MBA_Strafe;
+		private VE_Strafing VE_MBA_Strafe;
 
-		public void VE_LFS_MovementAnimatorController()
+		public void VEMovementAnimatorController()
 		{
-			VE_MBA_Running.VE_LFS_RunningController();
+			VE_MBA_Running.VE_RunningController();
 
-			VE_MBA_Jumping.VE_LFS_JumpingController();
+			VE_MBA_Jumping.VE_JumpingController();
 
-			VE_MBA_Turning.VE_LFS_TurningController();	
+			VE_MBATurning.VE_TurningController();	
 
-			VE_MBA_Strafe.VE_LFS_StrafingController();
+			VE_MBA_Strafe.VE_StrafingController();
 		}
 	}
 }

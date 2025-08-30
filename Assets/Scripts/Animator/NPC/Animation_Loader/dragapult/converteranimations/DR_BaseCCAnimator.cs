@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.converteranimations
 {
-	public class Dragapult_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class DragapultCoverterAnimatorController : MonoBehaviour 
 	{
-		private DR_LFS_SittingTo Dragapult_LFS_sittingto;
+		private DRSittingTo Dragapultsittingto;
 		
-		private DR_LFS_WalkingTo Dragapult_LFS_walkingto;
+		private DRWalkingTo Dragapultwalkingto;
 		
-		private DR_LFS_IdleTo Dragapult_LFS_idleto;
+		private DRIdleTo Dragapultidleto;
 
-		public void DR_LFS_CoverterToAnimatorController()
+		public void DRCoverterToAnimatorController()
 		{
-			Dragapult_LFS_walkingto.DR_LFS_WalkingToController();
+			Dragapultwalkingto.DRWalkingToController();
 
-			Dragapult_LFS_idleto.DR_LFS_IdleToController();
+			Dragapultidleto.DRIdleToController();
 			
-			Dragapult_LFS_sittingto.DR_LFS_SittingToController();	
+			Dragapultsittingto.DRSittingToController();	
 		}
 	}
 }

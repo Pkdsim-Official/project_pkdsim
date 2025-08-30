@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations
 {
 	public class Frostlass_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private FR_LFS_Jumping Frostlass_MBA_Jumping;
+		private FR_Jumping Frostlass_MBA_Jumping;
 		
-		private FR_LFS_Running Frostlass_MBA_Running;
+		private FR_Running Frostlass_MBA_Running;
 
 
-		private FR_LFS_Turning Frostlass_MBA_Turning;
+		private FR_Turning Frostlass_MBA_Turning;
 
-		private FR_LFS_Strafing Frostlass_MBA_Strafe;
+		private FR_Strafing Frostlass_MBA_Strafe;
 
-		public void FR_LFS_MovementAnimatorController()
+		public void FRMovementAnimatorController()
 		{
-			Frostlass_MBA_Running.FR_LFS_RunningController();
+			Frostlass_MBA_Running.FR_RunningController();
 
-			Frostlass_MBA_Jumping.FR_LFS_JumpingController();
+			Frostlass_MBA_Jumping.FR_JumpingController();
 
-			Frostlass_MBA_Turning.FR_LFS_TurningController();	
+			Frostlass_MBA_Turning.FR_TurningController();	
 
-			Frostlass_MBA_Strafe.FR_LFS_StrafingController();
+			Frostlass_MBA_Strafe.FR_StrafingController();
 		}
 	}
 }

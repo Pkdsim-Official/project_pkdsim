@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.mo
 	public class BL_LFS_Turning : MonoBehaviour	
 	{
 		BL_LFS_TurnLeft BL_LFS_turnleft;
-		BL_LFS_TurnRIght BL_LFS_turnright;
+		BL_LFS_TurnRight BL_LFS_turnright;
 
 		public void BL_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.mo
 			}
 			if (BL_LFS_turnright == null)
 			{
-				BL_LFS_turnright = GetComponent<BL_LFS_TurnRIght>();
+				BL_LFS_turnright = GetComponent<BL_LFS_TurnRight>();
 				Load_BL_turnRight();
 			}
 			

@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.mo
 	public class VP_LFS_Turning : MonoBehaviour 
 	{
 		VP_LFS_TurnLeft VP_LFS_turnleft;
-		VP_LFS_TurnRIght VP_LFS_turnright;
+		VP_LFS_TurnRight VP_LFS_turnright;
 
 		public void VP_LFS_TurningController()
 		{

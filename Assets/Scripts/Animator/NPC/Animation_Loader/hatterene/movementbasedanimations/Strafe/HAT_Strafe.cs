@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations.Strafe
 {
-	public class HAT_LFS_Strafing : MonoBehaviour 
+	public class HAT_Strafing : MonoBehaviour 
 	{
-		private HAT_LFS_StrafeLeft HAT_strafeleft;
+		private HAT_StrafeLeft HAT_strafeleft;
 		
-		private HAT_LFS_StrafeRight HAT_straferight;
+		private HAT_StrafeRight HAT_straferight;
 
-		public void HAT_LFS_StrafingController()
+		public void HAT_StrafingController()
 		{
 			if (HAT_strafeleft == null)
 			{
-				HAT_strafeleft = GetComponent<HAT_LFS_StrafeLeft>();
-				Load_HAT_LFS_StrafeLeft();
+				Load_HAT_StrafeLeft();
 			}
 			if (HAT_straferight == null)
 			{
-				HAT_straferight = GetComponent<HAT_LFS_StrafeRight>();
-				Load_HAT_LFS_StrafeRight();
+				Load_HAT_StrafeRight();
 			}
 			
 
 		}
-		private void Load_HAT_LFS_StrafeRight()
+		private void Load_HAT_StrafeRight()
 		{
-			HAT_straferight.HAT_LFS_StrafeRightController();
+			HAT_straferight.HAT_StrafeRightController();
 		}
 		
-		private void Load_HAT_LFS_StrafeLeft()
+		private void Load_HAT_StrafeLeft()
 		{
-			HAT_strafeleft.HAT_LFS_StrafeLeftController();
+			HAT_strafeleft.HAT_StrafeLeftController();
 		}
 	}
 }

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.SittingTo.SittingToStanding
 {
-	public class BE_LFS_SittingToStanding : MonoBehaviour 
+	public class BESittingToStanding : MonoBehaviour 
 	{
-		public void BE_LFS_SittingToStandingController()
+		public void BESittingToStandingController()
 		{
 			
 		}

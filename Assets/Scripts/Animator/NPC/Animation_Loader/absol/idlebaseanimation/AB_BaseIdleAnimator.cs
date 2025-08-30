@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.idlebaseanimation
 {
-	public class Absol_LFS_IdleAnimatorController : MonoBehaviour 
+	public class AbsolIdleAnimatorController : MonoBehaviour 
 	{
-		private AB_LFS_IdleStanding Absol_LFS_idlestanding;
+		private ABIdleStanding Absolidlestanding;
 		
-		private AB_LFS_IdleSitting Absol_LFS_idlesitting;
+		private ABIdleSitting Absolidlesitting;
 		
-		public void	AB_LFS_IdleAnimatorController()
+		public void	ABIdleAnimatorController()
 		{
-			AB_LFS_IdleStandingAnimatorController();
-			AB_LFS_IdleSittingAnimatorController();
+			ABIdleStandingAnimatorController();
+			ABIdleSittingAnimatorController();
 		}
-		private void AB_LFS_IdleStandingAnimatorController()
+		private void ABIdleStandingAnimatorController()
 		{
-			Absol_LFS_idlestanding.AB_LFS_IdleStandingController();
+			Absolidlestanding.ABIdleStandingController();
 		}
-		private void AB_LFS_IdleSittingAnimatorController()
+		private void ABIdleSittingAnimatorController()
 		{
-			Absol_LFS_idlesitting.AB_LFS_IdleSittingController();
+			Absolidlesitting.ABIdleSittingController();
 		}
 	}
 }

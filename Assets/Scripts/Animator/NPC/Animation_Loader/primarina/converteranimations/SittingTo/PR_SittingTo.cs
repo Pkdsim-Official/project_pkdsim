@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.SittingTo
 {
-	public class PR_LFS_SittingTo : MonoBehaviour 
+	public class PRSittingTo : MonoBehaviour 
 	{
-		private PR_LFS_SittingToStartWalking Primarina_LFS_sittingToStartWalking;
-		private PR_LFS_SittingToStanding Primarina_LFS_sittingToStanding;
-		public void PR_LFS_SittingToController()
+		private PRSittingToStartWalking PrimarinasittingToStartWalking;
+		private PRSittingToStanding PrimarinasittingToStanding;
+		public void PRSittingToController()
 		{
-			PR_LFS_SittingToStartWalking();
-			PR_LFS_SittingToStanding();
+			PRSittingToStartWalking();
+			PRSittingToStanding();
 		}
-		private void PR_LFS_SittingToStartWalking()
+		private void PRSittingToStartWalking()
 		{
-			Primarina_LFS_sittingToStartWalking.PR_LFS_SittingToStartWalkingController();
+			PrimarinasittingToStartWalking.PRSittingToStartWalkingController();
 		}
-		private void PR_LFS_SittingToStanding()
+		private void PRSittingToStanding()
 		{
-			Primarina_LFS_sittingToStanding.PR_LFS_SittingToStandingController();
+			PrimarinasittingToStanding.PRSittingToStandingController();
 		}
 
 	}

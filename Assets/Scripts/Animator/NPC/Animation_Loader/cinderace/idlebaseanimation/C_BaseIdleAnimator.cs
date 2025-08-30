@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.idlebaseanimation
 {
-	public class Cinderace_LFS_IdleAnimatorController : MonoBehaviour 
+	public class CinderaceIdleAnimatorController : MonoBehaviour 
 	{
-		private C_LFS_IdleStanding C_LFS_idlestanding;
+		private CIdleStanding Cidlestanding;
 		
-		private C_LFS_IdleSitting C_LFS_idlesitting;
+		private CIdleSitting Cidlesitting;
 		
-		public void	C_LFS_IdleAnimatorController()
+		public void	CIdleAnimatorController()
 		{
-			C_LFS_IdleStandingAnimatorController();
-			C_LFS_IdleSittingAnimatorController();
+			CIdleStandingAnimatorController();
+			CIdleSittingAnimatorController();
 		}
-		private void C_LFS_IdleStandingAnimatorController()
+		private void CIdleStandingAnimatorController()
 		{
-			C_LFS_idlestanding.C_LFS_IdleStandingController();
+			Cidlestanding.CIdleStandingController();
 		}
-		private void C_LFS_IdleSittingAnimatorController()
+		private void CIdleSittingAnimatorController()
 		{
-			C_LFS_idlesitting.C_LFS_IdleSittingController();
+			Cidlesitting.CIdleSittingController();
 		}
 	}
 }

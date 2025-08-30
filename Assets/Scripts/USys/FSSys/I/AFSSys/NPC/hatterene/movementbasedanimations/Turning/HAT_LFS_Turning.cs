@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.m
 	public class HAT_LFS_Turning : MonoBehaviour	
 	{
 		private HAT_LFS_TurnLeft HAT_LFS_turnleft;
-		private HAT_LFS_TurnRIght HAT_LFS_turnright;
+		private HAT_LFS_TurnRight HAT_LFS_turnright;
 
 		public void HAT_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.m
 			}
 			if (HAT_LFS_turnright == null)
 			{
-				HAT_LFS_turnright = GetComponent<HAT_LFS_TurnRIght>();
+				HAT_LFS_turnright = GetComponent<HAT_LFS_TurnRight>();
 				Load_HAT_turnRight();
 			}
 			

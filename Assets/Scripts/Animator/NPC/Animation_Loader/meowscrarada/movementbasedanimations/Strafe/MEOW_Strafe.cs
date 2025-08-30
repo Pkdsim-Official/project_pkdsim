@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Strafe
 {
-	public class MEOW_LFS_Strafing : MonoBehaviour 
+	public class MEOW_Strafing : MonoBehaviour 
 	{
-		private MEOW_LFS_StrafeLeft MEOW_strafeleft;
+		private MEOW_StrafeLeft MEOW_strafeleft;
 		
-		private MEOW_LFS_StrafeRight MEOW_straferight;
+		private MEOW_StrafeRight MEOW_straferight;
 
-		public void MEOW_LFS_StrafingController()
+		public void MEOW_StrafingController()
 		{
 			if (MEOW_strafeleft == null)
 			{
-				MEOW_strafeleft = GetComponent<MEOW_LFS_StrafeLeft>();
-				Load_MEOW_LFS_StrafeLeft();
+				Load_MEOW_StrafeLeft();
 			}
 			if (MEOW_straferight == null)
 			{
-				MEOW_straferight = GetComponent<MEOW_LFS_StrafeRight>();
-				Load_MEOW_LFS_StrafeRight();
+				Load_MEOW_StrafeRight();
 			}
 			
 
 		}
-		private void Load_MEOW_LFS_StrafeRight()
+		private void Load_MEOW_StrafeRight()
 		{
-			MEOW_straferight.MEOW_LFS_StrafeRightController();
+			MEOW_straferight.MEOW_StrafeRightController();
 		}
 		
-		private void Load_MEOW_LFS_StrafeLeft()
+		private void Load_MEOW_StrafeLeft()
 		{
-			MEOW_strafeleft.MEOW_LFS_StrafeLeftController();
+			MEOW_strafeleft.MEOW_StrafeLeftController();
 		}
 	}
 }

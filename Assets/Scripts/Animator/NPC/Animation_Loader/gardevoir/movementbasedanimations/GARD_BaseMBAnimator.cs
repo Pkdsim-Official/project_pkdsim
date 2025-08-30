@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations
 {
 	public class Gardevoir_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private GARD_LFS_Jumping Gardevoir_MBA_Jumping;
+		private GARD_Jumping Gardevoir_MBA_Jumping;
 		
-		private GARD_LFS_Running Gardevoir_MBA_Running;
+		private GARD_Running Gardevoir_MBA_Running;
 
 
-		private GARD_LFS_Turning Gardevoir_MBA_Turning;
+		private GARD_Turning Gardevoir_MBA_Turning;
 
-		private GARD_LFS_Strafing Gardevoir_MBA_Strafe;
+		private GARD_Strafing Gardevoir_MBA_Strafe;
 
-		public void GARD_LFS_MovementAnimatorController()
+		public void GARDMovementAnimatorController()
 		{
-			Gardevoir_MBA_Running.GARD_LFS_RunningController();
+			Gardevoir_MBA_Running.GARD_RunningController();
 
-			Gardevoir_MBA_Jumping.GARD_LFS_JumpingController();
+			Gardevoir_MBA_Jumping.GARD_JumpingController();
 
-			Gardevoir_MBA_Turning.GARD_LFS_TurningController();	
+			Gardevoir_MBA_Turning.GARD_TurningController();	
 
-			Gardevoir_MBA_Strafe.GARD_LFS_StrafingController();
+			Gardevoir_MBA_Strafe.GARD_StrafingController();
 		}
 	}
 }

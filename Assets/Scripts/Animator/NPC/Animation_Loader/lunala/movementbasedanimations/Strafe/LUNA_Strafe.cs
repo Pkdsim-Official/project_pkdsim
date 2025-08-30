@@ -4,35 +4,35 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Strafe
 {
-	public class LUNA_LFS_Strafing : MonoBehaviour 
+	public class LUNA_Strafing : MonoBehaviour 
 	{
-		private LUNA_LFS_StrafeLeft LUNA_strafeleft;
+		private LUNA_StrafeLeft LUNA_strafeleft;
 		
-		private LUNA_LFS_StrafeRight LUNA_straferight;
+		private LUNA_StrafeRight LUNA_straferight;
 
-		public void LUNA_LFS_StrafingController()
+		public void LUNA_StrafingController()
 		{
 			if (LUNA_strafeleft == null)
 			{
-				LUNA_strafeleft = GetComponent<LUNA_LFS_StrafeLeft>();
-				Load_LUNA_LFS_StrafeLeft();
+				LUNA_strafeleft = GetComponent<LUNA_StrafeLeft>();
+				Load_LUNA_StrafeLeft();
 			}
 			if (LUNA_straferight == null)
 			{
-				LUNA_straferight = GetComponent<LUNA_LFS_StrafeRight>();
-				Load_LUNA_LFS_StrafeRight();
+				LUNA_straferight = GetComponent<LUNA_StrafeRight>();
+				Load_LUNA_StrafeRight();
 			}
 			
 
 		}
-		private void Load_LUNA_LFS_StrafeRight()
+		private void Load_LUNA_StrafeRight()
 		{
-			LUNA_straferight.LUNA_LFS_StrafeRightController();
+			LUNA_straferight.LUNA_StrafeRightController();
 		}
 		
-		private void Load_LUNA_LFS_StrafeLeft()
+		private void Load_LUNA_StrafeLeft()
 		{
-			LUNA_strafeleft.LUNA_LFS_StrafeLeftController();
+			LUNA_strafeleft.LUNA_StrafeLeftController();
 		}
 	}
 }

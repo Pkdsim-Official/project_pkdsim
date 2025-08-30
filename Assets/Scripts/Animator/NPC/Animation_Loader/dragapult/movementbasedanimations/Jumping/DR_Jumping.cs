@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Jumping
 {
-	public class DR_LFS_Jumping : MonoBehaviour 
+	public class DR_Jumping : MonoBehaviour 
 	{
-		public void DR_LFS_JumpingController() 
+		public void DR_JumpingController() 
 		{
 			
 		}

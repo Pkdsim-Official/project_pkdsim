@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Running
 {
-	public class AB_LFS_Running : MonoBehaviour 
+	public class AB_Running : MonoBehaviour 
 	{
-		public void AB_LFS_RunningController() 
+		public void AB_RunningController() 
 		{
 			
 		}

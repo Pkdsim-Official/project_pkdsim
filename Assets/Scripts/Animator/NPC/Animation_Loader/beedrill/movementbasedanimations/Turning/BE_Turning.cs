@@ -4,34 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning
 {
-	public class BE_LFS_Turning : MonoBehaviour	
+	public class BE_Turning : MonoBehaviour	
 	{
-		private BE_LFS_TurnLeft BE_LFS_turnleft;
-		private BE_LFS_TurnRIght BE_LFS_turnright;
+		private BE_TurnLeft BE_turnleft;
+		private BE_TurnRight BE_turnright;
 
-		public void BE_LFS_TurningController()
+		public void BE_TurningController()
 		{
-			if (BE_LFS_turnleft == null)
+			if (BE_turnleft == null)
 			{
-				BE_LFS_turnleft = GetComponent<BE_LFS_TurnLeft>();
 				Load_BE_turnLeft();
 			}
-			if (BE_LFS_turnright == null)
+			if (BE_turnright == null)
 			{
-				BE_LFS_turnright = GetComponent<BE_LFS_TurnRIght>();
 				Load_BE_turnRight();
 			}
-			
-
 		}
+
 		private void Load_BE_turnRight()
 		{
-			BE_LFS_turnright.BE_LFS_TurnRightController();
+			BE_turnright.BE_TurnRightController();
 		}
 		
 		private void Load_BE_turnLeft()
 		{
-			BE_LFS_turnleft.BE_LFS_TurnLeftController();
+			BE_turnleft.BE_TurnLeftController();
 		}
 	}
 }

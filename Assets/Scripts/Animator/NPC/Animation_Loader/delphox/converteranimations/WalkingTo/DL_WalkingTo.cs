@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.converteranimations.WalkingTo
 {
-	public class DL_LFS_WalkingTo : MonoBehaviour 
+	public class DLWalkingTo : MonoBehaviour 
 	{
-		private DL_LFS_WalkingToSitting Delphox_LFS_WalkingToSitting;
-		private DL_LFS_WalkingToStanding Delphox_LFS_WalkingToStanding;
-		public void DL_LFS_WalkingToController() 
+		private DLWalkingToSitting DelphoxWalkingToSitting;
+		private DLWalkingToStanding DelphoxWalkingToStanding;
+		public void DLWalkingToController() 
 		{
-			Load_DL_LFS_WalkingToSitting();
-			Load_DL_LFS_WalkingToStanding();
+			Load_DLWalkingToSitting();
+			Load_DLWalkingToStanding();
 		}
-		private void Load_DL_LFS_WalkingToStanding()
+		private void Load_DLWalkingToStanding()
 		{
-			Delphox_LFS_WalkingToStanding.DL_LFS_WalkingToStandingController();
+			DelphoxWalkingToStanding.DLWalkingToStandingController();
 		}
-		private void Load_DL_LFS_WalkingToSitting()
+		private void Load_DLWalkingToSitting()
 		{
-			Delphox_LFS_WalkingToSitting.DL_LFS_WalkingToSittingController();
+			DelphoxWalkingToSitting.DLWalkingToSittingController();
 		}
 	}
 }

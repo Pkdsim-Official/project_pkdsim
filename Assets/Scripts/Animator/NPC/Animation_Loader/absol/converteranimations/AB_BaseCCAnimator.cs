@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations
 {
-	public class Absol_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class AbsolCoverterAnimatorController : MonoBehaviour 
 	{
-		private AB_LFS_SittingTo Absol_LFS_sittingto;
+		private ABSittingTo Absolsittingto;
 		
-		private AB_LFS_WalkingTo Absol_LFS_walkingto;
+		private ABWalkingTo Absolwalkingto;
 		
-		private AB_LFS_IdleTo Absol_LFS_idleto;
+		private ABIdleTo Absolidleto;
 
-		public void AB_LFS_CoverterToAnimatorController()
+		public void ABCoverterToAnimatorController()
 		{
-			Absol_LFS_walkingto.AB_LFS_WalkingToController();
+			Absolwalkingto.ABWalkingToController();
 
-			Absol_LFS_idleto.AB_LFS_IdleToController();
+			Absolidleto.ABIdleToController();
 			
-			Absol_LFS_sittingto.AB_LFS_SittingToController();	
+			Absolsittingto.ABSittingToController();	
 		}
 	}
 }

@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations
 {
 	public class Meowscarada_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private MEOW_LFS_Jumping Meowscarada_MBA_Jumping;
+		private MEOW_Jumping Meowscarada_MBA_Jumping;
 		
-		private MEOW_LFS_Running Meowscarada_MBA_Running;
+		private MEOW_Running Meowscarada_MBA_Running;
 
 
-		private MEOW_LFS_Turning Meowscarada_MBA_Turning;
+		private MEOW_Turning Meowscarada_MBA_Turning;
 
-		private MEOW_LFS_Strafing Meowscarada_MBA_Strafe;
+		private MEOW_Strafing Meowscarada_MBA_Strafe;
 
-		public void MEOW_LFS_MovementAnimatorController()
+		public void MEOWMovementAnimatorController()
 		{
-			Meowscarada_MBA_Running.MEOW_LFS_RunningController();
+			Meowscarada_MBA_Running.MEOW_RunningController();
 
-			Meowscarada_MBA_Jumping.MEOW_LFS_JumpingController();
+			Meowscarada_MBA_Jumping.MEOW_JumpingController();
 
-			Meowscarada_MBA_Turning.MEOW_LFS_TurningController();	
+			Meowscarada_MBA_Turning.MEOW_TurningController();	
 
-			Meowscarada_MBA_Strafe.MEOW_LFS_StrafingController();
+			Meowscarada_MBA_Strafe.MEOW_StrafingController();
 		}
 	}
 }

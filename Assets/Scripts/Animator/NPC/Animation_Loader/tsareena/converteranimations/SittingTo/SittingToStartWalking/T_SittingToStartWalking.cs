@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class T_LFS_SittingToStartWalking : MonoBehaviour 
+	public class TSittingToStartWalking : MonoBehaviour 
 	{
-		public void T_LFS_SittingToStartWalkingController() 
+		public void TSittingToStartWalkingController() 
 		{
 	
 		}

@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.idlebaseanimation.IdleStanding
 {
-	public class VE_LFS_IdleStanding : MonoBehaviour 
+	public class VEIdleStanding : MonoBehaviour 
 	{
 		public Animator Vespiquen_Animator;
-		public void VE_LFS_IdleStandingController()
+		public void VEIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

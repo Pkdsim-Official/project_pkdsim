@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafe
 {
-	public class BE_LFS_Strafing : MonoBehaviour 
+	public class BE_Strafing : MonoBehaviour 
 	{
-		private BE_LFS_StrafeLeft BE_strafeleft;
+		private BE_StrafeLeft BE_strafeleft;
 		
-		private BE_LFS_StrafeRight BE_straferight;
+		private BE_StrafeRight BE_straferight;
 
-		public void BE_LFS_StrafingController()
+		public void BE_StrafingController()
 		{
 			if (BE_strafeleft == null)
 			{
-				BE_strafeleft = GetComponent<BE_LFS_StrafeLeft>();
-				Load_BE_LFS_StrafeLeft();
+				Load_BEStrafeLeft();
 			}
 			if (BE_straferight == null)
 			{
-				BE_straferight = GetComponent<BE_LFS_StrafeRight>();
-				Load_BE_LFS_StrafeRight();
+				Load_BEStrafeRight();
 			}
 			
 
 		}
-		private void Load_BE_LFS_StrafeRight()
+		private void Load_BEStrafeRight()
 		{
-			BE_straferight.BE_LFS_StrafeRightController();
+			BE_straferight.BE_StrafeRightController();
 		}
 		
-		private void Load_BE_LFS_StrafeLeft()
+		private void Load_BEStrafeLeft()
 		{
-			BE_strafeleft.BE_LFS_StrafeLeftController();
+			BE_strafeleft.BE_StrafeLeftController();
 		}
 	}
 }

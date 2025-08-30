@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.idlebaseanimation
 {
-	public class Pheromosa_LFS_IdleAnimatorController : MonoBehaviour 
+	public class PheromosaIdleAnimatorController : MonoBehaviour 
 	{
-		private PH_LFS_IdleStanding PH_LFS_idlestanding;
+		private PHIdleStanding PHidlestanding;
 		
-		private PH_LFS_IdleSitting PH_LFS_idlesitting;
+		private PHIdleSitting PHidlesitting;
 		
-		public void	PH_LFS_IdleAnimatorController()
+		public void	PHIdleAnimatorController()
 		{
-			PH_LFS_IdleStandingAnimatorController();
-			PH_LFS_IdleSittingAnimatorController();
+			PHIdleStandingAnimatorController();
+			PHIdleSittingAnimatorController();
 		}
-		private void PH_LFS_IdleStandingAnimatorController()
+		private void PHIdleStandingAnimatorController()
 		{
-			PH_LFS_idlestanding.PH_LFS_IdleStandingController();
+			PHidlestanding.PHIdleStandingController();
 		}
-		private void PH_LFS_IdleSittingAnimatorController()
+		private void PHIdleSittingAnimatorController()
 		{
-			PH_LFS_idlesitting.PH_LFS_IdleSittingController();
+			PHidlesitting.PHIdleSittingController();
 		}
 	}
 }

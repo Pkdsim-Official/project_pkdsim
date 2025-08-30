@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.WalkingTo
 {
-	public class GARD_LFS_WalkingTo : MonoBehaviour 
+	public class GARDWalkingTo : MonoBehaviour 
 	{
-		private GARD_LFS_WalkingToSitting Gardevoir_LFS_WalkingToSitting;
-		private GARD_LFS_WalkingToStanding Gardevoir_LFS_WalkingToStanding;
-		public void GARD_LFS_WalkingToController()
+		private GARDWalkingToSitting GardevoirWalkingToSitting;
+		private GARDWalkingToStanding GardevoirWalkingToStanding;
+		public void GARDWalkingToController()
 		{
-			GARD_LFS_WalkingToStartWalking();
-			GARD_LFS_WalkingToStanding();
+			GARDWalkingToStartWalking();
+			GARDWalkingToStanding();
 		}
-		private void GARD_LFS_WalkingToStartWalking()
+		private void GARDWalkingToStartWalking()
 		{
-			Gardevoir_LFS_WalkingToSitting.GARD_LFS_WalkingToSittingController();
+			GardevoirWalkingToSitting.GARDWalkingToSittingController();
 		}
-		private void GARD_LFS_WalkingToStanding()
+		private void GARDWalkingToStanding()
 		{
-			Gardevoir_LFS_WalkingToStanding.GARD_LFS_WalkingToStandingController();
+			GardevoirWalkingToStanding.GARDWalkingToStandingController();
 		}
 	}
 }

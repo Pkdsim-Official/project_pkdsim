@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations
 {
-	public class Zoroark_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class ZoroarkCoverterAnimatorController : MonoBehaviour 
 	{
-		private Z_LFS_SittingTo Zoroark_LFS_sittingto;
+		private ZSittingTo Zoroarksittingto;
 		
-		private Z_LFS_WalkingTo Zoroark_LFS_walkingto;
+		private ZWalkingTo Zoroarkwalkingto;
 		
-		private Z_LFS_IdleTo Zoroark_LFS_idleto;
+		private ZIdleTo Zoroarkidleto;
 
-		public void Z_LFS_CoverterToAnimatorController()
+		public void ZCoverterToAnimatorController()
 		{
-			Zoroark_LFS_walkingto.Z_LFS_WalkingToController();
+			Zoroarkwalkingto.ZWalkingToController();
 
-			Zoroark_LFS_idleto.Z_LFS_IdleToController();
+			Zoroarkidleto.ZIdleToController();
 			
-			Zoroark_LFS_sittingto.Z_LFS_SittingToController();	
+			Zoroarksittingto.ZSittingToController();	
 		}
 	}
 }

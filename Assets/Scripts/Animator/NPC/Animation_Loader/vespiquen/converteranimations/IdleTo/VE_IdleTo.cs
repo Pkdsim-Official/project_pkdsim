@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo
 {
-	public class VE_LFS_IdleTo : MonoBehaviour 
+	public class VEIdleTo : MonoBehaviour 
 	{
-		private VE_LFS_IdleToRun Vespiquen_LFS_IdleToRun;
-		private VE_LFS_IdleToWalk Vespiquen_LFS_IdleToWalk;
+		private VEIdleToRun VespiquenIdleToRun;
+		private VEIdleToWalk VespiquenIdleToWalk;
 
-		public void VE_LFS_IdleToController()
+		public void VEIdleToController()
 		{
-			Load_VE_LFS_idleToRun();
-			Load_VE_LFS_idleToWalk();
+			Load_VEidleToRun();
+			Load_VEidleToWalk();
 		}
-		private void Load_VE_LFS_idleToRun()
+		private void Load_VEidleToRun()
 		{
-			Vespiquen_LFS_IdleToRun.VE_LFS_IdleToRunController();
+			VespiquenIdleToRun.VEIdleToRunController();
 		}
-		private void Load_VE_LFS_idleToWalk()
+		private void Load_VEidleToWalk()
 		{
-			Vespiquen_LFS_IdleToWalk.VE_LFS_IdleToWalkController();
+			VespiquenIdleToWalk.VEIdleToWalkController();
 		}
 	}
 }

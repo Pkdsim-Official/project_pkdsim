@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning.TurnLeft
 {
-	public class C_LFS_TurnLeft : MonoBehaviour 
+	public class C_TurnLeft : MonoBehaviour 
 	{
-		public void C_LFS_TurnLeftController()
+		public void C_TurnLeftController()
 		{
 			
 		}

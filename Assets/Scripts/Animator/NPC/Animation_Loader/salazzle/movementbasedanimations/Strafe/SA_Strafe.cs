@@ -14,12 +14,10 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.St
 		{
 			if (SA_strafeleft == null)
 			{
-				SA_strafeleft = GetComponent<SA_StrafeLeft>();
 				Load_SA_StrafeLeft();
 			}
 			if (SA_straferight == null)
 			{
-				SA_straferight = GetComponent<SA_StrafeRight>();
 				Load_SA_StrafeRight();
 			}
 			

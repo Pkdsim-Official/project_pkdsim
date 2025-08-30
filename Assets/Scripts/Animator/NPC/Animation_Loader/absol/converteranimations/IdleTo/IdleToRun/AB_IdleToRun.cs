@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.IdleTo.IdleToRun
 {
-	public class AB_LFS_IdleToRun : MonoBehaviour 
+	public class ABIdleToRun : MonoBehaviour 
 	{
-		public void AB_LFS_IdleToRunController() 
+		public void ABIdleToRunController() 
 		{
 			
 		}

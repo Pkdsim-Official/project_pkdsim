@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.mov
 	public class Z_LFS_Turning : MonoBehaviour	
 	{
 		Z_LFS_TurnLeft Z_LFS_turnleft;
-		Z_LFS_TurnRIght Z_LFS_turnright;
+		Z_LFS_TurnRight Z_LFS_turnright;
 
 		public void Z_LFS_TurningController()
 		{

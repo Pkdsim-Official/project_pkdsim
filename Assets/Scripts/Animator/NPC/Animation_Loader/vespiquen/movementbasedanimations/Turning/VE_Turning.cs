@@ -4,20 +4,20 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Turning
 {
-	public class VE_LFS_Turning : MonoBehaviour	
+	public class VE_Turning : MonoBehaviour	
 	{
-		VE_LFS_TurnLeft VE_LFS_turnleft;
-		VE_LFS_TurnRIght VE_LFS_turnright;
+		private VE_TurnLeft VE_turnleft;
+		private VE_TurnRight VE_turnright;
 
-		public void VE_LFS_TurningController()
+		public void VE_TurningController()
 		{
-			if (VE_LFS_turnleft != null)
+			if (VE_turnleft != null)
 			{
 				
 				Load_Ve_turnLeft();
 			}
 
-			if (VE_LFS_turnright != null)
+			if (VE_turnright != null)
 			{
 				Load_Ve_turnRight();
 			}
@@ -25,12 +25,12 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.T
 		}
 		private void Load_Ve_turnRight()
 		{
-			VE_LFS_turnright.VE_LFS_TurnRightController();
+			VE_turnright.VE_TurnRightController();
 		}
 		
 		private void Load_Ve_turnLeft()
 		{
-			VE_LFS_turnleft.VE_LFS_TurnLeftController();
+			VE_turnleft.VE_TurnLeftController();
 		}
 	}
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo
 {
-	public class Z_LFS_SittingTo : MonoBehaviour 
+	public class ZSittingTo : MonoBehaviour 
 	{
-		private Z_LFS_SittingToStartWalking Zoroark_LFS_sittingToStartWalking;
-		private Z_LFS_SittingToStanding Zoroark_LFS_sittingToStanding;
-		public void Z_LFS_SittingToController()
+		private ZSittingToStartWalking ZoroarksittingToStartWalking;
+		private ZSittingToStanding ZoroarksittingToStanding;
+		public void ZSittingToController()
 		{
-			Z_LFS_SittingToStartWalking();
-			Z_LFS_SittingToStanding();
+			ZSittingToStartWalking();
+			ZSittingToStanding();
 		}
-		private void Z_LFS_SittingToStartWalking()
+		private void ZSittingToStartWalking()
 		{
-			Zoroark_LFS_sittingToStartWalking.Z_LFS_SittingToStartWalkingController();
+			ZoroarksittingToStartWalking.ZSittingToStartWalkingController();
 		}
-		private void Z_LFS_SittingToStanding()
+		private void ZSittingToStanding()
 		{
-			Zoroark_LFS_sittingToStanding.Z_LFS_SittingToStandingController();
+			ZoroarksittingToStanding.ZSittingToStandingController();
 		}
 
 	}

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafe.StrafeLeft
 {
-	public class Z_LFS_StrafeLeft : MonoBehaviour 
+	public class Z_StrafeLeft : MonoBehaviour 
 	{
-		public void Z_LFS_StrafeLeftController() 
+		public void Z_StrafeLeftController() 
 		{
 			
 		}

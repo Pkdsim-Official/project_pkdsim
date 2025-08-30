@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.IdleTo
 {
-	public class PR_LFS_IdleTo : MonoBehaviour 
+	public class PRIdleTo : MonoBehaviour 
 	{
-		private PR_LFS_IdleToRun Primarina_LFS_IdleToRun;
-		private PR_LFS_IdleToWalk Primarina_LFS_IdleToWalk;
-		public void PR_LFS_IdleToController()
+		private PRIdleToRun PrimarinaIdleToRun;
+		private PRIdleToWalk PrimarinaIdleToWalk;
+		public void PRIdleToController()
 		{
-			Load_PR_LFS_IdleToRun();
-			Load_PR_LFS_IdleToWalk();
+			Load_PRIdleToRun();
+			Load_PRIdleToWalk();
 		}
-		private void Load_PR_LFS_IdleToRun()
+		private void Load_PRIdleToRun()
 		{
-			Primarina_LFS_IdleToRun.PR_LFS_IdleToRunController();
+			PrimarinaIdleToRun.PRIdleToRunController();
 		}
-		private void Load_PR_LFS_IdleToWalk()
+		private void Load_PRIdleToWalk()
 		{
-			Primarina_LFS_IdleToWalk.PR_LFS_IdleToWalkController();
+			PrimarinaIdleToWalk.PRIdleToWalkController();
 		}
 	}
 }

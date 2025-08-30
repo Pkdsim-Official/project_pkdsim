@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo
 {
-	public class GARC_LFS_IdleTo : MonoBehaviour 
+	public class GARCIdleTo : MonoBehaviour 
 	{
-		private GARC_LFS_IdleToRun Garchomp_LFS_IdleToRun;
-		private GARC_LFS_IdleToWalk Garchomp_LFS_IdleToWalk;
-		public void GARC_LFS_IdleToController()
+		private GARCIdleToRun GarchompIdleToRun;
+		private GARCIdleToWalk GarchompIdleToWalk;
+		public void GARCIdleToController()
 		{
-			Load_GARC_LFS_IdleToRun();
-			Load_GARC_LFS_IdleToWalk();
+			Load_GARCIdleToRun();
+			Load_GARCIdleToWalk();
 		}
-		private void Load_GARC_LFS_IdleToRun()
+		private void Load_GARCIdleToRun()
 		{
-			Garchomp_LFS_IdleToRun.GARC_LFS_IdleToRunController();
+			GarchompIdleToRun.GARCIdleToRunController();
 		}
-		private void Load_GARC_LFS_IdleToWalk()
+		private void Load_GARCIdleToWalk()
 		{
-			Garchomp_LFS_IdleToWalk.GARC_LFS_IdleToWalkController();
+			GarchompIdleToWalk.GARCIdleToWalkController();
 		}
 	}
 }

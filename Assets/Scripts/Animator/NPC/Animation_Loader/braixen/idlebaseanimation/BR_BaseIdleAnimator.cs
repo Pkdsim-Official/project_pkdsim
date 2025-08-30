@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.idlebaseanimation
 {
-	public class Braixen_LFS_IdleAnimatorController : MonoBehaviour 
+	public class BraixenIdleAnimatorController : MonoBehaviour 
 	{
-		private BR_LFS_IdleStanding BR_LFS_idlestanding;
+		private BRIdleStanding BRidlestanding;
 		
-		private BR_LFS_IdleSitting BR_LFS_idlesitting;
+		private BRIdleSitting BRidlesitting;
 		
-		public void	BR_LFS_IdleAnimatorController()
+		public void	BRIdleAnimatorController()
 		{
-			BR_LFS_IdleStandingAnimatorController();
-			BR_LFS_IdleSittingAnimatorController();
+			BRIdleStandingAnimatorController();
+			BRIdleSittingAnimatorController();
 		}
-		private void BR_LFS_IdleStandingAnimatorController()
+		private void BRIdleStandingAnimatorController()
 		{
-			BR_LFS_idlestanding.BR_LFS_IdleStandingController();
+			BRidlestanding.BRIdleStandingController();
 		}
-		private void BR_LFS_IdleSittingAnimatorController()
+		private void BRIdleSittingAnimatorController()
 		{
-			BR_LFS_idlesitting.BR_LFS_IdleSittingController();
+			BRidlesitting.BRIdleSittingController();
 		}
 	}
 }

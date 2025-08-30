@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations
 {
-	public class Beedrill_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class BeedrillCoverterAnimatorController : MonoBehaviour 
 	{
-		private BE_LFS_SittingTo Beedrill_LFS_sittingto;
+		private BESittingTo Beedrillsittingto;
 		
-		private BE_LFS_WalkingTo Beedrill_LFS_walkingto;
+		private BEWalkingTo Beedrillwalkingto;
 		
-		private BE_LFS_IdleTo Beedrill_LFS_idleto;
+		private BEIdleTo Beedrillidleto;
 
-		public void BE_LFS_CoverterToAnimatorController()
+		public void BECoverterToAnimatorController()
 		{
-			Beedrill_LFS_walkingto.BE_LFS_WalkingToController();
+			Beedrillwalkingto.BEWalkingToController();
 
-			Beedrill_LFS_idleto.BE_LFS_IdleToController();
+			Beedrillidleto.BEIdleToController();
 			
-			Beedrill_LFS_sittingto.BE_LFS_SittingToController();	
+			Beedrillsittingto.BESittingToController();	
 		}
 	}
 }

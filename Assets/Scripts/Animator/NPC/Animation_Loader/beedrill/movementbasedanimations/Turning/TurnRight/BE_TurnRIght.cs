@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning.TurnRight
 {
-    public class BE_LFS_TurnRIght : MonoBehaviour 
+    public class BE_TurnRight : MonoBehaviour 
     {
-        public void BE_LFS_TurnRightController()
+        public void BE_TurnRightController()
         {
 
         }

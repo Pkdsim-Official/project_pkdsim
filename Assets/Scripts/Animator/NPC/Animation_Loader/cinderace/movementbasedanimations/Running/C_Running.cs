@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Running
 {
-	public class C_LFS_Running : MonoBehaviour 
+	public class C_Running : MonoBehaviour 
 	{
-		public void C_LFS_RunningController() 
+		public void C_RunningController() 
 		{
 			
 		}

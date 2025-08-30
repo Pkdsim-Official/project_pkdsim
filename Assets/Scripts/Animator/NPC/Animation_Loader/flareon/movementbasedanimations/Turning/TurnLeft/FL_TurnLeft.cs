@@ -4,6 +4,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Flareon.movementbasedanimations.Tur
 {
 	public class FL_TurnLeft : MonoBehaviour 
 	{
-
+		public void FL_TurnLeftController()
+		{
+			
+		}
 	}
 }

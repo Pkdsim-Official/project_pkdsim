@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class NOI_LFS_SittingToStartWalking : MonoBehaviour 
+	public class NOISittingToStartWalking : MonoBehaviour 
 	{
-		public void NOI_LFS_SittingToStartWalkingController() 
+		public void NOISittingToStartWalkingController() 
 		{
 	
 		}

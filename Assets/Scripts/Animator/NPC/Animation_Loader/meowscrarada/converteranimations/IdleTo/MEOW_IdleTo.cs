@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo
 {
-	public class MEOW_LFS_IdleTo : MonoBehaviour 
+	public class MEOWIdleTo : MonoBehaviour 
 	{
-		private MEOW_LFS_IdleToRun Meowscarada_LFS_IdleToRun;
-		private MEOW_LFS_IdleToWalk Meowscarada_LFS_IdleToWalk;
+		private MEOWIdleToRun MeowscaradaIdleToRun;
+		private MEOWIdleToWalk MeowscaradaIdleToWalk;
 
-		public void MEOW_LFS_IdleToController()
+		public void MEOWIdleToController()
 		{
-			Load_MEOW_LFS_IdleToRun();
-			Load_MEOW_LFS_IdleToWalk();
+			Load_MEOWIdleToRun();
+			Load_MEOWIdleToWalk();
 		}
-		private void Load_MEOW_LFS_IdleToRun()
+		private void Load_MEOWIdleToRun()
 		{
-			Meowscarada_LFS_IdleToRun.MEOW_LFS_IdleToRunController();
+			MeowscaradaIdleToRun.MEOWIdleToRunController();
 		}
-		private void Load_MEOW_LFS_IdleToWalk()
+		private void Load_MEOWIdleToWalk()
 		{
-			Meowscarada_LFS_IdleToWalk.MEOW_LFS_IdleToWalkController();
+			MeowscaradaIdleToWalk.MEOWIdleToWalkController();
 		}
 	}
 }

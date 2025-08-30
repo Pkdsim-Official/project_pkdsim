@@ -8,7 +8,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Glaceon.movementbasedanimations.Str
 		private void GL_StrafeRightController()
 		{
 			Glaceon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Glaceon_Animator.Play("Strafe_Right");         // Start in the Idle animation state
+			Glaceon_Animator.Play("Strafe_Right");  // Start in the Idle animation state
 		}
 	}
 }

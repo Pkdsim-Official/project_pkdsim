@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.idlebaseanimation.IdleStanding
 {
-	public class T_LFS_IdleStanding : MonoBehaviour 
+	public class TIdleStanding : MonoBehaviour 
 	{
 		public Animator Tsareena_Animator;
-		public void T_LFS_IdleStandingController()
+		public void TIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Tsareena_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

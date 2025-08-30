@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo.IdleToRun
 {
-	public class C_LFS_IdleToRun : MonoBehaviour 
+	public class CIdleToRun : MonoBehaviour 
 	{
-		public void C_LFS_IdleToRunController() 
+		public void CIdleToRunController() 
 		{
 	
 		}

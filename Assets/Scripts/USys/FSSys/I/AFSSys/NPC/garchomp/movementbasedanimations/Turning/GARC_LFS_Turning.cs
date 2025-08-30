@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Garchomp.mo
 	public class GARC_LFS_Turning : MonoBehaviour	
 	{
 		private GARC_LFS_TurnLeft GARC_LFS_turnleft;
-		private GARC_LFS_TurnRIght GARC_LFS_turnright;
+		private GARC_LFS_TurnRight GARC_LFS_turnright;
 
 		public void GARC_LFS_TurningController()
 		{
@@ -18,7 +18,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Garchomp.mo
 			}
 			if (GARC_LFS_turnright == null)
 			{
-				GARC_LFS_turnright = GetComponent<GARC_LFS_TurnRIght>();
+				GARC_LFS_turnright = GetComponent<GARC_LFS_TurnRight>();
 				Load_GARC_turnRight();
 			}
 			

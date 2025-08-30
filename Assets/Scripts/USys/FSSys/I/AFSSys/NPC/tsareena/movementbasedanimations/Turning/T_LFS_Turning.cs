@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Tsareena.mo
 	public class T_LFS_Turning : MonoBehaviour	
 	{
 		private T_LFS_TurnLeft T_LFS_turnleft;
-		private T_LFS_TurnRIght T_LFS_turnright;
+		private T_LFS_TurnRight T_LFS_turnright;
 
 		public void T_LFS_TurningController()
 		{

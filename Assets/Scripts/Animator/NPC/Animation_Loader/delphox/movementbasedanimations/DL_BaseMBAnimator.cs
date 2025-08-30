@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations
 {
 	public class Delphox_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private DL_LFS_Jumping DL_MBA_Jumping;
+		private DL_Jumping DL_MBA_Jumping;
 		
-		private DL_LFS_Running DL_MBA_Running;
+		private DL_Running DL_MBA_Running;
 
 
-		private DL_LFS_Turning DL_MBA_Turning;
+		private DL_Turning DL_MBATurning;
 
-		private DL_LFS_Strafing DL_MBA_Strafe;
+		private DL_Strafing DL_MBA_Strafe;
 
-		public void DL_LFS_MovementAnimatorController()
+		public void DLMovementAnimatorController()
 		{
-			DL_MBA_Running.DL_LFS_RunningController();
+			DL_MBA_Running.DL_RunningController();
 
-			DL_MBA_Jumping.DL_LFS_JumpingController();
+			DL_MBA_Jumping.DL_JumpingController();
 
-			DL_MBA_Turning.DL_LFS_TurningController();	
+			DL_MBATurning.DL_TurningController();	
 
-			DL_MBA_Strafe.DL_LFS_StrafingController();
+			DL_MBA_Strafe.DL_StrafingController();
 		}
 	}
 }

@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToRun
 {
-	public class VE_LFS_IdleToRun : MonoBehaviour 
+	public class VEIdleToRun : MonoBehaviour 
 	{
 		private Animator Vespiquen_Animator;
-		public void VE_LFS_IdleToRunController()
+		public void VEIdleToRunController()
 		{
 			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
 			Vespiquen_Animator.Play("Idle_Sitting");  // Start in the Idle animation state

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo
 {
-	public class BL_LFS_IdleTo : MonoBehaviour 
+	public class BLIdleTo : MonoBehaviour 
 	{
-		private BL_LFS_IdleToRun Blaziken_LFS_IdleToRun;
-		private BL_LFS_IdleToWalk Blaziken_LFS_IdleToWalk;
-		public void BL_LFS_IdleToController()
+		private BLIdleToRun BlazikenIdleToRun;
+		private BLIdleToWalk BlazikenIdleToWalk;
+		public void BLIdleToController()
 		{
-			Load_BL_LFS_idleToRun();
-			Load_BL_LFS_idleToWalk();
+			Load_BLidleToRun();
+			Load_BLidleToWalk();
 		}
-		private void Load_BL_LFS_idleToRun()
+		private void Load_BLidleToRun()
 		{
-			Blaziken_LFS_IdleToRun.BL_LFS_IdleToRunController();
+			BlazikenIdleToRun.BLIdleToRunController();
 		}
-		private void Load_BL_LFS_idleToWalk()
+		private void Load_BLidleToWalk()
 		{
-			Blaziken_LFS_IdleToWalk.BL_LFS_IdleToWalkController();
+			BlazikenIdleToWalk.BLIdleToWalkController();
 		}
 	}
 }

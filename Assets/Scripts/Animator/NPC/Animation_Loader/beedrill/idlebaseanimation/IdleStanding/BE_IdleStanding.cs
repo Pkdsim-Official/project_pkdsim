@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.idlebaseanimation.IdleStanding
 {
-	public class BE_LFS_IdleStanding : MonoBehaviour 
+	public class BEIdleStanding : MonoBehaviour 
 	{
 		public Animator Beedrill_Animator;
-		public void BE_LFS_IdleStandingController()
+		public void BEIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Beedrill_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.m
 	public class PH_LFS_Turning : MonoBehaviour	
 	{
 		PH_LFS_TurnLeft PH_LFS_turnleft;
-		PH_LFS_TurnRIght PH_LFS_turnright;
+		PH_LFS_TurnRight PH_LFS_turnright;
 
 		public void PH_LFS_TurningController()
 		{

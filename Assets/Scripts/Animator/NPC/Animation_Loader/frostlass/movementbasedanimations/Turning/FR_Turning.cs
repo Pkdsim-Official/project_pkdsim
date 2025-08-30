@@ -4,34 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Turning
 {
-	public class FR_LFS_Turning : MonoBehaviour	
+	public class FR_Turning : MonoBehaviour	
 	{
-		private FR_LFS_TurnLeft FR_LFS_turnleft;
-		private FR_LFS_TurnRIght FR_LFS_turnright;
+		private FR_TurnLeft FR_turnleft;
+		private FR_TurnRight FR_turnright;
 
-		public void FR_LFS_TurningController()
+		public void FR_TurningController()
 		{
-			if (FR_LFS_turnleft == null)
+			if (FR_turnleft == null)
 			{
-				FR_LFS_turnleft = GetComponent<FR_LFS_TurnLeft>();
 				Load_FR_turnLeft();
 			}
-			if (FR_LFS_turnright == null)
+			if (FR_turnright == null)
 			{
-				FR_LFS_turnright = GetComponent<FR_LFS_TurnRIght>();
 				Load_FR_turnRight();
 			}
-			
-
 		}
+		
 		private void Load_FR_turnRight()
 		{
-			FR_LFS_turnright.FR_LFS_TurnRightController();
+			FR_turnright.FR_TurnRightController();
 		}
 		
 		private void Load_FR_turnLeft()
 		{
-			FR_LFS_turnleft.FR_LFS_TurnLeftController();
+			FR_turnleft.FR_TurnLeftController();
 		}
 	}
 }

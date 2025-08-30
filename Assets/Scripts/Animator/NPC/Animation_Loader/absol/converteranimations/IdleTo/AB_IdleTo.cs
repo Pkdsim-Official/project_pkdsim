@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.IdleTo
 {
-	public class AB_LFS_IdleTo : MonoBehaviour 
+	public class ABIdleTo : MonoBehaviour 
 	{
 
-		private AB_LFS_IdleToRun Absol_LFS_IdleToRun;
-		private AB_LFS_IdleToWalk Absol_LFS_IdleToWalk;
-		public void AB_LFS_IdleToController()
+		private ABIdleToRun AbsolIdleToRun;
+		private ABIdleToWalk AbsolIdleToWalk;
+		public void ABIdleToController()
 		{
-			Load_AB_LFS_idleToRun();
-			Load_AB_LFS_idleToWalk();
+			Load_ABidleToRun();
+			Load_ABidleToWalk();
 		}
-		private void Load_AB_LFS_idleToRun()
+		private void Load_ABidleToRun()
 		{
-			Absol_LFS_IdleToRun.AB_LFS_IdleToRunController();
+			AbsolIdleToRun.ABIdleToRunController();
 		}
-		private void Load_AB_LFS_idleToWalk()
+		private void Load_ABidleToWalk()
 		{
-			Absol_LFS_IdleToWalk.AB_LFS_IdleToWalkController();
+			AbsolIdleToWalk.ABIdleToWalkController();
 		}
 	}
 }

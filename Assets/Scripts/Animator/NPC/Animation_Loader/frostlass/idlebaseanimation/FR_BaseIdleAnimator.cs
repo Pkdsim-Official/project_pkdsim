@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.idlebaseanimation
 {
-	public class Frostlass_LFS_IdleAnimatorController : MonoBehaviour 
+	public class FrostlassIdleAnimatorController : MonoBehaviour 
 	{
-		private FR_LFS_IdleStanding Frostlass_LFS_idlestanding;
+		private FRIdleStanding Frostlassidlestanding;
 		
-		private FR_LFS_IdleSitting Frostlass_LFS_idlesitting;
+		private FRIdleSitting Frostlassidlesitting;
 		
-		public void	FR_LFS_IdleAnimatorController()
+		public void	FRIdleAnimatorController()
 		{
-			FR_LFS_IdleStandingAnimatorController();
-			FR_LFS_IdleSittingAnimatorController();
+			FRIdleStandingAnimatorController();
+			FRIdleSittingAnimatorController();
 		}
-		private void FR_LFS_IdleStandingAnimatorController()
+		private void FRIdleStandingAnimatorController()
 		{
-			Frostlass_LFS_idlestanding.FR_LFS_IdleStandingController();
+			Frostlassidlestanding.FRIdleStandingController();
 		}
-		private void FR_LFS_IdleSittingAnimatorController()
+		private void FRIdleSittingAnimatorController()
 		{
-			Frostlass_LFS_idlesitting.FR_LFS_IdleSittingController();
+			Frostlassidlesitting.FRIdleSittingController();
 		}
 	}
 }

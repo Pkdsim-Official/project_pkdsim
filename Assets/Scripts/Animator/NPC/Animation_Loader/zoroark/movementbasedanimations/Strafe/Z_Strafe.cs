@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafe
 {
-	public class Z_LFS_Strafing : MonoBehaviour 
+	public class Z_Strafing : MonoBehaviour 
 	{
-		private Z_LFS_StrafeLeft Z_strafeleft;
+		private Z_StrafeLeft Z_strafeleft;
 		
-		private Z_LFS_StrafeRight Z_straferight;
+		private Z_StrafeRight Z_straferight;
 
-		public void Z_LFS_StrafingController()
+		public void Z_StrafingController()
 		{
 			if (Z_strafeleft == null)
 			{
-				Z_strafeleft = GetComponent<Z_LFS_StrafeLeft>();
-				Load_Z_LFS_StrafeLeft();
+				Load_Z_StrafeLeft();
 			}
 			if (Z_straferight == null)
 			{
-				Z_straferight = GetComponent<Z_LFS_StrafeRight>();
-				Load_Z_LFS_StrafeRight();
+				Load_Z_StrafeRight();
 			}
 			
 
 		}
-		private void Load_Z_LFS_StrafeRight()
+		private void Load_Z_StrafeRight()
 		{
-			Z_straferight.Z_LFS_StrafeRightController();
+			Z_straferight.Z_StrafeRightController();
 		}
 		
-		private void Load_Z_LFS_StrafeLeft()
+		private void Load_Z_StrafeLeft()
 		{
-			Z_strafeleft.Z_LFS_StrafeLeftController();
+			Z_strafeleft.Z_StrafeLeftController();
 		}
 	}
 }

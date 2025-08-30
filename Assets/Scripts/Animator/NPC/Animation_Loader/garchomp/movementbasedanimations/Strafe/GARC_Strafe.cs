@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.movementbasedanimations.Strafe
 {
-	public class GARC_LFS_Strafing : MonoBehaviour 
+	public class GARC_Strafing : MonoBehaviour 
 	{
-		private GARC_LFS_StrafeLeft GARC_strafeleft;
+		private GARC_StrafeLeft GARC_strafeleft;
 		
-		private GARC_LFS_StrafeRight GARC_straferight;
+		private GARC_StrafeRight GARC_straferight;
 
-		public void GARC_LFS_StrafingController()
+		public void GARC_StrafingController()
 		{
 			if (GARC_strafeleft == null)
 			{
-				GARC_strafeleft = GetComponent<GARC_LFS_StrafeLeft>();
-				Load_GARC_LFS_StrafeLeft();
+				Load_GARC_StrafeLeft();
 			}
 			if (GARC_straferight == null)
 			{
-				GARC_straferight = GetComponent<GARC_LFS_StrafeRight>();
-				Load_GARC_LFS_StrafeRight();
+				Load_GARC_StrafeRight();
 			}
 			
 
 		}
-		private void Load_GARC_LFS_StrafeRight()
+		private void Load_GARC_StrafeRight()
 		{
-			GARC_straferight.GARC_LFS_StrafeRightController();
+			GARC_straferight.GARC_StrafeRightController();
 		}
 		
-		private void Load_GARC_LFS_StrafeLeft()
+		private void Load_GARC_StrafeLeft()
 		{
-			GARC_strafeleft.GARC_LFS_StrafeLeftController();
+			GARC_strafeleft.GARC_StrafeLeftController();
 		}
 	}
 }

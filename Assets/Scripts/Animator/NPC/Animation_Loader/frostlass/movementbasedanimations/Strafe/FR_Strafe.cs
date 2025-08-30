@@ -4,35 +4,35 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafe
 {
-	public class FR_LFS_Strafing : MonoBehaviour 
+	public class FR_Strafing : MonoBehaviour 
 	{
-		private FR_LFS_StrafeLeft FR_strafeleft;
+		private FRStrafeLeft FR_strafeleft;
 		
-		private FR_LFS_StrafeRight FR_straferight;
+		private FRStrafeRight FR_straferight;
 
-		public void FR_LFS_StrafingController()
+		public void FR_StrafingController()
 		{
 			if (FR_strafeleft == null)
 			{
-				FR_strafeleft = GetComponent<FR_LFS_StrafeLeft>();
-				Load_FR_LFS_StrafeLeft();
+				FR_strafeleft = GetComponent<FRStrafeLeft>();
+				Load_FRStrafeLeft();
 			}
 			if (FR_straferight == null)
 			{
-				FR_straferight = GetComponent<FR_LFS_StrafeRight>();
-				Load_FR_LFS_StrafeRight();
+				FR_straferight = GetComponent<FRStrafeRight>();
+				Load_FRStrafeRight();
 			}
 			
 
 		}
-		private void Load_FR_LFS_StrafeRight()
+		private void Load_FRStrafeRight()
 		{
-			FR_straferight.FR_LFS_StrafeRightController();
+			FR_straferight.FRStrafeRightController();
 		}
 		
-		private void Load_FR_LFS_StrafeLeft()
+		private void Load_FRStrafeLeft()
 		{
-			FR_strafeleft.FR_LFS_StrafeLeftController();
+			FR_strafeleft.FRStrafeLeftController();
 		}
 	}
 }

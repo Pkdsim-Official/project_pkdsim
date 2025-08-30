@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations.SittingTo
 {
-	public class BR_LFS_SittingTo : MonoBehaviour 
+	public class BRSittingTo : MonoBehaviour 
 	{
-		private BR_LFS_SittingToStartWalking Braixen_LFS_sittingToStartWalking;
-		private BR_LFS_SittingToStanding Braixen_LFS_sittingToStanding;
-		public void BR_LFS_SittingToController()
+		private BRSittingToStartWalking BraixensittingToStartWalking;
+		private BRSittingToStanding BraixensittingToStanding;
+		public void BRSittingToController()
 		{
-			BR_LFS_SittingToStartWalking();
-			BR_LFS_SittingToStanding();
+			BRSittingToStartWalking();
+			BRSittingToStanding();
 		}
-		private void BR_LFS_SittingToStartWalking()
+		private void BRSittingToStartWalking()
 		{
-			Braixen_LFS_sittingToStartWalking.BR_LFS_SittingToStartWalkingController();
+			BraixensittingToStartWalking.BRSittingToStartWalkingController();
 		}
-		private void BR_LFS_SittingToStanding()
+		private void BRSittingToStanding()
 		{
-			Braixen_LFS_sittingToStanding.BR_LFS_SittingToStandingController();
+			BraixensittingToStanding.BRSittingToStandingController();
 		}
 
 	}

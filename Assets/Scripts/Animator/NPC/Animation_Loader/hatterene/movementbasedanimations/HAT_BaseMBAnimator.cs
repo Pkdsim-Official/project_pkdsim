@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations
 {
 	public class Hatterene_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private HAT_LFS_Jumping Hatterene_MBA_Jumping;
+		private HAT_Jumping Hatterene_MBA_Jumping;
 		
-		private HAT_LFS_Running Hatterene_MBA_Running;
+		private HAT_Running Hatterene_MBA_Running;
 
 
-		private HAT_LFS_Turning Hatterene_MBA_Turning;
+		private HAT_Turning Hatterene_MBA_Turning;
 
-		private HAT_LFS_Strafing Hatterene_MBA_Strafe;
+		private HAT_Strafing Hatterene_MBA_Strafe;
 
-		public void HAT_LFS_MovementAnimatorController()
+		public void HATMovementAnimatorController()
 		{
-			Hatterene_MBA_Running.HAT_LFS_RunningController();
+			Hatterene_MBA_Running.HAT_RunningController();
 
-			Hatterene_MBA_Jumping.HAT_LFS_JumpingController();
+			Hatterene_MBA_Jumping.HAT_JumpingController();
 
-			Hatterene_MBA_Turning.HAT_LFS_TurningController();	
+			Hatterene_MBA_Turning.HAT_TurningController();	
 
-			Hatterene_MBA_Strafe.HAT_LFS_StrafingController();
+			Hatterene_MBA_Strafe.HAT_StrafingController();
 		}
 	}
 }

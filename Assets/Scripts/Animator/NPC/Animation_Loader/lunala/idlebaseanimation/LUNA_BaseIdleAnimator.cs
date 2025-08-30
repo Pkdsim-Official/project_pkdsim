@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.idlebaseanimation
 {
-	public class Lunala_LFS_IdleAnimatorController : MonoBehaviour 
+	public class LunalaIdleAnimatorController : MonoBehaviour 
 	{
-		private LUNA_LFS_IdleStanding Lunala_LFS_idlestanding;
+		private LUNAIdleStanding Lunalaidlestanding;
 		
-		private LUNA_LFS_IdleSitting Lunala_LFS_idlesitting;
+		private LUNAIdleSitting Lunalaidlesitting;
 		
-		public void	LUNA_LFS_IdleAnimatorController()
+		public void	LUNAIdleAnimatorController()
 		{
-			LUNA_LFS_IdleStandingAnimatorController();
-			LUNA_LFS_IdleSittingAnimatorController();
+			LUNAIdleStandingAnimatorController();
+			LUNAIdleSittingAnimatorController();
 		}
-		private void LUNA_LFS_IdleStandingAnimatorController()
+		private void LUNAIdleStandingAnimatorController()
 		{
-			Lunala_LFS_idlestanding.LUNA_LFS_IdleStandingController();
+			Lunalaidlestanding.LUNAIdleStandingController();
 		}
-		private void LUNA_LFS_IdleSittingAnimatorController()
+		private void LUNAIdleSittingAnimatorController()
 		{
-			Lunala_LFS_idlesitting.LUNA_LFS_IdleSittingController();
+			Lunalaidlesitting.LUNAIdleSittingController();
 		}
 	}
 }

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations
 {
-	public class Primarina_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class PrimarinaCoverterAnimatorController : MonoBehaviour 
 	{
-		private PR_LFS_SittingTo Primarina_LFS_sittingto;
+		private PRSittingTo Primarinasittingto;
 		
-		private PR_LFS_WalkingTo Primarina_LFS_walkingto;
+		private PRWalkingTo Primarinawalkingto;
 		
-		private PR_LFS_IdleTo Primarina_LFS_idleto;
+		private PRIdleTo Primarinaidleto;
 
-		public void PR_LFS_CoverterToAnimatorController()
+		public void PRCoverterToAnimatorController()
 		{
-			Primarina_LFS_walkingto.PR_LFS_WalkingToController();
+			Primarinawalkingto.PRWalkingToController();
 
-			Primarina_LFS_idleto.PR_LFS_IdleToController();
+			Primarinaidleto.PRIdleToController();
 			
-			Primarina_LFS_sittingto.PR_LFS_SittingToController();	
+			Primarinasittingto.PRSittingToController();	
 		}
 	}
 }

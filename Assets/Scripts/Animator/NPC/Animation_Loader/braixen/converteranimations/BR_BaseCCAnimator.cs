@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations
 {
-	public class Braixen_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class BraixenCoverterAnimatorController : MonoBehaviour 
 	{
-		private BR_LFS_SittingTo Braixen_LFS_sittingto;
+		private BRSittingTo Braixensittingto;
 		
-		private BR_LFS_WalkingTo Braixen_LFS_walkingto;
+		private BRWalkingTo Braixenwalkingto;
 		
-		private BR_LFS_IdleTo Braixen_LFS_idleto;
+		private BRIdleTo Braixenidleto;
 
-		public void BR_LFS_CoverterToAnimatorController()
+		public void BRCoverterToAnimatorController()
 		{
-			Braixen_LFS_walkingto.BR_LFS_WalkingToController();
+			Braixenwalkingto.BRWalkingToController();
 
-			Braixen_LFS_idleto.BR_LFS_IdleToController();
+			Braixenidleto.BRIdleToController();
 			
-			Braixen_LFS_sittingto.BR_LFS_SittingToController();	
+			Braixensittingto.BRSittingToController();	
 		}
 	}
 }

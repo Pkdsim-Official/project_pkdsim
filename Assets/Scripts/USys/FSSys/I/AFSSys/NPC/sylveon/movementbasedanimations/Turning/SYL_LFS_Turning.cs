@@ -8,7 +8,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.mov
 	public class SYL_LFS_Turning : MonoBehaviour	
 	{
 		SYL_LFS_TurnLeft SYL_LFS_turnleft;
-		SYL_LFS_TurnRIght SYL_LFS_turnright;
+		SYL_LFS_TurnRight SYL_LFS_turnright;
 
 		public void SYL_LFS_TurningController()
 		{

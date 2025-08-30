@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.converteranimations
 {
-	public class Tsareena_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class TsareenaCoverterAnimatorController : MonoBehaviour 
 	{
-		private T_LFS_SittingTo Tsareena_LFS_sittingto;
+		private TSittingTo Tsareenasittingto;
 		
-		private T_LFS_WalkingTo Tsareena_LFS_walkingto;
+		private TWalkingTo Tsareenawalkingto;
 		
-		private T_LFS_IdleTo Tsareena_LFS_idleto;
+		private TIdleTo Tsareenaidleto;
 
-		public void T_LFS_CoverterToAnimatorController()
+		public void TCoverterToAnimatorController()
 		{
-			Tsareena_LFS_walkingto.T_LFS_WalkingToController();
+			Tsareenawalkingto.TWalkingToController();
 
-			Tsareena_LFS_idleto.T_LFS_IdleToController();
+			Tsareenaidleto.TIdleToController();
 			
-			Tsareena_LFS_sittingto.T_LFS_SittingToController();	
+			Tsareenasittingto.TSittingToController();	
 		}
 	}
 }

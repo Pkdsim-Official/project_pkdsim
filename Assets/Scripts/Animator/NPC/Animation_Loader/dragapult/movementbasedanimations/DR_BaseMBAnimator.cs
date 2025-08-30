@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations
 {
 	public class Dragapult_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private DR_LFS_Jumping DR_MBA_Jumping;
+		private DR_Jumping DR_MBA_Jumping;
 		
-		private DR_LFS_Running DR_MBA_Running;
+		private DR_Running DR_MBA_Running;
 
 
-		private DR_LFS_Turning DR_MBA_Turning;
+		private DR_Turning DR_MBA_Turning;
 
-		private DR_LFS_Strafing DR_MBA_Strafe;
+		private DR_Strafing DR_MBA_Strafe;
 
-		public void DR_LFS_MovementAnimatorController()
+		public void DRMovementAnimatorController()
 		{
-			DR_MBA_Running.DR_LFS_RunningController();
+			DR_MBA_Running.DR_RunningController();
 
-			DR_MBA_Jumping.DR_LFS_JumpingController();
+			DR_MBA_Jumping.DR_JumpingController();
 
-			DR_MBA_Turning.DR_LFS_TurningController();	
+			DR_MBA_Turning.DR_TurningController();	
 
-			DR_MBA_Strafe.DR_LFS_StrafingController();
+			DR_MBA_Strafe.DR_StrafingController();
 		}
 	}
 }

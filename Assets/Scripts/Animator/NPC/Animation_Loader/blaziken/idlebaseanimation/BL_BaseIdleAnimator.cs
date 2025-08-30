@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.idlebaseanimation
 {
-	public class Blaziken_LFS_IdleAnimatorController : MonoBehaviour 
+	public class BlazikenIdleAnimatorController : MonoBehaviour 
 	{
-		private BL_LFS_IdleStanding BL_LFS_idlestanding;
+		private BLIdleStanding BLidlestanding;
 		
-		private BL_LFS_IdleSitting BL_LFS_idlesitting;
+		private BLIdleSitting BLidlesitting;
 		
-		public void	BL_LFS_IdleAnimatorController()
+		public void	BLIdleAnimatorController()
 		{
-			BL_LFS_IdleStandingAnimatorController();
-			BL_LFS_IdleSittingAnimatorController();
+			BLIdleStandingAnimatorController();
+			BLIdleSittingAnimatorController();
 		}
-		private void BL_LFS_IdleStandingAnimatorController()
+		private void BLIdleStandingAnimatorController()
 		{
-			BL_LFS_idlestanding.BL_LFS_IdleStandingController();
+			BLidlestanding.BLIdleStandingController();
 		}
-		private void BL_LFS_IdleSittingAnimatorController()
+		private void BLIdleSittingAnimatorController()
 		{
-			BL_LFS_idlesitting.BL_LFS_IdleSittingController();
+			BLidlesitting.BLIdleSittingController();
 		}
 	}
 }

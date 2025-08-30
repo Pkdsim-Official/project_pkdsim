@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class Z_LFS_WalkingToStanding : MonoBehaviour 
+	public class ZWalkingToStanding : MonoBehaviour 
 	{
 		
-		public void Z_LFS_WalkingToStandingController() 
+		public void ZWalkingToStandingController() 
 		{
 			
 		}

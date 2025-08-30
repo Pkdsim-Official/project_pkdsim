@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.WalkingTo
 {
-	public class AB_LFS_WalkingTo : MonoBehaviour 
+	public class ABWalkingTo : MonoBehaviour 
 	{
-		private AB_LFS_WalkingToSitting Absol_LFS_WalkingToSitting;
-		private AB_LFS_WalkingToStanding Absol_LFS_WalkingToStanding;
-		public void AB_LFS_WalkingToController()
+		private ABWalkingToSitting AbsolWalkingToSitting;
+		private ABWalkingToStanding AbsolWalkingToStanding;
+		public void ABWalkingToController()
 		{
-			AB_LFS_WalkingToStartWalking();
-			AB_LFS_WalkingToStanding();
+			ABWalkingToStartWalking();
+			ABWalkingToStanding();
 		}
-		private void AB_LFS_WalkingToStartWalking()
+		private void ABWalkingToStartWalking()
 		{
-			Absol_LFS_WalkingToSitting.AB_LFS_WalkingToSittingController();
+			AbsolWalkingToSitting.ABWalkingToSittingController();
 		}
-		private void AB_LFS_WalkingToStanding()
+		private void ABWalkingToStanding()
 		{
-			Absol_LFS_WalkingToStanding.AB_LFS_WalkingToStandingController();
+			AbsolWalkingToStanding.ABWalkingToStandingController();
 		}
 	}
 }

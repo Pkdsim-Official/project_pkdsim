@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations
 {
-	public class Cinderace_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class CinderaceCoverterAnimatorController : MonoBehaviour 
 	{
-		private C_LFS_SittingTo Cinderace_LFS_sittingto;
+		private CSittingTo Cinderacesittingto;
 		
-		private C_LFS_WalkingTo Cinderace_LFS_walkingto;
+		private CWalkingTo Cinderacewalkingto;
 		
-		private C_LFS_IdleTo Cinderace_LFS_idleto;
+		private CIdleTo Cinderaceidleto;
 
-		public void C_LFS_CoverterToAnimatorController()
+		public void CCoverterToAnimatorController()
 		{
-			Cinderace_LFS_walkingto.C_LFS_WalkingToController();
+			Cinderacewalkingto.CWalkingToController();
 
-			Cinderace_LFS_idleto.C_LFS_IdleToController();
+			Cinderaceidleto.CIdleToController();
 			
-			Cinderace_LFS_sittingto.C_LFS_SittingToController();	
+			Cinderacesittingto.CSittingToController();	
 		}
 	}
 }

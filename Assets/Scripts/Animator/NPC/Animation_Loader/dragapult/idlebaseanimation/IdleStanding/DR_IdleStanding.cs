@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.idlebaseanimation.IdleStanding
 {
-	public class DR_LFS_IdleStanding : MonoBehaviour 
+	public class DRIdleStanding : MonoBehaviour 
 	{
 		public Animator Dragapult_Animator;
-		public void DR_LFS_IdleStandingController()
+		public void DRIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Dragapult_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

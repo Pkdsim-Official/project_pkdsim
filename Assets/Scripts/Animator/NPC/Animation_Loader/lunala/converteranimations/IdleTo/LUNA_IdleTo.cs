@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.converteranimations.IdleTo
 {
-	public class LUNA_LFS_IdleTo : MonoBehaviour 
+	public class LUNAIdleTo : MonoBehaviour 
 	{
-		private LUNA_LFS_IdleToRun Lunala_LFS_IdleToRun;
-		private LUNA_LFS_IdleToWalk Lunala_LFS_IdleToWalk;
+		private LUNAIdleToRun LunalaIdleToRun;
+		private LUNAIdleToWalk LunalaIdleToWalk;
 
-		public void LUNA_LFS_IdleToController()
+		public void LUNAIdleToController()
 		{
-			Load_LUNA_LFS_idleToRun();
-			Load_LUNA_LFS_idleToWalk();
+			Load_LUNAidleToRun();
+			Load_LUNAidleToWalk();
 		}
-		private void Load_LUNA_LFS_idleToRun()
+		private void Load_LUNAidleToRun()
 		{
-			Lunala_LFS_IdleToRun.LUNA_LFS_IdleToRunController();
+			LunalaIdleToRun.LUNAIdleToRunController();
 		}
-		private void Load_LUNA_LFS_idleToWalk()
+		private void Load_LUNAidleToWalk()
 		{
-			Lunala_LFS_IdleToWalk.LUNA_LFS_IdleToWalkController();
+			LunalaIdleToWalk.LUNAIdleToWalkController();
 		}
 	}
 }

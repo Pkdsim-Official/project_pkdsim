@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Jumping
 {
-	public class VE_LFS_Jumping : MonoBehaviour 
+	public class VE_Jumping : MonoBehaviour 
 	{
-		public void VE_LFS_JumpingController() 
+		public void VE_JumpingController() 
 		{
 			
 		}

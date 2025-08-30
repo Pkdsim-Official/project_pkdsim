@@ -8,7 +8,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.mov
 	{
 		LE_LFS_TurnLeft LEAF_LFS_turnleft;
 
-		LE_LFS_TurnRIght LEAF_LFS_turnright;
+		LE_LFS_TurnRight LEAF_LFS_turnright;
 
 		public void LE_LFS_TurningController()
 		{

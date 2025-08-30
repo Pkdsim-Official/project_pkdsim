@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations
 {
 	public class Lunala_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private LUNA_LFS_Jumping Lunala_MBA_Jumping;
+		private LUNA_Jumping Lunala_MBA_Jumping;
 		
-		private LUNA_LFS_Running Lunala_MBA_Running;
+		private LUNA_Running Lunala_MBA_Running;
 
 
-		private LUNA_LFS_Turning Lunala_MBA_Turning;
+		private LUNA_Turning Lunala_MBA_Turning;
 
-		private LUNA_LFS_Strafing Lunala_MBA_Strafe;
+		private LUNA_Strafing Lunala_MBA_Strafe;
 
-		public void LUNA_LFS_MovementAnimatorController()
+		public void LUNAMovementAnimatorController()
 		{
-			Lunala_MBA_Running.LUNA_LFS_RunningController();
+			Lunala_MBA_Running.LUNA_RunningController();
 
-			Lunala_MBA_Jumping.LUNA_LFS_JumpingController();
+			Lunala_MBA_Jumping.LUNA_JumpingController();
 
-			Lunala_MBA_Turning.LUNA_LFS_TurningController();	
+			Lunala_MBA_Turning.LUNA_TurningController();	
 
-			Lunala_MBA_Strafe.LUNA_LFS_StrafingController();
+			Lunala_MBA_Strafe.LUNA_StrafingController();
 		}
 	}
 }

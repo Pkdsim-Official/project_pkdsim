@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.idlebaseanimation.IdleStanding
 {
-	public class HAT_LFS_IdleStanding : MonoBehaviour 
+	public class HATIdleStanding : MonoBehaviour 
 	{
 		public Animator Hatterene_Animator;
-		public void HAT_LFS_IdleStandingController()
+		public void HATIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Hatterene_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

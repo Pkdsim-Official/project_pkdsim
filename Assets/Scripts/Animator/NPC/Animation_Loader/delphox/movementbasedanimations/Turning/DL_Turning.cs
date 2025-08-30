@@ -4,21 +4,19 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning
 {
-	public class DL_LFS_Turning : MonoBehaviour	
+	public class DL_Turning : MonoBehaviour	
 	{
-		DL_LFS_TurnLeft DL_LFS_turnleft;
-		DL_LFS_TurnRIght DL_LFS_turnright;
+		private DL_TurnLeft DL_turnleft;
+		private DL_TurnRight DL_turnright;
 
-		public void DL_LFS_TurningController()
+		public void DL_TurningController()
 		{
-			if (DL_LFS_turnleft == null)
+			if (DL_turnleft == null)
 			{
-				DL_LFS_turnleft = GetComponent<DL_LFS_TurnLeft>();
 				Load_DL_turnLeft();
 			}
-			if (DL_LFS_turnright == null)
+			if (DL_turnright == null)
 			{
-				DL_LFS_turnright = GetComponent<DL_LFS_TurnRIght>();
 				Load_DL_turnRight();
 			}
 			
@@ -26,12 +24,12 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Tur
 		}
 		private void Load_DL_turnRight()
 		{
-			DL_LFS_turnright.DL_LFS_TurnRightController();
+			DL_turnright.DL_TurnRightController();
 		}
 		
 		private void Load_DL_turnLeft()
 		{
-			DL_LFS_turnleft.DL_LFS_TurnLeftController();
+			DL_turnleft.DL_TurnLeftController();
 		}
 	}
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo
 {
-	public class DR_LFS_SittingTo : MonoBehaviour 
+	public class DRSittingTo : MonoBehaviour 
 	{
-		private DR_LFS_SittingToStartWalking Dragapult_LFS_sittingToStartWalking;
-		private DR_LFS_SittingToStanding Dragapult_LFS_sittingToStanding;
-		public void DR_LFS_SittingToController()
+		private DRSittingToStartWalking DragapultsittingToStartWalking;
+		private DRSittingToStanding DragapultsittingToStanding;
+		public void DRSittingToController()
 		{
-			DR_LFS_SittingToStartWalking();
-			DR_LFS_SittingToStanding();
+			DRSittingToStartWalking();
+			DRSittingToStanding();
 		}
-		private void DR_LFS_SittingToStartWalking()
+		private void DRSittingToStartWalking()
 		{
-			Dragapult_LFS_sittingToStartWalking.DR_LFS_SittingToStartWalkingController();
+			DragapultsittingToStartWalking.DRSittingToStartWalkingController();
 		}
-		private void DR_LFS_SittingToStanding()
+		private void DRSittingToStanding()
 		{
-			Dragapult_LFS_sittingToStanding.DR_LFS_SittingToStandingController();
+			DragapultsittingToStanding.DRSittingToStandingController();
 		}
 	}
 }

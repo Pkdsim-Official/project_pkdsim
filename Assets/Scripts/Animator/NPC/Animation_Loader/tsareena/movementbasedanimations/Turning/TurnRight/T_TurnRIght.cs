@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Turning.TurnRight
 {
-    public class T_LFS_TurnRIght : MonoBehaviour 
+    public class T_TurnRight : MonoBehaviour 
     {
-        public void T_LFS_TurnRightController()
+        public void T_TurnRightController()
         {
 
         }

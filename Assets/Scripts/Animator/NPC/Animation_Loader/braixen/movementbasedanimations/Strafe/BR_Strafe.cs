@@ -4,35 +4,35 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafe
 {
-	public class BR_LFS_Strafing : MonoBehaviour 
+	public class BR_Strafing : MonoBehaviour 
 	{
-		private BR_LFS_StrafeLeft BR_strafeleft;
+		private BRStrafeLeft BR_strafeleft;
 		
-		private BR_LFS_StrafeRight BR_straferight;
+		private BRStrafeRight BR_straferight;
 
-		public void BR_LFS_StrafingController()
+		public void BR_StrafingController()
 		{
 			if (BR_strafeleft == null)
 			{
-				BR_strafeleft = GetComponent<BR_LFS_StrafeLeft>();
-				Load_BR_LFS_StrafeLeft();
+				BR_strafeleft = GetComponent<BRStrafeLeft>();
+				Load_BRStrafeLeft();
 			}
 			if (BR_straferight == null)
 			{
-				BR_straferight = GetComponent<BR_LFS_StrafeRight>();
-				Load_BR_LFS_StrafeRight();
+				BR_straferight = GetComponent<BRStrafeRight>();
+				Load_BRStrafeRight();
 			}
 			
 
 		}
-		private void Load_BR_LFS_StrafeRight()
+		private void Load_BRStrafeRight()
 		{
-			BR_straferight.BR_LFS_StrafeRightController();
+			BR_straferight.BRStrafeRightController();
 		}
 		
-		private void Load_BR_LFS_StrafeLeft()
+		private void Load_BRStrafeLeft()
 		{
-			BR_strafeleft.BR_LFS_StrafeLeftController();
+			BR_strafeleft.BRStrafeLeftController();
 		}
 	}
 }

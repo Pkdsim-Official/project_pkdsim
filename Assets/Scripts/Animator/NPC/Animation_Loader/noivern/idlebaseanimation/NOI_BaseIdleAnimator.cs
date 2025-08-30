@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.idlebaseanimation
 {
-	public class Noivern_LFS_IdleAnimatorController : MonoBehaviour 
+	public class NoivernIdleAnimatorController : MonoBehaviour 
 	{
-		private NOI_LFS_IdleStanding Noivern_LFS_idlestanding;
+		private NOIIdleStanding Noivernidlestanding;
 		
-		private NOI_LFS_IdleSitting Noivern_LFS_idlesitting;
+		private NOIIdleSitting Noivernidlesitting;
 		
-		public void	NOI_LFS_IdleAnimatorController()
+		public void	NOIIdleAnimatorController()
 		{
-			NOI_LFS_IdleStandingAnimatorController();
-			NOI_LFS_IdleSittingAnimatorController();
+			NOIIdleStandingAnimatorController();
+			NOIIdleSittingAnimatorController();
 		}
-		private void NOI_LFS_IdleStandingAnimatorController()
+		private void NOIIdleStandingAnimatorController()
 		{
-			Noivern_LFS_idlestanding.NOI_LFS_IdleStandingController();
+			Noivernidlestanding.NOIIdleStandingController();
 		}
-		private void NOI_LFS_IdleSittingAnimatorController()
+		private void NOIIdleSittingAnimatorController()
 		{
-			Noivern_LFS_idlesitting.NOI_LFS_IdleSittingController();
+			Noivernidlesitting.NOIIdleSittingController();
 		}
 	}
 }

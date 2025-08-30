@@ -4,35 +4,35 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Strafe
 {
-	public class AB_LFS_Strafing : MonoBehaviour 
+	public class AB_Strafing : MonoBehaviour 
 	{
-		private AB_LFS_StrafeLeft AB_strafeleft;
+		private ABStrafeLeft AB_strafeleft;
 		
-		private AB_LFS_StrafeRight AB_straferight;
+		private ABStrafeRight AB_straferight;
 
-		public void AB_LFS_StrafingController()
+		public void AB_StrafingController()
 		{
 			if (AB_strafeleft == null)
 			{
-				AB_strafeleft = GetComponent<AB_LFS_StrafeLeft>();
-				Load_AB_LFS_StrafeLeft();
+				AB_strafeleft = GetComponent<ABStrafeLeft>();
+				Load_ABStrafeLeft();
 			}
 			if (AB_straferight == null)
 			{
-				AB_straferight = GetComponent<AB_LFS_StrafeRight>();
-				Load_AB_LFS_StrafeRight();
+				AB_straferight = GetComponent<ABStrafeRight>();
+				Load_ABStrafeRight();
 			}
 			
 
 		}
-		private void Load_AB_LFS_StrafeRight()
+		private void Load_ABStrafeRight()
 		{
-			AB_straferight.AB_LFS_StrafeRightController();
+			AB_straferight.ABStrafeRightController();
 		}
 		
-		private void Load_AB_LFS_StrafeLeft()
+		private void Load_ABStrafeLeft()
 		{
-			AB_strafeleft.AB_LFS_StrafeLeftController();
+			AB_strafeleft.ABStrafeLeftController();
 		}
 	}
 }

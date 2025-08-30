@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.SittingTo
 {
-	public class BE_LFS_SittingTo : MonoBehaviour 
+	public class BESittingTo : MonoBehaviour 
 	{
-		private BE_LFS_SittingToStartWalking Beedrill_LFS_sittingToStartWalking;
-		private BE_LFS_SittingToStanding Beedrill_LFS_sittingToStanding;
-		public void BE_LFS_SittingToController()
+		private BESittingToStartWalking BeedrillsittingToStartWalking;
+		private BESittingToStanding BeedrillsittingToStanding;
+		public void BESittingToController()
 		{
-			BE_LFS_SittingToStartWalking();
-			BE_LFS_SittingToStanding();
+			BESittingToStartWalking();
+			BESittingToStanding();
 		}
-		private void BE_LFS_SittingToStartWalking()
+		private void BESittingToStartWalking()
 		{
-			Beedrill_LFS_sittingToStartWalking.BE_LFS_SittingToStartWalkingController();
+			BeedrillsittingToStartWalking.BESittingToStartWalkingController();
 		}
-		private void BE_LFS_SittingToStanding()
+		private void BESittingToStanding()
 		{
-			Beedrill_LFS_sittingToStanding.BE_LFS_SittingToStandingController();
+			BeedrillsittingToStanding.BESittingToStandingController();
 		}
 	}
 }

@@ -14,17 +14,14 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Str
 		{
 			if (UM_strafeleft == null)
 			{
-				UM_strafeleft = GetComponent<UM_StrafeLeft>();
 				Load_UM_StrafeLeft();
 			}
 			if (UM_straferight == null)
 			{
-				UM_straferight = GetComponent<UM_StrafeRight>();
 				Load_UM_StrafeRight();
 			}
-			
-
 		}
+
 		private void Load_UM_StrafeRight()
 		{
 			UM_straferight.UM_StrafeRightController();

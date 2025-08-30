@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning.TurnRight
 {
-    public class Z_LFS_TurnRIght : MonoBehaviour 
+    public class Z_LFS_TurnRight : MonoBehaviour 
     {
         public void Z_LFS_TurnRightController()
         {

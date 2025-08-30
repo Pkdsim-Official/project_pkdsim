@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.idlebaseanimation.IdleSitting
 {
-	public class LUCA_LFS_IdleSitting : MonoBehaviour 
+	public class LUCAIdleSitting : MonoBehaviour 
 	{
 		private Animator Lucario_Animator;
-		public void LUCA_LFS_IdleSittingController()
+		public void LUCAIdleSittingController()
 		{
 			Lucario_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
 			Lucario_Animator.Play("Idle_Sitting");         // Start in the Idle animation state

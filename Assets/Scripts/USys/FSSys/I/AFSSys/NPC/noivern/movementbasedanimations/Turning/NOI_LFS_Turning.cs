@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Noivern.mov
 	public class NOI_LFS_Turning : MonoBehaviour	
 	{
 		NOI_LFS_TurnLeft NOI_LFS_turnleft;
-		NOI_LFS_TurnRIght NOI_LFS_turnright;
+		NOI_LFS_TurnRight NOI_LFS_turnright;
 
 		public void NOI_LFS_TurningController()
 		{

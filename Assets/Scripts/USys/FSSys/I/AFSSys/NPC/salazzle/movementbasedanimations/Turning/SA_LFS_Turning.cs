@@ -7,7 +7,7 @@ namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Salazzle.mo
 	public class SA_LFS_Turning : MonoBehaviour	
 	{
 		SA_LFS_TurnLeft SA_LFS_turnleft;
-		SA_LFS_TurnRIght SA_LFS_turnright;
+		SA_LFS_TurnRight SA_LFS_turnright;
 
 		public void SA_LFS_TurningController()
 		{

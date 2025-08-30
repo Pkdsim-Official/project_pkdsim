@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.idlebaseanimation.IdleStanding
 {
-	public class LUNA_LFS_IdleStanding : MonoBehaviour 
+	public class LUNAIdleStanding : MonoBehaviour 
 	{
 		public Animator Lunala_Animator;
-		public void LUNA_LFS_IdleStandingController()
+		public void LUNAIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Lunala_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

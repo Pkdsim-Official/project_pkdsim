@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class MEOW_LFS_WalkingToStanding : MonoBehaviour 
+	public class MEOWWalkingToStanding : MonoBehaviour 
 	{
-		public void  MEOW_LFS_WalkingToStandingController() 
+		public void  MEOWWalkingToStandingController() 
 		{
 			
 		}

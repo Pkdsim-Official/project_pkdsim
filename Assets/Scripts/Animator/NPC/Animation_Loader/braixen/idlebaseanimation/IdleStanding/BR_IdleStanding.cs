@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleStanding
 {
-	public class BR_LFS_IdleStanding : MonoBehaviour 
+	public class BRIdleStanding : MonoBehaviour 
 	{
 		public Animator Braixen_Animator;
-		public void BR_LFS_IdleStandingController()
+		public void BRIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Braixen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations
 {
-	public class Vespiquen_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class VespiquenCoverterAnimatorController : MonoBehaviour 
 	{
-		private VE_LFS_SittingTo Vespiquen_LFS_sittingto;
+		private VESittingTo Vespiquensittingto;
 		
-		private VE_LFS_WalkingTo Vespiquen_LFS_walkingto;
+		private VEWalkingTo Vespiquenwalkingto;
 		
-		private VE_LFS_IdleTo Vespiquen_LFS_idleto;
+		private VEIdleTo Vespiquenidleto;
 
-		public void VE_LFS_CoverterToAnimatorController()
+		public void VECoverterToAnimatorController()
 		{
-			Vespiquen_LFS_walkingto.VE_LFS_WalkingToController();
+			Vespiquenwalkingto.VEWalkingToController();
 
-			Vespiquen_LFS_idleto.VE_LFS_IdleToController();
+			Vespiquenidleto.VEIdleToController();
 			
-			Vespiquen_LFS_sittingto.VE_LFS_SittingToController();	
+			Vespiquensittingto.VESittingToController();	
 		}
 	}
 }

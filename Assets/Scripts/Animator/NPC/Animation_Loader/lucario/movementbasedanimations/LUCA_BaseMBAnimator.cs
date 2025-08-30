@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations
 {
 	public class Lucario_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private LUCA_LFS_Jumping Lucario_MBA_Jumping;
+		private LUCA_Jumping Lucario_MBA_Jumping;
 		
-		private LUCA_LFS_Running Lucario_MBA_Running;
+		private LUCA_Running Lucario_MBA_Running;
 
 
-		private LUCA_LFS_Turning Lucario_MBA_Turning;
+		private LUCA_Turning Lucario_MBA_Turning;
 
-		private LUCA_LFS_Strafing Lucario_MBA_Strafe;
+		private LUCA_Strafing Lucario_MBA_Strafe;
 
-		public void LUCA_LFS_MovementAnimatorController()
+		public void LUCAMovementAnimatorController()
 		{
-			Lucario_MBA_Running.LUCA_LFS_RunningController();
+			Lucario_MBA_Running.LUCA_RunningController();
 
-			Lucario_MBA_Jumping.LUCA_LFS_JumpingController();
+			Lucario_MBA_Jumping.LUCA_JumpingController();
 
-			Lucario_MBA_Turning.LUCA_LFS_TurningController();	
+			Lucario_MBA_Turning.LUCA_TurningController();	
 
-			Lucario_MBA_Strafe.LUCA_LFS_StrafingController();
+			Lucario_MBA_Strafe.LUCA_StrafingController();
 		}
 	}
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo
 {
-	public class PH_LFS_SittingTo : MonoBehaviour 
+	public class PHSittingTo : MonoBehaviour 
 	{
-		private PH_LFS_SittingToStartWalking Pheromosa_LFS_sittingToStartWalking;
-		private PH_LFS_SittingToStanding Pheromosa_LFS_sittingToStanding;
-		public void PH_LFS_SittingToController()
+		private PHSittingToStartWalking PheromosasittingToStartWalking;
+		private PHSittingToStanding PheromosasittingToStanding;
+		public void PHSittingToController()
 		{
-			PH_LFS_SittingToStartWalking();
-			PH_LFS_SittingToStanding();
+			PHSittingToStartWalking();
+			PHSittingToStanding();
 		}
-		private void PH_LFS_SittingToStartWalking()
+		private void PHSittingToStartWalking()
 		{
-			Pheromosa_LFS_sittingToStartWalking.PH_LFS_SittingToStartWalkingController();
+			PheromosasittingToStartWalking.PHSittingToStartWalkingController();
 		}
-		private void PH_LFS_SittingToStanding()
+		private void PHSittingToStanding()
 		{
-			Pheromosa_LFS_sittingToStanding.PH_LFS_SittingToStandingController();
+			PheromosasittingToStanding.PHSittingToStandingController();
 		}
 
 	}

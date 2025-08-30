@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo
 {
-	public class MEOW_LFS_WalkingTo : MonoBehaviour 
+	public class MEOWWalkingTo : MonoBehaviour 
 	{
-		private MEOW_LFS_WalkingToSitting Meowscarada_LFS_WalkingToSitting;
-		private MEOW_LFS_WalkingToStanding Meowscarada_LFS_WalkingToStanding;
-		public void MEOW_LFS_WalkingToController()
+		private MEOWWalkingToSitting MeowscaradaWalkingToSitting;
+		private MEOWWalkingToStanding MeowscaradaWalkingToStanding;
+		public void MEOWWalkingToController()
 		{
-			MEOW_LFS_WalkingToSitting();
-			MEOW_LFS_WalkingToStanding();
+			MEOWWalkingToSitting();
+			MEOWWalkingToStanding();
 		}
-		private void MEOW_LFS_WalkingToSitting()
+		private void MEOWWalkingToSitting()
 		{
-			Meowscarada_LFS_WalkingToSitting.MEOW_LFS_WalkingToSittingController();
+			MeowscaradaWalkingToSitting.MEOWWalkingToSittingController();
 		}
-		private void MEOW_LFS_WalkingToStanding()
+		private void MEOWWalkingToStanding()
 		{
-			Meowscarada_LFS_WalkingToStanding.MEOW_LFS_WalkingToStandingController();
+			MeowscaradaWalkingToStanding.MEOWWalkingToStandingController();
 		}
 	}
 }

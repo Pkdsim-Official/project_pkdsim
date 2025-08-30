@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.SittingTo
 {
-	public class NOI_LFS_SittingTo : MonoBehaviour 
+	public class NOISittingTo : MonoBehaviour 
 	{
-		private NOI_LFS_SittingToStartWalking Noivern_LFS_sittingToStartWalking;
-		private NOI_LFS_SittingToStanding Noivern_LFS_sittingToStanding;
-		public void NOI_LFS_SittingToController()
+		private NOISittingToStartWalking NoivernsittingToStartWalking;
+		private NOISittingToStanding NoivernsittingToStanding;
+		public void NOISittingToController()
 		{
-			NOI_LFS_SittingToStartWalking();
-			NOI_LFS_SittingToStanding();
+			NOISittingToStartWalking();
+			NOISittingToStanding();
 		}
-		private void NOI_LFS_SittingToStartWalking()
+		private void NOISittingToStartWalking()
 		{
-			Noivern_LFS_sittingToStartWalking.NOI_LFS_SittingToStartWalkingController();
+			NoivernsittingToStartWalking.NOISittingToStartWalkingController();
 		}
-		private void NOI_LFS_SittingToStanding()
+		private void NOISittingToStanding()
 		{
-			Noivern_LFS_sittingToStanding.NOI_LFS_SittingToStandingController();
+			NoivernsittingToStanding.NOISittingToStandingController();
 		}
 	}
 }

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations
 {
-	public class Lopunny_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class LopunnyCoverterAnimatorController : MonoBehaviour 
 	{
-		private LO_LFS_SittingTo Lopunny_LFS_sittingto;
+		private LOSittingTo Lopunnysittingto;
 		
-		private LO_LFS_WalkingTo Lopunny_LFS_walkingto;
+		private LOWalkingTo Lopunnywalkingto;
 		
-		private LO_LFS_IdleTo Lopunny_LFS_idleto;
+		private LOIdleTo Lopunnyidleto;
 
-		public void LO_LFS_CoverterToAnimatorController()
+		public void LOCoverterToAnimatorController()
 		{
-			Lopunny_LFS_walkingto.LO_LFS_WalkingToController();
+			Lopunnywalkingto.LOWalkingToController();
 
-			Lopunny_LFS_idleto.LO_LFS_IdleToController();
+			Lopunnyidleto.LOIdleToController();
 			
-			Lopunny_LFS_sittingto.LO_LFS_SittingToController();	
+			Lopunnysittingto.LOSittingToController();	
 		}
 	}
 }

@@ -4,19 +4,19 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning
 {
-	public class LUCA_LFS_Turning : MonoBehaviour	
+	public class LUCA_Turning : MonoBehaviour	
 	{
-		LUCA_LFS_TurnLeft LUCA_LFS_turnleft;
-		LUCA_LFS_TurnRIght LUCA_LFS_turnright;
+		private LUCA_TurnLeft LUCA_turnleft;
+		private LUCA_TurnRight LUCA_turnright;
 
-		public void LUCA_LFS_TurningController()
+		public void LUCA_TurningController()
 		{
-			if (LUCA_LFS_turnleft != null)
+			if (LUCA_turnleft != null)
 			{
 				Load_LUCA_turnLeft();
 			}
 
-			if (LUCA_LFS_turnright != null)
+			if (LUCA_turnright != null)
 			{
 				Load_LUCA_turnRight();
 			}
@@ -24,12 +24,12 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Tur
 		}
 		private void Load_LUCA_turnRight()
 		{
-			LUCA_LFS_turnright.LUCA_LFS_TurnRightController();
+			LUCA_turnright.LUCA_TurnRightController();
 		}
 		
 		private void Load_LUCA_turnLeft()
 		{
-			LUCA_LFS_turnleft.LUCA_LFS_TurnLeftController();
+			LUCA_turnleft.LUCA_TurnLeftController();
 		}
 	}
 }

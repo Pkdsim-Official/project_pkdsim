@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo
 {
-	public class HAT_LFS_IdleTo : MonoBehaviour 
+	public class HATIdleTo : MonoBehaviour 
 	{
 		
-		private HAT_LFS_IdleToRun Hatterene_LFS_IdleToRun;
-		private HAT_LFS_IdleToWalk Hatterene_LFS_IdleToWalk;
-		public void HAT_LFS_IdleToController()
+		private HATIdleToRun HattereneIdleToRun;
+		private HATIdleToWalk HattereneIdleToWalk;
+		public void HATIdleToController()
 		{
-			Load_HAT_LFS_idleToRun();
-			Load_HAT_LFS_idleToWalk();
+			Load_HATidleToRun();
+			Load_HATidleToWalk();
 		}
-		private void Load_HAT_LFS_idleToRun()
+		private void Load_HATidleToRun()
 		{
-			Hatterene_LFS_IdleToRun.HAT_LFS_IdleToRunController();
+			HattereneIdleToRun.HATIdleToRunController();
 		}
-		private void Load_HAT_LFS_idleToWalk()
+		private void Load_HATidleToWalk()
 		{
-			Hatterene_LFS_IdleToWalk.HAT_LFS_IdleToWalkController();
+			HattereneIdleToWalk.HATIdleToWalkController();
 		}
 	}
 }

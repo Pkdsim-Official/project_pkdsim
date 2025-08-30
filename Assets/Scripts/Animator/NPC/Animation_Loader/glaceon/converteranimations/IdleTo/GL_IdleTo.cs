@@ -13,7 +13,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo
 			// Load_JT_IdleToStanding();
 			// Load_JT_IdleToWSitting();
 		}
-		private void Load_JT_IdleToRunning()
+		private void Load_JT_IdleTo_Running()
 		{
 			
 		}

@@ -4,35 +4,32 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafe
 {
-	public class DL_LFS_Strafing : MonoBehaviour 
+	public class DL_Strafing : MonoBehaviour 
 	{
-		private DL_LFS_StrafeLeft DL_strafeleft;
+		private DL_StrafeLeft DL_strafeleft;
 		
-		private DL_LFS_StrafeRight DL_straferight;
+		private DL_StrafeRight DL_straferight;
 
-		public void DL_LFS_StrafingController()
+		public void DL_StrafingController()
 		{
 			if (DL_strafeleft == null)
 			{
-				DL_strafeleft = GetComponent<DL_LFS_StrafeLeft>();
-				Load_DL_LFS_StrafeLeft();
+				Load_DL_StrafeLeft();
 			}
 			if (DL_straferight == null)
 			{
-				DL_straferight = GetComponent<DL_LFS_StrafeRight>();
-				Load_DL_LFS_StrafeRight();
+				Load_DL_StrafeRight();
 			}
-			
-
 		}
-		private void Load_DL_LFS_StrafeRight()
+
+		private void Load_DL_StrafeRight()
 		{
-			DL_straferight.DL_LFS_StrafeRightController();
+			DL_straferight.DL_StrafeRightController();
 		}
 		
-		private void Load_DL_LFS_StrafeLeft()
+		private void Load_DL_StrafeLeft()
 		{
-			DL_strafeleft.DL_LFS_StrafeLeftController();
+			DL_strafeleft.DL_StrafeLeftController();
 		}
 	}
 }

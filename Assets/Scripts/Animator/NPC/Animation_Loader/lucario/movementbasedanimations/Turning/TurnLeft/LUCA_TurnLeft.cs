@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning.TurnLeft
 {
-	public class LUCA_LFS_TurnLeft : MonoBehaviour 
+	public class LUCA_TurnLeft : MonoBehaviour 
 	{
-		public void LUCA_LFS_TurnLeftController()
+		public void LUCA_TurnLeftController()
 		{
 			
 		}

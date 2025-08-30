@@ -2,18 +2,18 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.converteranimations.IdleTo
 {
-	public class DR_LFS_IdleTo : MonoBehaviour 
+	public class DRIdleTo : MonoBehaviour 
 	{
-		public void DR_LFS_IdleToController()
+		public void DRIdleToController()
 		{
-			Load_DR_LFS_idleToRun();
-			Load_DR_LFS_idleToWalk();
+			Load_DRidleToRun();
+			Load_DRidleToWalk();
 		}
-		private void Load_DR_LFS_idleToRun()
+		private void Load_DRidleToRun()
 		{
 			
 		}
-		private void Load_DR_LFS_idleToWalk()
+		private void Load_DRidleToWalk()
 		{
 			
 		}

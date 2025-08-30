@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations
 {
-	public class Garchomp_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class GarchompCoverterAnimatorController : MonoBehaviour 
 	{
-		private GARC_LFS_SittingTo Garchomp_LFS_sittingto;
+		private GARCSittingTo Garchompsittingto;
 		
-		private GARC_LFS_WalkingTo Garchomp_LFS_walkingto;
+		private GARCWalkingTo Garchompwalkingto;
 		
-		private GARC_LFS_IdleTo Garchomp_LFS_idleto;
+		private GARCIdleTo Garchompidleto;
 
-		public void GARC_LFS_CoverterToAnimatorController()
+		public void GARCCoverterToAnimatorController()
 		{
-			Garchomp_LFS_walkingto.GARC_LFS_WalkingToController();
+			Garchompwalkingto.GARCWalkingToController();
 
-			Garchomp_LFS_idleto.GARC_LFS_IdleToController();
+			Garchompidleto.GARCIdleToController();
 			
-			Garchomp_LFS_sittingto.GARC_LFS_SittingToController();	
+			Garchompsittingto.GARCSittingToController();	
 		}
 	}
 }

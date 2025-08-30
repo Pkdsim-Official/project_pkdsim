@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo.IdleToWalk
 {
-	public class GARC_LFS_IdleToWalk : MonoBehaviour 
+	public class GARCIdleToWalk : MonoBehaviour 
 	{
-		public void GARC_LFS_IdleToWalkController() 
+		public void GARCIdleToWalkController() 
 		{
 			
 		}

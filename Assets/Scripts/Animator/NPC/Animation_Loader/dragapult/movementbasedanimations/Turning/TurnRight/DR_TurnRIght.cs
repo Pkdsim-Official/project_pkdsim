@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning.TurnRight
 {
-    public class DR_LFS_TurnRIght : MonoBehaviour 
+    public class DR_TurnRight : MonoBehaviour 
     {
-        public void DR_LFS_TurnRightController()
+        public void DR_TurnRightController()
         {
 
         }

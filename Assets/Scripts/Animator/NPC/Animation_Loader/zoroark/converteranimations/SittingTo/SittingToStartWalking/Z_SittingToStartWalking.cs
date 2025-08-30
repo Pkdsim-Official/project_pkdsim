@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class Z_LFS_SittingToStartWalking : MonoBehaviour 
+	public class ZSittingToStartWalking : MonoBehaviour 
 	{
-		public void Z_LFS_SittingToStartWalkingController() 
+		public void ZSittingToStartWalkingController() 
 		{
 	
 		}

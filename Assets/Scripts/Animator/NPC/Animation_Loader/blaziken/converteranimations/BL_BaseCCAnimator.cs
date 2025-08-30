@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations
 {
-	public class Blaziken_LFS_CoverterAnimatorController : MonoBehaviour 
+	public class BlazikenCoverterAnimatorController : MonoBehaviour 
 	{
-		private BL_LFS_SittingTo Blaziken_LFS_sittingto;
+		private BLSittingTo Blazikensittingto;
 		
-		private BL_LFS_WalkingTo Blaziken_LFS_walkingto;
+		private BLWalkingTo Blazikenwalkingto;
 		
-		private BL_LFS_IdleTo Blaziken_LFS_idleto;
+		private BLIdleTo Blazikenidleto;
 
-		public void BL_LFS_CoverterToAnimatorController()
+		public void BLCoverterToAnimatorController()
 		{
-			Blaziken_LFS_walkingto.BL_LFS_WalkingToController();
+			Blazikenwalkingto.BLWalkingToController();
 
-			Blaziken_LFS_idleto.BL_LFS_IdleToController();
+			Blazikenidleto.BLIdleToController();
 			
-			Blaziken_LFS_sittingto.BL_LFS_SittingToController();	
+			Blazikensittingto.BLSittingToController();	
 		}
 	}
 }

@@ -4,33 +4,32 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Turning
 {
-	public class LO_LFS_Turning : MonoBehaviour	
+	public class LO_Turning : MonoBehaviour	
 	{
-		private LO_LFS_TurnLeft LO_LFS_turnleft;
-		private LO_LFS_TurnRIght LO_LFS_turnright;
+		private LO_TurnLeft LO_turnleft;
+		private LO_TurnRight LO_turnright;
 
-		public void LO_LFS_TurningController()
+		public void LO_TurningController()
 		{
-			if (LO_LFS_turnleft == null)
+			if (LO_turnleft == null)
 			{
 				Load_LO_turnLeft();
 			}
 
-			if (LO_LFS_turnright == null)
+			if (LO_turnright == null)
 			{
-
 				Load_LO_turnRight();
 			}
 			
 		}
 		private void Load_LO_turnRight()
 		{
-			LO_LFS_turnright.LO_LFS_TurnRightController();
+			LO_turnright.LO_TurnRightController();
 		}
 		
 		private void Load_LO_turnLeft()
 		{
-			LO_LFS_turnleft.LO_LFS_TurnLeftController();
+			LO_turnleft.LO_TurnLeftController();
 		}
 	}
 }

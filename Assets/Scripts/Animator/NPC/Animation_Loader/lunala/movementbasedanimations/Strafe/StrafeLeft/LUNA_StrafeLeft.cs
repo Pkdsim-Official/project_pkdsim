@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Strafe.StrafeLeft
 {
-	public class LUNA_LFS_StrafeLeft : MonoBehaviour 
+	public class LUNA_StrafeLeft : MonoBehaviour 
 	{
-		public void LUNA_LFS_StrafeLeftController() 
+		public void LUNA_StrafeLeftController() 
 		{
 			
 		}

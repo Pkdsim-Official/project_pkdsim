@@ -10,9 +10,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.Animator_I
 		public Animator Dragapult_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Dragapult_LFS_CoverterAnimatorController LFSDragapult_AnimatorCCA;
+		private DragapultCoverterAnimatorController LFSDragapult_AnimatorCCA;
 		private Dragapult_AnimatorBaseMovementController LFSDragapult_AnimatorCMA;
-		private Dragapult_LFS_IdleAnimatorController LFSDragapult_AnimatorICA;
+		private DragapultIdleAnimatorController LFSDragapult_AnimatorICA;
 
 
 		public void LoadFailSafeDragapult_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.Animator_I
 		}
 		private void LoadFailSafeDragapult_ConvertToAnimatorController()
 		{
-			LFSDragapult_AnimatorCCA.DR_LFS_CoverterToAnimatorController();
+			LFSDragapult_AnimatorCCA.DRCoverterToAnimatorController();
 		}
 		private void LoadFailSafeDragapult_MovementAnimatorController()
 		{
-			LFSDragapult_AnimatorCMA.DR_LFS_MovementAnimatorController();
+			LFSDragapult_AnimatorCMA.DRMovementAnimatorController();
 		}
 		private void LoadFailSafeDragapult_IdleAnimatorController()
 		{
-			LFSDragapult_AnimatorICA.DR_LFS_IdleAnimatorController();
+			LFSDragapult_AnimatorICA.DRIdleAnimatorController();
 		}
 	}
 }

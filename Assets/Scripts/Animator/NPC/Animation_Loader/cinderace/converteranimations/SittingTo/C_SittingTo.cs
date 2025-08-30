@@ -5,22 +5,22 @@ using Unity.Entities.UniversalDelegates;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo
 {
-	public class C_LFS_SittingTo : MonoBehaviour 
+	public class CSittingTo : MonoBehaviour 
 	{
-		private C_LFS_SittingToStartWalking Cinderace_LFS_sittingToStartWalking;
-		private C_LFS_SittingToStanding Cinderace_LFS_sittingToStanding;
-		public void C_LFS_SittingToController()
+		private CSittingToStartWalking CinderacesittingToStartWalking;
+		private CSittingToStanding CinderacesittingToStanding;
+		public void CSittingToController()
 		{
-			C_LFS_SittingToStartWalking();
-			C_LFS_SittingToStanding();
+			CSittingToStartWalking();
+			CSittingToStanding();
 		}
-		private void C_LFS_SittingToStartWalking()
+		private void CSittingToStartWalking()
 		{
-			Cinderace_LFS_sittingToStartWalking.C_LFS_SittingToStartWalkingController();
+			CinderacesittingToStartWalking.CSittingToStartWalkingController();
 		}
-		private void C_LFS_SittingToStanding()
+		private void CSittingToStanding()
 		{
-			Cinderace_LFS_sittingToStanding.C_LFS_SittingToStandingController();
+			CinderacesittingToStanding.CSittingToStandingController();
 		}
 
 	}

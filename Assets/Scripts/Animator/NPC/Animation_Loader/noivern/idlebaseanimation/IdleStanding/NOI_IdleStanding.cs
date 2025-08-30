@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.idlebaseanimation.IdleStanding
 {
-	public class NOI_LFS_IdleStanding : MonoBehaviour 
+	public class NOIIdleStanding : MonoBehaviour 
 	{
 		public Animator Noivern_Animator;
-		public void NOI_LFS_IdleStandingController()
+		public void NOIIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Noivern_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

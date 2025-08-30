@@ -4,35 +4,33 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafe
 {
-	public class DR_LFS_Strafing : MonoBehaviour 
+	public class DR_Strafing : MonoBehaviour 
 	{
-		private DR_LFS_StrafeLeft DR_strafeleft;
+		private DR_StrafeLeft DR_strafeleft;
 		
-		private DR_LFS_StrafeRight DR_straferight;
+		private DR_StrafeRight DR_straferight;
 
-		public void DR_LFS_StrafingController()
+		public void DR_StrafingController()
 		{
 			if (DR_strafeleft == null)
 			{
-				DR_strafeleft = GetComponent<DR_LFS_StrafeLeft>();
-				Load_DR_LFS_StrafeLeft();
+				Load_DR_StrafeLeft();
 			}
 			if (DR_straferight == null)
 			{
-				DR_straferight = GetComponent<DR_LFS_StrafeRight>();
-				Load_DR_LFS_StrafeRight();
+				Load_DR_StrafeRight();
 			}
 			
 
 		}
-		private void Load_DR_LFS_StrafeRight()
+		private void Load_DR_StrafeRight()
 		{
-			DR_straferight.DR_LFS_StrafeRightController();
+			DR_straferight.DR_StrafeRightController();
 		}
 		
-		private void Load_DR_LFS_StrafeLeft()
+		private void Load_DR_StrafeLeft()
 		{
-			DR_strafeleft.DR_LFS_StrafeLeftController();
+			DR_strafeleft.DR_StrafeLeftController();
 		}
 	}
 }

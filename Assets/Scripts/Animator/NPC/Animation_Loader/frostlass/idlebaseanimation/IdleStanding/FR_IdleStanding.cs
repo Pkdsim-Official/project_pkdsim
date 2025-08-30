@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.idlebaseanimation.IdleStanding
 {
-	public class FR_LFS_IdleStanding : MonoBehaviour 
+	public class FRIdleStanding : MonoBehaviour 
 	{
 		public Animator Frostlass_Animator;
-		public void FR_LFS_IdleStandingController()
+		public void FRIdleStandingController()
 		{
 			// Assign the idle animation clip
 			Frostlass_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

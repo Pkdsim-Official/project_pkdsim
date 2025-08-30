@@ -4,6 +4,9 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Tur
 {
 	public class JT_TurnLeft : MonoBehaviour 
 	{
-
+		public void JT_TurnLeftController()
+		{
+			
+		}
 	}
 }

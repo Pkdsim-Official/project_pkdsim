@@ -4,35 +4,35 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafe
 {
-	public class VE_LFS_Strafing : MonoBehaviour 
+	public class VE_Strafing : MonoBehaviour 
 	{
-		private VE_LFS_StrafeLeft VE_strafeleft;
+		private VE_StrafeLeft VE_strafeleft;
 		
-		private VE_LFS_StrafeRight VE_straferight;
+		private VE_StrafeRight VE_straferight;
 
-		public void VE_LFS_StrafingController()
+		public void VE_StrafingController()
 		{
 			if (VE_strafeleft == null)
 			{
-				VE_strafeleft = GetComponent<VE_LFS_StrafeLeft>();
-				Load_VE_LFS_StrafeLeft();
+				VE_strafeleft = GetComponent<VE_StrafeLeft>();
+				Load_VE_StrafeLeft();
 			}
 			if (VE_straferight == null)
 			{
-				VE_straferight = GetComponent<VE_LFS_StrafeRight>();
-				Load_VE_LFS_StrafeRight();
+				VE_straferight = GetComponent<VE_StrafeRight>();
+				Load_VE_StrafeRight();
 			}
 			
 
 		}
-		private void Load_VE_LFS_StrafeRight()
+		private void Load_VE_StrafeRight()
 		{
-			VE_straferight.VE_LFS_StrafeRightController();
+			VE_straferight.VE_StrafeRightController();
 		}
 		
-		private void Load_VE_LFS_StrafeLeft()
+		private void Load_VE_StrafeLeft()
 		{
-			VE_strafeleft.VE_LFS_StrafeLeftController();
+			VE_strafeleft.VE_StrafeLeftController();
 		}
 	}
 }

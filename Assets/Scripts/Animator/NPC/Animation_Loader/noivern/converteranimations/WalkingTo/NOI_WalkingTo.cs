@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo
 {
-	public class NOI_LFS_WalkingTo : MonoBehaviour 
+	public class NOIWalkingTo : MonoBehaviour 
 	{
-		private NOI_LFS_WalkingToSitting Noivern_LFS_WalkingToSitting;
-		private NOI_LFS_WalkingToStanding Noivern_LFS_WalkingToStanding;
-		public void NOI_LFS_WalkingToController()
+		private NOIWalkingToSitting NoivernWalkingToSitting;
+		private NOIWalkingToStanding NoivernWalkingToStanding;
+		public void NOIWalkingToController()
 		{
-			NOI_LFS_WalkingToSitting();
-			NOI_LFS_WalkingToStanding();
+			NOIWalkingToSitting();
+			NOIWalkingToStanding();
 		}
-		private void NOI_LFS_WalkingToSitting()
+		private void NOIWalkingToSitting()
 		{
-			Noivern_LFS_WalkingToSitting.NOI_LFS_WalkingToSittingController();
+			NoivernWalkingToSitting.NOIWalkingToSittingController();
 		}
-		private void NOI_LFS_WalkingToStanding()
+		private void NOIWalkingToStanding()
 		{
-			Noivern_LFS_WalkingToStanding.NOI_LFS_WalkingToStandingController();
+			NoivernWalkingToStanding.NOIWalkingToStandingController();
 		}
 	}
 }

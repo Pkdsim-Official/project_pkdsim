@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.converteranimations.IdleTo
 {
-	public class DL_LFS_IdleTo : MonoBehaviour 
+	public class DLIdleTo : MonoBehaviour 
 	{
-		private DL_LFS_IdleToRun Delphox_LFS_IdleToRun;
-		private DL_LFS_IdleToWalk Delphox_LFS_IdleToWalk;
-		public void DL_LFS_IdleToController()
+		private DLIdleToRun DelphoxIdleToRun;
+		private DLIdleToWalk DelphoxIdleToWalk;
+		public void DLIdleToController()
 		{
-			Load_DL_LFS_idleToRun();
-			Load_DL_LFS_idleToWalk();
+			Load_DLidleToRun();
+			Load_DLidleToWalk();
 		}
-		private void Load_DL_LFS_idleToRun()
+		private void Load_DLidleToRun()
 		{
-			Delphox_LFS_IdleToRun.DL_LFS_IdleToRunController();
+			DelphoxIdleToRun.DLIdleToRunController();
 		}
-		private void Load_DL_LFS_idleToWalk()
+		private void Load_DLidleToWalk()
 		{
-			Delphox_LFS_IdleToWalk.DL_LFS_IdleToWalkController();
+			DelphoxIdleToWalk.DLIdleToWalkController();
 		}
 	}
 }

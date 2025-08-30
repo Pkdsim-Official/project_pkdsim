@@ -8,24 +8,24 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations
 {
 	public class Blaziken_AnimatorBaseMovementController : MonoBehaviour 
 	{
-		private BL_LFS_Jumping BL_MBA_Jumping;
+		private BL_Jumping BL_MBA_Jumping;
 		
-		private BL_LFS_Running BL_MBA_Running;
+		private BL_Running BL_MBA_Running;
 
 
-		private BL_LFS_Turning BL_MBA_Turning;
+		private BL_Turning BL_MBA_Turning;
 
-		private BL_LFS_Strafing BL_MBA_Strafe;
+		private BL_Strafing BL_MBA_Strafe;
 
-		public void BL_LFS_MovementAnimatorController()
+		public void BLMovementAnimatorController()
 		{
-			BL_MBA_Running.BL_LFS_RunningController();
+			BL_MBA_Running.BL_RunningController();
 
-			BL_MBA_Jumping.BL_LFS_JumpingController();
+			BL_MBA_Jumping.BL_JumpingController();
 
-			BL_MBA_Turning.BL_LFS_TurningController();	
+			BL_MBA_Turning.BL_TurningController();	
 
-			BL_MBA_Strafe.BL_LFS_StrafingController();
+			BL_MBA_Strafe.BL_StrafingController();
 		}
 	}
 }

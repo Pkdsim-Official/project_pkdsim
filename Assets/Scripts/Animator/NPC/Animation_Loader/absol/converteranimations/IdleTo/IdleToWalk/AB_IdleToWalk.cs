@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.IdleTo.IdleToWalk
 {
-	public class AB_LFS_IdleToWalk : MonoBehaviour 
+	public class ABIdleToWalk : MonoBehaviour 
 	{
-		public void AB_LFS_IdleToWalkController() 
+		public void ABIdleToWalkController() 
 		{
 			
 		}

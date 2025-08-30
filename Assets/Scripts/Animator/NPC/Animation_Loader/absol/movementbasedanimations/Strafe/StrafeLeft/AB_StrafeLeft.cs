@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Strafe.StrafeLeft
 {
-	public class AB_LFS_StrafeLeft : MonoBehaviour 
+	public class ABStrafeLeft : MonoBehaviour 
 	{
-		public void AB_LFS_StrafeLeftController() 
+		public void ABStrafeLeftController() 
 		{
 			
 		}
