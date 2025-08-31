@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations
 		{
 			Zoroarkwalkingto.ZWalkingToController();
 
-			Zoroarkidleto.ZIdleToController();
+			Zoroarkidleto.Z_IdleToController();
 			
 			Zoroarksittingto.ZSittingToController();	
 		}

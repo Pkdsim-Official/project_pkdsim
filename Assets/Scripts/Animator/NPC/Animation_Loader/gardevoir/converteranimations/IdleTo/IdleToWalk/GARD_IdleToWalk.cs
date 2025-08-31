@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo.IdleToWalk
 {
-	public class GARDIdleToWalk : MonoBehaviour 
+	public class GARD_IdleToWalk : MonoBehaviour 
 	{
-		public void GARDIdleToWalkController() 
+		public void GARD_IdleToWalkController() 
 		{
 			
 		}

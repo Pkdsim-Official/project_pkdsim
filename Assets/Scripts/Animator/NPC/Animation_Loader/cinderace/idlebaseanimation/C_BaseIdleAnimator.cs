@@ -6,22 +6,22 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.idlebaseanimation
 {
 	public class CinderaceIdleAnimatorController : MonoBehaviour 
 	{
-		private CIdleStanding Cidlestanding;
+		private C_IdleStanding C_Idlestanding;
 		
-		private CIdleSitting Cidlesitting;
+		private C_IdleSitting C_Idlesitting;
 		
-		public void	CIdleAnimatorController()
+		public void	C_IdleAnimatorController()
 		{
-			CIdleStandingAnimatorController();
-			CIdleSittingAnimatorController();
+			C_IdleStandingAnimatorController();
+			C_IdleSittingAnimatorController();
 		}
-		private void CIdleStandingAnimatorController()
+		private void C_IdleStandingAnimatorController()
 		{
-			Cidlestanding.CIdleStandingController();
+			C_Idlestanding.C_IdleStandingController();
 		}
-		private void CIdleSittingAnimatorController()
+		private void C_IdleSittingAnimatorController()
 		{
-			Cidlesitting.CIdleSittingController();
+			C_Idlesitting.C_IdleSittingController();
 		}
 	}
 }

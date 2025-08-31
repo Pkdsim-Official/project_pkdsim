@@ -1,4 +1,4 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations.Strafe;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations.Strafing;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations.Jumping;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations.Running;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations.Turning;

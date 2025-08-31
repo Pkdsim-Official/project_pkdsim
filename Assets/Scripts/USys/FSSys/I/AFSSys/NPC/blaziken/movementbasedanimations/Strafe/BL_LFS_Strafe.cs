@@ -1,8 +1,8 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafe
+namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafing
 {
 	public class BL_LFS_Strafing : MonoBehaviour 
 	{

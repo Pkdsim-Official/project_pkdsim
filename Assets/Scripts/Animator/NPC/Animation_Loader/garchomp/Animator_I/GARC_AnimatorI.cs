@@ -31,7 +31,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.Animator_I
 		}
 		private void LoadFailSafeGarchomp_IdleAnimatorController()
 		{
-			LFSGarchomp_AnimatorICA.GARCIdleAnimatorController();
+			LFSGarchomp_AnimatorICA.GARC_IdleAnimatorController();
 		}
 	}
 }

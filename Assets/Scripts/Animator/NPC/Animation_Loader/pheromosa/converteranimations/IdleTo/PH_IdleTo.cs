@@ -8,7 +8,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.IdleT
 	{
 		private PHIdleToRun PheromosaIdleToRun;
 		private PHIdleToWalk PheromosaIdleToWalk;
-		public void PHIdleToController()
+		public void PH_IdleToController()
 		{
 			Load_PHidleToRun();
 			Load_PHidleToWalk();

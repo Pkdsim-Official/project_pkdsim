@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafe.StrafeLeft
+namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class BR_LFS_StrafeLeft : MonoBehaviour 
 	{

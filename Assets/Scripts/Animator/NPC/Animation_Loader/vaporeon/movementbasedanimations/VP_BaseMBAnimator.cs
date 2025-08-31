@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning;
 using UnityEngine;
 

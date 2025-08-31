@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations.IdleTo
 {
-	public class BRIdleTo : MonoBehaviour 
+	public class BR_IdleTo : MonoBehaviour 
 	{
-		private BRIdleToRun BraixenIdleToRun;
-		private BRIdleToWalk BraixenIdleToWalk;
-		public void BRIdleToController()
+		private BR_IdleToRun BraixenIdleToRun;
+		private BR_IdleToWalk BraixenIdleToWalk;
+		public void BR_IdleToController()
 		{
-			Load_BRidleToRun();
-			Load_BRidleToWalk();
+			Load_BR_IdleToRun();
+			Load_BR_IdleToWalk();
 		}
-		private void Load_BRidleToRun()
+		private void Load_BR_IdleToRun()
 		{
-			BraixenIdleToRun.BRIdleToRunController();
+			BraixenIdleToRun.BR_IdleToRunController();
 		}
-		private void Load_BRidleToWalk()
+		private void Load_BR_IdleToWalk()
 		{
-			BraixenIdleToWalk.BRIdleToWalkController();
+			BraixenIdleToWalk.BR_IdleToWalkController();
 		}
 	}
 }

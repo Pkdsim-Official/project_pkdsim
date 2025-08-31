@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations
 {
 	public class BeedrillCoverterAnimatorController : MonoBehaviour 
 	{
-		private BESittingTo Beedrillsittingto;
+		private BE_SittingTo BeedrillSittingto;
 		
-		private BEWalkingTo Beedrillwalkingto;
+		private BE_WalkingTo BeedrillWalkingto;
 		
-		private BEIdleTo Beedrillidleto;
+		private BE_IdleTo BeedrillIdleto;
 
-		public void BECoverterToAnimatorController()
+		public void BE_CoverterToAnimatorController()
 		{
-			Beedrillwalkingto.BEWalkingToController();
+			BeedrillWalkingto.BE_WalkingToController();
 
-			Beedrillidleto.BEIdleToController();
+			BeedrillIdleto.BE_IdleToController();
 			
-			Beedrillsittingto.BESittingToController();	
+			BeedrillSittingto.BE_SittingToController();	
 		}
 	}
 }

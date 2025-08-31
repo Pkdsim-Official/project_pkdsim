@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafing
 {
 	public class T_Strafing : MonoBehaviour 
 	{

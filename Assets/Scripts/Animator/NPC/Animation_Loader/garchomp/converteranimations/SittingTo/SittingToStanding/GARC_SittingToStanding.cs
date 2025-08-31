@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo.SittingToStanding
 {
-	public class GARCSittingToStanding : MonoBehaviour 
+	public class GARC_SittingToStanding : MonoBehaviour 
 	{
-		public void GARCSittingToStandingController()
+		public void GARC_SittingToStandingController()
 		{
 			
 		}

@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations
 		{
 			Meowscaradawalkingto.MEOWWalkingToController();
 
-			Meowscaradaidleto.MEOWIdleToController();
+			Meowscaradaidleto.MEOW_IdleToController();
 			
 			Meowscaradasittingto.MEOWSittingToController();	
 		}

@@ -8,7 +8,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.IdleT
 	{
 		private PRIdleToRun PrimarinaIdleToRun;
 		private PRIdleToWalk PrimarinaIdleToWalk;
-		public void PRIdleToController()
+		public void PR_IdleToController()
 		{
 			Load_PRIdleToRun();
 			Load_PRIdleToWalk();

@@ -1,8 +1,8 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafe
+namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafing
 {
 	public class FL_LFS_Strafing : MonoBehaviour 
 	{

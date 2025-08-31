@@ -31,7 +31,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.Animator_I
 		}
 		private void LoadFailSafeCinderace_IdleAnimatorController()
 		{
-			LFSCinderace_AnimatorICA.CIdleAnimatorController();
+			LFSCinderace_AnimatorICA.C_IdleAnimatorController();
 		}
 	}
 }

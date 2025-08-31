@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 03993c49dac0f7442860a728f1a97d94
   m_currentHash:
     serializedVersion: 2
-    Hash: c6b24c61476bdd31512000989c9151ec
+    Hash: 00000000000000000000000000000000
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 0
   m_CatalogRequestsTimeout: 0
@@ -33,6 +33,7 @@ MonoBehaviour:
   m_UniqueBundleIds: 0
   m_EnableJsonCatalog: 0
   m_NonRecursiveBuilding: 1
+  m_AllowNestedBundleFolders: 0
   m_CCDEnabled: 0
   m_maxConcurrentWebRequests: 3
   m_UseUWRForLocalBundles: 0
@@ -85,8 +86,36 @@ MonoBehaviour:
       - m_Id: ffdedfaf9bc84df4285bd650a021e0f0
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
     - m_InheritedParent: 
+      m_Id: 05903be06ee382640b0e2f2b239704fe
+      m_ProfileName: Pkdsim-steam
+      m_Values:
+      - m_Id: aee706392eec8b447b92c3967fd00abc
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: af4c3a5096c769f4cadb0f1f4bdd7f3e
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: bfdb04ce523eb41419e111b2ad4c563e
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: c2d97a4446a20f9498ee02c2d71f923b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: ffdedfaf9bc84df4285bd650a021e0f0
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+    - m_InheritedParent: 
+      m_Id: 2f6ff3a337f575e468790badf2fb17d7
+      m_ProfileName: Pkdsim-patreon
+      m_Values:
+      - m_Id: aee706392eec8b447b92c3967fd00abc
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: af4c3a5096c769f4cadb0f1f4bdd7f3e
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: bfdb04ce523eb41419e111b2ad4c563e
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: c2d97a4446a20f9498ee02c2d71f923b
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: ffdedfaf9bc84df4285bd650a021e0f0
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+    - m_InheritedParent: 
       m_Id: a23f5010dabc2e849a083f36f42605c3
-      m_ProfileName: bryanthedragon
+      m_ProfileName: Pkdsim-personal
       m_Values:
       - m_Id: aee706392eec8b447b92c3967fd00abc
         m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'

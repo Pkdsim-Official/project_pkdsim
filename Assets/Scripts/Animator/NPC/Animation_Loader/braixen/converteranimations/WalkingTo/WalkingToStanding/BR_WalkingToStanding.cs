@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class BRWalkingToStanding : MonoBehaviour 
+	public class BR_WalkingToStanding : MonoBehaviour 
 	{
-		public void BRWalkingToStandingController() 
+		public void BR_WalkingToStandingController() 
 		{
 	
 		}

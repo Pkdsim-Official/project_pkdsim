@@ -4,23 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo
 {
-	public class GARCSittingTo : MonoBehaviour 
+	public class GARC_SittingTo : MonoBehaviour 
 	{
-		private GARCSittingToStartWalking GarchompsittingToStartWalking;
-		private GARCSittingToStanding GarchompsittingToStanding;
-		public void GARCSittingToController()
+		private GARC_SittingToStartWalking GarchompSittingToStartWalking;
+		private GARC_SittingToStanding GarchompSittingToStanding;
+		public void GARC_SittingToController()
 		{
-			GARCSittingToStartWalking();
-			GARCSittingToStanding();
+			GARC_SittingToStartWalking();
+			GARC_SittingToStanding();
 		}
-		private void GARCSittingToStartWalking()
+		private void GARC_SittingToStartWalking()
 		{
-			GarchompsittingToStartWalking.GARCSittingToStartWalkingController();
+			GarchompSittingToStartWalking.GARC_SittingToStartWalkingController();
 		}
-		private void GARCSittingToStanding()
+		private void GARC_SittingToStanding()
 		{
-			GarchompsittingToStanding.GARCSittingToStandingController();
+			GarchompSittingToStanding.GARC_SittingToStandingController();
 		}
-
 	}
 }

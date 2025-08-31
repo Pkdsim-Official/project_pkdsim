@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo.SittingToStanding
 {
-	public class GARDSittingToStanding : MonoBehaviour 
+	public class GARD_SittingToStanding : MonoBehaviour 
 	{
-		public void GARDSittingToStandingController()
+		public void GARD_SittingToStandingController()
 		{
 			
 		}

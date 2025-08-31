@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class GARDWalkingToStanding : MonoBehaviour 
+	public class GARD_WalkingToStanding : MonoBehaviour 
 	{
-		public void GARDWalkingToStandingController() 
+		public void GARD_WalkingToStandingController() 
 		{
 			
 		}

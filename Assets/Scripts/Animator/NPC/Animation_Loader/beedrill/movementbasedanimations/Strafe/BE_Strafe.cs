@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafing
 {
 	public class BE_Strafing : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafe.StrafeLeft
+namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class GARD_StrafeLeft : MonoBehaviour 
 	{

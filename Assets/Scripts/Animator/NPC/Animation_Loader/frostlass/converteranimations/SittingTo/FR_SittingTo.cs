@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo
 {
-	public class FRSittingTo : MonoBehaviour 
+	public class FR_SittingTo : MonoBehaviour 
 	{
-		private FRSittingToStartWalking FrostlasssittingToStartWalking;
-		private FRSittingToStanding FrostlasssittingToStanding;
-		public void FRSittingToController()
+		private FR_SittingToStartWalking FrostlassSittingToStartWalking;
+		private FR_SittingToStanding FrostlassSittingToStanding;
+		public void FR_SittingToController()
 		{
-			FRSittingToStartWalking();
-			FRSittingToStanding();
+			FR_SittingToStartWalking();
+			FR_SittingToStanding();
 		}
-		private void FRSittingToStartWalking()
+		private void FR_SittingToStartWalking()
 		{
-			FrostlasssittingToStartWalking.FRSittingToStartWalkingController();
+			FrostlassSittingToStartWalking.FR_SittingToStartWalkingController();
 		}
-		private void FRSittingToStanding()
+		private void FR_SittingToStanding()
 		{
-			FrostlasssittingToStanding.FRSittingToStandingController();
+			FrostlassSittingToStanding.FR_SittingToStandingController();
 		}
 
 	}

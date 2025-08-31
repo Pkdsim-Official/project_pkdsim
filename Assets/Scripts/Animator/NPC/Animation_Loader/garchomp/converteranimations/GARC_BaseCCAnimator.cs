@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations
 {
 	public class GarchompCoverterAnimatorController : MonoBehaviour 
 	{
-		private GARCSittingTo Garchompsittingto;
+		private GARC_SittingTo GarchompSittingto;
 		
-		private GARCWalkingTo Garchompwalkingto;
+		private GARC_WalkingTo GarchompWalkingto;
 		
-		private GARCIdleTo Garchompidleto;
+		private GARC_IdleTo GarchompIdleto;
 
 		public void GARCCoverterToAnimatorController()
 		{
-			Garchompwalkingto.GARCWalkingToController();
+			GarchompWalkingto.GARC_WalkingToController();
 
-			Garchompidleto.GARCIdleToController();
+			GarchompIdleto.GARC_IdleToController();
 			
-			Garchompsittingto.GARCSittingToController();	
+			GarchompSittingto.GARC_SittingToController();	
 		}
 	}
 }

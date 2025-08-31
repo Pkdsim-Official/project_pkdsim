@@ -1,6 +1,6 @@
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.movementbasedanimations.Jumping;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.movementbasedanimations.Running;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.movementbasedanimations.Strafe;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.movementbasedanimations.Strafing;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.movementbasedanimations.Turning;
 using UnityEngine;
 

@@ -1,6 +1,6 @@
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations.Jumping;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations.Running;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafe;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations.Turning;
 using UnityEngine;
 

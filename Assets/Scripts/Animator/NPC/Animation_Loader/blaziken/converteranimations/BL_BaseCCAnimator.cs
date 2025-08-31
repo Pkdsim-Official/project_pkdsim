@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations
 {
 	public class BlazikenCoverterAnimatorController : MonoBehaviour 
 	{
-		private BLSittingTo Blazikensittingto;
+		private BL_SittingTo BlazikenSittingto;
 		
-		private BLWalkingTo Blazikenwalkingto;
+		private BL_WalkingTo BlazikenWalkingto;
 		
-		private BLIdleTo Blazikenidleto;
+		private BL_IdleTo BlazikenIdleto;
 
 		public void BLCoverterToAnimatorController()
 		{
-			Blazikenwalkingto.BLWalkingToController();
+			BlazikenWalkingto.BL_WalkingToController();
 
-			Blazikenidleto.BLIdleToController();
+			BlazikenIdleto.BL_IdleToController();
 			
-			Blazikensittingto.BLSittingToController();	
+			BlazikenSittingto.BL_SittingToController();	
 		}
 	}
 }

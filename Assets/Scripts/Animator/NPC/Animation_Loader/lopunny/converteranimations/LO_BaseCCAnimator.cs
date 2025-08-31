@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations
 		{
 			Lopunnywalkingto.LOWalkingToController();
 
-			Lopunnyidleto.LOIdleToController();
+			Lopunnyidleto.LO_IdleToController();
 			
 			Lopunnysittingto.LOSittingToController();	
 		}

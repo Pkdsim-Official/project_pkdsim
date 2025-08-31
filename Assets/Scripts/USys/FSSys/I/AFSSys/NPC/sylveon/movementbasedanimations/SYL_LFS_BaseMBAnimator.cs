@@ -1,6 +1,6 @@
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.movementbasedanimations.Jumping;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.movementbasedanimations.Running;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.movementbasedanimations.Strafe;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.movementbasedanimations.Strafing;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.movementbasedanimations.Turning;
 using UnityEngine;
 

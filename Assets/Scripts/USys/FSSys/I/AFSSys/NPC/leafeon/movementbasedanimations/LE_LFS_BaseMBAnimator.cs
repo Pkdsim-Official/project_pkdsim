@@ -1,6 +1,6 @@
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.movementbasedanimations.Jumping;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.movementbasedanimations.Running;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.movementbasedanimations.Strafe;
+using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.movementbasedanimations.Strafing;
 using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.movementbasedanimations.Turning;
 using UnityEngine;
 

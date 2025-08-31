@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafe.StrafeLeft
+namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class PH_LFS_StrafeLeft : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning;
 using UnityEngine;
 

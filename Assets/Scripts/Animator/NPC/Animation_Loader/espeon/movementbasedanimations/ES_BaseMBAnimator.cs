@@ -1,5 +1,5 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Turning;
 using UnityEngine;

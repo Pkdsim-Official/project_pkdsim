@@ -8,7 +8,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo
 	{
 		private ZIdleToRun ZoroarkIdleToRun;
 		private ZIdleToWalk ZoroarkIdleToWalk;
-		public void ZIdleToController()
+		public void Z_IdleToController()
 		{
 			Load_ZidleToRun();
 			Load_ZidleToWalk();

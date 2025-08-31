@@ -6,22 +6,22 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.idlebaseanimation
 {
 	public class BlazikenIdleAnimatorController : MonoBehaviour 
 	{
-		private BLIdleStanding BLidlestanding;
+		private BL_IdleStanding BL_Idlestanding;
 		
-		private BLIdleSitting BLidlesitting;
+		private BL_IdleSitting BL_Idlesitting;
 		
-		public void	BLIdleAnimatorController()
+		public void	BL_IdleAnimatorController()
 		{
-			BLIdleStandingAnimatorController();
-			BLIdleSittingAnimatorController();
+			BL_IdleStandingAnimatorController();
+			BL_IdleSittingAnimatorController();
 		}
-		private void BLIdleStandingAnimatorController()
+		private void BL_IdleStandingAnimatorController()
 		{
-			BLidlestanding.BLIdleStandingController();
+			BL_Idlestanding.BL_IdleStandingController();
 		}
-		private void BLIdleSittingAnimatorController()
+		private void BL_IdleSittingAnimatorController()
 		{
-			BLidlesitting.BLIdleSittingController();
+			BL_Idlesitting.BL_IdleSittingController();
 		}
 	}
 }

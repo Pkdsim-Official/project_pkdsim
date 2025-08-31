@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations.IdleTo
 {
-	public class FRIdleTo : MonoBehaviour 
+	public class FR_IdleTo : MonoBehaviour 
 	{
-		private FRIdleToRun FrostlassIdleToRun;
-		private FRIdleToWalk FrostlassIdleToWalk;
-		public void FRIdleToController()
+		private FR_IdleToRun FrostlassIdleToRun;
+		private FR_IdleToWalk FrostlassIdleToWalk;
+		public void FR_IdleToController()
 		{
-			Load_FRIdleToRun();
-			Load_FRIdleToWalk();
+			Load_FR_IdleToRun();
+			Load_FR_IdleToWalk();
 		}
-		private void Load_FRIdleToRun()
+		private void Load_FR_IdleToRun()
 		{
-			FrostlassIdleToRun.FRIdleToRunController();
+			FrostlassIdleToRun.FR_IdleToRunController();
 		}
-		private void Load_FRIdleToWalk()
+		private void Load_FR_IdleToWalk()
 		{
-			FrostlassIdleToWalk.FRIdleToWalkController();
+			FrostlassIdleToWalk.FR_IdleToWalkController();
 		}
 	}
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.SittingTo
 {
-	public class ABSittingTo : MonoBehaviour 
+	public class AB_SittingTo : MonoBehaviour 
 	{
-		private ABSittingToStartWalking AbsolsittingToStartWalking;
-		private ABSittingToStanding AbsolsittingToStanding;
-		public void ABSittingToController()
+		private AB_SittingToStartWalking AbsolSittingToStartWalking;
+		private AB_SittingToStanding AbsolSittingToStanding;
+		public void AB_SittingToController()
 		{
-			ABSittingToStartWalking();
-			ABSittingToStanding();
+			AB_SittingToStartWalking();
+			AB_SittingToStanding();
 		}
-		private void ABSittingToStartWalking()
+		private void AB_SittingToStartWalking()
 		{
-			AbsolsittingToStartWalking.ABSittingToStartWalkingController();
+			AbsolSittingToStartWalking.AB_SittingToStartWalkingController();
 		}
-		private void ABSittingToStanding()
+		private void AB_SittingToStanding()
 		{
-			AbsolsittingToStanding.ABSittingToStandingController();
+			AbsolSittingToStanding.AB_SittingToStandingController();
 		}
 
 	}

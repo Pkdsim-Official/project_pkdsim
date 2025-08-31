@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations
 {
 	public class FrostlassCoverterAnimatorController : MonoBehaviour 
 	{
-		private FRSittingTo Frostlasssittingto;
+		private FR_SittingTo FrostlassSittingto;
 		
-		private FRWalkingTo Frostlasswalkingto;
+		private FR_WalkingTo FrostlassWalkingto;
 		
-		private FRIdleTo Frostlassidleto;
+		private FR_IdleTo FrostlassIdleto;
 
 		public void FRCoverterToAnimatorController()
 		{
-			Frostlasswalkingto.FRWalkingToController();
+			FrostlassWalkingto.FR_WalkingToController();
 
-			Frostlassidleto.FRIdleToController();
+			FrostlassIdleto.FR_IdleToController();
 			
-			Frostlasssittingto.FRSittingToController();	
+			FrostlassSittingto.FR_SittingToController();	
 		}
 	}
 }

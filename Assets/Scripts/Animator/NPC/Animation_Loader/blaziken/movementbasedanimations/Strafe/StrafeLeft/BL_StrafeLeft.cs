@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafe.StrafeLeft
+namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class BL_StrafeLeft : MonoBehaviour 
 	{

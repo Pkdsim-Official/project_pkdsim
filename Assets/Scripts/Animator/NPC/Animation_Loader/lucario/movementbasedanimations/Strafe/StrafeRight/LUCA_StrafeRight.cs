@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafe.StrafeRight
+namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafing.StrafeRight
 {
 	public class LUCA_StrafeRight : MonoBehaviour
 	{

@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations
 		{
 			Vespiquenwalkingto.VEWalkingToController();
 
-			Vespiquenidleto.VEIdleToController();
+			Vespiquenidleto.VE_IdleToController();
 			
 			Vespiquensittingto.VESittingToController();	
 		}

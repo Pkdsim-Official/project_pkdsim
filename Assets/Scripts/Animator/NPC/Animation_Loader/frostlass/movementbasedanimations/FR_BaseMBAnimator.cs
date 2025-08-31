@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Turning;
 using UnityEngine;
 

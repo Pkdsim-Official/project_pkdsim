@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.converteranimations
 		{
 			Lunalawalkingto.LUNAWalkingToController();
 
-			Lunalaidleto.LUNAIdleToController();
+			Lunalaidleto.LUNA_IdleToController();
 			
 			Lunalasittingto.LUNASittingToController();	
 		}

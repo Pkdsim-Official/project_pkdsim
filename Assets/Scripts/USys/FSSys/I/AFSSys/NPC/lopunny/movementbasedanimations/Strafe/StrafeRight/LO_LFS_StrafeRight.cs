@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafe.StrafeRight
+namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing.StrafeRight
 {
 	public class LO_LFS_StrafeRight : MonoBehaviour
 	{

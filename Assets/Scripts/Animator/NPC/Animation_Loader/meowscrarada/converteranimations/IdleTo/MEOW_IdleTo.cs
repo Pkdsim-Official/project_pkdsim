@@ -9,7 +9,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.Idl
 		private MEOWIdleToRun MeowscaradaIdleToRun;
 		private MEOWIdleToWalk MeowscaradaIdleToWalk;
 
-		public void MEOWIdleToController()
+		public void MEOW_IdleToController()
 		{
 			Load_MEOWIdleToRun();
 			Load_MEOWIdleToWalk();

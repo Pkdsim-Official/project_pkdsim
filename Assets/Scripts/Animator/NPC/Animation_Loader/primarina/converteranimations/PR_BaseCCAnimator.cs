@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations
 		{
 			Primarinawalkingto.PRWalkingToController();
 
-			Primarinaidleto.PRIdleToController();
+			Primarinaidleto.PR_IdleToController();
 			
 			Primarinasittingto.PRSittingToController();	
 		}

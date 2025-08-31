@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations
 {
 	public class BraixenCoverterAnimatorController : MonoBehaviour 
 	{
-		private BRSittingTo Braixensittingto;
+		private BRSittingTo BraixenSittingto;
 		
-		private BRWalkingTo Braixenwalkingto;
+		private BR_WalkingTo BraixenWalkingto;
 		
-		private BRIdleTo Braixenidleto;
+		private BR_IdleTo BraixenIdleto;
 
 		public void BRCoverterToAnimatorController()
 		{
-			Braixenwalkingto.BRWalkingToController();
+			BraixenWalkingto.BR_WalkingToController();
 
-			Braixenidleto.BRIdleToController();
+			BraixenIdleto.BR_IdleToController();
 			
-			Braixensittingto.BRSittingToController();	
+			BraixenSittingto.BRSittingToController();	
 		}
 	}
 }

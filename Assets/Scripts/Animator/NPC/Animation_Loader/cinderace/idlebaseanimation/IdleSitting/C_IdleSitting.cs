@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.idlebaseanimation.IdleSitting
 {
-	public class CIdleSitting : MonoBehaviour 
+	public class C_IdleSitting : MonoBehaviour 
 	{
 		private Animator Cinderace_Animator;
-		public void CIdleSittingController()
+		public void C_IdleSittingController()
 		{
 			Cinderace_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
 			Cinderace_Animator.Play("Idle_Sitting");         // Start in the Idle animation state

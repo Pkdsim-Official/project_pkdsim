@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations
 		{
 			Lucariowalkingto.LUCAWalkingToController();
 
-			Lucarioidleto.LUCAIdleToController();
+			Lucarioidleto.LUCA_IdleToController();
 			
 			Lucariosittingto.LUCASittingToController();	
 		}

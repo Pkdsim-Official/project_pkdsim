@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Strafing
 {
 	public class JT_Strafing : MonoBehaviour 
 	{

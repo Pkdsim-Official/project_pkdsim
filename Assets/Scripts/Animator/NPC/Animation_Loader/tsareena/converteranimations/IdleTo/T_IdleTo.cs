@@ -8,7 +8,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo
 	{
 		private TIdleToRun TsareenaIdleToRun;
 		private TIdleToWalk TsareenaIdleToWalk;
-		public void TIdleToController()
+		public void T_IdleToController()
 		{
 			Load_TidleToRun();
 			Load_TidleToWalk();

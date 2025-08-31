@@ -31,7 +31,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.Animator_I
 		}
 		private void LoadFailSafeBlaziken_IdleAnimatorController()
 		{
-			LFSBlaziken_AnimatorICA.BLIdleAnimatorController();
+			LFSBlaziken_AnimatorICA.BL_IdleAnimatorController();
 		}
 	}
 }

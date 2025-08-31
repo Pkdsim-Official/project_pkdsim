@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations
 		{
 			Pheromosawalkingto.PHWalkingToController();
 
-			Pheromosaidleto.PHIdleToController();
+			Pheromosaidleto.PH_IdleToController();
 			
 			Pheromosasittingto.PHSittingToController();	
 		}

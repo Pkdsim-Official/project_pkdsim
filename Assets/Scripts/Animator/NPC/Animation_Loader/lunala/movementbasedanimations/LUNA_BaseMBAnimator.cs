@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Turning;
 using UnityEngine;
 

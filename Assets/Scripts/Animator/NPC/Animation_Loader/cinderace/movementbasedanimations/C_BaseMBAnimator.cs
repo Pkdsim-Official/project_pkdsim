@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning;
 using UnityEngine;
 

@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo
 {
-	public class FRWalkingTo : MonoBehaviour 
+	public class FR_WalkingTo : MonoBehaviour 
 	{
 		
-		private FRWalkingToStanding FrostlassWalkingToStanding;
-		private FRWalkingToSitting FrostlassWalkingToSitting;
-		public void FRWalkingToController()
+		private FR_WalkingToStanding FrostlassWalkingToStanding;
+		private FR_WalkingToSitting FrostlassWalkingToSitting;
+		public void FR_WalkingToController()
 		{
-			Load_FRWalkingToStanding();
-			Load_FRWalkingToWSitting();
+			Load_FR_WalkingToStanding();
+			Load_FR_WalkingToWSitting();
 		}
-		private void Load_FRWalkingToStanding()
+		private void Load_FR_WalkingToStanding()
 		{
-			FrostlassWalkingToStanding.FRWalkingToStandingController();
+			FrostlassWalkingToStanding.FR_WalkingToStandingController();
 		}
-		private void Load_FRWalkingToWSitting()
+		private void Load_FR_WalkingToWSitting()
 		{
-			FrostlassWalkingToSitting.FRWalkingToSittingController();
+			FrostlassWalkingToSitting.FR_WalkingToSittingController();
 		}
 	}
 }

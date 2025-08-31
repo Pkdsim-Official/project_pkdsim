@@ -9,7 +9,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.IdleT
 		private VEIdleToRun VespiquenIdleToRun;
 		private VEIdleToWalk VespiquenIdleToWalk;
 
-		public void VEIdleToController()
+		public void VE_IdleToController()
 		{
 			Load_VEidleToRun();
 			Load_VEidleToWalk();

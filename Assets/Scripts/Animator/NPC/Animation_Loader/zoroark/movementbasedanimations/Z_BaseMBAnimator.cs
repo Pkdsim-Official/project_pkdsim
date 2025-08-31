@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning;
 using UnityEngine;
 

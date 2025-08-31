@@ -6,22 +6,22 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.idlebaseanimation
 {
 	public class GarchompIdleAnimatorController : MonoBehaviour 
 	{
-		private GARCIdleStanding Garchompidlestanding;
+		private GARC_IdleStanding Garchompidlestanding;
 		
-		private GARCIdleSitting Garchompidlesitting;
+		private GARC_IdleSitting Garchompidlesitting;
 		
-		public void	GARCIdleAnimatorController()
+		public void	GARC_IdleAnimatorController()
 		{
-			GARCIdleStandingAnimatorController();
-			GARCIdleSittingAnimatorController();
+			GARC_IdleStandingAnimatorController();
+			GARC_IdleSittingAnimatorController();
 		}
-		private void GARCIdleStandingAnimatorController()
+		private void GARC_IdleStandingAnimatorController()
 		{
-			Garchompidlestanding.GARCIdleStandingController();
+			Garchompidlestanding.GARC_IdleStandingController();
 		}
-		private void GARCIdleSittingAnimatorController()
+		private void GARC_IdleSittingAnimatorController()
 		{
-			Garchompidlesitting.GARCIdleSittingController();
+			Garchompidlesitting.GARC_IdleSittingController();
 		}
 	}
 }

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations.IdleTo.IdleToWalk
 {
-	public class FRIdleToWalk : MonoBehaviour 
+	public class FR_IdleToWalk : MonoBehaviour 
 	{
-		public void FRIdleToWalkController() 
+		public void FR_IdleToWalkController() 
 		{
 			
 		}

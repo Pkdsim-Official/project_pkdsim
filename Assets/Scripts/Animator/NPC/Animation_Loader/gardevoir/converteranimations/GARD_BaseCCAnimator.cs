@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations
 {
 	public class GardevoirCoverterAnimatorController : MonoBehaviour 
 	{
-		private GARDSittingTo Gardevoirsittingto;
+		private GARD_SittingTo GardevoirSittingto;
 		
-		private GARDWalkingTo Gardevoirwalkingto;
+		private GARD_WalkingTo GardevoirWalkingto;
 		
-		private GARDIdleTo Gardevoiridleto;
+		private GARD_IdleTo GardevoirIdleto;
 
-		public void GARDCoverterToAnimatorController()
+		public void GARD_CoverterToAnimatorController()
 		{
-			Gardevoirwalkingto.GARDWalkingToController();
+			GardevoirWalkingto.GARD_WalkingToController();
 
-			Gardevoiridleto.GARDIdleToController();
+			GardevoirIdleto.GARD_IdleToController();
 			
-			Gardevoirsittingto.GARDSittingToController();	
+			GardevoirSittingto.GARD_SittingToController();	
 		}
 	}
 }

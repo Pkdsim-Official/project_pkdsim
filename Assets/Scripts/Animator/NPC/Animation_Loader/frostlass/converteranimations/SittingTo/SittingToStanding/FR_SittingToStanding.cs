@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo.SittingToStanding
 {
-	public class FRSittingToStanding : MonoBehaviour 
+	public class FR_SittingToStanding : MonoBehaviour 
 	{
-		public void FRSittingToStandingController()
+		public void FR_SittingToStandingController()
 		{
 			
 		}

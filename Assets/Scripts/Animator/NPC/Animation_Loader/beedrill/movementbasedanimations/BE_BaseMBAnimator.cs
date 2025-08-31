@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning;
 using UnityEngine;
 
@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations
 
 		private BE_Strafing Beedrill_MBA_Strafe;
 
-		public void BEMovementAnimatorController()
+		public void BE_MovementAnimatorController()
 		{
 			Beedrill_MBA_Running.BE_RunningController();
 

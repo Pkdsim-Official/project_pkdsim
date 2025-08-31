@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafe.StrafeLeft
+namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class Z_StrafeLeft : MonoBehaviour 
 	{

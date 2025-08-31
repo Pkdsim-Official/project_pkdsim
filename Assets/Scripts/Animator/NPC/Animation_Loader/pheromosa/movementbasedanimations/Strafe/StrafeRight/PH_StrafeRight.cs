@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafe.StrafeRight
+namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafing.StrafeRight
 {
 	public class PH_StrafeRight : MonoBehaviour
 	{

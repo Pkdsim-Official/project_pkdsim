@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing
 {
 	public class C_Strafing : MonoBehaviour 
 	{

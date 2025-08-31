@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing
 {
 	public class DR_Strafing : MonoBehaviour 
 	{

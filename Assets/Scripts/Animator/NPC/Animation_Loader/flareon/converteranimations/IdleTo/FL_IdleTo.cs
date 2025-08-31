@@ -6,14 +6,14 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Flareon.converteranimations.IdleTo
 	{
 		public void FL_IdleToController()
 		{
-			// Load_FL_ConverterToStanding();
-			// Load_FL_ConverterToWSitting();
+			Load_FL_IdleToRun();
+			Load_FL_IdleToWalk();
 		}
-		private void Load_FL_ConverterToStanding()
+		private void Load_FL_IdleToRun()
 		{
 			
 		}
-		private void Load_FL_ConverterToWSitting()
+		private void Load_FL_IdleToWalk()
 		{
 			
 		}

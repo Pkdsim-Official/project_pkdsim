@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafing
 {
 	public class FR_Strafing : MonoBehaviour 
 	{

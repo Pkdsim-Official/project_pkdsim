@@ -1,5 +1,5 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Turning;
-using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Running;
 using UnityEngine;

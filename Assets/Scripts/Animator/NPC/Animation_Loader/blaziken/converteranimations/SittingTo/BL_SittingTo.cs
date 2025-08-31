@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo
 {
-	public class BLSittingTo : MonoBehaviour 
+	public class BL_SittingTo : MonoBehaviour 
 	{
-		private BLSittingToStartWalking BlazikensittingToStartWalking;
-		private BLSittingToStanding BlazikensittingToStanding;
-		public void BLSittingToController()
+		private BL_SittingToStartWalking BlazikenSittingToStartWalking;
+		private BL_SittingToStanding BlazikenSittingToStanding;
+		public void BL_SittingToController()
 		{
-			BLSittingToStartWalking();
-			BLSittingToStanding();
+			BL_SittingToStartWalking();
+			BL_SittingToStanding();
 		}
-		private void BLSittingToStartWalking()
+		private void BL_SittingToStartWalking()
 		{
-			BlazikensittingToStartWalking.BLSittingToStartWalkingController();
+			BlazikenSittingToStartWalking.BL_SittingToStartWalkingController();
 		}
-		private void BLSittingToStanding()
+		private void BL_SittingToStanding()
 		{
-			BlazikensittingToStanding.BLSittingToStandingController();
+			BlazikenSittingToStanding.BL_SittingToStandingController();
 		}
 
 	}

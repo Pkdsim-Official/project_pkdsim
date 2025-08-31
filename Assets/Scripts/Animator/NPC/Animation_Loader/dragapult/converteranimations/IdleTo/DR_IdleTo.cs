@@ -4,16 +4,16 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.converteranimations.IdleT
 {
 	public class DRIdleTo : MonoBehaviour 
 	{
-		public void DRIdleToController()
+		public void DR_IdleToController()
 		{
-			Load_DRidleToRun();
-			Load_DRidleToWalk();
+			Load_DR_IdleToRun();
+			Load_DR_IdleToWalk();
 		}
-		private void Load_DRidleToRun()
+		private void Load_DR_IdleToRun()
 		{
 			
 		}
-		private void Load_DRidleToWalk()
+		private void Load_DR_IdleToWalk()
 		{
 			
 		}

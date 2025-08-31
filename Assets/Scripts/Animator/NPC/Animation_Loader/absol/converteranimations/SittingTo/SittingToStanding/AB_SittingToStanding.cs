@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStanding
 {
-	public class ABSittingToStanding : MonoBehaviour 
+	public class AB_SittingToStanding : MonoBehaviour 
 	{
-		public void ABSittingToStandingController()
+		public void AB_SittingToStandingController()
 		{
 			
 		}

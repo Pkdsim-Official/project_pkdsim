@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class ABSittingToStartWalking : MonoBehaviour 
+	public class AB_SittingToStartWalking : MonoBehaviour 
 	{
-		public void ABSittingToStartWalkingController() 
+		public void AB_SittingToStartWalkingController() 
 		{
 	
 		}

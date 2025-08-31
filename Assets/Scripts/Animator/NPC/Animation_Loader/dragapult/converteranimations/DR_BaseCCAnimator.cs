@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.converteranimations
 {
 	public class DragapultCoverterAnimatorController : MonoBehaviour 
 	{
-		private DRSittingTo Dragapultsittingto;
+		private DRSittingTo DragapultSittingto;
 		
-		private DRWalkingTo Dragapultwalkingto;
+		private DRWalkingTo DragapultWalkingto;
 		
-		private DRIdleTo Dragapultidleto;
+		private DRIdleTo DragapultIdleto;
 
 		public void DRCoverterToAnimatorController()
 		{
-			Dragapultwalkingto.DRWalkingToController();
+			DragapultWalkingto.DRWalkingToController();
 
-			Dragapultidleto.DRIdleToController();
+			DragapultIdleto.DR_IdleToController();
 			
-			Dragapultsittingto.DRSittingToController();	
+			DragapultSittingto.DRSittingToController();	
 		}
 	}
 }

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class FRWalkingToStanding : MonoBehaviour 
+	public class FR_WalkingToStanding : MonoBehaviour 
 	{
-		public void FRWalkingToStandingController() 
+		public void FR_WalkingToStandingController() 
 		{
 			
 		}

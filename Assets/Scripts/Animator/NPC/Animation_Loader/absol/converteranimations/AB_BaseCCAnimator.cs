@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations
 {
 	public class AbsolCoverterAnimatorController : MonoBehaviour 
 	{
-		private ABSittingTo Absolsittingto;
+		private AB_SittingTo AbsolSittingto;
 		
-		private ABWalkingTo Absolwalkingto;
+		private AB_WalkingTo AbsolWalkingto;
 		
-		private ABIdleTo Absolidleto;
+		private AB_IdleTo AbsolIdleto;
 
 		public void ABCoverterToAnimatorController()
 		{
-			Absolwalkingto.ABWalkingToController();
+			AbsolWalkingto.AB_WalkingToController();
 
-			Absolidleto.ABIdleToController();
+			AbsolIdleto.AB_IdleToController();
 			
-			Absolsittingto.ABSittingToController();	
+			AbsolSittingto.AB_SittingToController();	
 		}
 	}
 }

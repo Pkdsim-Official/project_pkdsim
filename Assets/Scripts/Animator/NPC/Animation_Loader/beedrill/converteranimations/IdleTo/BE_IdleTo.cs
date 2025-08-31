@@ -4,23 +4,23 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo
 {
-	public class BEIdleTo : MonoBehaviour 
+	public class BE_IdleTo : MonoBehaviour 
 	{
-		private BEIdleToRun BeedrillIdleToRun;
-		private BEIdleToWalk BeedrillIdleToWalk;
+		private BE_IdleToRun BeedrillIdleToRun;
+		private BE_IdleToWalk BeedrillIdleToWalk;
 
-		public void BEIdleToController()
+		public void BE_IdleToController()
 		{
-			Load_BEidleToRun();
-			Load_BEidleToWalk();
+			Load_BE_idleToRun();
+			Load_BE_idleToWalk();
 		}
-		private void Load_BEidleToRun()
+		private void Load_BE_idleToRun()
 		{
-			BeedrillIdleToRun.BEIdleToRunController();
+			BeedrillIdleToRun.BE_IdleToRunController();
 		}
-		private void Load_BEidleToWalk()
+		private void Load_BE_idleToWalk()
 		{
-			BeedrillIdleToWalk.BEIdleToWalkController();
+			BeedrillIdleToWalk.BE_IdleToWalkController();
 		}
 	}
 }

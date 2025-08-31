@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Turning;
 using UnityEngine;
 

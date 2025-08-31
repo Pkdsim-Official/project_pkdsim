@@ -8,7 +8,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.IdleTo
 	{
 		private NOIIdleToRun NoivernIdleToRun;
 		private NOIIdleToWalk NoivernIdleToWalk;
-		public void NOIIdleToController()
+		public void NOI_IdleToController()
 		{
 			NOIIdleToRun();
 			NOIIdleToWalk();

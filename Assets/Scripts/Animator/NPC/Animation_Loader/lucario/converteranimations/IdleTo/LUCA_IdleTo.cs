@@ -9,7 +9,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.IdleTo
 		private LUCAIdleToRun LucarioIdleToRun;
 		private LUCAIdleToWalk LucarioIdleToWalk;
 
-		public void LUCAIdleToController()
+		public void LUCA_IdleToController()
 		{
 			Load_LUCAidleToRun();
 			Load_LUCAidleToWalk();

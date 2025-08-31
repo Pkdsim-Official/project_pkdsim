@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.converteranimations
 		{
 			Tsareenawalkingto.TWalkingToController();
 
-			Tsareenaidleto.TIdleToController();
+			Tsareenaidleto.T_IdleToController();
 			
 			Tsareenasittingto.TSittingToController();	
 		}

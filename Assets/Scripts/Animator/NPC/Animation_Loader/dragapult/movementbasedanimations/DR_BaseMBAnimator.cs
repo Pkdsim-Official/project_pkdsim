@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning;
 using UnityEngine;
 

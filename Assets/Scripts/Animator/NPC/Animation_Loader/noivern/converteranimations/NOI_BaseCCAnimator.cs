@@ -17,7 +17,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations
 		{
 			Noivernwalkingto.NOIWalkingToController();
 
-			Noivernidleto.NOIIdleToController();
+			Noivernidleto.NOI_IdleToController();
 			
 			Noivernsittingto.NOISittingToController();	
 		}

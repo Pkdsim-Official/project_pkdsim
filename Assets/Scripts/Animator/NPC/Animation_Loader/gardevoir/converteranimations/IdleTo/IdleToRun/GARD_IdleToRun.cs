@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo.IdleToRun
 {
-	public class GARDIdleToRun : MonoBehaviour 
+	public class GARD_IdleToRun : MonoBehaviour 
 	{
-		public void GARDIdleToRunController() 
+		public void GARD_IdleToRunController() 
 		{
 			
 		}

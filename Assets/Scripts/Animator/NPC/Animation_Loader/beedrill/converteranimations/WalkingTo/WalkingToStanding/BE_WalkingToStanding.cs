@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class BEWalkingToStanding : MonoBehaviour 
+	public class BE_WalkingToStanding : MonoBehaviour 
 	{
-		public void BEWalkingToStandingController() 
+		public void BE_WalkingToStandingController() 
 		{
 			
 		}

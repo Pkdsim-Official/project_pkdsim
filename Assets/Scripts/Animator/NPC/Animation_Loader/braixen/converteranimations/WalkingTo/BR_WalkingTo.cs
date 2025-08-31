@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo
 {
-	public class BRWalkingTo : MonoBehaviour 
+	public class BR_WalkingTo : MonoBehaviour 
 	{
-		private BRWalkingToStanding BraixenWalkingToStanding;
-		private BRWalkingToSitting BraixenWalkingToSitting;
-		public void BRWalkingToController()
+		private BR_WalkingToStanding BraixenWalkingToStanding;
+		private BR_WalkingToSitting BraixenWalkingToSitting;
+		public void BR_WalkingToController()
 		{
-			Load_BRWalkingToStanding();
-			Load_BRWalkingToWSitting();
+			Load_BR_WalkingToStanding();
+			Load_BR_WalkingToWSitting();
 		}
-		private void Load_BRWalkingToStanding()
+		private void Load_BR_WalkingToStanding()
 		{
-			BraixenWalkingToStanding.BRWalkingToStandingController();
+			BraixenWalkingToStanding.BR_WalkingToStandingController();
 		}
-		private void Load_BRWalkingToWSitting()
+		private void Load_BR_WalkingToWSitting()
 		{
-			BraixenWalkingToSitting.BRWalkingToSittingController();
+			BraixenWalkingToSitting.BR_WalkingToSittingController();
 		}
 	}
 }

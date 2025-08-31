@@ -23,7 +23,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.Animator_I
 		}
 		private void LoadFailSafeGardevoir_ConvertToAnimatorController()
 		{
-			LFSGardevoir_AnimatorCCA.GARDCoverterToAnimatorController();
+			LFSGardevoir_AnimatorCCA.GARD_CoverterToAnimatorController();
 		}
 		private void LoadFailSafeGardevoir_MovementAnimatorController()
 		{

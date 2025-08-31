@@ -6,22 +6,22 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.idlebaseanimation
 {
 	public class BeedrillIdleAnimatorController : MonoBehaviour 
 	{
-		private BEIdleStanding Beedrillidlestanding;
+		private BE_IdleStanding BeedrillIdlestanding;
 		
-		private BEIdleSitting Beedrillidlesitting;
+		private BE_IdleSitting BeedrillIdlesitting;
 		
-		public void	BEIdleAnimatorController()
+		public void	BE_IdleAnimatorController()
 		{
-			BEIdleStandingAnimatorController();
-			BEIdleSittingAnimatorController();
+			BE_IdleStandingAnimatorController();
+			BE_IdleSittingAnimatorController();
 		}
-		private void BEIdleStandingAnimatorController()
+		private void BE_IdleStandingAnimatorController()
 		{
-			Beedrillidlestanding.BEIdleStandingController();
+			BeedrillIdlestanding.BE_IdleStandingController();
 		}
-		private void BEIdleSittingAnimatorController()
+		private void BE_IdleSittingAnimatorController()
 		{
-			Beedrillidlesitting.BEIdleSittingController();
+			BeedrillIdlesitting.BE_IdleSittingController();
 		}
 	}
 }

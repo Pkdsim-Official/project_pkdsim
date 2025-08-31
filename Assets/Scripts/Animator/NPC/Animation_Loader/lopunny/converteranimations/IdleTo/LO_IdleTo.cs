@@ -8,7 +8,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo
 	{
 		private LOIdleToRun LopunnyIdleToRun;
 		private LOIdleToWalk LopunnyIdleToWalk;
-		public void LOIdleToController()
+		public void LO_IdleToController()
 		{
 			Load_LOidleToRun();
 			Load_LOidleToWalk();

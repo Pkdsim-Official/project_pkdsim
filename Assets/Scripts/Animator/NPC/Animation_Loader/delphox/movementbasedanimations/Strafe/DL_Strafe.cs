@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafing
 {
 	public class DL_Strafing : MonoBehaviour 
 	{

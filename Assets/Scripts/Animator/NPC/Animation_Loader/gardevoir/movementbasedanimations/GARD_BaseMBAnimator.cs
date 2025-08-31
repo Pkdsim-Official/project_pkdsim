@@ -1,6 +1,6 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing;
 using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Turning;
 using UnityEngine;
 

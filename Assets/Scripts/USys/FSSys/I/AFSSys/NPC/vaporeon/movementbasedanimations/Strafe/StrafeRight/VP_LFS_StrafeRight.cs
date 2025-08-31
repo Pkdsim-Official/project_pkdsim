@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Strafe.StrafeRight
+namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Strafing.StrafeRight
 {
 	public class VP_LFS_StrafeRight : MonoBehaviour
 	{

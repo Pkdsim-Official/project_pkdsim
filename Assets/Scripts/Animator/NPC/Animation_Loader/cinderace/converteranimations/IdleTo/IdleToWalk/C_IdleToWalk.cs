@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo.IdleToWalk
 {
-	public class CIdleToWalk : MonoBehaviour 
+	public class C_IdleToWalk : MonoBehaviour 
 	{
-		public void CIdleToWalkController() 
+		public void C_IdleToWalkController() 
 		{
 			
 		}

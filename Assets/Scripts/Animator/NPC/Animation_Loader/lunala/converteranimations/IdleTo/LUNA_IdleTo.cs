@@ -9,7 +9,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.converteranimations.IdleTo
 		private LUNAIdleToRun LunalaIdleToRun;
 		private LUNAIdleToWalk LunalaIdleToWalk;
 
-		public void LUNAIdleToController()
+		public void LUNA_IdleToController()
 		{
 			Load_LUNAidleToRun();
 			Load_LUNAidleToWalk();

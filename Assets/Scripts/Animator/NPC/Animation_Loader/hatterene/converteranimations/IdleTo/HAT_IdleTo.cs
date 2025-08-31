@@ -9,7 +9,7 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.IdleT
 		
 		private HATIdleToRun HattereneIdleToRun;
 		private HATIdleToWalk HattereneIdleToWalk;
-		public void HATIdleToController()
+		public void HAT_IdleToController()
 		{
 			Load_HATidleToRun();
 			Load_HATidleToWalk();

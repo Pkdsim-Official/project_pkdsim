@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations
 {
 	public class CinderaceCoverterAnimatorController : MonoBehaviour 
 	{
-		private CSittingTo Cinderacesittingto;
+		private CSittingTo CinderaceSittingto;
 		
-		private CWalkingTo Cinderacewalkingto;
+		private CWalkingTo CinderaceWalkingto;
 		
-		private CIdleTo Cinderaceidleto;
+		private C_IdleTo CinderaceIdleto;
 
 		public void CCoverterToAnimatorController()
 		{
-			Cinderacewalkingto.CWalkingToController();
+			CinderaceWalkingto.CWalkingToController();
 
-			Cinderaceidleto.CIdleToController();
+			CinderaceIdleto.C_IdleToController();
 			
-			Cinderacesittingto.CSittingToController();	
+			CinderaceSittingto.CSittingToController();	
 		}
 	}
 }

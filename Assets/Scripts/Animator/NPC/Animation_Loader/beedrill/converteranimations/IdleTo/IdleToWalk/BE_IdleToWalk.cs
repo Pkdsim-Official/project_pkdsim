@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo.IdleToWalk
 {
-	public class BEIdleToWalk : MonoBehaviour 
+	public class BE_IdleToWalk : MonoBehaviour 
 	{
-		public void BEIdleToWalkController() 
+		public void BE_IdleToWalkController() 
 		{
 			
 		}

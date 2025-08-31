@@ -1,7 +1,7 @@
 using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Jumping;
 using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Turning;
 using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Strafe;
+using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Strafing;
 using UnityEngine;
 
 namespace project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations

@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.converteranimations
 {
 	public class DelphoxCoverterAnimatorController : MonoBehaviour 
 	{
-		private DLSittingTo Delphoxsittingto;
+		private DLSittingTo DelphoxSittingto;
 		
-		private DLWalkingTo Delphoxwalkingto;
+		private DLWalkingTo DelphoxWalkingto;
 		
-		private DLIdleTo Delphoxidleto;
+		private DL_IdleTo DelphoxIdleto;
 
 		public void DLCoverterToAnimatorController()
 		{
-			Delphoxwalkingto.DLWalkingToController();
+			DelphoxWalkingto.DLWalkingToController();
 
-			Delphoxidleto.DLIdleToController();
+			DelphoxIdleto.DL_IdleToController();
 			
-			Delphoxsittingto.DLSittingToController();	
+			DelphoxSittingto.DLSittingToController();	
 		}
 	}
 }

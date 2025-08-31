@@ -7,19 +7,19 @@ namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations
 {
 	public class HattereneCoverterAnimatorController : MonoBehaviour 
 	{
-		private HATSittingTo Hatterenesittingto;
+		private HATSittingTo HattereneSittingto;
 		
-		private HATWalkingTo Hatterenewalkingto;
+		private HATWalkingTo HattereneWalkingto;
 		
-		private HATIdleTo Hattereneidleto;
+		private HATIdleTo HattereneIdleto;
 
 		public void HATCoverterToAnimatorController()
 		{
-			Hatterenewalkingto.HATWalkingToController();
+			HattereneWalkingto.HATWalkingToController();
 
-			Hattereneidleto.HATIdleToController();
+			HattereneIdleto.HAT_IdleToController();
 			
-			Hatterenesittingto.HATSittingToController();	
+			HattereneSittingto.HATSittingToController();	
 		}
 	}
 }

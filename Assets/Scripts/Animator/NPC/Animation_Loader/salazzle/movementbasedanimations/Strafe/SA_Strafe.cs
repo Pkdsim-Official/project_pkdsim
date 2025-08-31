@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafe.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafe.StrafeRight;
+using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafe
+namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafing
 {
 	public class SA_Strafing : MonoBehaviour 
 	{
