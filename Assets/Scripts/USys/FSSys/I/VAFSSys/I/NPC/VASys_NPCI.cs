@@ -1,38 +1,38 @@
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Absol;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Beedrill;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Blaziken;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Braixen;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Cinderace;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Delphox;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Dragapult;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Espeon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Flareon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Frostlass;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Garchomp;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Gardevoir;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Glaceon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Hatterene;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Jolteon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Leafeon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Lopunny;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Lucario;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Lunala;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Meowscarada;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Noivern;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Pheromosa;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Primarina;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Salazzle;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Sylveon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Tsareena;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Umbreon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Vaporeon;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Vespiquen;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Zoroark;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Absol;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Beedrill;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Blaziken;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Braixen;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Cinderace;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Delphox;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Dragapult;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Espeon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Flareon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Frostlass;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Garchomp;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Gardevoir;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Glaceon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Hatterene;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Jolteon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Leafeon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Lopunny;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Lucario;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Lunala;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Meowscarada;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Noivern;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Pheromosa;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Primarina;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Salazzle;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Sylveon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Tsareena;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Umbreon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Vaporeon;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Vespiquen;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Zoroark;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC
+namespace project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC
 {
-	public class VAFSSys_NPCI : MonoBehaviour 
+	public class VAFSSys_NPC : MonoBehaviour 
 	{
 		private ZoroarkVAFS ZoroarkVAFS;
 		private VespiquenVAFS VespiquenVAFS;
@@ -65,7 +65,7 @@ namespace project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC
 		private BeedrillVAFS BeedrillVAFS;
 		private AbsolVAFS AbsolVAFS;
 
-		public void VAFSFSSysNPCI() 
+		public void VAFSSys_NPCI() 
 		{
 			
 		}

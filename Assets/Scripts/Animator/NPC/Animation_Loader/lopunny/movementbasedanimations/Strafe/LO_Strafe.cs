@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing
 {
 	public class LO_Strafing : MonoBehaviour 
 	{

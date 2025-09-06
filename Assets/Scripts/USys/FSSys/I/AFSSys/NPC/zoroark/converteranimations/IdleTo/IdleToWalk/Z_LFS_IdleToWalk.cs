@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo.IdleToWalk
 {
 	public class Z_LFS_IdleToWalk : MonoBehaviour 
 	{

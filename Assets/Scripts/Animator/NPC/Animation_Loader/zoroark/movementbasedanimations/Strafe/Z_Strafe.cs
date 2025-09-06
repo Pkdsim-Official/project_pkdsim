@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing
 {
 	public class Z_Strafing : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Loader.PLAYER.PLAYER_AnimatorBase
+namespace project_pkdsim.ANIMATOR.PLAYER.PLAYER_AnimatorBase
 {
     public class Player_AnimatorBase : MonoBehaviour
     {

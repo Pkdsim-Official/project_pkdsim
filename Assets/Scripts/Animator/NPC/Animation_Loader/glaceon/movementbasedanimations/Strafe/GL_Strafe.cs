@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Glaceon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.NPC.Glaceon.movementbasedanimations.Strafing
 {
 	public class GL_Strafe : MonoBehaviour 
 	{

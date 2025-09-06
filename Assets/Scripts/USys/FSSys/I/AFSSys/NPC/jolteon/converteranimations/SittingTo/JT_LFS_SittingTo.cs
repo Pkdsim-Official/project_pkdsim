@@ -1,8 +1,8 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo
 {
 	public class JT_LFS_SittingTo : MonoBehaviour 
 	{		

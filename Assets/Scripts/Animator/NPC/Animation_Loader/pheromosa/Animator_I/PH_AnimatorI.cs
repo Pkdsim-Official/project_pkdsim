@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.Animator_I
 {
 	public class LFS_PheromosaFailSafe : MonoBehaviour 
 	{

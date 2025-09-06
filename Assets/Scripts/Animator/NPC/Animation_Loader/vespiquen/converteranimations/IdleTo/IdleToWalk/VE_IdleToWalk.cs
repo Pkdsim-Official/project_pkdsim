@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToWalk
 {
 	public class VEIdleToWalk : MonoBehaviour 
 	{

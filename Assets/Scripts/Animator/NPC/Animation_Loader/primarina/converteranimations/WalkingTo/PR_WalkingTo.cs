@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo
 {
 	public class PRWalkingTo : MonoBehaviour 
 	{

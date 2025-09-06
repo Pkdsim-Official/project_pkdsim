@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.converteranimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Jolteon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Jolteon.Animator_I
 {
 	public class JT_AnimatorI : MonoBehaviour 
 	{

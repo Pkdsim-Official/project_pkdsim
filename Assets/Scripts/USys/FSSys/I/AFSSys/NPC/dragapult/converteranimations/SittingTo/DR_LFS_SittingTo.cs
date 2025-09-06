@@ -1,8 +1,8 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo
 {
 	public class DR_LFS_SittingTo : MonoBehaviour 
 	{

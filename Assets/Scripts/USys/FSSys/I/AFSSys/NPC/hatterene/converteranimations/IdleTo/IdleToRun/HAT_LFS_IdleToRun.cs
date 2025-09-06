@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo.IdleToRun
 {
 	public class HAT_LFS_IdleToRun : MonoBehaviour 
 	{

@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Lucario.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Lucario.Animator_I
 {
 	public class LFS_LucarioFailSafe : MonoBehaviour 
 	{

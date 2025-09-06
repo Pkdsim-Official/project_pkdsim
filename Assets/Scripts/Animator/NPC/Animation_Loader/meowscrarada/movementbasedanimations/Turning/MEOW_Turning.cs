@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning
 {
 	public class MEOW_Turning : MonoBehaviour	
 	{

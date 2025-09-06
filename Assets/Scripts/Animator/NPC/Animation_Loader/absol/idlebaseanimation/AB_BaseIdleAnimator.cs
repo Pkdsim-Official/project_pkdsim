@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Absol.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Absol.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Absol.idlebaseanimation
 {
 	public class AbsolIdleAnimatorController : MonoBehaviour 
 	{

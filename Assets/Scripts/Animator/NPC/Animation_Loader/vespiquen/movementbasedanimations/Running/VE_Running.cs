@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Running
 {
 	public class VE_Running : MonoBehaviour 
 	{

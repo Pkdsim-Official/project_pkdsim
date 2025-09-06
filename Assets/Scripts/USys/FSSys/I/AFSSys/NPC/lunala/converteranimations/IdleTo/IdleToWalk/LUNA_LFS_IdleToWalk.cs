@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lunala.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lunala.converteranimations.IdleTo.IdleToWalk
 {
 	public class LUNA_LFS_IdleToWalk : MonoBehaviour 
 	{

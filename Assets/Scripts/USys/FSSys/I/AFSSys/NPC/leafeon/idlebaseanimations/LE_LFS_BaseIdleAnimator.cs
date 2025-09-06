@@ -1,8 +1,8 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.idlebaseanimations.IdleSitting;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.idlebaseanimations.IdleStanding;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.idlebaseanimations.IdleSitting;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.idlebaseanimations.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.idlebaseanimations
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.idlebaseanimations
 {
 	public class  Leafeon_LFS_AnimatorBaseIdleController  : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation.IdleSitting;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation
 {
 	public class Espeon_LFS_AnimatorIdleController : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Delphox.idlebaseanimation.IdleStanding
 {
 	public class DLIdleStanding : MonoBehaviour 
 	{

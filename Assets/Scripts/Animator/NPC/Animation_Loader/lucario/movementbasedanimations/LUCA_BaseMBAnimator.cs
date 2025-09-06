@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations
 {
 	public class Lucario_AnimatorBaseMovementController : MonoBehaviour 
 	{

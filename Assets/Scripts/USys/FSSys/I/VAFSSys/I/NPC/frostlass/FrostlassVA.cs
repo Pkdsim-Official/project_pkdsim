@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Frostlass
+namespace project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Frostlass
 {
 	public class FrostlassVAFS : MonoBehaviour 
 	{

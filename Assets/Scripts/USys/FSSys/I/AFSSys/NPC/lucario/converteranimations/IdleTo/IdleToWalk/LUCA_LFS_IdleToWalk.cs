@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.converteranimations.IdleTo.IdleToWalk
 {
 	public class LUCA_LFS_IdleToWalk : MonoBehaviour 
 	{

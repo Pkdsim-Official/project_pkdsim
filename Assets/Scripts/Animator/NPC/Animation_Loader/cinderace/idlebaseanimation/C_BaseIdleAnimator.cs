@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Cinderace.idlebaseanimation
 {
 	public class CinderaceIdleAnimatorController : MonoBehaviour 
 	{

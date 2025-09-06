@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Player.movementbasedanimations.Strafing
 {
 	public class Player_Strafing : MonoBehaviour 
 	{

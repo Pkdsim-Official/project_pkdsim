@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.NPC.Jolteon.idlebaseanimation.IdleSitting
 {
 	public class JT_IdleSitting : MonoBehaviour 
 	{

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.UTeleporterSys
 {
-	public class UnityTeleporterSys : MonoBehaviour 
+	public class UTSys : MonoBehaviour 
 	{
 		private UHTeleporterSys UHTeleporterSys;
 		public void UTPSysI()

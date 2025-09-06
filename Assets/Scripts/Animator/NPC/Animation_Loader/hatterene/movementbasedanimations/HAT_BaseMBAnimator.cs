@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations
 {
 	public class Hatterene_AnimatorBaseMovementController : MonoBehaviour 
 	{

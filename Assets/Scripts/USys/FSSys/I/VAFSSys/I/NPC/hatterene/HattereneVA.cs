@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Hatterene
+namespace project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Hatterene
 {
 	public class HattereneVAFS : MonoBehaviour 
 	{

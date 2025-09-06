@@ -1,8 +1,8 @@
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleSitting;
-using project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.idlebaseanimation
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.idlebaseanimation
 {
 	public class Blaziken_LFS_IdleAnimatorController : MonoBehaviour 
 	{

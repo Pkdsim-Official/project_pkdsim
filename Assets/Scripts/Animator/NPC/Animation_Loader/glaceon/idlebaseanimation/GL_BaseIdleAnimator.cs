@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Glaceon.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Glaceon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Glaceon.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Glaceon.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Glaceon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Glaceon.idlebaseanimation
 {
 	public class Glaceon_AnimatorIdleController : MonoBehaviour 
 	{

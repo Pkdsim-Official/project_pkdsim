@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations
 {
 	public class PrimarinaCoverterAnimatorController : MonoBehaviour 
 	{

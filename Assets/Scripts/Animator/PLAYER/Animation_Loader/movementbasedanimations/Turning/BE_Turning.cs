@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Player.movementbasedanimations.Turning
 {
 	public class Player_Turning : MonoBehaviour	
 	{

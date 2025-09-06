@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo.IdleToWalk
 {
 	public class T_LFS_IdleToWalk : MonoBehaviour 
 	{

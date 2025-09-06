@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.AnimatorFailSafeSys.Modules.EnableFallbackSys
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules.EnableFallbackSys
 {
 	public class AFSysF_EnableFallbackSys : MonoBehaviour 
 	{

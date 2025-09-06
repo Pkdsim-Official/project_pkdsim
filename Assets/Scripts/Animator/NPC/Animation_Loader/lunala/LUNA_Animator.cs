@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala
+namespace project_pkdsim.ANIMATOR.NPC.Lunala
 {
 	public class Lunala_Animator : MonoBehaviour 
 	{

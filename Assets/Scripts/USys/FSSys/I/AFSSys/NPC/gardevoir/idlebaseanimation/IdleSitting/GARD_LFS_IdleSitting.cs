@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Gardevoir.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Gardevoir.idlebaseanimation.IdleSitting
 {
 	public class GARD_LFS_IdleSitting : MonoBehaviour 
 	{

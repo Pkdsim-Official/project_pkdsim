@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Turning.TurnRight
 {
     public class AB_TurnRight : MonoBehaviour 
     {

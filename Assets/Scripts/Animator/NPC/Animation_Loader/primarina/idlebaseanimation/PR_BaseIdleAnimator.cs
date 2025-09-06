@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Primarina.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Primarina.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.idlebaseanimation
 {
 	public class PrimarinaIdleAnimatorController : MonoBehaviour 
 	{

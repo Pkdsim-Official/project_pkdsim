@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo.SittingToStanding
 {
 	public class PH_LFS_SittingToStanding : MonoBehaviour 
 	{

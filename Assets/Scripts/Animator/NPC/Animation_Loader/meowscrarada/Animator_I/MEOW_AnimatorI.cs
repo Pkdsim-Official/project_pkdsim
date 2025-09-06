@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.Animator_I
 {
 	public class LFS_MeowscaradaFailSafe : MonoBehaviour 
 	{

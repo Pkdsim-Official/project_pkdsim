@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lunala.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Lunala.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Lunala.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Lunala.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Lunala.idlebaseanimation
 {
 	public class LunalaIdleAnimatorController : MonoBehaviour 
 	{

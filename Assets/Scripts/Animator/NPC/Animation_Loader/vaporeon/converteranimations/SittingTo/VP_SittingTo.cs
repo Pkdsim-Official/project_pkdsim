@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations.SittingTo
 {
 	public class VP_SittingTo : MonoBehaviour 
 	{

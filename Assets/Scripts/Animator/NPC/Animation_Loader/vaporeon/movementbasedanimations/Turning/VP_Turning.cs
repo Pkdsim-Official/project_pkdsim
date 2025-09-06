@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning
 {
 	public class VP_Turning : MonoBehaviour	
 	{

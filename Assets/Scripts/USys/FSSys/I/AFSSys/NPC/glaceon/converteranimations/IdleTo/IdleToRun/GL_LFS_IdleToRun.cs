@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo.IdleToRun
 {
 	public class GL_LFS_IdleToRun : MonoBehaviour 
 	{

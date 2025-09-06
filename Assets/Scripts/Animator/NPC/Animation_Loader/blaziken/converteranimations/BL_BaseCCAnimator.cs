@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations
 {
 	public class BlazikenCoverterAnimatorController : MonoBehaviour 
 	{

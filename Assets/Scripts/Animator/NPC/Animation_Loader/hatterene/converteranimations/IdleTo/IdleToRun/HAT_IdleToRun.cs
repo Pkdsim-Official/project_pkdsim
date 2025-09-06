@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo.IdleToRun
 {
 	public class HATIdleToRun : MonoBehaviour 
 	{

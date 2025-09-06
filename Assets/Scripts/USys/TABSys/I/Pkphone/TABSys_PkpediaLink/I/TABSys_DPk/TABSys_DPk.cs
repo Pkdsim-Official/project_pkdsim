@@ -3,7 +3,7 @@ using TMPro;
 using System.IO;
 using System.Text;
 using System;
-using project_pkdsim.Models.pkpedia.Npc.pkpedia_database;
+using project_pkdsim.Pkpedia.Npc.pkpedia_database;
 
 namespace project_pkdsim.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_PkpediaLink.Modules.TSys_DPk
 {
@@ -14,8 +14,7 @@ namespace project_pkdsim.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_Pk
 
         private void Start()
         {
-            pkpDatabase = GetComponent<Pkpedia_database>();
-            if (pkpDatabase == null)
+            if (pkpDatabase != null)
             {
                 Debug.LogError("Pkpedia_database component not found on GameObject.");
                 return;

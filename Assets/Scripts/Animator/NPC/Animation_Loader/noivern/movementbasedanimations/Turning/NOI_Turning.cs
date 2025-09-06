@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning
 {
 	public class NOI_Turning : MonoBehaviour	
 	{

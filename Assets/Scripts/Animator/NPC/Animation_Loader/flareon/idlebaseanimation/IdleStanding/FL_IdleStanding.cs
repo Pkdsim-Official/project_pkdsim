@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Flareon.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Flareon.idlebaseanimation.IdleStanding
 {
 	public class FL_IdleStanding : MonoBehaviour 
 	{

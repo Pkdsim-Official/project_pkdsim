@@ -1,7 +1,6 @@
-using Unity.Entities.UniversalDelegates;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.idlebaseanimation.IdleStanding
 {
 	public class VP_IdleStanding : MonoBehaviour 
 	{

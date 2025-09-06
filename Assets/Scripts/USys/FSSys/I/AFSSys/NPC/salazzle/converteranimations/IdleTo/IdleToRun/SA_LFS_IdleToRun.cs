@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo.IdleToRun
 {
 	public class SA_LFS_IdleToRun : MonoBehaviour 
 	{

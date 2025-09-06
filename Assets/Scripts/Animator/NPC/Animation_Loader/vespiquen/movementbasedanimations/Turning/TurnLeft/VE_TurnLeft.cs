@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Turning.TurnLeft
 {
 	public class VE_TurnLeft : MonoBehaviour 
 	{

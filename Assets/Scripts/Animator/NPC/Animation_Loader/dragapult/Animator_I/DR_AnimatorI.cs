@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Dragapult.Animator_I
 {
 	public class LFS_DragapultFailSafe : MonoBehaviour 
 	{

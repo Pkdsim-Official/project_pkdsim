@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Lunala.idlebaseanimation.IdleStanding
 {
 	public class LUNAIdleStanding : MonoBehaviour 
 	{

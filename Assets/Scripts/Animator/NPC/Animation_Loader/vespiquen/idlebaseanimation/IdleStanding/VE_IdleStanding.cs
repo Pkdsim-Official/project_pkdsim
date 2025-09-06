@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.idlebaseanimation.IdleStanding
 {
 	public class VEIdleStanding : MonoBehaviour 
 	{

@@ -1,27 +1,25 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
-using Unity.Entities.UniversalDelegates;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo
 {
-	public class CSittingTo : MonoBehaviour 
+	public class C_SittingTo : MonoBehaviour 
 	{
-		private CSittingToStartWalking CinderacesittingToStartWalking;
-		private CSittingToStanding CinderacesittingToStanding;
-		public void CSittingToController()
+		private C_SittingToStartWalking CinderaceSittingToStartWalking;
+		private C_SittingToStanding CinderaceSittingToStanding;
+		public void C_SittingToController()
 		{
-			CSittingToStartWalking();
-			CSittingToStanding();
+			C_SittingToStartWalking();
+			C_SittingToStanding();
 		}
-		private void CSittingToStartWalking()
+		private void C_SittingToStartWalking()
 		{
-			CinderacesittingToStartWalking.CSittingToStartWalkingController();
+			CinderaceSittingToStartWalking.C_SittingToStartWalkingController();
 		}
-		private void CSittingToStanding()
+		private void C_SittingToStanding()
 		{
-			CinderacesittingToStanding.CSittingToStandingController();
+			CinderaceSittingToStanding.C_SittingToStandingController();
 		}
-
 	}
 }

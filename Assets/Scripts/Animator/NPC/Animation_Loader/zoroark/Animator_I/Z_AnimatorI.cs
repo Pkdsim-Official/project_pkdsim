@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.Animator_I
 {
 	public class LFS_ZoroarkFailSafe : MonoBehaviour 
 	{

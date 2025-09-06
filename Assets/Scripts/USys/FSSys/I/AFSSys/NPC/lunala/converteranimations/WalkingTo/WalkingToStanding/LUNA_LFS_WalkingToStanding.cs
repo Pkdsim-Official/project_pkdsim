@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lunala.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lunala.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class LUNA_LFS_WalkingToStanding : MonoBehaviour 
 	{

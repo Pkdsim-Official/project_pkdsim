@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations.Turning.TurnLeft
 {
 	public class UM_LFS_TurnLeft : MonoBehaviour 
 	{

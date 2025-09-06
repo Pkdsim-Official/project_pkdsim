@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class DR_LFS_WalkingToSitting : MonoBehaviour 
 	{

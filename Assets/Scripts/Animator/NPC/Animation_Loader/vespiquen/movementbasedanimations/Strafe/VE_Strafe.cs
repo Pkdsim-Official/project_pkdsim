@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing
 {
 	public class VE_Strafing : MonoBehaviour 
 	{

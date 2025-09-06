@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation
 {
 	public class ZoroarkIdleAnimatorController : MonoBehaviour 
 	{

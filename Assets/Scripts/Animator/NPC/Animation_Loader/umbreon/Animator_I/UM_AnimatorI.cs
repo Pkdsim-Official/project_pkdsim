@@ -1,10 +1,10 @@
 
-using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Umbreon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Umbreon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Umbreon.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Umbreon.Animator_I
 {
 	public class UM_AnimatorI : MonoBehaviour 
 	{		

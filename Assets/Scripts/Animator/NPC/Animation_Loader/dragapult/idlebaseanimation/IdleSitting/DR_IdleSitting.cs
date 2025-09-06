@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.NPC.Dragapult.idlebaseanimation.IdleSitting
 {
 	public class DRIdleSitting : MonoBehaviour 
 	{

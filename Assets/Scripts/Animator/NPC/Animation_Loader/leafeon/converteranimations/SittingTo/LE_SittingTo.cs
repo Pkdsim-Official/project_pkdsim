@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.SittingTo
 {
 	public class LE_SittingTo : MonoBehaviour 
 	{

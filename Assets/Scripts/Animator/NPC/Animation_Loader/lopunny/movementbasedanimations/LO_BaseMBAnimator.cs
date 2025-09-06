@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations
 {
 	public class Lopunny_AnimatorBaseMovementController : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo
 {
 	public class MEOWIdleTo : MonoBehaviour 
 	{

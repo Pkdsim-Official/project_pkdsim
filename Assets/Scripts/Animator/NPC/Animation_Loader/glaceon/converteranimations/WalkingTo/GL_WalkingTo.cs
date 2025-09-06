@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Glaceon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.WalkingTo
 {
 	public class GL_WalkingTo : MonoBehaviour 
 	{

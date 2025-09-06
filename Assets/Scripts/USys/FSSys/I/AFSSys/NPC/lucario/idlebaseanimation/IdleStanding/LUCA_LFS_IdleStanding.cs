@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.idlebaseanimation.IdleStanding
 {
 	public class LUCA_LFS_IdleStanding : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.idlebaseanimation.IdleSitting
 {
 	public class GL_LFS_IdleSitting : MonoBehaviour 
 	{

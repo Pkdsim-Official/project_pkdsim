@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Braixen.idlebaseanimation
 {
 	public class BraixenIdleAnimatorController : MonoBehaviour 
 	{

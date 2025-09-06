@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Running
 {
 	public class GARD_Running : MonoBehaviour 
 	{

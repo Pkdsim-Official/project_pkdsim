@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo.WalkingToStanding;
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo.WalkingToSitting;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo
 {
 	public class TWalkingTo : MonoBehaviour 
 	{

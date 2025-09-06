@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.converteranimations.WalkingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations.IdleTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations
 {
 	public class Vaporeon_CoverterAnimatorController : MonoBehaviour 
 	{

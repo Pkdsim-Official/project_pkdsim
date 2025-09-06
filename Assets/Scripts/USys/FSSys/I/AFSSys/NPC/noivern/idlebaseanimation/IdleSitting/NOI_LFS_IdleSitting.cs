@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Noivern.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Noivern.idlebaseanimation.IdleSitting
 {
 	public class NOI_LFS_IdleSitting : MonoBehaviour 
 	{

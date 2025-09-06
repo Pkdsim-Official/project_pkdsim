@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.Player
+namespace project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.Player
 {
 	public class VAFSSys_Player : MonoBehaviour 
 	{
-
+		public void VAFSSys_PlayerI() 
+		{
+			
+		}
 	}
 }

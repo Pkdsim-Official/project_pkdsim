@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations
 {
 	public class Cinderace_AnimatorBaseMovementController : MonoBehaviour 
 	{

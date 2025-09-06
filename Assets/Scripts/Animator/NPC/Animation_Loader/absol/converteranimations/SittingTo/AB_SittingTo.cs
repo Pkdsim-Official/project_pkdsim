@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo
 {
 	public class AB_SittingTo : MonoBehaviour 
 	{

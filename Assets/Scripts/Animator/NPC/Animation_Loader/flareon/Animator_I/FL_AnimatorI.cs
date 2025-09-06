@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.converteranimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Flareon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Flareon.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Flareon.Animator_I
 {
 	public class FL_AnimatorI : MonoBehaviour 
 	{

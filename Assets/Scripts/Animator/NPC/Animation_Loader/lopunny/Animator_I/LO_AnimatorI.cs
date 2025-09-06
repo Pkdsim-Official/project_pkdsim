@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Lopunny.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Lopunny.Animator_I
 {
 	public class LFS_LopunnyFailSafe : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena
 {
 	public class T_Animator : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo
 {
 	public class BE_IdleTo : MonoBehaviour 
 	{

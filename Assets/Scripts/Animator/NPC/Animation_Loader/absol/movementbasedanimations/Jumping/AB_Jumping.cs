@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Jumping
 {
 	public class AB_Jumping : MonoBehaviour 
 	{

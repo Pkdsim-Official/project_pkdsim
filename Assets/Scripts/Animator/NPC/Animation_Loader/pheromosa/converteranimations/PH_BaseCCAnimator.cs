@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations
 {
 	public class PheromosaCoverterAnimatorController : MonoBehaviour 
 	{

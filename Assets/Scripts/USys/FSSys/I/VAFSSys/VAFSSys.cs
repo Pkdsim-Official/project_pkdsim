@@ -1,6 +1,6 @@
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules;
+using project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules;
 
-namespace project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys
+namespace project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys
 {
 	public class VoiceActorsFailSafetySys : VAFSSysI 
 	{

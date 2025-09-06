@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Jumping
 {
 	public class VP_Jumping : MonoBehaviour 
 	{

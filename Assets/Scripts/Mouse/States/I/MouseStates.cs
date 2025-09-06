@@ -1,9 +1,9 @@
-using project_pkdsim.Models.SCRIPTS.Mouse.States.Mouse_leftclick;
-using project_pkdsim.Models.SCRIPTS.Mouse.States.Mouse_middleclick;
-using project_pkdsim.Models.SCRIPTS.Mouse.States.Mouse_rightclick;
+using project_pkdsim.SCRIPTS.Mouse.States.Mouse_leftclick;
+using project_pkdsim.SCRIPTS.Mouse.States.Mouse_middleclick;
+using project_pkdsim.SCRIPTS.Mouse.States.Mouse_rightclick;
 using UnityEngine;
 
-namespace project_pkdsim.Models.SCRIPTS.Mouse.States.Modules
+namespace project_pkdsim.SCRIPTS.Mouse.States.Modules
 {
 	public class MouseStates : MonoBehaviour
 	{

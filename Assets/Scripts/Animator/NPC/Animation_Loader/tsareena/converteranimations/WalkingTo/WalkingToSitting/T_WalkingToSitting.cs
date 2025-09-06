@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class TWalkingToSitting : MonoBehaviour 
 	{

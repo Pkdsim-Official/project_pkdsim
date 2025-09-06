@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Leafeon.idlebaseanimation.IdleStanding
 {
 	public class LE_IdleStanding : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning.TurnLeft
 {
 	public class Z_LFS_TurnLeft : MonoBehaviour 
 	{

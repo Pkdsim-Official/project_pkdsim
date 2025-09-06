@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Meowscarada.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Meowscarada.converteranimations.SittingTo.SittingToStanding
 {
 	public class MEOW_LFS_SittingToStanding : MonoBehaviour 
 	{

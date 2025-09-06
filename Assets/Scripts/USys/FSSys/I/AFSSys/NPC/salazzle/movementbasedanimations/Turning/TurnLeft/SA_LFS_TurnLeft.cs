@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Salazzle.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Salazzle.movementbasedanimations.Turning.TurnLeft
 {
 	public class SA_LFS_TurnLeft : MonoBehaviour 
 	{

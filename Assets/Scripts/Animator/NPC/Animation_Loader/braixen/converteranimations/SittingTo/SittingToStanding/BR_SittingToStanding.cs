@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.SittingTo.SittingToStanding
 {
 	public class BRSittingToStanding : MonoBehaviour 
 	{

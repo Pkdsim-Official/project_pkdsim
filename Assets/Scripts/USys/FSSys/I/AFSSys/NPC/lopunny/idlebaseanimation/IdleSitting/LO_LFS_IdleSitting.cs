@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.idlebaseanimation.IdleSitting
 {
 	public class LO_LFS_IdleSitting : MonoBehaviour 
 	{

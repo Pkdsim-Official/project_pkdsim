@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations
 {
 	public class GarchompCoverterAnimatorController : MonoBehaviour 
 	{

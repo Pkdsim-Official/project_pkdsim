@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.Player.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.Models.ANIMATOR.Player.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Player.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Player.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Player.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Player.converteranimations.IdleTo
 {
 	public class Player_IdleTo : MonoBehaviour 
 	{

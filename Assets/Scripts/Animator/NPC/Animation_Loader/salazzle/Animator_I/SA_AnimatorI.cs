@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Salazzle.Animator_I
 {
 	public class _SalazzleFailSafe : MonoBehaviour 
 	{

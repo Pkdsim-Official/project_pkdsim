@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Espeon.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Espeon.converteranimations.WalkingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Espeon.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.IdleTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Espeon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Espeon.idlebaseanimation
 {
 	public class Espeon_AnimatorConverterController : MonoBehaviour 
 	{

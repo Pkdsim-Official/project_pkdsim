@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning
 {
 	public class PH_Turning : MonoBehaviour	
 	{

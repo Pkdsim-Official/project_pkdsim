@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo.SittingToStartWalking
 {
 	public class GARC_SittingToStartWalking : MonoBehaviour 
 	{

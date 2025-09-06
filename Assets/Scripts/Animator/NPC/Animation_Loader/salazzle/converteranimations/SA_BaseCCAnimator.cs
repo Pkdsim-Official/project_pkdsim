@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations
 {
 	public class Salazzle_CoverterAnimatorController : MonoBehaviour 
 	{

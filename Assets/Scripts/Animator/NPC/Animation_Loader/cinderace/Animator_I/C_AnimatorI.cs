@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Cinderace.Animator_I
 {
 	public class LFS_CinderaceFailSafe : MonoBehaviour 
 	{

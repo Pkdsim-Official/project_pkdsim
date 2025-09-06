@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations.Jumping
 {
 	public class JT_Jumping : MonoBehaviour 
 	{

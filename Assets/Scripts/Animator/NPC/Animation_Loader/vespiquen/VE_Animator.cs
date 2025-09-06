@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen
 {
 	public class FL_Animator : MonoBehaviour 
 	{

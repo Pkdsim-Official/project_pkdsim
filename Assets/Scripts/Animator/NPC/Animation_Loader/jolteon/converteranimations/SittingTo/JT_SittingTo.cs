@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo
 {
 	public class JT_SittingTo : MonoBehaviour 
 	{

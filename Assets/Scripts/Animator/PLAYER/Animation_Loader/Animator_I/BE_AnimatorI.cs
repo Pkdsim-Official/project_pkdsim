@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.Player.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.Player.converteranimations;
+using project_pkdsim.ANIMATOR.Player.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Player.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Player.Animator_I
+namespace project_pkdsim.ANIMATOR.Player.Animator_I
 {
 	public class LFS_PlayerFailSafe : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo
 {
 	public class LUCAWalkingTo : MonoBehaviour 
 	{

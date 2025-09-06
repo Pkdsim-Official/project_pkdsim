@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Player.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Player.idlebaseanimation.IdleSitting
 {
 	public class Player_IdleSitting : MonoBehaviour 
 	{

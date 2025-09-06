@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations
 {
 	public class ZoroarkCoverterAnimatorController : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning
 {
 	public class FL_Turning : MonoBehaviour	
 	{

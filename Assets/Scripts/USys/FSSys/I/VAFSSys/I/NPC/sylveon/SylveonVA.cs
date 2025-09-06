@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys.Modules.NPC.Sylveon
+namespace project_pkdsim.USys.FailSafeSys.Modules.VoiceActorsFailSafeSys.Modules.NPC.Sylveon
 {
 	public class SylveonVAFS : MonoBehaviour 
 	{

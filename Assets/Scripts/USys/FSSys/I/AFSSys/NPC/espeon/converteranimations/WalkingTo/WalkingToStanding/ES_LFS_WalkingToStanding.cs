@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class ES_LFS_WalkingToStanding : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning
 {
 	public class DR_Turning : MonoBehaviour	
 	{

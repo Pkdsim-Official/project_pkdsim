@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Umbreon.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.NPC.Umbreon.movementbasedanimations.Jumping
 {
 	public class UM_Jumping : MonoBehaviour 
 	{

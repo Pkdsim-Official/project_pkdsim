@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.SittingTo.SittingToStanding
 {
 	public class NOISittingToStanding : MonoBehaviour 
 	{

@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Salazzle.movementbasedanimations
 {
 	public class Salazzle_AnimatorBaseMovementController : MonoBehaviour 
 	{

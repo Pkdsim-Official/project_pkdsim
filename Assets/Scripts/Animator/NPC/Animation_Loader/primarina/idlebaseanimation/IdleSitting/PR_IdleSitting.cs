@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.idlebaseanimation.IdleSitting
 {
 	public class PRIdleSitting : MonoBehaviour 
 	{

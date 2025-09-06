@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Leafeon.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Leafeon.converteranimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Leafeon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Leafeon.idlebaseanimation;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Leafeon.Animator_I
 {
 	public class LE_AnimatorI : MonoBehaviour 
 	{

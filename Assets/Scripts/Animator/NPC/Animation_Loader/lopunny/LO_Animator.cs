@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lopunny
+namespace project_pkdsim.ANIMATOR.NPC.Lopunny
 {
 	public class LO_Animator : MonoBehaviour 
 	{

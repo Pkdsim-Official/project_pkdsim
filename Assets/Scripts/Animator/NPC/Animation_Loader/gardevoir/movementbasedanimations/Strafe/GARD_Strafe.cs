@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing
 {
 	public class GARD_Strafing : MonoBehaviour 
 	{

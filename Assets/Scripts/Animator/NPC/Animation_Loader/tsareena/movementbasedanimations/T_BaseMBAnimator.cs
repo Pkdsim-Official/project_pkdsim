@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations
 {
 	public class Tsareena_AnimatorBaseMovementController : MonoBehaviour 
 	{

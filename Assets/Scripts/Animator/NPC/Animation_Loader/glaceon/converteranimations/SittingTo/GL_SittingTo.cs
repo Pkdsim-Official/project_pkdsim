@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Glaceon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.SittingTo
 {
 	public class GL_SittingTo : MonoBehaviour 
 	{

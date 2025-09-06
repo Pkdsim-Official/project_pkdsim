@@ -1,7 +1,7 @@
-using project_pkdsim.USys.AnimatorFailSafeSys.Modules.DIsableFallbackSys;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules.DIsableFallbackSys;
 using UnityEngine;
 
-namespace project_pkdsim.USys.AnimatorFailSafeSys.Modules.OnAnimator.Restore
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules.OnAnimator.Restore
 {
 	public class AFSSysF_OnAnimatorRestore : MonoBehaviour 
 	{

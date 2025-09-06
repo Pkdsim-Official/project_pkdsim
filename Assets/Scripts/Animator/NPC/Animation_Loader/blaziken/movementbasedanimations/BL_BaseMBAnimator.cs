@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations
 {
 	public class Blaziken_AnimatorBaseMovementController : MonoBehaviour 
 	{

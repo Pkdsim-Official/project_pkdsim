@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.idlebaseanimation.IdleSitting
 {
 	public class VP_IdleSitting : MonoBehaviour 
 	{

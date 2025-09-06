@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Running
 {
 	public class Z_Running : MonoBehaviour 
 	{

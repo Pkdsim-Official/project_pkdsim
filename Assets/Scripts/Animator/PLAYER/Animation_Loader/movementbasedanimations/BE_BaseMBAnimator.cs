@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Player.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Player.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Player.movementbasedanimations
 {
 	public class Player_AnimatorBaseMovementController : MonoBehaviour 
 	{

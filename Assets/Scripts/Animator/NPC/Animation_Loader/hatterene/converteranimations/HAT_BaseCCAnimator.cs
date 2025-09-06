@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Hatterene.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations
 {
 	public class HattereneCoverterAnimatorController : MonoBehaviour 
 	{

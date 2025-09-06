@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo.IdleToRun
 {
 	public class GARC_IdleToRun : MonoBehaviour 
 	{

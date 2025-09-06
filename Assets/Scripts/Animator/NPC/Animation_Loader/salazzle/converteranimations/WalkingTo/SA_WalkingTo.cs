@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo
 {
 	public class SA_WalkingTo : MonoBehaviour 
 	{

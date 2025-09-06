@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning.TurnRight
 {
     public class C_TurnRight : MonoBehaviour 
     {

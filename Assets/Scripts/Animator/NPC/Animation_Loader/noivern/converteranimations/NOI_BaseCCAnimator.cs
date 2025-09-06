@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations
 {
 	public class NoivernCoverterAnimatorController : MonoBehaviour 
 	{

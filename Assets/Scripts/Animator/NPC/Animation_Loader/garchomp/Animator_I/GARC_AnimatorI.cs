@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Garchomp.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Garchomp.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Garchomp.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Garchomp.Animator_I
 {
 	public class LFS_GarchompFailSafe : MonoBehaviour 
 	{

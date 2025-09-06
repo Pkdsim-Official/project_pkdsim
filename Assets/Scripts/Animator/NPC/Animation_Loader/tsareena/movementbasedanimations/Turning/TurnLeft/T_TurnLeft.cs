@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations.Turning.TurnLeft
 {
 	public class T_TurnLeft : MonoBehaviour 
 	{

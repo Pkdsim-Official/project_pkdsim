@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Tsareena.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena.idlebaseanimation
 {
 	public class TsareenaIdleAnimatorController : MonoBehaviour 
 	{

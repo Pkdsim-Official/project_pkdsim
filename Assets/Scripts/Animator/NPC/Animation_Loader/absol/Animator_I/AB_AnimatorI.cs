@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Absol.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Absol.Animator_I
 {
 	public class LFS_AbsolFailSafe : MonoBehaviour 
 	{

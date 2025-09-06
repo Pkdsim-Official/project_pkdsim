@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Turning.TurnRight
 {
     public class GARD_TurnRight : MonoBehaviour 
     {

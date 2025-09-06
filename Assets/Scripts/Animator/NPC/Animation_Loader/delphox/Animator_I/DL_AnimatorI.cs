@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Delphox.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Delphox.Animator_I
 {
 	public class LFS_DelphoxFailSafe : MonoBehaviour 
 	{

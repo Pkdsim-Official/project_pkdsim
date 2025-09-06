@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Absol.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations
 {
 	public class Absol_AnimatorBaseMovementController : MonoBehaviour 
 	{

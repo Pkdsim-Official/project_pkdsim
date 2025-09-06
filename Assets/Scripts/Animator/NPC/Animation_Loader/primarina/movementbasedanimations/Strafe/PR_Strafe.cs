@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafing
 {
 	public class PR_Strafing : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Leafeon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.Models.ANIMATOR.NPC.Leafeon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.IdleTo
 {
 	public class LE_IdleTo : MonoBehaviour 
 	{

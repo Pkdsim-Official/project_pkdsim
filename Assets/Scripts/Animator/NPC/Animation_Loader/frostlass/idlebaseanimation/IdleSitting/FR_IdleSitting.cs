@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Frostlass.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.NPC.Frostlass.idlebaseanimation.IdleSitting
 {
 	public class FRIdleSitting : MonoBehaviour 
 	{

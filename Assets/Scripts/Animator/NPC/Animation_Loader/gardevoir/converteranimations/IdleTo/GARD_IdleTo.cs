@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo
 {
 	public class GARD_IdleTo : MonoBehaviour 
 	{

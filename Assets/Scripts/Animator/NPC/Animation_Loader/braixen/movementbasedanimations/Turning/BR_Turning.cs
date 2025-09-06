@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning
 {
 	public class BR_Turning : MonoBehaviour	
 	{

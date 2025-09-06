@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Espeon
+namespace project_pkdsim.ANIMATOR.NPC.Espeon
 {
 	public class LE_Animator : MonoBehaviour 
 	{

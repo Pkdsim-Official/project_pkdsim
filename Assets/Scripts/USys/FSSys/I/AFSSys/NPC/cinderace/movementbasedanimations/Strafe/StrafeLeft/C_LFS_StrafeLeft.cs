@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class C_LFS_StrafeLeft : MonoBehaviour 
 	{

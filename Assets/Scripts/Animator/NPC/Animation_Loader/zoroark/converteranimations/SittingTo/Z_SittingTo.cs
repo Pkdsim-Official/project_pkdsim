@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo
 {
 	public class ZSittingTo : MonoBehaviour 
 	{

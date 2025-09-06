@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleStanding
 {
 	public class BRIdleStanding : MonoBehaviour 
 	{

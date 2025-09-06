@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo
 {
 	public class VESittingTo : MonoBehaviour 
 	{

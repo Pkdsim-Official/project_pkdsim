@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lunala.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Turning
 {
 	public class LUNA_Turning : MonoBehaviour	
 	{

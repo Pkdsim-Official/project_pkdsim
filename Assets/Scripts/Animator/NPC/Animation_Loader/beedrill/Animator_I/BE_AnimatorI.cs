@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Beedrill.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Beedrill.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Beedrill.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Beedrill.Animator_I
 {
 	public class LFS_BeedrillFailSafe : MonoBehaviour 
 	{

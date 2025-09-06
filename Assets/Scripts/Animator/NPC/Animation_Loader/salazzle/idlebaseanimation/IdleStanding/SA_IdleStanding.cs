@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Salazzle.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.NPC.Salazzle.idlebaseanimation.IdleStanding
 {
 	public class SA_IdleStanding : MonoBehaviour 
 	{

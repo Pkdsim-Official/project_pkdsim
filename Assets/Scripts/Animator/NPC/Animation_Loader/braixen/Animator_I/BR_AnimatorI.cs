@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Braixen.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Braixen.Animator_I
 {
 	public class LFS_BraixenFailSafe : MonoBehaviour 
 	{

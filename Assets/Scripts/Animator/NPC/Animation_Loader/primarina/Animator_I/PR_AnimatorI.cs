@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Primarina.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Primarina.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Primarina.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.Animator_I
 {
 	public class LFS_PrimarinaFailSafe : MonoBehaviour 
 	{

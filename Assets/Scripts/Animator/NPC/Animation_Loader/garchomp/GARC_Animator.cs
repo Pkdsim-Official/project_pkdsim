@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp
+namespace project_pkdsim.ANIMATOR.NPC.Garchomp
 {
 	public class GARC_Animator : MonoBehaviour 
 	{

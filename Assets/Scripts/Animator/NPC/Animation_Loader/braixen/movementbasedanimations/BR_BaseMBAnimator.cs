@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Braixen.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations
 {
 	public class Braixen_AnimatorBaseMovementController : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Absol
+namespace project_pkdsim.ANIMATOR.NPC.Absol
 {
 	public class AB_Animator : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo
 {
 	public class PHWalkingTo : MonoBehaviour 
 	{

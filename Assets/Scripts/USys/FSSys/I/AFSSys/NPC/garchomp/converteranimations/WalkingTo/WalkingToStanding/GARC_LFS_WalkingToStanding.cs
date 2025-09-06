@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Garchomp.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Garchomp.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class GARC_LFS_WalkingToStanding : MonoBehaviour 
 	{

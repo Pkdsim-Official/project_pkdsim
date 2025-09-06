@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.SCRIPTS.Mouse.States.Mouse_leftclick
+namespace project_pkdsim.SCRIPTS.Mouse.States.Mouse_leftclick
 {
     public class Mouse_LC : MonoBehaviour
     {

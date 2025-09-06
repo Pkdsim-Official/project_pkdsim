@@ -1,7 +1,7 @@
-using project_pkdsim.Models.SCRIPTS.Mouse.States.Modules;
+using project_pkdsim.SCRIPTS.Mouse.States.Modules;
 using UnityEngine;
 
-namespace project_pkdsim.Models.SCRIPTS.Mouse
+namespace project_pkdsim.SCRIPTS.Mouse
 {
 	public enum MouseStateEnum
 	{

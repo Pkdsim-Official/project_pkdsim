@@ -1,10 +1,10 @@
-using project_pkdsim.USys.AnimatorFailSafeSys.Modules.OnAnimator.Trigger;
-using project_pkdsim.USys.AnimatorFailSafeSys.Modules.DIsableFallbackSys;
-using project_pkdsim.USys.AnimatorFailSafeSys.Modules.EnableFallbackSys;
-using project_pkdsim.USys.AnimatorFailSafeSys.Modules.OnAnimator.Restore;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules.OnAnimator.Trigger;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules.DIsableFallbackSys;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules.EnableFallbackSys;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules.OnAnimator.Restore;
 using UnityEngine;
 
-namespace project_pkdsim.USys.AnimatorFailSafeSys.Modules
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.Modules
 {
     public class AFSSysI : MonoBehaviour
     {

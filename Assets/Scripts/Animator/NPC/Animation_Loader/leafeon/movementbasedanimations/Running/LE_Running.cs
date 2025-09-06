@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Running
 {
 	public class LE_Running : MonoBehaviour 
 	{

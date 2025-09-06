@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToRun
 {
 	public class VEIdleToRun : MonoBehaviour 
 	{

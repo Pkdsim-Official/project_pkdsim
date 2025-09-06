@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.IdleTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.SittingTo;
-using project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Lucario.converteranimations
+namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations
 {
 	public class LucarioCoverterAnimatorController : MonoBehaviour 
 	{

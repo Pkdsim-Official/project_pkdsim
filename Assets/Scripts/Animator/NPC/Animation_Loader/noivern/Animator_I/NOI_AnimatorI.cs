@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Noivern.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Noivern.Animator_I
 {
 	public class LFS_NoivernFailSafe : MonoBehaviour 
 	{

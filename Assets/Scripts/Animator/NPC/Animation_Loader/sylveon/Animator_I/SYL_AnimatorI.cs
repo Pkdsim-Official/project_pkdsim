@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Sylveon.converteranimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Sylveon.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Sylveon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Sylveon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Sylveon.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Sylveon.Animator_I
 {
 	public class SYL_AnimatorI : MonoBehaviour 
 	{

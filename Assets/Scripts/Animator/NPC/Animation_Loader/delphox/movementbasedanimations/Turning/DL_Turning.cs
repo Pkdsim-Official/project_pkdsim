@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning
 {
 	public class DL_Turning : MonoBehaviour	
 	{

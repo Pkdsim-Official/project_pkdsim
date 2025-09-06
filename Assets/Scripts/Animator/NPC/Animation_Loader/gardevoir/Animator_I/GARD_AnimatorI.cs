@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Gardevoir.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.Animator_I
 {
 	public class LFS_GardevoirFailSafe : MonoBehaviour 
 	{

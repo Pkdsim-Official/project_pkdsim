@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class PHWalkingToSitting : MonoBehaviour 
 	{

@@ -1,10 +1,10 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Jumping;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Running;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing;
-using project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Dragapult.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations
 {
 	public class Dragapult_AnimatorBaseMovementController : MonoBehaviour 
 	{

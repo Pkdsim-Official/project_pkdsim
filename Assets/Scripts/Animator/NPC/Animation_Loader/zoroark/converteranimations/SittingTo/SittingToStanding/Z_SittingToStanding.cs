@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStanding
 {
 	public class ZSittingToStanding : MonoBehaviour 
 	{

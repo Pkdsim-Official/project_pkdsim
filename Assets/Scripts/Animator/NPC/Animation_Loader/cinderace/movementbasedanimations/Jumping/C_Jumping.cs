@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Jumping
 {
 	public class C_Jumping : MonoBehaviour 
 	{

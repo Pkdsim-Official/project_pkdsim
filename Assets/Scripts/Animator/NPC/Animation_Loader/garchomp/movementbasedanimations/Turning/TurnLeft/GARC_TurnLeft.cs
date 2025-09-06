@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Garchomp.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.NPC.Garchomp.movementbasedanimations.Turning.TurnLeft
 {
 	public class GARC_TurnLeft : MonoBehaviour 
 	{

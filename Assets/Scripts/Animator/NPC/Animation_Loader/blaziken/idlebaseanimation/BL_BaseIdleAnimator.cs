@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Blaziken.idlebaseanimation
 {
 	public class BlazikenIdleAnimatorController : MonoBehaviour 
 	{

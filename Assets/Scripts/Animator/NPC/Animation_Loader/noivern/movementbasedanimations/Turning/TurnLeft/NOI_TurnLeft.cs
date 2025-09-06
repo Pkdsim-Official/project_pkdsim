@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning.TurnLeft
 {
 	public class NOI_TurnLeft : MonoBehaviour 
 	{

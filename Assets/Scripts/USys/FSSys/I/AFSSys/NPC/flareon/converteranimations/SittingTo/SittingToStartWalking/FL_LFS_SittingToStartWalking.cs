@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.converteranimations.SittingTo.SittingToStartWalking
 {
 	public class FL_LFS_SittingToStartWalking : MonoBehaviour 
 	{

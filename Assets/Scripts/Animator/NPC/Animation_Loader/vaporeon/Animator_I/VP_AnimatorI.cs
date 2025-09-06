@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.converteranimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vaporeon.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.Animator_I
 {
 	public class VAPOR_AnimatorI : MonoBehaviour 
 	{

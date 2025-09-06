@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning.TurnRight
 {
     public class BE_TurnRight : MonoBehaviour 
     {

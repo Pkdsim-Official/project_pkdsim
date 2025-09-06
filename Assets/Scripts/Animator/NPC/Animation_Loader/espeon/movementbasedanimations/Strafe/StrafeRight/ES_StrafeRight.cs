@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Espeon.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.NPC.Espeon.movementbasedanimations.Strafing.StrafeRight
 {
 	public class ES_StrafeRight : MonoBehaviour
 	{

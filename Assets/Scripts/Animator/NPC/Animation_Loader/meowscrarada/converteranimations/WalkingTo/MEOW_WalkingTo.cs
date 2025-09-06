@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo
 {
 	public class MEOWWalkingTo : MonoBehaviour 
 	{

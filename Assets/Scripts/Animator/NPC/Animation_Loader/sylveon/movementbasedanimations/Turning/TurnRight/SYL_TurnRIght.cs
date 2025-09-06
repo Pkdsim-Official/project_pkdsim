@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Sylveon.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Turning.TurnRight
 {
     public class SYL_TurnRight : MonoBehaviour 
     {

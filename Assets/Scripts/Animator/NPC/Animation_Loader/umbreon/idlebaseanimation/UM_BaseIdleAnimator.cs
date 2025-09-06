@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Umbreon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Umbreon.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Umbreon.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Umbreon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Umbreon.idlebaseanimation
 {
 	public class Umbreon_AnimatorIdleController : MonoBehaviour 
 	{

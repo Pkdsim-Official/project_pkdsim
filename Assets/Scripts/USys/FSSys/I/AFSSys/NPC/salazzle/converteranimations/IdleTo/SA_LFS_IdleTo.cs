@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.Models.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo
 {
 	public class SA_LFS_IdleTo : MonoBehaviour 
 	{

@@ -1,17 +1,12 @@
+using project_pkdsim.USys.FailSafeSys.Modules;
 
-using project_pkdsim.USys.AnimatorFailSafeSys;
-using project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys;
-using UnityEngine;
-
-namespace project_pkdsim.USys.FSSys
+namespace project_pkdsim.USys.FailSafeSys
 {
-	public class FSSys : MonoBehaviour 
+	public class FSSys : FSSysI
 	{
-		private VoiceActorsFailSafetySys VAFSSys;
-		private AnimatorFailSafetySys AFSSys;
-		public void FSSysI() 
+		public void FSSysI()
 		{
-			
+			FSSys_I();
 		}
 	}
 }

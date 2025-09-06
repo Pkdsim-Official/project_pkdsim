@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Tsareena.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations.Running
 {
 	public class T_Running : MonoBehaviour 
 	{

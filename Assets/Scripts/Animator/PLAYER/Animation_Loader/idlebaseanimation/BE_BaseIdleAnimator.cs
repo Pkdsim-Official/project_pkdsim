@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.Player.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.Player.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Player.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Player.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.Player.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Player.idlebaseanimation
 {
 	public class PlayerIdleAnimatorController : MonoBehaviour 
 	{

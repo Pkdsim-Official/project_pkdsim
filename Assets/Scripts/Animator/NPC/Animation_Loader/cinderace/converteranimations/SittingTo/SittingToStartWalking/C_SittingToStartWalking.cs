@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class CSittingToStartWalking : MonoBehaviour 
+	public class C_SittingToStartWalking : MonoBehaviour 
 	{
-		public void CSittingToStartWalkingController() 
+		public void C_SittingToStartWalkingController() 
 		{
 	
 		}

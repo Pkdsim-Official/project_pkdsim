@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Jumping
 {
 	public class MEOW_Jumping : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.Models.ANIMATOR.NPC.Flareon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.USys.FSSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.converteranimations.IdleTo
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.converteranimations.IdleTo
 {
 	public class FL_LFS_IdleTo : MonoBehaviour 
 	{

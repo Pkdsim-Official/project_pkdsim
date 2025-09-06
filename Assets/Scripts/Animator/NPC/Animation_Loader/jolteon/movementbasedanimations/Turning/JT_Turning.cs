@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations.Turning.TurnRight;
 
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Jolteon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations.Turning
 {
 	public class JT_Turning : MonoBehaviour	
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo
 {
 	public class LE_WalkingTo : MonoBehaviour 
 	{

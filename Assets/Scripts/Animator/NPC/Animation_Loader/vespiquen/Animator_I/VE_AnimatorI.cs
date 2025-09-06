@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Vespiquen.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.Animator_I
 {
 	public class LFS_VespiquenFailSafe : MonoBehaviour 
 	{

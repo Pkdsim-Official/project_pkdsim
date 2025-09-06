@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.Models.SCRIPTS.Mouse.States.Mouse_rightclick
+namespace project_pkdsim.SCRIPTS.Mouse.States.Mouse_rightclick
 {
     public class Mouse_RC : MonoBehaviour
     {

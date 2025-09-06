@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.Models.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo
 {
 	public class SYL_SittingTo : MonoBehaviour 
 	{

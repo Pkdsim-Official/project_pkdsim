@@ -1,8 +1,8 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.idlebaseanimation.IdleSitting;
-using project_pkdsim.Models.ANIMATOR.NPC.Noivern.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.NPC.Noivern.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.NPC.Noivern.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Noivern.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.NPC.Noivern.idlebaseanimation
 {
 	public class NoivernIdleAnimatorController : MonoBehaviour 
 	{

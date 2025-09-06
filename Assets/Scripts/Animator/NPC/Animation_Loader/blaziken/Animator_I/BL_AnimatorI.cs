@@ -1,9 +1,9 @@
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.idlebaseanimation;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.movementbasedanimations;
-using project_pkdsim.Models.ANIMATOR.NPC.Blaziken.converteranimations;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.idlebaseanimation;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.Models.ANIMATOR.NPC.Blaziken.Animator_I
+namespace project_pkdsim.ANIMATOR.NPC.Blaziken.Animator_I
 {
 	public class LFS_BlazikenFailSafe : MonoBehaviour 
 	{
