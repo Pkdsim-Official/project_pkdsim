@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.IdleTo
 {
 	public class FR_IdleTo : MonoBehaviour 
 	{
-		private FR_IdleToRun FrostlassIdleToRun;
-		private FR_IdleToWalk FrostlassIdleToWalk;
+		private FR_IdleToRun Frostlass_IdleToRun;
+		private FR_IdleToWalk Frostlass_IdleToWalk;
 		public void FR_IdleToController()
 		{
 			Load_FR_IdleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.IdleTo
 		}
 		private void Load_FR_IdleToRun()
 		{
-			FrostlassIdleToRun.FR_IdleToRunController();
+			Frostlass_IdleToRun.FR_IdleToRunController();
 		}
 		private void Load_FR_IdleToWalk()
 		{
-			FrostlassIdleToWalk.FR_IdleToWalkController();
+			Frostlass_IdleToWalk.FR_IdleToWalkController();
 		}
 	}
 }

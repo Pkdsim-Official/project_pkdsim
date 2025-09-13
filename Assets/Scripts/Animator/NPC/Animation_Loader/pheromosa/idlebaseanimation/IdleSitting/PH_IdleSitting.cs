@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.idlebaseanimation.IdleSitting
 {
-	public class PHIdleSitting : MonoBehaviour 
+	public class PH_IdleSitting : MonoBehaviour 
 	{
 		private Animator Pheromosa_Animator;
-		public void PHIdleSittingController()
+		public void PH_IdleSittingController()
 		{
 			Pheromosa_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
 			Pheromosa_Animator.Play("Idle_Sitting");         // Start in the Idle animation state

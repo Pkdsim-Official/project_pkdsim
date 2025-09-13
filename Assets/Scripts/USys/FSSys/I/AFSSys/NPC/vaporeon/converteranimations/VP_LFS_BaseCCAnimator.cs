@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vapor
 		
 		private VP_LFS_IdleTo Vaporeon_LFS_idleto;
 
-		public void VP_BaseIdleAnimatorController()
+		public void VP_Base_IdleAnimatorController()
 		{
 			Vaporeon_LFS_walkingto.VP_LFS_WalkingToController();
 			Vaporeon_LFS_idleto.VP_LFS_IdleToController();	

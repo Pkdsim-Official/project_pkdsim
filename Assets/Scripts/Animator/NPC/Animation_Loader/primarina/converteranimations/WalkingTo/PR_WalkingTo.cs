@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo
 {
-	public class PRWalkingTo : MonoBehaviour 
+	public class PR_WalkingTo : MonoBehaviour 
 	{
-		private PRWalkingToStanding PrimarinaWalkingToStanding;
-		private PRWalkingToSitting PrimarinaWalkingToSitting;
-		public void PRWalkingToController()
+		private PR_WalkingToStanding Primarina_WalkingToStanding;
+		private PR_WalkingToSitting Primarina_WalkingToSitting;
+		public void PR_WalkingToController()
 		{
-			Load_PRWalkingToStanding();
-			Load_PRWalkingToWSitting();
+			Load_PR_WalkingToStanding();
+			Load_PR_WalkingToWSitting();
 		}
-		private void Load_PRWalkingToStanding()
+		private void Load_PR_WalkingToStanding()
 		{
-			PrimarinaWalkingToStanding.PRWalkingToStandingController();
+			Primarina_WalkingToStanding.PR_WalkingToStandingController();
 		}
-		private void Load_PRWalkingToWSitting()
+		private void Load_PR_WalkingToWSitting()
 		{
-			PrimarinaWalkingToSitting.PRWalkingToSittingController();
+			Primarina_WalkingToSitting.PR_WalkingToSittingController();
 		}
 	}
 }

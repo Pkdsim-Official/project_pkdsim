@@ -16,7 +16,7 @@ namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vapor
 
 		private VP_LFS_Strafing VP_MBA_Strafe;
 
-		public void VP_BaseIdleAnimatorController()
+		public void VP_Base_IdleAnimatorController()
 		{
 			VP_MBA_Running.VP_LFS_RunningController();
 

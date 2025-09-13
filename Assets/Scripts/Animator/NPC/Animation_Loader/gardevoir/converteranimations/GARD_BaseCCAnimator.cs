@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.WalkingTo;
 using UnityEngine;
 

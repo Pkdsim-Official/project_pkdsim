@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations.WalkingTo;
 using UnityEngine;
 
@@ -7,19 +7,19 @@ namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations
 {
 	public class MeowscaradaCoverterAnimatorController : MonoBehaviour 
 	{
-		private MEOWSittingTo Meowscaradasittingto;
+		private MEOW_SittingTo Meowscaradasittingto;
 		
-		private MEOWWalkingTo Meowscaradawalkingto;
+		private MEOW_WalkingTo Meowscaradawalkingto;
 		
-		private MEOWIdleTo Meowscaradaidleto;
+		private MEOW_IdleTo Meowscaradaidleto;
 
 		public void MEOWCoverterToAnimatorController()
 		{
-			Meowscaradawalkingto.MEOWWalkingToController();
+			Meowscaradawalkingto.MEOW_WalkingToController();
 
 			Meowscaradaidleto.MEOW_IdleToController();
 			
-			Meowscaradasittingto.MEOWSittingToController();	
+			Meowscaradasittingto.MEOW_SittingToController();	
 		}
 	}
 }

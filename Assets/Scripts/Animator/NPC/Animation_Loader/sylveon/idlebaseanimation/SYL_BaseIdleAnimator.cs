@@ -10,7 +10,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Sylveon.idlebaseanimation
 		
 		private SYL_IdleSitting SYL_idlesitting;
 
-		private void SYL_BaseIdleAnimatorController()
+		private void SYL_Base_IdleAnimatorController()
 		{
 			SYL_idlestanding.SYL_IdleStandingController();
 			SYL_idlesitting.SYL_IdleSittingController();	

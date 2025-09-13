@@ -8,18 +8,18 @@ namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations
 {
 	public class Flareon_AnimatorConverterController : MonoBehaviour 
 	{
-		private FL_IdleTo Flareon_idleto;
+		private FL_IdleTo FlareonIdleto;
 		
-		private FL_WalkingTo Flareon_walkingto;
+		private FL_WalkingTo FlareonWalkingto;
 
-		private FL_SittingTo Flareon_sittingto;
-		private void Flareon_BaseIdleAnimatorController()
+		private FL_SittingTo FlareonSittingto;
+		private void Flareon_Base_IdleAnimatorController()
 		{
-			Flareon_walkingto.FL_WalkingToController();
+			FlareonWalkingto.FL_WalkingToController();
 
-			Flareon_idleto.FL_IdleToController();
+			FlareonIdleto.FL_IdleToController();
 			
-			Flareon_sittingto.FL_SittingToController();
+			FlareonSittingto.FL_SittingToController();
 		}
 	}
 }

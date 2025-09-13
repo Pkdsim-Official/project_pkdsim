@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations._SittingTo
 {
-	public class DLSittingTo : MonoBehaviour 
+	public class DL_SittingTo : MonoBehaviour 
 	{
-		private DLSittingToStartWalking DelphoxsittingToStartWalking;
-		private DLSittingToStanding DelphoxsittingToStanding;
-		public void DLSittingToController()
+		private DL_SittingToStartWalking DelphoxsittingToStartWalking;
+		private DL_SittingToStanding DelphoxsittingToStanding;
+		public void DL_SittingToController()
 		{
-			DLSittingToStartWalking();
-			DLSittingToStanding();
+			DL_SittingToStartWalking();
+			DL_SittingToStanding();
 		}
-		private void DLSittingToStartWalking()
+		private void DL_SittingToStartWalking()
 		{
-			DelphoxsittingToStartWalking.DLSittingToStartWalkingController();
+			DelphoxsittingToStartWalking.DL_SittingToStartWalkingController();
 		}
-		private void DLSittingToStanding()
+		private void DL_SittingToStanding()
 		{
-			DelphoxsittingToStanding.DLSittingToStandingController();
+			DelphoxsittingToStanding.DL_SittingToStandingController();
 		}
 
 	}

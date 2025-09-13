@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations
 		private DL_Running DL_MBA_Running;
 
 
-		private DL_Turning DL_MBATurning;
+		private DL_Turning DL_MBA_Turning;
 
 		private DL_Strafing DL_MBA_Strafe;
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations
 
 			DL_MBA_Jumping.DL_JumpingController();
 
-			DL_MBATurning.DL_TurningController();	
+			DL_MBA_Turning.DL_TurningController();	
 
 			DL_MBA_Strafe.DL_StrafingController();
 		}

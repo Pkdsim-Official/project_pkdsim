@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations._SittingTo
 {
 	public class AB_SittingTo : MonoBehaviour 
 	{
-		private AB_SittingToStartWalking AbsolSittingToStartWalking;
-		private AB_SittingToStanding AbsolSittingToStanding;
+		private AB_SittingToStartWalking Absol_SittingToStartWalking;
+		private AB_SittingToStanding Absol_SittingToStanding;
 		public void AB_SittingToController()
 		{
 			AB_SittingToStartWalking();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo
 		}
 		private void AB_SittingToStartWalking()
 		{
-			AbsolSittingToStartWalking.AB_SittingToStartWalkingController();
+			Absol_SittingToStartWalking.AB_SittingToStartWalkingController();
 		}
 		private void AB_SittingToStanding()
 		{
-			AbsolSittingToStanding.AB_SittingToStandingController();
+			Absol_SittingToStanding.AB_SittingToStandingController();
 		}
 
 	}

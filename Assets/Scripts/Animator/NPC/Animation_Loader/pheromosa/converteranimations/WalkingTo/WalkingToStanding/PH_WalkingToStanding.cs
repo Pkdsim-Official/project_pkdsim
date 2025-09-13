@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class PHWalkingToStanding : MonoBehaviour 
+	public class PH_WalkingToStanding : MonoBehaviour 
 	{
-		public void PHWalkingToStandingController()
+		public void PH_WalkingToStandingController()
 		{
 			
 		}

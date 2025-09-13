@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo
 {
 	public class C_WalkingTo : MonoBehaviour 
 	{
-		private C_WalkingToSitting CinderaceWalkingToSitting;
-		private C_WalkingToStanding CinderaceWalkingToStanding;
+		private C_WalkingToSitting Cinderace_WalkingToSitting;
+		private C_WalkingToStanding Cinderace_WalkingToStanding;
 		public void C_WalkingToController()
 		{
 			C_WalkingToStartWalking();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo
 		}
 		private void C_WalkingToStartWalking()
 		{
-			CinderaceWalkingToSitting.C_WalkingToSittingController();
+			Cinderace_WalkingToSitting.C_WalkingToSittingController();
 		}
 		private void C_WalkingToStanding()
 		{
-			CinderaceWalkingToStanding.C_WalkingToStandingController();
+			Cinderace_WalkingToStanding.C_WalkingToStandingController();
 		}
 	}
 }

@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Delphox.idlebaseanimation
 {
-	public class DelphoxIdleAnimatorController : MonoBehaviour 
+	public class Delphox_IdleAnimatorController : MonoBehaviour 
 	{
 		private DLIdleStanding DLidlestanding;
 		
-		private DLIdleSitting DLidlesitting;
+		private DL_IdleSitting DLidlesitting;
 		
-		public void	DLIdleAnimatorController()
+		public void	DL_IdleAnimatorController()
 		{
 			DLIdleStandingAnimatorController();
-			DLIdleSittingAnimatorController();
+			DL_IdleSittingAnimatorController();
 		}
 		private void DLIdleStandingAnimatorController()
 		{
 			DLidlestanding.DLIdleStandingController();
 		}
-		private void DLIdleSittingAnimatorController()
+		private void DL_IdleSittingAnimatorController()
 		{
-			DLidlesitting.DLIdleSittingController();
+			DLidlesitting.DL_IdleSittingController();
 		}
 	}
 }

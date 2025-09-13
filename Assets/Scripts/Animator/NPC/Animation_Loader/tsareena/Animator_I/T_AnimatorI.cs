@@ -10,9 +10,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Tsareena.Animator_I
 		public Animator Tsareena_Animator;
 		public RuntimeAnimatorController someController;
 
-		private TsareenaCoverterAnimatorController LFSTsareena_AnimatorCCA;
+		private Tsareena_CoverterAnimatorController LFSTsareena_AnimatorCCA;
 		private Tsareena_AnimatorBaseMovementController LFSTsareena_AnimatorCMA;
-		private TsareenaIdleAnimatorController LFSTsareena_AnimatorICA;
+		private Tsareena_IdleAnimatorController LFSTsareena_AnimatorICA;
 
 
 		public void LoadFailSafeTsareena_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.NPC.Tsareena.Animator_I
 		}
 		private void LoadFailSafeTsareena_ConvertToAnimatorController()
 		{
-			LFSTsareena_AnimatorCCA.TCoverterToAnimatorController();
+			LFSTsareena_AnimatorCCA.T_CoverterToAnimatorController();
 		}
 		private void LoadFailSafeTsareena_MovementAnimatorController()
 		{
-			LFSTsareena_AnimatorCMA.TMovementAnimatorController();
+			LFSTsareena_AnimatorCMA.T_MovementAnimatorController();
 		}
 		private void LoadFailSafeTsareena_IdleAnimatorController()
 		{
-			LFSTsareena_AnimatorICA.TIdleAnimatorController();
+			LFSTsareena_AnimatorICA.T_IdleAnimatorController();
 		}
 	}
 }

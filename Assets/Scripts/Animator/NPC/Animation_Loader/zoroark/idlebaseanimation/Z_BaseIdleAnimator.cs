@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation
 {
-	public class ZoroarkIdleAnimatorController : MonoBehaviour 
+	public class Zoroark_IdleAnimatorController : MonoBehaviour 
 	{
-		private ZIdleStanding Zoroarkidlestanding;
+		private Z_IdleStanding Zoroarkidlestanding;
 		
-		private ZIdleSitting Zoroarkidlesitting;
+		private Z_IdleSitting Zoroarkidlesitting;
 		
-		public void	ZIdleAnimatorController()
+		public void	Z_IdleAnimatorController()
 		{
-			ZIdleStandingAnimatorController();
-			ZIdleSittingAnimatorController();
+			Z_IdleStandingAnimatorController();
+			Z_IdleSittingAnimatorController();
 		}
-		private void ZIdleStandingAnimatorController()
+		private void Z_IdleStandingAnimatorController()
 		{
-			Zoroarkidlestanding.ZIdleStandingController();
+			Zoroarkidlestanding.Z_IdleStandingController();
 		}
-		private void ZIdleSittingAnimatorController()
+		private void Z_IdleSittingAnimatorController()
 		{
-			Zoroarkidlesitting.ZIdleSittingController();
+			Zoroarkidlesitting.Z_IdleSittingController();
 		}
 	}
 }

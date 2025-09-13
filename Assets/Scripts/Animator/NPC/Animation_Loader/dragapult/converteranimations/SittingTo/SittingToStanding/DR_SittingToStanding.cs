@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations._SittingTo._SittingToStanding
 {
-	public class DRSittingToStanding : MonoBehaviour 
+	public class DR_SittingToStanding : MonoBehaviour 
 	{
-		public void DRSittingToStandingController()
+		public void DR_SittingToStandingController()
 		{
 			
 		}

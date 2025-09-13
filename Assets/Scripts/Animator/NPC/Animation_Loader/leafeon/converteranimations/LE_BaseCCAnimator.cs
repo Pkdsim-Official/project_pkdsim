@@ -1,6 +1,6 @@
 using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo;
 using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations._SittingTo;
 using UnityEngine;
 
 
@@ -8,19 +8,19 @@ namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations
 {
 	public class Leafeon_CoverterAnimatorController : MonoBehaviour 
 	{
-		private LE_SittingTo Leafeon_sittingto;
+		private LE_SittingTo LeafeonSittingto;
 		
-		private LE_WalkingTo Leafeon_walkingto;
+		private LE_WalkingTo LeafeonWalkingto;
 		
-		private LE_IdleTo Leafeon_idleto;
+		private LE_IdleTo LeafeonIdleto;
 
-		private void LE_BaseIdleAnimatorController()
+		private void LE_Base_IdleAnimatorController()
 		{
-			Leafeon_walkingto.LE_WalkingToController();
+			LeafeonWalkingto.LE_WalkingToController();
 
-			Leafeon_idleto.LE_IdleToController();
+			LeafeonIdleto.LE_IdleToController();
 			
-			Leafeon_sittingto.LE_SittingToController();	
+			LeafeonSittingto.LE_SittingToController();	
 		}
 	}
 }

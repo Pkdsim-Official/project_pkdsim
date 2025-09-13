@@ -16,7 +16,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations
 
 		private VP_Strafing VP_MBA_Strafe;
 
-		private void VP_BaseIdleAnimatorController()
+		private void VP_Base_IdleAnimatorController()
 		{
 			VP_MBA_Running.VP_RunningController();
 

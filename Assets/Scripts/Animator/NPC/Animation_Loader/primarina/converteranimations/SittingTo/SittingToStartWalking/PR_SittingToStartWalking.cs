@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations._SittingTo._SittingToStartWalking
 {
-	public class PRSittingToStartWalking : MonoBehaviour 
+	public class PR_SittingToStartWalking : MonoBehaviour 
 	{
-		public void PRSittingToStartWalkingController() 
+		public void PR_SittingToStartWalkingController() 
 		{
 	
 		}

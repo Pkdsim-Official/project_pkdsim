@@ -4,6 +4,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.WalkingTo.Walk
 {
 	public class JT_WalkingToStanding : MonoBehaviour 
 	{
-
+		public void JT_WalkingToStandingController() 
+		{
+	
+		}
 	}
 }

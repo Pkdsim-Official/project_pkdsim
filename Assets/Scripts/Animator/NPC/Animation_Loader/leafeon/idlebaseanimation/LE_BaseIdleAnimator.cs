@@ -10,7 +10,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Leafeon.idlebaseanimation
 		
 		private LE_IdleSitting LE_idlesitting;
 
-		private void LE_BaseIdleAnimatorController()
+		private void LE_Base_IdleAnimatorController()
 		{
 			LE_idlestanding.LE_IdleStandingController();
 			LE_idlesitting.LE_IdleSittingController();	

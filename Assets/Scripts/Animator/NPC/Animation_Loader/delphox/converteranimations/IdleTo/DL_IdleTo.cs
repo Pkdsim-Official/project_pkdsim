@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.IdleTo
 {
 	public class DL_IdleTo : MonoBehaviour 
 	{
-		private DL_IdleToRun DelphoxIdleToRun;
-		private DL_IdleToWalk DelphoxIdleToWalk;
+		private DL_IdleToRun Delphox_IdleToRun;
+		private DL_IdleToWalk Delphox_IdleToWalk;
 		public void DL_IdleToController()
 		{
 			Load_DL_IdleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.IdleTo
 		}
 		private void Load_DL_IdleToRun()
 		{
-			DelphoxIdleToRun.DL_IdleToRunController();
+			Delphox_IdleToRun.DL_IdleToRunController();
 		}
 		private void Load_DL_IdleToWalk()
 		{
-			DelphoxIdleToWalk.DL_IdleToWalkController();
+			Delphox_IdleToWalk.DL_IdleToWalkController();
 		}
 	}
 }

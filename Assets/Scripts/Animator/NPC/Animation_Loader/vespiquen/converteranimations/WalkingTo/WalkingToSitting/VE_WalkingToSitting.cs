@@ -2,13 +2,13 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class VEWalkingToSitting : MonoBehaviour 
+	public class VE_WalkingToSitting : MonoBehaviour 
 	{
 		private Animator Vespiquen_Animator;
-		public void VEWalkingToSittingController()
+		public void VE_WalkingToSittingController()
 		{
 			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("WalkingTo_Sitting");         // Start in the WalkingTo animation state
+			Vespiquen_Animator.Play("_WalkingTo_Sitting");         // Start in the _WalkingTo animation state
 		}
 	}
 }

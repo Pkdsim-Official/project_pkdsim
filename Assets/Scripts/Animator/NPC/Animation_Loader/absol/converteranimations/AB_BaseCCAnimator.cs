@@ -1,11 +1,11 @@
 using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.WalkingTo;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations
 {
-	public class AbsolCoverterAnimatorController : MonoBehaviour 
+	public class Absol_CoverterAnimatorController : MonoBehaviour 
 	{
 		private AB_SittingTo AbsolSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations
 		
 		private AB_IdleTo AbsolIdleto;
 
-		public void ABCoverterToAnimatorController()
+		public void AB_CoverterToAnimatorController()
 		{
 			AbsolWalkingto.AB_WalkingToController();
 

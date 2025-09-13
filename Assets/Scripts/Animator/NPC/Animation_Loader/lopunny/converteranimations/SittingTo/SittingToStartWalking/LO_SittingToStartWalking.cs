@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations._SittingTo._SittingToStartWalking
 {
-	public class LOSittingToStartWalking : MonoBehaviour 
+	public class LO_SittingToStartWalking : MonoBehaviour 
 	{
-		public void LOSittingToStartWalkingController() 
+		public void LO_SittingToStartWalkingController() 
 		{
 	
 		}

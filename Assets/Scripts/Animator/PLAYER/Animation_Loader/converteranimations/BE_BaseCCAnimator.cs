@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Player.converteranimations
 		
 		private Player_IdleTo PlayerIdleto;
 
-		public void Player_CoverterToAnimatorController()
+		public void PL_CoverterToAnimatorController()
 		{
 			Player_Walkingto.Player_WalkingToController();
 

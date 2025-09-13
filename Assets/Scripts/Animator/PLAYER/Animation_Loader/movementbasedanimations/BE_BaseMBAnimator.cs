@@ -16,7 +16,7 @@ namespace project_pkdsim.ANIMATOR.Player.movementbasedanimations
 
 		private Player_Strafing Player_MBA_Strafing;
 
-		public void Player_MovementAnimatorController()
+		public void PL_MovementAnimatorController()
 		{
 			Player_MBA_Running.Player_RunningController();
 

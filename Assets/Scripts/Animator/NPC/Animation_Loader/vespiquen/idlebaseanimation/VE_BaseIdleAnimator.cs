@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.idlebaseanimation
 {
-	public class VespiquenIdleAnimatorController : MonoBehaviour 
+	public class Vespiquen_IdleAnimatorController : MonoBehaviour 
 	{
 		private VEIdleStanding VEidlestanding;
 		
-		private VEIdleSitting VEidlesitting;
+		private VE_IdleSitting VEidlesitting;
 		
-		public void	VEIdleAnimatorController()
+		public void	VE_IdleAnimatorController()
 		{
 			VEIdleStandingAnimatorController();
-			VEIdleSittingAnimatorController();
+			VE_IdleSittingAnimatorController();
 		}
 		private void VEIdleStandingAnimatorController()
 		{
 			VEidlestanding.VEIdleStandingController();
 		}
-		private void VEIdleSittingAnimatorController()
+		private void VE_IdleSittingAnimatorController()
 		{
-			VEidlesitting.VEIdleSittingController();
+			VEidlesitting.VE_IdleSittingController();
 		}
 	}
 }

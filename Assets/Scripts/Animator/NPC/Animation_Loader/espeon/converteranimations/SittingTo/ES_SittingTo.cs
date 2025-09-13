@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations._SittingTo._SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations._SittingTo._SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations._SittingTo
 {
 	public class ES_SittingTo : MonoBehaviour 
 	{

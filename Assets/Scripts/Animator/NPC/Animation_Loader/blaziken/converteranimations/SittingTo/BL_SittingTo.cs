@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations._SittingTo
 {
 	public class BL_SittingTo : MonoBehaviour 
 	{
-		private BL_SittingToStartWalking BlazikenSittingToStartWalking;
-		private BL_SittingToStanding BlazikenSittingToStanding;
+		private BL_SittingToStartWalking Blaziken_SittingToStartWalking;
+		private BL_SittingToStanding Blaziken_SittingToStanding;
 		public void BL_SittingToController()
 		{
 			BL_SittingToStartWalking();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo
 		}
 		private void BL_SittingToStartWalking()
 		{
-			BlazikenSittingToStartWalking.BL_SittingToStartWalkingController();
+			Blaziken_SittingToStartWalking.BL_SittingToStartWalkingController();
 		}
 		private void BL_SittingToStanding()
 		{
-			BlazikenSittingToStanding.BL_SittingToStandingController();
+			Blaziken_SittingToStanding.BL_SittingToStandingController();
 		}
 
 	}

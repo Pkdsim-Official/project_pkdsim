@@ -6,12 +6,12 @@ namespace project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.IdleTo
 {
 	public class UM_IdleTo : MonoBehaviour 
 	{
-		private UM_IdleToRun IdleToRun;
-		private UM_IdleToWalk IdleToWalk;
+		private UM_IdleToRun _IdleToRun;
+		private UM_IdleToWalk _IdleToWalk;
 		public void UM_IdleToController()
 		{
-			// Load_UM_idleToRun();
-			// Load_UM_idleToWalk();
+			Load_UM_idleToRun();
+			Load_UM_idleToWalk();
 		}
 		private void Load_UM_idleToRun()
 		{

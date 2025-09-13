@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo
 {
-	public class LOIdleTo : MonoBehaviour 
+	public class LO_IdleTo : MonoBehaviour 
 	{
-		private LOIdleToRun LopunnyIdleToRun;
-		private LOIdleToWalk LopunnyIdleToWalk;
+		private LO_IdleToRun Lopunny_IdleToRun;
+		private LO_IdleToWalk Lopunny_IdleToWalk;
 		public void LO_IdleToController()
 		{
 			Load_LOidleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo
 		}
 		private void Load_LOidleToRun()
 		{
-			LopunnyIdleToRun.LOIdleToRunController();
+			Lopunny_IdleToRun.LO_IdleToRunController();
 		}
 		private void Load_LOidleToWalk()
 		{
-			LopunnyIdleToWalk.LOIdleToWalkController();
+			Lopunny_IdleToWalk.LO_IdleToWalkController();
 		}
 	}
 }

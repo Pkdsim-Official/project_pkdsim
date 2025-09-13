@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo
 {
 	public class BE_IdleTo : MonoBehaviour 
 	{
-		private BE_IdleToRun BeedrillIdleToRun;
-		private BE_IdleToWalk BeedrillIdleToWalk;
+		private BE_IdleToRun Beedrill_IdleToRun;
+		private BE_IdleToWalk Beedrill_IdleToWalk;
 
 		public void BE_IdleToController()
 		{
@@ -16,11 +16,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo
 		}
 		private void Load_BE_idleToRun()
 		{
-			BeedrillIdleToRun.BE_IdleToRunController();
+			Beedrill_IdleToRun.BE_IdleToRunController();
 		}
 		private void Load_BE_idleToWalk()
 		{
-			BeedrillIdleToWalk.BE_IdleToWalkController();
+			Beedrill_IdleToWalk.BE_IdleToWalkController();
 		}
 	}
 }

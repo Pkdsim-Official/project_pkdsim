@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations._SittingTo
 {
-	public class BRSittingTo : MonoBehaviour 
+	public class BR_SittingTo : MonoBehaviour 
 	{
-		private BRSittingToStartWalking BraixensittingToStartWalking;
-		private BRSittingToStanding BraixensittingToStanding;
-		public void BRSittingToController()
+		private BR_SittingToStartWalking BraixensittingToStartWalking;
+		private BR_SittingToStanding BraixensittingToStanding;
+		public void BR_SittingToController()
 		{
-			BRSittingToStartWalking();
-			BRSittingToStanding();
+			BR_SittingToStartWalking();
+			BR_SittingToStanding();
 		}
-		private void BRSittingToStartWalking()
+		private void BR_SittingToStartWalking()
 		{
-			BraixensittingToStartWalking.BRSittingToStartWalkingController();
+			BraixensittingToStartWalking.BR_SittingToStartWalkingController();
 		}
-		private void BRSittingToStanding()
+		private void BR_SittingToStanding()
 		{
-			BraixensittingToStanding.BRSittingToStandingController();
+			BraixensittingToStanding.BR_SittingToStandingController();
 		}
 
 	}

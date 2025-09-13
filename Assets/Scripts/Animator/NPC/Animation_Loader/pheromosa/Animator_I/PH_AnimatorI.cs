@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.Animator_I
 
 		private PheromosaCoverterAnimatorController LFSPheromosa_AnimatorCCA;
 		private Pheromosa_AnimatorBaseMovementController LFSPheromosa_AnimatorCMA;
-		private PheromosaIdleAnimatorController LFSPheromosa_AnimatorICA;
+		private Pheromosa_IdleAnimatorController LFSPheromosa_AnimatorICA;
 
 
 		public void LoadFailSafePheromosa_AnimatorController()
@@ -31,7 +31,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.Animator_I
 		}
 		private void LoadFailSafePheromosa_IdleAnimatorController()
 		{
-			LFSPheromosa_AnimatorICA.PHIdleAnimatorController();
+			LFSPheromosa_AnimatorICA.PH_IdleAnimatorController();
 		}
 	}
 }

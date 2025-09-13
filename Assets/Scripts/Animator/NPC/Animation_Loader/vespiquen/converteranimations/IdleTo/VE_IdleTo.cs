@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo
 {
-	public class VEIdleTo : MonoBehaviour 
+	public class VE_IdleTo : MonoBehaviour 
 	{
-		private VEIdleToRun VespiquenIdleToRun;
-		private VEIdleToWalk VespiquenIdleToWalk;
+		private VE_IdleToRun Vespiquen_IdleToRun;
+		private VE_IdleToWalk Vespiquen_IdleToWalk;
 
 		public void VE_IdleToController()
 		{
@@ -16,11 +16,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo
 		}
 		private void Load_VEidleToRun()
 		{
-			VespiquenIdleToRun.VEIdleToRunController();
+			Vespiquen_IdleToRun.VE_IdleToRunController();
 		}
 		private void Load_VEidleToWalk()
 		{
-			VespiquenIdleToWalk.VEIdleToWalkController();
+			Vespiquen_IdleToWalk.VE_IdleToWalkController();
 		}
 	}
 }

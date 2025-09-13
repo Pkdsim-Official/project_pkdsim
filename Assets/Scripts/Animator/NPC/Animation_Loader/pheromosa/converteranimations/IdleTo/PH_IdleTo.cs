@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo
 {
-	public class PHIdleTo : MonoBehaviour 
+	public class PH_IdleTo : MonoBehaviour 
 	{
-		private PHIdleToRun PheromosaIdleToRun;
-		private PHIdleToWalk PheromosaIdleToWalk;
+		private PH_IdleToRun Pheromosa_IdleToRun;
+		private PH_IdleToWalk Pheromosa_IdleToWalk;
 		public void PH_IdleToController()
 		{
 			Load_PHidleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo
 		}
 		private void Load_PHidleToRun()
 		{
-			PheromosaIdleToRun.PHIdleToRunController();
+			Pheromosa_IdleToRun.PH_IdleToRunController();
 		}
 		private void Load_PHidleToWalk()
 		{
-			PheromosaIdleToWalk.PHIdleToWalkController();
+			Pheromosa_IdleToWalk.PH_IdleToWalkController();
 		}
 	}
 }

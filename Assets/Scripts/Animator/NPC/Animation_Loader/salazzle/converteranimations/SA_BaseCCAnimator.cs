@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations.WalkingTo;
 using UnityEngine;
 

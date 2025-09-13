@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.WalkingTo;
 using UnityEngine;
 

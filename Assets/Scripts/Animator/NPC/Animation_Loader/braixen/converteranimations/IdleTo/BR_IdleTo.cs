@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.IdleTo
 {
 	public class BR_IdleTo : MonoBehaviour 
 	{
-		private BR_IdleToRun BraixenIdleToRun;
-		private BR_IdleToWalk BraixenIdleToWalk;
+		private BR_IdleToRun Braixen_IdleToRun;
+		private BR_IdleToWalk Braixen_IdleToWalk;
 		public void BR_IdleToController()
 		{
 			Load_BR_IdleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.IdleTo
 		}
 		private void Load_BR_IdleToRun()
 		{
-			BraixenIdleToRun.BR_IdleToRunController();
+			Braixen_IdleToRun.BR_IdleToRunController();
 		}
 		private void Load_BR_IdleToWalk()
 		{
-			BraixenIdleToWalk.BR_IdleToWalkController();
+			Braixen_IdleToWalk.BR_IdleToWalkController();
 		}
 	}
 }

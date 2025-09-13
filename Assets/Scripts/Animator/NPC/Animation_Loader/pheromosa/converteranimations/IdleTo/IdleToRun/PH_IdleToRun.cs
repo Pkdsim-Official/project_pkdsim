@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo.IdleToRun
 {
-	public class PHIdleToRun : MonoBehaviour 
+	public class PH_IdleToRun : MonoBehaviour 
 	{
-		public void PHIdleToRunController() 
+		public void PH_IdleToRunController() 
 		{
 			
 		}

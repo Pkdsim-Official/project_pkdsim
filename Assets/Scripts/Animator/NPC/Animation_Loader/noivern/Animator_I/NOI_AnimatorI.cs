@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Noivern.Animator_I
 		public RuntimeAnimatorController someController;
 		private NoivernCoverterAnimatorController LFSNoivern_AnimatorCCA;
 		private Noivern_AnimatorBaseMovementController LFSNoivern_AnimatorCMA;
-		private NoivernIdleAnimatorController LFSNoivern_AnimatorICA;
+		private Noivern_IdleAnimatorController LFSNoivern_AnimatorICA;
 
 
 		public void LoadFailSafeNoivern_AnimatorController()
@@ -30,7 +30,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Noivern.Animator_I
 		}
 		private void LoadFailSafeNoivern_IdleAnimatorController()
 		{
-			LFSNoivern_AnimatorICA.NOIIdleAnimatorController();
+			LFSNoivern_AnimatorICA.NOI_IdleAnimatorController();
 		}
 	}
 }

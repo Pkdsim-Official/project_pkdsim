@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo
 {
-	public class TWalkingTo : MonoBehaviour 
+	public class T_WalkingTo : MonoBehaviour 
 	{
-		private TWalkingToSitting TsareenaWalkingToSitting;
-		private TWalkingToStanding TsareenaWalkingToStanding;
-		public void TWalkingToController()
+		private T_WalkingToSitting Tsareena_WalkingToSitting;
+		private T_WalkingToStanding Tsareena_WalkingToStanding;
+		public void T_WalkingToController()
 		{
-			TWalkingToSitting();
-			TWalkingToStanding();
+			T_WalkingToSitting();
+			T_WalkingToStanding();
 		}
-		private void TWalkingToSitting()
+		private void T_WalkingToSitting()
 		{
-			TsareenaWalkingToSitting.TWalkingToSittingController();
+			Tsareena_WalkingToSitting.T_WalkingToSittingController();
 		}
-		private void TWalkingToStanding()
+		private void T_WalkingToStanding()
 		{
-			TsareenaWalkingToStanding.TWalkingToStandingController();
+			Tsareena_WalkingToStanding.T_WalkingToStandingController();
 		}
 	}
 }

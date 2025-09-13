@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.WalkingTo
 {
 	public class BE_WalkingTo : MonoBehaviour 
 	{
-		private BE_WalkingToStanding BeedrillWalkingToStanding;
-		private BE_WalkingToSitting BeedrillWalkingToSitting;
+		private BE_WalkingToStanding Beedrill_WalkingToStanding;
+		private BE_WalkingToSitting Beedrill_WalkingToSitting;
 		public void BE_WalkingToController()
 		{
 			Load_BE_WalkingToStanding();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.WalkingTo
 		}
 		private void Load_BE_WalkingToStanding()
 		{
-			BeedrillWalkingToStanding.BE_WalkingToStandingController();
+			Beedrill_WalkingToStanding.BE_WalkingToStandingController();
 		}
 		private void Load_BE_WalkingToWSitting()
 		{
-			BeedrillWalkingToSitting.BE_WalkingToSittingController();
+			Beedrill_WalkingToSitting.BE_WalkingToSittingController();
 		}
 	}
 }

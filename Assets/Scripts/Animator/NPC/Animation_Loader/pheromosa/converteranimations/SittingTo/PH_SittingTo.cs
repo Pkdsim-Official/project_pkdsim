@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations._SittingTo
 {
-	public class PHSittingTo : MonoBehaviour 
+	public class PH_SittingTo : MonoBehaviour 
 	{
-		private PHSittingToStartWalking PheromosasittingToStartWalking;
-		private PHSittingToStanding PheromosasittingToStanding;
-		public void PHSittingToController()
+		private PH_SittingToStartWalking PheromosasittingToStartWalking;
+		private PH_SittingToStanding PheromosasittingToStanding;
+		public void PH_SittingToController()
 		{
-			PHSittingToStartWalking();
-			PHSittingToStanding();
+			PH_SittingToStartWalking();
+			PH_SittingToStanding();
 		}
-		private void PHSittingToStartWalking()
+		private void PH_SittingToStartWalking()
 		{
-			PheromosasittingToStartWalking.PHSittingToStartWalkingController();
+			PheromosasittingToStartWalking.PH_SittingToStartWalkingController();
 		}
-		private void PHSittingToStanding()
+		private void PH_SittingToStanding()
 		{
-			PheromosasittingToStanding.PHSittingToStandingController();
+			PheromosasittingToStanding.PH_SittingToStandingController();
 		}
 
 	}

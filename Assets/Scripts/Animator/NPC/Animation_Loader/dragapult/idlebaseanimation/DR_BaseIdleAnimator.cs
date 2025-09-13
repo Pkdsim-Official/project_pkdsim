@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Dragapult.idlebaseanimation
 {
-	public class DragapultIdleAnimatorController : MonoBehaviour 
+	public class Dragapult_IdleAnimatorController : MonoBehaviour 
 	{
 		private DRIdleStanding Dragapultidlestanding;
 		
-		private DRIdleSitting Dragapultidlesitting;
+		private DR_IdleSitting Dragapultidlesitting;
 		
-		public void	DRIdleAnimatorController()
+		public void	DR_IdleAnimatorController()
 		{
 			DRIdleStandingAnimatorController();
-			DRIdleSittingAnimatorController();
+			DR_IdleSittingAnimatorController();
 		}
 		private void DRIdleStandingAnimatorController()
 		{
 			Dragapultidlestanding.DRIdleStandingController();
 		}
-		private void DRIdleSittingAnimatorController()
+		private void DR_IdleSittingAnimatorController()
 		{
-			Dragapultidlesitting.DRIdleSittingController();
+			Dragapultidlesitting.DR_IdleSittingController();
 		}
 	}
 }

@@ -16,7 +16,7 @@ namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolte
 
 		private JT_LFS_Strafing Jolteon_MBA_Strafe;
 
-		public void JT_LFS_BaseIdleAnimatorController()
+		public void JT_LFS_Base_IdleAnimatorController()
 		{
 			Jolteon_MBA_Running.JT_LFS_RunningController();
 

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations._SittingTo._SittingToStanding
 {
-	public class DLSittingToStanding : MonoBehaviour 
+	public class DL_SittingToStanding : MonoBehaviour 
 	{
-		public void DLSittingToStandingController()
+		public void DL_SittingToStandingController()
 		{
 			
 		}

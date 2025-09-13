@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Hatterene.Animator_I
 
 		private HattereneCoverterAnimatorController LFSHatterene_AnimatorCCA;
 		private Hatterene_AnimatorBaseMovementController LFSHatterene_AnimatorCMA;
-		private HattereneIdleAnimatorController LFSHatterene_AnimatorICA;
+		private Hatterene_IdleAnimatorController LFSHatterene_AnimatorICA;
 
 
 		public void LoadFailSafeHatterene_AnimatorController()
@@ -31,7 +31,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Hatterene.Animator_I
 		}
 		private void LoadFailSafeHatterene_IdleAnimatorController()
 		{
-			LFSHatterene_AnimatorICA.HATIdleAnimatorController();
+			LFSHatterene_AnimatorICA.HAT_IdleAnimatorController();
 		}
 	}
 }

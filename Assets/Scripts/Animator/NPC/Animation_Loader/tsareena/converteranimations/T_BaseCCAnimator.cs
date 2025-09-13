@@ -1,25 +1,25 @@
 using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.WalkingTo;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations
 {
-	public class TsareenaCoverterAnimatorController : MonoBehaviour 
+	public class Tsareena_CoverterAnimatorController : MonoBehaviour 
 	{
-		private TSittingTo Tsareenasittingto;
+		private T_SittingTo TsareenaSittingto;
 		
-		private TWalkingTo Tsareenawalkingto;
+		private T_WalkingTo TsareenaWalkingto;
 		
-		private TIdleTo Tsareenaidleto;
+		private T_IdleTo TsareenaIdleto;
 
-		public void TCoverterToAnimatorController()
+		public void T_CoverterToAnimatorController()
 		{
-			Tsareenawalkingto.TWalkingToController();
+			TsareenaWalkingto.T_WalkingToController();
 
-			Tsareenaidleto.T_IdleToController();
+			TsareenaIdleto.T_IdleToController();
 			
-			Tsareenasittingto.TSittingToController();	
+			TsareenaSittingto.T_SittingToController();	
 		}
 	}
 }

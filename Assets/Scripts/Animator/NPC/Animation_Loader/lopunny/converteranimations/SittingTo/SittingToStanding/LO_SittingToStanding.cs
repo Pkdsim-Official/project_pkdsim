@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations._SittingTo._SittingToStanding
 {
-	public class LOSittingToStanding : MonoBehaviour 
+	public class LO_SittingToStanding : MonoBehaviour 
 	{
-		public void LOSittingToStandingController()
+		public void LO_SittingToStandingController()
 		{
 			
 		}

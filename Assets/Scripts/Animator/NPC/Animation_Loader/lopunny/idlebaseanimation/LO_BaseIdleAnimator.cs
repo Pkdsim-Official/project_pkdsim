@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lopunny.idlebaseanimation
 {
-	public class LopunnyIdleAnimatorController : MonoBehaviour 
+	public class Lopunny_IdleAnimatorController : MonoBehaviour 
 	{
 		private LOIdleStanding Lopunnyidlestanding;
 		
-		private LOIdleSitting Lopunnyidlesitting;
+		private LO_IdleSitting Lopunnyidlesitting;
 		
-		public void	LOIdleAnimatorController()
+		public void	LO_IdleAnimatorController()
 		{
 			LOIdleStandingAnimatorController();
-			LOIdleSittingAnimatorController();
+			LO_IdleSittingAnimatorController();
 		}
 		private void LOIdleStandingAnimatorController()
 		{
 			Lopunnyidlestanding.LOIdleStandingController();
 		}
-		private void LOIdleSittingAnimatorController()
+		private void LO_IdleSittingAnimatorController()
 		{
-			Lopunnyidlesitting.LOIdleSittingController();
+			Lopunnyidlesitting.LO_IdleSittingController();
 		}
 	}
 }

@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.WalkingTo;
 using UnityEngine;
 

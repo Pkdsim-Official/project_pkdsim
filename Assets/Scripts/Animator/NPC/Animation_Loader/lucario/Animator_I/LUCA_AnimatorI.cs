@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Lucario.Animator_I
 
 		private LucarioCoverterAnimatorController LFSLucario_AnimatorCCA;
 		private Lucario_AnimatorBaseMovementController LFSLucario_AnimatorCMA;
-		private LucarioIdleAnimatorController LFSLucario_AnimatorICA;
+		private Lucario_IdleAnimatorController LFSLucario_AnimatorICA;
 
 
 		public void LoadFailSafeLucario_AnimatorController()
@@ -31,7 +31,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Lucario.Animator_I
 		}
 		private void LoadFailSafeLucario_IdleAnimatorController()
 		{
-			LFSLucario_AnimatorICA.LUCAIdleAnimatorController();
+			LFSLucario_AnimatorICA.LUCA_IdleAnimatorController();
 		}
 	}
 }

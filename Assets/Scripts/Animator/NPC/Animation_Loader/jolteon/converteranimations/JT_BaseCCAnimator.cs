@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.WalkingTo;
 using UnityEngine;
 
@@ -7,19 +7,19 @@ namespace project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations
 {
 	public class Jolteon_ConverterAnimatorController : MonoBehaviour 
 	{
-		private JT_SittingTo Jolteon_sittingto;
+		private JT_SittingTo JolteonSittingto;
 		
-		private JT_WalkingTo Jolteon_walkingto;
+		private JT_WalkingTo JolteonWalkingto;
 		
-		private JT_IdleTo Jolteon_idleto;
+		private JT_IdleTo JolteonIdleto;
 
-		private void JT_BaseIdleAnimatorController()
+		private void JT_Base_IdleAnimatorController()
 		{
-			Jolteon_walkingto.JT_WalkingToController();
+			JolteonWalkingto.JT_WalkingToController();
 
-			Jolteon_idleto.JT_IdleToController();
+			JolteonIdleto.JT_IdleToController();
 			
-			Jolteon_sittingto.JT_SittingToController();	
+			JolteonSittingto.JT_SittingToController();	
 		}
 	}
 }

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations._SittingTo._SittingToStartWalking
 {
-	public class DLSittingToStartWalking : MonoBehaviour 
+	public class DL_SittingToStartWalking : MonoBehaviour 
 	{
-		public void DLSittingToStartWalkingController() 
+		public void DL_SittingToStartWalkingController() 
 		{
 	
 		}

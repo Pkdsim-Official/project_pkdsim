@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Garchomp.idlebaseanimation
 {
-	public class GarchompIdleAnimatorController : MonoBehaviour 
+	public class Garchomp_IdleAnimatorController : MonoBehaviour 
 	{
 		private GARC_IdleStanding Garchompidlestanding;
 		

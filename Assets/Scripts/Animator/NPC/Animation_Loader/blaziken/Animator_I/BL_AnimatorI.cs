@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Blaziken.Animator_I
 
 		private BlazikenCoverterAnimatorController LFSBlaziken_AnimatorCCA;
 		private Blaziken_AnimatorBaseMovementController LFSBlaziken_AnimatorCMA;
-		private BlazikenIdleAnimatorController LFSBlaziken_AnimatorICA;
+		private Blaziken_IdleAnimatorController LFSBlaziken_AnimatorICA;
 
 
 		public void LoadFailSafeBlaziken_AnimatorController()

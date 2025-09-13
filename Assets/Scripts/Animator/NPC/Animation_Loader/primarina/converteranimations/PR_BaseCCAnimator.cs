@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.WalkingTo;
 using UnityEngine;
 
@@ -7,19 +7,19 @@ namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations
 {
 	public class PrimarinaCoverterAnimatorController : MonoBehaviour 
 	{
-		private PRSittingTo Primarinasittingto;
+		private PR_SittingTo Primarinasittingto;
 		
-		private PRWalkingTo Primarinawalkingto;
+		private PR_WalkingTo Primarinawalkingto;
 		
-		private PRIdleTo Primarinaidleto;
+		private PR_IdleTo Primarinaidleto;
 
 		public void PRCoverterToAnimatorController()
 		{
-			Primarinawalkingto.PRWalkingToController();
+			Primarinawalkingto.PR_WalkingToController();
 
 			Primarinaidleto.PR_IdleToController();
 			
-			Primarinasittingto.PRSittingToController();	
+			Primarinasittingto.PR_SittingToController();	
 		}
 	}
 }

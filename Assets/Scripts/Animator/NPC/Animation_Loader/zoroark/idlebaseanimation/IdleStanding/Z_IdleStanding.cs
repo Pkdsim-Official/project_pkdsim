@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation.IdleStanding
 {
-	public class ZIdleStanding : MonoBehaviour 
+	public class Z_IdleStanding : MonoBehaviour 
 	{
 		public Animator Zoroark_Animator;
-		public void ZIdleStandingController()
+		public void Z_IdleStandingController()
 		{
 			// Assign the idle animation clip
 			Zoroark_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

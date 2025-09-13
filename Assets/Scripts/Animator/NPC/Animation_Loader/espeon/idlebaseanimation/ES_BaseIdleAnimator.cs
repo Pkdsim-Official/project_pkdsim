@@ -4,14 +4,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Espeon.idlebaseanimation
 {
-	public class ES_BaseIdleAnimator : MonoBehaviour 
+	public class ES_Base_IdleAnimator : MonoBehaviour 
 	{
 		private ES_IdleStanding ES_idlestanding;
 		
 		private ES_IdleSitting ES_idlesitting;
 		
 
-		private void ES_BaseIdleAnimatorController()
+		private void ES_Base_IdleAnimatorController()
 		{
 			ES_idlestanding.ES_IdleStandingController();
 			ES_idlesitting.ES_IdleSittingController();	

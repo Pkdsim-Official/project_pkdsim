@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo
 {
 	public class BL_IdleTo : MonoBehaviour 
 	{
-		private BL_IdleToRun BlazikenIdleToRun;
-		private BL_IdleToWalk BlazikenIdleToWalk;
+		private BL_IdleToRun Blaziken_IdleToRun;
+		private BL_IdleToWalk Blaziken_IdleToWalk;
 		public void BL_IdleToController()
 		{
 			Load_BL_IdleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo
 		}
 		private void Load_BL_IdleToRun()
 		{
-			BlazikenIdleToRun.BL_IdleToRunController();
+			Blaziken_IdleToRun.BL_IdleToRunController();
 		}
 		private void Load_BL_IdleToWalk()
 		{
-			BlazikenIdleToWalk.BL_IdleToWalkController();
+			Blaziken_IdleToWalk.BL_IdleToWalkController();
 		}
 	}
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.WalkingTo
 {
-	public class LOWalkingTo : MonoBehaviour 
+	public class LO_WalkingTo : MonoBehaviour 
 	{
-		private LOWalkingToStanding LopunnyWalkingToStanding;
-		private LOWalkingToSitting LopunnyWalkingToSitting;
-		public void LOWalkingToController()
+		private LO_WalkingToStanding Lopunny_WalkingToStanding;
+		private LO_WalkingToSitting Lopunny_WalkingToSitting;
+		public void LO_WalkingToController()
 		{
-			Load_LOWalkingToStanding();
-			Load_LOWalkingToWSitting();
+			Load_LO_WalkingToStanding();
+			Load_LO_WalkingToWSitting();
 		}
-		private void Load_LOWalkingToStanding()
+		private void Load_LO_WalkingToStanding()
 		{
-			LopunnyWalkingToStanding.LOWalkingToStandingController();
+			Lopunny_WalkingToStanding.LO_WalkingToStandingController();
 		}
-		private void Load_LOWalkingToWSitting()
+		private void Load_LO_WalkingToWSitting()
 		{
-			LopunnyWalkingToSitting.LOWalkingToSittingController();
+			Lopunny_WalkingToSitting.LO_WalkingToSittingController();
 		}
 	}
 }

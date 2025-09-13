@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.WalkingTo
 {
 	public class AB_WalkingTo : MonoBehaviour 
 	{
-		private AB_WalkingToSitting AbsolWalkingToSitting;
-		private AB_WalkingToStanding AbsolWalkingToStanding;
+		private AB_WalkingToSitting Absol_WalkingToSitting;
+		private AB_WalkingToStanding Absol_WalkingToStanding;
 		public void AB_WalkingToController()
 		{
 			AB_WalkingToStartWalking();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.WalkingTo
 		}
 		private void AB_WalkingToStartWalking()
 		{
-			AbsolWalkingToSitting.AB_WalkingToSittingController();
+			Absol_WalkingToSitting.AB_WalkingToSittingController();
 		}
 		private void AB_WalkingToStanding()
 		{
-			AbsolWalkingToStanding.AB_WalkingToStandingController();
+			Absol_WalkingToStanding.AB_WalkingToStandingController();
 		}
 	}
 }

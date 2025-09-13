@@ -1,4 +1,4 @@
-using project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.WalkingTo;
 using project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.IdleTo;
 using UnityEngine;
@@ -7,19 +7,19 @@ namespace project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations
 {
 	public class Umbreon_AnimatorBaseConverterController : MonoBehaviour 
 	{
-		private UM_SittingTo Umbreon_sittingto;
+		private UM_SittingTo UmbreonSittingto;
 		
-		private UM_WalkingTo Umbreon_walkingto;
+		private UM_WalkingTo UmbreonWalkingto;
 		
-		private UM_IdleTo Umbreon_idleto;
+		private UM_IdleTo UmbreonIdleto;
 
-		private void UM_BaseIdleAnimatorController()
+		private void UM_Base_IdleAnimatorController()
 		{
-			Umbreon_walkingto.UM_WalkingToController();
+			UmbreonWalkingto.UM_WalkingToController();
 
-			Umbreon_idleto.UM_IdleToController();
+			UmbreonIdleto.UM_IdleToController();
 			
-			Umbreon_sittingto.UM_SittingToController();	
+			UmbreonSittingto.UM_SittingToController();	
 		}
 	}
 }

@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.WalkingTo
 	{
 		public void GL_WalkingToController()
 		{
-			// Load_GL_WalkingToStanding();
-			// Load_GL_WalkingToWSitting();
+			Load_GL_WalkingToStanding();
+			Load_GL_WalkingToWSitting();
 		}
 		private void Load_GL_WalkingToStanding()
 		{

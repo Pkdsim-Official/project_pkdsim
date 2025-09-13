@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.idlebaseanimation
 {
-	public class MeowscaradaIdleAnimatorController : MonoBehaviour 
+	public class Meowscarada_IdleAnimatorController : MonoBehaviour 
 	{
 		private MEOWIdleStanding Meowscaradaidlestanding;
 		
-		private MEOWIdleSitting Meowscaradaidlesitting;
+		private MEOW_IdleSitting Meowscaradaidlesitting;
 		
-		public void	MEOWIdleAnimatorController()
+		public void	MEOW_IdleAnimatorController()
 		{
 			MEOWIdleStandingAnimatorController();
-			MEOWIdleSittingAnimatorController();
+			MEOW_IdleSittingAnimatorController();
 		}
 		private void MEOWIdleStandingAnimatorController()
 		{
 			Meowscaradaidlestanding.MEOWIdleStandingController();
 		}
-		private void MEOWIdleSittingAnimatorController()
+		private void MEOW_IdleSittingAnimatorController()
 		{
-			Meowscaradaidlesitting.MEOWIdleSittingController();
+			Meowscaradaidlesitting.MEOW_IdleSittingController();
 		}
 	}
 }

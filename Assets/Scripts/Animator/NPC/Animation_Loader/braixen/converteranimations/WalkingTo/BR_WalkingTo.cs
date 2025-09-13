@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo
 {
 	public class BR_WalkingTo : MonoBehaviour 
 	{
-		private BR_WalkingToStanding BraixenWalkingToStanding;
-		private BR_WalkingToSitting BraixenWalkingToSitting;
+		private BR_WalkingToStanding Braixen_WalkingToStanding;
+		private BR_WalkingToSitting Braixen_WalkingToSitting;
 		public void BR_WalkingToController()
 		{
 			Load_BR_WalkingToStanding();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo
 		}
 		private void Load_BR_WalkingToStanding()
 		{
-			BraixenWalkingToStanding.BR_WalkingToStandingController();
+			Braixen_WalkingToStanding.BR_WalkingToStandingController();
 		}
 		private void Load_BR_WalkingToWSitting()
 		{
-			BraixenWalkingToSitting.BR_WalkingToSittingController();
+			Braixen_WalkingToSitting.BR_WalkingToSittingController();
 		}
 	}
 }

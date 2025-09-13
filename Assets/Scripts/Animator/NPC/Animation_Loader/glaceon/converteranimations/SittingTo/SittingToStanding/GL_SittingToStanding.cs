@@ -4,6 +4,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.SittingTo.Sitt
 {
 	public class GL_SittingToStanding : MonoBehaviour 
 	{
-
+		public void GL_SittingToStandingController()
+		{
+			
+		}
 	}
 }

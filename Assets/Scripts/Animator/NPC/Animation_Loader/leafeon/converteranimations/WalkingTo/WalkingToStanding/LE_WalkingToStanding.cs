@@ -4,6 +4,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo.Walk
 {
 	public class LE_WalkingToStanding : MonoBehaviour 
 	{
-
+		public void LE_WalkingToStandingController()
+		{
+			
+		}
 	}
 }

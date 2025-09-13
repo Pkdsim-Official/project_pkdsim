@@ -10,7 +10,7 @@ namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolte
 		
 		private JT_LFS_IdleSitting Jolteon_idlesitting;
 
-		public void JT_LFS_BaseIdleAnimatorController()
+		public void JT_LFS_Base_IdleAnimatorController()
 		{
 			Jolteon_idlestanding.JT_IdleStandingController();
 			Jolteon_idlesitting.JT_IdleSittingController();	

@@ -10,7 +10,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Jolteon.idlebaseanimation
 		
 		private JT_IdleSitting JT_idlesitting;
 
-		private void JT_BaseIdleAnimatorController()
+		private void JT_Base_IdleAnimatorController()
 		{
 			JT_idlestanding.JT_IdleStandingController();
 			JT_idlesitting.JT_IdleSittingController();	

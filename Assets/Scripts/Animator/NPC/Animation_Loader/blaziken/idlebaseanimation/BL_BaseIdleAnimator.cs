@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Blaziken.idlebaseanimation
 {
-	public class BlazikenIdleAnimatorController : MonoBehaviour 
+	public class Blaziken_IdleAnimatorController : MonoBehaviour 
 	{
 		private BL_IdleStanding BL_Idlestanding;
 		

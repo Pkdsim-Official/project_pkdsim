@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo;
 using UnityEngine;
 

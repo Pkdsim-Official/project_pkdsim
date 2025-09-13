@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class NOIWalkingToSitting : MonoBehaviour 
+	public class NOI_WalkingToSitting : MonoBehaviour 
 	{
-		public void NOIWalkingToSittingController() 
+		public void NOI_WalkingToSittingController() 
 		{
 			
 		}

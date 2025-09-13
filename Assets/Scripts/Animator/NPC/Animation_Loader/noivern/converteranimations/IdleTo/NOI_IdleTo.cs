@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.IdleTo
 {
-	public class NOIIdleTo : MonoBehaviour 
+	public class NOI_IdleTo : MonoBehaviour 
 	{
-		private NOIIdleToRun NoivernIdleToRun;
-		private NOIIdleToWalk NoivernIdleToWalk;
+		private NOI_IdleToRun Noivern_IdleToRun;
+		private NOI_IdleToWalk Noivern_IdleToWalk;
 		public void NOI_IdleToController()
 		{
-			NOIIdleToRun();
-			NOIIdleToWalk();
+			NOI_IdleToRun();
+			NOI_IdleToWalk();
 		}
-		private void NOIIdleToRun()
+		private void NOI_IdleToRun()
 		{
-			NoivernIdleToRun.NOIIdleToRunController();
+			Noivern_IdleToRun.NOI_IdleToRunController();
 		}
-		private void NOIIdleToWalk()
+		private void NOI_IdleToWalk()
 		{
-			NoivernIdleToWalk.NOIIdleToWalkController();
+			Noivern_IdleToWalk.NOI_IdleToWalkController();
 		}
 	}
 }

@@ -4,6 +4,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo.IdleToW
 {
 	public class GL_IdleToWalk : MonoBehaviour 
 	{
-		
+		public void GL_IdleToWalkController()
+		{
+			
+		}
 	}
 }

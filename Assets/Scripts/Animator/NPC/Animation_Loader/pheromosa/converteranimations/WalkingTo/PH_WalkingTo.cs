@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.WalkingTo
 {
-	public class PHWalkingTo : MonoBehaviour 
+	public class PH_WalkingTo : MonoBehaviour 
 	{
-		private PHWalkingToSitting PheromosaWalkingToSitting;
-		private PHWalkingToStanding PheromosaWalkingToStanding;
-		public void PHWalkingToController() 
+		private PH_WalkingToSitting Pheromosa_WalkingToSitting;
+		private PH_WalkingToStanding Pheromosa_WalkingToStanding;
+		public void PH_WalkingToController() 
 		{
-			Load_PHWalkingToSitting();
-			Load_PHWalkingToStanding();
+			Load_PH_WalkingToSitting();
+			Load_PH_WalkingToStanding();
 		}
-		private void Load_PHWalkingToStanding()
+		private void Load_PH_WalkingToStanding()
 		{
-			PheromosaWalkingToStanding.PHWalkingToStandingController();
+			Pheromosa_WalkingToStanding.PH_WalkingToStandingController();
 		}
-		private void Load_PHWalkingToSitting()
+		private void Load_PH_WalkingToSitting()
 		{
-			PheromosaWalkingToSitting.PHWalkingToSittingController();
+			Pheromosa_WalkingToSitting.PH_WalkingToSittingController();
 		}
 	}
 }

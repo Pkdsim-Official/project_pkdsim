@@ -17,7 +17,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations
 
 		private T_Strafing Tsareena_MBA_Strafe;
 
-		public void TMovementAnimatorController()
+		public void T_MovementAnimatorController()
 		{
 			Tsareena_MBA_Running.T_RunningController();
 

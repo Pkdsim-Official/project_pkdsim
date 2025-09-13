@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Beedrill.idlebaseanimation
 {
-	public class BeedrillIdleAnimatorController : MonoBehaviour 
+	public class Beedrill_IdleAnimatorController : MonoBehaviour 
 	{
 		private BE_IdleStanding BeedrillIdlestanding;
 		

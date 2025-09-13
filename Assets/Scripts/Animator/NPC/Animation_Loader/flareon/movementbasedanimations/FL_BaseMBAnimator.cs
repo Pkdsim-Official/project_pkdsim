@@ -16,7 +16,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations
 
 		private FL_Strafing FL_MBA_Strafe;
 
-		private void FL_BaseIdleAnimatorController()
+		private void FL_Base_IdleAnimatorController()
 		{
 			FL_MBA_Running.FL_RunningController();
 

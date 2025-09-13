@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.IdleTo.IdleToWalk
 {
-	public class DRIdleToWalk : MonoBehaviour 
+	public class DR_IdleToWalk : MonoBehaviour 
 	{
-		public void DRIdleToWalkController() 
+		public void DR_IdleToWalkController() 
 		{
 			
 		}

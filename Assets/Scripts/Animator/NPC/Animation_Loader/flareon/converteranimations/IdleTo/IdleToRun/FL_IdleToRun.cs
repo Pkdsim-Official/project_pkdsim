@@ -2,8 +2,11 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.IdleTo.IdleToRun
 {
-	public class ES_IdleToRun : MonoBehaviour 
+	public class FL_IdleToRun : MonoBehaviour 
 	{
-		
+		public void FL_IdleToRunningController()
+		{
+			
+		}
 	}
 }

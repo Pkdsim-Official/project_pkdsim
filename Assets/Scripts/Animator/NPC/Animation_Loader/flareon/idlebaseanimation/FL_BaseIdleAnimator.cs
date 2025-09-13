@@ -10,7 +10,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Flareon.idlebaseanimation
 		
 		private FL_IdleSitting FL_idlesitting;
 		
-		private void FL_BaseIdleAnimatorController()
+		private void FL_Base_IdleAnimatorController()
 		{
 			FL_idlestanding.FL_IdleStandingController();
 			FL_idlesitting.FL_IdleSittingController();	

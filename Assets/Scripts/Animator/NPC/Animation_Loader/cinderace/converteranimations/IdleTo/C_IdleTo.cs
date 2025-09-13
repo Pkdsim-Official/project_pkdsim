@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo
 {
 	public class C_IdleTo : MonoBehaviour 
 	{
-		private C_IdleToRun CinderaceIdleToRun;
-		private C_IdleToWalk CinderaceIdleToWalk;
+		private C_IdleToRun Cinderace_IdleToRun;
+		private C_IdleToWalk Cinderace_IdleToWalk;
 		public void C_IdleToController()
 		{
 			Load_C_idleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo
 		}
 		private void Load_C_idleToRun()
 		{
-			CinderaceIdleToRun.C_IdleToRunController();
+			Cinderace_IdleToRun.C_IdleToRunController();
 		}
 		private void Load_C_idleToWalk()
 		{
-			CinderaceIdleToWalk.C_IdleToWalkController();
+			Cinderace_IdleToWalk.C_IdleToWalkController();
 		}
 	}
 }

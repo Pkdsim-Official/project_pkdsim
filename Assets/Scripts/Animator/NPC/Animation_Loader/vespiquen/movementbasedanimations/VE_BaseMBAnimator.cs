@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations
 		private VE_Running VE_MBA_Running;
 
 
-		private VE_Turning VE_MBATurning;
+		private VE_Turning VE_MBA_Turning;
 
 		private VE_Strafing VE_MBA_Strafe;
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations
 
 			VE_MBA_Jumping.VE_JumpingController();
 
-			VE_MBATurning.VE_TurningController();	
+			VE_MBA_Turning.VE_TurningController();	
 
 			VE_MBA_Strafe.VE_StrafingController();
 		}

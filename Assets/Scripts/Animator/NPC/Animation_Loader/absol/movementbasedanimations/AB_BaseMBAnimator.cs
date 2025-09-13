@@ -17,7 +17,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations
 
 		private AB_Strafing AB_MBA_Strafe;
 
-		public void ABMovementAnimatorController()
+		public void AB_MovementAnimatorController()
 		{
 			AB_MBA_Running.AB_RunningController();
 

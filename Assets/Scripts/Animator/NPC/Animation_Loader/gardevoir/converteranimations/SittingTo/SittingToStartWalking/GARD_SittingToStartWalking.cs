@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations._SittingTo._SittingToStartWalking
 {
 	public class GARD_SittingToStartWalking : MonoBehaviour 
 	{

@@ -26,11 +26,11 @@ namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Jolte
 		}
 		private void LoadFailSafeJolteon_MovementAnimatorController()
 		{
-			LFSJolteon_AnimatorCMA.JT_LFS_BaseIdleAnimatorController();
+			LFSJolteon_AnimatorCMA.JT_LFS_Base_IdleAnimatorController();
 		}
 		private void LoadFailSafeJolteon_IdleAnimatorController()
 		{
-			LFSJolteon_AnimatorICA.JT_LFS_BaseIdleAnimatorController();
+			LFSJolteon_AnimatorICA.JT_LFS_Base_IdleAnimatorController();
 		}
 	}
 }

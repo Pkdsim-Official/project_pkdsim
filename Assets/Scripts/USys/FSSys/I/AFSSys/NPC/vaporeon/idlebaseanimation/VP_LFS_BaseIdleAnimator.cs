@@ -9,7 +9,7 @@ namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vapor
 		private VP_LFS_IdleStanding VP_LFS_idlestanding;
 		
 		private VP_LFS_IdleSitting VP_LFS_idlesitting;
-		public void VP_LFS_BaseIdleAnimatorController()
+		public void VP_LFS_Base_IdleAnimatorController()
 		{
 			VP_LFS_idlestanding.VP_LFS_IdleStandingController();
 			VP_LFS_idlesitting.VP_LFS_IdleSittingController();	

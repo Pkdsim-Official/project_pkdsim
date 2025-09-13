@@ -6,20 +6,20 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo
 {
 	public class GL_IdleTo : MonoBehaviour 
 	{
-		private GL_IdleToRun IdleToRun;
-		private GL_IdleToWalk IdleToWalk;
+		private GL_IdleToRun GL_IdleToRunning;
+		private GL_IdleToWalk GL_IdleToWalking;
 		public void GL_IdleToController()
 		{
-			// Load_JT_IdleToStanding();
-			// Load_JT_IdleToWSitting();
+			Load_GL_IdleToRunning();
+			Load_GL_IdleToWalking();
 		}
-		private void Load_JT_IdleTo_Running()
+		private void Load_GL_IdleToRunning()
 		{
-			
+			GL_IdleToRunning.GL_IdleToRunController();
 		}
-		private void Load_JT_IdleToWWalking()
+		private void Load_GL_IdleToWalking()
 		{
-			
+			GL_IdleToWalking.GL_IdleToWalkController();
 		}
 	}
 }

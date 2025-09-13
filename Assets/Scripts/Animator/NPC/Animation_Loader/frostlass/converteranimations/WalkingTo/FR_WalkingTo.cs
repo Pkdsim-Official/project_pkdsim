@@ -7,8 +7,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo
 	public class FR_WalkingTo : MonoBehaviour 
 	{
 		
-		private FR_WalkingToStanding FrostlassWalkingToStanding;
-		private FR_WalkingToSitting FrostlassWalkingToSitting;
+		private FR_WalkingToStanding Frostlass_WalkingToStanding;
+		private FR_WalkingToSitting Frostlass_WalkingToSitting;
 		public void FR_WalkingToController()
 		{
 			Load_FR_WalkingToStanding();
@@ -16,11 +16,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo
 		}
 		private void Load_FR_WalkingToStanding()
 		{
-			FrostlassWalkingToStanding.FR_WalkingToStandingController();
+			Frostlass_WalkingToStanding.FR_WalkingToStandingController();
 		}
 		private void Load_FR_WalkingToWSitting()
 		{
-			FrostlassWalkingToSitting.FR_WalkingToSittingController();
+			Frostlass_WalkingToSitting.FR_WalkingToSittingController();
 		}
 	}
 }

@@ -4,11 +4,11 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo
 {
-	public class HATIdleTo : MonoBehaviour 
+	public class HAT_IdleTo : MonoBehaviour 
 	{
 		
-		private HATIdleToRun HattereneIdleToRun;
-		private HATIdleToWalk HattereneIdleToWalk;
+		private HAT_IdleToRun Hatterene_IdleToRun;
+		private HAT_IdleToWalk Hatterene_IdleToWalk;
 		public void HAT_IdleToController()
 		{
 			Load_HATidleToRun();
@@ -16,11 +16,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo
 		}
 		private void Load_HATidleToRun()
 		{
-			HattereneIdleToRun.HATIdleToRunController();
+			Hatterene_IdleToRun.HAT_IdleToRunController();
 		}
 		private void Load_HATidleToWalk()
 		{
-			HattereneIdleToWalk.HATIdleToWalkController();
+			Hatterene_IdleToWalk.HAT_IdleToWalkController();
 		}
 	}
 }

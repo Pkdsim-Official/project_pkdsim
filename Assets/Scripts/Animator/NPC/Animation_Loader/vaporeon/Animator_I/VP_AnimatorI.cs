@@ -27,7 +27,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.Animator_I
 		{
 			
 		}
-		private void IdleAnimatorController()
+		private void _IdleAnimatorController()
 		{
 			
 		}

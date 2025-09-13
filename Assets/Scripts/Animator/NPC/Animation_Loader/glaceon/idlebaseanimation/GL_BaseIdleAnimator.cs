@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.idlebaseanimation
 		private GL_IdleSitting Glaceon_idlesitting;
 			
 
-		private void GL_BaseIdleAnimatorController()
+		private void GL_Base_IdleAnimatorController()
 		{
 			Glaceon_idlestanding.GL_IdleStandingController();
 			Glaceon_idlesitting.GL_IdleSittingController();	

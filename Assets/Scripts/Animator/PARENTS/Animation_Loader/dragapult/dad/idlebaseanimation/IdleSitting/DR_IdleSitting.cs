@@ -1,0 +1,14 @@
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation.IdleSitting
+{
+	public class DRIdleSitting : MonoBehaviour 
+	{
+		private Animator Dragapult_Animator;
+		public void DRIdleSittingController()
+		{
+			Dragapult_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			Dragapult_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+		}
+	}
+}

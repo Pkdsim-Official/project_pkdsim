@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations._SittingTo
 {
 	public class GARD_SittingTo : MonoBehaviour 
 	{
-		private GARD_SittingToStartWalking GardevoirSittingToStartWalking;
-		private GARD_SittingToStanding GardevoirSittingToStanding;
+		private GARD_SittingToStartWalking Gardevoir_SittingToStartWalking;
+		private GARD_SittingToStanding Gardevoir_SittingToStanding;
 		public void GARD_SittingToController()
 		{
 			GARD_SittingToStartWalking();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo
 		}
 		private void GARD_SittingToStartWalking()
 		{
-			GardevoirSittingToStartWalking.GARD_SittingToStartWalkingController();
+			Gardevoir_SittingToStartWalking.GARD_SittingToStartWalkingController();
 		}
 		private void GARD_SittingToStanding()
 		{
-			GardevoirSittingToStanding.GARD_SittingToStandingController();
+			Gardevoir_SittingToStanding.GARD_SittingToStandingController();
 		}
 	}
 }

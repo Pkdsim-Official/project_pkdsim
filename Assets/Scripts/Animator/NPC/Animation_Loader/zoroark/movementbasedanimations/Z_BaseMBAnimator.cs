@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations
 		private Z_Running Zoroark_MBA_Running;
 
 
-		private Z_Turning Zoroark_MBATurning;
+		private Z_Turning Zoroark_MBA_Turning;
 
 		private Z_Strafing Zoroark_MBA_Strafe;
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations
 
 			Zoroark_MBA_Jumping.Z_JumpingController();
 
-			Zoroark_MBATurning.Z_TurningController();	
+			Zoroark_MBA_Turning.Z_TurningController();	
 
 			Zoroark_MBA_Strafe.Z_StrafingController();
 		}

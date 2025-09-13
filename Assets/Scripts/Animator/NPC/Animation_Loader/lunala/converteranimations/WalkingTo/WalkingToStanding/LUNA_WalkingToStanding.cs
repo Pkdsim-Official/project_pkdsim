@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lunala.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class LUNAWalkingToStanding : MonoBehaviour 
+	public class LUNA_WalkingToStanding : MonoBehaviour 
 	{
-		public void LUNAWalkingToStandingController() 
+		public void LUNA_WalkingToStandingController() 
 		{
 			
 		}

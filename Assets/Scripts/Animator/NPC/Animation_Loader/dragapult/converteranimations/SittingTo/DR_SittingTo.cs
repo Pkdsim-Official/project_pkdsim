@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations._SittingTo
 {
-	public class DRSittingTo : MonoBehaviour 
+	public class DR_SittingTo : MonoBehaviour 
 	{
-		private DRSittingToStartWalking DragapultsittingToStartWalking;
-		private DRSittingToStanding DragapultsittingToStanding;
-		public void DRSittingToController()
+		private DR_SittingToStartWalking DragapultsittingToStartWalking;
+		private DR_SittingToStanding DragapultsittingToStanding;
+		public void DR_SittingToController()
 		{
-			DRSittingToStartWalking();
-			DRSittingToStanding();
+			DR_SittingToStartWalking();
+			DR_SittingToStanding();
 		}
-		private void DRSittingToStartWalking()
+		private void DR_SittingToStartWalking()
 		{
-			DragapultsittingToStartWalking.DRSittingToStartWalkingController();
+			DragapultsittingToStartWalking.DR_SittingToStartWalkingController();
 		}
-		private void DRSittingToStanding()
+		private void DR_SittingToStanding()
 		{
-			DragapultsittingToStanding.DRSittingToStandingController();
+			DragapultsittingToStanding.DR_SittingToStandingController();
 		}
 	}
 }

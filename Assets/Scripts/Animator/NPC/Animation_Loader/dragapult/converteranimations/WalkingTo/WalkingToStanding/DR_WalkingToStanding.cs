@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class DRWalkingToStanding : MonoBehaviour 
+	public class DR_WalkingToStanding : MonoBehaviour 
 	{
-		public void DRWalkingToStandingController() 
+		public void DR_WalkingToStandingController() 
 		{
 			
 		}

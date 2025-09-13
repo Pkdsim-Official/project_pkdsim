@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.idlebaseanimation
 {
-	public class GardevoirIdleAnimatorController : MonoBehaviour 
+	public class Gardevoir_IdleAnimatorController : MonoBehaviour 
 	{
 		private GARDIdleStanding Gardevoiridlestanding;
 		
-		private GARDIdleSitting Gardevoiridlesitting;
+		private GARD_IdleSitting Gardevoiridlesitting;
 		
-		public void	GARDIdleAnimatorController()
+		public void	GARD_IdleAnimatorController()
 		{
 			GARDIdleStandingAnimatorController();
-			GARDIdleSittingAnimatorController();
+			GARD_IdleSittingAnimatorController();
 		}
 		private void GARDIdleStandingAnimatorController()
 		{
 			Gardevoiridlestanding.GARDIdleStandingController();
 		}
-		private void GARDIdleSittingAnimatorController()
+		private void GARD_IdleSittingAnimatorController()
 		{
-			Gardevoiridlesitting.GARDIdleSittingController();
+			Gardevoiridlesitting.GARD_IdleSittingController();
 		}
 	}
 }

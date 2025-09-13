@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo
 {
 	public class GARD_IdleTo : MonoBehaviour 
 	{
-		private GARD_IdleToWalk GardevoirIdleToWalk;
-		private GARD_IdleToRun GardevoirIdleToRun;
+		private GARD_IdleToWalk Gardevoir_IdleToWalk;
+		private GARD_IdleToRun Gardevoir_IdleToRun;
 		public void GARD_IdleToController()
 		{
 			Load_GARD_idleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo
 		}
 		private void Load_GARD_idleToRun()
 		{
-			GardevoirIdleToRun.GARD_IdleToRunController();
+			Gardevoir_IdleToRun.GARD_IdleToRunController();
 		}
 		private void Load_GARD_idleToWalk()
 		{
-			GardevoirIdleToWalk.GARD_IdleToWalkController();
+			Gardevoir_IdleToWalk.GARD_IdleToWalkController();
 		}
 	}
 }

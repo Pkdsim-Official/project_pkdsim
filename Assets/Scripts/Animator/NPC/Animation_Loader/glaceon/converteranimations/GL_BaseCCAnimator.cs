@@ -7,18 +7,18 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations
 {
 	public class Glaceon_AnimatorControllerCoverterAnimator : MonoBehaviour 
 	{
-		private GL_IdleTo Glaceon_idleto;
+		private GL_IdleTo GlaceonIdleto;
 		
-		private GL_WalkingTo Glaceon_walkingto;
+		private GL_WalkingTo GlaceonWalkingto;
 
-		private GL_SittingTo Glaceon_sittingto;
-		private void Glaceon_BaseIdleAnimatorController()
+		private GL_SittingTo GlaceonSittingto;
+		private void Glaceon_Base_IdleAnimatorController()
 		{
-			Glaceon_walkingto.GL_WalkingToController();
+			GlaceonWalkingto.GL_WalkingToController();
 
-			Glaceon_idleto.GL_IdleToController();
+			GlaceonIdleto.GL_IdleToController();
 			
-			Glaceon_sittingto.GL_SittingToController();	
+			GlaceonSittingto.GL_SittingToController();	
 		}
 	}
 }

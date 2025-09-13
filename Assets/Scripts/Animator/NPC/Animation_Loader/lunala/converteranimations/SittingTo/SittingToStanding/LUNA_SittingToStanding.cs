@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lunala.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Lunala.converteranimations._SittingTo._SittingToStanding
 {
-	public class LUNASittingToStanding : MonoBehaviour 
+	public class LUNA_SittingToStanding : MonoBehaviour 
 	{
-		public void LUNASittingToStandingController()
+		public void LUNA_SittingToStandingController()
 		{
 			
 		}

@@ -4,25 +4,25 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.WalkingTo
 {
-	public class ZWalkingTo : MonoBehaviour 
+	public class Z_WalkingTo : MonoBehaviour 
 	{
-		private ZWalkingToStanding ZoroarkWalkingToStanding;
-		private ZWalkingToSitting ZoroarkWalkingToSitting;
+		private Z_WalkingToStanding Zoroark_WalkingToStanding;
+		private Z_WalkingToSitting Zoroark_WalkingToSitting;
 		
-		public void ZWalkingToController() 
+		public void Z_WalkingToController() 
 		{
-			Load_ZWalkingToStandingController();
-			Load_ZWalkingToSittingController();
+			Load_Z_WalkingToStandingController();
+			Load_Z_WalkingToSittingController();
 		}
 
-		private void Load_ZWalkingToStandingController()
+		private void Load_Z_WalkingToStandingController()
 		{
-			ZoroarkWalkingToStanding.ZWalkingToStandingController();
+			Zoroark_WalkingToStanding.Z_WalkingToStandingController();
 		}
 		
-		private void Load_ZWalkingToSittingController()
+		private void Load_Z_WalkingToSittingController()
 		{
-			ZoroarkWalkingToSitting.ZWalkingToSittingController();
+			Zoroark_WalkingToSitting.Z_WalkingToSittingController();
 		}
 	}
 }

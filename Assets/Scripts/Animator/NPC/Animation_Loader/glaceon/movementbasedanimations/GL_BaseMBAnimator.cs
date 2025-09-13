@@ -16,7 +16,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.movementbasedanimations
 
 		private GL_Strafe GL_MBA_Strafe;
 
-		private void GL_BaseIdleAnimatorController()
+		private void GL_Base_IdleAnimatorController()
 		{
 			GL_MBA_Running.GL_RunningController();
 

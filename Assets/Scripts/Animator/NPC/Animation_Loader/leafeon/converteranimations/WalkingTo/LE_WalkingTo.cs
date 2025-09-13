@@ -1,11 +1,26 @@
+using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.WalkingTo
 {
 	public class LE_WalkingTo : MonoBehaviour 
 	{
-		public void LE_WalkingToController() {
-			
+		private LE_WalkingToSitting LE_WalkingToSitting;
+		private LE_WalkingToStanding LE_WalkingToStanding;
+
+		public void LE_WalkingToController()
+		{
+			Load_LE_WalkingToSitting();
+			Load_LE_WalkingToStanding();
+		}
+		private void Load_LE_WalkingToSitting()
+		{
+			LE_WalkingToSitting.LE_WalkingToSittingController();
+		}
+		private void Load_LE_WalkingToStanding()
+		{
+			LE_WalkingToStanding.LE_WalkingToStandingController();
 		}
 	}
 }

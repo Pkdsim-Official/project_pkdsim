@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations._SittingTo._SittingToStartWalking
 {
 	public class BL_SittingToStartWalking : MonoBehaviour 
 	{

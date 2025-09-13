@@ -6,8 +6,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo
 {
 	public class GARC_IdleTo : MonoBehaviour 
 	{
-		private GARC_IdleToRun GarchompIdleToRun;
-		private GARC_IdleToWalk GarchompIdleToWalk;
+		private GARC_IdleToRun Garchomp_IdleToRun;
+		private GARC_IdleToWalk Garchomp_IdleToWalk;
 		public void GARC_IdleToController()
 		{
 			Load_GARC_IdleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo
 		}
 		private void Load_GARC_IdleToRun()
 		{
-			GarchompIdleToRun.GARC_IdleToRunController();
+			Garchomp_IdleToRun.GARC_IdleToRunController();
 		}
 		private void Load_GARC_IdleToWalk()
 		{
-			GarchompIdleToWalk.GARC_IdleToWalkController();
+			Garchomp_IdleToWalk.GARC_IdleToWalkController();
 		}
 	}
 }

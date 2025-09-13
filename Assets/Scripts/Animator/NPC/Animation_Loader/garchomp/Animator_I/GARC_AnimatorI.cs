@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.Animator_I
 
 		private GarchompCoverterAnimatorController LFSGarchomp_AnimatorCCA;
 		private Garchomp_AnimatorBaseMovementController LFSGarchomp_AnimatorCMA;
-		private GarchompIdleAnimatorController LFSGarchomp_AnimatorICA;
+		private Garchomp_IdleAnimatorController LFSGarchomp_AnimatorICA;
 
 
 		public void LoadFailSafeGarchomp_AnimatorController()

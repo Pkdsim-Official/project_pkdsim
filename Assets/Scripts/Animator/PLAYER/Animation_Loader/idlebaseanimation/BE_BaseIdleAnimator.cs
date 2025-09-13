@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Player.idlebaseanimation
 {
-	public class PlayerIdleAnimatorController : MonoBehaviour 
+	public class Player_IdleAnimatorController : MonoBehaviour 
 	{
 		private Player_IdleStanding PlayerIdlestanding;
 		
 		private Player_IdleSitting PlayerIdlesitting;
 		
-		public void	Player_IdleAnimatorController()
+		public void	PL_IdleAnimatorController()
 		{
-			Player_IdleStandingAnimatorController();
-			Player_IdleSittingAnimatorController();
+			PL_IdleStandingAnimatorController();
+			PL_IdleSittingAnimatorController();
 		}
-		private void Player_IdleStandingAnimatorController()
+		private void PL_IdleStandingAnimatorController()
 		{
 			PlayerIdlestanding.Player_IdleStandingController();
 		}
-		private void Player_IdleSittingAnimatorController()
+		private void PL_IdleSittingAnimatorController()
 		{
 			PlayerIdlesitting.Player_IdleSittingController();
 		}

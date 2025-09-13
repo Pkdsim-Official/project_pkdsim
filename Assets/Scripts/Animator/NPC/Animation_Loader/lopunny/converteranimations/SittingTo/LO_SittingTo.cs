@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations._SittingTo
 {
-	public class LOSittingTo : MonoBehaviour 
+	public class LO_SittingTo : MonoBehaviour 
 	{
-		private LOSittingToStartWalking LopunnysittingToStartWalking;
-		private LOSittingToStanding LopunnysittingToStanding;
-		public void LOSittingToController()
+		private LO_SittingToStartWalking LopunnysittingToStartWalking;
+		private LO_SittingToStanding LopunnysittingToStanding;
+		public void LO_SittingToController()
 		{
-			LOSittingToStartWalking();
-			LOSittingToStanding();
+			LO_SittingToStartWalking();
+			LO_SittingToStanding();
 		}
-		private void LOSittingToStartWalking()
+		private void LO_SittingToStartWalking()
 		{
-			LopunnysittingToStartWalking.LOSittingToStartWalkingController();
+			LopunnysittingToStartWalking.LO_SittingToStartWalkingController();
 		}
-		private void LOSittingToStanding()
+		private void LO_SittingToStanding()
 		{
-			LopunnysittingToStanding.LOSittingToStandingController();
+			LopunnysittingToStanding.LO_SittingToStandingController();
 		}
 
 	}

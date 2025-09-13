@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations._SittingTo
 {
-	public class ZSittingTo : MonoBehaviour 
+	public class Z_SittingTo : MonoBehaviour 
 	{
-		private ZSittingToStartWalking ZoroarksittingToStartWalking;
-		private ZSittingToStanding ZoroarksittingToStanding;
-		public void ZSittingToController()
+		private Z_SittingToStartWalking ZoroarksittingToStartWalking;
+		private Z_SittingToStanding ZoroarksittingToStanding;
+		public void Z_SittingToController()
 		{
-			ZSittingToStartWalking();
-			ZSittingToStanding();
+			Z_SittingToStartWalking();
+			Z_SittingToStanding();
 		}
-		private void ZSittingToStartWalking()
+		private void Z_SittingToStartWalking()
 		{
-			ZoroarksittingToStartWalking.ZSittingToStartWalkingController();
+			ZoroarksittingToStartWalking.Z_SittingToStartWalkingController();
 		}
-		private void ZSittingToStanding()
+		private void Z_SittingToStanding()
 		{
-			ZoroarksittingToStanding.ZSittingToStandingController();
+			ZoroarksittingToStanding.Z_SittingToStandingController();
 		}
 
 	}

@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.WalkingTo;
 using UnityEngine;
 

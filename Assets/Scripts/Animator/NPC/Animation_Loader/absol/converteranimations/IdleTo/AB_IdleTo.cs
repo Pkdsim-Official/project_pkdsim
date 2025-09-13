@@ -7,8 +7,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.IdleTo
 	public class AB_IdleTo : MonoBehaviour 
 	{
 
-		private AB_IdleToRun AbsolIdleToRun;
-		private AB_IdleToWalk AbsolIdleToWalk;
+		private AB_IdleToRun Absol_IdleToRun;
+		private AB_IdleToWalk Absol_IdleToWalk;
 		public void AB_IdleToController()
 		{
 			Load_AB_idleToRun();
@@ -16,11 +16,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.IdleTo
 		}
 		private void Load_AB_idleToRun()
 		{
-			AbsolIdleToRun.AB_IdleToRunController();
+			Absol_IdleToRun.AB_IdleToRunController();
 		}
 		private void Load_AB_idleToWalk()
 		{
-			AbsolIdleToWalk.AB_IdleToWalkController();
+			Absol_IdleToWalk.AB_IdleToWalkController();
 		}
 	}
 }

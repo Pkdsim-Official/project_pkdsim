@@ -20,15 +20,15 @@ namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vapor
 		}
 		private void LoadFailSafeVaporeon_ConvertToAnimatorController()
 		{
-			LFSVaporeon_AnimatorCCA.VP_BaseIdleAnimatorController();
+			LFSVaporeon_AnimatorCCA.VP_Base_IdleAnimatorController();
 		}
 		private void LoadFailSafeVaporeon_MovementAnimatorController()
 		{
-			LFSVaporeon_AnimatorCMA.VP_BaseIdleAnimatorController();
+			LFSVaporeon_AnimatorCMA.VP_Base_IdleAnimatorController();
 		}
 		private void LoadFailSafeVaporeon_IdleAnimatorController()
 		{
-			LFSVaporeon_AnimatorICA.VP_LFS_BaseIdleAnimatorController();
+			LFSVaporeon_AnimatorICA.VP_LFS_Base_IdleAnimatorController();
 		}
 	}
 }

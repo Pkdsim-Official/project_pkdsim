@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo;
 using UnityEngine;
 

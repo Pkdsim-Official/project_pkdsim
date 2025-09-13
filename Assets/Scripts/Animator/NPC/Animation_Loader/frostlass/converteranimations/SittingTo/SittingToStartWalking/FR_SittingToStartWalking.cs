@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations._SittingTo._SittingToStartWalking
 {
 	public class FR_SittingToStartWalking : MonoBehaviour 
 	{

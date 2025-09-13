@@ -11,8 +11,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations.IdleTo
 		private VP_IdleToRun VAPOR_idletorun;
 		public void VP_IdleToController()
 		{
-			// Load_VP_idleToRun();
-			// Load_VP_idleToWalk();
+			Load_VP_idleToRun();
+			Load_VP_idleToWalk();
 		}
 		private void Load_VP_idleToRun()
 		{

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.IdleTo.IdleToRun
 {
-	public class PRIdleToRun : MonoBehaviour 
+	public class PR_IdleToRun : MonoBehaviour 
 	{
-		public void PRIdleToRunController()
+		public void PR_IdleToRunController()
 		{
 			
 		}

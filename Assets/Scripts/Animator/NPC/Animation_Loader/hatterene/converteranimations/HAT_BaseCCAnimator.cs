@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo;
 using UnityEngine;
 
@@ -7,19 +7,19 @@ namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations
 {
 	public class HattereneCoverterAnimatorController : MonoBehaviour 
 	{
-		private HATSittingTo HattereneSittingto;
+		private HAT_SittingTo HattereneSittingto;
 		
-		private HATWalkingTo HattereneWalkingto;
+		private HAT_WalkingTo HattereneWalkingto;
 		
-		private HATIdleTo HattereneIdleto;
+		private HAT_IdleTo HattereneIdleto;
 
 		public void HATCoverterToAnimatorController()
 		{
-			HattereneWalkingto.HATWalkingToController();
+			HattereneWalkingto.HAT_WalkingToController();
 
 			HattereneIdleto.HAT_IdleToController();
 			
-			HattereneSittingto.HATSittingToController();	
+			HattereneSittingto.HAT_SittingToController();	
 		}
 	}
 }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo
 {
-	public class TIdleTo : MonoBehaviour 
+	public class T_IdleTo : MonoBehaviour 
 	{
-		private TIdleToRun TsareenaIdleToRun;
-		private TIdleToWalk TsareenaIdleToWalk;
+		private T_IdleToRun Tsareena_IdleToRun;
+		private T_IdleToWalk Tsareena_IdleToWalk;
 		public void T_IdleToController()
 		{
-			Load_TidleToRun();
-			Load_TidleToWalk();
+			Load_T_idleToRun();
+			Load_T_idleToWalk();
 		}
-		private void Load_TidleToRun()
+		private void Load_T_idleToRun()
 		{
-			TsareenaIdleToRun.TIdleToRunController();
+			Tsareena_IdleToRun.T_IdleToRunController();
 		}
-		private void Load_TidleToWalk()
+		private void Load_T_idleToWalk()
 		{
-			TsareenaIdleToWalk.TIdleToWalkController();
+			Tsareena_IdleToWalk.T_IdleToWalkController();
 		}
 	}
 }

@@ -4,6 +4,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo.Walk
 {
 	public class FL_WalkingToSitting : MonoBehaviour 
 	{
+		public void FL_WalkingToSittingController()
+		{
 
+		}
 	}
 }

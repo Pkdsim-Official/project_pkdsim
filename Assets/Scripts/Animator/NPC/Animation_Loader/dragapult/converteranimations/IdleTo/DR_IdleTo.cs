@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.IdleTo
 {
-	public class DRIdleTo : MonoBehaviour 
+	public class DR_IdleTo : MonoBehaviour 
 	{
 		public void DR_IdleToController()
 		{

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations._SittingTo._SittingToStartWalking
 {
-	public class ZSittingToStartWalking : MonoBehaviour 
+	public class Z_SittingToStartWalking : MonoBehaviour 
 	{
-		public void ZSittingToStartWalkingController() 
+		public void Z_SittingToStartWalkingController() 
 		{
 	
 		}

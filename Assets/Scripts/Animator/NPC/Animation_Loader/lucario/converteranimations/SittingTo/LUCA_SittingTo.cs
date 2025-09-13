@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations._SittingTo
 {
-	public class LUCASittingTo : MonoBehaviour 
+	public class LUCA_SittingTo : MonoBehaviour 
 	{
-		private LUCASittingToStartWalking LucariosittingToStartWalking;
-		private LUCASittingToStanding LucariosittingToStanding;
-		public void LUCASittingToController()
+		private LUCA_SittingToStartWalking LucariosittingToStartWalking;
+		private LUCA_SittingToStanding LucariosittingToStanding;
+		public void LUCA_SittingToController()
 		{
-			LUCASittingToStartWalking();
-			LUCASittingToStanding();
+			LUCA_SittingToStartWalking();
+			LUCA_SittingToStanding();
 		}
-		private void LUCASittingToStartWalking()
+		private void LUCA_SittingToStartWalking()
 		{
-			LucariosittingToStartWalking.LUCASittingToStartWalkingController();
+			LucariosittingToStartWalking.LUCA_SittingToStartWalkingController();
 		}
-		private void LUCASittingToStanding()
+		private void LUCA_SittingToStanding()
 		{
-			LucariosittingToStanding.LUCASittingToStandingController();
+			LucariosittingToStanding.LUCA_SittingToStandingController();
 		}
 	}
 }

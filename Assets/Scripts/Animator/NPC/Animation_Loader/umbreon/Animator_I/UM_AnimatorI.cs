@@ -27,7 +27,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Umbreon.Animator_I
 		{
 			
 		}
-		private void IdleAnimatorController()
+		private void _IdleAnimatorController()
 		{
 			
 		}

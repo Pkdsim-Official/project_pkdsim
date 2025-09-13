@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations._SittingTo
 {
-	public class PRSittingTo : MonoBehaviour 
+	public class PR_SittingTo : MonoBehaviour 
 	{
-		private PRSittingToStartWalking PrimarinasittingToStartWalking;
-		private PRSittingToStanding PrimarinasittingToStanding;
-		public void PRSittingToController()
+		private PR_SittingToStartWalking PrimarinasittingToStartWalking;
+		private PR_SittingToStanding PrimarinasittingToStanding;
+		public void PR_SittingToController()
 		{
-			PRSittingToStartWalking();
-			PRSittingToStanding();
+			PR_SittingToStartWalking();
+			PR_SittingToStanding();
 		}
-		private void PRSittingToStartWalking()
+		private void PR_SittingToStartWalking()
 		{
-			PrimarinasittingToStartWalking.PRSittingToStartWalkingController();
+			PrimarinasittingToStartWalking.PR_SittingToStartWalkingController();
 		}
-		private void PRSittingToStanding()
+		private void PR_SittingToStanding()
 		{
-			PrimarinasittingToStanding.PRSittingToStandingController();
+			PrimarinasittingToStanding.PR_SittingToStandingController();
 		}
 
 	}

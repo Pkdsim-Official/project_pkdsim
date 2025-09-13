@@ -17,7 +17,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations
 
 		private LO_Strafing Lopunny_MBA_Strafe;
 
-		public void LOMovementAnimatorController()
+		public void LO_MovementAnimatorController()
 		{
 			Lopunny_MBA_Running.LO_RunningController();
 

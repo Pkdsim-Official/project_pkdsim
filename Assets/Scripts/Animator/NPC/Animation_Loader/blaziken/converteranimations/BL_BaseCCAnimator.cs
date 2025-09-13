@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.WalkingTo;
 using UnityEngine;
 

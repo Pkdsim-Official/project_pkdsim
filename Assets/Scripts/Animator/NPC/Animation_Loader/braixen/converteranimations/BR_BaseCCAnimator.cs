@@ -1,5 +1,5 @@
 using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations._SittingTo;
 using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo;
 using UnityEngine;
 
@@ -7,7 +7,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations
 {
 	public class BraixenCoverterAnimatorController : MonoBehaviour 
 	{
-		private BRSittingTo BraixenSittingto;
+		private BR_SittingTo BraixenSittingto;
 		
 		private BR_WalkingTo BraixenWalkingto;
 		
@@ -19,7 +19,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations
 
 			BraixenIdleto.BR_IdleToController();
 			
-			BraixenSittingto.BRSittingToController();	
+			BraixenSittingto.BR_SittingToController();	
 		}
 	}
 }

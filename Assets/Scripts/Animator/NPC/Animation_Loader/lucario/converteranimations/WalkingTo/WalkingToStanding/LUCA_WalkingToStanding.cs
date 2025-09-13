@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class LUCAWalkingToStanding : MonoBehaviour 
+	public class LUCA_WalkingToStanding : MonoBehaviour 
 	{
-		public void LUCAWalkingToStandingController()
+		public void LUCA_WalkingToStandingController()
 		{
 
 		}

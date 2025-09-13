@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Beedrill.Animator_I
 
 		private BeedrillCoverterAnimatorController LFSBeedrill_AnimatorCCA;
 		private Beedrill_AnimatorBaseMovementController LFSBeedrill_AnimatorCMA;
-		private BeedrillIdleAnimatorController LFSBeedrill_AnimatorICA;
+		private Beedrill_IdleAnimatorController LFSBeedrill_AnimatorICA;
 
 
 		public void LoadFailSafeBeedrill_AnimatorController()

@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo
 {
-	public class ZIdleTo : MonoBehaviour 
+	public class Z_IdleTo : MonoBehaviour 
 	{
-		private ZIdleToRun ZoroarkIdleToRun;
-		private ZIdleToWalk ZoroarkIdleToWalk;
+		private Z_IdleToRun Zoroark_IdleToRun;
+		private Z_IdleToWalk Zoroark_IdleToWalk;
 		public void Z_IdleToController()
 		{
 			Load_ZidleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo
 		}
 		private void Load_ZidleToRun()
 		{
-			ZoroarkIdleToRun.ZIdleToRunController();
+			Zoroark_IdleToRun.Z_IdleToRunController();
 		}
 		private void Load_ZidleToWalk()
 		{
-			ZoroarkIdleToWalk.ZIdleToWalkController();
+			Zoroark_IdleToWalk.Z_IdleToWalkController();
 		}
 	}
 }

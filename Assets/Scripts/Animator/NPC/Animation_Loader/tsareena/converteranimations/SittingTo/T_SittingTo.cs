@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations._SittingTo
 {
-	public class TSittingTo : MonoBehaviour 
+	public class T_SittingTo : MonoBehaviour 
 	{
-		private TSittingToStartWalking TsareenasittingToStartWalking;
-		private TSittingToStanding TsareenasittingToStanding;
-		public void TSittingToController()
+		private T_SittingToStartWalking TsareenasittingToStartWalking;
+		private T_SittingToStanding TsareenasittingToStanding;
+		public void T_SittingToController()
 		{
-			TSittingToStartWalking();
-			TSittingToStanding();
+			T_SittingToStartWalking();
+			T_SittingToStanding();
 		}
-		private void TSittingToStartWalking()
+		private void T_SittingToStartWalking()
 		{
-			TsareenasittingToStartWalking.TSittingToStartWalkingController();
+			TsareenasittingToStartWalking.T_SittingToStartWalkingController();
 		}
-		private void TSittingToStanding()
+		private void T_SittingToStanding()
 		{
-			TsareenasittingToStanding.TSittingToStandingController();
+			TsareenasittingToStanding.T_SittingToStandingController();
 		}
 
 	}

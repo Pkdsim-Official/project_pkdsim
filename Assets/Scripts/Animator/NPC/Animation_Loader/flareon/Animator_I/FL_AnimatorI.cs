@@ -27,7 +27,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Flareon.Animator_I
 		{
 			//Flareon_AnimatorCMA	;
 		}
-		private void IdleAnimatorController()
+		private void _IdleAnimatorController()
 		{
 			//Flareon_AnimatorICA;		
 		}

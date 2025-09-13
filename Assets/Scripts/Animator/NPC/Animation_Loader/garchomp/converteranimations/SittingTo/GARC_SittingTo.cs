@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations._SittingTo._SittingToStartWalking;
+using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations._SittingTo._SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations._SittingTo
 {
 	public class GARC_SittingTo : MonoBehaviour 
 	{
-		private GARC_SittingToStartWalking GarchompSittingToStartWalking;
-		private GARC_SittingToStanding GarchompSittingToStanding;
+		private GARC_SittingToStartWalking Garchomp_SittingToStartWalking;
+		private GARC_SittingToStanding Garchomp_SittingToStanding;
 		public void GARC_SittingToController()
 		{
 			GARC_SittingToStartWalking();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations.SittingTo
 		}
 		private void GARC_SittingToStartWalking()
 		{
-			GarchompSittingToStartWalking.GARC_SittingToStartWalkingController();
+			Garchomp_SittingToStartWalking.GARC_SittingToStartWalkingController();
 		}
 		private void GARC_SittingToStanding()
 		{
-			GarchompSittingToStanding.GARC_SittingToStandingController();
+			Garchomp_SittingToStanding.GARC_SittingToStandingController();
 		}
 	}
 }

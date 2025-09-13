@@ -4,6 +4,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.IdleTo.IdleToW
 {
 	public class JT_IdleToWalk : MonoBehaviour 
 	{
-		
+		public void JT_IdleToWalkController()
+		{
+			
+		}
 	}
 }

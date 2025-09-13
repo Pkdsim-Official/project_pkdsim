@@ -4,10 +4,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.IdleTo
 {
-	public class LUCAIdleTo : MonoBehaviour 
+	public class LUCA_IdleTo : MonoBehaviour 
 	{
-		private LUCAIdleToRun LucarioIdleToRun;
-		private LUCAIdleToWalk LucarioIdleToWalk;
+		private LUCA_IdleToRun Lucario_IdleToRun;
+		private LUCA_IdleToWalk Lucario_IdleToWalk;
 
 		public void LUCA_IdleToController()
 		{
@@ -16,11 +16,11 @@ namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.IdleTo
 		}
 		private void Load_LUCAidleToRun()
 		{
-			LucarioIdleToRun.LUCAIdleToRunController();
+			Lucario_IdleToRun.LUCA_IdleToRunController();
 		}
 		private void Load_LUCAidleToWalk()
 		{
-			LucarioIdleToWalk.LUCAIdleToWalkController();
+			Lucario_IdleToWalk.LUCA_IdleToWalkController();
 		}
 	}
 }

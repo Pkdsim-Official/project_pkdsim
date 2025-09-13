@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations._SittingTo._SittingToStanding
 {
-	public class ZSittingToStanding : MonoBehaviour 
+	public class Z_SittingToStanding : MonoBehaviour 
 	{
-		public void ZSittingToStandingController()
+		public void Z_SittingToStandingController()
 		{
 			
 		}

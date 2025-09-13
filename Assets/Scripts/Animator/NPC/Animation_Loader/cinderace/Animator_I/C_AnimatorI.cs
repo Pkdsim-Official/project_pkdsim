@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Cinderace.Animator_I
 
 		private CinderaceCoverterAnimatorController LFSCinderace_AnimatorCCA;
 		private Cinderace_AnimatorBaseMovementController LFSCinderace_AnimatorCMA;
-		private CinderaceIdleAnimatorController LFSCinderace_AnimatorICA;
+		private Cinderace_IdleAnimatorController LFSCinderace_AnimatorICA;
 
 
 		public void LoadFailSafeCinderace_AnimatorController()

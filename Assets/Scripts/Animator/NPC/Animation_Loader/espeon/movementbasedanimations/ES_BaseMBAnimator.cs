@@ -17,7 +17,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Espeon.movementbasedanimations
 
 		private ES_Strafing ES_MBA_Strafe;
 
-		private void ES_BaseIdleAnimatorController()
+		private void ES_Base_IdleAnimatorController()
 		{
 			ES_MBA_Running.ES_RunningController();
 

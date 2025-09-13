@@ -12,7 +12,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Delphox.Animator_I
 
 		private DelphoxCoverterAnimatorController LFSDelphox_AnimatorCCA;
 		private Delphox_AnimatorBaseMovementController LFSDelphox_AnimatorCMA;
-		private DelphoxIdleAnimatorController LFSDelphox_AnimatorICA;
+		private Delphox_IdleAnimatorController LFSDelphox_AnimatorICA;
 
 
 		public void LoadFailSafeDelphox_AnimatorController()
@@ -31,7 +31,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Delphox.Animator_I
 		}
 		private void LoadFailSafeDelphox_IdleAnimatorController()
 		{
-			LFSDelphox_AnimatorICA.DLIdleAnimatorController();
+			LFSDelphox_AnimatorICA.DL_IdleAnimatorController();
 		}
 	}
 }
