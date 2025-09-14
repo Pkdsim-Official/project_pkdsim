@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class FRParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking FrostlassParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding FrostlassParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private FRParentMom_SittingToStartWalking FrostlassParentMomSittingToStartWalking;
+		private FRParentMom_SittingToStanding FrostlassParentMomSittingToStanding;
+		public void FRParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			FRParentMom_SittingToStartWalking();
+			FRParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void FRParentMom_SittingToStartWalking()
 		{
-			FrostlassParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			FrostlassParentMomSittingToStartWalking.FRParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void FRParentMom_SittingToStanding()
 		{
-			FrostlassParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			FrostlassParentMomSittingToStanding.FRParentMom_SittingToStandingController();
 		}
 
 	}

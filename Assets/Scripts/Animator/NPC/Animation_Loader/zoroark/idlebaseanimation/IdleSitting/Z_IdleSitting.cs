@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Zoroark.idlebaseanimation.IdleSitting
 {
 	public class Z_IdleSitting : MonoBehaviour 
 	{

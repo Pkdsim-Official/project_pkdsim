@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing
 {
-	public class NOIParent_Strafing : MonoBehaviour 
+	public class NOIParentDad_Strafing : MonoBehaviour 
 	{
-		private NOI_StrafeLeft NOI_strafeleft;
+		private NOIParentDad_StrafeLeft NOIParentDad_strafeleft;
 		
-		private NOI_StrafeRight NOI_straferight;
+		private NOIParentDad_StrafeRight NOIParentDad_straferight;
 
-		public void NOIParent_StrafingController()
+		public void NOIParentDad_StrafingController()
 		{
-			if (NOI_strafeleft == null)
+			if (NOIParentDad_strafeleft == null)
 			{
-				Load_NOI_StrafeLeft();
+				Load_NOIParentDad_StrafeLeft();
 			}
-			if (NOI_straferight == null)
+			if (NOIParentDad_straferight == null)
 			{
-				Load_NOI_StrafeRight();
+				Load_NOIParentDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_NOI_StrafeRight()
+		private void Load_NOIParentDad_StrafeRight()
 		{
-			NOI_straferight.NOI_StrafeRightController();
+			NOIParentDad_straferight.NOIParentDad_StrafeRightController();
 		}
 		
-		private void Load_NOI_StrafeLeft()
+		private void Load_NOIParentDad_StrafeLeft()
 		{
-			NOI_strafeleft.NOI_StrafeLeftController();
+			NOIParentDad_strafeleft.NOIParentDad_StrafeLeftController();
 		}
 	}
 }

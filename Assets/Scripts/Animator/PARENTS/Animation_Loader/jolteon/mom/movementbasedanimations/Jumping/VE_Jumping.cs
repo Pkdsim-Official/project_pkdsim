@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.movementbasedanimations.Jumping
 {
-	public class VEParentMom_Jumping : MonoBehaviour 
+	public class JTParentMom_Jumping : MonoBehaviour 
 	{
-		public void VEParentMom_JumpingController() 
+		public void JTParentMom_JumpingController() 
 		{
 			
 		}

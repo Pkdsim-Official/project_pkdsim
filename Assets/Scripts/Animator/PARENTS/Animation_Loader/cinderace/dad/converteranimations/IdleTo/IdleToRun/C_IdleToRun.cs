@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class C_IdleToRun : MonoBehaviour 
+	public class CParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void C_IdleToRunController() 
+		public void CParentDad_IdleToRunController() 
 		{
 	
 		}

@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.IdleTo.IdleToWalk
 {
-	public class VEParentMom_IdleToWalk : MonoBehaviour 
+	public class GARCParentMom_IdleToWalk : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
-		public void VEParentMom_IdleToWalkController()
+		private Animator GarchompParentMom_Animator;
+		public void GARCParentMom_IdleToWalkController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("Idle_ToWalk");         // Start in the Idle animation state
+			GarchompParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			GarchompParentMom_Animator.Play("Idle_ToWalk");         // Start in the Idle animation state
 		}
 	}
 }

@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Animator_I
 {
 	public class LFS_GarchompFailSafe : MonoBehaviour 
 	{
-		public Animator Garchomp_Animator;
+		public Animator GarchompParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private GarchompConverterAnimatorController LFSGarchomp_AnimatorCCA;
-		private GarchompParent_AnimatorBaseMovementController LFSGarchomp_AnimatorCMA;
+		private GarchompParentDad_MovementAnimatorController LFSGarchomp_AnimatorCMA;
 		private Garchomp_IdleAnimatorController LFSGarchomp_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Animator_I
 		}
 		private void LoadFailSafeGarchomp_ConvertToAnimatorController()
 		{
-			LFSGarchomp_AnimatorCCA.GARCConverterToAnimatorController();
+			LFSGarchomp_AnimatorCCA.GARCConverterAnimatorController();
 		}
 		private void LoadFailSafeGarchomp_MovementAnimatorController()
 		{

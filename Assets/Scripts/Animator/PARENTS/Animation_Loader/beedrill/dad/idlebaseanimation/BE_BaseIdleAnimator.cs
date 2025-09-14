@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.idlebaseanimation
 {
-	public class Beedrill_IdleAnimatorController : MonoBehaviour 
+	public class BeedrillParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private BE_IdleStanding BeedrillIdlestanding;
+		private BEParentDad_IdleStanding BeedrillParentDadIdlestanding;
 		
-		private BE_IdleSitting BeedrillIdlesitting;
+		private BEParentDad_IdleSitting BeedrillParentDadIdlesitting;
 		
-		public void	BE_IdleAnimatorController()
+		public void	BEParentDad_IdleAnimatorController()
 		{
-			BE_IdleStandingAnimatorController();
-			BE_IdleSittingAnimatorController();
+			BEParentDad_IdleStandingAnimatorController();
+			BEParentDad_IdleSittingAnimatorController();
 		}
-		private void BE_IdleStandingAnimatorController()
+		private void BEParentDad_IdleStandingAnimatorController()
 		{
-			BeedrillIdlestanding.BE_IdleStandingController();
+			BeedrillParentDadIdlestanding.BEParentDad_IdleStandingController();
 		}
-		private void BE_IdleSittingAnimatorController()
+		private void BEParentDad_IdleSittingAnimatorController()
 		{
-			BeedrillIdlesitting.BE_IdleSittingController();
+			BeedrillParentDadIdlesitting.BEParentDad_IdleSittingController();
 		}
 	}
 }

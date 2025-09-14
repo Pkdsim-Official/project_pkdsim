@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations.IdleTo
 {
 	public class T_IdleTo : MonoBehaviour 
 	{

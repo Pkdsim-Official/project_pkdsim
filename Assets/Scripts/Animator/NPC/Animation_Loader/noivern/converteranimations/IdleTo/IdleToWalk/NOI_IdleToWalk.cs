@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.IdleTo.IdleToWalk
 {
 	public class NOI_IdleToWalk : MonoBehaviour 
 	{

@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations
 		
 		private GARD_IdleTo GardevoirIdleto;
 
-		public void GARD_ConverterToAnimatorController()
+		public void GARD_ConverterAnimatorController()
 		{
 			GardevoirWalkingto.GARD_WalkingToController();
 

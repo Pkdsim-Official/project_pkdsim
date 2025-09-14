@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.WalkingTo
 {
 	public class ES_WalkingTo : MonoBehaviour 
 	{

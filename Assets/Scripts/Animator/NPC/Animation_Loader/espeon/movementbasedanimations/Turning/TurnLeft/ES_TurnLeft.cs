@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Espeon.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Npcs.Espeon.movementbasedanimations.Turning.TurnLeft
 {
 	public class ES_TurnLeft : MonoBehaviour 
 	{

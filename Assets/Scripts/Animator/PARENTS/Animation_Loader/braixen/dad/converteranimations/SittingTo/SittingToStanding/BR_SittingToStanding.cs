@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class BRSittingToStanding : MonoBehaviour 
+	public class BRParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void BRSittingToStandingController()
+		public void BRParentDad_SittingToStandingController()
 		{
 			
 		}

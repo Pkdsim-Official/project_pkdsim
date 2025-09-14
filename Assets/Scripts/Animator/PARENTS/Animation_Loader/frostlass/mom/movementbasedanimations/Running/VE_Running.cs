@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.movementbasedanimations.Running
 {
-	public class VEParentMom_Running : MonoBehaviour 
+	public class FRParentMom_Running : MonoBehaviour 
 	{
-		public void VEParentMom_RunningController() 
+		public void FRParentMom_RunningController() 
 		{
 			
 		}

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Jumping
 {
-	public class LUCAParent_Jumping : MonoBehaviour 
+	public class LUCAParentDad_Jumping : MonoBehaviour 
 	{
-		public void LUCAParent_JumpingController() 
+		public void LUCAParentDad_JumpingController() 
 		{
 			
 		}

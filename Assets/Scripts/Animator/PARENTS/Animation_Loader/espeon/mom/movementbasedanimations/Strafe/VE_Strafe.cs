@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Mom.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Mom.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Mom.movementbasedanimations.Strafing
 {
-	public class VEParentMom_Strafing : MonoBehaviour 
+	public class ESParentMom_Strafing : MonoBehaviour 
 	{
-		private VEParentMom_StrafeLeft VEParentMom_strafeleft;
+		private ESParentMom_StrafeLeft ESParentMom_strafeleft;
 		
-		private VEParentMom_StrafeRight VEParentMom_straferight;
+		private ESParentMom_StrafeRight ESParentMom_straferight;
 
-		public void VEParentMom_StrafingController()
+		public void ESParentMom_StrafingController()
 		{
-			if (VEParentMom_strafeleft == null)
+			if (ESParentMom_strafeleft == null)
 			{
-				Load_VEParentMom_StrafeLeft();
+				Load_ESParentMom_StrafeLeft();
 			}
-			if (VEParentMom_straferight == null)
+			if (ESParentMom_straferight == null)
 			{
-				Load_VEParentMom_StrafeRight();
+				Load_ESParentMom_StrafeRight();
 			}
 		}
-		private void Load_VEParentMom_StrafeRight()
+		private void Load_ESParentMom_StrafeRight()
 		{
-			VEParentMom_straferight.VEParentMom_StrafeRightController();
+			ESParentMom_straferight.ESParentMom_StrafeRightController();
 		}
 		
-		private void Load_VEParentMom_StrafeLeft()
+		private void Load_ESParentMom_StrafeLeft()
 		{
-			VEParentMom_strafeleft.VEParentMom_StrafeLeftController();
+			ESParentMom_strafeleft.ESParentMom_StrafeLeftController();
 		}
 	}
 }

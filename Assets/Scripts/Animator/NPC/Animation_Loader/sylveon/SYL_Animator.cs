@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon
 {
 	public class SYL_Animator : MonoBehaviour 
 	{

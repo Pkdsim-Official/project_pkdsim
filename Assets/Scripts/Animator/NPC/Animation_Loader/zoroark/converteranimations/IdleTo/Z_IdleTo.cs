@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Zoroark.converteranimations.IdleTo
 {
 	public class Z_IdleTo : MonoBehaviour 
 	{

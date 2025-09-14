@@ -1,16 +1,9 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad
 {
-	public class FL_Animator : MonoBehaviour 
+	public class FL_Animator : MonoBehaviour
 	{
-		public Animator Flareon_Animator;
-		public RuntimeAnimatorController someController;
-
-		private void Flareon_AnimatorController()
-		{
-			Flareon_Animator = gameObject.GetComponent<Animator>();
-			Flareon_Animator.runtimeAnimatorController = someController;
-		}
+		
 	}
 }

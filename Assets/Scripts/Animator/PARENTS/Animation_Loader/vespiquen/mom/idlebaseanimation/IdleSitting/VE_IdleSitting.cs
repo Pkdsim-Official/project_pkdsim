@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation.IdleSi
 {
 	public class VEParentMom_IdleSitting : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
+		private Animator VespiquenParentMom_Animator;
 		public void VEParentMom_IdleSittingController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			VespiquenParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			VespiquenParentMom_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

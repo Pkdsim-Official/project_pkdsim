@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Blaziken.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Blaziken.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Blaziken.converteranimations.IdleTo
 {
 	public class BL_IdleTo : MonoBehaviour 
 	{

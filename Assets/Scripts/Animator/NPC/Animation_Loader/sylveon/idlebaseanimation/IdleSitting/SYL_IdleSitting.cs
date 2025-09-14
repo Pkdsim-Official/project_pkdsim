@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.idlebaseanimation.IdleSitting
 {
 	public class SYL_IdleSitting : MonoBehaviour 
 	{

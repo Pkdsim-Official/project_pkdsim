@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.Animator.Parents",
+  "rootNamespace": "project_pkdsim.ANIMATOR.Parents",
+  "references": 
+  [
+    "project_pkdsim.USys.FailSafeSys"
+  ]
+}

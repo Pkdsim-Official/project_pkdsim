@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.movementbasedanimations
 {
-	public class Vespiquen_AnimatorBaseMovementController : MonoBehaviour 
+	public class Vespiquen_MovementAnimatorController : MonoBehaviour 
 	{
 		private VE_Jumping VE_MBA_Jumping;
 		

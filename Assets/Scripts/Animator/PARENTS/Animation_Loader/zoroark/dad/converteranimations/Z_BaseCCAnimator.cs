@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations
 		
 		private ZParentDad_IdleTo ZoroarkIdleto;
 
-		public void ZParentDad_ConverterToAnimatorController()
+		public void ZParentDad_ConverterAnimatorController()
 		{
 			ZoroarkWalkingto.ZParentDad_WalkingToController();
 

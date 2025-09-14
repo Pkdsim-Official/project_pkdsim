@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Turning.TurnLeft
 {
 	public class DL_TurnLeft : MonoBehaviour 
 	{

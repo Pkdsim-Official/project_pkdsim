@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_TsareenaFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator TsareenaParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private TSareenaParentMom_ConverterAnimatorController LFSTsareena_AnimatorCCA;
-		private TSareenaParentMom_AnimatorBaseMovementController LFSTsareena_AnimatorCMA;
-		private TSareenaParentMom_IdleAnimatorController LFSTsareena_AnimatorICA;
+		private TsareenaParentMom_ConverterAnimatorController LFSTsareena_AnimatorCCA;
+		private TsareenaParentMom_MovementAnimatorController LFSTsareena_AnimatorCMA;
+		private TsareenaParentMom_IdleAnimatorController LFSTsareena_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeTsareena_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeTsareena_ConvertToAnimatorController();
+			LoadFailSafeTsareena_MovementAnimatorController();
+			LoadFailSafeTsareena_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeTsareena_ConvertToAnimatorController()
 		{
-			LFSTsareena_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSTsareena_AnimatorCCA.TParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeTsareena_MovementAnimatorController()
 		{
-			LFSTsareena_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSTsareena_AnimatorCMA.TParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeTsareena_IdleAnimatorController()
 		{
-			LFSTsareena_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSTsareena_AnimatorICA.TParentMom_IdleAnimatorController();
 		}
 	}
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.movementbasedanimations.Turning.TurnRight
 {
     public class LO_TurnRight : MonoBehaviour 
     {

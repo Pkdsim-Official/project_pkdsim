@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class JT_WalkingToStanding : MonoBehaviour 
+	public class JTParentDad_WalkingToStanding : MonoBehaviour 
 	{
-
+		public void JTParentDad_WalkingToStandingController() 
+		{
+	
+		}
 	}
 }

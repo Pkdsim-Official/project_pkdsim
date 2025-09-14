@@ -1,22 +1,22 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Strafing
 {
-	public class BEParent_Strafing : MonoBehaviour 
+	public class BEParentDad_Strafing : MonoBehaviour 
 	{
-		private BE_StrafeLeft BE_strafeleft;
+		private BEParentDad_StrafeLeft BEParentDad_strafeleft;
 		
-		private BE_StrafeRight BE_straferight;
+		private BEParentDad_StrafeRight BEParentDad_straferight;
 
-		public void BEParent_StrafingController()
+		public void BEParentDad_StrafingController()
 		{
-			if (BE_strafeleft == null)
+			if (BEParentDad_strafeleft == null)
 			{
 				Load_BEStrafeLeft();
 			}
-			if (BE_straferight == null)
+			if (BEParentDad_straferight == null)
 			{
 				Load_BEStrafeRight();
 			}
@@ -25,12 +25,12 @@ namespace project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Straf
 		}
 		private void Load_BEStrafeRight()
 		{
-			BE_straferight.BE_StrafeRightController();
+			BEParentDad_straferight.BEParentDad_StrafeRightController();
 		}
 		
 		private void Load_BEStrafeLeft()
 		{
-			BE_strafeleft.BE_StrafeLeftController();
+			BEParentDad_strafeleft.BEParentDad_StrafeLeftController();
 		}
 	}
 }

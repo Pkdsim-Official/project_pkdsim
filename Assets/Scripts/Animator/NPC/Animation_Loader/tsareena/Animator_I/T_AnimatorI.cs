@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Tsareena.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Tsareena.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Tsareena.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Tsareena.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Tsareena.Animator_I
 {
 	public class LFS_TsareenaFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Tsareena.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Tsareena_CoverterAnimatorController LFSTsareena_AnimatorCCA;
-		private Tsareena_AnimatorBaseMovementController LFSTsareena_AnimatorCMA;
+		private Tsareena_MovementAnimatorController LFSTsareena_AnimatorCMA;
 		private Tsareena_IdleAnimatorController LFSTsareena_AnimatorICA;
 
 

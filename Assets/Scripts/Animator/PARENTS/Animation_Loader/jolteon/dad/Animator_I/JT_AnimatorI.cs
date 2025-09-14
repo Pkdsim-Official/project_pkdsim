@@ -1,35 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.Animator_I
 {
 	public class JT_AnimatorI : MonoBehaviour 
 	{
-		public Animator Jolteon_Animator;
+		public Animator JolteonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Jolteon_ConverterAnimatorController Jolteon_AnimatorCCA;
-		private JolteonParent_AnimatorBaseMovementController Jolteon_AnimatorCMA;
-		private Jolteon_AnimatorIdleController Jolteon_AnimatorICA;
+		private JolteonParentDad_ConverterAnimatorController LFSJolteon_AnimatorCCA;
+		private JolteonParentDad_MovementAnimatorController LFSJolteon_AnimatorCMA;
+		private JolteonParentDad_AnimatorIdleController LFSJolteon_AnimatorICA;
 
-		private void Jolteon_AnimatorController()
+		public void LoadFailSafeJolteon_AnimatorController()
 		{
-			Jolteon_Animator = gameObject.GetComponent<Animator>();
-			Jolteon_Animator.runtimeAnimatorController = someController;
+			LoadFailSafeJolteon_ConvertToAnimatorController();
+			LoadFailSafeJolteon_MovementAnimatorController();
+			LoadFailSafeJolteon_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
-		{
 
-		}
-		private void MovementAnimatorController()
+		private void LoadFailSafeJolteon_ConvertToAnimatorController()
 		{
-			
+			LFSJolteon_AnimatorCCA.JTParentDad_ConverterAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void LoadFailSafeJolteon_MovementAnimatorController()
 		{
-			
+			LFSJolteon_AnimatorCMA.JTParentDad_MovementAnimatorController();
+		}
+		private void LoadFailSafeJolteon_IdleAnimatorController()
+		{
+			LFSJolteon_AnimatorICA.JTParentDad_IdleAnimatorController();
 		}
 	}
 }

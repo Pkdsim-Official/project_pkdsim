@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Jumping
 {
-	public class BRParent_Jumping : MonoBehaviour 
+	public class BRParentDad_Jumping : MonoBehaviour 
 	{
-		public void BRParent_JumpingController() 
+		public void BRParentDad_JumpingController() 
 		{
 			
 		}

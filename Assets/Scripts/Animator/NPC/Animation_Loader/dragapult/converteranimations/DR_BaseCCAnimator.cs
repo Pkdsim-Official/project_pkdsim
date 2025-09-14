@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations
 {
 	public class DragapultCoverterAnimatorController : MonoBehaviour 
 	{

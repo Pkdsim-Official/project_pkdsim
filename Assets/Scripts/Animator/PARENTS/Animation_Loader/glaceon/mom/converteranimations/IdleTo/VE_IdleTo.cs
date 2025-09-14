@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.converteranimations.IdleTo
 {
-	public class VEParentMom_IdleTo : MonoBehaviour 
+	public class GLParentMom_IdleTo : MonoBehaviour 
 	{
-		private VEParentMom_IdleToRun GlaceonParentMomIdleToRun;
-		private VEParentMom_IdleToWalk GlaceonParentMomIdleToWalk;
+		private GLParentMom_IdleToRun GlaceonParentMomIdleToRun;
+		private GLParentMom_IdleToWalk GlaceonParentMomIdleToWalk;
 
-		public void VEParentMom_IdleToController()
+		public void GLParentMom_IdleToController()
 		{
-			Load_VEParentMom_idleToRun();
-			Load_VEParentMom_idleToWalk();
+			Load_GLParentMom_idleToRun();
+			Load_GLParentMom_idleToWalk();
 		}
-		private void Load_VEParentMom_idleToRun()
+		private void Load_GLParentMom_idleToRun()
 		{
-			GlaceonParentMomIdleToRun.VEParentMom_IdleToRunController();
+			GlaceonParentMomIdleToRun.GLParentMom_IdleToRunController();
 		}
-		private void Load_VEParentMom_idleToWalk()
+		private void Load_GLParentMom_idleToWalk()
 		{
-			GlaceonParentMomIdleToWalk.VEParentMom_IdleToWalkController();
+			GlaceonParentMomIdleToWalk.GLParentMom_IdleToWalkController();
 		}
 	}
 }

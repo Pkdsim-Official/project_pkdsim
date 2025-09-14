@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations
 		
 		private GARC_IdleTo GarchompIdleto;
 
-		public void GARCConverterToAnimatorController()
+		public void GARCConverterAnimatorController()
 		{
 			GarchompWalkingto.GARC_WalkingToController();
 

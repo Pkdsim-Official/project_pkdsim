@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class TSittingToStartWalking : MonoBehaviour 
+	public class TParentDad_SittingToStartWalking : MonoBehaviour 
 	{
-		public void TSittingToStartWalkingController() 
+		public void TParentDad_SittingToStartWalkingController() 
 		{
 	
 		}

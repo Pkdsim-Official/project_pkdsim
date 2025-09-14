@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations
 {
-	public class AbsolParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class AbsolParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private ABParent_Jumping AB_MBA_Jumping;
 		

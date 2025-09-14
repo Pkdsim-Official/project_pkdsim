@@ -4,12 +4,12 @@ namespace project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation.IdleStandi
 {
 	public class DRIdleStanding : MonoBehaviour 
 	{
-		public Animator Dragapult_Animator;
+		public Animator DragapultParentDad_Animator;
 		public void DRIdleStandingController()
 		{
 			// Assign the idle animation clip
-			Dragapult_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Dragapult_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			DragapultParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			DragapultParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

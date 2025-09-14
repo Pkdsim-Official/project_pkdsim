@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Blaziken.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Blaziken.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Blaziken.movementbasedanimations.Turning
 {
 	public class BL_Turning : MonoBehaviour	
 	{

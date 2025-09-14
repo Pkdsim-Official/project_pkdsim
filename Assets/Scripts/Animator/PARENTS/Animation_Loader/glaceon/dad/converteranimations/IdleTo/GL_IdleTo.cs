@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.IdleTo
 {
-	public class GL_IdleTo : MonoBehaviour 
+	public class GLParentDad_IdleTo : MonoBehaviour 
 	{
-		private GL_IdleToRun IdleToRun;
-		private GL_IdleToWalk IdleToWalk;
-		public void GL_IdleToController()
+		private GLParentDad_IdleToRun GlaceonIdleToRun;
+		private GLParentDad_IdleToWalk GlaceonIdleToWalk;
+		public void GLParentDad_IdleToController()
 		{
-			// Load_JT_IdleToStanding();
-			// Load_JT_IdleToWSitting();
+			Load_GLParentDad_idleToRun();
+			Load_GLParentDad_idleToWalk();
 		}
-		private void Load_JT_IdleToParent_Running()
+		private void Load_GLParentDad_idleToRun()
 		{
-			
+			GlaceonIdleToRun.GLParentDad_IdleToRunController();
 		}
-		private void Load_JT_IdleToWWalking()
+		private void Load_GLParentDad_idleToWalk()
 		{
-			
+			GlaceonIdleToWalk.GLParentDad_IdleToWalkController();
 		}
 	}
 }

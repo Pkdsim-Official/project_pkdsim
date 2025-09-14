@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Meowscarada.Mom.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Meowscarada.Mom.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Meowscarada.Mom.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Mom.converteranimations
 {
 	public class MeowscaradaParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_SittingTo MeowscaradaParentMomSittingto;
+		private MEOWParentMom_SittingTo MeowscaradaParentMomSittingto;
 		
-		private VEParentMom_WalkingTo MeowscaradaParentMomWalkingto;
+		private MEOWParentMom_WalkingTo MeowscaradaParentMomWalkingto;
 		
-		private VEParentMom_IdleTo MeowscaradaParentMomIdleto;
+		private MEOWParentMom_IdleTo MeowscaradaParentMomIdleto;
 
-		public void VEParentMom_ConverterToAnimatorController()
+		public void MEOWParentMom_ConverterAnimatorController()
 		{
-			MeowscaradaParentMomWalkingto.VEParentMom_WalkingToController();
+			MeowscaradaParentMomWalkingto.MEOWParentMom_WalkingToController();
 
-			MeowscaradaParentMomIdleto.VEParentMom_IdleToController();
+			MeowscaradaParentMomIdleto.MEOWParentMom_IdleToController();
 			
-			MeowscaradaParentMomSittingto.VEParentMom_SittingToController();	
+			MeowscaradaParentMomSittingto.MEOWParentMom_SittingToController();	
 		}
 	}
 }

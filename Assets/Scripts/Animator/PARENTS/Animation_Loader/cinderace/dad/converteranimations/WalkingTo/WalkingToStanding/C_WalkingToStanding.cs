@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class C_WalkingToStanding : MonoBehaviour 
+	public class CParentDad_WalkingToStanding : MonoBehaviour 
 	{
-		public void C_WalkingToStandingController() 
+		public void CParentDad_WalkingToStandingController() 
 		{
 			
 		}

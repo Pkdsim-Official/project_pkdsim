@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class HAT_StrafeLeft : MonoBehaviour 
 	{

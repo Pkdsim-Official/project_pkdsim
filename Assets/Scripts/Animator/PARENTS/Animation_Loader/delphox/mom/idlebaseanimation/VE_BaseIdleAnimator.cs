@@ -1,27 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Mom.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Mom.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Delphox.Mom.idlebaseanimation
 {
 	public class DelphoxParentMom_IdleAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_IdleStanding VEParentMom_Idlestanding;
+		private DLParentMom_IdleStanding DLParentMom_Idlestanding;
+		private DLParentMom_IdleSitting DLParentMom_Idlesitting;
 		
-		private VEParentMom_IdleSitting VEParentMom_Idlesitting;
-		
-		public void	VE_IdleAnimatorController()
+		public void	DLParentMom_IdleAnimatorController()
 		{
-			VEParentMom_IdleStandingAnimatorController();
-			VEParentMom_IdleSittingAnimatorController();
+			DLParentMom_IdleStandingAnimatorController();
+			DLParentMom_IdleSittingAnimatorController();
 		}
-		private void VEParentMom_IdleStandingAnimatorController()
+		private void DLParentMom_IdleStandingAnimatorController()
 		{
-			VEParentMom_Idlestanding.VEParentMom_IdleStandingController();
+			DLParentMom_Idlestanding.DLParentMom_IdleStandingController();
 		}
-		private void VEParentMom_IdleSittingAnimatorController()
+		private void DLParentMom_IdleSittingAnimatorController()
 		{
-			VEParentMom_Idlesitting.VEParentMom_IdleSittingController();
+			DLParentMom_Idlesitting.DLParentMom_IdleSittingController();
 		}
 	}
 }

@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations
 {
-	public class GlaceonParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class GlaceonParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_Jumping VE_MBA_Jumping;
+		private GLParentMom_Jumping GL_MBA_Jumping;
 		
-		private VEParentMom_Running VE_MBA_Running;
+		private GLParentMom_Running GL_MBA_Running;
 
 
-		private VEParentMom_Turning VE_MBA_Turning;
+		private GLParentMom_Turning GL_MBA_Turning;
 
-		private VEParentMom_Strafing VE_MBA_Strafe;
+		private GLParentMom_Strafing GL_MBA_Strafe;
 
-		public void VEMovementAnimatorController()
+		public void GLParentMom_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParentMom_RunningController();
+			GL_MBA_Running.GLParentMom_RunningController();
 
-			VE_MBA_Jumping.VEParentMom_JumpingController();
+			GL_MBA_Jumping.GLParentMom_JumpingController();
 
-			VE_MBA_Turning.VEParentMom_TurningController();	
+			GL_MBA_Turning.GLParentMom_TurningController();	
 
-			VE_MBA_Strafe.VEParentMom_StrafingController();
+			GL_MBA_Strafe.GLParentMom_StrafingController();
 		}
 	}
 }

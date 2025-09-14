@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class SYL_WalkingToSitting : MonoBehaviour 
 	{

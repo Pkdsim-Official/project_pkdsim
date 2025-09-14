@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.IdleTo
 {
-	public class NOIIdleTo : MonoBehaviour 
+	public class NOIParentDad_IdleTo : MonoBehaviour
 	{
-		private NOIIdleToRun NoivernIdleToRun;
-		private NOIIdleToWalk NoivernIdleToWalk;
-		public void NOI_IdleToController()
+		private NOIParentDad_IdleToRun NoivernIdleToRun;
+		private NOIParentDad_IdleToWalk NoivernIdleToWalk;
+		public void NOIParentDad_IdleToController()
 		{
-			NOIIdleToRun();
-			NOIIdleToWalk();
+			NOIParentDad_IdleToRun();
+			NOIParentDad_IdleToWalk();
 		}
-		private void NOIIdleToRun()
+		private void NOIParentDad_IdleToRun()
 		{
-			NoivernIdleToRun.NOIIdleToRunController();
+			NoivernIdleToRun.NOIParentDad_IdleToRunController();
 		}
-		private void NOIIdleToWalk()
+		private void NOIParentDad_IdleToWalk()
 		{
-			NoivernIdleToWalk.NOIIdleToWalkController();
+			NoivernIdleToWalk.NOIParentDad_IdleToWalkController();
 		}
 	}
 }

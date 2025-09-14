@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Pheromosa.idlebaseanimation.IdleSitting
 {
 	public class PH_IdleSitting : MonoBehaviour 
 	{

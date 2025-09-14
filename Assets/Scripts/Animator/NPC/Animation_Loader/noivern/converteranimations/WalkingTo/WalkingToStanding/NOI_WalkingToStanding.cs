@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class NOI_WalkingToStanding : MonoBehaviour 
 	{

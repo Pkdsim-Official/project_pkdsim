@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Npcs.Pheromosa.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Npcs.Pheromosa.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Pheromosa.movementbasedanimations.Strafing
 {
 	public class PH_Strafing : MonoBehaviour 
 	{

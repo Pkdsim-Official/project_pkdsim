@@ -1,35 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning.TurnRight;
-
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning
 {
-	public class JTParent_Turning : MonoBehaviour	
+	public class JTParentDad_Turning : MonoBehaviour	
 	{
-		private JTParent_TurnLeft JTParent_TurnLeft;
-		private JTParent_TurnRight JTParent_TurnRight;
+		private JTParentDad_TurnLeft JTParentDad_TurnLeft;
+		private JTParentDad_TurnRight JTParentDad_TurnRight;
 
-		public void JTParent_TurningController()
+		public void JTParentDad_TurningController()
 		{
-			if (JTParent_TurnLeft == null)
+			if (JTParentDad_TurnLeft == null)
 			{
-				Load_JTParent_TurnLeft();
+				Load_JTParentDad_TurnLeft();
 			}
-			if (JTParent_TurnRight == null)
+			if (JTParentDad_TurnRight == null)
 			{
-				Load_JTParent_TurnRight();
+				Load_JTParentDad_TurnRight();
 			}
 		}
 
-		private void Load_JTParent_TurnRight()
+		private void Load_JTParentDad_TurnRight()
 		{
-			JTParent_TurnRight.JTParent_TurnRightController();
+			JTParentDad_TurnRight.JTParentDad_TurnRightController();
 		}
 		
-		private void Load_JTParent_TurnLeft()
+		private void Load_JTParentDad_TurnLeft()
 		{
-			JTParent_TurnLeft.JTParent_TurnLeftController();
+			JTParentDad_TurnLeft.JTParentDad_TurnLeftController();
 		}
 	}
 }

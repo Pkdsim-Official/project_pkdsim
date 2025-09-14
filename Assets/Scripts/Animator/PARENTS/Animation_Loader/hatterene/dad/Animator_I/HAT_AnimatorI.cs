@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.Animator_I
 {
 	public class LFS_HattereneFailSafe : MonoBehaviour 
 	{
-		public Animator Hatterene_Animator;
+		public Animator HattereneParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private HattereneConverterAnimatorController LFSHatterene_AnimatorCCA;
-		private HattereneParent_AnimatorBaseMovementController LFSHatterene_AnimatorCMA;
-		private Hatterene_IdleAnimatorController LFSHatterene_AnimatorICA;
+		private HattereneParentDad_ConverterAnimatorController LFSHatterene_AnimatorCCA;
+		private HattereneParentDad_MovementAnimatorController LFSHatterene_AnimatorCMA;
+		private HattereneParentDad_IdleAnimatorController LFSHatterene_AnimatorICA;
 
 
 		public void LoadFailSafeHatterene_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Animator_I
 		}
 		private void LoadFailSafeHatterene_ConvertToAnimatorController()
 		{
-			LFSHatterene_AnimatorCCA.HATConverterToAnimatorController();
+			LFSHatterene_AnimatorCCA.HATParentDad_ConverterAnimatorController();
 		}
 		private void LoadFailSafeHatterene_MovementAnimatorController()
 		{
-			LFSHatterene_AnimatorCMA.HATMovementAnimatorController();
+			LFSHatterene_AnimatorCMA.HATParentDad_MovementAnimatorController();
 		}
 		private void LoadFailSafeHatterene_IdleAnimatorController()
 		{
-			LFSHatterene_AnimatorICA.HAT_IdleAnimatorController();
+			LFSHatterene_AnimatorICA.HATParentDad_IdleAnimatorController();
 		}
 	}
 }

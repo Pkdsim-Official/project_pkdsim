@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.Animator_I
 {
-	public class LFS_BraixenFailSafe : MonoBehaviour 
+	public class LFS_BraixenParentDadFailSafe : MonoBehaviour 
 	{
-		public Animator Braixen_Animator;
+		public Animator BraixenParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private BraixenConverterAnimatorController LFSBraixen_AnimatorCCA;
-		private BraixenParent_AnimatorBaseMovementController LFSBraixen_AnimatorCMA;
-		private Braixen_IdleAnimatorController LFSBraixen_AnimatorICA;
+		private BraixenParentDad_ConverterAnimatorController LFSBraixen_AnimatorCCA;
+		private BraixenParentDad_MovementAnimatorController LFSBraixen_AnimatorCMA;
+		private BraixenParentDad_IdleAnimatorController LFSBraixen_AnimatorICA;
 
 
 		public void LoadFailSafeBraixen_AnimatorController()
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Braixen.Animator_I
 		}
 		private void LoadFailSafeBraixen_ConvertToAnimatorController()
 		{
-			LFSBraixen_AnimatorCCA.BRConverterToAnimatorController();
+			LFSBraixen_AnimatorCCA.BRConverterAnimatorController();
 		}
 		private void LoadFailSafeBraixen_MovementAnimatorController()
 		{
@@ -31,7 +31,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Braixen.Animator_I
 		}
 		private void LoadFailSafeBraixen_IdleAnimatorController()
 		{
-			LFSBraixen_AnimatorICA.BR_IdleAnimatorController();
+			LFSBraixen_AnimatorICA.BRParentDad_IdleAnimatorController();
 		}
 	}
 }

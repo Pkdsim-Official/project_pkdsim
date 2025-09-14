@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations
 		
 		private BL_IdleTo BlazikenIdleto;
 
-		public void BLConverterToAnimatorController()
+		public void BLConverterAnimatorController()
 		{
 			BlazikenWalkingto.BL_WalkingToController();
 

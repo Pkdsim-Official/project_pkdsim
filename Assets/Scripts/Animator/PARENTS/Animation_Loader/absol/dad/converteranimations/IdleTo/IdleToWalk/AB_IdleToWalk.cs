@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.converteranimations.IdleTo.IdleToWalk
 {
 	public class AB_IdleToWalk : MonoBehaviour 
 	{

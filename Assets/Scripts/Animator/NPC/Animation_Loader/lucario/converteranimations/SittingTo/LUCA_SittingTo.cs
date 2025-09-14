@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Lucario.converteranimations.SittingTo
 {
 	public class LUCA_SittingTo : MonoBehaviour 
 	{

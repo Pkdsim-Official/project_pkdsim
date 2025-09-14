@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations.IdleTo
 {
-	public class BE_IdleTo : MonoBehaviour 
+	public class BEParentDad_IdleTo : MonoBehaviour 
 	{
-		private BE_IdleToRun BeedrillIdleToRun;
-		private BE_IdleToWalk BeedrillIdleToWalk;
+		private BEParentDad_IdleToRun BeedrillParentDadIdleToRun;
+		private BEParentDad_IdleToWalk BeedrillParentDadIdleToWalk;
 
-		public void BE_IdleToController()
+		public void BEParentDad_IdleToController()
 		{
-			Load_BE_idleToRun();
-			Load_BE_idleToWalk();
+			Load_BEParentDad_idleToRun();
+			Load_BEParentDad_idleToWalk();
 		}
-		private void Load_BE_idleToRun()
+		private void Load_BEParentDad_idleToRun()
 		{
-			BeedrillIdleToRun.BE_IdleToRunController();
+			BeedrillParentDadIdleToRun.BEParentDad_IdleToRunController();
 		}
-		private void Load_BE_idleToWalk()
+		private void Load_BEParentDad_idleToWalk()
 		{
-			BeedrillIdleToWalk.BE_IdleToWalkController();
+			BeedrillParentDadIdleToWalk.BEParentDad_IdleToWalkController();
 		}
 	}
 }

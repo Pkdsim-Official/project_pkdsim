@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class HATParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking HattereneParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding HattereneParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private HATParentMom_SittingToStartWalking HattereneParentMomSittingToStartWalking;
+		private HATParentMom_SittingToStanding HattereneParentMomSittingToStanding;
+		public void HATParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			HATParentMom_SittingToStartWalking();
+			HATParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void HATParentMom_SittingToStartWalking()
 		{
-			HattereneParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			HattereneParentMomSittingToStartWalking.HATParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void HATParentMom_SittingToStanding()
 		{
-			HattereneParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			HattereneParentMomSittingToStanding.HATParentMom_SittingToStandingController();
 		}
 
 	}

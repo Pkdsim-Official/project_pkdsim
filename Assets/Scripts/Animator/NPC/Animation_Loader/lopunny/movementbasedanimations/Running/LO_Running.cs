@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.movementbasedanimations.Running
 {
 	public class LO_Running : MonoBehaviour 
 	{

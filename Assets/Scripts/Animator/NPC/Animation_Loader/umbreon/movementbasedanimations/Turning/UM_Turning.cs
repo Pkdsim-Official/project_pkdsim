@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Umbreon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Umbreon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Umbreon.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Umbreon.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Umbreon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Umbreon.movementbasedanimations.Turning
 {
 	public class UM_Turning : MonoBehaviour	
 	{

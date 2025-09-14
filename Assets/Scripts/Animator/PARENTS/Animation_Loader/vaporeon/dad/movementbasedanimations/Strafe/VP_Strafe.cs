@@ -1,25 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing
 {
-	public class VPParent_Strafing : MonoBehaviour 
+	public class VPParentDad_Strafing : MonoBehaviour 
 	{
-		VP_StrafeLeft VP_strafeleft;
-		VP_StrafeRight VP_straferight;
-		public void VPParent_StrafingController()
+		private VPParentDad_StrafeLeft VP_strafeleft;
+		private VPParentDad_StrafeRight VP_straferight;
+
+		public void VPParentDad_StrafingController()
 		{
-			VP_StrafeLeftController();
-			VP_StrafeRightController();
+			VPParentDad_StrafeLeftController();
+			VPParentDad_StrafeRightController();
 		}
-		private void VP_StrafeLeftController()
+		private void VPParentDad_StrafeLeftController()
 		{
-			VP_strafeleft.VP_StrafeLeftController();
+			VP_strafeleft.VPParentDad_StrafeLeftController();
 		}
-		private void VP_StrafeRightController()
+		private void VPParentDad_StrafeRightController()
 		{
-			VP_straferight.VP_StrafeRightController();
+			VP_straferight.VPParentDad_StrafeRightController();
 		}
 	}
 }

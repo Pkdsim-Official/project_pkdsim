@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation.IdleSittin
 {
 	public class DRIdleSitting : MonoBehaviour 
 	{
-		private Animator Dragapult_Animator;
+		private Animator DragapultParentDad_Animator;
 		public void DRIdleSittingController()
 		{
-			Dragapult_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Dragapult_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			DragapultParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			DragapultParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

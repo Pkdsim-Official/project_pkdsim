@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Jumping
 {
-	public class GLParent_Jumping : MonoBehaviour 
+	public class GLParentDad_Jumping : MonoBehaviour 
 	{
 
-		public void GLParent_JumpingController() 
+		public void GLParentDad_JumpingController() 
 		{
 			
 		}

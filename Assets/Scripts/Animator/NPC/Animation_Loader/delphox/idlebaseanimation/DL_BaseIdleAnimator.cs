@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Delphox.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Delphox.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.idlebaseanimation
 {
 	public class Delphox_IdleAnimatorController : MonoBehaviour 
 	{

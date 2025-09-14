@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Jumping
 {
 	public class SYL_Jumping : MonoBehaviour 
 	{

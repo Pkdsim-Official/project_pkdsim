@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class SYL_IdleToWalk : MonoBehaviour 
+	public class SYLParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void SYL_idleToWalkController() 
+		public void SYLParentDad_idleToWalkController() 
 		{
 			
 		}

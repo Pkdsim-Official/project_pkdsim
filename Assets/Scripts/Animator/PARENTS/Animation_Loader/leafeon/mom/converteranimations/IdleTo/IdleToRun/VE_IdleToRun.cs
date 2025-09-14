@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.IdleTo.IdleToRun
 {
-	public class VEParentMom_IdleToRun : MonoBehaviour 
+	public class LEParentMom_IdleToRun : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
-		public void VEParentMom_IdleToRunController()
+		private Animator LeafeonParentMom_Animator;
+		public void LEParentMom_IdleToRunController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("Idle_Sitting");  // Start in the Idle animation state
+			LeafeonParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			LeafeonParentMom_Animator.Play("Idle_Sitting");  // Start in the Idle animation state
 		}
 	}
 }

@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Primarina.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Primarina.Animator_I
 {
 	public class LFS_PrimarinaFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Primarina.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private PrimarinaCoverterAnimatorController LFSPrimarina_AnimatorCCA;
-		private Primarina_AnimatorBaseMovementController LFSPrimarina_AnimatorCMA;
+		private Primarina_MovementAnimatorController LFSPrimarina_AnimatorCMA;
 		private Primarina_IdleAnimatorController LFSPrimarina_AnimatorICA;
 
 

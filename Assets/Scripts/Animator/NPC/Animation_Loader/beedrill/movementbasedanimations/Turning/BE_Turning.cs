@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Beedrill.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Beedrill.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Beedrill.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Beedrill.movementbasedanimations.Turning
 {
 	public class BE_Turning : MonoBehaviour	
 	{

@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations
 {
-	public class Vaporeon_AnimatorBaseMovementController : MonoBehaviour 
+	public class Vaporeon_MovementAnimatorController : MonoBehaviour 
 	{
 		private VP_Jumping VP_MBA_Jumping;
 		

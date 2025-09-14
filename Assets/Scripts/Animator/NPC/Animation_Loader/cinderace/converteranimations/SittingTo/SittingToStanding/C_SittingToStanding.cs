@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.SittingTo.SittingToStanding
 {
 	public class C_SittingToStanding : MonoBehaviour 
 	{

@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Mom.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Mom.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Mom.movementbasedanimations.Turning
 {
-	public class VEParentMom_Turning : MonoBehaviour	
+	public class PRParentMom_Turning : MonoBehaviour	
 	{
-		private VEParentMom_TurnLeft VEParentMom_TurnLeft;
-		private VEParentMom_TurnRight VEParentMom_TurnRight;
+		private PRParentMom_TurnLeft PRParentMom_TurnLeft;
+		private PRParentMom_TurnRight PRParentMom_TurnRight;
 
-		public void VEParentMom_TurningController()
+		public void PRParentMom_TurningController()
 		{
-			if (VEParentMom_TurnLeft != null)
+			if (PRParentMom_TurnLeft != null)
 			{
 				
-				Load_VeParentMom_TurnLeft();
+				Load_PRParentMom_TurnLeft();
 			}
 
-			if (VEParentMom_TurnRight != null)
+			if (PRParentMom_TurnRight != null)
 			{
-				Load_VeParentMom_TurnRight();
+				Load_PRParentMom_TurnRight();
 			}
 			
 		}
-		private void Load_VeParentMom_TurnRight()
+		private void Load_PRParentMom_TurnRight()
 		{
-			VEParentMom_TurnRight.VEParentMom_TurnRightController();
+			PRParentMom_TurnRight.PRParentMom_TurnRightController();
 		}
 		
-		private void Load_VeParentMom_TurnLeft()
+		private void Load_PRParentMom_TurnLeft()
 		{
-			VEParentMom_TurnLeft.VEParentMom_TurnLeftController();
+			PRParentMom_TurnLeft.PRParentMom_TurnLeftController();
 		}
 	}
 }

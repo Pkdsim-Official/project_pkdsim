@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Garchomp.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Garchomp.movementbasedanimations.Jumping
 {
 	public class GARC_Jumping : MonoBehaviour 
 	{

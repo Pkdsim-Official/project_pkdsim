@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.movementbasedanimations.Running
 {
 	public class HAT_Running : MonoBehaviour 
 	{

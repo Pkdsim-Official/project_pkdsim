@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations
 {
-	public class NoivernParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class NoivernParentDad_MovementAnimatorController : MonoBehaviour
 	{
-		private NOIParent_Jumping Noivern_MBA_Jumping;
-		
-		private NOIParent_Running Noivern_MBA_Running;
+		private NOIParentDad_Jumping Noivern_MBA_Jumping;
+
+		private NOIParentDad_Running Noivern_MBA_Running;
 
 
-		private NOIParent_Turning Noivern_MBA_Turning;
+		private NOIParentDad_Turning Noivern_MBA_Turning;
 
-		private NOIParent_Strafing Noivern_MBA_Strafe;
+		private NOIParentDad_Strafing Noivern_MBA_Strafe;
 
-		public void NOIMovementAnimatorController()
+		public void NOIParentDad_MovementAnimatorController()
 		{
-			Noivern_MBA_Running.NOIParent_RunningController();
+			Noivern_MBA_Running.NOIParentDad_RunningController();
 
-			Noivern_MBA_Jumping.NOIParent_JumpingController();
+			Noivern_MBA_Jumping.NOIParentDad_JumpingController();
 
-			Noivern_MBA_Turning.NOIParent_TurningController();	
+			Noivern_MBA_Turning.NOIParentDad_TurningController();
 
-			Noivern_MBA_Strafe.NOIParent_StrafingController();
+			Noivern_MBA_Strafe.NOIParentDad_StrafingController();
 		}
 	}
 }

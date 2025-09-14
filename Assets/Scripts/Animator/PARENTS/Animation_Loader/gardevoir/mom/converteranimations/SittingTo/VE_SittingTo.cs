@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class GARDParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking GardevoirParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding GardevoirParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private GARDParentMom_SittingToStartWalking GardevoirParentMomSittingToStartWalking;
+		private GARDParentMom_SittingToStanding GardevoirParentMomSittingToStanding;
+		public void GARDParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			GARDParentMom_SittingToStartWalking();
+			GARDParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void GARDParentMom_SittingToStartWalking()
 		{
-			GardevoirParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			GardevoirParentMomSittingToStartWalking.GARDParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void GARDParentMom_SittingToStanding()
 		{
-			GardevoirParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			GardevoirParentMomSittingToStanding.GARDParentMom_SittingToStandingController();
 		}
 
 	}

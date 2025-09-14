@@ -1,25 +1,24 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.IdleTo;
-
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.IdleTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations
 {
-	public class Flareon_AnimatorConverterController : MonoBehaviour 
+	public class FlareonParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private FL_IdleTo Flareon_idleto;
+		private FLParentDadDad_IdleTo FlareonParentDadIdleto;
 		
-		private FL_WalkingTo Flareon_walkingto;
+		private FLParentDadDad_WalkingTo FlareonParentDadWalkingto;
 
-		private FL_SittingTo Flareon_sittingto;
-		private void Flareon_Base_IdleAnimatorController()
+		private FLParentDadDad_SittingTo FlareonParentDadSittingto;
+		public void FLParentDadDad_ConverterAnimatorController()
 		{
-			Flareon_walkingto.FL_WalkingToController();
+			FlareonParentDadWalkingto.FLParentDadDad_WalkingToController();
 
-			Flareon_idleto.FL_IdleToController();
+			FlareonParentDadIdleto.FLParentDadDad_IdleToController();
 			
-			Flareon_sittingto.FL_SittingToController();
+			FlareonParentDadSittingto.FLParentDadDad_SittingToController();
 		}
 	}
 }

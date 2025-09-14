@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class T_WalkingToStanding : MonoBehaviour 
 	{

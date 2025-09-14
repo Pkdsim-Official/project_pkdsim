@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.idlebaseanimation.IdleSitting
 {
 	public class LO_IdleSitting : MonoBehaviour 
 	{

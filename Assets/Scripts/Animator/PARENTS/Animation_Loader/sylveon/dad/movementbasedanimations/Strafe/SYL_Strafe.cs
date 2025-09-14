@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Strafing
 {
-	public class SYLParent_Strafing : MonoBehaviour 
+	public class SYLParentDad_Strafing : MonoBehaviour 
 	{
-		public void SYLParent_StrafingController() 
+		public void SYLParentDad_StrafingController() 
 		{
 			
 		}

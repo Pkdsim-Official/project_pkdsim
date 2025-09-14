@@ -1,37 +1,33 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_LeafeonFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
-		public RuntimeAnimatorController someController;
+		private LeafeonParentMom_ConverterAnimatorController LFSLeafeon_AnimatorCCA;
+		private LeafeonParentMom_MovementAnimatorController LFSLeafeon_AnimatorCMA;
+		private LeafeonParentMom_IdleAnimatorController LFSLeafeon_AnimatorICA;
 
-		private LeafeonParentMom_ConverterAnimatorController LFSLeafoeon_AnimatorCCA;
-		private LeafeonParentMom_AnimatorBaseMovementController LFSLeafoeon_AnimatorCMA;
-		private LeafeonParentMom_IdleAnimatorController LFSLeafoeon_AnimatorICA;
-
-
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeLeafeon_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeLeafeon_ConvertToAnimatorController();
+			LoadFailSafeLeafeon_MovementAnimatorController();
+			LoadFailSafeLeafeon_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeLeafeon_ConvertToAnimatorController()
 		{
-			LFSLeafoeon_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSLeafeon_AnimatorCCA.LEParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeLeafeon_MovementAnimatorController()
 		{
-			LFSLeafoeon_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSLeafeon_AnimatorCMA.LEParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeLeafeon_IdleAnimatorController()
 		{
-			LFSLeafoeon_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSLeafeon_AnimatorICA.LEParentMom_IdleAnimatorController();
 		}
 	}
 }

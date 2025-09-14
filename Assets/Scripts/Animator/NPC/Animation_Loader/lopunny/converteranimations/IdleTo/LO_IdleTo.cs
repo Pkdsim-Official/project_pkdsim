@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations.IdleTo
 {
 	public class LO_IdleTo : MonoBehaviour 
 	{

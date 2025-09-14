@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class PHSittingToStanding : MonoBehaviour 
+	public class PHParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void PHSittingToStandingController()
+		public void PHParentDad_SittingToStandingController()
 		{
 			
 		}

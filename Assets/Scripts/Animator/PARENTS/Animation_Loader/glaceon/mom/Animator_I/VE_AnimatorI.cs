@@ -1,21 +1,21 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.Animator_I
 {
 	public class LFS_VespiquenFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator GlaceonParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private GlaceonParentMom_ConverterAnimatorController LFSGlaceon_AnimatorCCA;
-		private GlaceonParentMom_AnimatorBaseMovementController LFSGlaceon_AnimatorCMA;
+		private GlaceonParentMom_MovementAnimatorController LFSGlaceon_AnimatorCMA;
 		private GlaceonParentMom_IdleAnimatorController LFSGlaceon_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeGlaceon_AnimatorController()
 		{
 			LoadFailSafeVespiquen_ConvertToAnimatorController();
 			LoadFailSafeVespiquen_MovementAnimatorController();
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSGlaceon_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSGlaceon_AnimatorCCA.GLParentMom_ConverterAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{
-			LFSGlaceon_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSGlaceon_AnimatorCMA.GLParentMom_MovementAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_IdleAnimatorController()
 		{
-			LFSGlaceon_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSGlaceon_AnimatorICA.GLParentMom_IdleAnimatorController();
 		}
 	}
 }

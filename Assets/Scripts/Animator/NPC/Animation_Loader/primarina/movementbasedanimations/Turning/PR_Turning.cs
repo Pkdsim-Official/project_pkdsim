@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Turning
 {
 	public class PR_Turning : MonoBehaviour	
 	{

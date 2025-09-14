@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Turning
 {
 	public class LE_Turning : MonoBehaviour	
 	{

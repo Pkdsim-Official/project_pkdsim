@@ -1,17 +1,17 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Absol.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.Animator_I
 {
 	public class LFS_AbsolFailSafe : MonoBehaviour 
 	{
-		public Animator Absol_Animator;
+		public Animator AbsolParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private AbsolConverterAnimatorController LFSAbsol_AnimatorCCA;
-		private AbsolParent_AnimatorBaseMovementController LFSAbsol_AnimatorCMA;
+		private AbsolParentDad_MovementAnimatorController LFSAbsol_AnimatorCMA;
 		private Absol_IdleAnimatorController LFSAbsol_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Absol.Animator_I
 		}
 		private void LoadFailSafeAbsol_ConvertToAnimatorController()
 		{
-			LFSAbsol_AnimatorCCA.ABConverterToAnimatorController();
+			LFSAbsol_AnimatorCCA.ABConverterAnimatorController();
 		}
 		private void LoadFailSafeAbsol_MovementAnimatorController()
 		{

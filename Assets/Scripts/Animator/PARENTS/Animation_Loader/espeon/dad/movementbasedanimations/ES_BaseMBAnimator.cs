@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations
 {
-	public class EspeonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class EspeonParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private ESParent_Jumping ES_MBA_Jumping;
 		

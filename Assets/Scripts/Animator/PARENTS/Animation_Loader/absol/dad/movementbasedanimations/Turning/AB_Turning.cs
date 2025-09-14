@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning
 {
 	public class ABParent_Turning : MonoBehaviour	
 	{

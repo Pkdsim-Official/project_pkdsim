@@ -1,17 +1,17 @@
 using project_pkdsim.ANIMATOR.Parents.Delphox.idlebaseanimation;
 using project_pkdsim.ANIMATOR.Parents.Delphox.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Delphox.Animator_I
 {
 	public class LFS_DelphoxFailSafe : MonoBehaviour 
 	{
-		public Animator Delphox_Animator;
+		public Animator DelphoxParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private DelphoxConverterAnimatorController LFSDelphox_AnimatorCCA;
-		private DelphoxParent_AnimatorBaseMovementController LFSDelphox_AnimatorCMA;
+		private DelphoxParentDad_MovementAnimatorController LFSDelphox_AnimatorCMA;
 		private Delphox_IdleAnimatorController LFSDelphox_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Delphox.Animator_I
 		}
 		private void LoadFailSafeDelphox_ConvertToAnimatorController()
 		{
-			LFSDelphox_AnimatorCCA.DLConverterToAnimatorController();
+			LFSDelphox_AnimatorCCA.DLConverterAnimatorController();
 		}
 		private void LoadFailSafeDelphox_MovementAnimatorController()
 		{

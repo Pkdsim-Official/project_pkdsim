@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.SittingTo
 {
-	public class SYL_SittingTo : MonoBehaviour 
+	public class SYLParentDad_SittingTo : MonoBehaviour 
 	{
-		private SYL_SittingToStartWalking Sylveon_SittingToStartWalking;
-		private SYL_SittingToStanding Sylveon_SittingToStanding;
-		public void SYL_SittingToController()
+		private SYLParentDad_SittingToStartWalking SylveonParentDadSittingToStartWalking;
+		private SYLParentDad_SittingToStanding SylveonParentDadSittingToStanding;
+		public void SYLParentDad_SittingToController()
 		{
-			Load_SYL_SittingToStartWalking();
-			Load_SYL_SittingToStanding();
+			Load_SYLParentDad_SittingToStartWalking();
+			Load_SYLParentDad_SittingToStanding();
 		}
-		private void Load_SYL_SittingToStartWalking()
+		private void Load_SYLParentDad_SittingToStartWalking()
 		{
-			Sylveon_SittingToStartWalking.SYL_SittingToStartWalkingController();
+			SylveonParentDadSittingToStartWalking.SYLParentDad_SittingToStartWalkingController();
 		}
-		private void Load_SYL_SittingToStanding()
+		private void Load_SYLParentDad_SittingToStanding()
 		{
-			Sylveon_SittingToStanding.SYL_SittingToStandingController();
+			SylveonParentDadSittingToStanding.SYLParentDad_SittingToStandingController();
 		}
 	}
 }

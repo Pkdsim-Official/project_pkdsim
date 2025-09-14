@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_BeedrillFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator BeedrillParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private BeedrillParentMom_ConverterAnimatorController LFSBeedrill_AnimatorCCA;
-		private BeedrillParentMom_AnimatorBaseMovementController LFSBeedrill_AnimatorCMA;
+		private BeedrillParentMom_MovementAnimatorController LFSBeedrill_AnimatorCMA;
 		private BeedrillParentMom_IdleAnimatorController LFSBeedrill_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeBeedrill_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeBeedrill_ConvertToAnimatorController();
+			LoadFailSafeBeedrill_MovementAnimatorController();
+			LoadFailSafeBeedrill_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeBeedrill_ConvertToAnimatorController()
 		{
-			LFSBeedrill_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSBeedrill_AnimatorCCA.BEParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeBeedrill_MovementAnimatorController()
 		{
-			LFSBeedrill_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSBeedrill_AnimatorCMA.BEParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeBeedrill_IdleAnimatorController()
 		{
-			LFSBeedrill_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSBeedrill_AnimatorICA.BEParentMom_IdleAnimatorController();
 		}
 	}
 }

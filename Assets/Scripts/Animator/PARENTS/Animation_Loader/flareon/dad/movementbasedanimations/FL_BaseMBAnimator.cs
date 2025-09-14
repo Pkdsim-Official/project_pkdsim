@@ -1,30 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations
 {
-	public class FlareonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class FlareonParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private FLParent_Jumping FL_MBA_Jumping;
+		private FLParentDad_Jumping FL_MBA_Jumping;
 		
-		private FLParent_Running FL_MBA_Running;
+		private FLParentDad_Running FL_MBA_Running;
 
-		private FLParent_Turning FL_MBA_Turning;
+		private FLParentDad_Turning FL_MBA_Turning;
 
-		private FLParent_Strafing FL_MBA_Strafe;
+		private FLParentDad_Strafing FL_MBA_Strafe;
 
-		private void FL_Base_IdleAnimatorController()
+		public void FLParentDad_MovementAnimatorController()
 		{
-			FL_MBA_Running.FLParent_RunningController();
+			FL_MBA_Running.FLParentDad_RunningController();
 
-			FL_MBA_Jumping.FLParent_JumpingController();
+			FL_MBA_Jumping.FLParentDad_JumpingController();
 
-			FL_MBA_Turning.FLParent_TurningController();	
+			FL_MBA_Turning.FLParentDad_TurningController();	
 
-			FL_MBA_Strafe.FLParent_StrafingController();
+			FL_MBA_Strafe.FLParentDad_StrafingController();
 		}
 	}
 }

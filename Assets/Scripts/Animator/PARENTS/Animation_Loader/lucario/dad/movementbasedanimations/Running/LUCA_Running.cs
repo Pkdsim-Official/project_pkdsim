@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Running
 {
-	public class LUCAParent_Running : MonoBehaviour 
+	public class LUCAParentDad_Running : MonoBehaviour 
 	{
-		public void LUCAParent_RunningController() 
+		public void LUCAParentDad_RunningController() 
 		{
 			
 		}

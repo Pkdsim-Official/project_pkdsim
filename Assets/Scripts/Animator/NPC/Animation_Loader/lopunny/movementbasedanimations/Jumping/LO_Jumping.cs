@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.movementbasedanimations.Jumping
 {
 	public class LO_Jumping : MonoBehaviour 
 	{

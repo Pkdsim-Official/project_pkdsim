@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.IdleTo
 {
 	public class FL_IdleTo : MonoBehaviour 
 	{

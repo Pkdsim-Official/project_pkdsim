@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations.SittingTo
 {
-	public class BE_SittingTo : MonoBehaviour 
+	public class BEParentDad_SittingTo : MonoBehaviour 
 	{
-		private BE_SittingToStartWalking BeedrillSittingToStartWalking;
-		private BE_SittingToStanding BeedrillSittingToStanding;
-		public void BE_SittingToController()
+		private BEParentDad_SittingToStartWalking BeedrillSittingToStartWalking;
+		private BEParentDad_SittingToStanding BeedrillSittingToStanding;
+		public void BEParentDad_SittingToController()
 		{
-			BE_SittingToStartWalking();
-			BE_SittingToStanding();
+			BEParentDad_SittingToStartWalking();
+			BEParentDad_SittingToStanding();
 		}
-		private void BE_SittingToStartWalking()
+		private void BEParentDad_SittingToStartWalking()
 		{
-			BeedrillSittingToStartWalking.BE_SittingToStartWalkingController();
+			BeedrillSittingToStartWalking.BEParentDad_SittingToStartWalkingController();
 		}
-		private void BE_SittingToStanding()
+		private void BEParentDad_SittingToStanding()
 		{
-			BeedrillSittingToStanding.BE_SittingToStandingController();
+			BeedrillSittingToStanding.BEParentDad_SittingToStandingController();
 		}
 	}
 }

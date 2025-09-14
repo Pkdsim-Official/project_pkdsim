@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Noivern.movementbasedanimations.Jumping
 {
 	public class NOI_Jumping : MonoBehaviour 
 	{

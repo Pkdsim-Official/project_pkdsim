@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Strafing
 {
 	public class SYL_Strafing : MonoBehaviour 
 	{

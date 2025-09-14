@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Turning
 {
-	public class VEParentMom_Turning : MonoBehaviour	
+	public class LUNAParentMom_Turning : MonoBehaviour	
 	{
-		private VEParentMom_TurnLeft VEParentMom_TurnLeft;
-		private VEParentMom_TurnRight VEParentMom_TurnRight;
+		private LUNAParentMom_TurnLeft LUNAParentMom_TurnLeft;
+		private LUNAParentMom_TurnRight LUNAParentMom_TurnRight;
 
-		public void VEParentMom_TurningController()
+		public void LUNAParentMom_TurningController()
 		{
-			if (VEParentMom_TurnLeft != null)
+			if (LUNAParentMom_TurnLeft != null)
 			{
 				
-				Load_VeParentMom_TurnLeft();
+				Load_LUNAParentMom_TurnLeft();
 			}
 
-			if (VEParentMom_TurnRight != null)
+			if (LUNAParentMom_TurnRight != null)
 			{
-				Load_VeParentMom_TurnRight();
+				Load_LUNAParentMom_TurnRight();
 			}
 			
 		}
-		private void Load_VeParentMom_TurnRight()
+		private void Load_LUNAParentMom_TurnRight()
 		{
-			VEParentMom_TurnRight.VEParentMom_TurnRightController();
+			LUNAParentMom_TurnRight.LUNAParentMom_TurnRightController();
 		}
 		
-		private void Load_VeParentMom_TurnLeft()
+		private void Load_LUNAParentMom_TurnLeft()
 		{
-			VEParentMom_TurnLeft.VEParentMom_TurnLeftController();
+			LUNAParentMom_TurnLeft.LUNAParentMom_TurnLeftController();
 		}
 	}
 }

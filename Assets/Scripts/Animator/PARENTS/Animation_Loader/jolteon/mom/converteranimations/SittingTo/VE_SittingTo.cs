@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class JTParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking JolteonParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding JolteonParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private JTParentMom_SittingToStartWalking JolteonParentMomSittingToStartWalking;
+		private JTParentMom_SittingToStanding JolteonParentMomSittingToStanding;
+		public void JTParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			JTParentMom_SittingToStartWalking();
+			JTParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void JTParentMom_SittingToStartWalking()
 		{
-			JolteonParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			JolteonParentMomSittingToStartWalking.JTParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void JTParentMom_SittingToStanding()
 		{
-			JolteonParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			JolteonParentMomSittingToStanding.JTParentMom_SittingToStandingController();
 		}
 
 	}

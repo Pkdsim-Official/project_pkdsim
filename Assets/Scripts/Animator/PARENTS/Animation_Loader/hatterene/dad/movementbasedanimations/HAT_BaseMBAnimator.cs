@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations
 {
-	public class HattereneParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class HattereneParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private HATParent_Jumping Hatterene_MBA_Jumping;
+		private HATParentDad_Jumping HAT_MBA_Jumping;
 		
-		private HATParent_Running Hatterene_MBA_Running;
+		private HATParentDad_Running HAT_MBA_Running;
 
 
-		private HATParent_Turning Hatterene_MBA_Turning;
+		private HATParentDad_Turning HAT_MBA_Turning;
 
-		private HATParent_Strafing Hatterene_MBA_Strafe;
+		private HATParentDad_Strafing HAT_MBA_Strafe;
 
-		public void HATMovementAnimatorController()
+		public void HATParentDad_MovementAnimatorController()
 		{
-			Hatterene_MBA_Running.HATParent_RunningController();
+			HAT_MBA_Running.HATParentDad_RunningController();
 
-			Hatterene_MBA_Jumping.HATParent_JumpingController();
+			HAT_MBA_Jumping.HATParentDad_JumpingController();
 
-			Hatterene_MBA_Turning.HATParent_TurningController();	
+			HAT_MBA_Turning.HATParentDad_TurningController();	
 
-			Hatterene_MBA_Strafe.HATParent_StrafingController();
+			HAT_MBA_Strafe.HATParentDad_StrafingController();
 		}
 	}
 }

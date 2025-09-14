@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Strafing.StrafeLeft
 {
-	public class UM_StrafeLeft : MonoBehaviour 
+	public class UMParentDad_StrafeLeft : MonoBehaviour 
 	{
-		public void UM_StrafeLeftController()
+		public void UMParentDad_StrafeLeftController()
 		{
 
 		}

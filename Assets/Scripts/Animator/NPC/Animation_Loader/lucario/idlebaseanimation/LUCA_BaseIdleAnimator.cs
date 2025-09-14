@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Lucario.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Lucario.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lucario.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Lucario.idlebaseanimation
 {
 	public class Lucario_IdleAnimatorController : MonoBehaviour 
 	{

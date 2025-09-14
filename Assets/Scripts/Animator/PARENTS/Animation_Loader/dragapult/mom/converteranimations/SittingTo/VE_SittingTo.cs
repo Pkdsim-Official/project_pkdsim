@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class DRParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking DragapultParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding DragapultParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private DRParentMom_SittingToStartWalking DragapultParentMomSittingToStartWalking;
+		private DRParentMom_SittingToStanding DragapultParentMomSittingToStanding;
+		public void DRParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			DRParentMom_SittingToStartWalking();
+			DRParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void DRParentMom_SittingToStartWalking()
 		{
-			DragapultParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			DragapultParentMomSittingToStartWalking.DRParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void DRParentMom_SittingToStanding()
 		{
-			DragapultParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			DragapultParentMomSittingToStanding.DRParentMom_SittingToStandingController();
 		}
 
 	}

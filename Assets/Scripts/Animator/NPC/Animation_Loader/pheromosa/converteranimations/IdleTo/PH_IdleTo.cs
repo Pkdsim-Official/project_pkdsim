@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Pheromosa.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Pheromosa.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Pheromosa.converteranimations.IdleTo
 {
 	public class PH_IdleTo : MonoBehaviour 
 	{

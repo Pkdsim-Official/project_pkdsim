@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Beedrill.converteranimations.SittingTo.SittingToStanding
 {
 	public class BE_SittingToStanding : MonoBehaviour 
 	{

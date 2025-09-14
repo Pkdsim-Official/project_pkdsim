@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations;
-using project_pkdsim.ANIMATOR.NPC.Glaceon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Glaceon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Glaceon.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Glaceon.Animator_I
 {
 	public class GL_AnimatorI : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Glaceon_AnimatorControllerCoverterAnimator Glaceon_AnimatorCCA;
-		private Glaceon_AnimatorBaseMovementController Glaceon_AnimatorCMA;
+		private Glaceon_MovementAnimatorController Glaceon_AnimatorCMA;
 		private Glaceon_AnimatorIdleController Glaceon_AnimatorICA;
 
 

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.SittingTo
 {
 	public class GL_SittingTo : MonoBehaviour 
 	{

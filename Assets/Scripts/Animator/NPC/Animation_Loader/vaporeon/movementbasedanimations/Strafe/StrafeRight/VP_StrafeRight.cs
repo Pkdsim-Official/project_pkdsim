@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations.Strafing.StrafeRight
 {
 	public class VP_StrafeRight : MonoBehaviour
 	{

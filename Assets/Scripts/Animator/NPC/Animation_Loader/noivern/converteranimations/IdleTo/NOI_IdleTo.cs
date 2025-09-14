@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.IdleTo
 {
 	public class NOI_IdleTo : MonoBehaviour 
 	{

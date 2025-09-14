@@ -1,20 +1,25 @@
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.SittingTo
 {
-	public class JT_SittingTo : MonoBehaviour 
+	public class JTParentDad_SittingTo : MonoBehaviour 
 	{
-		public void JT_SittingToController()
+		private JTParentDad_SittingToStartWalking JTParentDadsittingToStartWalking;
+		private JTParentDad_SittingToStanding JTParentDadsittingToStanding;
+		public void JTParentDad_SittingToController()
 		{
-			
+			JTParentDad_SittingToStartWalking();
+			JTParentDad_SittingToStanding();
 		}
-		private void Load_JT_SittingToStartWalking()
+		private void JTParentDad_SittingToStartWalking()
 		{
-			
+			JTParentDadsittingToStartWalking.JTParentDad_SittingToStartWalkingController();
 		}
-		private void Load_JT_SittingToStanding()
+		private void JTParentDad_SittingToStanding()
 		{
-			
+			JTParentDadsittingToStanding.JTParentDad_SittingToStandingController();
 		}
 	}
 }

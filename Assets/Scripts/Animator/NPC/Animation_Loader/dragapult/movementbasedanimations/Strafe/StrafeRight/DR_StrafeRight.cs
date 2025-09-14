@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.movementbasedanimations.Strafing.StrafeRight
 {
 	public class DR_StrafeRight : MonoBehaviour
 	{

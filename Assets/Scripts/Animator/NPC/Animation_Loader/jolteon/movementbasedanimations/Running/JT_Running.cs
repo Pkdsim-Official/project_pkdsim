@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Jolteon.movementbasedanimations.Running
 {
 	public class JT_Running : MonoBehaviour 
 	{

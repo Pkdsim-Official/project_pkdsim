@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Vaporeon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations;
-using project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Vaporeon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Vaporeon.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Vaporeon.Animator_I
 {
 	public class VAPOR_AnimatorI : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Vaporeon_CoverterAnimatorController Vaporeon_AnimatorCCA;
-		private Vaporeon_AnimatorBaseMovementController Vaporeon_AnimatorCMA;
+		private Vaporeon_MovementAnimatorController Vaporeon_AnimatorCMA;
 		private Vaporeon_IdleAnimatorController Vaporeon_AnimatorICA;
 		
 		private void Vaporeon_AnimatorController()

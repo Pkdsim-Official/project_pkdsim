@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations
 {
 	public class Lopunny_CoverterAnimatorController : MonoBehaviour 
 	{

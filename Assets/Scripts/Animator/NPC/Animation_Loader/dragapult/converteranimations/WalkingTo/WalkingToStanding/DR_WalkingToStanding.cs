@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class DR_WalkingToStanding : MonoBehaviour 
 	{

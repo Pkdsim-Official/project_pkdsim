@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.IdleTo
 {
-	public class HATIdleTo : MonoBehaviour 
+	public class HATParentDad_IdleTo : MonoBehaviour 
 	{
 		
-		private HATIdleToRun HattereneIdleToRun;
-		private HATIdleToWalk HattereneIdleToWalk;
-		public void HAT_IdleToController()
+		private HATParentDad_IdleToRun HattereneIdleToRun;
+		private HATParentDad_IdleToWalk HattereneIdleToWalk;
+		public void HATParentDad_IdleToController()
 		{
-			Load_HATidleToRun();
-			Load_HATidleToWalk();
+			Load_HATParentDad_idleToRun();
+			Load_HATParentDad_idleToWalk();
 		}
-		private void Load_HATidleToRun()
+		private void Load_HATParentDad_idleToRun()
 		{
-			HattereneIdleToRun.HATIdleToRunController();
+			HattereneIdleToRun.HATParentDad_IdleToRunController();
 		}
-		private void Load_HATidleToWalk()
+		private void Load_HATParentDad_idleToWalk()
 		{
-			HattereneIdleToWalk.HATIdleToWalkController();
+			HattereneIdleToWalk.HATParentDad_IdleToWalkController();
 		}
 	}
 }

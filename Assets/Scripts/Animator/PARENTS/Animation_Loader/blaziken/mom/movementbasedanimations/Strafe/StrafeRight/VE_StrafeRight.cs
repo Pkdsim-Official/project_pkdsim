@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.movementbasedanimations.Strafing.StrafeRight
 {
-	public class VEParentMom_StrafeRight : MonoBehaviour
+	public class BLParentMom_StrafeRight : MonoBehaviour
 	{
-		public void VEParentMom_StrafeRightController() 
+		public void BLParentMom_StrafeRightController() 
 		{
 			
 		}

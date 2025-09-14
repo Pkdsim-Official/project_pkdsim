@@ -10,7 +10,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation
 		
 		private VEParentMom_IdleSitting VEParentMom_Idlesitting;
 		
-		public void	VE_IdleAnimatorController()
+		public void	VEParentMom_IdleAnimatorController()
 		{
 			VEParentMom_IdleStandingAnimatorController();
 			VEParentMom_IdleSittingAnimatorController();

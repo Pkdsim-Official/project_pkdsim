@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class FL_SittingToStanding : MonoBehaviour 
-	{
+	public class FLParentDadDad_SittingToStanding : MonoBehaviour
+	{	
+		public void FLParentDadDad_SittingToStandingController()
+		{
 
+		}
 	}
 }

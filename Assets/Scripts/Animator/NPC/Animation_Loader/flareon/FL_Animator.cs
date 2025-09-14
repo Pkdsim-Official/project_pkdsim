@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon
 {
 	public class FL_Animator : MonoBehaviour 
 	{

@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations
 		
 		private LUNAIdleTo Lunalaidleto;
 
-		public void LUNAConverterToAnimatorController()
+		public void LUNAConverterAnimatorController()
 		{
 			Lunalawalkingto.LUNAWalkingToController();
 

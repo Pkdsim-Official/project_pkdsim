@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Zoroark.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class Z_WalkingToSitting : MonoBehaviour 
 	{

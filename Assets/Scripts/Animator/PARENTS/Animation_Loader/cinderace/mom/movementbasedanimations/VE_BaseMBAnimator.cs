@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Mom.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Mom.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Mom.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Mom.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Mom.movementbasedanimations
 {
-	public class CinderaceParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class CinderaceParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_Jumping VE_MBA_Jumping;
+		private CParentMom_Jumping C_MBA_Jumping;
 		
-		private VEParentMom_Running VE_MBA_Running;
+		private CParentMom_Running C_MBA_Running;
 
 
-		private VEParentMom_Turning VE_MBA_Turning;
+		private CParentMom_Turning C_MBA_Turning;
 
-		private VEParentMom_Strafing VE_MBA_Strafe;
+		private CParentMom_Strafing C_MBA_Strafe;
 
-		public void VEMovementAnimatorController()
+		public void CParentMom_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParentMom_RunningController();
+			C_MBA_Running.CParentMom_RunningController();
 
-			VE_MBA_Jumping.VEParentMom_JumpingController();
+			C_MBA_Jumping.CParentMom_JumpingController();
 
-			VE_MBA_Turning.VEParentMom_TurningController();	
+			C_MBA_Turning.CParentMom_TurningController();	
 
-			VE_MBA_Strafe.VEParentMom_StrafingController();
+			C_MBA_Strafe.CParentMom_StrafingController();
 		}
 	}
 }

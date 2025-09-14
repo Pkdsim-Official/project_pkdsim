@@ -1,21 +1,25 @@
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.SittingTo
 {
-	public class GL_SittingTo : MonoBehaviour 
+	public class GLParentDad_SittingTo : MonoBehaviour 
 	{
-		public void GL_SittingToController()
+		private GLParentDad_SittingToStartWalking GlaceonParentDadsittingToStartWalking;
+		private GLParentDad_SittingToStanding GlaceonParentDadsittingToStanding;
+		public void GLParentDad_SittingToController()
 		{
-			// Load_GL_SittingToStanding();
-			// Load_GL_SittingToWSitting();
+			GLParentDad_SittingToStartWalking();
+			GLParentDad_SittingToStanding();
 		}
-		private void Load_GL_SittingToStanding()
+		private void GLParentDad_SittingToStartWalking()
 		{
-			
+			GlaceonParentDadsittingToStartWalking.GLParentDad_SittingToStartWalkingController();
 		}
-		private void Load_GL_SittingToWSitting()
+		private void GLParentDad_SittingToStanding()
 		{
-			
+			GlaceonParentDadsittingToStanding.GLParentDad_SittingToStandingController();
 		}
 	}
 }

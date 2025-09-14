@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.IdleTo
 {
-	public class VEParentMom_IdleTo : MonoBehaviour 
+	public class FLParentMom_IdleTo : MonoBehaviour 
 	{
-		private VEParentMom_IdleToRun FlareonParentMomIdleToRun;
-		private VEParentMom_IdleToWalk FlareonParentMomIdleToWalk;
+		private FLParentMom_IdleToRun FlareonParentMomIdleToRun;
+		private FLParentMom_IdleToWalk FlareonParentMomIdleToWalk;
 
-		public void VEParentMom_IdleToController()
+		public void FLParentMom_IdleToController()
 		{
-			Load_VEParentMom_idleToRun();
-			Load_VEParentMom_idleToWalk();
+			Load_FLParentMom_idleToRun();
+			Load_FLParentMom_idleToWalk();
 		}
-		private void Load_VEParentMom_idleToRun()
+		private void Load_FLParentMom_idleToRun()
 		{
-			FlareonParentMomIdleToRun.VEParentMom_IdleToRunController();
+			FlareonParentMomIdleToRun.FLParentMom_IdleToRunController();
 		}
-		private void Load_VEParentMom_idleToWalk()
+		private void Load_FLParentMom_idleToWalk()
 		{
-			FlareonParentMomIdleToWalk.VEParentMom_IdleToWalkController();
+			FlareonParentMomIdleToWalk.FLParentMom_IdleToWalkController();
 		}
 	}
 }

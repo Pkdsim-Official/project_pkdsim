@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class BR_IdleToRun : MonoBehaviour 
+	public class BRParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void BR_IdleToRunController()
+		public void BRParentDad_IdleToRunController()
 		{
 			
 		}

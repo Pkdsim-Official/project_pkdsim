@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Meowscarada.idlebaseanimation
 {
 	public class Meowscarada_IdleAnimatorController : MonoBehaviour 
 	{

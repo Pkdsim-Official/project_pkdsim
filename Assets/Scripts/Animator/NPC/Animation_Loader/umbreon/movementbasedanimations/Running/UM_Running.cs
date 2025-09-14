@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Umbreon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Umbreon.movementbasedanimations.Running
 {
 	public class UM_Running : MonoBehaviour 
 	{

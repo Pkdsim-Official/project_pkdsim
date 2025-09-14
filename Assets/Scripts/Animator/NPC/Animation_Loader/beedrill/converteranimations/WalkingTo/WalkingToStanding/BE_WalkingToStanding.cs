@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Beedrill.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class BE_WalkingToStanding : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Strafing.StrafeRight
 {
 	public class DL_StrafeRight : MonoBehaviour
 	{

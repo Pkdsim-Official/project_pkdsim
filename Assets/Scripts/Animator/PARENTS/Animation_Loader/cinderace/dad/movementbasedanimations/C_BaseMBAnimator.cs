@@ -4,9 +4,9 @@ using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing
 using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.movementbasedanimations
 {
-	public class CinderaceParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class CinderaceParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private ParentDad_Jumping C_MBA_Jumping;
 		

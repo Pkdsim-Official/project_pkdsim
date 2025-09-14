@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.idlebaseanimation.IdleSittin
 {
 	public class GARDIdleSitting : MonoBehaviour 
 	{
-		private Animator Gardevoir_Animator;
+		private Animator GardevoirParentDad_Animator;
 		public void GARDIdleSittingController()
 		{
-			Gardevoir_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Gardevoir_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			GardevoirParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			GardevoirParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

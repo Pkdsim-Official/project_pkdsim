@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations
 {
-	public class MeowscaradaParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class MeowscaradaParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private MEOWParent_Jumping Meowscarada_MBA_Jumping;
 		

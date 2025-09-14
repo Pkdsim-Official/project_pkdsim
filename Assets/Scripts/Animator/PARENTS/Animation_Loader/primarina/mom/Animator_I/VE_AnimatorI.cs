@@ -1,21 +1,21 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Mom.Animator_I
 {
 	public class LFS_VespiquenFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator PrimarinaParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private PrimarinaParentMom_ConverterAnimatorController LFSPrimarina_AnimatorCCA;
-		private PrimarinaParentMom_AnimatorBaseMovementController LFSPrimarina_AnimatorCMA;
+		private PrimarinaParentMom_MovementAnimatorController LFSPrimarina_AnimatorCMA;
 		private PrimarinaParentMom_IdleAnimatorController LFSPrimarina_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafePrimarina_AnimatorController()
 		{
 			LoadFailSafeVespiquen_ConvertToAnimatorController();
 			LoadFailSafeVespiquen_MovementAnimatorController();
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSPrimarina_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSPrimarina_AnimatorCCA.PRParentMom_ConverterAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{
-			LFSPrimarina_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSPrimarina_AnimatorCMA.PRParentMom_MovementAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_IdleAnimatorController()
 		{
-			LFSPrimarina_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSPrimarina_AnimatorICA.PRParentMom_IdleAnimatorController();
 		}
 	}
 }

@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Animator_I
 {
 	public class LFS_FrostlassFailSafe : MonoBehaviour 
 	{
-		public Animator Frostlass_Animator;
+		public Animator FrostlassParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private FrostlassConverterAnimatorController LFSFrostlass_AnimatorCCA;
-		private FrostlassParent_AnimatorBaseMovementController LFSFrostlass_AnimatorCMA;
+		private FrostlassParentDad_MovementAnimatorController LFSFrostlass_AnimatorCMA;
 		private Frostlass_IdleAnimatorController LFSFrostlass_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Animator_I
 		}
 		private void LoadFailSafeFrostlass_ConvertToAnimatorController()
 		{
-			LFSFrostlass_AnimatorCCA.FRConverterToAnimatorController();
+			LFSFrostlass_AnimatorCCA.FRConverterAnimatorController();
 		}
 		private void LoadFailSafeFrostlass_MovementAnimatorController()
 		{

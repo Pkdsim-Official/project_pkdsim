@@ -1,16 +1,16 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing
 {
-	public class HATParent_Strafing : MonoBehaviour 
+	public class HATParentDad_Strafing : MonoBehaviour 
 	{
 		private HAT_StrafeLeft HAT_strafeleft;
 		
 		private HAT_StrafeRight HAT_straferight;
 
-		public void HATParent_StrafingController()
+		public void HATParentDad_StrafingController()
 		{
 			if (HAT_strafeleft == null)
 			{

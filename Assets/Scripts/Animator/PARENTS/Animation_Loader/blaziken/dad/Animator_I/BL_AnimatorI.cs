@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Animator_I
 {
 	public class LFS_BlazikenFailSafe : MonoBehaviour 
 	{
-		public Animator Blaziken_Animator;
+		public Animator BlazikenParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private BlazikenConverterAnimatorController LFSBlaziken_AnimatorCCA;
-		private BlazikenParent_AnimatorBaseMovementController LFSBlaziken_AnimatorCMA;
+		private BlazikenParentDad_MovementAnimatorController LFSBlaziken_AnimatorCMA;
 		private Blaziken_IdleAnimatorController LFSBlaziken_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Animator_I
 		}
 		private void LoadFailSafeBlaziken_ConvertToAnimatorController()
 		{
-			LFSBlaziken_AnimatorCCA.BLConverterToAnimatorController();
+			LFSBlaziken_AnimatorCCA.BLConverterAnimatorController();
 		}
 		private void LoadFailSafeBlaziken_MovementAnimatorController()
 		{

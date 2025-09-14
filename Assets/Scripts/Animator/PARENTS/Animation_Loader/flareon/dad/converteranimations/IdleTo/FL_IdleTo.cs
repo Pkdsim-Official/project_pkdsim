@@ -1,21 +1,25 @@
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.IdleTo
 {
-	public class FL_IdleTo : MonoBehaviour 
+	public class FLParentDadDad_IdleTo : MonoBehaviour 
 	{
-		public void FL_IdleToController()
+		private FLParentDadDad_IdleToRun FLParentDadDad_IdleToRun;
+		private FLParentDadDad_IdleToWalk FLParentDadDad_IdleToWalk;
+		public void FLParentDadDad_IdleToController()
 		{
-			Load_FL_IdleToRun();
-			Load_FL_IdleToWalk();
+			Load_FLParentDadDad_IdleToRun();
+			Load_FLParentDadDad_IdleToWalk();
 		}
-		private void Load_FL_IdleToRun()
+		private void Load_FLParentDadDad_IdleToRun()
 		{
-			
+			FLParentDadDad_IdleToRun.FLParentDadDad_IdleToRunController();
 		}
-		private void Load_FL_IdleToWalk()
+		private void Load_FLParentDadDad_IdleToWalk()
 		{
-			
+			FLParentDadDad_IdleToWalk.FLParentDadDad_IdleToWalkController();
 		}
 	}
 }

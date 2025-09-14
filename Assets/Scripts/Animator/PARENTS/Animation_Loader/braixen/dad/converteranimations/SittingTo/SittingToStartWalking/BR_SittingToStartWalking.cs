@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class BRSittingToStartWalking : MonoBehaviour 
+	public class BRParentDad_SittingToStartWalking : MonoBehaviour 
 	{
-		public void BRSittingToStartWalkingController() 
+		public void BRParentDad_SittingToStartWalkingController() 
 		{
 	
 		}

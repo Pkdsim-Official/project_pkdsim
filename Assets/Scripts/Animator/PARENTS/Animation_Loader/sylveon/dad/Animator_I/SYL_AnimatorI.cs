@@ -1,36 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.Animator_I
 {
-	public class SYL_AnimatorI : MonoBehaviour 
+	public class SYLParentDad_AnimatorI : MonoBehaviour
 	{
-		public Animator Sylveon_Animator;
+		public Animator SylveonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Sylveon_ConverterAnimatorController LFSSylveon_AnimatorCCA;
-		private SylveonParent_AnimatorBaseMovementController LFSSylveon_AnimatorCMA;
-		private Sylveon_IdleAnimatorController LFSSylveon_AnimatorICA;
+		private SylveonParentDad_ConverterAnimatorController LFSSylveon_AnimatorCCA;
+		private SylveonParentDad_MovementAnimatorController LFSSylveon_AnimatorCMA;
+		private SylveonParentDad_IdleAnimatorController LFSSylveon_AnimatorICA;
 
-
-		private void Sylveon_AnimatorController()
-		{
-			Sylveon_Animator = gameObject.GetComponent<Animator>();
-			Sylveon_Animator.runtimeAnimatorController = someController;
-		}
 		private void ConvertToAnimatorController()
 		{
-
+			LFSSylveon_AnimatorCCA.SYLParentDad_ConverterAnimatorController();
 		}
 		private void MovementAnimatorController()
 		{
-			
+			LFSSylveon_AnimatorCMA.SYLParentDad_MovementAnimatorController();
 		}
 		private void _IdleAnimatorController()
 		{
-			
+			LFSSylveon_AnimatorICA.SYLParentDad_IdleAnimatorController();
 		}
 	}
 }

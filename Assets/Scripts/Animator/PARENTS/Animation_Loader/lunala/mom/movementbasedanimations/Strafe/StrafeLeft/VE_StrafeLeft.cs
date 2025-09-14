@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Strafing.StrafeLeft
 {
-	public class VEParentMom_StrafeLeft : MonoBehaviour 
+	public class LUNAParentMom_StrafeLeft : MonoBehaviour 
 	{
-		public void VEParentMom_StrafeLeftController() 
+		public void LUNAParentMom_StrafeLeftController() 
 		{
 			
 		}

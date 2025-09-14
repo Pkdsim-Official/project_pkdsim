@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations
 {
-	public class LopunnyConverterAnimatorController : MonoBehaviour 
+	public class LopunnyParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private LOSittingTo Lopunnysittingto;
-		
-		private LOWalkingTo Lopunnywalkingto;
-		
-		private LOIdleTo Lopunnyidleto;
+		private LOParentDad_SittingTo LopunnyParentDadsittingto;
 
-		public void LOConverterToAnimatorController()
+		private LOParentDad_WalkingTo LopunnyParentDadwalkingto;
+		
+		private LOParentDad_IdleTo LopunnyParentDadidleto;
+
+		public void LOParentDad_ConverterAnimatorController()
 		{
-			Lopunnywalkingto.LOWalkingToController();
+			LopunnyParentDadwalkingto.LOParentDad_WalkingToController();
 
-			Lopunnyidleto.LO_IdleToController();
+			LopunnyParentDadidleto.LOParentDad_IdleToController();
 			
-			Lopunnysittingto.LOSittingToController();	
+			LopunnyParentDadsittingto.LOParentDad_SittingToController();	
 		}
 	}
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.IdleTo
 {
 	public class DR_IdleTo : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.SittingTo.SittingToStartWalking
 {
 	public class VE_SittingToStartWalking : MonoBehaviour 
 	{

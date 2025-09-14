@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Lunala.idlebaseanimation.IdleSitting
 {
 	public class LUNAIdleSitting : MonoBehaviour 
 	{
-		private Animator Flareon_Animator;
+		private Animator FlareonParentDad_Animator;
 		public void LUNAIdleSittingController()
 		{
-			Flareon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Flareon_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			FlareonParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			FlareonParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

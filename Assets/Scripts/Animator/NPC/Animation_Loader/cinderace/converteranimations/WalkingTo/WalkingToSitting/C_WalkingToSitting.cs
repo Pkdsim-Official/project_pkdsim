@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class C_WalkingToSitting : MonoBehaviour 
 	{

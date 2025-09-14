@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations
 {
 	public class DelphoxConverterAnimatorController : MonoBehaviour 
 	{
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations
 		
 		private DL_IdleTo DelphoxIdleto;
 
-		public void DLConverterToAnimatorController()
+		public void DLConverterAnimatorController()
 		{
 			DelphoxWalkingto.DLWalkingToController();
 

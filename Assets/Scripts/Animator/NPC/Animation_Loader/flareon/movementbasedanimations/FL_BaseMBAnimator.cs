@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.movementbasedanimations
 {
-	public class Flareon_AnimatorBaseMovementController : MonoBehaviour 
+	public class Flareon_MovementAnimatorController : MonoBehaviour 
 	{
 		private FL_Jumping FL_MBA_Jumping;
 		

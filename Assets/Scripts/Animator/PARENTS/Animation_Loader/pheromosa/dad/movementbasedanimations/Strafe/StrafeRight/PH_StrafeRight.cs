@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class PH_StrafeRight : MonoBehaviour
+	public class PHParentDad_StrafeRight : MonoBehaviour
 	{
-		public void PH_StrafeRightController() 
+		public void PHParentDad_StrafeRightController() 
 		{
 			
 		}

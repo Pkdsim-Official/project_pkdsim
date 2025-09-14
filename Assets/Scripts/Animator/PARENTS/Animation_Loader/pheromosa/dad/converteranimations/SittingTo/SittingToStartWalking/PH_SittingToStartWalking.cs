@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class PHSittingToStartWalking : MonoBehaviour 
+	public class PHParentDad_SittingToStartWalking : MonoBehaviour 
 	{
-		public void PHSittingToStartWalkingController() 
+		public void PHParentDad_SittingToStartWalkingController() 
 		{
 	
 		}

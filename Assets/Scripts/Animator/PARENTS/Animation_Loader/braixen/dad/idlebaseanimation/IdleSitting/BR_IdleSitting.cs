@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation.IdleSitting
 {
-	public class BRIdleSitting : MonoBehaviour 
+	public class BRParentDad_IdleSitting : MonoBehaviour 
 	{
-		private Animator Braixen_Animator;
-		public void BRIdleSittingController()
+		private Animator BraixenParentDad_Animator;
+		public void BRParentDad_IdleSittingController()
 		{
-			Braixen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Braixen_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			BraixenParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			BraixenParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

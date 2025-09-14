@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Leafeon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Leafeon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Leafeon.idlebaseanimation
 {
 	public class Leafeon_IdleAnimatorController : MonoBehaviour 
 	{

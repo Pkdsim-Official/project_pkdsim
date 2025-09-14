@@ -1,16 +1,16 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing
 {
-	public class VEParent_Strafing : MonoBehaviour 
+	public class VEParentDad_Strafing : MonoBehaviour 
 	{
 		private VE_StrafeLeft VE_strafeleft;
 		
 		private VE_StrafeRight VE_straferight;
 
-		public void VEParent_StrafingController()
+		public void VEParentDad_StrafingController()
 		{
 			if (VE_strafeleft == null)
 			{

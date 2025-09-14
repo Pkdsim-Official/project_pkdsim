@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Running
 {
-	public class HATParent_Running : MonoBehaviour 
+	public class HATParentDad_Running : MonoBehaviour 
 	{
-		public void HATParent_RunningController() 
+		public void HATParentDad_RunningController() 
 		{
 			
 		}

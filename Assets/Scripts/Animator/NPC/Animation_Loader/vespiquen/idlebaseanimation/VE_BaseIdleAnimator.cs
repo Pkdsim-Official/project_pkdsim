@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.idlebaseanimation
 {
 	public class Vespiquen_IdleAnimatorController : MonoBehaviour 
 	{

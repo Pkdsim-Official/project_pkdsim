@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Primarina.Animator_I
 {
 	public class LFS_PrimarinaFailSafe : MonoBehaviour 
 	{
-		public Animator Primarina_Animator;
+		public Animator PrimarinaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private PrimarinaConverterAnimatorController LFSPrimarina_AnimatorCCA;
-		private PrimarinaParent_AnimatorBaseMovementController LFSPrimarina_AnimatorCMA;
+		private PrimarinaParentDad_MovementAnimatorController LFSPrimarina_AnimatorCMA;
 		private Primarina_IdleAnimatorController LFSPrimarina_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Primarina.Animator_I
 		}
 		private void LoadFailSafePrimarina_ConvertToAnimatorController()
 		{
-			LFSPrimarina_AnimatorCCA.PRConverterToAnimatorController();
+			LFSPrimarina_AnimatorCCA.PRConverterAnimatorController();
 		}
 		private void LoadFailSafePrimarina_MovementAnimatorController()
 		{

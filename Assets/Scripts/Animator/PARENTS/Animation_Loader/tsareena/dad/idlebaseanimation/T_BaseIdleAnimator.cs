@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Tsareena.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.idlebaseanimation
 {
-	public class Tsareena_IdleAnimatorController : MonoBehaviour 
+	public class TsareenaParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private TIdleStanding Tidlestanding;
+		private TParentDad_IdleStanding TParentDad_idlestanding;
 		
-		private TIdleSitting Tidlesitting;
+		private TParentDad_IdleSitting TParentDad_idlesitting;
 		
-		public void	T_IdleAnimatorController()
+		public void	TParentDad_IdleAnimatorController()
 		{
-			TIdleStandingAnimatorController();
-			TIdleSittingAnimatorController();
+			TParentDad_IdleStandingAnimatorController();
+			TParentDad_IdleSittingAnimatorController();
 		}
-		private void TIdleStandingAnimatorController()
+		private void TParentDad_IdleStandingAnimatorController()
 		{
-			Tidlestanding.TIdleStandingController();
+			TParentDad_idlestanding.TParentDad_IdleStandingController();
 		}
-		private void TIdleSittingAnimatorController()
+		private void TParentDad_IdleSittingAnimatorController()
 		{
-			Tidlesitting.TIdleSittingController();
+			TParentDad_idlesitting.TParentDad_IdleSittingController();
 		}
 	}
 }

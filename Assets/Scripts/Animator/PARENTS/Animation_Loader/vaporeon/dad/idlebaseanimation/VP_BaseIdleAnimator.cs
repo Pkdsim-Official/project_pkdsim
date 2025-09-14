@@ -1,18 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation
 {
-	public class Vaporeon_IdleAnimatorController : MonoBehaviour 
+	public class VaporeonParentDad_IdleAnimatorController : MonoBehaviour
 	{
-		private VP_IdleStanding VP_idlestanding;
+		private VPParentDad_IdleStanding VPParentDad_idlestanding;
+
+		private VPParentDad_IdleSitting VPParentDad_idlesitting;
 		
-		private VP_IdleSitting VP_idlesitting;
-		private void VP_Base_IdleAnimatorController()
+		public void	VPParentDad_IdleAnimatorController()
 		{
-			VP_idlestanding.VP_IdleStandingController();
-			VP_idlesitting.VP_IdleSittingController();	
+			VPParentDad_IdleStandingAnimatorController();
+			VPParentDad_IdleSittingAnimatorController();
+		}
+		private void VPParentDad_IdleStandingAnimatorController()
+		{
+			VPParentDad_idlestanding.VPParentDad_IdleStandingController();
+		}
+		private void VPParentDad_IdleSittingAnimatorController()
+		{
+			VPParentDad_idlesitting.VPParentDad_IdleSittingController();
 		}
 	}
 }

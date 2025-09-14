@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.movementbasedanimations
 {
-	public class ZoroarkParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class ZoroarkParentMom_MovementAnimatorController : MonoBehaviour 
 	{
 		private ZParentMom_Jumping Zoroark_MBA_Jumping;
 		

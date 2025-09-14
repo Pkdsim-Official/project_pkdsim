@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.IdleTo
 {
 	public class GL_IdleTo : MonoBehaviour 
 	{

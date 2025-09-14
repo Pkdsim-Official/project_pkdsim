@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Animator_I
 {
 	public class _SalazzleFailSafe : MonoBehaviour 
 	{
-		public Animator Salazzle_Animator;
+		public Animator SalazzleParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private Salazzle_ConverterAnimatorController Salazzle_AnimatorCCA;
-		private SalazzleParent_AnimatorBaseMovementController Salazzle_AnimatorCMA;
+		private SalazzleParentDad_MovementAnimatorController Salazzle_AnimatorCMA;
 		private Salazzle_IdleAnimatorController Salazzle_AnimatorICA;
 
 		public void LoadFailSafeSalazzle_AnimatorController()
@@ -22,7 +22,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Animator_I
 		}
 		private void LoadFailSafeSalazzle_ConvertToAnimatorController()
 		{
-			Salazzle_AnimatorCCA.SA_ConverterToAnimatorController();
+			Salazzle_AnimatorCCA.SA_ConverterAnimatorController();
 		}
 		private void LoadFailSafeSalazzle_MovementAnimatorController()
 		{

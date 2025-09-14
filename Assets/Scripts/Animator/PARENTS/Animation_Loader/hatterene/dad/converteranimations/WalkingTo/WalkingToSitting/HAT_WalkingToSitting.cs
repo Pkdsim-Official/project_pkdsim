@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class HATWalkingToSitting : MonoBehaviour 
+	public class HATParentDad_WalkingToSitting : MonoBehaviour 
 	{
-		public void HATWalkingToSittingController() 
+		public void HATParentDad_WalkingToSittingController() 
 		{
 			
 		}

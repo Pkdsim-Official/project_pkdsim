@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.SittingTo
 {
 	public class DRSittingTo : MonoBehaviour 
 	{

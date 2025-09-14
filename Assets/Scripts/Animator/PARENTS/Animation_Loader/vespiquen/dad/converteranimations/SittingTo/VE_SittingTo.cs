@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.SittingTo
 {
-	public class VESittingTo : MonoBehaviour 
+	public class VEParentDad_SittingTo : MonoBehaviour 
 	{
-		private VESittingToStartWalking VespiquensittingToStartWalking;
-		private VESittingToStanding VespiquensittingToStanding;
-		public void VESittingToController()
+		private VEParentDad_SittingToStartWalking VEParentDadsittingToStartWalking;
+		private VEParentDad_SittingToStanding VEParentDadsittingToStanding;
+		public void VEParentDad_SittingToController()
 		{
-			VESittingToStartWalking();
-			VESittingToStanding();
+			VEParentDad_SittingToStartWalking();
+			VEParentDad_SittingToStanding();
 		}
-		private void VESittingToStartWalking()
+		private void VEParentDad_SittingToStartWalking()
 		{
-			VespiquensittingToStartWalking.VESittingToStartWalkingController();
+			VEParentDadsittingToStartWalking.VEParentDad_SittingToStartWalkingController();
 		}
-		private void VESittingToStanding()
+		private void VEParentDad_SittingToStanding()
 		{
-			VespiquensittingToStanding.VESittingToStandingController();
+			VEParentDadsittingToStanding.VEParentDad_SittingToStandingController();
 		}
 
 	}

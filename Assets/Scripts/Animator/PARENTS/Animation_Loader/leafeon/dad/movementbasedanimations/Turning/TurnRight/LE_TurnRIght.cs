@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Turning.TurnRight
 {
     public class LEParent_TurnRight : MonoBehaviour 
     {

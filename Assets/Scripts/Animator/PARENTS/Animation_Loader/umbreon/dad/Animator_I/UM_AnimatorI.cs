@@ -1,35 +1,37 @@
 
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.Animator_I
 {
-	public class UM_AnimatorI : MonoBehaviour 
-	{		
-		public Animator Umbreon_Animator;
+	public class UMParentDad_AnimatorI : MonoBehaviour
+	{
+		public Animator UmbreonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Umbreon_AnimatorBaseConverterController Umbreon_AnimatorCCA;
-		private UmbreonParent_AnimatorBaseMovementController Umbreon_AnimatorCMA;
-		private Umbreon_AnimatorIdleController Umbreon_AnimatorICA;
+		private UmbreonParentDad_ConverterAnimatorController UmbreonParentDad_AnimatorCCA;
+		private UmbreonParentDad_MovementAnimatorController UmbreonParentDad_AnimatorCMA;
+		private UmbreonParentDad_AnimatorIdleController UmbreonParentDad_AnimatorICA;
 
-		public void Umbreon_AnimatorController()
+		public void UmbreonParentDad_AnimatorController()
 		{
-			Umbreon_Animator.runtimeAnimatorController = someController;
+			LoadFailSafeUmbreon_ConvertToAnimatorController();
+			LoadFailSafeUmbreon_MovementAnimatorController();
+			LoadFailSafeUmbreon_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
+		private void LoadFailSafeUmbreon_ConvertToAnimatorController()
 		{
-
+			UmbreonParentDad_AnimatorCCA.UMParentDad_ConverterAnimatorController();
 		}
-		private void MovementAnimatorController()
+		private void LoadFailSafeUmbreon_MovementAnimatorController()
 		{
-			
+			UmbreonParentDad_AnimatorCMA.UMParentDad_MovementAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void LoadFailSafeUmbreon_IdleAnimatorController()
 		{
-			
+			UmbreonParentDad_AnimatorICA.UMParentDad_IdleAnimatorController();
 		}
 	}
 }

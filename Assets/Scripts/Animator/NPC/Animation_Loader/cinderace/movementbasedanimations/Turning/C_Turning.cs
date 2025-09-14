@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.movementbasedanimations.Turning
 {
 	public class C_Turning : MonoBehaviour	
 	{

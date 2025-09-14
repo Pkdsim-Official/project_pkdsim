@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Espeon.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.NPC.Espeon.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Npcs.Espeon.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Npcs.Espeon.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Espeon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Espeon.movementbasedanimations.Strafing
 {
 	public class ES_Strafing : MonoBehaviour 
 	{

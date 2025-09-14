@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.idlebaseanimation;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Leafeon.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Leafeon.Animator_I
 {
 	public class LE_AnimatorI : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Leafeon.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Leafeon_CoverterAnimatorController Leafeon_AnimatorCCA;
-		private Leafeon_AnimatorBaseMovementController Leafeon_AnimatorCMA;
+		private Leafeon_MovementAnimatorController Leafeon_AnimatorCMA;
 		private Leafeon_IdleAnimatorController  Leafeon_AnimatorICA;
 
 		private void Leafeon_AnimatorController()

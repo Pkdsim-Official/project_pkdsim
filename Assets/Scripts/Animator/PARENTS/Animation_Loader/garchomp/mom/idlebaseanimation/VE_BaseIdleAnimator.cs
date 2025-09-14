@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.idlebaseanimation
 {
 	public class GarchompParentMom_IdleAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_IdleStanding VEParentMom_Idlestanding;
+		private GARCParentMom_IdleStanding GARCParentMom_IdleStanding;
 		
-		private VEParentMom_IdleSitting VEParentMom_Idlesitting;
+		private GARCParentMom_IdleSitting GARCParentMom_IdleSitting;
 		
-		public void	VE_IdleAnimatorController()
+		public void	GARCParentMom_IdleAnimatorController()
 		{
-			VEParentMom_IdleStandingAnimatorController();
-			VEParentMom_IdleSittingAnimatorController();
+			GARCParentMom_IdleStandingAnimatorController();
+			GARCParentMom_IdleSittingAnimatorController();
 		}
-		private void VEParentMom_IdleStandingAnimatorController()
+		private void GARCParentMom_IdleStandingAnimatorController()
 		{
-			VEParentMom_Idlestanding.VEParentMom_IdleStandingController();
-		}
-		private void VEParentMom_IdleSittingAnimatorController()
+			GARCParentMom_IdleStanding.GARCParentMom_IdleStandingController();
+        }
+        private void GARCParentMom_IdleSittingAnimatorController()
 		{
-			VEParentMom_Idlesitting.VEParentMom_IdleSittingController();
+			GARCParentMom_IdleSitting.GARCParentMom_IdleSittingController();
 		}
 	}
 }

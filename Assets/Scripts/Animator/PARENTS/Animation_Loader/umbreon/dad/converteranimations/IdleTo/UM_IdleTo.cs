@@ -1,26 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.converteranimations.IdleTo
 {
-	public class UM_IdleTo : MonoBehaviour 
+	public class UMParentDad_IdleTo : MonoBehaviour 
 	{
-		private UM_IdleToRun IdleToRun;
-		private UM_IdleToWalk IdleToWalk;
-		public void UM_IdleToController()
+		private UMParentDad_IdleToRun UmbreonParentDadIdleToRun;
+		private UMParentDad_IdleToWalk UmbreonParentDadIdleToWalk;
+		public void UMParentDad_IdleToController()
 		{
-			// Load_UM_idleToRun();
-			// Load_UM_idleToWalk();
+			Load_UMParentDad_idleToRun();
+			Load_UMParentDad_idleToWalk();
 		}
-		private void Load_UM_idleToRun()
+		private void Load_UMParentDad_idleToRun()
 		{
-			
+			UmbreonParentDadIdleToRun.UMParentDad_IdleToRunController();
 		}
-		private void Load_UM_idleToWalk()
+		private void Load_UMParentDad_idleToWalk()
 		{
-			
+			UmbreonParentDadIdleToWalk.UMParentDad_IdleToWalkController();
 		}
-
 	}
 }

@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.idlebaseanimation
 {
-	public class Lopunny_IdleAnimatorController : MonoBehaviour 
+	public class LopunnyParentDad_IdleAnimatorController : MonoBehaviour
 	{
-		private LOIdleStanding Lopunnyidlestanding;
-		
-		private LOIdleSitting Lopunnyidlesitting;
-		
-		public void	LO_IdleAnimatorController()
+		private LOParentDad_IdleStanding LopunnyParentDadidlestanding;
+
+		private LOParentDad_IdleSitting LopunnyParentDadidlesitting;
+
+		public void LOParentDad_IdleAnimatorController()
 		{
-			LOIdleStandingAnimatorController();
-			LOIdleSittingAnimatorController();
+			LOParentDad_IdleStandingAnimatorController();
+			LOParentDad_IdleSittingAnimatorController();
 		}
-		private void LOIdleStandingAnimatorController()
+		private void LOParentDad_IdleStandingAnimatorController()
 		{
-			Lopunnyidlestanding.LOIdleStandingController();
+			LopunnyParentDadidlestanding.LOParentDad_IdleStandingController();
 		}
-		private void LOIdleSittingAnimatorController()
+		private void LOParentDad_IdleSittingAnimatorController()
 		{
-			Lopunnyidlesitting.LOIdleSittingController();
+			LopunnyParentDadidlesitting.LOParentDad_IdleSittingController();
 		}
 	}
 }

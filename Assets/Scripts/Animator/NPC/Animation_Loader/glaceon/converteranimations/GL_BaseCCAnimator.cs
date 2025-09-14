@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations.IdleTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Glaceon.converteranimations
 {
 	public class Glaceon_AnimatorControllerCoverterAnimator : MonoBehaviour 
 	{

@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Strafing
 {
-	public class PHParent_Strafing : MonoBehaviour 
+	public class PHParentDad_Strafing : MonoBehaviour 
 	{
-		private PH_StrafeLeft PH_strafeleft;
+		private PHParentDad_StrafeLeft PHParentDad_strafeleft;
 		
-		private PH_StrafeRight PH_straferight;
+		private PHParentDad_StrafeRight PHParentDad_straferight;
 
-		public void PHParent_StrafingController()
+		public void PHParentDad_StrafingController()
 		{
-			if (PH_strafeleft == null)
+			if (PHParentDad_strafeleft == null)
 			{
-				Load_PH_StrafeLeft();
+				Load_PHParentDad_StrafeLeft();
 			}
-			if (PH_straferight == null)
+			if (PHParentDad_straferight == null)
 			{
-				Load_PH_StrafeRight();
+				Load_PHParentDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_PH_StrafeRight()
+		private void Load_PHParentDad_StrafeRight()
 		{
-			PH_straferight.PH_StrafeRightController();
+			PHParentDad_straferight.PHParentDad_StrafeRightController();
 		}
 		
-		private void Load_PH_StrafeLeft()
+		private void Load_PHParentDad_StrafeLeft()
 		{
-			PH_strafeleft.PH_StrafeLeftController();
+			PHParentDad_strafeleft.PHParentDad_StrafeLeftController();
 		}
 	}
 }

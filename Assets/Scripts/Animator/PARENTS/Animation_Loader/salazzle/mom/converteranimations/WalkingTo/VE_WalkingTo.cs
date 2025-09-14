@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.converteranimations.WalkingTo
 {
-		public class VEParentMom_WalkingTo : MonoBehaviour 
+		public class SParentMom_WalkingTo : MonoBehaviour 
 	{
-		private VEParentMom_WalkingToSitting SalazzleParentMomWalkingToSitting;
-		private VEParentMom_WalkingToStanding SalazzleParentMomWalkingToStanding;
-		public void VEParentMom_WalkingToController()
+		private SParentMom_WalkingToSitting SalazzleParentMomWalkingToSitting;
+		private SParentMom_WalkingToStanding SalazzleParentMomWalkingToStanding;
+		public void SParentMom_WalkingToController()
 		{
-			VEParentMom_WalkingToStartWalking();
-			VEParentMom_WalkingToStanding();
+			SParentMom_WalkingToStartWalking();
+			SParentMom_WalkingToStanding();
 		}
-		private void VEParentMom_WalkingToStartWalking()
+		private void SParentMom_WalkingToStartWalking()
 		{
-			SalazzleParentMomWalkingToSitting.VEParentMom_WalkingToSittingController();
+			SalazzleParentMomWalkingToSitting.SParentMom_WalkingToSittingController();
 		}
-		private void VEParentMom_WalkingToStanding()
+		private void SParentMom_WalkingToStanding()
 		{
-			SalazzleParentMomWalkingToStanding.VEParentMom_WalkingToStandingController();
+			SalazzleParentMomWalkingToStanding.SParentMom_WalkingToStandingController();
 		}
 	}
 }

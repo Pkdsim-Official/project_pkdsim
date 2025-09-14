@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.WalkingTo
 {
 	public class FR_WalkingTo : MonoBehaviour 
 	{

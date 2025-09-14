@@ -1,30 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Turning;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Strafing;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations
 {
-	public class UmbreonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class UmbreonParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private UMParent_Jumping UM_MBA_Jumping;
+		private UMParentDad_Jumping UM_MBA_Jumping;
 		
-		private UMParent_Running UM_MBA_Running;
+		private UMParentDad_Running UM_MBA_Running;
 
-		private UMParent_Turning UM_MBA_Turning;
+		private UMParentDad_Turning UM_MBA_Turning;
 
-		private UMParent_Strafing UM_MBA_Strafe;
+		private UMParentDad_Strafing UM_MBA_Strafe;
 
-		private void UM_MovementAnimatorController()
+		public void UMParentDad_MovementAnimatorController()
 		{
-			UM_MBA_Running.UMParent_RunningController();
+			UM_MBA_Running.UMParentDad_RunningController();
 
-			UM_MBA_Jumping.UMParent_JumpingController();
+			UM_MBA_Jumping.UMParentDad_JumpingController();
 
-			UM_MBA_Turning.UMParent_TurningController();	
+			UM_MBA_Turning.UMParentDad_TurningController();	
 
-			UM_MBA_Strafe.UMParent_StrafingController();
+			UM_MBA_Strafe.UMParentDad_StrafingController();
 		}	
 	}
 }

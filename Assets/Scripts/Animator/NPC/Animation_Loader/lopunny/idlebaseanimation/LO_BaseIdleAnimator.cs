@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Lopunny.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Lopunny.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Lopunny.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Lopunny.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.idlebaseanimation
 {
 	public class Lopunny_IdleAnimatorController : MonoBehaviour 
 	{

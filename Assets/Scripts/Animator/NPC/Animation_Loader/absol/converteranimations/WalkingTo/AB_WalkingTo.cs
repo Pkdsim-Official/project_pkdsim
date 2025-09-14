@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Absol.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Absol.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Absol.converteranimations.WalkingTo
 {
 	public class AB_WalkingTo : MonoBehaviour 
 	{

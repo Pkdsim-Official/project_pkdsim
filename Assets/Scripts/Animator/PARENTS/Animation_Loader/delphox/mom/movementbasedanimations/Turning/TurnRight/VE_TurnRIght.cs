@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Delphox.Mom.movementbasedanimations.Turning.TurnRight
 {
-    public class VEParentMom_TurnRight : MonoBehaviour 
+    public class DLParentMom_TurnRight : MonoBehaviour 
     {
-        public void VEParentMom_TurnRightController()
+        public void DLParentMom_TurnRightController()
         {
 
         }

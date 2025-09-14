@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class UMParent_TurnRight : MonoBehaviour 
+    public class UMParentDad_TurnRight : MonoBehaviour 
     {
-        public void UMParent_TurnRightController()
+        public void UMParentDad_TurnRightController()
         {
 
         }

@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.converteranimations.WalkingTo
 {
-		public class VEParentMom_WalkingTo : MonoBehaviour 
+		public class GLParentMom_WalkingTo : MonoBehaviour 
 	{
-		private VEParentMom_WalkingToSitting GlaceonParentMomWalkingToSitting;
-		private VEParentMom_WalkingToStanding GlaceonParentMomWalkingToStanding;
-		public void VEParentMom_WalkingToController()
+		private GLParentMom_WalkingToSitting GlaceonParentMomWalkingToSitting;
+		private GLParentMom_WalkingToStanding GlaceonParentMomWalkingToStanding;
+		public void GLParentMom_WalkingToController()
 		{
-			VEParentMom_WalkingToStartWalking();
-			VEParentMom_WalkingToStanding();
+			GLParentMom_WalkingToStartWalking();
+			GLParentMom_WalkingToStanding();
 		}
-		private void VEParentMom_WalkingToStartWalking()
+		private void GLParentMom_WalkingToStartWalking()
 		{
-			GlaceonParentMomWalkingToSitting.VEParentMom_WalkingToSittingController();
+			GlaceonParentMomWalkingToSitting.GLParentMom_WalkingToSittingController();
 		}
-		private void VEParentMom_WalkingToStanding()
+		private void GLParentMom_WalkingToStanding()
 		{
-			GlaceonParentMomWalkingToStanding.VEParentMom_WalkingToStandingController();
+			GlaceonParentMomWalkingToStanding.GLParentMom_WalkingToStandingController();
 		}
 	}
 }

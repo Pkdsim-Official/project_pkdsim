@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Mom.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Mom.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Mom.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Mom.converteranimations
 {
 	public class BraixenParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_SittingTo BraixenParentMomSittingto;
+		private BRParentMom_SittingTo BraixenParentMomSittingto;
 		
-		private VEParentMom_WalkingTo BraixenParentMomWalkingto;
+		private BRParentMom_WalkingTo BraixenParentMomWalkingto;
 		
-		private VEParentMom_IdleTo BraixenParentMomIdleto;
+		private BRParentMom_IdleTo BraixenParentMomIdleto;
 
-		public void VEParentMom_ConverterToAnimatorController()
+		public void BRParentMom_ConverterAnimatorController()
 		{
-			BraixenParentMomWalkingto.VEParentMom_WalkingToController();
+			BraixenParentMomWalkingto.BRParentMom_WalkingToController();
 
-			BraixenParentMomIdleto.VEParentMom_IdleToController();
+			BraixenParentMomIdleto.BRParentMom_IdleToController();
 			
-			BraixenParentMomSittingto.VEParentMom_SittingToController();	
+			BraixenParentMomSittingto.BRParentMom_SittingToController();	
 		}
 	}
 }

@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations
 {
-	public class Meowscarada_AnimatorBaseMovementController : MonoBehaviour 
+	public class Meowscarada_MovementAnimatorController : MonoBehaviour 
 	{
 		private MEOW_Jumping Meowscarada_MBA_Jumping;
 		

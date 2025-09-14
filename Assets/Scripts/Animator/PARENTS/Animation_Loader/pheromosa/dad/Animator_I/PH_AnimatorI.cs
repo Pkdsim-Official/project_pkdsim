@@ -1,19 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.Animator_I
 {
 	public class LFS_PheromosaFailSafe : MonoBehaviour 
 	{
-		public Animator Pheromosa_Animator;
+		public Animator PheromosaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private PheromosaConverterAnimatorController LFSPheromosa_AnimatorCCA;
-		private PheromosaParent_AnimatorBaseMovementController LFSPheromosa_AnimatorCMA;
-		private Pheromosa_IdleAnimatorController LFSPheromosa_AnimatorICA;
-
+		private PheromosaParentDad_ConverterAnimatorController LFSPheromosa_AnimatorCCA;
+		private PheromosaParentDad_MovementAnimatorController LFSPheromosa_AnimatorCMA;
+		private PheromosaParentDad_IdleAnimatorController LFSPheromosa_AnimatorICA;
 
 		public void LoadFailSafePheromosa_AnimatorController()
 		{
@@ -23,15 +22,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Animator_I
 		}
 		private void LoadFailSafePheromosa_ConvertToAnimatorController()
 		{
-			LFSPheromosa_AnimatorCCA.PHConverterToAnimatorController();
+			LFSPheromosa_AnimatorCCA.PHParentDad_ConverterAnimatorController();
 		}
 		private void LoadFailSafePheromosa_MovementAnimatorController()
 		{
-			LFSPheromosa_AnimatorCMA.PHMovementAnimatorController();
+			LFSPheromosa_AnimatorCMA.PHParentDad_MovementAnimatorController();
 		}
 		private void LoadFailSafePheromosa_IdleAnimatorController()
 		{
-			LFSPheromosa_AnimatorICA.PH_IdleAnimatorController();
+			LFSPheromosa_AnimatorICA.PHParentDad_IdleAnimatorController();
 		}
 	}
 }

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Braixen.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Braixen.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Braixen.converteranimations.WalkingTo
 {
 	public class BR_WalkingTo : MonoBehaviour 
 	{

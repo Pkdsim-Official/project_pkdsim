@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.SittingTo.SittingToStanding
 {
 	public class ES_SittingToStanding : MonoBehaviour 
 	{

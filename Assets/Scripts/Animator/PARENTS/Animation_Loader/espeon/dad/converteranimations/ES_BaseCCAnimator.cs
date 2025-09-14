@@ -1,6 +1,6 @@
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.IdleTo;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Espeon.idlebaseanimation

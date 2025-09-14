@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class VE_StrafeLeft : MonoBehaviour 
 	{

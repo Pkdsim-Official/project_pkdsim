@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Jolteon.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Jolteon.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Jolteon.converteranimations.WalkingTo
 {
 	public class JT_WalkingTo : MonoBehaviour 
 	{

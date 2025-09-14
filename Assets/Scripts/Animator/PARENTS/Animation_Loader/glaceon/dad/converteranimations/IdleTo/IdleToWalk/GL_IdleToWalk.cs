@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class GL_IdleToWalk : MonoBehaviour 
+	public class GLParentDad_IdleToWalk : MonoBehaviour 
 	{
-		
+		public void GLParentDad_IdleToWalkController() 
+		{
+	
+		}
 	}
 }

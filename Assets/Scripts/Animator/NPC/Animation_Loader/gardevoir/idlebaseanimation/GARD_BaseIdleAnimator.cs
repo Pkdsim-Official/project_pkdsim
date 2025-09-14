@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Gardevoir.idlebaseanimation
 {
 	public class Gardevoir_IdleAnimatorController : MonoBehaviour 
 	{

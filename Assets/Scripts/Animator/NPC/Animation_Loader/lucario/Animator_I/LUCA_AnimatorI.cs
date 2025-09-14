@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Lucario.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Lucario.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lucario.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Lucario.Animator_I
 {
 	public class LFS_LucarioFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Lucario.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private LucarioCoverterAnimatorController LFSLucario_AnimatorCCA;
-		private Lucario_AnimatorBaseMovementController LFSLucario_AnimatorCMA;
+		private Lucario_MovementAnimatorController LFSLucario_AnimatorCMA;
 		private Lucario_IdleAnimatorController LFSLucario_AnimatorICA;
 
 

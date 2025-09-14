@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Braixen.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Braixen.idlebaseanimation.IdleSitting
 {
 	public class BR_IdleSitting : MonoBehaviour 
 	{

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class PHWalkingToStanding : MonoBehaviour 
+	public class PHParentDad_WalkingToStanding : MonoBehaviour 
 	{
-		public void PHWalkingToStandingController()
+		public void PHParentDad_WalkingToStandingController()
 		{
 			
 		}

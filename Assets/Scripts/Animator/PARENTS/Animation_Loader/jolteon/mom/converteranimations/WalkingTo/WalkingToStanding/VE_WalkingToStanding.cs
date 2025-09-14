@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class VEParentMom_WalkingToStanding : MonoBehaviour 
+	public class JTParentMom_WalkingToStanding : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
-		public void VEParentMom_WalkingToStandingController()
+		private Animator JolteonParentMom_Animator;
+		public void JTParentMom_WalkingToStandingController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("WalkingTo_Standing");         // Start in the WalkingToStandingCon state
+			JolteonParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			JolteonParentMom_Animator.Play("WalkingTo_Standing");         // Start in the WalkingToStandingCon state
 		}
 	}
 }

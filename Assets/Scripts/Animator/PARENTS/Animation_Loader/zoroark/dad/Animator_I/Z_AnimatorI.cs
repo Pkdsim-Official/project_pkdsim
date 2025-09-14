@@ -7,11 +7,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.Animator_I
 {
 	public class LFS_ZoroarkFailSafe : MonoBehaviour 
 	{
-		public Animator Zoroark_Animator;
-		public RuntimeAnimatorController someController;
-
 		private ZoroarkParentDad_ConverterAnimatorController LFSZoroark_AnimatorCCA;
-		private ZoroarkParentDad_AnimatorBaseMovementController LFSZoroark_AnimatorCMA;
+		private ZoroarkParentDad_MovementAnimatorController LFSZoroark_AnimatorCMA;
 		private ZoroarkParentDad_IdleAnimatorController LFSZoroark_AnimatorICA;
 
 
@@ -23,7 +20,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.Animator_I
 		}
 		private void LoadFailSafeZoroark_ConvertToAnimatorController()
 		{
-			LFSZoroark_AnimatorCCA.ZParentDad_ConverterToAnimatorController();
+			LFSZoroark_AnimatorCCA.ZParentDad_ConverterAnimatorController();
 		}
 		private void LoadFailSafeZoroark_MovementAnimatorController()
 		{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Vaporeon.movementbasedanimations.Running
 {
 	public class VP_Running : MonoBehaviour 
 	{

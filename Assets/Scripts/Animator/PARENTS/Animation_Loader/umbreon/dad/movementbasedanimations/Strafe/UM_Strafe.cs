@@ -1,35 +1,35 @@
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Strafing
 {
-	public class UMParent_Strafing : MonoBehaviour 
+	public class UMParentDad_Strafing : MonoBehaviour 
 	{
-		private UM_StrafeLeft UM_strafeleft;
+		private UMParentDad_StrafeLeft UMParentDad_strafeleft;
 		
-		private UM_StrafeRight UM_straferight;
+		private UMParentDad_StrafeRight UMParentDad_straferight;
 
-		public void UMParent_StrafingController()
+		public void UMParentDad_StrafingController()
 		{
-			if (UM_strafeleft == null)
+			if (UMParentDad_strafeleft == null)
 			{
-				Load_UM_StrafeLeft();
+				Load_UMParentDad_StrafeLeft();
 			}
-			if (UM_straferight == null)
+			if (UMParentDad_straferight == null)
 			{
-				Load_UM_StrafeRight();
+				Load_UMParentDad_StrafeRight();
 			}
 		}
 
-		private void Load_UM_StrafeRight()
+		private void Load_UMParentDad_StrafeRight()
 		{
-			UM_straferight.UM_StrafeRightController();
+			UMParentDad_straferight.UMParentDad_StrafeRightController();
 		}
 		
-		private void Load_UM_StrafeLeft()
+		private void Load_UMParentDad_StrafeLeft()
 		{
-			UM_strafeleft.UM_StrafeLeftController();
+			UMParentDad_strafeleft.UMParentDad_StrafeLeftController();
 		}
 	}
 }

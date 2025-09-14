@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations
 {
-	public class BraixenParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class BraixenParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private BRParent_Jumping BR_MBA_Jumping;
+		private BRParentDad_Jumping BRParentDad_MBA_Jumping;
 		
-		private BRParent_Running BR_MBA_Running;
+		private BRParentDad_Running BRParentDad_MBA_Running;
 
 
-		private BRParent_Turning BR_MBA_Turning;
+		private BRParentDad_Turning BRParentDad_MBA_Turning;
 
-		private BRParent_Strafing BR_MBA_Strafe;
+		private BRParentDad_Strafing BRParentDad_MBA_Strafe;
 
 		public void BRMovementAnimatorController()
 		{
-			BR_MBA_Running.BRParent_RunningController();
+			BRParentDad_MBA_Running.BRParentDad_RunningController();
 
-			BR_MBA_Jumping.BRParent_JumpingController();
+			BRParentDad_MBA_Jumping.BRParentDad_JumpingController();
 
-			BR_MBA_Turning.BRParent_TurningController();	
+			BRParentDad_MBA_Turning.BRParentDad_TurningController();	
 
-			BR_MBA_Strafe.BRParent_StrafingController();
+			BRParentDad_MBA_Strafe.BRParentDad_StrafingController();
 		}
 	}
 }

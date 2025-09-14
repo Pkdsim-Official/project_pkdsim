@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class LUCASittingToStartWalking : MonoBehaviour 
+	public class LUCAParentDad_SittingToStartWalking : MonoBehaviour 
 	{
-		public void LUCASittingToStartWalkingController() 
+		public void LUCAParentDad_SittingToStartWalkingController() 
 		{
 	
 		}

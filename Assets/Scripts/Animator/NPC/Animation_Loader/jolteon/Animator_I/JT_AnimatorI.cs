@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations;
-using project_pkdsim.ANIMATOR.NPC.Jolteon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Jolteon.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Jolteon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Jolteon.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Jolteon.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Jolteon.Animator_I
 {
 	public class JT_AnimatorI : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Jolteon.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Jolteon_ConverterAnimatorController Jolteon_AnimatorCCA;
-		private Jolteon_AnimatorBaseMovementController Jolteon_AnimatorCMA;
+		private Jolteon_MovementAnimatorController Jolteon_AnimatorCMA;
 		private Jolteon_AnimatorIdleController Jolteon_AnimatorICA;
 
 		private void Jolteon_AnimatorController()

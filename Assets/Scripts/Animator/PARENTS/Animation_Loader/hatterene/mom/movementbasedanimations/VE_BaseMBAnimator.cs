@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations
 {
-	public class HattereneParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class HattereneParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_Jumping VE_MBA_Jumping;
+		private HATParentMom_Jumping HAT_MBA_Jumping;
 		
-		private VEParentMom_Running VE_MBA_Running;
+		private HATParentMom_Running HAT_MBA_Running;
 
 
-		private VEParentMom_Turning VE_MBA_Turning;
+		private HATParentMom_Turning HAT_MBA_Turning;
 
-		private VEParentMom_Strafing VE_MBA_Strafe;
+		private HATParentMom_Strafing HAT_MBA_Strafe;
 
-		public void VEMovementAnimatorController()
+		public void HATParentMom_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParentMom_RunningController();
+			HAT_MBA_Running.HATParentMom_RunningController();
 
-			VE_MBA_Jumping.VEParentMom_JumpingController();
+			HAT_MBA_Jumping.HATParentMom_JumpingController();
 
-			VE_MBA_Turning.VEParentMom_TurningController();	
+			HAT_MBA_Turning.HATParentMom_TurningController();	
 
-			VE_MBA_Strafe.VEParentMom_StrafingController();
+			HAT_MBA_Strafe.HATParentMom_StrafingController();
 		}
 	}
 }

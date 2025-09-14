@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Pheromosa
 {
-	public class PH_Animator : MonoBehaviour 
+	public class PHParents_Animator : MonoBehaviour 
 	{
 		
 	}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Jumping
 {
 	public class LE_Jumping : MonoBehaviour 
 	{

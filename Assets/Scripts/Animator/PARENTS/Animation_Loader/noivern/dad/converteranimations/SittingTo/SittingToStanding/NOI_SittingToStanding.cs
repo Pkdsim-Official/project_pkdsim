@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class NOISittingToStanding : MonoBehaviour 
+	public class NOIParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void NOISittingToStandingController()
+		public void NOIParentDad_SittingToStandingController()
 		{
 			
 		}

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Hatterene.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Hatterene.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Hatterene.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Hatterene.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.idlebaseanimation
 {
 	public class Hatterene_IdleAnimatorController : MonoBehaviour 
 	{

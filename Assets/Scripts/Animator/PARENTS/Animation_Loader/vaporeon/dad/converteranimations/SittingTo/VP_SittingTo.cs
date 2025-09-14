@@ -1,22 +1,25 @@
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.SittingTo
 {
-	public class VP_SittingTo : MonoBehaviour 
+	public class VPParentDad_SittingTo : MonoBehaviour 
 	{
-		
-		public void VP_SittingToController()
+		private VPParentDad_SittingToStanding VaporeonParentDad_sittingtostanding;
+		private VPParentDad_SittingToStartWalking VaporeonParentDad_sittingtostartwalking;
+		public void VPParentDad_SittingToController()
 		{
-			// Load_VP_SittingToRun();
-			// Load_VP_SittingToWalk();
+			Load_VPParentDad_SittingToRun();
+			Load_VPParentDad_SittingToWalk();
 		}
-		private void Load_VP_SittingToRun()
+		private void Load_VPParentDad_SittingToRun()
 		{
-			
+			VaporeonParentDad_sittingtostanding.VPParentDad_SittingToStandingController();
 		}
-		private void Load_VP_SittingToWalk()
+		private void Load_VPParentDad_SittingToWalk()
 		{
-			
+			VaporeonParentDad_sittingtostartwalking.VPParentDad_SittingToStartWalkingController();
 		}
 	}
 }

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Absol.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Absol.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Absol.movementbasedanimations.Turning
 {
 	public class AB_Turning : MonoBehaviour	
 	{

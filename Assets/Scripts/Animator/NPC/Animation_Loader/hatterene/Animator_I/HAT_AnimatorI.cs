@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Hatterene.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Hatterene.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Hatterene.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Hatterene.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.Animator_I
 {
 	public class LFS_HattereneFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Hatterene.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private HattereneCoverterAnimatorController LFSHatterene_AnimatorCCA;
-		private Hatterene_AnimatorBaseMovementController LFSHatterene_AnimatorCMA;
+		private Hatterene_MovementAnimatorController LFSHatterene_AnimatorCMA;
 		private Hatterene_IdleAnimatorController LFSHatterene_AnimatorICA;
 
 

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Turning.TurnLeft
 {
-	public class VEParentMom_TurnLeft : MonoBehaviour 
+	public class LEParentMom_TurnLeft : MonoBehaviour 
 	{
-		public void VEParentMom_TurnLeftController()
+		public void LEParentMom_TurnLeftController()
 		{
 			
 		}

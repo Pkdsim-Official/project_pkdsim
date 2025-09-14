@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.converteranimations.IdleTo.IdleToRun
 {
-	public class VEParentMom_IdleToRun : MonoBehaviour 
+	public class DRParentMom_IdleToRun : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
-		public void VEParentMom_IdleToRunController()
+		private Animator DragapultParentMom_Animator;
+		public void DRParentMom_IdleToRunController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("Idle_Sitting");  // Start in the Idle animation state
+			DragapultParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			DragapultParentMom_Animator.Play("Idle_Sitting");  // Start in the Idle animation state
 		}
 	}
 }

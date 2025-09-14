@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class LOParent_TurnRight : MonoBehaviour 
+    public class LOParentDad_TurnRight : MonoBehaviour 
     {
-        public void LOParent_TurnRightController()
+        public void LOParentDad_TurnRightController()
         {
 
         }

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Player.movementbasedanimations
 {
-	public class Player_AnimatorBaseMovementController : MonoBehaviour 
+	public class Player_MovementAnimatorController : MonoBehaviour 
 	{
 		private Player_Jumping Player_MBA_Jumping;
 		

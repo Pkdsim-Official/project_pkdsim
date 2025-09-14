@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Turning
 {
 	public class LEParent_Turning : MonoBehaviour	
 	{

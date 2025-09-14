@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Turning
 {
-	public class UMParent_Turning : MonoBehaviour	
+	public class UMParentDad_Turning : MonoBehaviour	
 	{
-		private UMParent_TurnLeft UMParent_TurnLeft;
-		private UMParent_TurnRight UMParent_TurnRight;
+		private UMParentDad_TurnLeft UMParentDad_TurnLeft;
+		private UMParentDad_TurnRight UMParentDad_TurnRight;
 
-		public void UMParent_TurningController()
+		public void UMParentDad_TurningController()
 		{
-			if (UMParent_TurnLeft == null)
+			if (UMParentDad_TurnLeft == null)
 			{
-				Load_UMParent_TurnLeft();
+				Load_UMParentDad_TurnLeft();
 			}
-			if (UMParent_TurnRight == null)
+			if (UMParentDad_TurnRight == null)
 			{
-				Load_UMParent_TurnRight();
+				Load_UMParentDad_TurnRight();
 			}
 		}
 
-		private void Load_UMParent_TurnRight()
+		private void Load_UMParentDad_TurnRight()
 		{
-			UMParent_TurnRight.UMParent_TurnRightController();
+			UMParentDad_TurnRight.UMParentDad_TurnRightController();
 		}
 		
-		private void Load_UMParent_TurnLeft()
+		private void Load_UMParentDad_TurnLeft()
 		{
-			UMParent_TurnLeft.UMParent_TurnLeftController();
+			UMParentDad_TurnLeft.UMParentDad_TurnLeftController();
 		}
 	}
 }

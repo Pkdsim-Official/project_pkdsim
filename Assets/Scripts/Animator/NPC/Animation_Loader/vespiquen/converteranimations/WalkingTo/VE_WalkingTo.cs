@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.WalkingTo
 {
 		public class VE_WalkingTo : MonoBehaviour 
 	{

@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class UM_IdleToWalk : MonoBehaviour 
+	public class UMParentDad_IdleToWalk : MonoBehaviour 
 	{
-		
+		public void UMParentDad_IdleToWalkController() 
+		{
+
+		}
 	}
 }

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Strafing.StrafeLeft
 {
-	public class PH_StrafeLeft : MonoBehaviour 
+	public class PHParentDad_StrafeLeft : MonoBehaviour 
 	{
-		public void PH_StrafeLeftController() 
+		public void PHParentDad_StrafeLeftController() 
 		{
 			
 		}

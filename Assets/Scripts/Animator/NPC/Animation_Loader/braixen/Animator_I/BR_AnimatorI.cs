@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Braixen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Braixen.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Braixen.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Braixen.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Braixen.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Braixen.Animator_I
 {
 	public class LFS_BraixenFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private BraixenCoverterAnimatorController LFSBraixen_AnimatorCCA;
-		private Braixen_AnimatorBaseMovementController LFSBraixen_AnimatorCMA;
+		private Braixen_MovementAnimatorController LFSBraixen_AnimatorCMA;
 		private Braixen_IdleAnimatorController LFSBraixen_AnimatorICA;
 
 

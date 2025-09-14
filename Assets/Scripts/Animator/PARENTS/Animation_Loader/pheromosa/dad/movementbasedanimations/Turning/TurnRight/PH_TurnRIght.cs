@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class PHParent_TurnRight : MonoBehaviour 
+    public class PHParentDad_TurnRight : MonoBehaviour 
     {
-        public void PHParent_TurnRightController()
+        public void PHParentDad_TurnRightController()
         {
 
         }

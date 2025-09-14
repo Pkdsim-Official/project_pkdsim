@@ -1,16 +1,16 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.Animator_I
 {
-	public class LFS_NoivernFailSafe : MonoBehaviour 
+	public class LFS_NoivernFailSafe : MonoBehaviour
 	{
-		public Animator Noivern_Animator;
+		public Animator NoivernParentDad_Animator;
 		public RuntimeAnimatorController someController;
 		private NoivernConverterAnimatorController LFSNoivern_AnimatorCCA;
-		private NoivernParent_AnimatorBaseMovementController LFSNoivern_AnimatorCMA;
+		private NoivernParentDad_MovementAnimatorController LFSNoivern_AnimatorCMA;
 		private Noivern_IdleAnimatorController LFSNoivern_AnimatorICA;
 
 
@@ -22,15 +22,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Noivern.Animator_I
 		}
 		private void LoadFailSafeNoivern_ConvertToAnimatorController()
 		{
-			LFSNoivern_AnimatorCCA.NOIConverterToAnimatorController();
+			LFSNoivern_AnimatorCCA.NOIParentDad_ConverterAnimatorController();
 		}
 		private void LoadFailSafeNoivern_MovementAnimatorController()
 		{
-			LFSNoivern_AnimatorCMA.NOIMovementAnimatorController();
+			LFSNoivern_AnimatorCMA.NOIParentDad_MovementAnimatorController();
 		}
 		private void LoadFailSafeNoivern_IdleAnimatorController()
 		{
-			LFSNoivern_AnimatorICA.NOI_IdleAnimatorController();
+			LFSNoivern_AnimatorICA.NOIParentDad_IdleAnimatorController();
 		}
 	}
 }

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations.SittingTo
 {
 	public class T_SittingTo : MonoBehaviour 
 	{

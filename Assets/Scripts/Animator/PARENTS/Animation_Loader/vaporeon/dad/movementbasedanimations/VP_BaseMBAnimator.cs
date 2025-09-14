@@ -1,30 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations
 {
-	public class VaporeonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class VaporeonParentDad_MovementAnimatorController : MonoBehaviour
 	{
-		private VPParent_Jumping VP_MBA_Jumping;
-		
-		private VPParent_Running VP_MBA_Running;
+		private VPParentDad_Jumping VPParentDad_MBA_Jumping;
 
-		private VPParent_Turning VP_MBA_Turning;
+		private VPParentDad_Running VPParentDad_MBA_Running;
 
-		private VPParent_Strafing VP_MBA_Strafe;
+		private VPParentDad_Turning VPParentDad_MBA_Turning;
 
-		private void VP_Base_IdleAnimatorController()
+		private VPParentDad_Strafing VPParentDad_MBA_Strafe;
+
+		public void VPParentDad_MovementAnimatorController()
 		{
-			VP_MBA_Running.VPParent_RunningController();
+			VPParentDad_MBA_Running.VPParentDad_RunningController();
 
-			VP_MBA_Jumping.VPParent_JumpingController();
+			VPParentDad_MBA_Jumping.VPParentDad_JumpingController();
 
-			VP_MBA_Turning.VPParent_TurningController();	
+			VPParentDad_MBA_Turning.VPParentDad_TurningController();
 
-			VP_MBA_Strafe.VPParent_StrafingController();
+			VPParentDad_MBA_Strafe.VPParentDad_StrafingController();
 		}
 	}
 }

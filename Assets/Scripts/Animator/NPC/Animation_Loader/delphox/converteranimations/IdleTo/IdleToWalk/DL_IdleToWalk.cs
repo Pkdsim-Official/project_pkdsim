@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.IdleTo.IdleToWalk
 {
 	public class DL_IdleToWalk : MonoBehaviour 
 	{

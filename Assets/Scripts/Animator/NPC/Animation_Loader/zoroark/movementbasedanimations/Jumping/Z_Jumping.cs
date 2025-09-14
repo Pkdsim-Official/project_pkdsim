@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Jumping
 {
 	public class Z_Jumping : MonoBehaviour 
 	{

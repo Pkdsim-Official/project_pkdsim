@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation
 {
-	public class Pheromosa_IdleAnimatorController : MonoBehaviour 
+	public class PheromosaParentDad_IdleAnimatorController : MonoBehaviour
 	{
-		private PHIdleStanding PHidlestanding;
-		
-		private PHIdleSitting PHidlesitting;
-		
-		public void	PH_IdleAnimatorController()
+		private PHParentDad_IdleStanding PHParentDadidlestanding;
+
+		private PHParentDad_IdleSitting PHParentDadidlesitting;
+
+		public void PHParentDad_IdleAnimatorController()
 		{
-			PHIdleStandingAnimatorController();
-			PHIdleSittingAnimatorController();
+			PHParentDad_IdleStandingAnimatorController();
+			PHParentDad_IdleSittingAnimatorController();
 		}
-		private void PHIdleStandingAnimatorController()
+		private void PHParentDad_IdleStandingAnimatorController()
 		{
-			PHidlestanding.PHIdleStandingController();
+			PHParentDadidlestanding.PHParentDad_IdleStandingController();
 		}
-		private void PHIdleSittingAnimatorController()
+		private void PHParentDad_IdleSittingAnimatorController()
 		{
-			PHidlesitting.PHIdleSittingController();
+			PHParentDadidlesitting.PHParentDad_IdleSittingController();
 		}
 	}
 }

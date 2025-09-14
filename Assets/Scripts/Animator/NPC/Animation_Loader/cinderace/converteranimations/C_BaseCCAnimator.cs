@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations
 {
 	public class CinderaceCoverterAnimatorController : MonoBehaviour 
 	{

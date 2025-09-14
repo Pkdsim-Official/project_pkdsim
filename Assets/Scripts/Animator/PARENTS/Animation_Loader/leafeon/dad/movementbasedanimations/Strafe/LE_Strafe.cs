@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Strafing
 {
 	public class LEParent_Strafing : MonoBehaviour 
 	{

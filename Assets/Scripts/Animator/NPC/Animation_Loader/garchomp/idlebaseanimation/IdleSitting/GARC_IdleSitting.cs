@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Garchomp.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Garchomp.idlebaseanimation.IdleSitting
 {
 	public class GARC_IdleSitting : MonoBehaviour 
 	{

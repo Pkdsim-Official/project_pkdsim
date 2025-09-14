@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.WalkingTo
 {
-	public class C_WalkingTo : MonoBehaviour 
+	public class CParentDad_WalkingTo : MonoBehaviour
 	{
-		private C_WalkingToSitting CinderaceWalkingToSitting;
-		private C_WalkingToStanding CinderaceWalkingToStanding;
-		public void C_WalkingToController()
+		private CParentDad_WalkingToSitting CinderaceParentDadWalkingToSitting;
+		private CParentDad_WalkingToStanding CinderaceParentDadWalkingToStanding;
+		public void CParentDad_WalkingToController()
 		{
-			C_WalkingToStartWalking();
-			C_WalkingToStanding();
+			CParentDad_WalkingToStartWalking();
+			CParentDad_WalkingToStanding();
 		}
-		private void C_WalkingToStartWalking()
+		private void CParentDad_WalkingToStartWalking()
 		{
-			CinderaceWalkingToSitting.C_WalkingToSittingController();
+			CinderaceParentDadWalkingToSitting.CParentDad_WalkingToSittingController();
 		}
-		private void C_WalkingToStanding()
+		private void CParentDad_WalkingToStanding()
 		{
-			CinderaceWalkingToStanding.C_WalkingToStandingController();
+			CinderaceParentDadWalkingToStanding.CParentDad_WalkingToStandingController();
 		}
 	}
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.IdleTo.IdleToRun
 {
 	public class C_IdleToRun : MonoBehaviour 
 	{

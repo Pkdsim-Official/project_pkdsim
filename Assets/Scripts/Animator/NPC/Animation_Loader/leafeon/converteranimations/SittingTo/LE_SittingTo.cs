@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Leafeon.converteranimations.SittingTo
 {
 	public class LE_SittingTo : MonoBehaviour 
 	{

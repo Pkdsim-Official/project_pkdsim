@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Running
 {
 	public class SYL_Running : MonoBehaviour 
 	{

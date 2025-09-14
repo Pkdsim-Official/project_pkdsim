@@ -1,15 +1,15 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.idlebaseanimation.IdleStanding
 {
-	public class BE_IdleStanding : MonoBehaviour 
+	public class BEParentDad_IdleStanding : MonoBehaviour 
 	{
-		public Animator Beedrill_Animator;
-		public void BE_IdleStandingController()
+		public Animator BeedrillParentDad_Animator;
+		public void BEParentDad_IdleStandingController()
 		{
 			// Assign the idle animation clip
-			Beedrill_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Beedrill_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			BeedrillParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			BeedrillParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

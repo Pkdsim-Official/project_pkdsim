@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations
 {
-	public class Sylveon_ConverterAnimatorController : MonoBehaviour 
+	public class SylveonParentDad_ConverterAnimatorController : MonoBehaviour
 	{
-		private SYL_SittingTo Sylveon_sittingto;
-		
-		private SYL_WalkingTo Sylveon_walkingto;
-		
-		private SYL_IdleTo Sylveon_idleto;
+		private SYLParentDad_SittingTo Sylveon_sittingto;
 
-		public void SYL_ConverterToAnimatorController()
+		private SYLParentDad_WalkingTo Sylveon_walkingto;
+
+		private SYLParentDad_IdleTo Sylveon_idleto;
+
+		public void SYLParentDad_ConverterAnimatorController()
 		{
-			Sylveon_walkingto.SYL_WalkingToController();
+			Sylveon_walkingto.SYLParentDad_WalkingToController();
 
-			Sylveon_idleto.SYL_IdleToController();
-			
-			Sylveon_sittingto.SYL_SittingToController();	
+			Sylveon_idleto.SYLParentDad_IdleToController();
+
+			Sylveon_sittingto.SYLParentDad_SittingToController();
 		}
 	}
 }

@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning
 {
-	public class BEParent_Turning : MonoBehaviour	
+	public class BEParentDad_Turning : MonoBehaviour	
 	{
-		private BEParent_TurnLeft BEParent_TurnLeft;
-		private BEParent_TurnRight BEParent_TurnRight;
+		private BEParentDad_TurnLeft BEParentDad_TurnLeft;
+		private BEParentDad_TurnRight BEParentDad_TurnRight;
 
-		public void BEParent_TurningController()
+		public void BEParentDad_TurningController()
 		{
-			if (BEParent_TurnLeft == null)
+			if (BEParentDad_TurnLeft == null)
 			{
-				Load_BEParent_TurnLeft();
+				Load_BEParentDad_TurnLeft();
 			}
-			if (BEParent_TurnRight == null)
+			if (BEParentDad_TurnRight == null)
 			{
-				Load_BEParent_TurnRight();
+				Load_BEParentDad_TurnRight();
 			}
 		}
 
-		private void Load_BEParent_TurnRight()
+		private void Load_BEParentDad_TurnRight()
 		{
-			BEParent_TurnRight.BEParent_TurnRightController();
+			BEParentDad_TurnRight.BEParentDad_TurnRightController();
 		}
 		
-		private void Load_BEParent_TurnLeft()
+		private void Load_BEParentDad_TurnLeft()
 		{
-			BEParent_TurnLeft.BEParent_TurnLeftController();
+			BEParentDad_TurnLeft.BEParentDad_TurnLeftController();
 		}
 	}
 }

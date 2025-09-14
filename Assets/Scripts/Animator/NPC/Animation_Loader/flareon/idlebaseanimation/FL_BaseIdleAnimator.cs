@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Flareon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Flareon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.idlebaseanimation
 {
 	public class Flareon_AnimatorIdleController : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.WalkingTo
 {
 	public class DL_WalkingTo : MonoBehaviour 
 	{

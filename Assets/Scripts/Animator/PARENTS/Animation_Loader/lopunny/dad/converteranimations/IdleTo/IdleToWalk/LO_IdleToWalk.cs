@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class LOIdleToWalk : MonoBehaviour 
+	public class LOParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void LOIdleToWalkController() 
+		public void LOParentDad_IdleToWalkController() 
 		{
 			
 		}

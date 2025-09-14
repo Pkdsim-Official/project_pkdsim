@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Npcs.Beedrill.converteranimations.IdleTo.IdleToRun
 {
 	public class BE_IdleToRun : MonoBehaviour 
 	{

@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.WalkingTo
 {
-	public class PHWalkingTo : MonoBehaviour 
+	public class PHParentDad_WalkingTo : MonoBehaviour 
 	{
-		private PHWalkingToSitting PheromosaWalkingToSitting;
-		private PHWalkingToStanding PheromosaWalkingToStanding;
-		public void PHWalkingToController() 
+		private PHParentDad_WalkingToSitting PheromosaWalkingToSitting;
+		private PHParentDad_WalkingToStanding PheromosaWalkingToStanding;
+		public void PHParentDad_WalkingToController() 
 		{
-			Load_PHWalkingToSitting();
-			Load_PHWalkingToStanding();
+			Load_PHParentDad_WalkingToSitting();
+			Load_PHParentDad_WalkingToStanding();
 		}
-		private void Load_PHWalkingToStanding()
+		private void Load_PHParentDad_WalkingToStanding()
 		{
-			PheromosaWalkingToStanding.PHWalkingToStandingController();
+			PheromosaWalkingToStanding.PHParentDad_WalkingToStandingController();
 		}
-		private void Load_PHWalkingToSitting()
+		private void Load_PHParentDad_WalkingToSitting()
 		{
-			PheromosaWalkingToSitting.PHWalkingToSittingController();
+			PheromosaWalkingToSitting.PHParentDad_WalkingToSittingController();
 		}
 	}
 }

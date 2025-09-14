@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.idlebaseanimation.IdleStanding
 {
 	public class DRIdleStanding : MonoBehaviour 
 	{

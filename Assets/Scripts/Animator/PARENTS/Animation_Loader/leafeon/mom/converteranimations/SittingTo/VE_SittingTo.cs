@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class LEParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking LeafeonParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding LeafeonParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private LEParentMom_SittingToStartWalking LeafeonParentMomSittingToStartWalking;
+		private LEParentMom_SittingToStanding LeafeonParentMomSittingToStanding;
+		public void LEParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			LEParentMom_SittingToStartWalking();
+			LEParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void LEParentMom_SittingToStartWalking()
 		{
-			LeafeonParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			LeafeonParentMomSittingToStartWalking.LEParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void LEParentMom_SittingToStanding()
 		{
-			LeafeonParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			LeafeonParentMomSittingToStanding.LEParentMom_SittingToStandingController();
 		}
 
 	}

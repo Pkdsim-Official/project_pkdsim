@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.Player.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private PlayerCoverterAnimatorController LFSPlayer_AnimatorCCA;
-		private Player_AnimatorBaseMovementController LFSPlayer_AnimatorCMA;
+		private Player_MovementAnimatorController LFSPlayer_AnimatorCMA;
 		private Player_IdleAnimatorController LFSPlayer_AnimatorICA;
 
 		public void LoadFailSafePlayer_AnimatorController()

@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.idlebaseanimation.IdleSitting
 {
-	public class NOIIdleSitting : MonoBehaviour 
+	public class NOIParentDad_IdleSitting : MonoBehaviour 
 	{
-		private Animator Noivern_Animator;
-		public void NOIIdleSittingController()
+		private Animator NoivernParentDad_Animator;
+		public void NOIParentDad_IdleSittingController()
 		{
-			Noivern_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Noivern_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			NoivernParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			NoivernParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

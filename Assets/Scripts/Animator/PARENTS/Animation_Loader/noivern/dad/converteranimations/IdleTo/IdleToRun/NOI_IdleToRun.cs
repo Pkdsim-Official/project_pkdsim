@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class NOIIdleToRun : MonoBehaviour 
+	public class NOIParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void NOIIdleToRunController() 
+		public void NOIParentDad_IdleToRunController() 
 		{
 			
 		}

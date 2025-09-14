@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations
 		
 		private PRIdleTo Primarinaidleto;
 
-		public void PRConverterToAnimatorController()
+		public void PRConverterAnimatorController()
 		{
 			Primarinawalkingto.PRWalkingToController();
 

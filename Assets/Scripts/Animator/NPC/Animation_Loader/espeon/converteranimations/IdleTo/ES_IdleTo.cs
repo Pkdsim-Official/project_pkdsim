@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Espeon.converteranimations.IdleTo
 {
 	public class ES_IdleTo : MonoBehaviour 
 	{

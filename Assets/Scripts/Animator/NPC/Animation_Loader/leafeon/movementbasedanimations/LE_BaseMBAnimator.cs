@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Leafeon.movementbasedanimations
 {
-	public class Leafeon_AnimatorBaseMovementController : MonoBehaviour 
+	public class Leafeon_MovementAnimatorController : MonoBehaviour 
 	{
 		private LE_Jumping LE_MBA_Jumping;
 		

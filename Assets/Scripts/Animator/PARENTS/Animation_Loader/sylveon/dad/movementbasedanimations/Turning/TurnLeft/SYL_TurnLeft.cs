@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Turning.TurnLeft
 {
-	public class SYLParent_TurnLeft : MonoBehaviour 
+	public class SYLParentDad_TurnLeft : MonoBehaviour 
 	{
-		public void SYLParent_TurnLeftController() 
+		public void SYLParentDad_TurnLeftController() 
 		{
 			
 		}

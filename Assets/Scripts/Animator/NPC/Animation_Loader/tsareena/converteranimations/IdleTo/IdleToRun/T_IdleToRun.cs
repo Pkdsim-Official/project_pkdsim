@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Npcs.Tsareena.converteranimations.IdleTo.IdleToRun
 {
 	public class T_IdleToRun : MonoBehaviour 
 	{

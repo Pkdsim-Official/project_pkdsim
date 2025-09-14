@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.WalkingTo
 {
-		public class VEParentMom_WalkingTo : MonoBehaviour 
+		public class FLParentMom_WalkingTo : MonoBehaviour 
 	{
-		private VEParentMom_WalkingToSitting FlareonParentMomWalkingToSitting;
-		private VEParentMom_WalkingToStanding FlareonParentMomWalkingToStanding;
-		public void VEParentMom_WalkingToController()
+		private FLParentMom_WalkingToSitting FlareonParentMomWalkingToSitting;
+		private FLParentMom_WalkingToStanding FlareonParentMomWalkingToStanding;
+		public void FLParentMom_WalkingToController()
 		{
-			VEParentMom_WalkingToStartWalking();
-			VEParentMom_WalkingToStanding();
+			FLParentMom_WalkingToStartWalking();
+			FLParentMom_WalkingToStanding();
 		}
-		private void VEParentMom_WalkingToStartWalking()
+		private void FLParentMom_WalkingToStartWalking()
 		{
-			FlareonParentMomWalkingToSitting.VEParentMom_WalkingToSittingController();
+			FlareonParentMomWalkingToSitting.FLParentMom_WalkingToSittingController();
 		}
-		private void VEParentMom_WalkingToStanding()
+		private void FLParentMom_WalkingToStanding()
 		{
-			FlareonParentMomWalkingToStanding.VEParentMom_WalkingToStandingController();
+			FlareonParentMomWalkingToStanding.FLParentMom_WalkingToStandingController();
 		}
 	}
 }

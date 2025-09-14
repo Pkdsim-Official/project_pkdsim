@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Turning
 {
 	public class ESParent_Turning : MonoBehaviour	
 	{

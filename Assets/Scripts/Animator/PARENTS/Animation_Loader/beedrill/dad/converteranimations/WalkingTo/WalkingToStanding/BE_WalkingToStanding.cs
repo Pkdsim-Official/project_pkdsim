@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class BE_WalkingToStanding : MonoBehaviour 
+	public class BEParentDad_WalkingToStanding : MonoBehaviour 
 	{
-		public void BE_WalkingToStandingController() 
+		public void BEParentDad_WalkingToStandingController() 
 		{
 			
 		}

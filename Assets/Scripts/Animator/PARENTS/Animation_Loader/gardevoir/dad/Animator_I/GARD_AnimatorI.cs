@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Animator_I
 {
 	public class LFS_GardevoirFailSafe : MonoBehaviour 
 	{
-		public Animator Gardevoir_Animator;
+		public Animator GardevoirParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private GardevoirConverterAnimatorController LFSGardevoir_AnimatorCCA;
-		private GardevoirParent_AnimatorBaseMovementController LFSGardevoir_AnimatorCMA;
+		private GardevoirParentDad_MovementAnimatorController LFSGardevoir_AnimatorCMA;
 		private Gardevoir_IdleAnimatorController LFSGardevoir_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Animator_I
 		}
 		private void LoadFailSafeGardevoir_ConvertToAnimatorController()
 		{
-			LFSGardevoir_AnimatorCCA.GARD_ConverterToAnimatorController();
+			LFSGardevoir_AnimatorCCA.GARD_ConverterAnimatorController();
 		}
 		private void LoadFailSafeGardevoir_MovementAnimatorController()
 		{

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations.SittingTo.SittingToStanding
 {
-	public class VEParentMom_SittingToStanding : MonoBehaviour 
+	public class TParentMom_SittingToStanding : MonoBehaviour 
 	{
-		public void VEParentMom_SittingToStandingController()
+		public void TParentMom_SittingToStandingController()
 		{
 			
 		}

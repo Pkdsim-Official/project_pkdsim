@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.SittingTo.SittingToStanding
 {
 	public class FL_SittingToStanding : MonoBehaviour
 	{

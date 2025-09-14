@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations
 		
 		private SA_IdleTo Salazzle_idleto;
 
-		public void SA_ConverterToAnimatorController()
+		public void SA_ConverterAnimatorController()
 		{
 			Salazzle_walkingto.SA_WalkingToController();
 

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Pheromosa.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Pheromosa.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Pheromosa.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Pheromosa.idlebaseanimation
 {
 	public class Pheromosa_IdleAnimatorController : MonoBehaviour 
 	{

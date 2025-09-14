@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.SittingTo
 {
-	public class NOISittingTo : MonoBehaviour 
+	public class NOIParentDad_SittingTo : MonoBehaviour
 	{
-		private NOISittingToStartWalking NoivernsittingToStartWalking;
-		private NOISittingToStanding NoivernsittingToStanding;
-		public void NOISittingToController()
+		private NOIParentDad_SittingToStartWalking NoivernParentDadsittingToStartWalking;
+		private NOIParentDad_SittingToStanding NoivernParentDadsittingToStanding;
+		public void NOIParentDad_SittingToController()
 		{
-			NOISittingToStartWalking();
-			NOISittingToStanding();
+			NOIParentDad_SittingToStartWalking();
+			NOIParentDad_SittingToStanding();
 		}
-		private void NOISittingToStartWalking()
+		private void NOIParentDad_SittingToStartWalking()
 		{
-			NoivernsittingToStartWalking.NOISittingToStartWalkingController();
+			NoivernParentDadsittingToStartWalking.NOIParentDad_SittingToStartWalkingController();
 		}
-		private void NOISittingToStanding()
+		private void NOIParentDad_SittingToStanding()
 		{
-			NoivernsittingToStanding.NOISittingToStandingController();
+			NoivernParentDadsittingToStanding.NOIParentDad_SittingToStandingController();
 		}
 	}
 }

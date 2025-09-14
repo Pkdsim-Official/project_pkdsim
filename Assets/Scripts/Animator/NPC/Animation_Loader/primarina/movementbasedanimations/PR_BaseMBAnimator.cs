@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations
 {
-	public class Primarina_AnimatorBaseMovementController : MonoBehaviour 
+	public class Primarina_MovementAnimatorController : MonoBehaviour 
 	{
 		private PR_Jumping Primarina_MBA_Jumping;
 		

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class NOI_StrafeRight : MonoBehaviour
+	public class NOIParentDad_StrafeRight : MonoBehaviour
 	{
-		public void NOI_StrafeRightController() 
+		public void NOIParentDad_StrafeRightController() 
 		{
 			
 		}

@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class VEParentMom_WalkingToSitting : MonoBehaviour 
+	public class GARCParentMom_WalkingToSitting : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
-		public void VEParentMom_WalkingToSittingController()
+		private Animator GarchompParentMom_Animator;
+		public void GARCParentMom_WalkingToSittingController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("WalkingTo_Sitting");         // Start in the WalkingTo animation state
+			GarchompParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			GarchompParentMom_Animator.Play("WalkingTo_Sitting");         // Start in the WalkingTo animation state
 		}
 	}
 }

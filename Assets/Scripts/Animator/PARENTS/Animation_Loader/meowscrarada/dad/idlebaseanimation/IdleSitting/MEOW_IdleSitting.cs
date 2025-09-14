@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.idlebaseanimation.IdleSitt
 {
 	public class MEOWIdleSitting : MonoBehaviour 
 	{
-		private Animator Meowscarada_Animator;
+		private Animator MeowscaradaParentDad_Animator;
 		public void MEOWIdleSittingController()
 		{
-			Meowscarada_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Meowscarada_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			MeowscaradaParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			MeowscaradaParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

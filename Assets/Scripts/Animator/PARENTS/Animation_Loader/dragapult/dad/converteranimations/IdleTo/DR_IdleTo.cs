@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.IdleTo
 {
 	public class DRIdleTo : MonoBehaviour 
 	{

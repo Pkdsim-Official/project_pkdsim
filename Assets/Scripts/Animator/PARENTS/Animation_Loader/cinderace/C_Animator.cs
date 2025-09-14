@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Cinderace
 {
-	public class C_Animator : MonoBehaviour 
+	public class CParents_Animator : MonoBehaviour 
 	{
 		
 	}

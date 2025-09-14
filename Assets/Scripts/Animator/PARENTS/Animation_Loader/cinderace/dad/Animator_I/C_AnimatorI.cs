@@ -1,19 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.Animator_I
 {
-	public class LFS_CinderaceFailSafe : MonoBehaviour 
+	public class LFS_CinderaceFailSafe : MonoBehaviour
 	{
-		public Animator Cinderace_Animator;
+		public Animator CinderaceParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private CinderaceConverterAnimatorController LFSCinderace_AnimatorCCA;
-		private CinderaceParent_AnimatorBaseMovementController LFSCinderace_AnimatorCMA;
-		private Cinderace_IdleAnimatorController LFSCinderace_AnimatorICA;
-
+		private CinderaceParentDad_ConverterAnimatorController LFSCinderace_AnimatorCCA;
+		private CinderaceParentDad_MovementAnimatorController LFSCinderace_AnimatorCMA;
+		private CinderaceParentDad_IdleAnimatorController LFSCinderace_AnimatorICA;
 
 		public void LoadFailSafeCinderace_AnimatorController()
 		{
@@ -23,7 +22,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Animator_I
 		}
 		private void LoadFailSafeCinderace_ConvertToAnimatorController()
 		{
-			LFSCinderace_AnimatorCCA.CConverterToAnimatorController();
+			LFSCinderace_AnimatorCCA.CParentDad_ConverterAnimatorController();
 		}
 		private void LoadFailSafeCinderace_MovementAnimatorController()
 		{
@@ -31,7 +30,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Animator_I
 		}
 		private void LoadFailSafeCinderace_IdleAnimatorController()
 		{
-			LFSCinderace_AnimatorICA.C_IdleAnimatorController();
+			LFSCinderace_AnimatorICA.CParentDad_IdleAnimatorController();
 		}
 	}
 }

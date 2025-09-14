@@ -1,15 +1,9 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon
 {
-	public class LE_Animator : MonoBehaviour 
+	public class LEParents_Animator : MonoBehaviour
 	{
-		public Animator Leafeon_Animator;
-		public RuntimeAnimatorController someController;
-		private void Leafeon_AnimatorController()
-		{
-			Leafeon_Animator = gameObject.GetComponent<Animator>();
-			Leafeon_Animator.runtimeAnimatorController = someController;
-		}
-	}
+        
+    }
 }

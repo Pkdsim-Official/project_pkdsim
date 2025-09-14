@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.IdleTo
 {
-	public class VEParentMom_IdleTo : MonoBehaviour 
+	public class JTParentMom_IdleTo : MonoBehaviour 
 	{
-		private VEParentMom_IdleToRun JolteonParentMomIdleToRun;
-		private VEParentMom_IdleToWalk JolteonParentMomIdleToWalk;
+		private JTParentMom_IdleToRun JolteonParentMomIdleToRun;
+		private JTParentMom_IdleToWalk JolteonParentMomIdleToWalk;
 
-		public void VEParentMom_IdleToController()
+		public void JTParentMom_IdleToController()
 		{
-			Load_VEParentMom_idleToRun();
-			Load_VEParentMom_idleToWalk();
+			Load_JTParentMom_idleToRun();
+			Load_JTParentMom_idleToWalk();
 		}
-		private void Load_VEParentMom_idleToRun()
+		private void Load_JTParentMom_idleToRun()
 		{
-			JolteonParentMomIdleToRun.VEParentMom_IdleToRunController();
+			JolteonParentMomIdleToRun.JTParentMom_IdleToRunController();
 		}
-		private void Load_VEParentMom_idleToWalk()
+		private void Load_JTParentMom_idleToWalk()
 		{
-			JolteonParentMomIdleToWalk.VEParentMom_IdleToWalkController();
+			JolteonParentMomIdleToWalk.JTParentMom_IdleToWalkController();
 		}
 	}
 }

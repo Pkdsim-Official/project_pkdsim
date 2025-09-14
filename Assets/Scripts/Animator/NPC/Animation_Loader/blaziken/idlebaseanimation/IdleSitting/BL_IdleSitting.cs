@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Blaziken.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Blaziken.idlebaseanimation.IdleSitting
 {
 	public class BL_IdleSitting : MonoBehaviour 
 	{

@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations
 {
-	public class Delphox_AnimatorBaseMovementController : MonoBehaviour 
+	public class Delphox_MovementAnimatorController : MonoBehaviour 
 	{
 		private DL_Jumping DL_MBA_Jumping;
 		

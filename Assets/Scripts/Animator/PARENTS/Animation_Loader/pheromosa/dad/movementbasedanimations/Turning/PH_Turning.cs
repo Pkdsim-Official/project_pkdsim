@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Turning
 {
-	public class PHParent_Turning : MonoBehaviour	
+	public class PHParentDad_Turning : MonoBehaviour	
 	{
-		private PHParent_TurnLeft PHParent_TurnLeft;
-		private PHParent_TurnRight PHParent_TurnRight;
+		private PHParentDad_TurnLeft PHParentDad_TurnLeft;
+		private PHParentDad_TurnRight PHParentDad_TurnRight;
 
-		public void PHParent_TurningController()
+		public void PHParentDad_TurningController()
 		{
-			if (PHParent_TurnLeft != null)
+			if (PHParentDad_TurnLeft != null)
 			{
-				Load_PHParent_TurnLeft();
+				Load_PHParentDad_TurnLeft();
 			}
 			
-			if (PHParent_TurnRight != null)
+			if (PHParentDad_TurnRight != null)
 			{
-				Load_PHParent_TurnRight();
+				Load_PHParentDad_TurnRight();
 			}
 			
 
 		}
-		private void Load_PHParent_TurnRight()
+		private void Load_PHParentDad_TurnRight()
 		{
-			PHParent_TurnRight.PHParent_TurnRightController();
+			PHParentDad_TurnRight.PHParentDad_TurnRightController();
 		}
 		
-		private void Load_PHParent_TurnLeft()
+		private void Load_PHParentDad_TurnLeft()
 		{
-			PHParent_TurnLeft.PHParent_TurnLeftController();
+			PHParentDad_TurnLeft.PHParentDad_TurnLeftController();
 		}
 	}
 }

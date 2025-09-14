@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.SittingTo
 {
 	public class DL_SittingTo : MonoBehaviour 
 	{

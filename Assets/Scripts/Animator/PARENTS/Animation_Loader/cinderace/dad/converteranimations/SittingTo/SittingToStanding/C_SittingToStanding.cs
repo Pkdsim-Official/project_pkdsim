@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class C_SittingToStanding : MonoBehaviour 
+	public class CParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void C_SittingToStandingController()
+		public void CParentDad_SittingToStandingController()
 		{
 			
 		}

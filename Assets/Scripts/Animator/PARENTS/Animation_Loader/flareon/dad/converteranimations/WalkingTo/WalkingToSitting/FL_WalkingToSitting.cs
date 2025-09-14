@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class FL_WalkingToSitting : MonoBehaviour 
-	{
-
+	public class FLParentDadDad_WalkingToSitting : MonoBehaviour 
+	{	
+		public void FLParentDadDad_WalkingToSittingController()
+		{
+			
+		}
 	}
 }

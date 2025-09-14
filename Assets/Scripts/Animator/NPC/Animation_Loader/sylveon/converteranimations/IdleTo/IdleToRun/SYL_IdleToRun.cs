@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.IdleTo.IdleToRun
 {
 	public class SYL_IdleToRun : MonoBehaviour 
 	{

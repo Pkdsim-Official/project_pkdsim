@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Lunala.Animator_I
 {
 	public class LFS_LunalaFailSafe : MonoBehaviour 
 	{
-		public Animator Lunala_Animator;
+		public Animator LunalaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private LunalaConverterAnimatorController LFSLunala_AnimatorCCA;
-		private LunalaParent_AnimatorBaseMovementController LFSLunala_AnimatorCMA;
+		private LunalaParentDad_MovementAnimatorController LFSLunala_AnimatorCMA;
 		private Lunala_IdleAnimatorController LFSLunala_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Lunala.Animator_I
 		}
 		private void LoadFailSafeLunala_ConvertToAnimatorController()
 		{
-			LFSLunala_AnimatorCCA.LUNAConverterToAnimatorController();
+			LFSLunala_AnimatorCCA.LUNAConverterAnimatorController();
 		}
 		private void LoadFailSafeLunala_MovementAnimatorController()
 		{

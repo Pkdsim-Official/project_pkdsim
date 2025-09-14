@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Beedrill.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Beedrill.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Beedrill.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Beedrill.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Beedrill.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Beedrill.idlebaseanimation
 {
 	public class Beedrill_IdleAnimatorController : MonoBehaviour 
 	{

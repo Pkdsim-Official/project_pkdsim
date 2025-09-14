@@ -1,16 +1,16 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing
 {
-	public class LOParent_Strafing : MonoBehaviour 
+	public class LOParentDad_Strafing : MonoBehaviour 
 	{
 		private LO_StrafeLeft LO_strafeleft;
 		
 		private LO_StrafeRight LO_straferight;
 
-		public void LOParent_StrafingController()
+		public void LOParentDad_StrafingController()
 		{
 			if (LO_strafeleft == null)
 			{

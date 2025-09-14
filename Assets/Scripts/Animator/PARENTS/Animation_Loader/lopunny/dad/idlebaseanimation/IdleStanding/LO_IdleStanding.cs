@@ -1,15 +1,15 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.idlebaseanimation.IdleStanding
 {
-	public class LOIdleStanding : MonoBehaviour 
+	public class LOParentDad_IdleStanding : MonoBehaviour 
 	{
-		public Animator Lopunny_Animator;
-		public void LOIdleStandingController()
+		public Animator LopunnyParentDad_Animator;
+		public void LOParentDad_IdleStandingController()
 		{
 			// Assign the idle animation clip
-			Lopunny_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Lopunny_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			LopunnyParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			LopunnyParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

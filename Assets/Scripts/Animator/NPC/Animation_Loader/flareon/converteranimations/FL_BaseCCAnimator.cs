@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.IdleTo;
 
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations
 {
 	public class Flareon_AnimatorConverterController : MonoBehaviour 
 	{

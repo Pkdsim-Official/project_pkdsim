@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Gardevoir.movementbasedanimations
 {
-	public class Gardevoir_AnimatorBaseMovementController : MonoBehaviour 
+	public class Gardevoir_MovementAnimatorController : MonoBehaviour 
 	{
 		private GARD_Jumping Gardevoir_MBA_Jumping;
 		

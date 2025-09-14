@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations
 {
 	public class DelphoxCoverterAnimatorController : MonoBehaviour 
 	{

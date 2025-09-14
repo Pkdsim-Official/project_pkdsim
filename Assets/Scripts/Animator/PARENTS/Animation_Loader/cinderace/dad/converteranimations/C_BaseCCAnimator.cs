@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations
 {
-	public class CinderaceConverterAnimatorController : MonoBehaviour 
+	public class CinderaceParentDad_ConverterAnimatorController : MonoBehaviour
 	{
-		private C_SittingTo CinderaceSittingto;
-		
-		private C_WalkingTo CinderaceWalkingto;
-		
-		private C_IdleTo CinderaceIdleto;
+		private CParentDad_SittingTo CinderaceSittingto;
 
-		public void CConverterToAnimatorController()
+		private CParentDad_WalkingTo CinderaceWalkingto;
+
+		private CParentDad_IdleTo CinderaceIdleto;
+
+		public void CParentDad_ConverterAnimatorController()
 		{
-			CinderaceWalkingto.C_WalkingToController();
+			CinderaceWalkingto.CParentDad_WalkingToController();
 
-			CinderaceIdleto.C_IdleToController();
-			
-			CinderaceSittingto.C_SittingToController();	
+			CinderaceIdleto.CParentDad_IdleToController();
+
+			CinderaceSittingto.CParentDad_SittingToController();
 		}
 	}
 }

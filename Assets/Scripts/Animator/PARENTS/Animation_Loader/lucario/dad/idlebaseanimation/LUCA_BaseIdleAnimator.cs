@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation
 {
-	public class Lucario_IdleAnimatorController : MonoBehaviour 
+	public class LucarioParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private LUCAIdleStanding LucarioIdleStanding;
+		private LUCAParentDad_IdleStanding LucarioIdleStanding;
 		
-		private LUCAIdleSitting LucarioIdleSitting;
+		private LUCAParentDad_IdleSitting LucarioIdleSitting;
 		
-		public void	LUCA_IdleAnimatorController()
+		public void	LUCAParentDad_IdleAnimatorController()
 		{
-			LUCAIdleStandingAnimatorController();
-			LUCAIdleSittingAnimatorController();
+			LUCAParentDad_IdleStandingAnimatorController();
+			LUCAParentDad_IdleSittingAnimatorController();
 		}
-		private void LUCAIdleStandingAnimatorController()
+		private void LUCAParentDad_IdleStandingAnimatorController()
 		{
-			LucarioIdleStanding.LUCAIdleStandingController();
+			LucarioIdleStanding.LUCAParentDad_IdleStandingController();
 		}
-		private void LUCAIdleSittingAnimatorController()
+		private void LUCAParentDad_IdleSittingAnimatorController()
 		{
-			LucarioIdleSitting.LUCAIdleSittingController();
+			LucarioIdleSitting.LUCAParentDad_IdleSittingController();
 		}
 	}
 }

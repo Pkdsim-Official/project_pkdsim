@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class HATSittingToStanding : MonoBehaviour 
+	public class HATParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void HATSittingToStandingController()
+		public void HATParentDad_SittingToStandingController()
 		{
 			
 		}

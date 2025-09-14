@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.idlebaseanimation.IdleSitting
 {
-	public class VEParentMom_IdleSitting : MonoBehaviour 
+	public class FRParentMom_IdleSitting : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
-		public void VEParentMom_IdleSittingController()
+		private Animator FrostlassParentMom_Animator;
+		public void FRParentMom_IdleSittingController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			FrostlassParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			FrostlassParentMom_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

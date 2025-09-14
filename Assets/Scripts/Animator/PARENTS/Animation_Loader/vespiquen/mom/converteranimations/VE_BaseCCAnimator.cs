@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations
 		
 		private VEParentMom_IdleTo VespiquenParentMomIdleto;
 
-		public void VEParentMom_ConverterToAnimatorController()
+		public void VEParentMom_ConverterAnimatorController()
 		{
 			VespiquenParentMomWalkingto.VEParentMom_WalkingToController();
 

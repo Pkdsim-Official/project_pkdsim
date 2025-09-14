@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Npcs.Braixen.converteranimations.IdleTo.IdleToRun
 {
 	public class BR_IdleToRun : MonoBehaviour 
 	{

@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class LUNAParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking LunalaParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding LunalaParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private LUNAParentMom_SittingToStartWalking LunalaParentMomSittingToStartWalking;
+		private LUNAParentMom_SittingToStanding LunalaParentMomSittingToStanding;
+		public void LUNAParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			LUNAParentMom_SittingToStartWalking();
+			LUNAParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void LUNAParentMom_SittingToStartWalking()
 		{
-			LunalaParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			LunalaParentMomSittingToStartWalking.LUNAParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void LUNAParentMom_SittingToStanding()
 		{
-			LunalaParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			LunalaParentMomSittingToStanding.LUNAParentMom_SittingToStandingController();
 		}
 
 	}

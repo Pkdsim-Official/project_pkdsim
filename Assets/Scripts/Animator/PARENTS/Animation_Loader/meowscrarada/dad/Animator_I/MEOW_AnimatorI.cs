@@ -7,11 +7,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Animator_I
 {
 	public class LFS_MeowscaradaFailSafe : MonoBehaviour 
 	{
-		public Animator Meowscarada_Animator;
+		public Animator MeowscaradaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private MeowscaradaConverterAnimatorController LFSMeowscarada_AnimatorCCA;
-		private MeowscaradaParent_AnimatorBaseMovementController LFSMeowscarada_AnimatorCMA;
+		private MeowscaradaParentDad_MovementAnimatorController LFSMeowscarada_AnimatorCMA;
 		private Meowscarada_IdleAnimatorController LFSMeowscarada_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Animator_I
 		}
 		private void LoadFailSafeMeowscarada_ConvertToAnimatorController()
 		{
-			LFSMeowscarada_AnimatorCCA.MEOWConverterToAnimatorController();
+			LFSMeowscarada_AnimatorCCA.MEOWConverterAnimatorController();
 		}
 		private void LoadFailSafeMeowscarada_MovementAnimatorController()
 		{

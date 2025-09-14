@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class HATParent_TurnRight : MonoBehaviour 
+    public class HATParentDad_TurnRight : MonoBehaviour 
     {
-        public void HATParent_TurnRightController()
+        public void HATParentDad_TurnRightController()
         {
 
         }

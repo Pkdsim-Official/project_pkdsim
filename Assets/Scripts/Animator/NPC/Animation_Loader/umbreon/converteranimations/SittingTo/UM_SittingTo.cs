@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Umbreon.converteranimations.SittingTo
 {
 	public class UM_SittingTo : MonoBehaviour 
 	{

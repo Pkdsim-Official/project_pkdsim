@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Garchomp.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Garchomp.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Garchomp.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Garchomp.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Garchomp.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Garchomp.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Garchomp.Animator_I
 {
 	public class LFS_GarchompFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private GarchompCoverterAnimatorController LFSGarchomp_AnimatorCCA;
-		private Garchomp_AnimatorBaseMovementController LFSGarchomp_AnimatorCMA;
+		private Garchomp_MovementAnimatorController LFSGarchomp_AnimatorCMA;
 		private Garchomp_IdleAnimatorController LFSGarchomp_AnimatorICA;
 
 

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class GLParent_TurnRight : MonoBehaviour 
+    public class GLParentDad_TurnRight : MonoBehaviour 
     {
-        public void GLParent_TurnRightController()
+        public void GLParentDad_TurnRightController()
         {
 
         }

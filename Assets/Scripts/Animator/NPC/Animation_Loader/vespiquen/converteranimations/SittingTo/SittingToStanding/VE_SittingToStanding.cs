@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.SittingTo.SittingToStanding
 {
 	public class VE_SittingToStanding : MonoBehaviour 
 	{

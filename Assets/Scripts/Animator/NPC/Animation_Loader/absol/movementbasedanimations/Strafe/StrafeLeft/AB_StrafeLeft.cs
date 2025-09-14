@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Absol.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.ANIMATOR.Npcs.Absol.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class ABStrafeLeft : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Salazzle.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Salazzle.movementbasedanimations.Running
 {
 	public class SA_Running : MonoBehaviour 
 	{

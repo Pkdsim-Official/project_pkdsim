@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.SittingTo
 {
 	public class FR_SittingTo : MonoBehaviour 
 	{

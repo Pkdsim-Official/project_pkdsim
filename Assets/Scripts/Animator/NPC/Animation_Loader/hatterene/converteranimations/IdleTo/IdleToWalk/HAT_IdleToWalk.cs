@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.converteranimations.IdleTo.IdleToWalk
 {
 	public class HAT_IdleToWalk : MonoBehaviour 
 	{

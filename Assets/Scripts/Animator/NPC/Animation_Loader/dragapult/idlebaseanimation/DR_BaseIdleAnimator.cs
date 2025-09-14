@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Dragapult.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Dragapult.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Dragapult.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Dragapult.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.idlebaseanimation
 {
 	public class Dragapult_IdleAnimatorController : MonoBehaviour 
 	{

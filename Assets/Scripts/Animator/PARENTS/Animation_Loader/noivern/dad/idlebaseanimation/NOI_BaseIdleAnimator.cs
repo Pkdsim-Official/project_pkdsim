@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Noivern.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.idlebaseanimation
 {
 	public class Noivern_IdleAnimatorController : MonoBehaviour 
 	{
-		private NOIIdleStanding Noivernidlestanding;
+		private NOIParentDad_IdleStanding NoivernParentDadidlestanding;
 		
-		private NOIIdleSitting Noivernidlesitting;
+		private NOIParentDad_IdleSitting NoivernParentDadidlesitting;
 		
-		public void	NOI_IdleAnimatorController()
+		public void	NOIParentDad_IdleAnimatorController()
 		{
-			NOIIdleStandingAnimatorController();
-			NOIIdleSittingAnimatorController();
+			NOIParentDad_IdleStandingAnimatorController();
+			NOIParentDad_IdleSittingAnimatorController();
 		}
-		private void NOIIdleStandingAnimatorController()
+		private void NOIParentDad_IdleStandingAnimatorController()
 		{
-			Noivernidlestanding.NOIIdleStandingController();
+			NoivernParentDadidlestanding.NOIParentDad_IdleStandingController();
 		}
-		private void NOIIdleSittingAnimatorController()
+		private void NOIParentDad_IdleSittingAnimatorController()
 		{
-			Noivernidlesitting.NOIIdleSittingController();
+			NoivernParentDadidlesitting.NOIParentDad_IdleSittingController();
 		}
 	}
 }

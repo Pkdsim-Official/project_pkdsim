@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.IdleTo
 {
-	public class VEParentMom_IdleTo : MonoBehaviour 
+	public class GARCParentMom_IdleTo : MonoBehaviour 
 	{
-		private VEParentMom_IdleToRun GarchompParentMomIdleToRun;
-		private VEParentMom_IdleToWalk GarchompParentMomIdleToWalk;
+		private GARCParentMom_IdleToRun GarchompParentMomIdleToRun;
+		private GARCParentMom_IdleToWalk GarchompParentMomIdleToWalk;
 
-		public void VEParentMom_IdleToController()
+		public void GARCParentMom_IdleToController()
 		{
-			Load_VEParentMom_idleToRun();
-			Load_VEParentMom_idleToWalk();
+			Load_GARCParentMom_idleToRun();
+			Load_GARCParentMom_idleToWalk();
 		}
-		private void Load_VEParentMom_idleToRun()
+		private void Load_GARCParentMom_idleToRun()
 		{
-			GarchompParentMomIdleToRun.VEParentMom_IdleToRunController();
+			GarchompParentMomIdleToRun.GARCParentMom_IdleToRunController();
 		}
-		private void Load_VEParentMom_idleToWalk()
+		private void Load_GARCParentMom_idleToWalk()
 		{
-			GarchompParentMomIdleToWalk.VEParentMom_IdleToWalkController();
+			GarchompParentMomIdleToWalk.GARCParentMom_IdleToWalkController();
 		}
 	}
 }

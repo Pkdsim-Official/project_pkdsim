@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.Animator_I
 {
 	public class LFS_VespiquenFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private VespiquenCoverterAnimatorController LFSVespiquen_AnimatorCCA;
-		private Vespiquen_AnimatorBaseMovementController LFSVespiquen_AnimatorCMA;
+		private Vespiquen_MovementAnimatorController LFSVespiquen_AnimatorCMA;
 		private Vespiquen_IdleAnimatorController LFSVespiquen_AnimatorICA;
 
 

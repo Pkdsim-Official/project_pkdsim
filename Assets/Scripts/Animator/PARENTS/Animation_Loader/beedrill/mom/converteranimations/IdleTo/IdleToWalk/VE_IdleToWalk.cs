@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Mom.converteranimations.IdleTo.IdleToWalk
 {
-	public class VEParentMom_IdleToWalk : MonoBehaviour 
+	public class BEParentMom_IdleToWalk : MonoBehaviour 
 	{
-		private Animator Vespiquen_Animator;
-		public void VEParentMom_IdleToWalkController()
+		private Animator BeedrillParentMom_Animator;
+		public void BEParentMom_IdleToWalkController()
 		{
-			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vespiquen_Animator.Play("Idle_ToWalk");         // Start in the Idle animation state
+			BeedrillParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			BeedrillParentMom_Animator.Play("Idle_ToWalk");         // Start in the Idle animation state
 		}
 	}
 }

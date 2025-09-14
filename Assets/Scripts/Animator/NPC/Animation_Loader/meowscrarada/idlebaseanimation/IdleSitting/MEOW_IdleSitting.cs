@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Meowscarada.idlebaseanimation.IdleSitting
 {
 	public class MEOW_IdleSitting : MonoBehaviour 
 	{

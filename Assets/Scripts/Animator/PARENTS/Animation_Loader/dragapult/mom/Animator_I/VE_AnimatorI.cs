@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_DragapultFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator DragapultParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private DragapultParentMom_ConverterAnimatorController LFSDragapult_AnimatorCCA;
-		private DragapultParentMom_AnimatorBaseMovementController LFSDragapult_AnimatorCMA;
+		private DragapultParentMom_MovementAnimatorController LFSDragapult_AnimatorCMA;
 		private DragapultParentMom_IdleAnimatorController LFSDragapult_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeDragapult_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeDragapult_ConvertToAnimatorController();
+			LoadFailSafeDragapult_MovementAnimatorController();
+			LoadFailSafeDragapult_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeDragapult_ConvertToAnimatorController()
 		{
-			LFSDragapult_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSDragapult_AnimatorCCA.DRParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeDragapult_MovementAnimatorController()
 		{
-			LFSDragapult_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSDragapult_AnimatorCMA.DRParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeDragapult_IdleAnimatorController()
 		{
-			LFSDragapult_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSDragapult_AnimatorICA.DRParentMom_IdleAnimatorController();
 		}
 	}
 }

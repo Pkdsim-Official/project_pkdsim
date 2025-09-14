@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.IdleTo
 {
 	public class VE_IdleTo : MonoBehaviour 
 	{

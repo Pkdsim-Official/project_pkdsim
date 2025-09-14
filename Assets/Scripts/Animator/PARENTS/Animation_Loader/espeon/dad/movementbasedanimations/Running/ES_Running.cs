@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Running
 {
 	public class ESParent_Running : MonoBehaviour 
 	{

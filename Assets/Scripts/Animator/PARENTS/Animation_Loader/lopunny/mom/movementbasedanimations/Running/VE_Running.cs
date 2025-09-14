@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Mom.movementbasedanimations.Running
 {
-	public class VEParentMom_Running : MonoBehaviour 
+	public class LOParentMom_Running : MonoBehaviour 
 	{
-		public void VEParentMom_RunningController() 
+		public void LOParentMom_RunningController() 
 		{
 			
 		}

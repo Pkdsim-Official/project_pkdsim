@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_GardevoirFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator GardevoirParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private GardevoirParentMom_ConverterAnimatorController LFSGardevoir_AnimatorCCA;
-		private GardevoirParentMom_AnimatorBaseMovementController LFSGardevoir_AnimatorCMA;
+		private GardevoirParentMom_MovementAnimatorController LFSGardevoir_AnimatorCMA;
 		private GardevoirParentMom_IdleAnimatorController LFSGardevoir_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeGardevoir_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeGardevoir_ConvertToAnimatorController();
+			LoadFailSafeGardevoir_MovementAnimatorController();
+			LoadFailSafeGardevoir_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeGardevoir_ConvertToAnimatorController()
 		{
-			LFSGardevoir_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSGardevoir_AnimatorCCA.GARDParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeGardevoir_MovementAnimatorController()
 		{
-			LFSGardevoir_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSGardevoir_AnimatorCMA.GARDParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeGardevoir_IdleAnimatorController()
 		{
-			LFSGardevoir_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSGardevoir_AnimatorICA.GARDParentMom_IdleAnimatorController();
 		}
 	}
 }

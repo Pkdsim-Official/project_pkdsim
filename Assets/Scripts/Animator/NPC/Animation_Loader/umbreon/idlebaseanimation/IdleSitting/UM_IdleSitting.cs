@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Umbreon.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Umbreon.idlebaseanimation.IdleSitting
 {
 	public class UM_IdleSitting : MonoBehaviour 
 	{

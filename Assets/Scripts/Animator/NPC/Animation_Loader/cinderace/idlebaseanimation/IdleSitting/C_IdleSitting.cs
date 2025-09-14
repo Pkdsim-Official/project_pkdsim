@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.idlebaseanimation.IdleSitting
 {
 	public class C_IdleSitting : MonoBehaviour 
 	{

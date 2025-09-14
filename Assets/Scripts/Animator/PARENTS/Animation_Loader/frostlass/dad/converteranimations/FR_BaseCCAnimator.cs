@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Frostlass.converteranimations
 		
 		private FR_IdleTo FrostlassIdleto;
 
-		public void FRConverterToAnimatorController()
+		public void FRConverterAnimatorController()
 		{
 			FrostlassWalkingto.FR_WalkingToController();
 

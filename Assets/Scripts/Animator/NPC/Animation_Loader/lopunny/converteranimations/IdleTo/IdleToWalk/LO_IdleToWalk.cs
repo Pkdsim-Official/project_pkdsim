@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Npcs.Lopunny.converteranimations.IdleTo.IdleToWalk
 {
 	public class LO_IdleToWalk : MonoBehaviour 
 	{

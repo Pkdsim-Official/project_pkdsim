@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations
 {
 	public class FrostlassCoverterAnimatorController : MonoBehaviour 
 	{

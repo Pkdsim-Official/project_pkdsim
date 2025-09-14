@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Turning.TurnLeft
 {
 	public class PR_TurnLeft : MonoBehaviour 
 	{

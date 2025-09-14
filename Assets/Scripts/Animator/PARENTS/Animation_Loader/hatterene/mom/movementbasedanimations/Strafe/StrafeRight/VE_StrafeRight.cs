@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Strafing.StrafeRight
 {
-	public class VEParentMom_StrafeRight : MonoBehaviour
+	public class HATParentMom_StrafeRight : MonoBehaviour
 	{
-		public void VEParentMom_StrafeRightController() 
+		public void HATParentMom_StrafeRightController() 
 		{
 			
 		}

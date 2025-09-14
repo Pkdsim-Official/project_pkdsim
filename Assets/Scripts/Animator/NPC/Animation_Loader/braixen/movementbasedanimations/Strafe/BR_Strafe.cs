@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Npcs.Braixen.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Npcs.Braixen.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Braixen.movementbasedanimations.Strafing
 {
 	public class BR_Strafing : MonoBehaviour 
 	{

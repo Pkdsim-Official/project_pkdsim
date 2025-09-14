@@ -1,21 +1,21 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.Animator_I
 {
 	public class LFS_VespiquenFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator FrostlassParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private FrostlassParentMom_ConverterAnimatorController LFSFrostlass_AnimatorCCA;
-		private FrostlassParentMom_AnimatorBaseMovementController LFSFrostlass_AnimatorCMA;
+		private FrostlassParentMom_MovementAnimatorController LFSFrostlass_AnimatorCMA;
 		private FrostlassParentMom_IdleAnimatorController LFSFrostlass_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeFrostlass_AnimatorController()
 		{
 			LoadFailSafeVespiquen_ConvertToAnimatorController();
 			LoadFailSafeVespiquen_MovementAnimatorController();
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSFrostlass_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSFrostlass_AnimatorCCA.FRParentMom_ConverterAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{
-			LFSFrostlass_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSFrostlass_AnimatorCMA.FRParentMom_MovementAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_IdleAnimatorController()
 		{
-			LFSFrostlass_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSFrostlass_AnimatorICA.FRParentMom_IdleAnimatorController();
 		}
 	}
 }

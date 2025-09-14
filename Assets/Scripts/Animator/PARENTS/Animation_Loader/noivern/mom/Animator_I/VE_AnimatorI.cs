@@ -1,37 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_NoivernFailSafe : MonoBehaviour
 	{
-		public Animator Vespiquen_Animator;
+		public Animator NoivernParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private NoivernParentMom_ConverterAnimatorController LFSNoivern_AnimatorCCA;
-		private NoivernParentMom_AnimatorBaseMovementController LFSNoivern_AnimatorCMA;
+		private NoivernParentMom_MovementAnimatorController LFSNoivern_AnimatorCMA;
 		private NoivernParentMom_IdleAnimatorController LFSNoivern_AnimatorICA;
 
-
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeNoivern_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeNoivern_ConvertToAnimatorController();
+			LoadFailSafeNoivern_MovementAnimatorController();
+			LoadFailSafeNoivern_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeNoivern_ConvertToAnimatorController()
 		{
-			LFSNoivern_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSNoivern_AnimatorCCA.NOIParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeNoivern_MovementAnimatorController()
 		{
-			LFSNoivern_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSNoivern_AnimatorCMA.NOIParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeNoivern_IdleAnimatorController()
 		{
-			LFSNoivern_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSNoivern_AnimatorICA.NOIParentMom_IdleAnimatorController();
 		}
 	}
 }

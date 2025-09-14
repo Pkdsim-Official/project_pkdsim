@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Turning
 {
 	public class SYL_Turning : MonoBehaviour 
 	{

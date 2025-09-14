@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.converteranimations.SittingTo.SittingToStartWalking
 {
 	public class HAT_SittingToStartWalking : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Turning
 {
 	public class Z_Turning : MonoBehaviour	
 	{

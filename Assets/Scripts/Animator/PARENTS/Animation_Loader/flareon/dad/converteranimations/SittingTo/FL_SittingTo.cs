@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo
 {
-	public class FL_SittingTo : MonoBehaviour 
+	public class FLParentDadDad_SittingTo : MonoBehaviour 
 	{
-		private FL_SittingToStartWalking sittingToStartWalking;
-		private FL_SittingToStanding sittingToStanding;
-		
-		public void FL_SittingToController()
+		private FLParentDadDad_SittingToStartWalking FlareonSittingToStartWalking;
+		private FLParentDadDad_SittingToStanding FlareonSittingToStanding;
+
+		public void FLParentDadDad_SittingToController()
 		{
-			// Load_FL_SittingToRun();
-			// Load_FL_SittingToWalk();
+			Load_FLParentDadDad_SittingToStanding();
+			Load_FLParentDadDad_SittingToWalking();
 		}
-		private void Load_FL_SittingToStanding()
+		private void Load_FLParentDadDad_SittingToStanding()
 		{
-			
+			FlareonSittingToStanding.FLParentDadDad_SittingToStandingController();
 		}
-		private void Load_FL_SittingToWalking()
+		private void Load_FLParentDadDad_SittingToWalking()
 		{
-			
+			FlareonSittingToStartWalking.FLParentDadDad_SittingToStartWalkingController();
 		}
 	}
 }

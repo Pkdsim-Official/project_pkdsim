@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.movementbasedanimations
 {
-	public class GarchompParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class GarchompParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_Jumping VE_MBA_Jumping;
+		private GARCParentMom_Jumping GARC_MBA_Jumping;
 		
-		private VEParentMom_Running VE_MBA_Running;
+		private GARCParentMom_Running GARC_MBA_Running;
 
 
-		private VEParentMom_Turning VE_MBA_Turning;
+		private GARCParentMom_Turning GARC_MBA_Turning;
 
-		private VEParentMom_Strafing VE_MBA_Strafe;
+		private GARCParentMom_Strafing GARC_MBA_Strafe;
 
-		public void VEMovementAnimatorController()
+		public void GARCParentMom_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParentMom_RunningController();
+			GARC_MBA_Running.GARCParentMom_RunningController();
 
-			VE_MBA_Jumping.VEParentMom_JumpingController();
+			GARC_MBA_Jumping.GARCParentMom_JumpingController();
 
-			VE_MBA_Turning.VEParentMom_TurningController();	
+			GARC_MBA_Turning.GARCParentMom_TurningController();	
 
-			VE_MBA_Strafe.VEParentMom_StrafingController();
+			GARC_MBA_Strafe.GARCParentMom_StrafingController();
 		}
 	}
 }

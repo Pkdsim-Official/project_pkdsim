@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations.Jumping
 {
 	public class FR_Jumping : MonoBehaviour 
 	{

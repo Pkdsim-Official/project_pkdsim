@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_FlareonFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator FlareonParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private FlareonParentMom_ConverterAnimatorController LFSFlareon_AnimatorCCA;
-		private FlareonParentMom_AnimatorBaseMovementController LFSFlareon_AnimatorCMA;
+		private FlareonParentMom_MovementAnimatorController LFSFlareon_AnimatorCMA;
 		private FlareonParentMom_IdleAnimatorController LFSFlareon_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeFlareon_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeFlareon_ConvertToAnimatorController();
+			LoadFailSafeFlareon_MovementAnimatorController();
+			LoadFailSafeFlareon_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeFlareon_ConvertToAnimatorController()
 		{
-			LFSFlareon_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSFlareon_AnimatorCCA.FLParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeFlareon_MovementAnimatorController()
 		{
-			LFSFlareon_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSFlareon_AnimatorCMA.FLParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeFlareon_IdleAnimatorController()
 		{
-			LFSFlareon_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSFlareon_AnimatorICA.FLParentMom_IdleAnimatorController();
 		}
 	}
 }

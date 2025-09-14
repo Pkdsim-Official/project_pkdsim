@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Lunala.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Lunala.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Lunala.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Lunala.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Lunala.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lunala.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Lunala.Animator_I
 {
 	public class LFS_LunalaFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Lunala.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private LunalaCoverterAnimatorController LFSLunala_AnimatorCCA;
-		private Lunala_AnimatorBaseMovementController LFSLunala_AnimatorCMA;
+		private Lunala_MovementAnimatorController LFSLunala_AnimatorCMA;
 		private Lunala_IdleAnimatorController LFSLunala_AnimatorICA;
 
 

@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.converteranimations.WalkingTo
 {
-		public class VEParentMom_WalkingTo : MonoBehaviour 
+		public class GARCParentMom_WalkingTo : MonoBehaviour 
 	{
-		private VEParentMom_WalkingToSitting GarchompParentMomWalkingToSitting;
-		private VEParentMom_WalkingToStanding GarchompParentMomWalkingToStanding;
-		public void VEParentMom_WalkingToController()
+		private GARCParentMom_WalkingToSitting GarchompParentMomWalkingToSitting;
+		private GARCParentMom_WalkingToStanding GarchompParentMomWalkingToStanding;
+		public void GARCParentMom_WalkingToController()
 		{
-			VEParentMom_WalkingToStartWalking();
-			VEParentMom_WalkingToStanding();
+			GARCParentMom_WalkingToStartWalking();
+			GARCParentMom_WalkingToStanding();
 		}
-		private void VEParentMom_WalkingToStartWalking()
+		private void GARCParentMom_WalkingToStartWalking()
 		{
-			GarchompParentMomWalkingToSitting.VEParentMom_WalkingToSittingController();
+			GarchompParentMomWalkingToSitting.GARCParentMom_WalkingToSittingController();
 		}
-		private void VEParentMom_WalkingToStanding()
+		private void GARCParentMom_WalkingToStanding()
 		{
-			GarchompParentMomWalkingToStanding.VEParentMom_WalkingToStandingController();
+			GarchompParentMomWalkingToStanding.GARCParentMom_WalkingToStandingController();
 		}
 	}
 }

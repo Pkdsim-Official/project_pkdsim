@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.IdleTo
 {
 	public class SYL_IdleTo : MonoBehaviour 
 	{

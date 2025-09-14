@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Npcs.Primarina.converteranimations.IdleTo.IdleToRun
 {
 	public class PR_IdleToRun : MonoBehaviour 
 	{

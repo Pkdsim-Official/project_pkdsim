@@ -1,21 +1,21 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_VespiquenFailSafe : MonoBehaviour
 	{
-		public Animator Vespiquen_Animator;
+		public Animator SalazzleParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private SalazzleParentMom_ConverterAnimatorController LFSSalazzle_AnimatorCCA;
-		private SalazzleParentMom_AnimatorBaseMovementController LFSSalazzle_AnimatorCMA;
+		private SalazzleParentMom_MovementAnimatorController LFSSalazzle_AnimatorCMA;
 		private SalazzleParentMom_IdleAnimatorController LFSSalazzle_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeSalazzle_AnimatorController()
 		{
 			LoadFailSafeVespiquen_ConvertToAnimatorController();
 			LoadFailSafeVespiquen_MovementAnimatorController();
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSSalazzle_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSSalazzle_AnimatorCCA.SParentMom_ConverterAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{
-			LFSSalazzle_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSSalazzle_AnimatorCMA.SParentMom_MovementAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_IdleAnimatorController()
 		{
-			LFSSalazzle_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSSalazzle_AnimatorICA.SParentMom_IdleAnimatorController();
 		}
 	}
 }

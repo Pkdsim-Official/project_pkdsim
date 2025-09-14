@@ -1,31 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations
 {
-	public class TsareenaParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class TsareenaParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private TParent_Jumping Tsareena_MBA_Jumping;
+		private TParentDad_Jumping Tsareena_MBA_Jumping;
 		
-		private TParent_Running Tsareena_MBA_Running;
+		private TParentDad_Running Tsareena_MBA_Running;
 
+		private TParentDad_Turning Tsareena_MBA_Turning;
 
-		private TParent_Turning Tsareena_MBA_Turning;
+		private TParentDad_Strafing Tsareena_MBA_Strafe;
 
-		private TParent_Strafing Tsareena_MBA_Strafe;
-
-		public void TMovementAnimatorController()
+		public void TParentDad_MovementAnimatorController()
 		{
-			Tsareena_MBA_Running.TParent_RunningController();
+			Tsareena_MBA_Running.TParentDad_RunningController();
 
-			Tsareena_MBA_Jumping.TParent_JumpingController();
+			Tsareena_MBA_Jumping.TParentDad_JumpingController();
 
-			Tsareena_MBA_Turning.TParent_TurningController();	
+			Tsareena_MBA_Turning.TParentDad_TurningController();	
 
-			Tsareena_MBA_Strafe.TParent_StrafingController();
+			Tsareena_MBA_Strafe.TParentDad_StrafingController();
 		}
 	}
 }

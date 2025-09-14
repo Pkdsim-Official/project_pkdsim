@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.converteranimations.WalkingTo
 {
 	public class FL_WalkingTo : MonoBehaviour 
 	{

@@ -1,21 +1,34 @@
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Strafing
 {
-	public class GL_Strafe : MonoBehaviour 
+	public class GLParentDad_Strafe : MonoBehaviour 
 	{
-		private Animator Glaceon_Animator;
-		public void GLParent_StrafingController()
-		{
+		private GLParentDad_StrafeLeft GLParentDad_strafeleft;
+		
+		private GLParentDad_StrafeRight GLParentDad_straferight;
 
-		}
-		private void GL_StrafeLeftController()	
+		public void GLParentDad_StrafingController()
 		{
-			
+			if (GLParentDad_strafeleft == null)
+			{
+				Load_GLParentDad_StrafeLeft();
+			}
+			if (GLParentDad_straferight == null)
+			{
+				Load_GLParentDad_StrafeRight();
+			}
 		}
-		private void GL_StrafeRightController()	
+		private void Load_GLParentDad_StrafeRight()
 		{
-			
+			GLParentDad_straferight.GLParentDad_StrafeRightController();
+		}
+		
+		private void Load_GLParentDad_StrafeLeft()
+		{
+			GLParentDad_strafeleft.GLParentDad_StrafeLeftController();
 		}
 	}
 }

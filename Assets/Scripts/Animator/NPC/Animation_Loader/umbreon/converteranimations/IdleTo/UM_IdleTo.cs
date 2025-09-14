@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Umbreon.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Umbreon.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Umbreon.converteranimations.IdleTo
 {
 	public class UM_IdleTo : MonoBehaviour 
 	{

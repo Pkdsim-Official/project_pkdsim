@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Tsareena.movementbasedanimations.Jumping
 {
 	public class T_Jumping : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Noivern.converteranimations.WalkingTo
 {
 	public class NOI_WalkingTo : MonoBehaviour 
 	{

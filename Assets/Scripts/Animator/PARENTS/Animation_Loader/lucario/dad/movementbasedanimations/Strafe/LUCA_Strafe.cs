@@ -1,38 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Strafing
 {
-	public class LUCAParent_Strafing : MonoBehaviour 
+	public class LUCAParentDad_Strafing : MonoBehaviour 
 	{
-		private LUCA_StrafeLeft LUCA_strafeleft;
+		private LUCAParentDad_StrafeLeft LUCAParentDad_strafeleft;
 		
-		private LUCA_StrafeRight LUCA_straferight;
+		private LUCAParentDad_StrafeRight LUCAParentDad_straferight;
 
-		public void LUCAParent_StrafingController()
+		public void LUCAParentDad_StrafingController()
 		{
-			if (LUCA_strafeleft == null)
+			if (LUCAParentDad_strafeleft == null)
 			{
-				LUCA_strafeleft = GetComponent<LUCA_StrafeLeft>();
-				Load_LUCA_StrafeLeft();
+				LUCAParentDad_strafeleft = GetComponent<LUCAParentDad_StrafeLeft>();
+				Load_LUCAParentDad_StrafeLeft();
 			}
-			if (LUCA_straferight == null)
+			if (LUCAParentDad_straferight == null)
 			{
-				LUCA_straferight = GetComponent<LUCA_StrafeRight>();
-				Load_LUCA_StrafeRight();
+				LUCAParentDad_straferight = GetComponent<LUCAParentDad_StrafeRight>();
+				Load_LUCAParentDad_StrafeRight();
 			}
 			
-
 		}
-		private void Load_LUCA_StrafeRight()
+		private void Load_LUCAParentDad_StrafeRight()
 		{
-			LUCA_straferight.LUCA_StrafeRightController();
+			LUCAParentDad_straferight.LUCAParentDad_StrafeRightController();
 		}
 		
-		private void Load_LUCA_StrafeLeft()
+		private void Load_LUCAParentDad_StrafeLeft()
 		{
-			LUCA_strafeleft.LUCA_StrafeLeftController();
+			LUCAParentDad_strafeleft.LUCAParentDad_StrafeLeftController();
 		}
 	}
 }

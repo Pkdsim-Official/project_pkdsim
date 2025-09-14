@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.SittingTo
 {
 	public class C_SittingTo : MonoBehaviour 
 	{

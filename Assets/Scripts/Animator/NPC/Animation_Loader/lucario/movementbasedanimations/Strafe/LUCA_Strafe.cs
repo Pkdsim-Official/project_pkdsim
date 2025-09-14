@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Lucario.movementbasedanimations.Strafing
 {
 	public class LUCA_Strafing : MonoBehaviour 
 	{

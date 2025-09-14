@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.converteranimations.IdleTo
 {
 	public class DL_IdleTo : MonoBehaviour 
 	{

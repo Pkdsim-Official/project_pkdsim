@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Vespiquen.converteranimations
 {
 	public class VespiquenCoverterAnimatorController : MonoBehaviour 
 	{

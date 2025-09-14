@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class BE_StrafeRight : MonoBehaviour
+	public class BEParentDad_StrafeRight : MonoBehaviour
 	{
-		public void BE_StrafeRightController() 
+		public void BEParentDad_StrafeRightController() 
 		{
 			
 		}

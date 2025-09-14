@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation.IdleStanding
 {
-	public class VP_IdleStanding : MonoBehaviour 
+	public class VPParentDad_IdleStanding : MonoBehaviour 
 	{
-		public Animator Vaporeon_Animator;
-		public void VP_IdleStandingController()
+		public Animator VaporeonParentDad_Animator;
+		public void VPParentDad_IdleStandingController()
 		{
-			Vaporeon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Vaporeon_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			VaporeonParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			VaporeonParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

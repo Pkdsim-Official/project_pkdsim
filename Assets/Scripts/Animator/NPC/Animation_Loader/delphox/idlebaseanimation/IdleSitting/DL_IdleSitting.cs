@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Delphox.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Delphox.idlebaseanimation.IdleSitting
 {
 	public class DL_IdleSitting : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass
 {
 	public class FR_Animator : MonoBehaviour 
 	{

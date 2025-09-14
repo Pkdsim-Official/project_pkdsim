@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations
 {
-	public class LopunnyParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class LopunnyParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private LOParent_Jumping Lopunny_MBA_Jumping;
+		private LOParentDad_Jumping Lopunny_MBA_Jumping;
 		
-		private LOParent_Running Lopunny_MBA_Running;
+		private LOParentDad_Running Lopunny_MBA_Running;
 
 
-		private LOParent_Turning Lopunny_MBA_Turning;
+		private LOParentDad_Turning Lopunny_MBA_Turning;
 
-		private LOParent_Strafing Lopunny_MBA_Strafe;
+		private LOParentDad_Strafing Lopunny_MBA_Strafe;
 
-		public void LOMovementAnimatorController()
+		public void LOParentDad_MovementAnimatorController()
 		{
-			Lopunny_MBA_Running.LOParent_RunningController();
+			Lopunny_MBA_Running.LOParentDad_RunningController();
 
-			Lopunny_MBA_Jumping.LOParent_JumpingController();
+			Lopunny_MBA_Jumping.LOParentDad_JumpingController();
 
-			Lopunny_MBA_Turning.LOParent_TurningController();	
+			Lopunny_MBA_Turning.LOParentDad_TurningController();	
 
-			Lopunny_MBA_Strafe.LOParent_StrafingController();
+			Lopunny_MBA_Strafe.LOParentDad_StrafingController();
 		}
 	}
 }

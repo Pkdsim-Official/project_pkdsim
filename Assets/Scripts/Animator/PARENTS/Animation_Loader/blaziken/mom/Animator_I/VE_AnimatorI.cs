@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_BlazikenFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator BLazikenParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private BlazikenParentMom_ConverterAnimatorController LFSBlaziken_AnimatorCCA;
-		private BlazikenParentMom_AnimatorBaseMovementController LFSBlaziken_AnimatorCMA;
+		private BlazikenParentMom_MovementAnimatorController LFSBlaziken_AnimatorCMA;
 		private BlazikenParentMom_IdleAnimatorController LFSBlaziken_AnimatorICA;
 
 
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeBLaziken_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeBlaziken_ConvertToAnimatorController();
+			LoadFailSafeBlaziken_MovementAnimatorController();
+			LoadFailSafeBlaziken_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeBlaziken_ConvertToAnimatorController()
 		{
-			LFSBlaziken_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSBlaziken_AnimatorCCA.BLParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeBlaziken_MovementAnimatorController()
 		{
-			LFSBlaziken_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSBlaziken_AnimatorCMA.BLParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeBlaziken_IdleAnimatorController()
 		{
-			LFSBlaziken_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSBlaziken_AnimatorICA.BLParentMom_IdleAnimatorController();
 		}
 	}
 }

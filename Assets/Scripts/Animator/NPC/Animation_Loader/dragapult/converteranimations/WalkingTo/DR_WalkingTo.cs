@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.converteranimations.WalkingTo
 {
 	public class DR_WalkingTo : MonoBehaviour 
 	{

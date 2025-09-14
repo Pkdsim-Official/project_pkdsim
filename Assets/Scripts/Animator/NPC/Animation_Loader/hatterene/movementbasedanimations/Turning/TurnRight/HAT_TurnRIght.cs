@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.movementbasedanimations.Turning.TurnRight
 {
     public class HAT_TurnRight : MonoBehaviour 
     {

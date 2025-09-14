@@ -1,30 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations
 {
-	public class SylveonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class SylveonParentDad_MovementAnimatorController : MonoBehaviour
 	{
-		private SYLParent_Jumping Sylveon_MBA_Jumping;
-		
-		private SYLParent_Running Sylveon_MBA_Running;
+		private SYLParentDad_Jumping Sylveon_MBA_Jumping;
 
-		private SYLParent_Turning Sylveon_MBA_Turning;
+		private SYLParentDad_Running Sylveon_MBA_Running;
 
-		private SYLParent_Strafing Sylveon_MBA_Strafe;
+		private SYLParentDad_Turning Sylveon_MBA_Turning;
 
-		public void SYL_MovementAnimatorController()
+		private SYLParentDad_Strafing Sylveon_MBA_Strafe;
+
+		public void SYLParentDad_MovementAnimatorController()
 		{
-			Sylveon_MBA_Running.SYLParent_RunningController();
+			Sylveon_MBA_Running.SYLParentDad_RunningController();
 
-			Sylveon_MBA_Jumping.SYLParent_JumpingController();
+			Sylveon_MBA_Jumping.SYLParentDad_JumpingController();
 
-			Sylveon_MBA_Turning.SYLParent_TurningController();	
+			Sylveon_MBA_Turning.SYLParentDad_TurningController();
 
-			Sylveon_MBA_Strafe.SYLParent_StrafingController();
-		}	
+			Sylveon_MBA_Strafe.SYLParentDad_StrafingController();
+		}
 	}
 }

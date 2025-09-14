@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Npcs.Pheromosa.converteranimations.IdleTo.IdleToRun
 {
 	public class PH_IdleToRun : MonoBehaviour 
 	{

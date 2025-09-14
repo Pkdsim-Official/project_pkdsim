@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class GL_WalkingToSitting : MonoBehaviour 
+	public class GLParentDad_WalkingToSitting : MonoBehaviour 
 	{
-
+		public void GLParentDad_WalkingToSittingController() 
+		{
+	
+		}
 	}
 }

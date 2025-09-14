@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning.TurnLeft
 {
-	public class BEParent_TurnLeft : MonoBehaviour 
+	public class BEParentDad_TurnLeft : MonoBehaviour 
 	{
-		public void BEParent_TurnLeftController()
+		public void BEParentDad_TurnLeftController()
 		{
 			
 		}

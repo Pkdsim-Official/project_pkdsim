@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Dragapult.movementbasedanimations.Jumping
 {
 	public class DR_Jumping : MonoBehaviour 
 	{

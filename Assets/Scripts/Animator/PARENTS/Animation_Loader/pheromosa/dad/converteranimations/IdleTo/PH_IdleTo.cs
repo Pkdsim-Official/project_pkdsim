@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo
 {
-	public class PHIdleTo : MonoBehaviour 
+	public class PHParentDad_IdleTo : MonoBehaviour 
 	{
-		private PHIdleToRun PheromosaIdleToRun;
-		private PHIdleToWalk PheromosaIdleToWalk;
-		public void PH_IdleToController()
+		private PHParentDad_IdleToRun PheromosaIdleToRun;
+		private PHParentDad_IdleToWalk PheromosaIdleToWalk;
+		public void PHParentDad_IdleToController()
 		{
-			Load_PHidleToRun();
-			Load_PHidleToWalk();
+			Load_PHParentDad_idleToRun();
+			Load_PHParentDad_idleToWalk();
 		}
-		private void Load_PHidleToRun()
+		private void Load_PHParentDad_idleToRun()
 		{
-			PheromosaIdleToRun.PHIdleToRunController();
+			PheromosaIdleToRun.PHParentDad_IdleToRunController();
 		}
-		private void Load_PHidleToWalk()
+		private void Load_PHParentDad_idleToWalk()
 		{
-			PheromosaIdleToWalk.PHIdleToWalkController();
+			PheromosaIdleToWalk.PHParentDad_IdleToWalkController();
 		}
 	}
 }

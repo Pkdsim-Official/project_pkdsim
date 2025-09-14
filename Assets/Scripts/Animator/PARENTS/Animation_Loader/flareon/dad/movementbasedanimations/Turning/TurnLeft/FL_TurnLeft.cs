@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Turning.TurnLeft
 {
-	public class FLParent_TurnLeft : MonoBehaviour 
+	public class FLParentDad_TurnLeft : MonoBehaviour 
 	{
-		public void FLParent_TurnLeftController()
+		public void FLParentDad_TurnLeftController()
 		{
 			
 		}

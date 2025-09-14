@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations
 {
 	public class FlareonParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_SittingTo FlareonParentMomSittingto;
+		private FLParentMom_SittingTo FlareonParentMomSittingto;
 		
-		private VEParentMom_WalkingTo FlareonParentMomWalkingto;
+		private FLParentMom_WalkingTo FlareonParentMomWalkingto;
 		
-		private VEParentMom_IdleTo FlareonParentMomIdleto;
+		private FLParentMom_IdleTo FlareonParentMomIdleto;
 
-		public void VEParentMom_ConverterToAnimatorController()
+		public void FLParentMom_ConverterAnimatorController()
 		{
-			FlareonParentMomWalkingto.VEParentMom_WalkingToController();
+			FlareonParentMomWalkingto.FLParentMom_WalkingToController();
 
-			FlareonParentMomIdleto.VEParentMom_IdleToController();
+			FlareonParentMomIdleto.FLParentMom_IdleToController();
 			
-			FlareonParentMomSittingto.VEParentMom_SittingToController();	
+			FlareonParentMomSittingto.FLParentMom_SittingToController();	
 		}
 	}
 }

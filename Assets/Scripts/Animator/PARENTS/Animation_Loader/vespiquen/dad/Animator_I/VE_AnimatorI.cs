@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Dad.Animator_I
 {
 	public class LFS_VespiquenFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator VespiquenParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private VespiquenParentMom_ConverterAnimatorController LFSVespiquen_AnimatorCCA;
-		private VespiquenParentMom_AnimatorBaseMovementController LFSVespiquen_AnimatorCMA;
-		private VespiquenParentMom_IdleAnimatorController LFSVespiquen_AnimatorICA;
+		private VespiquenParentDad_ConverterAnimatorController LFSVespiquen_AnimatorCCA;
+		private VespiquenParentDad_MovementAnimatorController LFSVespiquen_AnimatorCMA;
+		private VespiquenParentDad_IdleAnimatorController LFSVespiquen_AnimatorICA;
 
 
 		public void LoadFailSafeVespiquen_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSVespiquen_AnimatorCCA.VEConverterToAnimatorController();
+			LFSVespiquen_AnimatorCCA.VEParentDad_ConverterAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{
-			LFSVespiquen_AnimatorCMA.VEMovementAnimatorController();
+			LFSVespiquen_AnimatorCMA.VEParentDad_MovementAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_IdleAnimatorController()
 		{
-			LFSVespiquen_AnimatorICA.VE_IdleAnimatorController();
+			LFSVespiquen_AnimatorICA.VEParentDad_IdleAnimatorController();
 		}
 	}
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Tsareena.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Tsareena.idlebaseanimation.IdleSitting
 {
 	public class T_IdleSitting : MonoBehaviour 
 	{

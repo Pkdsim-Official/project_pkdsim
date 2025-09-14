@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Frostlass.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.idlebaseanimation
 {
 	public class Frostlass_IdleAnimatorController : MonoBehaviour 
 	{

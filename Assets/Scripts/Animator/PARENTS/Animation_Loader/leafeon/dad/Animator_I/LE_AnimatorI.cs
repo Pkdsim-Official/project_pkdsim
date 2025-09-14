@@ -1,35 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.idlebaseanimation;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.Animator_I
 {
-	public class LE_AnimatorI : MonoBehaviour 
+	public class LE_AnimatorI : MonoBehaviour
 	{
-		public Animator Leafeon_Animator;
+		public Animator LeafeonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Leafeon_ConverterAnimatorController Leafeon_AnimatorCCA;
-		private LeafeonParent_AnimatorBaseMovementController Leafeon_AnimatorCMA;
-		private Leafeon_IdleAnimatorController  Leafeon_AnimatorICA;
+		private LeafeonParentDad_ConverterAnimatorController LFSLeafeon_AnimatorCCA;
+		private LeafeonParentDad_MovementAnimatorController LFSLeafeon_AnimatorCMA;
+		private LeafeonParentDad_IdleAnimatorController LFSLeafeon_AnimatorICA;
 
-		private void Leafeon_AnimatorController()
+		public void LoadFailSafeLeafeon_AnimatorController()
 		{
-			Leafeon_Animator = gameObject.GetComponent<Animator>();
-			Leafeon_Animator.runtimeAnimatorController = someController;
+			LoadFailSafeLeafeon_ConvertToAnimatorController();
+			LoadFailSafeLeafeon_MovementAnimatorController();
+			LoadFailSafeLeafeon_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
+		private void LoadFailSafeLeafeon_ConvertToAnimatorController()
 		{
-
+			LFSLeafeon_AnimatorCCA.LEParentDad_ConverterAnimatorController();
 		}
-		private void MovementAnimatorController()
+		private void LoadFailSafeLeafeon_MovementAnimatorController()
 		{
-			
+			LFSLeafeon_AnimatorCMA.LEParentDad_MovementAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void LoadFailSafeLeafeon_IdleAnimatorController()
 		{
-			
+			LFSLeafeon_AnimatorICA.LEParentDad_IdleAnimatorController();
 		}
 	}
 }

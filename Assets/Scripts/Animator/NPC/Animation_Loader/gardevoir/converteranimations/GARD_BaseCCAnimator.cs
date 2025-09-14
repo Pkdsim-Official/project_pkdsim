@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Gardevoir.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Gardevoir.converteranimations
 {
 	public class GardevoirCoverterAnimatorController : MonoBehaviour 
 	{

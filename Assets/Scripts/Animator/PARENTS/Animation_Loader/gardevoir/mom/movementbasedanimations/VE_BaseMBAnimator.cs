@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.movementbasedanimations
 {
-	public class GardevoirParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class GardevoirParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_Jumping VE_MBA_Jumping;
+		private GARDParentMom_Jumping GARD_MBA_Jumping;
 		
-		private VEParentMom_Running VE_MBA_Running;
+		private GARDParentMom_Running GARD_MBA_Running;
 
 
-		private VEParentMom_Turning VE_MBA_Turning;
+		private GARDParentMom_Turning GARD_MBA_Turning;
 
-		private VEParentMom_Strafing VE_MBA_Strafe;
+		private GARDParentMom_Strafing GARD_MBA_Strafe;
 
-		public void VEMovementAnimatorController()
+		public void GARDParentMom_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParentMom_RunningController();
+			GARD_MBA_Running.GARDParentMom_RunningController();
 
-			VE_MBA_Jumping.VEParentMom_JumpingController();
+			GARD_MBA_Jumping.GARDParentMom_JumpingController();
 
-			VE_MBA_Turning.VEParentMom_TurningController();	
+			GARD_MBA_Turning.GARDParentMom_TurningController();	
 
-			VE_MBA_Strafe.VEParentMom_StrafingController();
+			GARD_MBA_Strafe.GARDParentMom_StrafingController();
 		}
 	}
 }

@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.SittingTo;
 using UnityEngine;
 
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations
 {
-	public class Leafeon_ConverterAnimatorController : MonoBehaviour 
+	public class LeafeonParentDad_ConverterAnimatorController : MonoBehaviour
 	{
-		private LE_SittingTo Leafeon_sittingto;
-		
-		private LE_WalkingTo Leafeon_walkingto;
-		
-		private LE_IdleTo Leafeon_idleto;
+		private LEParentDad_SittingTo Leafeon_sittingto;
 
-		private void LE_Base_IdleAnimatorController()
+		private LEParentDad_WalkingTo Leafeon_walkingto;
+
+		private LEParentDad_IdleTo Leafeon_idleto;
+
+		public void LEParentDad_ConverterAnimatorController()
 		{
-			Leafeon_walkingto.LE_WalkingToController();
+			Leafeon_walkingto.LEParentDad_WalkingToController();
 
-			Leafeon_idleto.LE_IdleToController();
-			
-			Leafeon_sittingto.LE_SittingToController();	
+			Leafeon_idleto.LEParentDad_IdleToController();
+
+			Leafeon_sittingto.LEParentDad_SittingToController();
 		}
 	}
 }

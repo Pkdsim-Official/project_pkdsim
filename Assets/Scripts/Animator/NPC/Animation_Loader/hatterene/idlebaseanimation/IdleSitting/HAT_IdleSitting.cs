@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.idlebaseanimation.IdleSitting
 {
 	public class HAT_IdleSitting : MonoBehaviour 
 	{

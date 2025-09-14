@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Jumping
 {
-	public class SYLParent_Jumping : MonoBehaviour 
+	public class SYLParentDad_Jumping : MonoBehaviour 
 	{
-		public void SYLParent_JumpingController() 
+		public void SYLParentDad_JumpingController() 
 		{
 	
 		}

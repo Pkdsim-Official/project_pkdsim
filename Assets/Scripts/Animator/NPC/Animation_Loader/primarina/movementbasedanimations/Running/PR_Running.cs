@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Primarina.movementbasedanimations.Running
 {
 	public class PR_Running : MonoBehaviour 
 	{

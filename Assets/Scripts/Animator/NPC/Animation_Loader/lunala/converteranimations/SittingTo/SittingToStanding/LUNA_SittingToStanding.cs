@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lunala.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Npcs.Lunala.converteranimations.SittingTo.SittingToStanding
 {
 	public class LUNA_SittingToStanding : MonoBehaviour 
 	{

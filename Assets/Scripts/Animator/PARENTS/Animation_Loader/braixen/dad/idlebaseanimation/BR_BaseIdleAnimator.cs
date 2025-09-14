@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation
 {
-	public class Braixen_IdleAnimatorController : MonoBehaviour 
+	public class BraixenParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private BRIdleStanding BRidlestanding;
+		private BRParentDad_IdleStanding BRParentDad_idlestanding;
 		
-		private BRIdleSitting BRidlesitting;
+		private BRParentDad_IdleSitting BRParentDad_idlesitting;
 		
-		public void	BR_IdleAnimatorController()
+		public void	BRParentDad_IdleAnimatorController()
 		{
-			BRIdleStandingAnimatorController();
-			BRIdleSittingAnimatorController();
+			BRParentDad_IdleStandingAnimatorController();
+			BRParentDad_IdleSittingAnimatorController();
 		}
-		private void BRIdleStandingAnimatorController()
+		private void BRParentDad_IdleStandingAnimatorController()
 		{
-			BRidlestanding.BRIdleStandingController();
+			BRParentDad_idlestanding.BRParentDad_IdleStandingController();
 		}
-		private void BRIdleSittingAnimatorController()
+		private void BRParentDad_IdleSittingAnimatorController()
 		{
-			BRidlesitting.BRIdleSittingController();
+			BRParentDad_idlesitting.BRParentDad_IdleSittingController();
 		}
 	}
 }

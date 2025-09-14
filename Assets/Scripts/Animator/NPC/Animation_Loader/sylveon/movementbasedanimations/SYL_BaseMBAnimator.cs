@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.movementbasedanimations
 {
-	public class Sylveon_AnimatorBaseMovementController : MonoBehaviour 
+	public class Sylveon_MovementAnimatorController : MonoBehaviour 
 	{
 		private SYL_Jumping Sylveon_MBA_Jumping;
 		

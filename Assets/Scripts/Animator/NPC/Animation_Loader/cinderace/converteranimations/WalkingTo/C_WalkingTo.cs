@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Cinderace.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Cinderace.converteranimations.WalkingTo
 {
 	public class C_WalkingTo : MonoBehaviour 
 	{

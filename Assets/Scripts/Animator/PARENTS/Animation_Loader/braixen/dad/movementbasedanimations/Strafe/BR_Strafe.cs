@@ -1,38 +1,38 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Strafing
 {
-	public class BRParent_Strafing : MonoBehaviour 
+	public class BRParentDad_Strafing : MonoBehaviour 
 	{
-		private BRStrafeLeft BR_strafeleft;
+		private BRParentDad_StrafeLeft BRParentDad_strafeleft;
 		
-		private BRStrafeRight BR_straferight;
+		private BRParentDad_StrafeRight BRParentDad_straferight;
 
-		public void BRParent_StrafingController()
+		public void BRParentDad_StrafingController()
 		{
-			if (BR_strafeleft == null)
+			if (BRParentDad_strafeleft == null)
 			{
-				BR_strafeleft = GetComponent<BRStrafeLeft>();
-				Load_BRStrafeLeft();
+				BRParentDad_strafeleft = GetComponent<BRParentDad_StrafeLeft>();
+				Load_BRParentDad_StrafeLeft();
 			}
-			if (BR_straferight == null)
+			if (BRParentDad_straferight == null)
 			{
-				BR_straferight = GetComponent<BRStrafeRight>();
-				Load_BRStrafeRight();
+				BRParentDad_straferight = GetComponent<BRParentDad_StrafeRight>();
+				Load_BRParentDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_BRStrafeRight()
+		private void Load_BRParentDad_StrafeRight()
 		{
-			BR_straferight.BRStrafeRightController();
+			BRParentDad_straferight.BRParentDad_StrafeRightController();
 		}
 		
-		private void Load_BRStrafeLeft()
+		private void Load_BRParentDad_StrafeLeft()
 		{
-			BR_strafeleft.BRStrafeLeftController();
+			BRParentDad_strafeleft.BRParentDad_StrafeLeftController();
 		}
 	}
 }

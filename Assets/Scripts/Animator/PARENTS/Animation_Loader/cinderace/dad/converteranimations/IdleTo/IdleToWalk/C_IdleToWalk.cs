@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class C_IdleToWalk : MonoBehaviour 
+	public class CParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void C_IdleToWalkController() 
+		public void CParentDad_IdleToWalkController() 
 		{
 			
 		}

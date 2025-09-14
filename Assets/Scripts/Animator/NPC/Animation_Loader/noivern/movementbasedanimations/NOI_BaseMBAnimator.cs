@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Noivern.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Noivern.movementbasedanimations
 {
-	public class Noivern_AnimatorBaseMovementController : MonoBehaviour 
+	public class Noivern_MovementAnimatorController : MonoBehaviour 
 	{
 		private NOI_Jumping Noivern_MBA_Jumping;
 		

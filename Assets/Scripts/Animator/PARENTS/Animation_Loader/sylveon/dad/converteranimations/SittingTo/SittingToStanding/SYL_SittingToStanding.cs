@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class SYL_SittingToStanding : MonoBehaviour 
+	public class SYLParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void SYL_SittingToStandingController() 
+		public void SYLParentDad_SittingToStandingController() 
 		{
 	
 		}

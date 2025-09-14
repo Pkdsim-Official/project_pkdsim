@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations
+namespace project_pkdsim.ANIMATOR.Npcs.Sylveon.converteranimations
 {
 	public class Sylveon_CoverterAnimatorController : MonoBehaviour 
 	{

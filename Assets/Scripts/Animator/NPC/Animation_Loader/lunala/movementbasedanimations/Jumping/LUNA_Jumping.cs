@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Npcs.Lunala.movementbasedanimations.Jumping
 {
 	public class LUNA_Jumping : MonoBehaviour 
 	{

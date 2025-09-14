@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.converteranimations
 		
 		private MEOWIdleTo Meowscaradaidleto;
 
-		public void MEOWConverterToAnimatorController()
+		public void MEOWConverterAnimatorController()
 		{
 			Meowscaradawalkingto.MEOWWalkingToController();
 

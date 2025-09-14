@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Running
 {
-	public class BRParent_Running : MonoBehaviour 
+	public class BRParentDad_Running : MonoBehaviour 
 	{
-		public void BRParent_RunningController() 
+		public void BRParentDad_RunningController() 
 		{
 			
 		}

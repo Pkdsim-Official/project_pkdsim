@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Npcs.Lunala.movementbasedanimations.Running
 {
 	public class LUNA_Running : MonoBehaviour 
 	{

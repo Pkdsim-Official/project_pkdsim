@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.NPC_AnimatorBase
+namespace project_pkdsim.ANIMATOR.Npcs.NPC_AnimatorBase
 {
     public class Npc_AnimatorBase : MonoBehaviour
     {

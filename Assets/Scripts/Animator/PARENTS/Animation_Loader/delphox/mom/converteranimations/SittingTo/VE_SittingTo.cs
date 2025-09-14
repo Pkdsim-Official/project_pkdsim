@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Mom.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Delphox.Mom.converteranimations.SittingTo
 {
-	public class VEParentMom_SittingTo : MonoBehaviour 
+	public class DLParentMom_SittingTo : MonoBehaviour 
 	{
-		private VEParentMom_SittingToStartWalking DelphoxParentMomSittingToStartWalking;
-		private VEParentMom_SittingToStanding DelphoxParentMomSittingToStanding;
-		public void VEParentMom_SittingToController()
+		private DLParentMom_SittingToStartWalking DelphoxParentMomSittingToStartWalking;
+		private DLParentMom_SittingToStanding DelphoxParentMomSittingToStanding;
+		public void DLParentMom_SittingToController()
 		{
-			VEParentMom_SittingToStartWalking();
-			VEParentMom_SittingToStanding();
+			DLParentMom_SittingToStartWalking();
+			DLParentMom_SittingToStanding();
 		}
-		private void VEParentMom_SittingToStartWalking()
+		private void DLParentMom_SittingToStartWalking()
 		{
-			DelphoxParentMomSittingToStartWalking.VEParentMom_SittingToStartWalkingController();
+			DelphoxParentMomSittingToStartWalking.DLParentMom_SittingToStartWalkingController();
 		}
-		private void VEParentMom_SittingToStanding()
+		private void DLParentMom_SittingToStanding()
 		{
-			DelphoxParentMomSittingToStanding.VEParentMom_SittingToStandingController();
+			DelphoxParentMomSittingToStanding.DLParentMom_SittingToStandingController();
 		}
 
 	}

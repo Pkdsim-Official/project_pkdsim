@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Espeon.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Npcs.Espeon.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class ES_WalkingToSitting : MonoBehaviour 
 	{

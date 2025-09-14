@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Npcs.Noivern.movementbasedanimations.Strafing.StrafeRight
 {
 	public class NOI_StrafeRight : MonoBehaviour
 	{

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Running
 {
-	public class PHParent_Running : MonoBehaviour 
+	public class PHParentDad_Running : MonoBehaviour 
 	{
-		public void PHParent_RunningController() 
+		public void PHParentDad_RunningController() 
 		{
 			
 		}

@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations
 {
 	public class DragapultConverterAnimatorController : MonoBehaviour 
 	{
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations
 		
 		private DRIdleTo DragapultIdleto;
 
-		public void DRConverterToAnimatorController()
+		public void DRConverterAnimatorController()
 		{
 			DragapultWalkingto.DRWalkingToController();
 

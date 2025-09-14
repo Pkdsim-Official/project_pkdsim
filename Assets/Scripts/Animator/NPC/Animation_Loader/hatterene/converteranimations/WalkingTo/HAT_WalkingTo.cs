@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Npcs.Hatterene.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Npcs.Hatterene.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Npcs.Hatterene.converteranimations.WalkingTo
 {
 	public class HAT_WalkingTo : MonoBehaviour 
 	{

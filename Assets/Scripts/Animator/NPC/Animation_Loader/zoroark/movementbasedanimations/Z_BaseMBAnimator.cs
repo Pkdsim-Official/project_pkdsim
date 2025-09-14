@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Zoroark.movementbasedanimations
 {
-	public class Zoroark_AnimatorBaseMovementController : MonoBehaviour 
+	public class Zoroark_MovementAnimatorController : MonoBehaviour 
 	{
 		private Z_Jumping Zoroark_MBA_Jumping;
 		

@@ -1,37 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Mom.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Mom.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class LFS_LopunnyFailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
+		public Animator LopunnyParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
 		private LopunnyParentMom_ConverterAnimatorController LFSLopunny_AnimatorCCA;
-		private LopunnyParentMom_AnimatorBaseMovementController LFSLopunny_AnimatorCMA;
+		private LopunnyParentMom_MovementAnimatorController LFSLopunny_AnimatorCMA;
 		private LopunnyParentMom_IdleAnimatorController LFSLopunny_AnimatorICA;
 
-
-		public void LoadFailSafeVespiquen_AnimatorController()
+		public void LoadFailSafeLopunny_AnimatorController()
 		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
+			LoadFailSafeLopunny_ConvertToAnimatorController();
+			LoadFailSafeLopunny_MovementAnimatorController();
+			LoadFailSafeLopunny_IdleAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		private void LoadFailSafeLopunny_ConvertToAnimatorController()
 		{
-			LFSLopunny_AnimatorCCA.VEParentMom_ConverterToAnimatorController();
+			LFSLopunny_AnimatorCCA.LOParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
+		private void LoadFailSafeLopunny_MovementAnimatorController()
 		{
-			LFSLopunny_AnimatorCMA.VEParentMom_MovementAnimatorController();
+			LFSLopunny_AnimatorCMA.LOParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
+		private void LoadFailSafeLopunny_IdleAnimatorController()
 		{
-			LFSLopunny_AnimatorICA.VEParentMom_IdleAnimatorController();
+			LFSLopunny_AnimatorICA.LOParentMom_IdleAnimatorController();
 		}
 	}
 }

@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Blaziken.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Blaziken.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Blaziken.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Blaziken.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Blaziken.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Blaziken.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Blaziken.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Blaziken.Animator_I
 {
 	public class LFS_BlazikenFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Blaziken.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private BlazikenCoverterAnimatorController LFSBlaziken_AnimatorCCA;
-		private Blaziken_AnimatorBaseMovementController LFSBlaziken_AnimatorCMA;
+		private Blaziken_MovementAnimatorController LFSBlaziken_AnimatorCMA;
 		private Blaziken_IdleAnimatorController LFSBlaziken_AnimatorICA;
 
 

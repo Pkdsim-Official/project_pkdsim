@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Npcs.Lunala.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Npcs.Lunala.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Lunala.movementbasedanimations.Strafing
 {
 	public class LUNA_Strafing : MonoBehaviour 
 	{

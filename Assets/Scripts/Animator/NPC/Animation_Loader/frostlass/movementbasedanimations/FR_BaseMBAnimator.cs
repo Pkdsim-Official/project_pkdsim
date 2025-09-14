@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations
 {
-	public class Frostlass_AnimatorBaseMovementController : MonoBehaviour 
+	public class Frostlass_MovementAnimatorController : MonoBehaviour 
 	{
 		private FR_Jumping Frostlass_MBA_Jumping;
 		

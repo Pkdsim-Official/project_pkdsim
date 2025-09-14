@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations
 {
-	public class FrostlassParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class FrostlassParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private FRParent_Jumping Frostlass_MBA_Jumping;
 		

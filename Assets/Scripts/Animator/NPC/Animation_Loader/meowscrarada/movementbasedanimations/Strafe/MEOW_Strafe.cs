@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Meowscarada.movementbasedanimations.Strafing
 {
 	public class MEOW_Strafing : MonoBehaviour 
 	{

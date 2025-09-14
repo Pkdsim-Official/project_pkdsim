@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Salazzle.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.NPC.Salazzle.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Npcs.Salazzle.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Npcs.Salazzle.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Salazzle.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Npcs.Salazzle.idlebaseanimation
 {
 	public class Salazzle_IdleAnimatorController : MonoBehaviour 
 	{

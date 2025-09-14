@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Npcs.Flareon.movementbasedanimations.Strafing
 {
 	public class FL_Strafing : MonoBehaviour 
 	{

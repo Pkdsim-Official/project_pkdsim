@@ -1,17 +1,17 @@
 using project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation;
 using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Delphox.Dad.converteranimations;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Animator_I
 {
 	public class LFS_DragapultFailSafe : MonoBehaviour 
 	{
-		public Animator Dragapult_Animator;
+		public Animator DragapultParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
 		private DragapultConverterAnimatorController LFSDragapult_AnimatorCCA;
-		private DragapultParent_AnimatorBaseMovementController LFSDragapult_AnimatorCMA;
+		private DragapultParentDad_MovementAnimatorController LFSDragapult_AnimatorCMA;
 		private Dragapult_IdleAnimatorController LFSDragapult_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Animator_I
 		}
 		private void LoadFailSafeDragapult_ConvertToAnimatorController()
 		{
-			LFSDragapult_AnimatorCCA.DRConverterToAnimatorController();
+			LFSDragapult_AnimatorCCA.DRConverterAnimatorController();
 		}
 		private void LoadFailSafeDragapult_MovementAnimatorController()
 		{

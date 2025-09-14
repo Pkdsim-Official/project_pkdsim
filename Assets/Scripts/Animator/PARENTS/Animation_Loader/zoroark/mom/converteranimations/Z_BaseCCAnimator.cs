@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.converteranimations
 		
 		private ZParentMom_IdleTo ZoroarkParentMomIdleto;
 
-		public void ZParentMom_ConverterToAnimatorController()
+		public void ZParentMom_ConverterAnimatorController()
 		{
 			ZoroarkParentMomWalkingto.ZParentMom_WalkingToController();
 

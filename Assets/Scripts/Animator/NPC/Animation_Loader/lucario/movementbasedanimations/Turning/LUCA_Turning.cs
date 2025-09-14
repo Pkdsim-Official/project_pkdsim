@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Npcs.Lucario.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Npcs.Lucario.movementbasedanimations.Turning
 {
 	public class LUCA_Turning : MonoBehaviour	
 	{

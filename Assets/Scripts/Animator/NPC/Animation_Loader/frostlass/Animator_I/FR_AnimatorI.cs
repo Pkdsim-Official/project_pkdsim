@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.NPC.Frostlass.idlebaseanimation;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations;
-using project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Npcs.Frostlass.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.Animator_I
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.Animator_I
 {
 	public class LFS_FrostlassFailSafe : MonoBehaviour 
 	{
@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private FrostlassCoverterAnimatorController LFSFrostlass_AnimatorCCA;
-		private Frostlass_AnimatorBaseMovementController LFSFrostlass_AnimatorCMA;
+		private Frostlass_MovementAnimatorController LFSFrostlass_AnimatorCMA;
 		private Frostlass_IdleAnimatorController LFSFrostlass_AnimatorICA;
 
 

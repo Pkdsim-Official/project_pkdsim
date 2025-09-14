@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Mom.converteranimations
 {
 	public class LunalaParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_SittingTo LunalaParentMomSittingto;
+		private LUNAParentMom_SittingTo LunalaParentMomSittingto;
 		
-		private VEParentMom_WalkingTo LunalaParentMomWalkingto;
+		private LUNAParentMom_WalkingTo LunalaParentMomWalkingto;
 		
-		private VEParentMom_IdleTo LunalaParentMomIdleto;
+		private LUNAParentMom_IdleTo LunalaParentMomIdleto;
 
-		public void VEParentMom_ConverterToAnimatorController()
+		public void LUNAParentMom_ConverterAnimatorController()
 		{
-			LunalaParentMomWalkingto.VEParentMom_WalkingToController();
+			LunalaParentMomWalkingto.LUNAParentMom_WalkingToController();
 
-			LunalaParentMomIdleto.VEParentMom_IdleToController();
+			LunalaParentMomIdleto.LUNAParentMom_IdleToController();
 			
-			LunalaParentMomSittingto.VEParentMom_SittingToController();	
+			LunalaParentMomSittingto.LUNAParentMom_SittingToController();	
 		}
 	}
 }

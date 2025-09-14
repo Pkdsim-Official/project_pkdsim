@@ -1,35 +1,35 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Turning
 {
-	public class NOIParent_Turning : MonoBehaviour	
+	public class NOIParentDad_Turning : MonoBehaviour
 	{
-		private NOIParent_TurnLeft NOIParent_TurnLeft;
-		private NOIParent_TurnRight NOIParent_TurnRight;
+		private NOIParentDad_TurnLeft NOIParentDad_TurnLeft;
+		private NOIParentDad_TurnRight NOIParentDad_TurnRight;
 
-		public void NOIParent_TurningController()
+		public void NOIParentDad_TurningController()
 		{
-			if (NOIParent_TurnLeft == null)
+			if (NOIParentDad_TurnLeft == null)
 			{
-				Load_NOIParent_TurnLeft();
+				Load_NOIParentDad_TurnLeft();
 			}
 
-			if (NOIParent_TurnRight == null)
+			if (NOIParentDad_TurnRight == null)
 			{
-				Load_NOIParent_TurnRight();
+				Load_NOIParentDad_TurnRight();
 			}
 		}
 
-		private void Load_NOIParent_TurnRight()
+		private void Load_NOIParentDad_TurnRight()
 		{
-			NOIParent_TurnRight.NOIParent_TurnRightController();
+			NOIParentDad_TurnRight.NOIParentDad_TurnRightController();
 		}
-		
-		private void Load_NOIParent_TurnLeft()
+
+		private void Load_NOIParentDad_TurnLeft()
 		{
-			NOIParent_TurnLeft.NOIParent_TurnLeftController();
+			NOIParentDad_TurnLeft.NOIParentDad_TurnLeftController();
 		}
 	}
 }

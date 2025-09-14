@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.Frostlass.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.ANIMATOR.Npcs.Frostlass.movementbasedanimations.Strafing.StrafeRight
 {
 	public class FRStrafeRight : MonoBehaviour
 	{

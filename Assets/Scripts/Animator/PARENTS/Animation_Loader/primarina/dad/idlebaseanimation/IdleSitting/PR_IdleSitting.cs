@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Primarina.idlebaseanimation.IdleSittin
 {
 	public class PRIdleSitting : MonoBehaviour 
 	{
-		private Animator Primarina_Animator;
+		private Animator PrimarinaParentDad_Animator;
 		public void PRIdleSittingController()
 		{
-			Primarina_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Primarina_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			PrimarinaParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			PrimarinaParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

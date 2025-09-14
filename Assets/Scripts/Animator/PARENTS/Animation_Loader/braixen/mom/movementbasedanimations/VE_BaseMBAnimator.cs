@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Mom.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Mom.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Mom.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Mom.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Mom.movementbasedanimations
 {
-	public class BraixenParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class BraixenParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_Jumping VE_MBA_Jumping;
+		private BRParentMom_Jumping BR_MBA_Jumping;
 		
-		private VEParentMom_Running VE_MBA_Running;
+		private BRParentMom_Running BR_MBA_Running;
 
 
-		private VEParentMom_Turning VE_MBA_Turning;
+		private BRParentMom_Turning BR_MBA_Turning;
 
-		private VEParentMom_Strafing VE_MBA_Strafe;
+		private BRParentMom_Strafing BR_MBA_Strafe;
 
-		public void VEMovementAnimatorController()
+		public void BRParentMom_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParentMom_RunningController();
+			BR_MBA_Running.BRParentMom_RunningController();
 
-			VE_MBA_Jumping.VEParentMom_JumpingController();
+			BR_MBA_Jumping.BRParentMom_JumpingController();
 
-			VE_MBA_Turning.VEParentMom_TurningController();	
+			BR_MBA_Turning.BRParentMom_TurningController();	
 
-			VE_MBA_Strafe.VEParentMom_StrafingController();
+			BR_MBA_Strafe.BRParentMom_StrafingController();
 		}
 	}
 }

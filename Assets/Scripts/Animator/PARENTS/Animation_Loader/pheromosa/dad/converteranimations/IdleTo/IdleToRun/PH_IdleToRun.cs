@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class PHIdleToRun : MonoBehaviour 
+	public class PHParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void PHIdleToRunController() 
+		public void PHParentDad_IdleToRunController() 
 		{
 			
 		}

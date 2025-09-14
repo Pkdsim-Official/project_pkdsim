@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.WalkingTo
 {
-	public class LUCAWalkingTo : MonoBehaviour 
+	public class LUCAParentDad_WalkingTo : MonoBehaviour 
 	{
-		private LUCAWalkingToStanding LucarioWalkingToStanding;
-		private LUCAWalkingToSitting LucarioWalkingToSitting;
-		public void LUCAWalkingToController()
+		private LUCAParentDad_WalkingToStanding LucarioWalkingToStanding;
+		private LUCAParentDad_WalkingToSitting LucarioWalkingToSitting;
+		public void LUCAParentDad_WalkingToController()
 		{
-			Load_LUCAWalkingToStanding();
-			Load_LUCAWalkingToWSitting();
+			Load_LUCAParentDad_WalkingToStanding();
+			Load_LUCAParentDad_WalkingToWSitting();
 		}
-		private void Load_LUCAWalkingToStanding()
+		private void Load_LUCAParentDad_WalkingToStanding()
 		{
-			LucarioWalkingToStanding.LUCAWalkingToStandingController();
+			LucarioWalkingToStanding.LUCAParentDad_WalkingToStandingController();
 		}
-		private void Load_LUCAWalkingToWSitting()
+		private void Load_LUCAParentDad_WalkingToWSitting()
 		{
-			LucarioWalkingToSitting.LUCAWalkingToSittingController();
+			LucarioWalkingToSitting.LUCAParentDad_WalkingToSittingController();
 		}
 	}
 }

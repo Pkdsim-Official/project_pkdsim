@@ -1,36 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Turning
+
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Turning
 {
-	public class GLParent_Turning : MonoBehaviour	
+	public class GLParentDad_Turning : MonoBehaviour
 	{
-		private GLParent_TurnLeft GLParent_TurnLeft;
-		private GLParent_TurnRight GLParent_TurnRight;
+		private GLParentDad_TurnLeft GLParentDad_TurnLeft;
+		private GLParentDad_TurnRight GLParentDad_TurnRight;
 
-		public void GLParent_TurningController()
+		public void GLParentDad_TurningController()
 		{
-			if (GLParent_TurnLeft == null)
+			if (GLParentDad_TurnLeft == null)
 			{
-				GLParent_TurnLeft = GetComponent<GLParent_TurnLeft>();
-				Load_GLParent_TurnLeft();
+				GLParentDad_TurnLeft = GetComponent<GLParentDad_TurnLeft>();
+				Load_GLParentDad_TurnLeft();
 			}
-			if (GLParent_TurnRight == null)
+			if (GLParentDad_TurnRight == null)
 			{
-				GLParent_TurnRight = GetComponent<GLParent_TurnRight>();
-				Load_GLParent_TurnRight();
+				GLParentDad_TurnRight = GetComponent<GLParentDad_TurnRight>();
+				Load_GLParentDad_TurnRight();
 			}
-			
+
 
 		}
-		private void Load_GLParent_TurnRight()
+		private void Load_GLParentDad_TurnRight()
 		{
-			GLParent_TurnRight.GLParent_TurnRightController();
+			GLParentDad_TurnRight.GLParentDad_TurnRightController();
 		}
-		
-		private void Load_GLParent_TurnLeft()
+
+		private void Load_GLParentDad_TurnLeft()
 		{
-			GLParent_TurnLeft.GLParent_TurnLeftController();
+			GLParentDad_TurnLeft.GLParentDad_TurnLeftController();
 		}
 	}
 }

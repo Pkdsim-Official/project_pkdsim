@@ -1,31 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations
 {
-	public class LunalaParentMom_AnimatorBaseMovementController : MonoBehaviour 
+	public class LunalaParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParentMom_Jumping VE_MBA_Jumping;
+		private LUNAParentMom_Jumping LUNA_MBA_Jumping;
 		
-		private VEParentMom_Running VE_MBA_Running;
+		private LUNAParentMom_Running LUNA_MBA_Running;
 
+		private LUNAParentMom_Turning LUNA_MBA_Turning;
 
-		private VEParentMom_Turning VE_MBA_Turning;
+		private LUNAParentMom_Strafing LUNA_MBA_Strafe;
 
-		private VEParentMom_Strafing VE_MBA_Strafe;
-
-		public void VEMovementAnimatorController()
+		public void LUNAParentMom_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParentMom_RunningController();
+			LUNA_MBA_Running.LUNAParentMom_RunningController();
 
-			VE_MBA_Jumping.VEParentMom_JumpingController();
+			LUNA_MBA_Jumping.LUNAParentMom_JumpingController();
 
-			VE_MBA_Turning.VEParentMom_TurningController();	
+			LUNA_MBA_Turning.LUNAParentMom_TurningController();	
 
-			VE_MBA_Strafe.VEParentMom_StrafingController();
+			LUNA_MBA_Strafe.LUNAParentMom_StrafingController();
 		}
 	}
 }

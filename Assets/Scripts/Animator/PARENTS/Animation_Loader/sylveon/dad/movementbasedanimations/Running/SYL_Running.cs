@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Running
 {
-	public class SYLParent_Running : MonoBehaviour 
+	public class SYLParentDad_Running : MonoBehaviour 
 	{
-		public void SYLParent_RunningController() 
+		public void SYLParentDad_RunningController() 
 		{
 			
 		}

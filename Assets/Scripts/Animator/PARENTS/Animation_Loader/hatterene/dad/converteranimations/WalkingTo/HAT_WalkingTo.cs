@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Dad.converteranimations.WalkingTo
 {
-	public class HATWalkingTo : MonoBehaviour 
+	public class HATParentDad_WalkingTo : MonoBehaviour 
 	{
-		private HATWalkingToStanding HattereneWalkingToStanding;
-		private HATWalkingToSitting HattereneWalkingToSitting;
-		public void HATWalkingToController()
+		private HATParentDad_WalkingToStanding HattereneWalkingToStanding;
+		private HATParentDad_WalkingToSitting HattereneWalkingToSitting;
+		public void HATParentDad_WalkingToController()
 		{
-			Load_HATWalkingToStanding();
-			Load_HATWalkingToWSitting();
+			Load_HATParentDad_WalkingToStanding();
+			Load_HATParentDad_WalkingToWSitting();
 		}
-		private void Load_HATWalkingToStanding()
+		private void Load_HATParentDad_WalkingToStanding()
 		{
-			HattereneWalkingToStanding.HATWalkingToStandingController();
+			HattereneWalkingToStanding.HATParentDad_WalkingToStandingController();
 		}
-		private void Load_HATWalkingToWSitting()
+		private void Load_HATParentDad_WalkingToWSitting()
 		{
-			HattereneWalkingToSitting.HATWalkingToSittingController();
+			HattereneWalkingToSitting.HATParentDad_WalkingToSittingController();
 		}
 	}
 }

@@ -25,7 +25,7 @@ using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Primarina
 using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.Animator_I;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.NPC.AFS_Loader.AnimatorLoadFailSafe
+namespace project_pkdsim.ANIMATOR.Npcs.AFS_Loader.AnimatorLoadFailSafe
 {
     public class Animator_LoadFailSafe
     {
