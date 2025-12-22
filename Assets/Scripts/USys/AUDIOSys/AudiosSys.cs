@@ -1,6 +1,6 @@
-using project_pkdsim.USys.AUDIOSys.Modules;
+using project_pkdsim.USys.AudioSys.Modules;
 
-namespace project_pkdsim.USys.AUDIOSys
+namespace project_pkdsim.USys.AudioSys
 {
 	public class AudioSys : AudioSysI 
 	{

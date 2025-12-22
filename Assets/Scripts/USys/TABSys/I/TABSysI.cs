@@ -1,13 +1,13 @@
-using project_pkdsim.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS;
+using project_pkdsim.USys.TabManagerSys;
 
-namespace project_pkdsim.USys.TabManagerSys.Modules
+namespace project_pkdsim.USys.TABSys.Modules
 {
-    public class TABSysI
+    public class TABSysI 
     {
-        private TABSys_PkPhoneApps TABSys_PkPhoneApps;
-        public void TABSys_PkPhoneAppsI()
+        private UnityTabManagerSys TABSys;
+        public void TABSys_I()
         {
-            TABSys_PkPhoneApps.TabSys_PkPhoneApps();
+            TABSys.TABSys_I();
         }
     }
 }

@@ -1,11 +1,11 @@
-using project_pkdsim.USys.AUDIOSys.Modules.MUSICSys;
+using project_pkdsim.USys.AudioSys.Modules.MusicSys;
 using UnityEngine;
 
-namespace project_pkdsim.USys.AUDIOSys.Modules
+namespace project_pkdsim.USys.AudioSys.Modules
 {
 	public class AudioSysI : MonoBehaviour 
 	{
-		private MusicSys MusicSys;
+		private MUSICSys MusicSys;
 		public void AudiosSys_I()
 		{
 			LoadMusicSys();

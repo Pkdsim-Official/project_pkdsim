@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Espeon.Mom.converteranimations.SittingTo.SittingToStartWalking
+{
+	public class ESParentMom_SittingToStartWalking : MonoBehaviour 
+	{
+		public void ESParentMom_SittingToStartWalkingController() 
+		{
+	
+		}
+	}
+}

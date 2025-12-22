@@ -1,0 +1,25 @@
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.converteranimations.WalkingTo.WalkingToStanding;
+using UnityEngine;
+
+namespace project_pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.converteranimations.WalkingTo
+{
+	public class FLParentDadDad_WalkingTo : MonoBehaviour 
+	{
+		private FLParentDadDad_WalkingToStanding FlareonWalkingToStanding;
+		private FLParentDadDad_WalkingToSitting FlareonWalkingToWSitting;
+		public void FLParentDadDad_WalkingToController()
+		{
+			Load_FLParentDadDad_WalkingToStanding();
+			Load_FLParentDadDad_WalkingToWSitting();
+		}
+		private void Load_FLParentDadDad_WalkingToStanding()
+		{
+			FlareonWalkingToStanding.FLParentDadDad_WalkingToStandingController();
+		}
+		private void Load_FLParentDadDad_WalkingToWSitting()
+		{
+			FlareonWalkingToWSitting.FLParentDadDad_WalkingToSittingController();
+		}
+	}
+}

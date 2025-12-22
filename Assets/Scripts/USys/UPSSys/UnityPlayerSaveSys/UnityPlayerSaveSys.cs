@@ -1,29 +1,24 @@
-using project_pkdsim.USys.UItemsSystemSys.INVENTORY;
-using project_pkdsim.USys.LoveSys.Modules.LoveScripts.Modules.NPC;
+using project_pkdsim.USys.UnityPlayerSaveSys.FileSave;
+using project_pkdsim.USys.UnityPlayerSaveSys.Save_Checker;
 
 namespace project_pkdsim.USys.UnityPlayerSaveSys
 {
-	[System.Serializable]
 	public class UnityPlayerSaveFIleSys
 	{
-		private InventorySystem  inventory;
-
-		private NPC_LOVESys NPC_LoveSys;
-
-		public int Build_Version;
-
-		public UnityEngine.Object pkphone;
-
-		public void PlayerDataBuilder(string value)
+		private UnityPlayerSaveFIle UnityPlayerSaveFIle;
+		private PlayerDataSaveChecker PlayerDataSaveChecker;
+		public void Get_UnityPlayerSaveFIle()
 		{
-			Build_Version = 1;
-			NPC_LoveSys.NPC_LoveSys();         // Call the method        // Initialize inventory
-			inventory.Get_Inventory();         // Call the method
+			UnityPlayerSaveFIle.PlayerDataBuild();
 		}
-		public void UPSSys_I() 
+		public void Get_SaveChecker()
 		{
-			PlayerDataBuilder("value");
+            PlayerDataSaveChecker.RunDataSaveChecker();
+        }
+		public void UPSSys_I()
+		{
+			Get_UnityPlayerSaveFIle();
+			Get_SaveChecker();
 		}
 	}
 }
-
