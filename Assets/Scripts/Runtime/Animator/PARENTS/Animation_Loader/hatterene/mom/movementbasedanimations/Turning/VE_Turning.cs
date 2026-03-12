@@ -1,0 +1,36 @@
+using Project_Pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Turning.TurnLeft;
+using Project_Pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Turning.TurnRight;
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Turning
+{
+	public class HATParentMom_Turning : MonoBehaviour	
+	{
+		private HATParentMom_TurnLeft HATParentMom_TurnLeft;
+		private HATParentMom_TurnRight HATParentMom_TurnRight;
+
+		public void HATParentMom_TurningController()
+		{
+			if (HATParentMom_TurnLeft != null)
+			{
+				
+				Load_HATParentMom_TurnLeft();
+			}
+
+			if (HATParentMom_TurnRight != null)
+			{
+				Load_HATParentMom_TurnRight();
+			}
+			
+		}
+		private void Load_HATParentMom_TurnRight()
+		{
+			HATParentMom_TurnRight.HATParentMom_TurnRightController();
+		}
+		
+		private void Load_HATParentMom_TurnLeft()
+		{
+			HATParentMom_TurnLeft.HATParentMom_TurnLeftController();
+		}
+	}
+}

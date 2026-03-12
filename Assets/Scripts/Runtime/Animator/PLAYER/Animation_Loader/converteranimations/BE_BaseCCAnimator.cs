@@ -1,0 +1,25 @@
+using Project_Pkdsim.ANIMATOR.Player.converteranimations.IdleTo;
+using Project_Pkdsim.ANIMATOR.Player.converteranimations.SittingTo;
+using Project_Pkdsim.ANIMATOR.Player.converteranimations.WalkingTo;
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Player.converteranimations
+{
+	public class PlayerCoverterAnimatorController : MonoBehaviour 
+	{
+		private Player_SittingTo Player_Sittingto;
+		
+		private Player_WalkingTo Player_Walkingto;
+		
+		private Player_IdleTo PlayerIdleto;
+
+		public void PL_CoverterToAnimatorController()
+		{
+			Player_Walkingto.Player_WalkingToController();
+
+			PlayerIdleto.Player_IdleToController();
+			
+			Player_Sittingto.Player_SittingToController();	
+		}
+	}
+}

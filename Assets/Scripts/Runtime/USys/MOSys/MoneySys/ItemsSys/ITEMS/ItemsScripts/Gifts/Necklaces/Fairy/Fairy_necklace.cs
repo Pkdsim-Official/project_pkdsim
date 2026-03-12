@@ -1,0 +1,15 @@
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fairy.Heart_necklace;
+using UnityEngine;
+
+namespace Project_Pkdsim.USysUnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Fairy
+{
+	public class Fairy_Necklace : MonoBehaviour
+	{
+		private Heart_NecklaceItem Heart_NecklaceItem;
+
+		public void Get_HeartNecklace()
+		{
+			Heart_NecklaceItem.GetBuilder();
+		}
+	}
+}

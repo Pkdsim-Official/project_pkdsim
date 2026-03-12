@@ -1,0 +1,15 @@
+using Project_Pkdsim.USys.MoneySys.Modules.HOLIDAYSys.ULoader.Assets.Modules.AssetsSorterI;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Holiday.AssetsSorter.Presidents_Day
+{
+	public class Presidents_Day_ITAssets : MonoBehaviour
+	{
+		private HDA_ULoader holidayLoader;
+		public void LoadPresidents_DayITHAssets()
+		{
+			//Load Presidents Day Item Assets
+			HDA_ULoader.InitializeHolidayAsset("Presidents_Day_AssetKey");
+		}
+	}
+}

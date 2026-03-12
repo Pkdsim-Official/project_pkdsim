@@ -1,0 +1,15 @@
+using Project_Pkdsim.USys.MoneySys.Modules.HOLIDAYSys.ULoader.Assets.Modules.AssetsSorterI;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Holiday.AssetsSorter.MartinLutherKing_Day
+{
+	public class MartinLutherKing_Day_ITAssets : MonoBehaviour
+	{
+		private HDA_ULoader holidayLoader;
+		public void LoadMartinLutherKing_DayITHAssets()
+		{
+			//Load Martin Luther King Day Item Assets
+			HDA_ULoader.InitializeHolidayAsset("MartinLutherKingDayAssetKey"); // Load the holiday asset.
+		}
+	}
+}

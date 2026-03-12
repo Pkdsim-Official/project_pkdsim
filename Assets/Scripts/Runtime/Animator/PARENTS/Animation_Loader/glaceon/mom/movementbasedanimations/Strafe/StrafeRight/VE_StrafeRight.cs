@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations.Strafing.StrafeRight
+{
+	public class GLParentMom_StrafeRight : MonoBehaviour
+	{
+		public void GLParentMom_StrafeRightController() 
+		{
+			
+		}
+	}
+}

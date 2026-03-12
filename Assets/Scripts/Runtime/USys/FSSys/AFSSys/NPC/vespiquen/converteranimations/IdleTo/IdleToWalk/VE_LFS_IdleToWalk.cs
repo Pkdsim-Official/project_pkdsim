@@ -1,0 +1,14 @@
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vespiquen.converteranimations.IdleTo.IdleToWalk
+{
+	public class VE_LFS_IdleToWalk : MonoBehaviour 
+	{
+		private Animator Vespiquen_Animator;
+		public void VE_LFS_IdleToWalkController()
+		{
+			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			Vespiquen_Animator.Play("Idle_ToWalk");         // Start in the Idle animation state
+		}
+	}
+}

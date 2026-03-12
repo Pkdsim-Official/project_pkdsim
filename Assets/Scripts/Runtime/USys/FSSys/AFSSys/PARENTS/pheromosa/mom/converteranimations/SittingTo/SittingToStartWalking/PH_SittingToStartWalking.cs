@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Mom.converteranimations.SittingTo.SittingToStartWalking
+{
+	public class PHParentMom_SittingToStartWalking : MonoBehaviour 
+	{
+		public void PHParentMom_SittingToStartWalkingController() 
+		{
+	
+		}
+	}
+}

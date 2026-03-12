@@ -1,0 +1,15 @@
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.LoadJson.Ground.Crust_necklace;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.LoadJson.Ground
+{
+	public class GroundnecklaceJsonLoader : MonoBehaviour
+	{
+		private Crust_necklaceJsonLoader crust_necklaceJsonLoader;
+		private void Awake()
+		{
+			// crust_necklaceJsonLoader.LoadJson();
+		}
+
+	}
+}

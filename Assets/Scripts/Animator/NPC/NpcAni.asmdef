@@ -1,8 +1,0 @@
-{
-  "name": "project_pkdsim.Animator.Npcs",
-  "rootNamespace": "project_pkdsim.Animator.Npcs",
-  "references": 
-  [
-        "project_pkdsim.USys.FailSafeSys"
-  ]
-}

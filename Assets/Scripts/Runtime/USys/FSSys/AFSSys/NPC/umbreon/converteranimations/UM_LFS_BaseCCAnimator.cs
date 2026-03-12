@@ -1,0 +1,23 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.converteranimations.IdleTo;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.converteranimations.SittingTo;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.converteranimations.WalkingTo;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.converteranimations
+{
+	public class Umbreon_LFS_AnimatorCoverterController : MonoBehaviour 
+	{
+		private UM_LFS_IdleTo Umbreon_LFS_idleTo;
+		
+		private UM_LFS_WalkingTo Umbreon_LFS_WalkingTo;
+
+		private UM_LFS_SittingTo Umbreon_LFS_SittingTo;
+
+		public void UM_LFS_ConverterAnimatorController()
+		{
+			Umbreon_LFS_idleTo.UM_LFS_IdleToController();
+			Umbreon_LFS_WalkingTo.UM_LFS_WalkingToController();	
+			Umbreon_LFS_SittingTo.UM_LFS_SittingToController();
+		}
+	}
+}

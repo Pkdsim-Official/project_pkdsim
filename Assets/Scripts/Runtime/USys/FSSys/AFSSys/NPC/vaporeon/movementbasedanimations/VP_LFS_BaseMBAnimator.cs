@@ -1,0 +1,30 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Jumping;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Running;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Strafing;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations.Turning;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations
+{
+	public class Vaporeon_LFS_MovementAnimatorController : MonoBehaviour 
+	{
+		private VP_LFS_Jumping VP_MBA_Jumping;
+		
+		private VP_LFS_Running VP_MBA_Running;
+
+		private VP_LFS_Turning VP_MBA_Turning;
+
+		private VP_LFS_Strafing VP_MBA_Strafe;
+
+		public void VP_Base_IdleAnimatorController()
+		{
+			VP_MBA_Running.VP_LFS_RunningController();
+
+			VP_MBA_Jumping.VP_LFS_JumpingController();
+
+			VP_MBA_Turning.VP_LFS_TurningController();	
+
+			VP_MBA_Strafe.VP_LFS_StrafingController();
+		}
+	}
+}

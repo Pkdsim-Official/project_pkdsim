@@ -1,0 +1,31 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Jumping;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Running;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Strafing;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations.Turning;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations
+{
+	public class Pheromosa_LFS_MovementAnimatorController : MonoBehaviour 
+	{
+		private PH_LFS_Jumping Pheromosa_MBA_Jumping;
+		
+		private PH_LFS_Running Pheromosa_MBA_Running;
+
+
+		private PH_LFS_Turning Pheromosa_MBA_Turning;
+
+		private PH_LFS_Strafing Pheromosa_MBA_Strafe;
+
+		public void PH_LFS_MovementAnimatorController()
+		{
+			Pheromosa_MBA_Running.PH_LFS_RunningController();
+
+			Pheromosa_MBA_Jumping.PH_LFS_JumpingController();
+
+			Pheromosa_MBA_Turning.PH_LFS_TurningController();	
+
+			Pheromosa_MBA_Strafe.PH_LFS_StrafingController();
+		}
+	}
+}

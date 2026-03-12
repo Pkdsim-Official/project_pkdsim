@@ -1,0 +1,14 @@
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Npcs.Flareon.idlebaseanimation.IdleSitting
+{
+	public class FL_IdleSitting : MonoBehaviour 
+	{
+		public Animator Flareon_Animator;
+		public void FL_IdleSittingController()
+		{
+			Flareon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			Flareon_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+		}
+	}
+}

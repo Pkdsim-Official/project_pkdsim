@@ -1,0 +1,27 @@
+using Project_Pkdsim.ANIMATOR.Npcs.Gardevoir.idlebaseanimation.IdleSitting;
+using Project_Pkdsim.ANIMATOR.Npcs.Gardevoir.idlebaseanimation.IdleStanding;
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Npcs.Gardevoir.idlebaseanimation
+{
+	public class Gardevoir_IdleAnimatorController : MonoBehaviour 
+	{
+		private GARDIdleStanding Gardevoiridlestanding;
+		
+		private GARD_IdleSitting Gardevoiridlesitting;
+		
+		public void	GARD_IdleAnimatorController()
+		{
+			GARDIdleStandingAnimatorController();
+			GARD_IdleSittingAnimatorController();
+		}
+		private void GARDIdleStandingAnimatorController()
+		{
+			Gardevoiridlestanding.GARDIdleStandingController();
+		}
+		private void GARD_IdleSittingAnimatorController()
+		{
+			Gardevoiridlesitting.GARD_IdleSittingController();
+		}
+	}
+}

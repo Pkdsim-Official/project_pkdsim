@@ -1,0 +1,84 @@
+using UnityEngine;
+using System.Collections.Generic;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Electric.Bolt_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Ghost.Soul_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Fire.Sun_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Ice.Snowflake_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Electric.Spark_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Psychic.Hypno_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Fairy.Heart_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Ground.Crust_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Steel.Beam_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Rock.Brick_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Normal.Cat_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Flying.Wings_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Bug.Butterfly_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Fighting.PunchingBag_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Grass.Leaf_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Dark.Lunar_necklace;
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Water.WaterDroplet_necklace;
+
+namespace Project_Pkdsim.USys.MoneySys.Modules.STORESys.Modules.Shared.LoadIDs.Modules.Necklace
+{
+	public class LoadNecklaceID_StoreLink : MonoBehaviour 
+	{
+		private Bolt_NecklaceItemID Bolt_NecklaceItemID;
+		private Cat_NecklaceItemID Cat_NecklaceItemID;
+		private Brick_NecklaceItemID Brick_NecklaceItemID;
+		private Beam_NecklaceItemID Beam_NecklaceItemID;
+		private Crust_NecklaceItemID Crust_NecklaceItemID;
+		private Heart_NecklaceItemID Heart_NecklaceItemID;
+		private Hypno_NecklaceItemID Hypno_NecklaceItemID;
+		private Snowflake_NecklaceItemID Snowflake_NecklaceItemID;
+		private Spark_NecklaceItemID Spark_NecklaceItemID;
+		private Sun_NecklaceItemID Sun_NecklaceItemID;
+		private Soul_NecklaceItemID Soul_NecklaceItemID;
+		private WaterDroplet_NecklaceItemID WaterDroplet_NecklaceItemID;
+		private Lunar_NecklaceItemID Lunar_NecklaceItemID;
+		private Leaf_NecklaceItemID Leaf_NecklaceItemID;
+		private PunchingBag_NecklaceItemID PunchingBag_NecklaceItemID;
+		private Butterfly_NecklaceItemID Butterfly_NecklaceItemID;
+		private Wings_NecklaceItemID Wings_NecklaceItemID;
+		public Dictionary<string, int> ItemNecklacePrices = new Dictionary<string, int>();
+		public void Get_Items_NecklaceIDs()
+		{
+			// Instantiate or get references to the items
+			Bolt_NecklaceItemID = new Bolt_NecklaceItemID();
+			Cat_NecklaceItemID = new Cat_NecklaceItemID();
+			Brick_NecklaceItemID = new Brick_NecklaceItemID();
+			Beam_NecklaceItemID = new Beam_NecklaceItemID();			
+			Crust_NecklaceItemID = new Crust_NecklaceItemID();
+			Heart_NecklaceItemID = new Heart_NecklaceItemID();
+			Hypno_NecklaceItemID = new Hypno_NecklaceItemID();
+			Snowflake_NecklaceItemID = new Snowflake_NecklaceItemID();
+			Spark_NecklaceItemID = new Spark_NecklaceItemID();
+			Sun_NecklaceItemID = new Sun_NecklaceItemID();
+			Soul_NecklaceItemID = new Soul_NecklaceItemID();
+			WaterDroplet_NecklaceItemID = new WaterDroplet_NecklaceItemID();
+			Lunar_NecklaceItemID = new Lunar_NecklaceItemID();
+			Leaf_NecklaceItemID = new Leaf_NecklaceItemID();
+			PunchingBag_NecklaceItemID = new PunchingBag_NecklaceItemID();
+			Butterfly_NecklaceItemID = new Butterfly_NecklaceItemID();
+			Wings_NecklaceItemID = new Wings_NecklaceItemID();
+
+			// Add items to the dictionary using their string property			
+			ItemNecklacePrices.Add(Bolt_NecklaceItemID.CustomUUID, 100);
+			ItemNecklacePrices.Add(Cat_NecklaceItemID.CustomUUID, 250);
+			ItemNecklacePrices.Add(Brick_NecklaceItemID.CustomUUID, 75);
+			ItemNecklacePrices.Add(Beam_NecklaceItemID.CustomUUID, 150);
+			ItemNecklacePrices.Add(Crust_NecklaceItemID.CustomUUID, 100);
+			ItemNecklacePrices.Add(Heart_NecklaceItemID.CustomUUID, 250);
+			ItemNecklacePrices.Add(Hypno_NecklaceItemID.CustomUUID, 75);
+			ItemNecklacePrices.Add(Snowflake_NecklaceItemID.CustomUUID, 150);
+			ItemNecklacePrices.Add(Spark_NecklaceItemID.CustomUUID, 100);
+			ItemNecklacePrices.Add(Sun_NecklaceItemID.CustomUUID, 250);
+			ItemNecklacePrices.Add(Soul_NecklaceItemID.CustomUUID, 75);
+			ItemNecklacePrices.Add(WaterDroplet_NecklaceItemID.CustomUUID, 150);
+			ItemNecklacePrices.Add(Lunar_NecklaceItemID.CustomUUID, 100);
+			ItemNecklacePrices.Add(Leaf_NecklaceItemID.CustomUUID, 250);
+			ItemNecklacePrices.Add(PunchingBag_NecklaceItemID.CustomUUID, 75);
+			ItemNecklacePrices.Add(Butterfly_NecklaceItemID.CustomUUID, 150);
+			ItemNecklacePrices.Add(Wings_NecklaceItemID.CustomUUID, 100);
+		}
+	}
+}

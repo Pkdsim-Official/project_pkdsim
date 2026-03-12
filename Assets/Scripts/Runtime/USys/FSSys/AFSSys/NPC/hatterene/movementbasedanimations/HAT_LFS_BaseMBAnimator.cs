@@ -1,0 +1,31 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.movementbasedanimations.Jumping;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.movementbasedanimations.Running;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.movementbasedanimations.Strafing;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.movementbasedanimations.Turning;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.movementbasedanimations
+{
+	public class Hatterene_LFS_MovementAnimatorController : MonoBehaviour 
+	{
+		private HAT_LFS_Jumping Hatterene_MBA_Jumping;
+		
+		private HAT_LFS_Running Hatterene_MBA_Running;
+
+
+		private HAT_LFS_Turning Hatterene_MBA_Turning;
+
+		private HAT_LFS_Strafing Hatterene_MBA_Strafe;
+
+		public void HAT_LFS_MovementAnimatorController()
+		{
+			Hatterene_MBA_Running.HAT_LFS_RunningController();
+
+			Hatterene_MBA_Jumping.HAT_LFS_JumpingController();
+
+			Hatterene_MBA_Turning.HAT_LFS_TurningController();	
+
+			Hatterene_MBA_Strafe.HAT_LFS_StrafingController();
+		}
+	}
+}

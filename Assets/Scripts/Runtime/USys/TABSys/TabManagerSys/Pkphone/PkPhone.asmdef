@@ -1,0 +1,13 @@
+{
+  "name": "Project_Pkdsim.Runtime.USys.TabManagerSys.Pkphone",
+  "rootNamespace": "Project_Pkdsim.Runtime.USys.TabManagerSys.Pkphone",
+  "references": [
+    "Project_Pkdsim.Runtime.USys.LoveSys",
+    "Project_Pkdsim.Runtime.USys.AudioSys",
+    "Project_Pkdsim.Runtime.USys.PlayerTeleporterSys",
+    "Project_Pkdsim.Runtime.Pkpedia.Parents",
+    "Project_Pkdsim.Runtime.Pkpedia.Npc",
+    "Project_Pkdsim.Runtime.USys.TabManagerSys.UI",
+    "Unity.TextMeshPro"
+  ]
+}

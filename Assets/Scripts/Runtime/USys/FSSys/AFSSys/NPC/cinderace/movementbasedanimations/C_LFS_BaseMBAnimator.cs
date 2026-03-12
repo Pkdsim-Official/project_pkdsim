@@ -1,0 +1,31 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations.Jumping;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations.Running;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations.Strafing;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations.Turning;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations
+{
+	public class Cinderace_LFS_MovementAnimatorController : MonoBehaviour 
+	{
+		private C_LFS_Jumping C_MBA_Jumping;
+		
+		private C_LFS_Running C_MBA_Running;
+
+
+		private C_LFS_Turning C_MBA_Turning;
+
+		private C_LFS_Strafing C_MBA_Strafe;
+
+		public void C_LFS_MovementAnimatorController()
+		{
+			C_MBA_Running.C_LFS_RunningController();
+
+			C_MBA_Jumping.C_LFS_JumpingController();
+
+			C_MBA_Turning.C_LFS_TurningController();	
+
+			C_MBA_Strafe.C_LFS_StrafingController();
+		}
+	}
+}

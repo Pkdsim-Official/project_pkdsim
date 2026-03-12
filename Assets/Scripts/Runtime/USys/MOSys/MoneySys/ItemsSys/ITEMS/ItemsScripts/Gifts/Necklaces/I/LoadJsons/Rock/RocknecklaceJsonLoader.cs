@@ -1,0 +1,14 @@
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.LoadJson.Rock.Brick_necklace;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.LoadJson.Rock
+{
+	public class RocknecklaceJsonLoader : MonoBehaviour
+	{
+		private Brick_necklaceJsonLoader brick_necklaceJsonLoader;
+		private void Awake()
+		{
+			// brick_necklaceJsonLoader.LoadJson();
+		}
+	}
+}

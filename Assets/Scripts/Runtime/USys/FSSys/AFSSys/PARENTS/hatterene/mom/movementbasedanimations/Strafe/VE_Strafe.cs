@@ -1,0 +1,34 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Strafing.StrafeLeft;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Strafing.StrafeRight;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Strafing
+{
+	public class HATParentMom_Strafing : MonoBehaviour 
+	{
+		private HATParentMom_StrafeLeft HATParentMom_strafeleft;
+		
+		private HATParentMom_StrafeRight HATParentMom_straferight;
+
+		public void HATParentMom_StrafingController()
+		{
+			if (HATParentMom_strafeleft == null)
+			{
+				Load_HATParentMom_StrafeLeft();
+			}
+			if (HATParentMom_straferight == null)
+			{
+				Load_HATParentMom_StrafeRight();
+			}
+		}
+		private void Load_HATParentMom_StrafeRight()
+		{
+			HATParentMom_straferight.HATParentMom_StrafeRightController();
+		}
+		
+		private void Load_HATParentMom_StrafeLeft()
+		{
+			HATParentMom_strafeleft.HATParentMom_StrafeLeftController();
+		}
+	}
+}

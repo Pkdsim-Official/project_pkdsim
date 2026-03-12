@@ -1,0 +1,25 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Mom.converteranimations.IdleTo;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Mom.converteranimations.SittingTo;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Mom.converteranimations.WalkingTo;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Mom.converteranimations
+{
+	public class FrostlassParentMom_ConverterAnimatorController : MonoBehaviour 
+	{
+		private FRParentMom_SittingTo FrostlassParentMomSittingto;
+		
+		private FRParentMom_WalkingTo FrostlassParentMomWalkingto;
+		
+		private FRParentMom_IdleTo FrostlassParentMomIdleto;
+
+		public void FRParentMom_ConverterAnimatorController()
+		{
+			FrostlassParentMomWalkingto.FRParentMom_WalkingToController();
+
+			FrostlassParentMomIdleto.FRParentMom_IdleToController();
+			
+			FrostlassParentMomSittingto.FRParentMom_SittingToController();	
+		}
+	}
+}

@@ -1,0 +1,31 @@
+using Project_Pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Jumping;
+using Project_Pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Running;
+using Project_Pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Strafing;
+using Project_Pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations.Turning;
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Npcs.Delphox.movementbasedanimations
+{
+	public class Delphox_MovementAnimatorController : MonoBehaviour 
+	{
+		private DL_Jumping DL_MBA_Jumping;
+		
+		private DL_Running DL_MBA_Running;
+
+
+		private DL_Turning DL_MBA_Turning;
+
+		private DL_Strafing DL_MBA_Strafe;
+
+		public void DLMovementAnimatorController()
+		{
+			DL_MBA_Running.DL_RunningController();
+
+			DL_MBA_Jumping.DL_JumpingController();
+
+			DL_MBA_Turning.DL_TurningController();	
+
+			DL_MBA_Strafe.DL_StrafingController();
+		}
+	}
+}

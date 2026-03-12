@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.converteranimations.SittingTo.SittingToStartWalking
+{
+	public class ES_LFS_SittingToStartWalking : MonoBehaviour 
+	{
+		public void ES_LFS_SittingToStartWalkingController() 
+		{
+			
+		}
+	}
+}

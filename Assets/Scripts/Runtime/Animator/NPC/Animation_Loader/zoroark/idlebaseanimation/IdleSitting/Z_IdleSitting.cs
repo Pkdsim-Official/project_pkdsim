@@ -1,0 +1,14 @@
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Npcs.Zoroark.idlebaseanimation.IdleSitting
+{
+	public class Z_IdleSitting : MonoBehaviour 
+	{
+		private Animator Zoroark_Animator;
+		public void Z_IdleSittingController()
+		{
+			Zoroark_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			Zoroark_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+		}
+	}
+}

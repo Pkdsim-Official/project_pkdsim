@@ -1,0 +1,31 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.movementbasedanimations.Jumping;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.movementbasedanimations.Running;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.movementbasedanimations.Strafing;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.movementbasedanimations.Turning;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.movementbasedanimations
+{
+	public class Lucario_LFS_MovementAnimatorController : MonoBehaviour 
+	{
+		private LUCA_LFS_Jumping Lucario_MBA_Jumping;
+		
+		private LUCA_LFS_Running Lucario_MBA_Running;
+
+
+		private LUCA_LFS_Turning Lucario_MBA_Turning;
+
+		private LUCA_LFS_Strafing Lucario_MBA_Strafe;
+
+		public void LUCA_LFS_MovementAnimatorController()
+		{
+			Lucario_MBA_Running.LUCA_LFS_RunningController();
+
+			Lucario_MBA_Jumping.LUCA_LFS_JumpingController();
+
+			Lucario_MBA_Turning.LUCA_LFS_TurningController();	
+
+			Lucario_MBA_Strafe.LUCA_LFS_StrafingController();
+		}
+	}
+}

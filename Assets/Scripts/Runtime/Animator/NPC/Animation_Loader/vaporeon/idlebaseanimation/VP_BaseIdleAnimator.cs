@@ -1,0 +1,18 @@
+using Project_Pkdsim.ANIMATOR.Npcs.Vaporeon.idlebaseanimation.IdleSitting;
+using Project_Pkdsim.ANIMATOR.Npcs.Vaporeon.idlebaseanimation.IdleStanding;
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Npcs.Vaporeon.idlebaseanimation
+{
+	public class Vaporeon_IdleAnimatorController : MonoBehaviour 
+	{
+		private VP_IdleStanding VP_idlestanding;
+		
+		private VP_IdleSitting VP_idlesitting;
+		private void VP_Base_IdleAnimatorController()
+		{
+			VP_idlestanding.VP_IdleStandingController();
+			VP_idlesitting.VP_IdleSittingController();	
+		}
+	}
+}

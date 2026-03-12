@@ -1,0 +1,14 @@
+using Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.LoadJson.Normal.Cat_necklace;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Gifts.Necklaces.Modules.LoadJson.Normal
+{
+	public class NormalnecklaceJsonLoader : MonoBehaviour
+	{
+		private Cat_necklaceJsonLoader cat_necklaceJsonLoader;
+		private void Awake()
+		{
+			// cat_necklaceJsonLoader.LoadJson();
+		}
+	}
+}

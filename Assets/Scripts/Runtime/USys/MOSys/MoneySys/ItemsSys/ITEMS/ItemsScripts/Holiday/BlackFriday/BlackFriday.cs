@@ -1,0 +1,15 @@
+using Project_Pkdsim.USys.MoneySys.Modules.HOLIDAYSys.ULoader.Assets.Modules.AssetsSorterI;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.MoneySys.UnityItemSys.Modules.ITEMS.ItemsScripts.Holiday.AssetsSorter.BlackFriday
+{
+	public class BlackFriday_ITAssets : MonoBehaviour
+	{
+		private HDA_ULoader holidayLoader;
+		public void LoadBlackFridayITHAssets()
+		{
+			//Load Black Friday Item Assets
+			HDA_ULoader.InitializeHolidayAsset("BlackFridayAssetKey"); // Load the holiday asset.
+		}
+	}
+}

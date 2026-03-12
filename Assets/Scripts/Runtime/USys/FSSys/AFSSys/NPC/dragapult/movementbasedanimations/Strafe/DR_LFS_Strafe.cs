@@ -1,0 +1,38 @@
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing.StrafeLeft;
+using Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing.StrafeRight;
+using UnityEngine;
+
+namespace Project_Pkdsim.USys.FailSafeSys.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.movementbasedanimations.Strafing
+{
+	public class DR_LFS_Strafing : MonoBehaviour 
+	{
+		private DR_LFS_StrafeLeft DR_strafeleft;
+		
+		private DR_LFS_StrafeRight DR_straferight;
+
+		public void DR_LFS_StrafingController()
+		{
+			if (DR_strafeleft == null)
+			{
+				DR_strafeleft = GetComponent<DR_LFS_StrafeLeft>();
+				Load_DR_LFS_StrafeLeft();
+			}
+			if (DR_straferight == null)
+			{
+				DR_straferight = GetComponent<DR_LFS_StrafeRight>();
+				Load_DR_LFS_StrafeRight();
+			}
+			
+
+		}
+		private void Load_DR_LFS_StrafeRight()
+		{
+			DR_straferight.DR_LFS_StrafeRightController();
+		}
+		
+		private void Load_DR_LFS_StrafeLeft()
+		{
+			DR_strafeleft.DR_LFS_StrafeLeftController();
+		}
+	}
+}

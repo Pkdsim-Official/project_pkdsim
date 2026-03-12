@@ -1,0 +1,19 @@
+using Project_Pkdsim.ANIMATOR.Npcs.Leafeon.idlebaseanimation.IdleSitting;
+using Project_Pkdsim.ANIMATOR.Npcs.Leafeon.idlebaseanimation.IdleStanding;
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Npcs.Leafeon.idlebaseanimation
+{
+	public class Leafeon_IdleAnimatorController : MonoBehaviour 
+	{
+		private LE_IdleStanding LE_idlestanding;
+		
+		private LE_IdleSitting LE_idlesitting;
+
+		private void LE_Base_IdleAnimatorController()
+		{
+			LE_idlestanding.LE_IdleStandingController();
+			LE_idlesitting.LE_IdleSittingController();	
+		}
+	}
+}

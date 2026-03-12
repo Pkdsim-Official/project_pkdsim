@@ -1,0 +1,6 @@
+using UnityEngine;
+
+namespace Project_Pkdsim.Pkpedia.Parents.Database.Modules.Vaporeon.Dad
+{
+
+}

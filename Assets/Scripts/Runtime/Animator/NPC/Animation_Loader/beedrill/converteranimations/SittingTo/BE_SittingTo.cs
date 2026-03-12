@@ -1,0 +1,25 @@
+using Project_Pkdsim.ANIMATOR.Npcs.Beedrill.converteranimations.SittingTo.SittingToStartWalking;
+using Project_Pkdsim.ANIMATOR.Npcs.Beedrill.converteranimations.SittingTo.SittingToStanding;
+using UnityEngine;
+
+namespace Project_Pkdsim.ANIMATOR.Npcs.Beedrill.converteranimations.SittingTo
+{
+	public class BE_SittingTo : MonoBehaviour 
+	{
+		private BE_SittingToStartWalking Beedrill_SittingToStartWalking;
+		private BE_SittingToStanding Beedrill_SittingToStanding;
+		public void BE_SittingToController()
+		{
+			BE_SittingToStartWalking();
+			BE_SittingToStanding();
+		}
+		private void BE_SittingToStartWalking()
+		{
+			Beedrill_SittingToStartWalking.BE_SittingToStartWalkingController();
+		}
+		private void BE_SittingToStanding()
+		{
+			Beedrill_SittingToStanding.BE_SittingToStandingController();
+		}
+	}
+}
