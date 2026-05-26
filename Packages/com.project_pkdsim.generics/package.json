@@ -1,0 +1,12 @@
+{ 
+    "name": "com.project_pkdsim.generics", 
+    "version": "0.1.0",
+    "displayName": "Generics", 
+    "description": "A package for handling generic logic.", 
+    "unity": "2020.3", 
+    "author": 
+    { 
+        "name": "Pkdsim Official", 
+        "email": "Pkdsimofficial@gmail.com"
+    }
+}

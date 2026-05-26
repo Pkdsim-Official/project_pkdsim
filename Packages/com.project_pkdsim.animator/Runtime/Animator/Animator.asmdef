@@ -1,0 +1,12 @@
+{ 
+  "name": "project_pkdsim.Animator", 
+  "rootNamespace": "project_pkdsim.ANIMATOR",
+  "references": 
+  [
+    "project_pkdsim.ANIMATOR.Player",
+    "project_pkdsim.ANIMATOR.NPC",
+    "project_pkdsim.ANIMATOR.ITEMS",
+    "project_pkdsim.ANIMATOR.PARENTS",
+    "project_pkdsim.USys"
+  ]
+} 

@@ -1,0 +1,30 @@
+{
+  "name": "project_pkdsim.USys",
+  "rootNamespace": "project_pkdsim.USys",
+  "references": 
+  [
+    "project_pkdsim.USys.LoveSys",
+    "project_pkdsim.USys.AudioSys",
+    "project_pkdsim.USys.AIRoutesSys",
+    "project_pkdsim.USys.DialogueSys",
+    "project_pkdsim.USys.MoneySys",
+    "project_pkdsim.USys.SceneManagerSys",
+    "project_pkdsim.USys.SkyboxSys",
+    "project_pkdsim.USys.TabManagerSys",
+    "project_pkdsim.USys.UnityPlayerSaveSys",
+    "project_pkdsim.USys.FailSafeSys",
+    "project_pkdsim.USys.TabChangeManagerSys",
+    "project_pkdsim.USys.HolidaySys",
+    "project_pkdsim.USys.UTeleporterSys",
+    "project_pkdsim.USys.UItemsSystemSys",
+    "project_pkdsim.USys.ImportSys",
+    "project_pkdsim.Pkpedia",
+
+    "Unity.TextMeshPro",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.Entities",
+    "Unity.Collections",
+    "Unity.Newtonsoft.Json"
+  ]
+}

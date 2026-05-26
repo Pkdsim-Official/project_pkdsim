@@ -1,0 +1,4 @@
+{ 
+  "name": "project_pkdsim.Editor.Runtime", 
+  "rootNamespace": "project_pkdsim.Editor" 
+}

@@ -1,0 +1,12 @@
+{ 
+    "name": "com.project_pkdsim.materials", 
+    "version": "0.1.0",
+    "displayName": "Materials", 
+    "description": "A package for handling material logic.", 
+    "unity": "2020.3", 
+    "author": 
+    { 
+        "name": "Pkdsim Official", 
+        "email": "Pkdsimofficial@gmail.com"
+    }
+}

@@ -1,0 +1,12 @@
+{ 
+    "name": "com.project_pkdsim.abstractor", 
+    "version": "0.1.0",
+    "displayName": "Abstractor", 
+    "description": "A package that abstracts the generics package to make it easier to use and understand.", 
+    "unity": "2020.3", 
+    "author": 
+    { 
+        "name": "Pkdsim Official", 
+        "email": "Pkdsimofficial@gmail.com"
+    }
+}

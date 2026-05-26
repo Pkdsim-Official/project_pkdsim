@@ -1,0 +1,28 @@
+using project_pkdsim.USys.ImportSys;
+
+namespace project_pkdsim.USys
+{
+	public class USys : USysI
+	{
+		public enum USysState
+		{
+			Import,
+			AIRoutes,
+			AnimatedTextures,
+			AntiDateAndTime,
+			AUDIO,
+			Dialogue,
+			Holiday,
+			Love,
+			Money,
+			SceneManager,
+			Skybox,
+			TabChangeManager,
+			UnityPlayerSave,
+			UnityItems,
+			UnityTeleporter,
+			TabManager,
+			FailSafe		
+		}
+	}
+}

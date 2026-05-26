@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Running
+{
+	public class ESParent_Running : MonoBehaviour 
+	{
+		public void ESParent_RunningController() 
+		{
+			
+		}
+	}
+}

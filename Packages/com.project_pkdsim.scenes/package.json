@@ -1,0 +1,12 @@
+{ 
+    "name": "com.project_pkdsim.scenes", 
+    "version": "0.1.0",
+    "displayName": "Scenes", 
+    "description": "A package for handling scene logic.", 
+    "unity": "2020.3", 
+    "author": 
+    { 
+        "name": "Pkdsim Official", 
+        "email": "Pkdsimofficial@gmail.com"
+    }
+}

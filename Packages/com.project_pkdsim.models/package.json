@@ -1,0 +1,12 @@
+{ 
+    "name": "com.project_pkdsim.models", 
+    "version": "0.1.0",
+    "displayName": "Models", 
+    "description": "A package for handling model logic.", 
+    "unity": "2020.3", 
+    "author": 
+    { 
+        "name": "Pkdsim Official", 
+        "email": "Pkdsimofficial@gmail.com"
+    }
+}

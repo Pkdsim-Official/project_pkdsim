@@ -1,0 +1,8 @@
+{ 
+  "name": "project_pkdsim.Abstractors", 
+  "rootNamespace": "project_pkdsim.Abstractors",
+  "references": [
+    "com.project_pkdsim.core",
+    "project_pkdsim.Generics"
+  ]
+} 

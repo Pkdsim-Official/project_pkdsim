@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace project_pkdsim.USys.AUDIOSys.Modules.MUSICSys.Modules.Presets.Modules.Genre.Modules.Trap
+{
+	public class Trap : MonoBehaviour 
+	{
+		public void TrapLoader() 
+		{
+			
+		}
+	}
+}
