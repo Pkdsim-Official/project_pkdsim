@@ -1,6 +1,6 @@
-using project_pkdsim.USys.AntiDateAndTimeSys.Modules;
+using project_pkdsim.USys.ADATSys.Modules;
 
-namespace project_pkdsim.USys.AntiDateAndTimeSys
+namespace project_pkdsim.USys.ADATSys
 {
 	public class ADATSys : ADATSysI
 	{

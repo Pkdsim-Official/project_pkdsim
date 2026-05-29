@@ -5,14 +5,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Animator_I
 {
-	public class LFS_TsareenaFailSafe : MonoBehaviour 
+	public class TsareenaFailSafe : MonoBehaviour 
 	{
 		public Animator Tsareena_Animator;
 		public RuntimeAnimatorController someController;
 
-		private TsareenaCoverterAnimatorController LFSTsareena_AnimatorCCA;
-		private TsareenaParent_AnimatorBaseMovementController LFSTsareena_AnimatorCMA;
-		private Tsareena_IdleAnimatorController LFSTsareena_AnimatorICA;
+		private Tsareena_ConverterToAnimatorController Tsareena_AnimatorCCA;
+		private TsareenaParent_AnimatorMovementController Tsareena_AnimatorCMA;
+		private Tsareena_IdleAnimatorController Tsareena_AnimatorICA;
 
 
 		public void LoadFailSafeTsareena_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Animator_I
 		}
 		private void LoadFailSafeTsareena_ConvertToAnimatorController()
 		{
-			LFSTsareena_AnimatorCCA.TCoverterToAnimatorController();
+			Tsareena_AnimatorCCA.T_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeTsareena_MovementAnimatorController()
 		{
-			LFSTsareena_AnimatorCMA.TMovementAnimatorController();
+			Tsareena_AnimatorCMA.TMovementAnimatorController();
 		}
 		private void LoadFailSafeTsareena_IdleAnimatorController()
 		{
-			LFSTsareena_AnimatorICA.T_IdleAnimatorController();
+			Tsareena_AnimatorICA.T_IdleAnimatorController();
 		}
 	}
 }

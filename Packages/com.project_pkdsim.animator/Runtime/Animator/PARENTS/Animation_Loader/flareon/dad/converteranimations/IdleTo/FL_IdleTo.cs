@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.IdleTo
 {
 	public class FL_IdleTo : MonoBehaviour 
 	{

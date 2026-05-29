@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations
 {
-	public class GlaceonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class GlaceonParent_AnimatorMovementController : MonoBehaviour 
 	{
 		private GLParent_Jumping GL_MBA_Jumping;
 		

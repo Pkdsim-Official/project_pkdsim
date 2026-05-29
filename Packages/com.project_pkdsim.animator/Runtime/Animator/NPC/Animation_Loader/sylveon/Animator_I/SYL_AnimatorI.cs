@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Sylveon.Animator_I
 		public Animator Sylveon_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Sylveon_CoverterAnimatorController LFSSylveon_AnimatorCCA;
-		private Sylveon_AnimatorBaseMovementController LFSSylveon_AnimatorCMA;
+		private Sylveon_ConverterToAnimatorController LFSSylveon_AnimatorCCA;
+		private Sylveon_AnimatorMovementController LFSSylveon_AnimatorCMA;
 		private Sylveon_IdleAnimatorController LFSSylveon_AnimatorICA;
 
 

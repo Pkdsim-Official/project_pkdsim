@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Running
 {
 	public class FLParent_Running : MonoBehaviour 
 	{

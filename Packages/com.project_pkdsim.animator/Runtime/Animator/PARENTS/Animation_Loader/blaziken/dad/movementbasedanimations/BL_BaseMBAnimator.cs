@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Blaziken.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Blaziken.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.movementbasedanimations
 {
-	public class BlazikenParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class BlazikenParentDad_AnimatorMovementController : MonoBehaviour 
 	{
 		private BLParent_Jumping BL_MBA_Jumping;
 		

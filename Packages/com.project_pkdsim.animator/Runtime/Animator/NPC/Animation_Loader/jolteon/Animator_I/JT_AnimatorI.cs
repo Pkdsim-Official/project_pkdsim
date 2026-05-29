@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Jolteon.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Jolteon_ConverterAnimatorController Jolteon_AnimatorCCA;
-		private Jolteon_AnimatorBaseMovementController Jolteon_AnimatorCMA;
+		private Jolteon_AnimatorMovementController Jolteon_AnimatorCMA;
 		private Jolteon_AnimatorIdleController Jolteon_AnimatorICA;
 
 		private void Jolteon_AnimatorController()

@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.converteranimations
 {
-	public class BlazikenCoverterAnimatorController : MonoBehaviour 
+	public class BlazikenParentDad_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private BL_SittingTo BlazikenSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations
 		
 		private BL_IdleTo BlazikenIdleto;
 
-		public void BLCoverterToAnimatorController()
+		public void BL_ConverterToAnimatorController()
 		{
 			BlazikenWalkingto.BL_WalkingToController();
 

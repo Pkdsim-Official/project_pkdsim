@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations.SittingTo.SittingToStanding
 {
 	public class FR_SittingToStanding : MonoBehaviour 
 	{

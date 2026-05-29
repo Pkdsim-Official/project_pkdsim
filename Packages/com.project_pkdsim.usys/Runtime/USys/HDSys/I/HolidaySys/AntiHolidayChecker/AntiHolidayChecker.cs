@@ -1,7 +1,6 @@
-using project_pkdsim.USys.AntiHolidayCheck.Modules;
-using UnityEngine;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules;
 
-namespace project_pkdsim.USys.HolidaySys.AntiHolidayChecker
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker
 {
 	public class AntiHolidayCheatChecker : AntiHolidayCheckI 
 	{

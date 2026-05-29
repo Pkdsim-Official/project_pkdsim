@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Absol.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.Animator_I
 {
-	public class LFS_AbsolFailSafe : MonoBehaviour 
+	public class AbsolFailSafe : MonoBehaviour 
 	{
-		public Animator Absol_Animator;
+		public Animator AbsolParent_Animator;
 		public RuntimeAnimatorController someController;
 
-		private AbsolCoverterAnimatorController LFSAbsol_AnimatorCCA;
-		private AbsolParent_AnimatorBaseMovementController LFSAbsol_AnimatorCMA;
-		private Absol_IdleAnimatorController LFSAbsol_AnimatorICA;
+		private AbsolParent_ConverterToAnimatorController AbsolParent_AnimatorCCA;
+		private AbsolParent_AnimatorMovementController AbsolParent_AnimatorCMA;
+		private AbsolParent_IdleAnimatorController AbsolParent_AnimatorICA;
 
 
-		public void LoadFailSafeAbsol_AnimatorController()
+		public void LoadFailSafeAbsolParent_AnimatorController()
 		{
-			LoadFailSafeAbsol_ConvertToAnimatorController();
-			LoadFailSafeAbsol_MovementAnimatorController();
-			LoadFailSafeAbsol_IdleAnimatorController();
+			LoadFailSafeAbsolParent_ConvertToAnimatorController();
+			LoadFailSafeAbsolParent_MovementAnimatorController();
+			LoadFailSafeAbsolParent_IdleAnimatorController();
 		}
-		private void LoadFailSafeAbsol_ConvertToAnimatorController()
+		private void LoadFailSafeAbsolParent_ConvertToAnimatorController()
 		{
-			LFSAbsol_AnimatorCCA.ABCoverterToAnimatorController();
+			AbsolParent_AnimatorCCA.AB_ConverterToAnimatorController();
 		}
-		private void LoadFailSafeAbsol_MovementAnimatorController()
+		private void LoadFailSafeAbsolParent_MovementAnimatorController()
 		{
-			LFSAbsol_AnimatorCMA.ABMovementAnimatorController();
+			AbsolParent_AnimatorCMA.ABMovementAnimatorController();
 		}
-		private void LoadFailSafeAbsol_IdleAnimatorController()
+		private void LoadFailSafeAbsolParent_IdleAnimatorController()
 		{
-			LFSAbsol_AnimatorICA.AB_IdleAnimatorController();
+			AbsolParent_AnimatorICA.AB_IdleAnimatorController();
 		}
 	}
 }

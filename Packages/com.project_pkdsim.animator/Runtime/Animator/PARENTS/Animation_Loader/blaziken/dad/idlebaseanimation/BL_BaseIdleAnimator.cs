@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Blaziken.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Blaziken.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.idlebaseanimation
 {
-	public class Blaziken_IdleAnimatorController : MonoBehaviour 
+	public class BlazikenParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private BL_IdleStanding BL_Idlestanding;
 		

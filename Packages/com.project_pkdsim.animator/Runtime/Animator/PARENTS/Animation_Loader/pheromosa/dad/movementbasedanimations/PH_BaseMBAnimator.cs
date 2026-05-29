@@ -6,26 +6,26 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations
 {
-	public class PheromosaParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class PheromosaParentDad_AnimatorMovementController : MonoBehaviour 
 	{
-		private PHParent_Jumping Pheromosa_MBA_Jumping;
+		private PHParent_Jumping PheromosaParentDad_MBA_Jumping;
 		
-		private PHParent_Running Pheromosa_MBA_Running;
+		private PHParent_Running PheromosaParentDad_MBA_Running;
 
 
-		private PHParent_Turning Pheromosa_MBA_Turning;
+		private PHParent_Turning PheromosaParentDad_MBA_Turning;
 
-		private PHParent_Strafing Pheromosa_MBA_Strafe;
+		private PHParent_Strafing PheromosaParentDad_MBA_Strafe;
 
 		public void PHMovementAnimatorController()
 		{
-			Pheromosa_MBA_Running.PHParent_RunningController();
+			PheromosaParentDad_MBA_Running.PHParent_RunningController();
 
-			Pheromosa_MBA_Jumping.PHParent_JumpingController();
+			PheromosaParentDad_MBA_Jumping.PHParent_JumpingController();
 
-			Pheromosa_MBA_Turning.PHParent_TurningController();	
+			PheromosaParentDad_MBA_Turning.PHParent_TurningController();	
 
-			Pheromosa_MBA_Strafe.PHParent_StrafingController();
+			PheromosaParentDad_MBA_Strafe.PHParent_StrafingController();
 		}
 	}
 }

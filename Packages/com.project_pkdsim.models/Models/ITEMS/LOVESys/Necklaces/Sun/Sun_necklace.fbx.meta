@@ -1,24 +1,9 @@
 fileFormatVersion: 2
 guid: 359ad91dffd558744a8b5d3e8b2d72f9
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: chains
-    second: {fileID: 2100000, guid: e18c38704231edc4ebb839a71597008b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: loop
-    second: {fileID: 2100000, guid: 9dc001882b079dd41a4b2aef3ee18e72, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: sunnny
-    second: {fileID: 2100000, guid: b68887d0f30de6a4ca9e4e7be2848b33, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -71,6 +56,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

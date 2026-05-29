@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation
 {
-	public class Jolteon_AnimatorIdleController : MonoBehaviour 
+	public class JolteonParent_AnimatorIdleController : MonoBehaviour 
 	{
 		private JT_IdleStanding JT_idlestanding;
 		

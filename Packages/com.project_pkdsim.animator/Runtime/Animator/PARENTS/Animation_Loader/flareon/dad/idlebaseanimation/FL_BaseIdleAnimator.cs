@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Flareon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation
 {
-	public class Flareon_AnimatorIdleController : MonoBehaviour 
+	public class FlareonParentDad_AnimatorIdleController : MonoBehaviour 
 	{
 		private FL_IdleStanding FL_idlestanding;
 		

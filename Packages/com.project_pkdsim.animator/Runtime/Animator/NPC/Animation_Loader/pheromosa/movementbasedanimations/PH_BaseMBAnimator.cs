@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.movementbasedanimations
 {
-	public class Pheromosa_AnimatorBaseMovementController : MonoBehaviour 
+	public class Pheromosa_AnimatorMovementController : MonoBehaviour 
 	{
 		private PH_Jumping Pheromosa_MBA_Jumping;
 		

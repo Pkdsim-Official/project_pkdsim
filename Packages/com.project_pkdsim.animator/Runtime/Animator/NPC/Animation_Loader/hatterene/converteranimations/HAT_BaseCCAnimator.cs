@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations
 {
-	public class HattereneCoverterAnimatorController : MonoBehaviour 
+	public class Hatterene_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private HAT_SittingTo HattereneSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Hatterene.converteranimations
 		
 		private HAT_IdleTo HattereneIdleto;
 
-		public void HATCoverterToAnimatorController()
+		public void HAT_ConverterToAnimatorController()
 		{
 			HattereneWalkingto.HAT_WalkingToController();
 

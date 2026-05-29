@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Beedrill.movementbasedanimations
 {
-	public class Beedrill_AnimatorBaseMovementController : MonoBehaviour 
+	public class Beedrill_AnimatorMovementController : MonoBehaviour 
 	{
 		private BE_Jumping Beedrill_MBA_Jumping;
 		

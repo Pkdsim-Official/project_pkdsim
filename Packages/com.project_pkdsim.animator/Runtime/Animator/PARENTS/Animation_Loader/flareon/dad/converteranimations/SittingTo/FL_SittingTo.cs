@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.SittingTo
 {
 	public class FL_SittingTo : MonoBehaviour 
 	{

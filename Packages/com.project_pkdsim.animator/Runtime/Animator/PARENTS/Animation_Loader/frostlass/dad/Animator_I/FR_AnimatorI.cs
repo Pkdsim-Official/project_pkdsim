@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadidlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadmovementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.DadAnimator_I
 {
-	public class LFS_FrostlassFailSafe : MonoBehaviour 
+	public class FrostlassFailSafe : MonoBehaviour 
 	{
-		public Animator Frostlass_Animator;
+		public Animator FrostlassParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private FrostlassCoverterAnimatorController LFSFrostlass_AnimatorCCA;
-		private FrostlassParent_AnimatorBaseMovementController LFSFrostlass_AnimatorCMA;
-		private Frostlass_IdleAnimatorController LFSFrostlass_AnimatorICA;
+		private FrostlassParentDad_ConverterToAnimatorController FrostlassParentDad_AnimatorCCA;
+		private FrostlassParentDad_AnimatorMovementController FrostlassParentDad_AnimatorCMA;
+		private FrostlassParentDad_IdleAnimatorController FrostlassParentDad_AnimatorICA;
 
 
-		public void LoadFailSafeFrostlass_AnimatorController()
+		public void LoadFailSafeFrostlassParentDad_AnimatorController()
 		{
-			LoadFailSafeFrostlass_ConvertToAnimatorController();
-			LoadFailSafeFrostlass_MovementAnimatorController();
-			LoadFailSafeFrostlass_IdleAnimatorController();
+			LoadFailSafeFrostlassParentDad_ConvertToAnimatorController();
+			LoadFailSafeFrostlassParentDad_MovementAnimatorController();
+			LoadFailSafeFrostlassParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeFrostlass_ConvertToAnimatorController()
+		private void LoadFailSafeFrostlassParentDad_ConvertToAnimatorController()
 		{
-			LFSFrostlass_AnimatorCCA.FRCoverterToAnimatorController();
+			FrostlassParentDad_AnimatorCCA.FR_ConverterToAnimatorController();
 		}
-		private void LoadFailSafeFrostlass_MovementAnimatorController()
+		private void LoadFailSafeFrostlassParentDad_MovementAnimatorController()
 		{
-			LFSFrostlass_AnimatorCMA.FRMovementAnimatorController();
+			FrostlassParentDad_AnimatorCMA.FRMovementAnimatorController();
 		}
-		private void LoadFailSafeFrostlass_IdleAnimatorController()
+		private void LoadFailSafeFrostlassParentDad_IdleAnimatorController()
 		{
-			LFSFrostlass_AnimatorICA.FR_IdleAnimatorController();
+			FrostlassParentDad_AnimatorICA.FR_IdleAnimatorController();
 		}
 	}
 }

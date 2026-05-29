@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation
 {
-	public class Pheromosa_IdleAnimatorController : MonoBehaviour 
+	public class PheromosaParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private PHIdleStanding PHidlestanding;
 		

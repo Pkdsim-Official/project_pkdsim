@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Running
 {
 	public class GLParent_Running : MonoBehaviour 
 	{

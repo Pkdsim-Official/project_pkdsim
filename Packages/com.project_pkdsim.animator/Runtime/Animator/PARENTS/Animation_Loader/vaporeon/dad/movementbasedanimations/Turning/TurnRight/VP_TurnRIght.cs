@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Turning.TurnRight
 {
     public class VPParent_TurnRight : MonoBehaviour 
     {

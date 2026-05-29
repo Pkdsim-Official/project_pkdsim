@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Flareon.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Flareon_AnimatorConverterController Flareon_AnimatorCCA;
-		private Flareon_AnimatorBaseMovementController Flareon_AnimatorCMA;
+		private Flareon_AnimatorMovementController Flareon_AnimatorCMA;
 		private Flareon_AnimatorIdleController Flareon_AnimatorICA;
 		
 		private void Flareon_AnimatorController()

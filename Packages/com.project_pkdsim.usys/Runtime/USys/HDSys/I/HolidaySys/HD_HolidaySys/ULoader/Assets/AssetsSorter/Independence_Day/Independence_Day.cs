@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.ULoader.Assets.AssetsSorter.Independence_Day
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Assets.AssetsSorter.Independence_Day
 {
 	public class Independence_Day_GAssets : MonoBehaviour
 	{

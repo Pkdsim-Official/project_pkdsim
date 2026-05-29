@@ -1,0 +1,7 @@
+{
+"name": "project_pkdsim.USys.SBSys",
+  "rootNamespace": "project_pkdsim.USys.SBSys",
+  "references": [
+    "project_pkdsim.USys.SBSys.SkyBoxSys"
+  ]
+}

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Turning.TurnLeft
 {
 	public class SAParent_TurnLeft : MonoBehaviour 
 	{

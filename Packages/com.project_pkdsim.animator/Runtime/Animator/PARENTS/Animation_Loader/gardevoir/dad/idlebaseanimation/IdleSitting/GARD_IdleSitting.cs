@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.idlebaseanimation.IdleSitting
 {
 	public class GARDIdleSitting : MonoBehaviour 
 	{

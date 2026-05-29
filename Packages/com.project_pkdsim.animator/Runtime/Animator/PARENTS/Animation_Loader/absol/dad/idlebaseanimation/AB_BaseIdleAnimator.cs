@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Absol.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.idlebaseanimation
 {
-	public class Absol_IdleAnimatorController : MonoBehaviour 
+	public class AbsolParent_IdleAnimatorController : MonoBehaviour 
 	{
 		private ABIdleStanding Absolidlestanding;
 		

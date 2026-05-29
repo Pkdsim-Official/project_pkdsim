@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.idlebaseanimation
 {
 	public class Gardevoir_IdleAnimatorController : MonoBehaviour 
 	{

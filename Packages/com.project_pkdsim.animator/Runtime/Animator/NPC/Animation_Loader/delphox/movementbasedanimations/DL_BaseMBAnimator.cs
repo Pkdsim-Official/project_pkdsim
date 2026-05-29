@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Delphox.movementbasedanimations
 {
-	public class Delphox_AnimatorBaseMovementController : MonoBehaviour 
+	public class Delphox_AnimatorMovementController : MonoBehaviour 
 	{
 		private DL_Jumping DL_MBA_Jumping;
 		

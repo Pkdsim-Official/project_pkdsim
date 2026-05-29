@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.Animator_I
 {
-	public class LFS_GardevoirFailSafe : MonoBehaviour 
+	public class GardevoirFailSafe : MonoBehaviour 
 	{
 		public Animator Gardevoir_Animator;
 		public RuntimeAnimatorController someController;
 
-		private GardevoirCoverterAnimatorController LFSGardevoir_AnimatorCCA;
-		private GardevoirParent_AnimatorBaseMovementController LFSGardevoir_AnimatorCMA;
-		private Gardevoir_IdleAnimatorController LFSGardevoir_AnimatorICA;
+		private Gardevoir_ConverterToAnimatorController Gardevoir_AnimatorCCA;
+		private GardevoirParent_AnimatorMovementController Gardevoir_AnimatorCMA;
+		private Gardevoir_IdleAnimatorController Gardevoir_AnimatorICA;
 
 
 		public void LoadFailSafeGardevoir_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Animator_I
 		}
 		private void LoadFailSafeGardevoir_ConvertToAnimatorController()
 		{
-			LFSGardevoir_AnimatorCCA.GARD_CoverterToAnimatorController();
+			Gardevoir_AnimatorCCA.GARD_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeGardevoir_MovementAnimatorController()
 		{
-			LFSGardevoir_AnimatorCMA.GARDMovementAnimatorController();
+			Gardevoir_AnimatorCMA.GARDMovementAnimatorController();
 		}
 		private void LoadFailSafeGardevoir_IdleAnimatorController()
 		{
-			LFSGardevoir_AnimatorICA.GARD_IdleAnimatorController();
+			Gardevoir_AnimatorICA.GARD_IdleAnimatorController();
 		}
 	}
 }

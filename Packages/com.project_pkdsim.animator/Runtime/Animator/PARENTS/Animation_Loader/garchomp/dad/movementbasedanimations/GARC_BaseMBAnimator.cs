@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations
 {
-	public class GarchompParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class GarchompParent_AnimatorMovementController : MonoBehaviour 
 	{
 		private GARCParent_Jumping Garchomp_MBA_Jumping;
 		

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Running
 {
 	public class GARCParent_Running : MonoBehaviour 
 	{

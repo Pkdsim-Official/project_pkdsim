@@ -1,6 +1,6 @@
-using project_pkdsim.USys.HolidaySys.Base;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Base;
 
-namespace project_pkdsim.USys.HolidaySys.HolidayDatabaseSys
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.HolidayDatabaseSys
 {
 	public class HDataSys : HDatabaseSys
 	{

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations
 {
-	public class DragapultCoverterAnimatorController : MonoBehaviour 
+	public class Dragapult_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private DR_SittingTo DragapultSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Dragapult.converteranimations
 		
 		private DR_IdleTo DragapultIdleto;
 
-		public void DRCoverterToAnimatorController()
+		public void DR_ConverterToAnimatorController()
 		{
 			DragapultWalkingto.DR_WalkingToController();
 

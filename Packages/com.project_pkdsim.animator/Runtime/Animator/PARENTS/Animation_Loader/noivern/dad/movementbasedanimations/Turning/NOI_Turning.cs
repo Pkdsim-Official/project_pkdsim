@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Turning
 {
 	public class NOIParent_Turning : MonoBehaviour	
 	{

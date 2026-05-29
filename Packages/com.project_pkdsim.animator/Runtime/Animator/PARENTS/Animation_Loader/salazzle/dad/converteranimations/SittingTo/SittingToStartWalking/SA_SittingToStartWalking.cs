@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
 	public class SA_SittingToStartWalking : MonoBehaviour 
 	{

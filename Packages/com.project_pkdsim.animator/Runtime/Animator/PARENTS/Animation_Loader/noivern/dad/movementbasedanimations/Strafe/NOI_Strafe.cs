@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.movementbasedanimations.Strafing
 {
 	public class NOIParent_Strafing : MonoBehaviour 
 	{

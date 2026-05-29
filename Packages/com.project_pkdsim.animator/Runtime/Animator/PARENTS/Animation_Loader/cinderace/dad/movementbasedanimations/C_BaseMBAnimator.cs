@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations
 {
-	public class CinderaceParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class CinderaceParentDad_AnimatorMovementController : MonoBehaviour 
 	{
 		private CParent_Jumping C_MBA_Jumping;
 		

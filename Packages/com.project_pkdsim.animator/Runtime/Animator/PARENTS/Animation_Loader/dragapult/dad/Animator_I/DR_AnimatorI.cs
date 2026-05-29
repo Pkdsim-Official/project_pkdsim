@@ -5,33 +5,33 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Animator_I
 {
-	public class LFS_DragapultFailSafe : MonoBehaviour 
+	public class DragapultFailSafe : MonoBehaviour 
 	{
-		public Animator Dragapult_Animator;
+		public Animator DelphoxParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private DragapultCoverterAnimatorController LFSDragapult_AnimatorCCA;
-		private DragapultParent_AnimatorBaseMovementController LFSDragapult_AnimatorCMA;
-		private Dragapult_IdleAnimatorController LFSDragapult_AnimatorICA;
+		private DelphoxParentDad_ConverterToAnimatorController DelphoxParentDad_AnimatorCCA;
+		private DelphoxParentDad_AnimatorMovementController DelphoxParentDad_AnimatorCMA;
+		private DelphoxParentDad_IdleAnimatorController DelphoxParentDad_AnimatorICA;
 
 
-		public void LoadFailSafeDragapult_AnimatorController()
+		public void LoadFailSafeDelphoxParentDad_AnimatorController()
 		{
-			LoadFailSafeDragapult_ConvertToAnimatorController();
-			LoadFailSafeDragapult_MovementAnimatorController();
-			LoadFailSafeDragapult_IdleAnimatorController();
+			LoadFailSafeDelphoxParentDad_ConvertToAnimatorController();
+			LoadFailSafeDelphoxParentDad_MovementAnimatorController();
+			LoadFailSafeDelphoxParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeDragapult_ConvertToAnimatorController()
+		private void LoadFailSafeDelphoxParentDad_ConvertToAnimatorController()
 		{
-			LFSDragapult_AnimatorCCA.DRCoverterToAnimatorController();
+			DelphoxParentDad_AnimatorCCA.DR_ConverterToAnimatorController();
 		}
-		private void LoadFailSafeDragapult_MovementAnimatorController()
+		private void LoadFailSafeDelphoxParentDad_MovementAnimatorController()
 		{
-			LFSDragapult_AnimatorCMA.DRMovementAnimatorController();
+			DelphoxParentDad_AnimatorCMA.DRMovementAnimatorController();
 		}
-		private void LoadFailSafeDragapult_IdleAnimatorController()
+		private void LoadFailSafeDelphoxParentDad_IdleAnimatorController()
 		{
-			LFSDragapult_AnimatorICA.DR_IdleAnimatorController();
+			DelphoxParentDad_AnimatorICA.DR_IdleAnimatorController();
 		}
 	}
 }

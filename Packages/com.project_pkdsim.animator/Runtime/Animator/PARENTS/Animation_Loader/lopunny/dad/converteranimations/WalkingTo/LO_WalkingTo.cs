@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations.WalkingTo
 {
 	public class LOWalkingTo : MonoBehaviour 
 	{

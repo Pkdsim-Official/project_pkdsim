@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.idlebaseanimation.IdleSitting
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.idlebaseanimation.IdleSitting
 {
 	public class GL_IdleSitting : MonoBehaviour 
 	{

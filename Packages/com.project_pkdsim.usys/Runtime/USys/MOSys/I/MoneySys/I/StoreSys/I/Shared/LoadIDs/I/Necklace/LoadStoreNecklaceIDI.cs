@@ -18,7 +18,7 @@ using project_pkdsim.USys.UItemsSystemSys.Modules.ID.ItemsScripts.Gifts.Necklace
 using project_pkdsim.USys.UItemsSystemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Dark.Lunar_necklace;
 using project_pkdsim.USys.UItemsSystemSys.Modules.ID.ItemsScripts.Gifts.Necklaces.Water.WaterDroplet_necklace;
 
-namespace project_pkdsim.USys.MoneySys.Modules.STORESys.Modules.Shared.LoadIDs.Modules.Necklace
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules.Shared.LoadIDs.Modules.Necklace
 {
 	public class LoadNecklaceID_StoreLink : MonoBehaviour 
 	{

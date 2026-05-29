@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Leafeon.converteranimations
 {
-	public class Leafeon_CoverterAnimatorController : MonoBehaviour 
+	public class Leafeon_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private LE_SittingTo LeafeonSittingto;
 		

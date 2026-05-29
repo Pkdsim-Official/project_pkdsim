@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.converteranimations.IdleTo.IdleToWalk
 {
 	public class SA_IdleToWalk : MonoBehaviour 
 	{

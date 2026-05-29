@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.MoneySys.Modules.PRICESys.ChangePrices.Modules.NormalPrices
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules.NormalPrices
 {
 	public class PriceSys_NormalPrices : MonoBehaviour
 	{

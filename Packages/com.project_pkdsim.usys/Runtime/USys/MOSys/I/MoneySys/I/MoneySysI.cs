@@ -1,9 +1,9 @@
-using project_pkdsim.USys.MoneySys.Modules.PRICESys;
-using project_pkdsim.USys.MoneySys.Modules.STOCKSys;
-using project_pkdsim.USys.MoneySys.Modules.STORESys;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STOCKSys;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys;
 using UnityEngine;
 
-namespace project_pkdsim.USys.MoneySys.Modules
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules
 {
 	public class MoneySysI : MonoBehaviour
 	{

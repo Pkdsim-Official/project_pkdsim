@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Turning.TurnLeft
 {
 	public class GLParent_TurnLeft : MonoBehaviour 
 	{

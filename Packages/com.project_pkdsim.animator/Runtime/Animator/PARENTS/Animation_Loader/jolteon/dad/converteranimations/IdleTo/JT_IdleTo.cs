@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.IdleTo
 {
 	public class JT_IdleTo : MonoBehaviour 
 	{

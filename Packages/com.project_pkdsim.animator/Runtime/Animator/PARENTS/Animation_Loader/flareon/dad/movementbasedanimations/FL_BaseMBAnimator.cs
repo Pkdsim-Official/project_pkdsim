@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations
 {
-	public class FlareonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class FlareonParent_AnimatorMovementController : MonoBehaviour 
 	{
 		private FLParent_Jumping FL_MBA_Jumping;
 		

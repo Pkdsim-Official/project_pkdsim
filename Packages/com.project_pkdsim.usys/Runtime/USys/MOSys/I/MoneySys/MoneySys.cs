@@ -1,6 +1,6 @@
-using project_pkdsim.USys.MoneySys.Modules;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules;
 
-namespace project_pkdsim.USys.MoneySys
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys
 {
 	public class MOSys : MoneySysI 
 	{

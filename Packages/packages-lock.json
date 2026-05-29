@@ -71,7 +71,12 @@
       "version": "file:com.project_pkdsim.usys",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.project_pkdsim.generics": "0.1.0",
+        "com.project_pkdsim.pkpedia": "0.1.0",
+        "com.project_pkdsim.animator": "0.1.0",
+        "com.unity.addressables": "1.18.19"
+      }
     },
     "com.unity.adaptiveperformance": {
       "version": "6.0.0",

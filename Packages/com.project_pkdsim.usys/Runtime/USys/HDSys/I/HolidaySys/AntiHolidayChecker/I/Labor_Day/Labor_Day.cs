@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.AntiHolidayChecker.Labor_Day
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules.Labor_Day
 {
 	public class Labor_Day_AHDSys_IAssetsLoader : MonoBehaviour
 	{

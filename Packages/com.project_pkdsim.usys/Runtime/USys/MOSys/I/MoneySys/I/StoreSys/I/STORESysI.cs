@@ -1,8 +1,8 @@
-using project_pkdsim.USys.MoneySys.Modules.STORESys.Modules.Buy;
-using project_pkdsim.USys.MoneySys.Modules.STORESys.Modules.Sell;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules.Buy;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules.Sell;
 using UnityEngine;
 
-namespace project_pkdsim.USys.MoneySys.Modules.STORESys.Modules
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules
 {
 	public class STORESysI : MonoBehaviour 
 	{

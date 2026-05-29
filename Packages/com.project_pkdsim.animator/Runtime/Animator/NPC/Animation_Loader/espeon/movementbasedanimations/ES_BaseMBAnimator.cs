@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Espeon.movementbasedanimations
 {
-	public class Espeon_AnimatorBaseMovementController : MonoBehaviour 
+	public class Espeon_AnimatorMovementController : MonoBehaviour 
 	{
 		private ES_Jumping ES_MBA_Jumping;
 		

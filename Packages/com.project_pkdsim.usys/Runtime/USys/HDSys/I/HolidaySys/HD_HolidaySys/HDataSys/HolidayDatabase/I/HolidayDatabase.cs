@@ -1,10 +1,10 @@
-using project_pkdsim.USys.HolidaySys.Base;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Base;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.HolidayDatabaseSys.Modules
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.HolidayDatabaseSys.Modules
 {
     public class HolidayDatabase : MonoBehaviour
     {

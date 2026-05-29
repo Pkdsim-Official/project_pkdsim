@@ -1,0 +1,6 @@
+{ 
+  "name": "project_pkdsim.Core", 
+  "rootNamespace": "project_pkdsim.Core",
+  "references": [
+  ]
+} 

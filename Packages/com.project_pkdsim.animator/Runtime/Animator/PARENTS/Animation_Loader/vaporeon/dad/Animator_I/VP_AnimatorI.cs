@@ -1,17 +1,17 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.Animator_I
 {
 	public class VAPOR_AnimatorI : MonoBehaviour 
 	{
 		public Animator Vaporeon_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Vaporeon_CoverterAnimatorController Vaporeon_AnimatorCCA;
-		private VaporeonParent_AnimatorBaseMovementController Vaporeon_AnimatorCMA;
+		private Vaporeon_ConverterToAnimatorController Vaporeon_AnimatorCCA;
+		private VaporeonParent_AnimatorMovementController Vaporeon_AnimatorCMA;
 		private Vaporeon_IdleAnimatorController Vaporeon_AnimatorICA;
 		
 		private void Vaporeon_AnimatorController()

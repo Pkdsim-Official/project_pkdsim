@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.Animator_I
 {
-	public class LFS_BeedrillFailSafe : MonoBehaviour 
+	public class BeedrillFailSafe : MonoBehaviour 
 	{
 		public Animator Beedrill_Animator;
 		public RuntimeAnimatorController someController;
 
-		private BeedrillCoverterAnimatorController LFSBeedrill_AnimatorCCA;
-		private BeedrillParent_AnimatorBaseMovementController LFSBeedrill_AnimatorCMA;
-		private Beedrill_IdleAnimatorController LFSBeedrill_AnimatorICA;
+		private Beedrill_ConverterToAnimatorController Beedrill_AnimatorCCA;
+		private BeedrillParent_AnimatorMovementController Beedrill_AnimatorCMA;
+		private Beedrill_IdleAnimatorController Beedrill_AnimatorICA;
 
 
 		public void LoadFailSafeBeedrill_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Animator_I
 		}
 		private void LoadFailSafeBeedrill_ConvertToAnimatorController()
 		{
-			LFSBeedrill_AnimatorCCA.BE_CoverterToAnimatorController();
+			Beedrill_AnimatorCCA.BE_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeBeedrill_MovementAnimatorController()
 		{
-			LFSBeedrill_AnimatorCMA.BE_MovementAnimatorController();
+			Beedrill_AnimatorCMA.BE_MovementAnimatorController();
 		}
 		private void LoadFailSafeBeedrill_IdleAnimatorController()
 		{
-			LFSBeedrill_AnimatorICA.BE_IdleAnimatorController();
+			Beedrill_AnimatorICA.BE_IdleAnimatorController();
 		}
 	}
 }

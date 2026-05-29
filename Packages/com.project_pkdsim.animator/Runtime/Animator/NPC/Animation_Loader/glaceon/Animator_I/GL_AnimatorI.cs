@@ -11,7 +11,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Glaceon.Animator_I
 		public RuntimeAnimatorController someController;
 
 		private Glaceon_AnimatorControllerCoverterAnimator Glaceon_AnimatorCCA;
-		private Glaceon_AnimatorBaseMovementController Glaceon_AnimatorCMA;
+		private Glaceon_AnimatorMovementController Glaceon_AnimatorCMA;
 		private Glaceon_AnimatorIdleController Glaceon_AnimatorICA;
 
 

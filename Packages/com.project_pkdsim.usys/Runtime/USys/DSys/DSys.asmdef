@@ -1,0 +1,8 @@
+{
+	"name": "project_pkdsim.USys.DSys",
+	"rootNamespace": "project_pkdsim.USys.DSys",
+	"references": 
+	[
+        "project_pkdsim.USys.DSys.DialogueSys"
+	]
+}

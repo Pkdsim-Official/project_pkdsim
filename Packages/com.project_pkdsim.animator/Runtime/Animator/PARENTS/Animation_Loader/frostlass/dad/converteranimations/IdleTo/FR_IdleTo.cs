@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations.IdleTo
 {
 	public class FR_IdleTo : MonoBehaviour 
 	{

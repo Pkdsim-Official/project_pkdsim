@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.ULoader.Assets.AssetsSorter.Memorial_Day
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Assets.AssetsSorter.Memorial_Day
 {
 	public class Memorial_Day_GAssets : MonoBehaviour
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning
 {
 	public class FRParent_Turning : MonoBehaviour	
 	{

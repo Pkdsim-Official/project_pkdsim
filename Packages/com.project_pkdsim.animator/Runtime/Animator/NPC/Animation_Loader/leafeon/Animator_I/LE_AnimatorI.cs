@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Leafeon.Animator_I
 		public Animator Leafeon_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Leafeon_CoverterAnimatorController Leafeon_AnimatorCCA;
-		private Leafeon_AnimatorBaseMovementController Leafeon_AnimatorCMA;
+		private Leafeon_ConverterToAnimatorController Leafeon_AnimatorCCA;
+		private Leafeon_AnimatorMovementController Leafeon_AnimatorCMA;
 		private Leafeon_IdleAnimatorController  Leafeon_AnimatorICA;
 
 		private void Leafeon_AnimatorController()

@@ -1,0 +1,37 @@
+using project_pkdsim.ANIMATOR.Parents.Primarina.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations;
+using UnityEngine;
+
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Animator_I
+{
+	public class LFS_PrimarinaFailSafe : MonoBehaviour 
+	{
+		public Animator Primarina_Animator;
+		public RuntimeAnimatorController someController;
+
+		private Primarina_ConverterToAnimatorController LFSPrimarina_AnimatorCCA;
+		private PrimarinaParent_AnimatorMovementController LFSPrimarina_AnimatorCMA;
+		private Primarina_IdleAnimatorController LFSPrimarina_AnimatorICA;
+
+
+		public void LoadFailSafePrimarina_AnimatorController()
+		{
+			LoadFailSafePrimarina_ConvertToAnimatorController();
+			LoadFailSafePrimarina_MovementAnimatorController();
+			LoadFailSafePrimarina_IdleAnimatorController();
+		}
+		private void LoadFailSafePrimarina_ConvertToAnimatorController()
+		{
+			LFSPrimarina_AnimatorCCA.PR_ConverterToAnimatorController();
+		}
+		private void LoadFailSafePrimarina_MovementAnimatorController()
+		{
+			LFSPrimarina_AnimatorCMA.PRMovementAnimatorController();
+		}
+		private void LoadFailSafePrimarina_IdleAnimatorController()
+		{
+			LFSPrimarina_AnimatorICA.PR_IdleAnimatorController();
+		}
+	}
+}

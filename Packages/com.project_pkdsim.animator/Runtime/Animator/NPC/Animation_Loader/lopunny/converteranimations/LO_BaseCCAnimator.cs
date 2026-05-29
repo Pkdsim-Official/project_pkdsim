@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations
 {
-	public class Lopunny_CoverterAnimatorController : MonoBehaviour 
+	public class Lopunny_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private LO_SittingTo LopunnySittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Lopunny.converteranimations
 		
 		private LO_IdleTo LopunnyIdleto;
 
-		public void LO_CoverterToAnimatorController()
+		public void LO_ConverterToAnimatorController()
 		{
 			LopunnyWalkingto.LO_WalkingToController();
 

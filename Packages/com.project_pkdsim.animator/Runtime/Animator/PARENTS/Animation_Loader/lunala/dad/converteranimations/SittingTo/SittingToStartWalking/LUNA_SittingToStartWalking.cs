@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
 	public class LUNASittingToStartWalking : MonoBehaviour 
 	{

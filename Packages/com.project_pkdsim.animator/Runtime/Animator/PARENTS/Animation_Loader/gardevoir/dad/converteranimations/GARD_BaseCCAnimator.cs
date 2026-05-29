@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations
 {
-	public class GardevoirCoverterAnimatorController : MonoBehaviour 
+	public class Gardevoir_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private GARD_SittingTo GardevoirSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations
 		
 		private GARD_IdleTo GardevoirIdleto;
 
-		public void GARD_CoverterToAnimatorController()
+		public void GARD_ConverterToAnimatorController()
 		{
 			GardevoirWalkingto.GARD_WalkingToController();
 

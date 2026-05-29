@@ -1,8 +1,8 @@
-using project_pkdsim.USys.SkyboxSys.Modules;
+using project_pkdsim.USys.SBSys.Modules;
 
-namespace project_pkdsim.USys.SkyboxSys
+namespace project_pkdsim.USys.SBSys
 {
-	public class SBSys : SkyBoxSysI
+	public class SBOSys : SBSysI
 	{
 		public void SBSysI() 
 		{

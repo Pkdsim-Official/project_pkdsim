@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation
 {
 	public class Vaporeon_IdleAnimatorController : MonoBehaviour 
 	{

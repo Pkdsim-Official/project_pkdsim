@@ -1,8 +1,8 @@
-using project_pkdsim.USys.HolidaySys.ULoader.Assets.Modules.AssetsSorterI;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Assets.Modules.AssetsSorterI;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays;
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.ULoader
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader
 {
 	public class HDSys_Loader : MonoBehaviour
 	{

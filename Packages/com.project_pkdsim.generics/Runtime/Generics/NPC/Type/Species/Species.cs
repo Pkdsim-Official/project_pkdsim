@@ -4,6 +4,6 @@ namespace project_pkdsim.Generics.NPC.Species
 {
     public interface ISpecies
     {
-        SpeciesType Species { get; }
+        NPCSpeciesType Species { get; }
     }
 }

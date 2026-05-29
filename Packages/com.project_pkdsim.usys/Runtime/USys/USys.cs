@@ -1,4 +1,3 @@
-using project_pkdsim.USys.ImportSys;
 
 namespace project_pkdsim.USys
 {
@@ -26,3 +25,11 @@ namespace project_pkdsim.USys
 		}
 	}
 }
+
+// References to be added in the USys.asmdef file. Do not delete these comments as they are used for code generation.
+// "Unity.TextMeshPro",
+// "Unity.Addressables",
+// "Unity.ResourceManager",
+// "Unity.Entities",
+// "Unity.Collections",
+// "Unity.Newtonsoft.Json"

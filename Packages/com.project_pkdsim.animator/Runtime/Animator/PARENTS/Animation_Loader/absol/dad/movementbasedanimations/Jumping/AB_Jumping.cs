@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Jumping
 {
 	public class ABParent_Jumping : MonoBehaviour 
 	{

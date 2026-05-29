@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.converteranimations.WalkingTo
 {
 	public class SA_WalkingTo : MonoBehaviour 
 	{
-		private SA_WalkingToSitting Salazzle_WalkingToSitting;
-		private SA_WalkingToStanding Salazzle_WalkingToStanding;
+		private SA_WalkingToSitting WalkingToSitting;
+		private SA_WalkingToStanding WalkingToStanding;
 		public void SA_WalkingToController()
 		{
 			SA_WalkingToSitting();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.WalkingTo
 		}
 		private void SA_WalkingToSitting()
 		{
-			Salazzle_WalkingToSitting.SA_WalkingToSittingController();
+			WalkingToSitting.SA_WalkingToSittingController();
 		}
 		private void SA_WalkingToStanding()
 		{
-			Salazzle_WalkingToStanding.SA_WalkingToStandingController();
+			WalkingToStanding.SA_WalkingToStandingController();
 		}
 	}
 }

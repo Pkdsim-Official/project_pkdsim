@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations
 {
-	public class LucarioCoverterAnimatorController : MonoBehaviour 
+	public class Lucario_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private LUCASittingTo Lucariosittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations
 		
 		private LUCAIdleTo Lucarioidleto;
 
-		public void LUCACoverterToAnimatorController()
+		public void LUCA_ConverterToAnimatorController()
 		{
 			Lucariowalkingto.LUCAWalkingToController();
 

@@ -1,19 +1,7 @@
-using project_pkdsim.USys.AIRoutesSys;
-using project_pkdsim.USys.AnimatedTexturesSys;
-using project_pkdsim.USys.AntiDateAndTimeSys;
-using project_pkdsim.USys.AUDIOSys;
-using project_pkdsim.USys.DialogueSys;
-using project_pkdsim.USys.HolidaySys;
-using project_pkdsim.USys.LoveSys;
-using project_pkdsim.USys.MoneySys;
-using project_pkdsim.USys.SceneManagerSys;
-using project_pkdsim.USys.SkyboxSys;
-using project_pkdsim.USys.TabChangeManagerSys;
-using project_pkdsim.USys.UnityPlayerSaveSys;
-using project_pkdsim.USys.UItemsSystemSys;
-using project_pkdsim.USys.UTeleporterSys;
-using project_pkdsim.USys.TabManagerSys;
-using project_pkdsim.USys.FailSafeSys;
+using project_pkdsim.USys.DSys;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys;
+using project_pkdsim.USys.SBSys;
+using project_pkdsim.USys.UTPSys;
 using UnityEngine;
 
 
@@ -41,15 +29,15 @@ namespace project_pkdsim.USys.ImportSys
 
         private MOSys MoneySys;
 
-        private DSys DialogueSys;
+        private DLSys DialSys;
 
-        private AudioSys AudioSys;
+        private AUSys AudioSys;
 
         private ADATSys AntiDateAndTimeSys;
 
         private ATSys AnimatedTexturesSys;
 
-        private SBSys SkyBoxSys;
+        private SBOSys SkyBoxSys;
 
         private FSSys FailSafeSys;
 

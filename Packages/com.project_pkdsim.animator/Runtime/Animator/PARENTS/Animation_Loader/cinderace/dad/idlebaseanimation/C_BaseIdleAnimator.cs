@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Cinderace.idlebaseanimation
 {
-	public class Cinderace_IdleAnimatorController : MonoBehaviour 
+	public class CinderaceParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private C_IdleStanding C_Idlestanding;
 		

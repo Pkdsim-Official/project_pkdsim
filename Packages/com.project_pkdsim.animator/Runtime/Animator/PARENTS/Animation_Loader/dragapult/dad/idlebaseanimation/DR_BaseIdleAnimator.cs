@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation
 {
-	public class Dragapult_IdleAnimatorController : MonoBehaviour 
+	public class DelphoxParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private DRIdleStanding Dragapultidlestanding;
 		

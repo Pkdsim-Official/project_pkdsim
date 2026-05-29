@@ -1,7 +1,7 @@
-using project_pkdsim.USys.MoneySys.Modules.STOCKSys.ITEMS.ItemsScripts;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STOCKSys.ITEMS.ItemsScripts;
 using UnityEngine;
 
-namespace project_pkdsim.USys.MoneySys.Modules.STOCKSys
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STOCKSys
 {
 	public class StockSys : MonoBehaviour 
 	{

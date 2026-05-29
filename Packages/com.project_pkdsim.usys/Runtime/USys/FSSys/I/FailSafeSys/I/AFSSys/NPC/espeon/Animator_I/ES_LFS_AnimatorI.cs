@@ -1,0 +1,36 @@
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.movementbasedanimations;
+using project_pkdsim.Generics.NPC.Species.Type;
+using UnityEngine;
+
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.Animator_I
+{
+	public class LFS_EspeonFailSafe : MonoBehaviour 
+	{
+		private NPCSpeciesType espeon = NPCSpeciesType.ESPEON;
+
+		private Espeon_LFS_ConverterToAnimatorController LFSEspeon_AnimatorCCA;
+		private Espeon_LFS_AnimatorMovementController LFSEspeon_AnimatorCMA;
+		private Espeon_LFS_AnimatorIdleController LFSEspeon_AnimatorICA;
+
+		public void LoadFailSafeEspeon_AnimatorController()
+		{
+			LoadFailSafeEspeon_ConvertToAnimatorController();
+			LoadFailSafeEspeon_IdleAnimatorController();
+			LoadFailSafeEspeon_MovementAnimatorController();
+		}
+		private void LoadFailSafeEspeon_ConvertToAnimatorController()
+		{
+			LFSEspeon_AnimatorCCA.ES_LFS_ConverterToAnimatorController();
+		}
+		private void LoadFailSafeEspeon_MovementAnimatorController()
+		{
+			LFSEspeon_AnimatorCMA.ES_LFS_MovementAnimatorController();
+		}
+		private void LoadFailSafeEspeon_IdleAnimatorController()
+		{
+			LFSEspeon_AnimatorICA.ES_LFS_IdleAnimatorController();
+		}
+	}
+}

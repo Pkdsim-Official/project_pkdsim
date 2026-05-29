@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.Animator_I
 {
-	public class LFS_LopunnyFailSafe : MonoBehaviour 
+	public class LopunnyFailSafe : MonoBehaviour 
 	{
 		public Animator Lopunny_Animator;
 		public RuntimeAnimatorController someController;
 
-		private LopunnyCoverterAnimatorController LFSLopunny_AnimatorCCA;
-		private LopunnyParent_AnimatorBaseMovementController LFSLopunny_AnimatorCMA;
-		private Lopunny_IdleAnimatorController LFSLopunny_AnimatorICA;
+		private Lopunny_ConverterToAnimatorController Lopunny_AnimatorCCA;
+		private LopunnyParent_AnimatorMovementController Lopunny_AnimatorCMA;
+		private Lopunny_IdleAnimatorController Lopunny_AnimatorICA;
 
 
 		public void LoadFailSafeLopunny_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Animator_I
 		}
 		private void LoadFailSafeLopunny_ConvertToAnimatorController()
 		{
-			LFSLopunny_AnimatorCCA.LOCoverterToAnimatorController();
+			Lopunny_AnimatorCCA.LO_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeLopunny_MovementAnimatorController()
 		{
-			LFSLopunny_AnimatorCMA.LOMovementAnimatorController();
+			Lopunny_AnimatorCMA.LOMovementAnimatorController();
 		}
 		private void LoadFailSafeLopunny_IdleAnimatorController()
 		{
-			LFSLopunny_AnimatorICA.LO_IdleAnimatorController();
+			Lopunny_AnimatorICA.LO_IdleAnimatorController();
 		}
 	}
 }

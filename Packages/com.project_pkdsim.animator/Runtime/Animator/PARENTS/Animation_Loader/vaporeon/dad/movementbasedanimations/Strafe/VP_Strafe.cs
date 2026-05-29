@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing
 {
 	public class VPParent_Strafing : MonoBehaviour 
 	{

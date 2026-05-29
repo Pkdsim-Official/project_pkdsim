@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning.TurnLeft
 {
 	public class FRParent_TurnLeft : MonoBehaviour 
 	{

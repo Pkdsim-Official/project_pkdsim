@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.AntiHolidayChecker.Memorial_Day
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules.Memorial_Day
 {
 	public class Memorial_Day_AHDSys_IAssetsLoader : MonoBehaviour
 	{

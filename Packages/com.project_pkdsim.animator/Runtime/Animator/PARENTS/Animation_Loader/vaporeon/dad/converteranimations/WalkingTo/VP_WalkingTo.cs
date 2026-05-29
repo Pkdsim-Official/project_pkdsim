@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.WalkingTo
 {
 	public class VP_WalkingTo : MonoBehaviour 
 	{

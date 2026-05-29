@@ -1,6 +1,6 @@
 
 
-namespace project_pkdsim.USys.HolidaySys.ULoader.Assets.AssetsSorter.Columbus_Day
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Assets.AssetsSorter.Columbus_Day
 {
 	public class Columbus_Day_GAssets
 	{

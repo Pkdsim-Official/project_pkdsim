@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.AntiHolidayChecker.Thanksgiving
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules.Thanksgiving
 {
 	public class Thanksgiving_AHDSys_IAssetsLoader : MonoBehaviour
 	{

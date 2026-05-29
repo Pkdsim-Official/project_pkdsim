@@ -1,23 +1,23 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.Animator_I
 {
 	public class JT_AnimatorI : MonoBehaviour 
 	{
-		public Animator Jolteon_Animator;
+		public Animator JolteonParent_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Jolteon_ConverterAnimatorController Jolteon_AnimatorCCA;
-		private JolteonParent_AnimatorBaseMovementController Jolteon_AnimatorCMA;
-		private Jolteon_AnimatorIdleController Jolteon_AnimatorICA;
+		private JolteonParent_ConverterAnimatorController JolteonParent_AnimatorCCA;
+		private JolteonParent_AnimatorMovementController JolteonParent_AnimatorCMA;
+		private JolteonParent_AnimatorIdleController JolteonParent_AnimatorICA;
 
-		private void Jolteon_AnimatorController()
+		private void JolteonParent_AnimatorController()
 		{
-			Jolteon_Animator = gameObject.GetComponent<Animator>();
-			Jolteon_Animator.runtimeAnimatorController = someController;
+			JolteonParent_Animator = gameObject.GetComponent<Animator>();
+			JolteonParent_Animator.runtimeAnimatorController = someController;
 		}
 		private void ConvertToAnimatorController()
 		{

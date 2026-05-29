@@ -1,6 +1,7 @@
 using project_pkdsim.ANIMATOR.NPC.Zoroark.idlebaseanimation;
 using project_pkdsim.ANIMATOR.NPC.Zoroark.movementbasedanimations;
 using project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations;
+using project_pkdsim.Generics.NPC.Species.Type;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Zoroark.Animator_I
@@ -9,9 +10,10 @@ namespace project_pkdsim.ANIMATOR.NPC.Zoroark.Animator_I
 	{
 		public Animator Zoroark_Animator;
 		public RuntimeAnimatorController someController;
+		private NPCSpeciesType zoroark = NPCSpeciesType.ZOROARK;
 
-		private ZoroarkCoverterAnimatorController LFSZoroark_AnimatorCCA;
-		private Zoroark_AnimatorBaseMovementController LFSZoroark_AnimatorCMA;
+		private Zoroark_ConverterToAnimatorController LFSZoroark_AnimatorCCA;
+		private Zoroark_AnimatorMovementController LFSZoroark_AnimatorCMA;
 		private Zoroark_IdleAnimatorController LFSZoroark_AnimatorICA;
 
 
@@ -23,7 +25,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Zoroark.Animator_I
 		}
 		private void LoadFailSafeZoroark_ConvertToAnimatorController()
 		{
-			LFSZoroark_AnimatorCCA.ZCoverterToAnimatorController();
+			LFSZoroark_AnimatorCCA.Z_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeZoroark_MovementAnimatorController()
 		{

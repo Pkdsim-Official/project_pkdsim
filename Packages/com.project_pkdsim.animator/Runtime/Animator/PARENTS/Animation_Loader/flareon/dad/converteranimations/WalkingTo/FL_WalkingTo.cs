@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.WalkingTo
 {
 	public class FL_WalkingTo : MonoBehaviour 
 	{

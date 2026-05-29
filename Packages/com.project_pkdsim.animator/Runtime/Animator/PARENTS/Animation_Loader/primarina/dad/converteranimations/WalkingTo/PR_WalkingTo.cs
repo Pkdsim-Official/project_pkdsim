@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Dad.converteranimations.WalkingTo
 {
 	public class PRWalkingTo : MonoBehaviour 
 	{

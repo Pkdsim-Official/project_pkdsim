@@ -1,37 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Primarina.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Primarina.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Dad.Animator_I
 {
-	public class LFS_PrimarinaFailSafe : MonoBehaviour 
+	public class PrimarinaFailSafe : MonoBehaviour 
 	{
-		public Animator Primarina_Animator;
+		public Animator PrimarinaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private PrimarinaCoverterAnimatorController LFSPrimarina_AnimatorCCA;
-		private PrimarinaParent_AnimatorBaseMovementController LFSPrimarina_AnimatorCMA;
-		private Primarina_IdleAnimatorController LFSPrimarina_AnimatorICA;
+		private PrimarinaParentDad_ConverterToAnimatorController PrimarinaParentDad_AnimatorCCA;
+		private PrimarinaParentDad_AnimatorMovementController PrimarinaParentDad_AnimatorCMA;
+		private PrimarinaParentDad_IdleAnimatorController PrimarinaParentDad_AnimatorICA;
 
-
-		public void LoadFailSafePrimarina_AnimatorController()
+		public void LoadFailSafePrimarinaParentDad_AnimatorController()
 		{
-			LoadFailSafePrimarina_ConvertToAnimatorController();
-			LoadFailSafePrimarina_MovementAnimatorController();
-			LoadFailSafePrimarina_IdleAnimatorController();
+			LoadFailSafePrimarinaParentDad_ConvertToAnimatorController();
+			LoadFailSafePrimarinaParentDad_MovementAnimatorController();
+			LoadFailSafePrimarinaParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafePrimarina_ConvertToAnimatorController()
+		private void LoadFailSafePrimarinaParentDad_ConvertToAnimatorController()
 		{
-			LFSPrimarina_AnimatorCCA.PRCoverterToAnimatorController();
+			PrimarinaParentDad_AnimatorCCA.PR_ConverterToAnimatorController();
 		}
-		private void LoadFailSafePrimarina_MovementAnimatorController()
+		private void LoadFailSafePrimarinaParentDad_MovementAnimatorController()
 		{
-			LFSPrimarina_AnimatorCMA.PRMovementAnimatorController();
+			PrimarinaParentDad_AnimatorCMA.PRMovementAnimatorController();
 		}
-		private void LoadFailSafePrimarina_IdleAnimatorController()
+		private void LoadFailSafePrimarinaParentDad_IdleAnimatorController()
 		{
-			LFSPrimarina_AnimatorICA.PR_IdleAnimatorController();
+			PrimarinaParentDad_AnimatorICA.PR_IdleAnimatorController();
 		}
 	}
 }

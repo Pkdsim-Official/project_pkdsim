@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation
 {
-	public class Braixen_IdleAnimatorController : MonoBehaviour 
+	public class BraixenParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private BRIdleStanding BRidlestanding;
 		

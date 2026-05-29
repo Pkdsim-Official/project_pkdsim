@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Strafing
 {
 	public class SAParent_Strafing : MonoBehaviour 
 	{

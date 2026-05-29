@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Glaceon.movementbasedanimations
 {
-	public class Glaceon_AnimatorBaseMovementController : MonoBehaviour 
+	public class Glaceon_AnimatorMovementController : MonoBehaviour 
 	{
 		private GL_Jumping GL_MBA_Jumping;
 		

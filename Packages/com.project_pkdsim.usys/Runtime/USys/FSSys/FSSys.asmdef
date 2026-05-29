@@ -1,0 +1,9 @@
+{
+  "name": "project_pkdsim.USys.FSSys",
+  "rootNamespace": "project_pkdsim.USys.FSSys",
+  "references": 
+  [
+    "project_pkdsim.USys.FSSys.AntiFailSafeSys",
+    "project_pkdsim.USys.FSSys.VoiceActorsFailSafeSys"
+  ]
+}

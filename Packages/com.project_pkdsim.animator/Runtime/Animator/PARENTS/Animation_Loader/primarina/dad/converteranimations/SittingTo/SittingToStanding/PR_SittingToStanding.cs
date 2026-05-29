@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Dad.converteranimations.SittingTo.SittingToStanding
 {
 	public class PRSittingToStanding : MonoBehaviour 
 	{

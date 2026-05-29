@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.converteranimations
 {
-	public class Vaporeon_CoverterAnimatorController : MonoBehaviour 
+	public class Vaporeon_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private VP_SittingTo VaporeonSittingto;
 		

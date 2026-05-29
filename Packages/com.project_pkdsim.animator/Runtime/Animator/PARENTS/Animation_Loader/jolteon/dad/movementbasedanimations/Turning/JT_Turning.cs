@@ -1,9 +1,9 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning.TurnRight;
 
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning
 {
 	public class JTParent_Turning : MonoBehaviour	
 	{

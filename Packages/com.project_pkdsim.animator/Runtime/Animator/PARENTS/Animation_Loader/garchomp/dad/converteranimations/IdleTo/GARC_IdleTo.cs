@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo
 {
 	public class GARC_IdleTo : MonoBehaviour 
 	{

@@ -1,14 +1,12 @@
-using project_pkdsim.USys.UTPSys.UHousesTeleporterSys;
-using UnityEngine;
+using project_pkdsim.USys.UTPSys.Modules;
 
-namespace project_pkdsim.USys.UTeleporterSys
+namespace project_pkdsim.USys.UTPSys
 {
-	public class UTSys : MonoBehaviour 
+	public class UTSys : UTPSysI
 	{
-		private UHTeleporterSys UHTeleporterSys;
 		public void UTPSysI()
 		{
-			UHTeleporterSys.UHTPSysI();
+			UTPSys_I();
 		}
 	}
 }

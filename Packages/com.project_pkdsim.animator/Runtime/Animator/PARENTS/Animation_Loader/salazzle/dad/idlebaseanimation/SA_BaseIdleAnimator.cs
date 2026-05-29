@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.idlebaseanimation
 {
-	public class Salazzle_IdleAnimatorController : MonoBehaviour 
+	public class SlazzleParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private SA_IdleStanding SA_idlestanding;
 		

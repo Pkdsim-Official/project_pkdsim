@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.movementbasedanimations.Turning.TurnLeft
 {
 	public class GARDParent_TurnLeft : MonoBehaviour 
 	{

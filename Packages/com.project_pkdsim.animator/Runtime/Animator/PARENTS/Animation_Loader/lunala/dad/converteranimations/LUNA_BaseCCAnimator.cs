@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations
 {
-	public class LunalaCoverterAnimatorController : MonoBehaviour 
+	public class Lunala_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private LUNASittingTo Lunalasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations
 		
 		private LUNAIdleTo Lunalaidleto;
 
-		public void LUNACoverterToAnimatorController()
+		public void LUNA_ConverterToAnimatorController()
 		{
 			Lunalawalkingto.LUNAWalkingToController();
 

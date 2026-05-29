@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Dragapult.movementbasedanimations
 {
-	public class Dragapult_AnimatorBaseMovementController : MonoBehaviour 
+	public class Dragapult_AnimatorMovementController : MonoBehaviour 
 	{
 		private DR_Jumping DR_MBA_Jumping;
 		

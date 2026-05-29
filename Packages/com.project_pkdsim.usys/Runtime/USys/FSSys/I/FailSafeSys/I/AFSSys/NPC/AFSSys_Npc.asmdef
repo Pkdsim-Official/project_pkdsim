@@ -1,0 +1,10 @@
+{
+  "name": "project_pkdsim.USys.FSSys.AntiFailSafeSys.Npc",
+  "rootNamespace": "project_pkdsim.USys.FSSys.AntiFailSafeSys.Npc",
+  "references": 
+  [
+    "project_pkdsim.Generics",
+
+    "Unity.Addressables"
+  ]
+}

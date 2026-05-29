@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.Animator_I
 		public Animator Gardevoir_Animator;
 		public RuntimeAnimatorController someController;
 
-		private GardevoirCoverterAnimatorController LFSGardevoir_AnimatorCCA;
-		private Gardevoir_AnimatorBaseMovementController LFSGardevoir_AnimatorCMA;
+		private Gardevoir_ConverterToAnimatorController LFSGardevoir_AnimatorCCA;
+		private Gardevoir_AnimatorMovementController LFSGardevoir_AnimatorCMA;
 		private Gardevoir_IdleAnimatorController LFSGardevoir_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Gardevoir.Animator_I
 		}
 		private void LoadFailSafeGardevoir_ConvertToAnimatorController()
 		{
-			LFSGardevoir_AnimatorCCA.GARD_CoverterToAnimatorController();
+			LFSGardevoir_AnimatorCCA.GARD_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeGardevoir_MovementAnimatorController()
 		{

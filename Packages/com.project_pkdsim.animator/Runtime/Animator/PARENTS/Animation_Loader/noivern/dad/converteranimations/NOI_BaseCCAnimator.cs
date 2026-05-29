@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.converteranimations
 {
-	public class NoivernCoverterAnimatorController : MonoBehaviour 
+	public class NoivernParentDad_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private NOISittingTo Noivernsittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Noivern.converteranimations
 		
 		private NOIIdleTo Noivernidleto;
 
-		public void NOICoverterToAnimatorController()
+		public void NOI_ConverterToAnimatorController()
 		{
 			Noivernwalkingto.NOIWalkingToController();
 

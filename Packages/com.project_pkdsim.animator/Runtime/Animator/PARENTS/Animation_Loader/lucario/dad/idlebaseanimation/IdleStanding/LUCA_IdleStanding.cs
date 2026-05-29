@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation.IdleStanding
 {
 	public class LUCAIdleStanding : MonoBehaviour 
 	{

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lunala.movementbasedanimations
 {
-	public class Lunala_AnimatorBaseMovementController : MonoBehaviour 
+	public class Lunala_AnimatorMovementController : MonoBehaviour 
 	{
 		private LUNA_Jumping Lunala_MBA_Jumping;
 		

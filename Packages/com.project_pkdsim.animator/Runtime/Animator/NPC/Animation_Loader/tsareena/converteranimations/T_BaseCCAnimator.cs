@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations
 {
-	public class Tsareena_CoverterAnimatorController : MonoBehaviour 
+	public class Tsareena_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private T_SittingTo TsareenaSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Tsareena.converteranimations
 		
 		private T_IdleTo TsareenaIdleto;
 
-		public void T_CoverterToAnimatorController()
+		public void T_ConverterToAnimatorController()
 		{
 			TsareenaWalkingto.T_WalkingToController();
 

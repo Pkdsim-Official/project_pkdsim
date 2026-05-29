@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.converteranimations.SittingTo.SittingToStanding
 {
 	public class SA_SittingToStanding : MonoBehaviour 
 	{

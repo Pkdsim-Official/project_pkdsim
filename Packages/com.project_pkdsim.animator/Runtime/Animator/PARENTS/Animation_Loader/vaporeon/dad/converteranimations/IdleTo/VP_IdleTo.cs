@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.IdleTo
 {
 	public class VP_IdleTo : MonoBehaviour 
 	{

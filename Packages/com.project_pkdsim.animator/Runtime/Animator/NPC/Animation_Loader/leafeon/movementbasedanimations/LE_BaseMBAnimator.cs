@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Leafeon.movementbasedanimations
 {
-	public class Leafeon_AnimatorBaseMovementController : MonoBehaviour 
+	public class Leafeon_AnimatorMovementController : MonoBehaviour 
 	{
 		private LE_Jumping LE_MBA_Jumping;
 		

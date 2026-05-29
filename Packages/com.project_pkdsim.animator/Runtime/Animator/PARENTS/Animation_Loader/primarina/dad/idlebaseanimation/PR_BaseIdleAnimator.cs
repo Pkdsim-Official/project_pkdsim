@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Primarina.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Primarina.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Primarina.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Dad.idlebaseanimation
 {
-	public class Primarina_IdleAnimatorController : MonoBehaviour 
+	public class PrimarinaParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private PRIdleStanding Primarinaidlestanding;
 		

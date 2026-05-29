@@ -1,5 +1,5 @@
-using project_pkdsim.USys.UTPSys.UHousesTeleporterSys.HOUSES.NPC;
-using project_pkdsim.USys.UTPSys.UHousesTeleporterSys.HOUSES.PLAYER;
+using project_pkdsim.USys.UTPSys.Modules.UHousesTeleporterSys.HOUSES.NPC;
+using project_pkdsim.USys.UTPSys.Modules.UHousesTeleporterSys.HOUSES.PLAYER;
 using UnityEngine;
 
 namespace project_pkdsim.USys.TabManagerSys.Pkphone.TABSys_PkPhoneAPPS.TABSys_WayPointLink.Modules.Menu_I.Houses

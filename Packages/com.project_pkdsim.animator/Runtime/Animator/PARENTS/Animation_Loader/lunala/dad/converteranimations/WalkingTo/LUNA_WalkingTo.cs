@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.WalkingTo
 {
 	public class LUNAWalkingTo : MonoBehaviour 
 	{

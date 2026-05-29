@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations
 {
-	public class Sylveon_CoverterAnimatorController : MonoBehaviour 
+	public class Sylveon_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private SYL_SittingTo Sylveon_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Sylveon.converteranimations
 		
 		private SYL_IdleTo Sylveon_idleto;
 
-		public void SYL_CoverterToAnimatorController()
+		public void SYL_ConverterToAnimatorController()
 		{
 			Sylveon_walkingto.SYL_WalkingToController();
 

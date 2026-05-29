@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.ULoader.Assets.AssetsSorter.CyberMonday
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Assets.AssetsSorter.CyberMonday
 {
 	public class CyberMonday_GAssets : MonoBehaviour
 	{

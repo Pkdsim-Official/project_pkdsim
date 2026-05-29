@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations
 {
-	public class PrimarinaParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class PrimarinaParentDad_AnimatorMovementController : MonoBehaviour 
 	{
-		private PRParent_Jumping Primarina_MBA_Jumping;
+		private PRParent_Jumping PrimarinaParentDad_MBA_Jumping;
 		
-		private PRParent_Running Primarina_MBA_Running;
+		private PRParent_Running PrimarinaParentDad_MBA_Running;
 
 
-		private PRParent_Turning Primarina_MBA_Turning;
+		private PRParent_Turning PrimarinaParentDad_MBA_Turning;
 
-		private PRParent_Strafing Primarina_MBA_Strafe;
+		private PRParent_Strafing PrimarinaParentDad_MBA_Strafe;
 
 		public void PRMovementAnimatorController()
 		{
-			Primarina_MBA_Running.PRParent_RunningController();
+			PrimarinaParentDad_MBA_Running.PRParent_RunningController();
 
-			Primarina_MBA_Jumping.PRParent_JumpingController();
+			PrimarinaParentDad_MBA_Jumping.PRParent_JumpingController();
 
-			Primarina_MBA_Turning.PRParent_TurningController();	
+			PrimarinaParentDad_MBA_Turning.PRParent_TurningController();	
 
-			Primarina_MBA_Strafe.PRParent_StrafingController();
+			PrimarinaParentDad_MBA_Strafe.PRParent_StrafingController();
 		}
 	}
 }

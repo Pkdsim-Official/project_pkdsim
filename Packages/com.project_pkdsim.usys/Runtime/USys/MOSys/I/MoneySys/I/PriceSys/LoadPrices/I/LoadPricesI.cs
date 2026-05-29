@@ -1,27 +1,27 @@
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.BlackFriday;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Christmas;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Halloween;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.NewYear;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.CyberMonday;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Mothers_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Fathers_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Independence_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Thanksgiving;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Labor_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Memorial_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Columbus_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Veterans_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Presidents_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Easter;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.Valentines_Day;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.CincoDeMayo;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.BlackFriday;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Christmas;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Halloween;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.NewYear;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.CyberMonday;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Mothers_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Fathers_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Independence_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Thanksgiving;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Labor_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Memorial_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Columbus_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Veterans_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Presidents_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Easter;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.Valentines_Day;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.CincoDeMayo;
 using UnityEngine;
 using System;
 using System.Collections.Generic;
-using project_pkdsim.USys.HolidaySys.ULoader.Holidays.AssetsSorter.MartinLutherKing_Day;
-using project_pkdsim.USys.MoneySys.Modules.PRICESys.ChangePrices.Modules.NormalPrices;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Holidays.AssetsSorter.MartinLutherKing_Day;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules.NormalPrices;
 
-namespace project_pkdsim.USys.MoneySys.Modules.PRICESys.ChangePrices.Modules.LoadPrices.Modules
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules.LoadPrices.Modules
 {
 	public class Load_PricesI : ChangePricesI
 	{

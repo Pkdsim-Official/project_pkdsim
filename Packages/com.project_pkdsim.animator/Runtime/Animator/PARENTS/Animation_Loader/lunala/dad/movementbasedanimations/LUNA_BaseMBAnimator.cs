@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations
 {
-	public class LunalaParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class LunalaParent_AnimatorMovementController : MonoBehaviour 
 	{
 		private LUNAParent_Jumping Lunala_MBA_Jumping;
 		

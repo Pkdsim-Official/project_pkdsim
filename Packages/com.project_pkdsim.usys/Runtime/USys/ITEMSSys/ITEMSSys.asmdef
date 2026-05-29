@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.ITEMSSys",
+  "rootNamespace": "project_pkdsim.USys.ITEMSSys",
+  "references": 
+  [
+    "project_pkdsim.USys.HDSys.HolidaySys"
+  ]
+}

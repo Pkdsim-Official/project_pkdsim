@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.Animator_I
 {
-	public class _SalazzleFailSafe : MonoBehaviour 
+	public class SalazzleFailSafe : MonoBehaviour 
 	{
-		public Animator Salazzle_Animator;
+		public Animator Animator;
 		public RuntimeAnimatorController someController;
 
-		private Salazzle_CoverterAnimatorController Salazzle_AnimatorCCA;
-		private SalazzleParent_AnimatorBaseMovementController Salazzle_AnimatorCMA;
-		private Salazzle_IdleAnimatorController Salazzle_AnimatorICA;
+		private SalazzleParentDad_ConverterToAnimatorController SalazzleParentDad_AnimatorCCA;
+		private SalazzleParentDad_AnimatorMovementController SalazzleParentDad_AnimatorCMA;
+		private SalazzleParentDad_IdleAnimatorController SalazzleParentDad_AnimatorICA;
 
-		public void LoadFailSafeSalazzle_AnimatorController()
+		public void LoadFailSafeAnimatorController()
 		{
-			LoadFailSafeSalazzle_ConvertToAnimatorController();
-			LoadFailSafeSalazzle_MovementAnimatorController();
-			LoadFailSafeSalazzle_IdleAnimatorController();
+			LoadFailSafeSalazzleParentDad_ConvertToAnimatorController();
+			LoadFailSafeSalazzleParentDad_MovementAnimatorController();
+			LoadFailSafeSalazzleParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeSalazzle_ConvertToAnimatorController()
+		private void LoadFailSafeSalazzleParentDad_ConvertToAnimatorController()
 		{
-			Salazzle_AnimatorCCA.SA_CoverterToAnimatorController();
+			SalazzleParentDad_AnimatorCCA.SA_ConverterToAnimatorController();
 		}
-		private void LoadFailSafeSalazzle_MovementAnimatorController()
+		private void LoadFailSafeSalazzleParentDad_MovementAnimatorController()
 		{
-			Salazzle_AnimatorCMA.SA_MovementAnimatorController();
+			SalazzleParentDad_AnimatorCMA.SA_MovementAnimatorController();
 		}
-		private void LoadFailSafeSalazzle_IdleAnimatorController()
+		private void LoadFailSafeSalazzleParentDad_IdleAnimatorController()
 		{
-			Salazzle_AnimatorICA.SA_IdleAnimatorController();
+			SalazzleParentDad_AnimatorICA.SA_IdleAnimatorController();
 		}
 	}
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.ULoader.Assets.AssetsSorter.Valentines_Day
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Assets.AssetsSorter.Valentines_Day
 {
 	public class Valentines_Day_GAssets : MonoBehaviour
 	{

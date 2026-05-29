@@ -5,14 +5,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.Animator_I
 {
-	public class LFS_ZoroarkFailSafe : MonoBehaviour 
+	public class ZoroarkFailSafe : MonoBehaviour 
 	{
 		public Animator Zoroark_Animator;
 		public RuntimeAnimatorController someController;
 
-		private ZoroarkParentMom_CoverterAnimatorController LFSZoroark_AnimatorCCA;
-		private ZoroarkParentMom_AnimatorBaseMovementController LFSZoroark_AnimatorCMA;
-		private ZoroarkParentMom_IdleAnimatorController LFSZoroark_AnimatorICA;
+		private ZoroarkParentMom_ConverterToAnimatorController Zoroark_AnimatorCCA;
+		private ZoroarkParentMom_AnimatorMovementController Zoroark_AnimatorCMA;
+		private ZoroarkParentMom_IdleAnimatorController Zoroark_AnimatorICA;
 
 
 		public void LoadFailSafeZoroark_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.Animator_I
 		}
 		private void LoadFailSafeZoroark_ConvertToAnimatorController()
 		{
-			LFSZoroark_AnimatorCCA.ZParentMom_CoverterToAnimatorController();
+			Zoroark_AnimatorCCA.ZParentMom_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeZoroark_MovementAnimatorController()
 		{
-			LFSZoroark_AnimatorCMA.ZParentMom_MovementAnimatorController();
+			Zoroark_AnimatorCMA.ZParentMom_MovementAnimatorController();
 		}
 		private void LoadFailSafeZoroark_IdleAnimatorController()
 		{
-			LFSZoroark_AnimatorICA.ZParentMom_IdleAnimatorController();
+			Zoroark_AnimatorICA.ZParentMom_IdleAnimatorController();
 		}
 	}
 }

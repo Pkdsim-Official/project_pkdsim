@@ -1,13 +1,13 @@
 
-using project_pkdsim.USys.HolidaySys.HolidayDatabaseSys.Modules;
-using project_pkdsim.USys.HolidaySys.Toggler.Holiday;
-using project_pkdsim.USys.HolidaySys.ULoader.Assets.Modules.AssetsSorterI;
-using project_pkdsim.USys.HolidaySys.Base;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.HolidayDatabaseSys.Modules;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Toggler.Holiday;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader.Assets.Modules.AssetsSorterI;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Base;
 using System;
 using UnityEngine;
 
 
-namespace project_pkdsim.USys.HolidaySys.Toggler.Asset
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Toggler.Asset
 {
 	public class HDAsset_Toggler : MonoBehaviour
 	{

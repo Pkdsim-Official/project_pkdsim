@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations
 {
-	public class LucarioParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class LucarioParent_AnimatorMovementController : MonoBehaviour 
 	{
 		private LUCAParent_Jumping Lucario_MBA_Jumping;
 		

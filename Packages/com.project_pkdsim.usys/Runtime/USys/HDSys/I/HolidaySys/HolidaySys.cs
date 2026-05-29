@@ -1,12 +1,12 @@
-using UnityEngine;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules;
 
-namespace project_pkdsim.USys.HolidaySys
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys
 {
-	public class HDSys : HDSysI 
-	{
-		public void HDSysI()
-		{
-			HDSys_I();
-		}
-	}
+    public class HolidaySys : HolidaySysI
+    {
+        public void HolidaySys_I()
+        {
+            
+        }
+    }
 }

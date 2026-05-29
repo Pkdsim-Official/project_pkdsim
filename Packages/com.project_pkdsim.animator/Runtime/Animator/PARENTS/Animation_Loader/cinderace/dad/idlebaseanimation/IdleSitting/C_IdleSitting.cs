@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Cinderace.idlebaseanimation.IdleSittin
 {
 	public class C_IdleSitting : MonoBehaviour 
 	{
-		private Animator Cinderace_Animator;
+		private Animator CinderaceParentDad_Animator;
 		public void C_IdleSittingController()
 		{
-			Cinderace_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Cinderace_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			CinderaceParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			CinderaceParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

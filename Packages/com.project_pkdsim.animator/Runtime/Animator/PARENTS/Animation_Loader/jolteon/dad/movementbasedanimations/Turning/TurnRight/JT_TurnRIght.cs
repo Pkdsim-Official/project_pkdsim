@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning.TurnRight
 {
     public class JTParent_TurnRight : MonoBehaviour 
     {

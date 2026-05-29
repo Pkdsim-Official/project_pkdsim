@@ -1,0 +1,10 @@
+{
+  "name": "project_pkdsim.USys.FSSys.AntiFailSafeSys.Player",
+  "rootNamespace": "project_pkdsim.USys.FSSys.AntiFailSafeSys.Player",
+  "references": 
+  [
+    "project_pkdsim.Generics",
+
+    "Unity.Addressables"
+  ]
+}

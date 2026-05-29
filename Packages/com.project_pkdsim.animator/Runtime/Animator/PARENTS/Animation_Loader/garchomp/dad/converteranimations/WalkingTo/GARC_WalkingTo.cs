@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.converteranimations.WalkingTo
 {
 	public class GARC_WalkingTo : MonoBehaviour 
 	{

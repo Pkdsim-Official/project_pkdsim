@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation
 {
 	public class Garchomp_IdleAnimatorController : MonoBehaviour 
 	{

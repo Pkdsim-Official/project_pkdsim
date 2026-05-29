@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations.IdleTo
 {
 	public class LUNAIdleTo : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class LUCAWalkingToSitting : MonoBehaviour 
 	{

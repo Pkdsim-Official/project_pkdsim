@@ -5,14 +5,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Animator_I
 {
-	public class LFS_MeowscaradaFailSafe : MonoBehaviour 
+	public class MeowscaradaFailSafe : MonoBehaviour 
 	{
 		public Animator Meowscarada_Animator;
 		public RuntimeAnimatorController someController;
 
-		private MeowscaradaCoverterAnimatorController LFSMeowscarada_AnimatorCCA;
-		private MeowscaradaParent_AnimatorBaseMovementController LFSMeowscarada_AnimatorCMA;
-		private Meowscarada_IdleAnimatorController LFSMeowscarada_AnimatorICA;
+		private Meowscarada_ConverterToAnimatorController Meowscarada_AnimatorCCA;
+		private MeowscaradaParent_AnimatorMovementController Meowscarada_AnimatorCMA;
+		private Meowscarada_IdleAnimatorController Meowscarada_AnimatorICA;
 
 
 		public void LoadFailSafeMeowscarada_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Animator_I
 		}
 		private void LoadFailSafeMeowscarada_ConvertToAnimatorController()
 		{
-			LFSMeowscarada_AnimatorCCA.MEOWCoverterToAnimatorController();
+			Meowscarada_AnimatorCCA.MEOW_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeMeowscarada_MovementAnimatorController()
 		{
-			LFSMeowscarada_AnimatorCMA.MEOWMovementAnimatorController();
+			Meowscarada_AnimatorCMA.MEOWMovementAnimatorController();
 		}
 		private void LoadFailSafeMeowscarada_IdleAnimatorController()
 		{
-			LFSMeowscarada_AnimatorICA.MEOW_IdleAnimatorController();
+			Meowscarada_AnimatorICA.MEOW_IdleAnimatorController();
 		}
 	}
 }

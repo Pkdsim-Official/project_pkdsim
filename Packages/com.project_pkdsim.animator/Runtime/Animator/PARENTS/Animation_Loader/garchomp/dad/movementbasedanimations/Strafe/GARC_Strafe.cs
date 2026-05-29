@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Strafing
+namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Strafing
 {
 	public class GARCParent_Strafing : MonoBehaviour 
 	{

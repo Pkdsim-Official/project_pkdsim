@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.idlebaseanimation.IdleStanding
 {
 	public class BE_IdleStanding : MonoBehaviour 
 	{

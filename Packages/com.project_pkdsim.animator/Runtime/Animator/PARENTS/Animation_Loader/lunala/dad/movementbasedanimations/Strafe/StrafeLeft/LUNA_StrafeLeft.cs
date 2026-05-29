@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class LUNA_StrafeLeft : MonoBehaviour 
 	{

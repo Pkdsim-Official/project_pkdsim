@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations
 {
-	public class BeedrillCoverterAnimatorController : MonoBehaviour 
+	public class Beedrill_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private BE_SittingTo BeedrillSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Beedrill.converteranimations
 		
 		private BE_IdleTo BeedrillIdleto;
 
-		public void BE_CoverterToAnimatorController()
+		public void BE_ConverterToAnimatorController()
 		{
 			BeedrillWalkingto.BE_WalkingToController();
 

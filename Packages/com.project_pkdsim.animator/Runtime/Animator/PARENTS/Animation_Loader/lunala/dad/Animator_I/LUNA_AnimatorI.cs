@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Lunala.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.Animator_I
 {
-	public class LFS_LunalaFailSafe : MonoBehaviour 
+	public class LunalaFailSafe : MonoBehaviour 
 	{
 		public Animator Lunala_Animator;
 		public RuntimeAnimatorController someController;
 
-		private LunalaCoverterAnimatorController LFSLunala_AnimatorCCA;
-		private LunalaParent_AnimatorBaseMovementController LFSLunala_AnimatorCMA;
-		private Lunala_IdleAnimatorController LFSLunala_AnimatorICA;
+		private Lunala_ConverterToAnimatorController Lunala_AnimatorCCA;
+		private LunalaParent_AnimatorMovementController Lunala_AnimatorCMA;
+		private Lunala_IdleAnimatorController Lunala_AnimatorICA;
 
 
 		public void LoadFailSafeLunala_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Lunala.Animator_I
 		}
 		private void LoadFailSafeLunala_ConvertToAnimatorController()
 		{
-			LFSLunala_AnimatorCCA.LUNACoverterToAnimatorController();
+			Lunala_AnimatorCCA.LUNA_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeLunala_MovementAnimatorController()
 		{
-			LFSLunala_AnimatorCMA.LUNAMovementAnimatorController();
+			Lunala_AnimatorCMA.LUNAMovementAnimatorController();
 		}
 		private void LoadFailSafeLunala_IdleAnimatorController()
 		{
-			LFSLunala_AnimatorICA.LUNA_IdleAnimatorController();
+			Lunala_AnimatorICA.LUNA_IdleAnimatorController();
 		}
 	}
 }

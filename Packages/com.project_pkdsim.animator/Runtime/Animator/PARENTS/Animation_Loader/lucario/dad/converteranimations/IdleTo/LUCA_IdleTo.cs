@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations.IdleTo
 {
 	public class LUCAIdleTo : MonoBehaviour 
 	{

@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Running;
 using UnityEngine;
 
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations
 {
-	public class JolteonParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class JolteonParent_AnimatorMovementController : MonoBehaviour 
 	{
 		private JTParent_Jumping JT_MBA_Jumping;
 		

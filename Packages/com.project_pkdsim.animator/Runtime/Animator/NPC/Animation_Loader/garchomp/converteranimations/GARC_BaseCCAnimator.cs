@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations
 {
-	public class GarchompCoverterAnimatorController : MonoBehaviour 
+	public class Garchomp_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private GARC_SittingTo GarchompSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.converteranimations
 		
 		private GARC_IdleTo GarchompIdleto;
 
-		public void GARCCoverterToAnimatorController()
+		public void GARC_ConverterToAnimatorController()
 		{
 			GarchompWalkingto.GARC_WalkingToController();
 

@@ -1,4 +1,4 @@
-using project_pkdsim.Generics.NPC.Species.Type;
+using project_pkdsim.Generics.NPC.Species;
 
 namespace project_pkdsim.Generics.NPC
 {
@@ -6,6 +6,6 @@ namespace project_pkdsim.Generics.NPC
     {
         string Name { get; }
         void Interact();
-        SpeciesType Species { get; }
+        ISpecies Species { get; }
     }
 }

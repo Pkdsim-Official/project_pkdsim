@@ -1,24 +1,9 @@
 fileFormatVersion: 2
 guid: 2eb6d3076deff594d9bdd5785d102540
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pm0762_00_BodyA1
-    second: {fileID: 2100000, guid: 6040d61f904b8994ba1dfbc2181c1182, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pm0762_00_BodyB1
-    second: {fileID: 2100000, guid: 7d2e2c977c5b6ce4e9f5a3cd7f8d848b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pm0762_00_Eye1
-    second: {fileID: 2100000, guid: 347cadc04e8b9ea43a9168183316886f, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -71,6 +56,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

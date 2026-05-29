@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Turning.TurnRight
 {
     public class LUNAParent_TurnRight : MonoBehaviour 
     {

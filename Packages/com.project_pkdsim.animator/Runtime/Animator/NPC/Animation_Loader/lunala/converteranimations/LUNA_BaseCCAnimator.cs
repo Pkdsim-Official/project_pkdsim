@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lunala.converteranimations
 {
-	public class LunalaCoverterAnimatorController : MonoBehaviour 
+	public class Lunala_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private LUNA_SittingTo Lunalasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Lunala.converteranimations
 		
 		private LUNA_IdleTo Lunalaidleto;
 
-		public void LUNACoverterToAnimatorController()
+		public void LUNA_ConverterToAnimatorController()
 		{
 			Lunalawalkingto.LUNA_WalkingToController();
 

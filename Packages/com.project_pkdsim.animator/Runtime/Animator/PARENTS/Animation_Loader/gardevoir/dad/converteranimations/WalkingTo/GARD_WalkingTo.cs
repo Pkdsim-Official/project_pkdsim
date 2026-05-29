@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.WalkingTo
 {
 	public class GARD_WalkingTo : MonoBehaviour 
 	{

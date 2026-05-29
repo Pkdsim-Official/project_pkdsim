@@ -1,35 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Flareon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Animator_I
 {
 	public class FL_AnimatorI : MonoBehaviour 
 	{
-		public Animator Flareon_Animator;
+		public Animator FlareonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Flareon_AnimatorConverterController Flareon_AnimatorCCA;
-		private FlareonParent_AnimatorBaseMovementController Flareon_AnimatorCMA;
-		private Flareon_AnimatorIdleController Flareon_AnimatorICA;
-		
-		private void Flareon_AnimatorController()
+		private FlareonParentDad_ConverterToAnimatorController FlareonParentDad_AnimatorCCA;
+		private FlareonParentDad_AnimatorMovementController FlareonParentDad_AnimatorCMA;
+		private FlareonParentDad_IdleAnimatorController FlareonParentDad_AnimatorICA;
+
+
+		public void LoadFailSafeFlareonParentDad_AnimatorController()
 		{
-			// Flareon_Animator = gameObject.GetComponent<Animator>();
-			// Flareon_Animator.runtimeAnimatorController = someController;
+			LoadFailSafeFlareonParentDad_ConvertToAnimatorController();
+			LoadFailSafeFlareonParentDad_MovementAnimatorController();
+			LoadFailSafeFlareonParentDad_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
+		private void LoadFailSafeFlareonParentDad_ConvertToAnimatorController()
 		{
-			//Flareon_AnimatorCCA;
+			FlareonParentDad_AnimatorCCA.C_ConverterToAnimatorController();
 		}
-		private void MovementAnimatorController()
+		private void LoadFailSafeFlareonParentDad_MovementAnimatorController()
 		{
-			//Flareon_AnimatorCMA	;
+			FlareonParentDad_AnimatorCMA.CMovementAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void LoadFailSafeFlareonParentDad_IdleAnimatorController()
 		{
-			//Flareon_AnimatorICA;		
+			FlareonParentDad_AnimatorICA.C_IdleAnimatorController();
 		}
 	}
 }

@@ -1,29 +1,9 @@
 fileFormatVersion: 2
 guid: 98f2922e9b821444facc1eb53524014f
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Chains_Bo
-    second: {fileID: 2100000, guid: a28d38fe68fe85e44b8317967df3b273, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: inner
-    second: {fileID: 2100000, guid: 39e5ef6fe02ee8847be27e913e34d9bb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: outer
-    second: {fileID: 2100000, guid: c2d954f4cafe1c74d9911a7dcc849992, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: trace
-    second: {fileID: 2100000, guid: 6ef00d27fceb79a4d8d651bc5d0bb954, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -76,6 +56,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

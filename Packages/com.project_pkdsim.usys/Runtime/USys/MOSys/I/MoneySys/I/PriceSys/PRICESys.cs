@@ -1,9 +1,9 @@
 using System;
 using UnityEngine;
-using project_pkdsim.USys.HolidaySys.Base;
-using project_pkdsim.USys.MoneySys.Modules.PRICESys.ChangePrices.Modules.LoadPrices;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Base;
+using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules.LoadPrices;
 
-namespace project_pkdsim.USys.MoneySys.Modules.PRICESys
+namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys
 {
 	public class PriceSys : MonoBehaviour
 	{

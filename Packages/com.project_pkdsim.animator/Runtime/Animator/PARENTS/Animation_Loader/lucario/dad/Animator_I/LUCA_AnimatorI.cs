@@ -1,18 +1,18 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Lucario.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.Animator_I
 {
-	public class LFS_LucarioFailSafe : MonoBehaviour 
+	public class LucarioFailSafe : MonoBehaviour 
 	{
 		public Animator Lucario_Animator;
 		public RuntimeAnimatorController someController;
 
-		private LucarioCoverterAnimatorController LFSLucario_AnimatorCCA;
-		private LucarioParent_AnimatorBaseMovementController LFSLucario_AnimatorCMA;
-		private Lucario_IdleAnimatorController LFSLucario_AnimatorICA;
+		private Lucario_ConverterToAnimatorController Lucario_AnimatorCCA;
+		private LucarioParent_AnimatorMovementController Lucario_AnimatorCMA;
+		private Lucario_IdleAnimatorController Lucario_AnimatorICA;
 
 
 		public void LoadFailSafeLucario_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Lucario.Animator_I
 		}
 		private void LoadFailSafeLucario_ConvertToAnimatorController()
 		{
-			LFSLucario_AnimatorCCA.LUCACoverterToAnimatorController();
+			Lucario_AnimatorCCA.LUCA_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeLucario_MovementAnimatorController()
 		{
-			LFSLucario_AnimatorCMA.LUCAMovementAnimatorController();
+			Lucario_AnimatorCMA.LUCAMovementAnimatorController();
 		}
 		private void LoadFailSafeLucario_IdleAnimatorController()
 		{
-			LFSLucario_AnimatorICA.LUCA_IdleAnimatorController();
+			Lucario_AnimatorICA.LUCA_IdleAnimatorController();
 		}
 	}
 }

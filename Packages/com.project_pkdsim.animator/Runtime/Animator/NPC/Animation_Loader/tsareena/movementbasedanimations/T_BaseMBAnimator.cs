@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Tsareena.movementbasedanimations
 {
-	public class Tsareena_AnimatorBaseMovementController : MonoBehaviour 
+	public class Tsareena_AnimatorMovementController : MonoBehaviour 
 	{
 		private T_Jumping Tsareena_MBA_Jumping;
 		

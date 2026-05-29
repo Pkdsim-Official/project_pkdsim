@@ -5,14 +5,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
 {
-	public class LFS_VespiquenFailSafe : MonoBehaviour 
+	public class VespiquenFailSafe : MonoBehaviour 
 	{
 		public Animator Vespiquen_Animator;
 		public RuntimeAnimatorController someController;
 
-		private VespiquenCoverterAnimatorController LFSVespiquen_AnimatorCCA;
-		private VespiquenParent_AnimatorBaseMovementController LFSVespiquen_AnimatorCMA;
-		private Vespiquen_IdleAnimatorController LFSVespiquen_AnimatorICA;
+		private Vespiquen_ConverterToAnimatorController Vespiquen_AnimatorCCA;
+		private VespiquenParent_AnimatorMovementController Vespiquen_AnimatorCMA;
+		private Vespiquen_IdleAnimatorController Vespiquen_AnimatorICA;
 
 
 		public void LoadFailSafeVespiquen_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Animator_I
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSVespiquen_AnimatorCCA.VECoverterToAnimatorController();
+			Vespiquen_AnimatorCCA.VE_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{
-			LFSVespiquen_AnimatorCMA.VEMovementAnimatorController();
+			Vespiquen_AnimatorCMA.VEMovementAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_IdleAnimatorController()
 		{
-			LFSVespiquen_AnimatorICA.VE_IdleAnimatorController();
+			Vespiquen_AnimatorICA.VE_IdleAnimatorController();
 		}
 	}
 }

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning
 {
 	public class LOParent_Turning : MonoBehaviour	
 	{

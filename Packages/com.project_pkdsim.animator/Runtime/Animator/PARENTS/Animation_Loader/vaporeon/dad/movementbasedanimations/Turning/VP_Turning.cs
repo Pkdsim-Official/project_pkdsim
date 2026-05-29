@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Turning
 {
 	public class VPParent_Turning : MonoBehaviour	
 	{

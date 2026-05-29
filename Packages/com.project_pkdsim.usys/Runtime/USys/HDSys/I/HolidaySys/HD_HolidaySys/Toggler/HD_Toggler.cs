@@ -1,8 +1,8 @@
-using project_pkdsim.USys.HolidaySys.Toggler.Asset;
-using project_pkdsim.USys.HolidaySys.Toggler.Holiday;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Toggler.Asset;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Toggler.Holiday;
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.Toggler
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Toggler
 {
 	public class HD_toggler : MonoBehaviour
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.converteranimations.SittingTo
 {
 	public class BL_SittingTo : MonoBehaviour 
 	{

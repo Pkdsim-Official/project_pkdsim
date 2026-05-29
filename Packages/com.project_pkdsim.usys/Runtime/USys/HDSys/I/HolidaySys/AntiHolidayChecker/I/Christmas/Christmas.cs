@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.AntiHolidayChecker.Christmas
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules.Christmas
 {
 	public class Christmas_AHDSys_IAssetsLoader : MonoBehaviour
 	{

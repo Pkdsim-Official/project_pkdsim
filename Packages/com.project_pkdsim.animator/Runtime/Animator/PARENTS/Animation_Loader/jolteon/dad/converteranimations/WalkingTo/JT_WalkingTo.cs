@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations.WalkingTo
 {
 	public class JT_WalkingTo : MonoBehaviour 
 	{

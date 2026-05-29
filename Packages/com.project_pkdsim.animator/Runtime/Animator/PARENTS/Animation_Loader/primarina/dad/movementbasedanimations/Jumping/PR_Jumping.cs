@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Primarina.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations.Jumping
 {
 	public class PRParent_Jumping : MonoBehaviour 
 	{

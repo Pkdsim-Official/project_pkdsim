@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations.WalkingTo.WalkingToStanding
 {
 	public class BR_WalkingToStanding : MonoBehaviour 
 	{

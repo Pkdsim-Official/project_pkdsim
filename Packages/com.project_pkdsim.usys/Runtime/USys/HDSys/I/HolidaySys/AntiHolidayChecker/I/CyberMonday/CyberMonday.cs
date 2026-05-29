@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HolidaySys.AntiHolidayChecker.CyberMonday
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules.CyberMonday
 {
 	public class CyberMonday_AHDSys_IAssetsLoader : MonoBehaviour
 	{

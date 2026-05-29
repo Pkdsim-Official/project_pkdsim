@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations
 {
-	public class VespiquenCoverterAnimatorController : MonoBehaviour 
+	public class Vespiquen_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private VE_SittingTo Vespiquensittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.converteranimations
 		
 		private VE_IdleTo Vespiquenidleto;
 
-		public void VECoverterToAnimatorController()
+		public void VE_ConverterToAnimatorController()
 		{
 			Vespiquenwalkingto.VE_WalkingToController();
 

@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.HDSys",
+  "rootNamespace": "project_pkdsim.USys.HDSys",
+  "references": 
+  [
+    "project_pkdsim.USys.MOSys.MoneySys"
+  ]
+}

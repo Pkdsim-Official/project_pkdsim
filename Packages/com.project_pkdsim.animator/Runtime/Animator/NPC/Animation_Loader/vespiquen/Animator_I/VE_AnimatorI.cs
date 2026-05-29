@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.Animator_I
 		public Animator Vespiquen_Animator;
 		public RuntimeAnimatorController someController;
 
-		private VespiquenCoverterAnimatorController LFSVespiquen_AnimatorCCA;
-		private Vespiquen_AnimatorBaseMovementController LFSVespiquen_AnimatorCMA;
+		private Vespiquen_ConverterToAnimatorController LFSVespiquen_AnimatorCCA;
+		private Vespiquen_AnimatorMovementController LFSVespiquen_AnimatorCMA;
 		private Vespiquen_IdleAnimatorController LFSVespiquen_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Vespiquen.Animator_I
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSVespiquen_AnimatorCCA.VECoverterToAnimatorController();
+			LFSVespiquen_AnimatorCCA.VE_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{

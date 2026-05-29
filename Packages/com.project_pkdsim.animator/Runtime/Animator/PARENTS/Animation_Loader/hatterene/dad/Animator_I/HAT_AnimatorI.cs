@@ -5,14 +5,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Animator_I
 {
-	public class LFS_HattereneFailSafe : MonoBehaviour 
+	public class HattereneFailSafe : MonoBehaviour 
 	{
 		public Animator Hatterene_Animator;
 		public RuntimeAnimatorController someController;
 
-		private HattereneCoverterAnimatorController LFSHatterene_AnimatorCCA;
-		private HattereneParent_AnimatorBaseMovementController LFSHatterene_AnimatorCMA;
-		private Hatterene_IdleAnimatorController LFSHatterene_AnimatorICA;
+		private Hatterene_ConverterToAnimatorController Hatterene_AnimatorCCA;
+		private HattereneParent_AnimatorMovementController Hatterene_AnimatorCMA;
+		private Hatterene_IdleAnimatorController Hatterene_AnimatorICA;
 
 
 		public void LoadFailSafeHatterene_AnimatorController()
@@ -23,15 +23,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Animator_I
 		}
 		private void LoadFailSafeHatterene_ConvertToAnimatorController()
 		{
-			LFSHatterene_AnimatorCCA.HATCoverterToAnimatorController();
+			Hatterene_AnimatorCCA.HAT_ConverterToAnimatorController();
 		}
 		private void LoadFailSafeHatterene_MovementAnimatorController()
 		{
-			LFSHatterene_AnimatorCMA.HATMovementAnimatorController();
+			Hatterene_AnimatorCMA.HATMovementAnimatorController();
 		}
 		private void LoadFailSafeHatterene_IdleAnimatorController()
 		{
-			LFSHatterene_AnimatorICA.HAT_IdleAnimatorController();
+			Hatterene_AnimatorICA.HAT_IdleAnimatorController();
 		}
 	}
 }

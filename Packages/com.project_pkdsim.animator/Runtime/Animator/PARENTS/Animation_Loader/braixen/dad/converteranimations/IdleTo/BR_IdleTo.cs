@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Braixen.Dad.converteranimations.IdleTo
 {
 	public class BR_IdleTo : MonoBehaviour 
 	{

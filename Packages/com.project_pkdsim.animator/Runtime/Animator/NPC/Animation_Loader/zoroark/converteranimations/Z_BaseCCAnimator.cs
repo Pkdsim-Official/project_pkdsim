@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations
 {
-	public class ZoroarkCoverterAnimatorController : MonoBehaviour 
+	public class Zoroark_ConverterToAnimatorController : MonoBehaviour 
 	{
 		private Z_SittingTo Zoroarksittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Zoroark.converteranimations
 		
 		private Z_IdleTo Zoroarkidleto;
 
-		public void ZCoverterToAnimatorController()
+		public void Z_ConverterToAnimatorController()
 		{
 			Zoroarkwalkingto.Z_WalkingToController();
 

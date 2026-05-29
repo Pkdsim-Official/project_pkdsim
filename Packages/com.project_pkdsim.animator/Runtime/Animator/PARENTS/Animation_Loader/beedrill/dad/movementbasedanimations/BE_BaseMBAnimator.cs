@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations
 {
-	public class BeedrillParent_AnimatorBaseMovementController : MonoBehaviour 
+	public class BeedrillParent_AnimatorMovementController : MonoBehaviour 
 	{
 		private BEParent_Jumping Beedrill_MBA_Jumping;
 		

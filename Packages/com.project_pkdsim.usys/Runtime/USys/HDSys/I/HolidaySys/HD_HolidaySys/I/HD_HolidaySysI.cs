@@ -1,10 +1,10 @@
-using project_pkdsim.USys.HolidaySys.ULoader;
-using project_pkdsim.USys.HolidaySys.Base;
-using project_pkdsim.USys.HolidaySys.HolidayDatabaseSys;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.ULoader;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.Base;
+using project_pkdsim.USys.HDSys.Modules.HolidaySys.HolidayDatabaseSys;
 using UnityEngine;
 
 
-namespace project_pkdsim.USys.HolidaySys.Modules
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules
 {
 	public class HD_HolidaySysI : MonoBehaviour
 	{

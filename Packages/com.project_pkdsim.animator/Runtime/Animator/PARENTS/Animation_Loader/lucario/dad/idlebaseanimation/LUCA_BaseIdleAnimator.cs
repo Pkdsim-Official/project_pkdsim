@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation
 {
 	public class Lucario_IdleAnimatorController : MonoBehaviour 
 	{

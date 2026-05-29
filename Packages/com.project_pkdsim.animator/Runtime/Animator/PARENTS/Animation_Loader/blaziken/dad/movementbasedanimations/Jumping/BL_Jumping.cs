@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Blaziken.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.movementbasedanimations.Jumping
 {
 	public class BLParent_Jumping : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
 using System;
 
-namespace project_pkdsim.USys.HolidaySys.Base
+namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Base
 {
     public class Holiday_Base
     {
