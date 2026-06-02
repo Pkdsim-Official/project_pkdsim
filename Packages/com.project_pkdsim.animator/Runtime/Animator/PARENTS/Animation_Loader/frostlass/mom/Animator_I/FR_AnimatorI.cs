@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.Animator_I
 		public Animator FrostlassParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private FrostlassParentMom_ConverterToAnimatorController FrostlassParentMom_AnimatorCCA;
-		private FrostlassParentMom_AnimatorMovementController FrostlassParentMom_AnimatorCMA;
+		private FrostlassParentMom_ConverterAnimatorController FrostlassParentMom_AnimatorCCA;
+		private FrostlassParentMom_MovementAnimatorController FrostlassParentMom_AnimatorCMA;
 		private FrostlassParentMom_IdleAnimatorController FrostlassParentMom_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.Animator_I
 		}
 		private void LoadFailSafeFrostlassParentMom_ConvertToAnimatorController()
 		{
-			FrostlassParentMom_AnimatorCCA.FR_ConverterToAnimatorController();
+			FrostlassParentMom_AnimatorCCA.FR_ConverterAnimatorController();
 		}
 		private void LoadFailSafeFrostlassParentMom_MovementAnimatorController()
 		{

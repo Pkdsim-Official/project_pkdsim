@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Jolteon.converteranimations
 		
 		private JT_IdleTo JolteonIdleto;
 
-		private void JT_Base_IdleAnimatorController()
+		private void JTParentMom_IdleAnimatorController()
 		{
 			JolteonWalkingto.JT_WalkingToController();
 

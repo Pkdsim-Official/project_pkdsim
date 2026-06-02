@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Lucario.movementbasedanimations
 {
-	public class Lucario_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Lucario_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private LUCA_LFS_Jumping Lucario_MBA_Jumping;
 		

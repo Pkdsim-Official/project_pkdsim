@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Vespiquen.converteranimations
 {
-	public class Vespiquen_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Vespiquen_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private VE_LFS_SittingTo Vespiquen_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private VE_LFS_IdleTo Vespiquen_LFS_idleto;
 
-		public void VE_LFS_ConverterToAnimatorController()
+		public void VE_LFS_ConverterAnimatorController()
 		{
 			Vespiquen_LFS_walkingto.VE_LFS_WalkingToController();
 

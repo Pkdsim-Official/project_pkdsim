@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.idlebaseanimation
 {
-	public class Jolteon_LFS_AnimatorIdleController : MonoBehaviour 
+	public class Jolteon_LFS_IdleAnimatorController : MonoBehaviour 
 	{
 		private JT_LFS_IdleStanding Jolteon_idlestanding;
 		

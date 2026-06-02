@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.converteranimations
 {
-	public class Cinderace_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Cinderace_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private C_LFS_SittingTo Cinderace_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private C_LFS_IdleTo Cinderace_LFS_idleto;
 
-		public void C_LFS_ConverterToAnimatorController()
+		public void C_LFS_ConverterAnimatorController()
 		{
 			Cinderace_LFS_walkingto.C_LFS_WalkingToController();
 

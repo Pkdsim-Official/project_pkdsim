@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Gardevoir.Dad.converteranimations.SittingTo
 {
 	public class GARD_SittingTo : MonoBehaviour 
 	{

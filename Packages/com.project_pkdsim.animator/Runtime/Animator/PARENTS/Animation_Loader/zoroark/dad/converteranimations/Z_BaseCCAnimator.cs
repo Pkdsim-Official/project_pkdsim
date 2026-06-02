@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations
 {
-	public class ZoroarkParentDad_ConverterToAnimatorController : MonoBehaviour 
+	public class ZoroarkParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private ZParentDad_SittingTo ZoroarkSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations
 		
 		private ZParentDad_IdleTo ZoroarkIdleto;
 
-		public void ZParentDad_ConverterToAnimatorController()
+		public void ZParentDad_ConverterAnimatorController()
 		{
 			ZoroarkWalkingto.ZParentDad_WalkingToController();
 

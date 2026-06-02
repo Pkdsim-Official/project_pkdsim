@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations.Turning
 {
 	public class BEParent_Turning : MonoBehaviour	
 	{

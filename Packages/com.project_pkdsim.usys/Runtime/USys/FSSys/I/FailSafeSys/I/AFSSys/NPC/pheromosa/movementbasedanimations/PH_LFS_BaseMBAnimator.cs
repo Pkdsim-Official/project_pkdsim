@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.movementbasedanimations
 {
-	public class Pheromosa_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Pheromosa_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private PH_LFS_Jumping Pheromosa_MBA_Jumping;
 		

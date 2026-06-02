@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class GARC_SittingToStartWalking : MonoBehaviour 
+	public class GARCParentDad_SittingToStartWalking : MonoBehaviour 
 	{
-		public void GARC_SittingToStartWalkingController() 
+		public void GARCParentDad_SittingToStartWalkingController() 
 		{
 	
 		}

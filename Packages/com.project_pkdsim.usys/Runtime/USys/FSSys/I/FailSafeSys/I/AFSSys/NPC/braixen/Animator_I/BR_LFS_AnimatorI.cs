@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType braixen = NPCSpeciesType.BRAIXEN;
 
-		private Braixen_LFS_ConverterToAnimatorController LFSBraixen_AnimatorCCA;
-		private Braixen_LFS_AnimatorMovementController LFSBraixen_AnimatorCMA;
+		private Braixen_LFS_ConverterAnimatorController LFSBraixen_AnimatorCCA;
+		private Braixen_LFS_MovementAnimatorController LFSBraixen_AnimatorCMA;
 		private Braixen_LFS_IdleAnimatorController LFSBraixen_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeBraixen_ConvertToAnimatorController()
 		{
-			LFSBraixen_AnimatorCCA.BR_LFS_ConverterToAnimatorController();
+			LFSBraixen_AnimatorCCA.BR_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBraixen_MovementAnimatorController()
 		{

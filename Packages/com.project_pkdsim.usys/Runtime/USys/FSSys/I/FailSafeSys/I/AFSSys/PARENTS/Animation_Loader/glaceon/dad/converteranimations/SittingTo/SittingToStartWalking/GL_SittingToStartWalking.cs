@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class GL_SittingToStartWalking : MonoBehaviour 
+	public class GLParentDad_SittingToStartWalking : MonoBehaviour 
 	{
 
 	}

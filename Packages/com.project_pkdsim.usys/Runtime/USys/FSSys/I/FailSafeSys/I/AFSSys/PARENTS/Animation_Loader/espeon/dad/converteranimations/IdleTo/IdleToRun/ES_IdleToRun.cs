@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Espeon.Dad.converteranimations.IdleTo.IdleToRun
 {
 	public class ES_IdleToRun : MonoBehaviour 
 	{

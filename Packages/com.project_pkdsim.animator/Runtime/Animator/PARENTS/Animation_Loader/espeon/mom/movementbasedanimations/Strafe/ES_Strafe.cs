@@ -4,13 +4,13 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Espeon.Mom.movementbasedanimations.Strafing
 {
-	public class ESParent_Strafing : MonoBehaviour 
+	public class ESParentMom_Strafing : MonoBehaviour 
 	{
 		private ES_StrafeLeft ES_strafeleft;
 		
 		private ES_StrafeRight ES_straferight;
 
-		public void ESParent_StrafingController()
+		public void ESParentMom_StrafingController()
 		{
 			if (ES_strafeleft == null)
 			{

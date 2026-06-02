@@ -1,6 +1,8 @@
+using project_pkdsim.USys.AUSys.Modules;
+
 namespace project_pkdsim.USys.AUSys
 {
-    public class AUSys : AUSysI
+    public class AUISys : AUSysI
     {
         public void AUSysI()
         {

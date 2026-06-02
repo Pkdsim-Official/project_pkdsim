@@ -4,21 +4,21 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.SittingTo
 {
-	public class FL_SittingTo : MonoBehaviour 
+	public class FLParentMom_SittingTo : MonoBehaviour 
 	{
-		private FL_SittingToStartWalking sittingToStartWalking;
-		private FL_SittingToStanding sittingToStanding;
+		private FLParentMom_SittingToStartWalking sittingToStartWalking;
+		private FLParentMom_SittingToStanding sittingToStanding;
 		
-		public void FL_SittingToController()
+		public void FLParentMom_SittingToController()
 		{
-			// Load_FL_SittingToRun();
-			// Load_FL_SittingToWalk();
+			// Load_FLParentMom_SittingToRun();
+			// Load_FLParentMom_SittingToWalk();
 		}
-		private void Load_FL_SittingToStanding()
+		private void Load_FLParentMom_SittingToStanding()
 		{
 			
 		}
-		private void Load_FL_SittingToWalking()
+		private void Load_FLParentMom_SittingToWalking()
 		{
 			
 		}

@@ -1,7 +1,7 @@
-using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules.LoadPrices;
+using project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.PRICESys.ChangePrices.Modules.LoadPrices;
 using UnityEngine;
 
-namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules
+namespace project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.PRICESys.ChangePrices.Modules
 {
 	public class ChangePricesI : MonoBehaviour
 	{

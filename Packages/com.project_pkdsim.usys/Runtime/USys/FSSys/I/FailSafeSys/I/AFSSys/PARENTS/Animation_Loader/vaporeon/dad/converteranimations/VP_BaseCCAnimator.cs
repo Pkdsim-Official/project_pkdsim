@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.IdleTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations
 {
-	public class Vaporeon_ConverterToAnimatorController : MonoBehaviour 
+	public class VaporeonParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private VP_SittingTo Vaporeon_sittingto;
+		private VPParentDad_SittingTo Vaporeon_sittingto;
 		
-		private VP_WalkingTo Vaporeon_walkingto;
+		private VPParentDad_WalkingTo Vaporeon_walkingto;
 		
-		private VP_IdleTo Vaporeon_idleto;
+		private VPParentDad_IdleTo Vaporeon_idleto;
 
-		private void VP_Base_IdleAnimatorController()
+		public void VPParentDad_ConverterAnimatorController()
 		{
-			Vaporeon_walkingto.VP_WalkingToController();
+			Vaporeon_walkingto.VPParentDad_WalkingToController();
 
-			Vaporeon_idleto.VP_IdleToController();
+			Vaporeon_idleto.VPParentDad_IdleToController();
 			
-			Vaporeon_sittingto.VP_SittingToController();	
+			Vaporeon_sittingto.VPParentDad_SittingToController();	
 		}
 	}
 }

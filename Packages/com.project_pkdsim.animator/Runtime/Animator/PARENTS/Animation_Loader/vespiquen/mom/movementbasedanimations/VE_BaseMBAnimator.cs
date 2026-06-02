@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.Mom.movementbasedanimations
 {
-	public class VespiquenParent_AnimatorMovementController : MonoBehaviour 
+	public class VespiquenParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private VEParent_Jumping VE_MBA_Jumping;
 		

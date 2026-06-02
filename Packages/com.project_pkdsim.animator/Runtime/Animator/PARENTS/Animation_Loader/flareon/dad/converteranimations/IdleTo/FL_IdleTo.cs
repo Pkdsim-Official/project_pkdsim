@@ -1,19 +1,19 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.IdleTo
 {
-	public class FL_IdleTo : MonoBehaviour 
+	public class FLParentDad_IdleTo : MonoBehaviour 
 	{
-		public void FL_IdleToController()
+		public void FLParentDad_IdleToController()
 		{
-			Load_FL_IdleToRun();
-			Load_FL_IdleToWalk();
+			Load_FLParentDad_IdleToRun();
+			Load_FLParentDad_IdleToWalk();
 		}
-		private void Load_FL_IdleToRun()
+		private void Load_FLParentDad_IdleToRun()
 		{
 			
 		}
-		private void Load_FL_IdleToWalk()
+		private void Load_FLParentDad_IdleToWalk()
 		{
 			
 		}

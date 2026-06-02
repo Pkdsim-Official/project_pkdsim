@@ -9,8 +9,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.Animator_I
 	{
 		public Animator NoivernParentDad_Animator;
 		public RuntimeAnimatorController someController;
-		private NoivernParentDad_ConverterToAnimatorController NoivernParentDad_AnimatorCCA;
-		private NoivernParentDad_AnimatorMovementController NoivernParentDad_AnimatorCMA;
+		private NoivernParentDad_ConverterAnimatorController NoivernParentDad_AnimatorCCA;
+		private NoivernParentDad_MovementAnimatorController NoivernParentDad_AnimatorCMA;
 		private NoivernParentDad_IdleAnimatorController NoivernParentDad_AnimatorICA;
 
 		public void LoadFailSafeNoivernParentDad_AnimatorController()
@@ -21,7 +21,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Noivern.Dad.Animator_I
 		}
 		private void LoadFailSafeNoivernParentDad_ConvertToAnimatorController()
 		{
-			NoivernParentDad_AnimatorCCA.NOI_ConverterToAnimatorController();
+			NoivernParentDad_AnimatorCCA.NOI_ConverterAnimatorController();
 		}
 		private void LoadFailSafeNoivernParentDad_MovementAnimatorController()
 		{

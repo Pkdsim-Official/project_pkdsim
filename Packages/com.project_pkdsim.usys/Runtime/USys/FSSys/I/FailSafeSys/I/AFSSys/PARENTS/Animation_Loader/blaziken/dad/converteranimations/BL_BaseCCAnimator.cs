@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Dad.converteranimations
 {
-	public class Blaziken_ConverterToAnimatorController : MonoBehaviour 
+	public class BlazikenParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private BL_SittingTo BlazikenSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations
 		
 		private BL_IdleTo BlazikenIdleto;
 
-		public void BL_ConverterToAnimatorController()
+		public void BL_ConverterAnimatorController()
 		{
 			BlazikenWalkingto.BL_WalkingToController();
 

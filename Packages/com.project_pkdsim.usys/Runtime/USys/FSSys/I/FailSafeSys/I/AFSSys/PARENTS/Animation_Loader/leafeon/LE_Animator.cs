@@ -1,15 +1,25 @@
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Dad.Animator_I;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Mom.Animator_I;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon
 {
-	public class LE_Animator : MonoBehaviour 
+	public class LFS_LeafeonParentsFailSafe : MonoBehaviour 
 	{
-		public Animator Leafeon_Animator;
-		public RuntimeAnimatorController someController;
-		private void Leafeon_AnimatorController()
+		private LeafeonParentDad_FailSafe LeafeonParentDad_FailSafe;
+		private LeafeonParentMom_FailSafe LeafeonParentMom_FailSafe;
+		public void Load_LeafeonParentsFailSafe()
 		{
-			Leafeon_Animator = gameObject.GetComponent<Animator>();
-			Leafeon_Animator.runtimeAnimatorController = someController;
+			Load_LeafeonParentDad_FailSafe();
+			Load_LeafeonParentMom_FailSafe();	
+		}
+		private void Load_LeafeonParentDad_FailSafe()
+		{
+			LeafeonParentDad_FailSafe.LoadFailSafeLeafeonParentDad_AnimatorController();
+		}
+		private void Load_LeafeonParentMom_FailSafe()
+		{
+			LeafeonParentMom_FailSafe.LoadFailSafeLeafeonParentMom_AnimatorController();
 		}
 	}
 }

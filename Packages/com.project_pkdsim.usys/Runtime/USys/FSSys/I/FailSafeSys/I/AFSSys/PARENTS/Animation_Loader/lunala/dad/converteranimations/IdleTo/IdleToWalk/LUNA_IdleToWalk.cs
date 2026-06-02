@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class LUNAIdleToWalk : MonoBehaviour 
+	public class LUNAParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void LUNAIdleToWalkController() 
+		public void LUNAParentDad_IdleToWalkController() 
 		{
 			
 		}

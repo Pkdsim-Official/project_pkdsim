@@ -4,5 +4,6 @@ namespace project_pkdsim.Generics.NPC.Type
     {
         Species,
         Trainer,
+        Gender
     }
 }

@@ -1,0 +1,7 @@
+{
+"name": "project_pkdsim.USys.SCMSys",
+  "rootNamespace": "project_pkdsim.USys.SCMSys",
+  "references": [
+    "project_pkdsim.USys.SCMSys.SceneManagerSys"
+  ]
+}

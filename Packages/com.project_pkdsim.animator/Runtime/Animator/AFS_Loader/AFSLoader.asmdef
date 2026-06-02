@@ -1,0 +1,10 @@
+{ 
+  "name": "project_pkdsim.Animator.AFS_Loader", 
+  "rootNamespace": "project_pkdsim.ANIMATOR.AFS_Loader",
+  "references": 
+  [
+    "project_pkdsim.USys.FSSys.AntiFailSafeSys.Parents",
+    "project_pkdsim.USys.FSSys.AntiFailSafeSys.Npc",
+    "project_pkdsim.USys.FSSys.AntiFailSafeSys.Player"
+  ]
+}

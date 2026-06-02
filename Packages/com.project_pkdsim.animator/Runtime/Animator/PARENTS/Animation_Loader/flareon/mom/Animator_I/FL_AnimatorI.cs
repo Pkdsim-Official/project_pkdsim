@@ -5,15 +5,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.Animator_I
 {
-	public class FL_AnimatorI : MonoBehaviour 
+	public class FLParentMom_AnimatorI : MonoBehaviour 
 	{
 		public Animator FlareonParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private FlareonParentMom_ConverterToAnimatorController FlareonParentMom_AnimatorCCA;
-		private FlareonParentMom_AnimatorMovementController FlareonParentMom_AnimatorCMA;
+		private FlareonParentMom_ConverterAnimatorController FlareonParentMom_AnimatorCCA;
+		private FlareonParentMom_MovementAnimatorController FlareonParentMom_AnimatorCMA;
 		private FlareonParentMom_IdleAnimatorController FlareonParentMom_AnimatorICA;
-
 
 		public void LoadFailSafeFlareonParentMom_AnimatorController()
 		{
@@ -23,15 +22,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.Animator_I
 		}
 		private void LoadFailSafeFlareonParentMom_ConvertToAnimatorController()
 		{
-			FlareonParentMom_AnimatorCCA.C_ConverterToAnimatorController();
+			FlareonParentMom_AnimatorCCA.FLParentMom_ConverterAnimatorController();
 		}
 		private void LoadFailSafeFlareonParentMom_MovementAnimatorController()
 		{
-			FlareonParentMom_AnimatorCMA.CMovementAnimatorController();
+			FlareonParentMom_AnimatorCMA.FLParentMom_MovementAnimatorController();
 		}
 		private void LoadFailSafeFlareonParentMom_IdleAnimatorController()
 		{
-			FlareonParentMom_AnimatorICA.C_IdleAnimatorController();
+			FlareonParentMom_AnimatorICA.FLParentMom_IdleAnimatorController();
 		}
 	}
 }

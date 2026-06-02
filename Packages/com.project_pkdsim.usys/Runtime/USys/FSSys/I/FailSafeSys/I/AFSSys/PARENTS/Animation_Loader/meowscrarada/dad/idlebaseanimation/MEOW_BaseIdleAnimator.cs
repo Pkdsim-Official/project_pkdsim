@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.idlebaseanimation
 {
-	public class Meowscarada_IdleAnimatorController : MonoBehaviour 
+	public class MeowscaradaParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private MEOWIdleStanding Meowscaradaidlestanding;
+		private MEOWParentDad_IdleStanding Meowscaradaidlestanding;
 		
-		private MEOWIdleSitting Meowscaradaidlesitting;
+		private MEOWParentDad_IdleSitting Meowscaradaidlesitting;
 		
-		public void	MEOW_IdleAnimatorController()
+		public void	MEOWParentDad_IdleAnimatorController()
 		{
-			MEOWIdleStandingAnimatorController();
-			MEOWIdleSittingAnimatorController();
+			MEOWParentDad_IdleStandingAnimatorController();
+			MEOWParentDad_IdleSittingAnimatorController();
 		}
-		private void MEOWIdleStandingAnimatorController()
+		private void MEOWParentDad_IdleStandingAnimatorController()
 		{
-			Meowscaradaidlestanding.MEOWIdleStandingController();
+			Meowscaradaidlestanding.MEOWParentDad_IdleStandingController();
 		}
-		private void MEOWIdleSittingAnimatorController()
+		private void MEOWParentDad_IdleSittingAnimatorController()
 		{
-			Meowscaradaidlesitting.MEOWIdleSittingController();
+			Meowscaradaidlesitting.MEOWParentDad_IdleSittingController();
 		}
 	}
 }

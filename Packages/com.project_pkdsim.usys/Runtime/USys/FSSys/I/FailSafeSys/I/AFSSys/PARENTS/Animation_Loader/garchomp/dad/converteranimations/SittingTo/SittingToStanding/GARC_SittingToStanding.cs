@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class GARC_SittingToStanding : MonoBehaviour 
+	public class GARCParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void GARC_SittingToStandingController()
+		public void GARCParentDad_SittingToStandingController()
 		{
 			
 		}

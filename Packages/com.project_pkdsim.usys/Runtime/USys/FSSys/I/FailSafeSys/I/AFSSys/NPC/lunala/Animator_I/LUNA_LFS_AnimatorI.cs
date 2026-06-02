@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType lunala = NPCSpeciesType.LUNALA;
 
-		private Lunala_LFS_ConverterToAnimatorController LFSLunala_AnimatorCCA;
-		private Lunala_LFS_AnimatorMovementController LFSLunala_AnimatorCMA;
+		private Lunala_LFS_ConverterAnimatorController LFSLunala_AnimatorCCA;
+		private Lunala_LFS_MovementAnimatorController LFSLunala_AnimatorCMA;
 		private Lunala_LFS_IdleAnimatorController LFSLunala_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeLunala_ConvertToAnimatorController()
 		{
-			LFSLunala_AnimatorCCA.LUNA_LFS_ConverterToAnimatorController();
+			LFSLunala_AnimatorCCA.LUNA_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeLunala_MovementAnimatorController()
 		{

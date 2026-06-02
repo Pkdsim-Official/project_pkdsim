@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class MEOWParent_TurnRight : MonoBehaviour 
+    public class MEOWParentDad_Parent_TurnRight : MonoBehaviour 
     {
-        public void MEOWParent_TurnRightController()
+        public void MEOWParentDad_Parent_TurnRightController()
         {
 
         }

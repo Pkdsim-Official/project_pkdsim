@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Delphox.converteranimations
 {
-	public class Delphox_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Delphox_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private DL_LFS_SittingTo Delphox_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private DL_LFS_IdleTo Delphox_LFS_idleto;
 
-		public void DL_LFS_ConverterToAnimatorController()
+		public void DL_LFS_ConverterAnimatorController()
 		{
 			Delphox_LFS_walkingto.DL_LFS_WalkingToController();
 

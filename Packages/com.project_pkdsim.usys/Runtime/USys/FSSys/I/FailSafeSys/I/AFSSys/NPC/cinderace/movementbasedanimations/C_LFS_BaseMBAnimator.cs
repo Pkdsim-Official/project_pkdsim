@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Cinderace.movementbasedanimations
 {
-	public class Cinderace_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Cinderace_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private C_LFS_Jumping C_MBA_Jumping;
 		

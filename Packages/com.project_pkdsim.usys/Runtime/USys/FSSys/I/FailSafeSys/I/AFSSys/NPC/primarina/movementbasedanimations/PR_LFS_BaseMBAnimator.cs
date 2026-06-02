@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Primarina.movementbasedanimations
 {
-	public class Primarina_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Primarina_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private PR_LFS_Jumping Primarina_MBA_Jumping;
 		

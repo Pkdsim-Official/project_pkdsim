@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Noivern.movementbasedanimations
 {
-	public class Noivern_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Noivern_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private NOI_LFS_Jumping Noivern_MBA_Jumping;
 		

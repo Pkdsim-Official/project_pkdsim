@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Running
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Running
 {
-	public class ABParent_Running : MonoBehaviour 
+	public class ABParentDad_Running : MonoBehaviour 
 	{
-		public void ABParent_RunningController() 
+		public void ABParentDad_RunningController() 
 		{
 			
 		}

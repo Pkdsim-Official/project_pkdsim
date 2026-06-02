@@ -1,17 +1,17 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadidlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadmovementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.DadAnimator_I
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Animator_I
 {
 	public class FrostlassFailSafe : MonoBehaviour 
 	{
 		public Animator FrostlassParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private FrostlassParentDad_ConverterToAnimatorController FrostlassParentDad_AnimatorCCA;
-		private FrostlassParentDad_AnimatorMovementController FrostlassParentDad_AnimatorCMA;
+		private FrostlassParentDad_ConverterAnimatorController FrostlassParentDad_AnimatorCCA;
+		private FrostlassParentDad_MovementAnimatorController FrostlassParentDad_AnimatorCMA;
 		private FrostlassParentDad_IdleAnimatorController FrostlassParentDad_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.DadAnimator_I
 		}
 		private void LoadFailSafeFrostlassParentDad_ConvertToAnimatorController()
 		{
-			FrostlassParentDad_AnimatorCCA.FR_ConverterToAnimatorController();
+			FrostlassParentDad_AnimatorCCA.FR_ConverterAnimatorController();
 		}
 		private void LoadFailSafeFrostlassParentDad_MovementAnimatorController()
 		{

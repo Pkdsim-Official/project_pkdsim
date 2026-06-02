@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType flareon = NPCSpeciesType.FLAREON;
 
-		private Flareon_LFS_ConverterToAnimatorController LFSFlareon_AnimatorCCA;
-		private Flareon_LFS_AnimatorMovementController LFSFlareon_AnimatorCMA;
+		private Flareon_LFS_ConverterAnimatorController LFSFlareon_AnimatorCCA;
+		private Flareon_LFS_MovementAnimatorController LFSFlareon_AnimatorCMA;
 		private Flareon_LFS_IdleAnimatorController LFSFlareon_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeFlareon_ConvertToAnimatorController()
 		{
-			LFSFlareon_AnimatorCCA.FL_LFS_ConverterToAnimatorController();
+			LFSFlareon_AnimatorCCA.FL_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeFlareon_MovementAnimatorController()
 		{

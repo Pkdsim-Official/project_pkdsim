@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo
 {
 	public class PHIdleTo : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing
 {
 	public class CParent_Strafing : MonoBehaviour 
 	{

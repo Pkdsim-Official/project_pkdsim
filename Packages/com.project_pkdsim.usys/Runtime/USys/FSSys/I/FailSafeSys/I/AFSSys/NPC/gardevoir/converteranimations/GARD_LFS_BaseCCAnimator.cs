@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Gardevoir.converteranimations
 {
-	public class Gardevoir_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Gardevoir_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private GARD_LFS_SittingTo Gardevoir_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private GARD_LFS_IdleTo Gardevoir_LFS_idleto;
 
-		public void GARD_LFS_ConverterToAnimatorController()
+		public void GARD_LFS_ConverterAnimatorController()
 		{
 			Gardevoir_LFS_walkingto.GARD_LFS_WalkingToController();
 

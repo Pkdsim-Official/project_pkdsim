@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class DR_StrafeRight : MonoBehaviour
+	public class DRParentDad_StrafeRight : MonoBehaviour
 	{
-		public void DR_StrafeRightController() 
+		public void DRParentDad_StrafeRightController() 
 		{
 			
 		}

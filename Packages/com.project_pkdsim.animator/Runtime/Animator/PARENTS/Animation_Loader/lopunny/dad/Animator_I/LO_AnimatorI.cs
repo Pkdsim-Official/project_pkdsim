@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.Animator_I
 		public Animator Lopunny_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Lopunny_ConverterToAnimatorController Lopunny_AnimatorCCA;
-		private LopunnyParent_AnimatorMovementController Lopunny_AnimatorCMA;
+		private Lopunny_ConverterAnimatorController Lopunny_AnimatorCCA;
+		private LopunnyParent_MovementAnimatorController Lopunny_AnimatorCMA;
 		private Lopunny_IdleAnimatorController Lopunny_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Lopunny.Dad.Animator_I
 		}
 		private void LoadFailSafeLopunny_ConvertToAnimatorController()
 		{
-			Lopunny_AnimatorCCA.LO_ConverterToAnimatorController();
+			Lopunny_AnimatorCCA.LO_ConverterAnimatorController();
 		}
 		private void LoadFailSafeLopunny_MovementAnimatorController()
 		{

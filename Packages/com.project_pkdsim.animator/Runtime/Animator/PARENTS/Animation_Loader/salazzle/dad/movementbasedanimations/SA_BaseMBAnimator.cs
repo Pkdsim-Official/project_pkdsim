@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations
 {
-	public class SalazzleParent_AnimatorMovementController : MonoBehaviour 
+	public class SalazzleParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private SAParent_Jumping SA_MBA_Jumping;
 		

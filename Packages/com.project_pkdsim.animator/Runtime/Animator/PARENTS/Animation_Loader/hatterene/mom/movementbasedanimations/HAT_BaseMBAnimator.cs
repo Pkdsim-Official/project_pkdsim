@@ -6,26 +6,26 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations
 {
-	public class HattereneParent_AnimatorMovementController : MonoBehaviour 
+	public class HattereneParent_MovementAnimatorController : MonoBehaviour 
 	{
-		private HATParent_Jumping Hatterene_MBA_Jumping;
+		private HAT_Parent_Jumping Hatterene_MBA_Jumping;
 		
-		private HATParent_Running Hatterene_MBA_Running;
+		private HAT_Parent_Running Hatterene_MBA_Running;
 
 
-		private HATParent_Turning Hatterene_MBA_Turning;
+		private HAT_Parent_Turning Hatterene_MBA_Turning;
 
-		private HATParent_Strafing Hatterene_MBA_Strafe;
+		private HAT_Parent_Strafing Hatterene_MBA_Strafe;
 
-		public void HATMovementAnimatorController()
+		public void HAT_MovementAnimatorController()
 		{
-			Hatterene_MBA_Running.HATParent_RunningController();
+			Hatterene_MBA_Running.HAT_Parent_RunningController();
 
-			Hatterene_MBA_Jumping.HATParent_JumpingController();
+			Hatterene_MBA_Jumping.HAT_Parent_JumpingController();
 
-			Hatterene_MBA_Turning.HATParent_TurningController();	
+			Hatterene_MBA_Turning.HAT_Parent_TurningController();	
 
-			Hatterene_MBA_Strafe.HATParent_StrafingController();
+			Hatterene_MBA_Strafe.HAT_Parent_StrafingController();
 		}
 	}
 }

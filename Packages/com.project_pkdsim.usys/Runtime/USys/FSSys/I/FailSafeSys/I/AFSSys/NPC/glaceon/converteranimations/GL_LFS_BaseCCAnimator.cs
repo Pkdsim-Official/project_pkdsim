@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Glaceon.converteranimations
 {
-	public class Glaceon_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Glaceon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private GL_LFS_SittingTo Glaceon_LFS_sittingto;
 		

@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.idlebaseanimation.IdleSitting
 {
-	public class HATIdleSitting : MonoBehaviour 
+	public class HATParentDad_IdleSitting : MonoBehaviour 
 	{
-		private Animator Hatterene_Animator;
-		public void HATIdleSittingController()
+		private Animator HattereneParentDad_Animator;
+		public void HATParentDad_IdleSittingController()
 		{
-			Hatterene_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Hatterene_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			HattereneParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			HattereneParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

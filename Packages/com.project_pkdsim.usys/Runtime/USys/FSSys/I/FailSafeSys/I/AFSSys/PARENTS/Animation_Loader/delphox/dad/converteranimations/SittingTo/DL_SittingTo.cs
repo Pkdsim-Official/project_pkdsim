@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations.SittingTo
 {
 	public class DLSittingTo : MonoBehaviour 
 	{

@@ -1,6 +1,6 @@
-using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules.LoadPrices.Modules;
+using project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.PRICESys.ChangePrices.Modules.LoadPrices.Modules;
 
-namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.PRICESys.ChangePrices.Modules.LoadPrices
+namespace project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.PRICESys.ChangePrices.Modules.LoadPrices
 {
 	public class Load_Prices : Load_PricesI
 	{

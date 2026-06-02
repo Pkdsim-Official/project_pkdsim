@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.converteranimations
 {
-	public class Lopunny_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Lopunny_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private LO_LFS_SittingTo Lopunny_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private LO_LFS_IdleTo Lopunny_LFS_idleto;
 
-		public void LO_LFS_ConverterToAnimatorController()
+		public void LO_LFS_ConverterAnimatorController()
 		{
 			Lopunny_LFS_walkingto.LO_LFS_WalkingToController();
 

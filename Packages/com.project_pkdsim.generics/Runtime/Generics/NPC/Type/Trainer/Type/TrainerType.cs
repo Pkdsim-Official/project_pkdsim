@@ -1,6 +1,6 @@
 namespace project_pkdsim.Generics.NPC.Type.Trainer
 {
-    public enum TrainerType
+    public enum NpcTrainerType
     {
         AceTrainer,
         BattleGirl,

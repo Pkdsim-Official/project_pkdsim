@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.converteranimations.SittingTo
 {
-	public class TSittingTo : MonoBehaviour 
+	public class TParentDad_SittingTo : MonoBehaviour 
 	{
-		private TSittingToStartWalking TsareenasittingToStartWalking;
-		private TSittingToStanding TsareenasittingToStanding;
-		public void TSittingToController()
+		private TParentDad_SittingToStartWalking TsareenasittingToStartWalking;
+		private TParentDad_SittingToStanding TsareenasittingToStanding;
+		public void TParentDad_SittingToController()
 		{
-			TSittingToStartWalking();
-			TSittingToStanding();
+			TParentDad_SittingToStartWalking();
+			TParentDad_SittingToStanding();
 		}
-		private void TSittingToStartWalking()
+		private void TParentDad_SittingToStartWalking()
 		{
-			TsareenasittingToStartWalking.TSittingToStartWalkingController();
+			TsareenasittingToStartWalking.TParentDad_SittingToStartWalkingController();
 		}
-		private void TSittingToStanding()
+		private void TParentDad_SittingToStanding()
 		{
-			TsareenasittingToStanding.TSittingToStandingController();
+			TsareenasittingToStanding.TParentDad_SittingToStandingController();
 		}
 
 	}

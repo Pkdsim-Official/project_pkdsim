@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Mom.idlebaseanimation.IdleSitting
 {
 	public class ZParentMom_IdleSitting : MonoBehaviour 
 	{

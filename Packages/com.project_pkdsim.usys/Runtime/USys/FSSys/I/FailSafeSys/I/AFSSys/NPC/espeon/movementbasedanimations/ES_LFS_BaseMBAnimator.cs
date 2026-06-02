@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.movementbasedanimations
 {
-	public class Espeon_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Espeon_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private ES_LFS_Jumping Espeon_LFS_Jumping;
 		

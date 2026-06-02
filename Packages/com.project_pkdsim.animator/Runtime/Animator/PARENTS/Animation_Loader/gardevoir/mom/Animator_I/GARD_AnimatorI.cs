@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.Animator_I
 		public Animator GardevoirParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private GardevoirParentMom_ConverterToAnimatorController GardevoirParentMom_AnimatorCCA;
-		private GardevoirParentMom_AnimatorMovementController GardevoirParentMom_AnimatorCMA;
+		private GardevoirParentMom_ConverterAnimatorController GardevoirParentMom_AnimatorCCA;
+		private GardevoirParentMom_MovementAnimatorController GardevoirParentMom_AnimatorCMA;
 		private GardevoirParentMom_IdleAnimatorController GardevoirParentMom_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Mom.Animator_I
 		}
 		private void LoadFailSafeGardevoirParentMom_ConvertToAnimatorController()
 		{
-			GardevoirParentMom_AnimatorCCA.GARD_ConverterToAnimatorController();
+			GardevoirParentMom_AnimatorCCA.GARD_ConverterAnimatorController();
 		}
 		private void LoadFailSafeGardevoirParentMom_MovementAnimatorController()
 		{

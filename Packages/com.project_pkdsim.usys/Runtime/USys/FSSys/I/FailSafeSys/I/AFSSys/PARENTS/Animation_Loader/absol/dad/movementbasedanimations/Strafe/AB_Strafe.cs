@@ -1,16 +1,16 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Strafing
 {
-	public class ABParent_Strafing : MonoBehaviour 
+	public class ABParentDad_Strafing : MonoBehaviour 
 	{
 		private ABStrafeLeft AB_strafeleft;
 		
 		private ABStrafeRight AB_straferight;
 
-		public void ABParent_StrafingController()
+		public void ABParentDad_StrafingController()
 		{
 			if (AB_strafeleft == null)
 			{

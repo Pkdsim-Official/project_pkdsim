@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class UM_WalkingToStanding : MonoBehaviour 
+	public class UMParentDad_WalkingToStanding : MonoBehaviour 
 	{
 
 	}

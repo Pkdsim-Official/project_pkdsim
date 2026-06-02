@@ -1,20 +1,20 @@
-using project_pkdsim.ANIMATOR.Parents.Glaceon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.idlebaseanimation
 {
-	public class Glaceon_AnimatorIdleController : MonoBehaviour 
+	public class GlaceonParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private GL_IdleStanding Glaceon_idlestanding;
+		private GLParentDad_IdleStanding GlaceonParentDad_idlestanding;
 		
-		private GL_IdleSitting Glaceon_idlesitting;
+		private GLParentDad_IdleSitting GlaceonParentDad_idlesitting;
 			
 
-		private void GL_Base_IdleAnimatorController()
+		public void GLParentDad_IdleAnimatorController()
 		{
-			Glaceon_idlestanding.GL_IdleStandingController();
-			Glaceon_idlesitting.GL_IdleSittingController();	
+			GlaceonParentDad_idlestanding.GLParentDad_IdleStandingController();
+			GlaceonParentDad_idlesitting.GLParentDad_IdleSittingController();	
 		}
 	}
 }

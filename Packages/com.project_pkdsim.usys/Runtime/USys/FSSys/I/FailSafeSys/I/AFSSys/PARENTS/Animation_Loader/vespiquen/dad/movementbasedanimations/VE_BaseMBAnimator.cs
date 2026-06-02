@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations
 {
-	public class VespiquenParent_AnimatorMovementController : MonoBehaviour 
+	public class VespiquenParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private VEParent_Jumping VE_MBA_Jumping;
+		private VEParentDad_Jumping VEParentMom_MBA_Jumping;
 		
-		private VEParent_Running VE_MBA_Running;
+		private VEParentDad_Running VEParentMom_MBA_Running;
 
 
-		private VEParent_Turning VE_MBA_Turning;
+		private VEParentDad_Turning VEParentMom_MBA_Turning;
 
-		private VEParent_Strafing VE_MBA_Strafe;
+		private VEParentDad_Strafing VEParentMom_MBA_Strafe;
 
-		public void VEMovementAnimatorController()
+		public void VEParentDad_MovementAnimatorController()
 		{
-			VE_MBA_Running.VEParent_RunningController();
+			VEParentMom_MBA_Running.VEParentDad_RunningController();
 
-			VE_MBA_Jumping.VEParent_JumpingController();
+			VEParentMom_MBA_Jumping.VEParentDad_JumpingController();
 
-			VE_MBA_Turning.VEParent_TurningController();	
+			VEParentMom_MBA_Turning.VEParentDad_TurningController();	
 
-			VE_MBA_Strafe.VEParent_StrafingController();
+			VEParentMom_MBA_Strafe.VEParentDad_StrafingController();
 		}
 	}
 }

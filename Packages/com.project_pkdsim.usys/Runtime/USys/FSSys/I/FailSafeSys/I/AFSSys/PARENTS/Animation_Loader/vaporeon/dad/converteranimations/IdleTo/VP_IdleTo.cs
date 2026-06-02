@@ -1,24 +1,24 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.IdleTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.IdleTo
 {
-	public class VP_IdleTo : MonoBehaviour 
+	public class VPParentDad_IdleTo : MonoBehaviour 
 	{
-		private VP_IdleToWalk VAPOR_idletowalk;
+		private VPParentDad_IdleToWalk VAPOR_idletowalk;
 		
-		private VP_IdleToRun VAPOR_idletorun;
-		public void VP_IdleToController()
+		private VPParentDad_IdleToRun VAPOR_idletorun;
+		public void VPParentDad_IdleToController()
 		{
-			// Load_VP_idleToRun();
-			// Load_VP_idleToWalk();
+			// Load_VPParentDad_idleToRun();
+			// Load_VPParentDad_idleToWalk();
 		}
-		private void Load_VP_idleToRun()
+		private void Load_VPParentDad_idleToRun()
 		{
 			
 		}
-		private void Load_VP_idleToWalk()
+		private void Load_VPParentDad_idleToWalk()
 		{
 			
 		}

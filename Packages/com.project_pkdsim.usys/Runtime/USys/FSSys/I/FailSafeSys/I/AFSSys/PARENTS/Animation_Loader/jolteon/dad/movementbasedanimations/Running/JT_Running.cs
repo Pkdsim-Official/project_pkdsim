@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Running
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Running
 {
-	public class JTParent_Running : MonoBehaviour 
+	public class JTParentDad_Running : MonoBehaviour 
 	{
-		public void JTParent_RunningController() 
+		public void JTParentDad_RunningController() 
 		{
 
 		}

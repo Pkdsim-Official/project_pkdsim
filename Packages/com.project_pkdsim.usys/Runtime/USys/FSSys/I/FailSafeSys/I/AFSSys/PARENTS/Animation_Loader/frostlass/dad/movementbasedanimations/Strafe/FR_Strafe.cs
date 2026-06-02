@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Strafing
 {
 	public class FRParent_Strafing : MonoBehaviour 
 	{

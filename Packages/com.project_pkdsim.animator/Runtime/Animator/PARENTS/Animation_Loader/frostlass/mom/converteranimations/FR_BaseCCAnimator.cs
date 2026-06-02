@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.converteranimations
 {
-	public class FrostlassParentMom_ConverterToAnimatorController : MonoBehaviour 
+	public class FrostlassParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
 		private FR_SittingTo FrostlassSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Mom.converteranimations
 		
 		private FR_IdleTo FrostlassIdleto;
 
-		public void FR_ConverterToAnimatorController()
+		public void FR_ConverterAnimatorController()
 		{
 			FrostlassWalkingto.FR_WalkingToController();
 

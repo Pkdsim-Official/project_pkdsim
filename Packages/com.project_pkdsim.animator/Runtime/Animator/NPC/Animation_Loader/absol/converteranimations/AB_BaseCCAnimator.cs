@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations
 {
-	public class Absol_ConverterToAnimatorController : MonoBehaviour 
+	public class Absol_ConverterAnimatorController : MonoBehaviour 
 	{
 		private AB_SittingTo AbsolSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Absol.converteranimations
 		
 		private AB_IdleTo AbsolIdleto;
 
-		public void AB_ConverterToAnimatorController()
+		public void AB_ConverterAnimatorController()
 		{
 			AbsolWalkingto.AB_WalkingToController();
 

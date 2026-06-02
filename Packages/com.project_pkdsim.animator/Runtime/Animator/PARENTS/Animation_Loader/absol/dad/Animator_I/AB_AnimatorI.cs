@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.Animator_I
 		public Animator AbsolParent_Animator;
 		public RuntimeAnimatorController someController;
 
-		private AbsolParent_ConverterToAnimatorController AbsolParent_AnimatorCCA;
-		private AbsolParent_AnimatorMovementController AbsolParent_AnimatorCMA;
+		private AbsolParent_ConverterAnimatorController AbsolParent_AnimatorCCA;
+		private AbsolParent_MovementAnimatorController AbsolParent_AnimatorCMA;
 		private AbsolParent_IdleAnimatorController AbsolParent_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Absol.Dad.Animator_I
 		}
 		private void LoadFailSafeAbsolParent_ConvertToAnimatorController()
 		{
-			AbsolParent_AnimatorCCA.AB_ConverterToAnimatorController();
+			AbsolParent_AnimatorCCA.AB_ConverterAnimatorController();
 		}
 		private void LoadFailSafeAbsolParent_MovementAnimatorController()
 		{

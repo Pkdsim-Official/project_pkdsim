@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class C_WalkingToSitting : MonoBehaviour 
 	{

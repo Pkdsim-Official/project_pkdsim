@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Turning
 {
 	public class SAParent_Turning : MonoBehaviour	
 	{
@@ -13,20 +13,20 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Turni
 		{
 			if (SAParent_TurnLeft != null)
 			{
-				Load_TParent_TurnLeft();
+				Load_SAParentDad_TurnLeft();
 			}
 
 			if (SAParent_TurnRight != null)
 			{
-				Load_TParent_TurnRight();
+				Load_SAParentDad_TurnRight();
 			}
 		}
-		private void Load_TParent_TurnRight()
+		private void Load_SAParentDad_TurnRight()
 		{
 			SAParent_TurnRight.SAParent_TurnRightController();
 		}
 		
-		private void Load_TParent_TurnLeft()
+		private void Load_SAParentDad_TurnLeft()
 		{
 			SAParent_TurnLeft.SAParent_TurnLeftController();
 		}

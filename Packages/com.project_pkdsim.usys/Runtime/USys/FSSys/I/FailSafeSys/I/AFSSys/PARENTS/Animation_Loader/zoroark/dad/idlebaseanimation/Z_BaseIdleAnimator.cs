@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.idlebaseanimation
 {
 	public class ZoroarkParentDad_IdleAnimatorController : MonoBehaviour 
 	{

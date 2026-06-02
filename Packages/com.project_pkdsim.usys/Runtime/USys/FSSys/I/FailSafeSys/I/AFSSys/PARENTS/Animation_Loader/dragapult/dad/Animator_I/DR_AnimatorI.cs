@@ -1,37 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.Animator_I
 {
-	public class LFS_DragapultFailSafe : MonoBehaviour 
+	public class DragapultParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Dragapult_Animator;
+		public Animator DragapultParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Dragapult_ConverterToAnimatorController LFSDragapult_AnimatorCCA;
-		private DragapultParent_AnimatorMovementController LFSDragapult_AnimatorCMA;
-		private Dragapult_IdleAnimatorController LFSDragapult_AnimatorICA;
+		private DragapultParentDad_ConverterAnimatorController DragapultParentDad_AnimatorCCA;
+		private DragapultParentDad_MovementAnimatorController DragapultParentDad_AnimatorCMA;
+		private DragapultParentDad_IdleAnimatorController DragapultParentDad_AnimatorICA;
 
-
-		public void LoadFailSafeDragapult_AnimatorController()
+		public void LoadFailSafeDragapultParentDad_AnimatorController()
 		{
-			LoadFailSafeDragapult_ConvertToAnimatorController();
-			LoadFailSafeDragapult_MovementAnimatorController();
-			LoadFailSafeDragapult_IdleAnimatorController();
+			LoadFailSafeDragapultParentDad_ConvertToAnimatorController();
+			LoadFailSafeDragapultParentDad_MovementAnimatorController();
+			LoadFailSafeDragapultParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeDragapult_ConvertToAnimatorController()
+		private void LoadFailSafeDragapultParentDad_ConvertToAnimatorController()
 		{
-			LFSDragapult_AnimatorCCA.DR_ConverterToAnimatorController();
+			DragapultParentDad_AnimatorCCA.DRParentDad_ConverterAnimatorController();
 		}
-		private void LoadFailSafeDragapult_MovementAnimatorController()
+		private void LoadFailSafeDragapultParentDad_MovementAnimatorController()
 		{
-			LFSDragapult_AnimatorCMA.DRMovementAnimatorController();
+			DragapultParentDad_AnimatorCMA.DRParentDad_MovementAnimatorController();
 		}
-		private void LoadFailSafeDragapult_IdleAnimatorController()
+		private void LoadFailSafeDragapultParentDad_IdleAnimatorController()
 		{
-			LFSDragapult_AnimatorICA.DR_IdleAnimatorController();
+			DragapultParentDad_AnimatorICA.DRParentDad_IdleAnimatorController();
 		}
 	}
 }

@@ -1,0 +1,10 @@
+{
+  "name": "project_pkdsim.USys.ITSys.ITEMSSys",
+  "rootNamespace": "project_pkdsim.USys.ITSys.ITEMSSys",
+  "references": 
+  [
+    "project_pkdsim.USys.HDSys.HolidaySys.Database",
+    "UnityAddressables"
+
+  ]
+}

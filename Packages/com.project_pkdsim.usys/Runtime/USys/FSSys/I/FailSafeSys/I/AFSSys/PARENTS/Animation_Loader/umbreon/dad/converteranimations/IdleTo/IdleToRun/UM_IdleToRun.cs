@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class UM_IdleToRun : MonoBehaviour 
+	public class UMParentDad_IdleToRun : MonoBehaviour 
 	{
 		
 	}

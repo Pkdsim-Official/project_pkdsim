@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.IdleTo
 {
-	public class LE_IdleTo : MonoBehaviour 
+	public class LEParentDad_IdleTo : MonoBehaviour 
 	{
-		private LE_IdleToRun IdleToRun;
-		private LE_IdleToWalk IdleToWalk;
-		public void LE_IdleToController()
+		private LEParentDad_IdleToRun LEParentDad_IdleToRun;
+		private LEParentDad_IdleToWalk LEParentDad_IdleToWalk;
+		public void LEParentDad_IdleToController()
 		{
-			// Load_LE_idleToRun();
-			// Load_LE_idleToWalk();
+			Load_LEParentDad_IdleToRun();
+			Load_LEParentDad_IdleToWalk();
 		}
-		private void Load_LE_idleToRun()
+		private void Load_LEParentDad_IdleToRun()
 		{
-			
+			LEParentDad_IdleToRun.LEParentDad_IdleToRunController();
 		}
-		private void Load_LE_idleToWalk()
+		private void Load_LEParentDad_IdleToWalk()
 		{
-			
+			LEParentDad_IdleToWalk.LEParentDad_IdleToWalkController();
 		}
 
 	}

@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType sylveon = NPCSpeciesType.SYLVEON;
 
-		private Sylveon_LFS_ConverterToAnimatorController LFSSylveon_AnimatorCCA;
-		private Sylveon_LFS_AnimatorMovementController LFSSylveon_AnimatorCMA;
+		private Sylveon_LFS_ConverterAnimatorController LFSSylveon_AnimatorCCA;
+		private Sylveon_LFS_MovementAnimatorController LFSSylveon_AnimatorCMA;
 		private Sylveon_LFS_IdleAnimatorController LFSSylveon_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeSylveon_ConvertToAnimatorController()
 		{
-			LFSSylveon_AnimatorCCA.SYL_LFS_ConverterToAnimatorController();
+			LFSSylveon_AnimatorCCA.SYL_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeSylveon_MovementAnimatorController()
 		{

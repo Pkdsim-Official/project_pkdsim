@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.Animator_I
 		public Animator Hatterene_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Hatterene_ConverterToAnimatorController Hatterene_AnimatorCCA;
-		private HattereneParent_AnimatorMovementController Hatterene_AnimatorCMA;
+		private Hatterene_ConverterAnimatorController Hatterene_AnimatorCCA;
+		private HattereneParent_MovementAnimatorController Hatterene_AnimatorCMA;
 		private Hatterene_IdleAnimatorController Hatterene_AnimatorICA;
 
 
@@ -23,11 +23,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.Animator_I
 		}
 		private void LoadFailSafeHatterene_ConvertToAnimatorController()
 		{
-			Hatterene_AnimatorCCA.HAT_ConverterToAnimatorController();
+			Hatterene_AnimatorCCA.HAT_ConverterAnimatorController();
 		}
 		private void LoadFailSafeHatterene_MovementAnimatorController()
 		{
-			Hatterene_AnimatorCMA.HATMovementAnimatorController();
+			Hatterene_AnimatorCMA.HAT_MovementAnimatorController();
 		}
 		private void LoadFailSafeHatterene_IdleAnimatorController()
 		{

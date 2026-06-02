@@ -1,0 +1,7 @@
+{
+"name": "project_pkdsim.USys.MOSys.MoneySys.StockSys",
+  "rootNamespace": "project_pkdsim.USys.MOSys.MoneySys.StockSys",
+  "references": [
+    "project_pkdsim.USys.MOSys.MoneySys.PriceSys"
+  ]
+}

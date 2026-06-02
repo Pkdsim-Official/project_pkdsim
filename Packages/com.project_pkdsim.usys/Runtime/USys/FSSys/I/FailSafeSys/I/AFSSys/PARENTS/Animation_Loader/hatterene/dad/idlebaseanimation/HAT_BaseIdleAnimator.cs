@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.idlebaseanimation
 {
-	public class Hatterene_IdleAnimatorController : MonoBehaviour 
+	public class HattereneParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private HATIdleStanding HATidlestanding;
+		private HATParentDad_IdleStanding HATParentDad_idlestanding;
 		
-		private HATIdleSitting HATidlesitting;
+		private HATParentDad_IdleSitting HATParentDad_idlesitting;
 		
-		public void	HAT_IdleAnimatorController()
+		public void	HATParentDad_IdleAnimatorController()
 		{
-			HATIdleStandingAnimatorController();
-			HATIdleSittingAnimatorController();
+			HATParentDad_IdleStandingAnimatorController();
+			HATParentDad_IdleSittingAnimatorController();
 		}
-		private void HATIdleStandingAnimatorController()
+		private void HATParentDad_IdleStandingAnimatorController()
 		{
-			HATidlestanding.HATIdleStandingController();
+			HATParentDad_idlestanding.HATParentDad_IdleStandingController();
 		}
-		private void HATIdleSittingAnimatorController()
+		private void HATParentDad_IdleSittingAnimatorController()
 		{
-			HATidlesitting.HATIdleSittingController();
+			HATParentDad_idlesitting.HATParentDad_IdleSittingController();
 		}
 	}
 }

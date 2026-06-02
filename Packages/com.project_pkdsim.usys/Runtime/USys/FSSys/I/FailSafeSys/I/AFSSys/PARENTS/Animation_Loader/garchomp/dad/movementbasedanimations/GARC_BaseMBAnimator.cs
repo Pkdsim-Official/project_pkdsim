@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations
 {
-	public class GarchompParent_AnimatorMovementController : MonoBehaviour 
+	public class GarchompParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private GARCParent_Jumping Garchomp_MBA_Jumping;
+		private GARCParentDad_Jumping Garchomp_MBA_Jumping;
 		
-		private GARCParent_Running Garchomp_MBA_Running;
+		private GARCParentDad_Running Garchomp_MBA_Running;
 
 
-		private GARCParent_Turning Garchomp_MBA_Turning;
+		private GARCParentDad_Turning Garchomp_MBA_Turning;
 
-		private GARCParent_Strafing Garchomp_MBA_Strafe;
+		private GARCParentDad_Strafing Garchomp_MBA_Strafe;
 
-		public void GARCMovementAnimatorController()
+		public void GARCParentDad_MovementAnimatorController()
 		{
-			Garchomp_MBA_Running.GARCParent_RunningController();
+			Garchomp_MBA_Running.GARCParentDad_RunningController();
 
-			Garchomp_MBA_Jumping.GARCParent_JumpingController();
+			Garchomp_MBA_Jumping.GARCParentDad_JumpingController();
 
-			Garchomp_MBA_Turning.GARCParent_TurningController();	
+			Garchomp_MBA_Turning.GARCParentDad_TurningController();	
 
-			Garchomp_MBA_Strafe.GARCParent_StrafingController();
+			Garchomp_MBA_Strafe.GARCParentDad_StrafingController();
 		}
 	}
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations
 {
-	public class Salazzle_ConverterToAnimatorController : MonoBehaviour 
+	public class Salazzle_ConverterAnimatorController : MonoBehaviour 
 	{
 		private SA_SittingTo Salazzle_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Salazzle.converteranimations
 		
 		private SA_IdleTo Salazzle_idleto;
 
-		public void SA_ConverterToAnimatorController()
+		public void SA_ConverterAnimatorController()
 		{
 			Salazzle_walkingto.SA_WalkingToController();
 

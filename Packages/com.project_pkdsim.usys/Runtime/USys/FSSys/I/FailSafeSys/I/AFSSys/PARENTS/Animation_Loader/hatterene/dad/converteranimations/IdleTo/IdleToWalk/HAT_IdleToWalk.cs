@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class HATIdleToWalk : MonoBehaviour 
+	public class HATParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void HATIdleToWalkController() 
+		public void HATParentDad_IdleToWalkController() 
 		{
 			
 		}

@@ -1,19 +1,19 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Flareon.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.idlebaseanimation
 {
-	public class Flareon_AnimatorIdleController : MonoBehaviour 
+	public class FlareonParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private FL_IdleStanding FL_idlestanding;
+		private FLParentDad_IdleStanding FLParentDad_idlestanding;
 		
-		private FL_IdleSitting FL_idlesitting;
+		private FLParentDad_IdleSitting FLParentDad_idlesitting;
 		
-		private void FL_Base_IdleAnimatorController()
+		public void FLParentDad_IdleAnimatorController()
 		{
-			FL_idlestanding.FL_IdleStandingController();
-			FL_idlesitting.FL_IdleSittingController();	
+			FLParentDad_idlestanding.FLParentDad_IdleStandingController();
+			FLParentDad_idlesitting.FLParentDad_IdleSittingController();	
 		}
 	}
 }

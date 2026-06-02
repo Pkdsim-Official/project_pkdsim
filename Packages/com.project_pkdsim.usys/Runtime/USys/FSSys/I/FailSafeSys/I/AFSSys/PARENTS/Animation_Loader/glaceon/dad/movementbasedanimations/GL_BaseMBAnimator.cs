@@ -1,30 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations
 {
-	public class GlaceonParent_AnimatorMovementController : MonoBehaviour 
+	public class GlaceonParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private GLParent_Jumping GL_MBA_Jumping;
+		private GLParentDad_Jumping GLParentDad_MBA_Jumping;
 		
-		private GLParent_Running GL_MBA_Running;
+		private GLParentDad_Running GLParentDad_MBA_Running;
 
-		private GLParent_Turning GL_MBA_Turning;
+		private GLParentDad_Turning GLParentDad_MBA_Turning;
 
-		private GL_Strafe GL_MBA_Strafe;
+		private GLParentDad_Strafe GLParentDad_MBA_Strafe;
 
-		private void GL_Base_IdleAnimatorController()
+		public void GLParentDad_MovementAnimatorController()
 		{
-			GL_MBA_Running.GLParent_RunningController();
+			GLParentDad_MBA_Running.GLParentDad_RunningController();
 
-			GL_MBA_Jumping.GLParent_JumpingController();
+			GLParentDad_MBA_Jumping.GLParentDad_JumpingController();
 
-			GL_MBA_Turning.GLParent_TurningController();	
+			GLParentDad_MBA_Turning.GLParentDad_TurningController();	
 
-			GL_MBA_Strafe.GLParent_StrafingController();
+			GLParentDad_MBA_Strafe.GLParentDad_StrafingController();
 		}
 	}
 }

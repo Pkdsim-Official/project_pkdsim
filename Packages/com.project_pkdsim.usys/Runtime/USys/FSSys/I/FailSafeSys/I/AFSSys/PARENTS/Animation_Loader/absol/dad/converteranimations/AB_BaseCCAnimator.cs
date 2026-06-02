@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.converteranimations
 {
-	public class Absol_ConverterToAnimatorController : MonoBehaviour 
+	public class AbsolParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private AB_SittingTo AbsolSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Absol.converteranimations
 		
 		private AB_IdleTo AbsolIdleto;
 
-		public void AB_ConverterToAnimatorController()
+		public void AB_ConverterAnimatorController()
 		{
 			AbsolWalkingto.AB_WalkingToController();
 

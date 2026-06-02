@@ -1,0 +1,7 @@
+{
+"name": "project_pkdsim.USys.AUSys",
+  "rootNamespace": "project_pkdsim.USys.AUSys",
+  "references": [
+    "project_pkdsim.USys.AUSys.AUDIOSys"
+  ]
+}

@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations
 {
-	public class Jolteon_ConverterAnimatorController : MonoBehaviour 
+	public class JolteonParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private JT_SittingTo Jolteon_sittingto;
+		private JTParentDad_SittingTo JolteonParentDad_sittingto;
 		
-		private JT_WalkingTo Jolteon_walkingto;
+		private JTParentDad_WalkingTo JolteonParentDad_walkingto;
 		
-		private JT_IdleTo Jolteon_idleto;
+		private JTParentDad_IdleTo JolteonParentDad_idleto;
 
-		private void JT_Base_IdleAnimatorController()
+		public void JTParentDad_ConverterAnimatorController()
 		{
-			Jolteon_walkingto.JT_WalkingToController();
+			JolteonParentDad_walkingto.JTParentDad_WalkingToController();
 
-			Jolteon_idleto.JT_IdleToController();
+			JolteonParentDad_idleto.JTParentDad_IdleToController();
 			
-			Jolteon_sittingto.JT_SittingToController();	
+			JolteonParentDad_sittingto.JTParentDad_SittingToController();	
 		}
 	}
 }

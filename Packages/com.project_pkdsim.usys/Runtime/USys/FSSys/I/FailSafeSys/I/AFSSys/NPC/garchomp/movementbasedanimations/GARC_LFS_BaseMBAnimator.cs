@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Garchomp.movementbasedanimations
 {
-	public class Garchomp_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Garchomp_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private GARC_LFS_Jumping Garchomp_MBA_Jumping;
 		

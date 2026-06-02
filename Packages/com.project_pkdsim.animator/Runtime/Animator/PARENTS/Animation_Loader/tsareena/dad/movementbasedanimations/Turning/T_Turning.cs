@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Turning
 {
-	public class TParent_Turning : MonoBehaviour	
+	public class TParentDad_Turning : MonoBehaviour	
 	{
-		private TParent_TurnLeft TParent_TurnLeft;
-		private TParent_TurnRight TParent_TurnRight;
+		private TParentDad_TurnLeft TParentDad_TurnLeft;
+		private TParentDad_TurnRight TParentDad_TurnRight;
 
-		public void TParent_TurningController()
+		public void TParentDad_TurningController()
 		{
-			if (TParent_TurnLeft != null)
+			if (TParentDad_TurnLeft != null)
 			{
-				Load_TParent_TurnLeft();
+				Load_TParentDad_TurnLeft();
 			}
 
-			if (TParent_TurnRight != null)
+			if (TParentDad_TurnRight != null)
 			{
-				Load_TParent_TurnRight();
+				Load_TParentDad_TurnRight();
 			}
 		}
-		private void Load_TParent_TurnRight()
+		private void Load_TParentDad_TurnRight()
 		{
-			TParent_TurnRight.TParent_TurnRightController();
+			TParentDad_TurnRight.TParentDad_TurnRightController();
 		}
 		
-		private void Load_TParent_TurnLeft()
+		private void Load_TParentDad_TurnLeft()
 		{
-			TParent_TurnLeft.TParent_TurnLeftController();
+			TParentDad_TurnLeft.TParentDad_TurnLeftController();
 		}
 	}
 }

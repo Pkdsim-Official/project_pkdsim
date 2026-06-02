@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Turning
 {
-	public class HATParent_Turning : MonoBehaviour	
+	public class HATParentDad_Turning : MonoBehaviour	
 	{
-		private HATParent_TurnLeft HATParent_TurnLeft;
-		private HATParent_TurnRight HATParent_TurnRight;
+		private HATParentDad_TurnLeft HATParentDad_TurnLeft;
+		private HATParentDad_TurnRight HATParentDad_TurnRight;
 
-		public void HATParent_TurningController()
+		public void HATParentDad_TurningController()
 		{
-			if (HATParent_TurnLeft == null)
+			if (HATParentDad_TurnLeft == null)
 			{
-				Load_HATParent_TurnLeft();
+				Load_HATParentDad_TurnLeft();
 			}
-			if (HATParent_TurnRight == null)
+			if (HATParentDad_TurnRight == null)
 			{
-				Load_HATParent_TurnRight();
+				Load_HATParentDad_TurnRight();
 			}
 		}
 
-		private void Load_HATParent_TurnRight()
+		private void Load_HATParentDad_TurnRight()
 		{
-			HATParent_TurnRight.HATParent_TurnRightController();
+			HATParentDad_TurnRight.HATParentDad_TurnRightController();
 		}
 		
-		private void Load_HATParent_TurnLeft()
+		private void Load_HATParentDad_TurnLeft()
 		{
-			HATParent_TurnLeft.HATParent_TurnLeftController();
+			HATParentDad_TurnLeft.HATParentDad_TurnLeftController();
 		}
 	}
 }

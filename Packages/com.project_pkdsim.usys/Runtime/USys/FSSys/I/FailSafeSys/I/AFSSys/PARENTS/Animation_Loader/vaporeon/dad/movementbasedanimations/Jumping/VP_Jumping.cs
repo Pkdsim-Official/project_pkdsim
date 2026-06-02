@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Jumping
 {
-	public class VPParent_Jumping : MonoBehaviour 
+	public class VPParentDad_Jumping : MonoBehaviour 
 	{
-		public void VPParent_JumpingController()
+		public void VPParentDad_JumpingController()
 		{
 			
 		}

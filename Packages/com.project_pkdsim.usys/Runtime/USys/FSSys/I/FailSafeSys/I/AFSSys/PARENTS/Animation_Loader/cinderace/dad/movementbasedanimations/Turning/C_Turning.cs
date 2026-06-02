@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning
 {
 	public class CParent_Turning : MonoBehaviour	
 	{

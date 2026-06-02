@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.TCMSys",
+  "rootNamespace": "project_pkdsim.USys.TCMSys",
+  "references": 
+  [
+    "project_pkdsim.USys.TCMSys.TabChangeManagerSys"
+  ]
+}

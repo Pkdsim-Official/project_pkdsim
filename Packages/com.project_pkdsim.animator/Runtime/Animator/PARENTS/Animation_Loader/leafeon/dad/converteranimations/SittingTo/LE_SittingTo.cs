@@ -1,20 +1,24 @@
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.SittingTo
 {
-	public class LE_SittingTo : MonoBehaviour 
+	public class LEParentDad_SittingTo : MonoBehaviour 
 	{
 		
-		public void LE_SittingToController()
+		private LEParentDad_SittingToStanding LEParentDad_sittingToStanding;
+		private LEParentDad_SittingToStartWalking LEParentDad_sittingToWalking;
+		public void LEParentDad_SittingToController()
 		{
-			// Load_LE_SittingToRun();
-			// Load_LE_SittingToWalk();
+			Load_LEParentDad_SittingToStartWalking();
+			Load_LEParentDad_SittingToStanding();
 		}
-		private void Load_LE_SittingToStanding()
+		private void Load_LEParentDad_SittingToStanding()
 		{
 			
 		}
-		private void Load_LE_SittingToWalking()
+		private void Load_LEParentDad_SittingToStartWalking()
 		{
 			
 		}

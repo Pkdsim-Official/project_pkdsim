@@ -11,10 +11,10 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		public Animator Meowscarada_Animator;
 		public RuntimeAnimatorController someController;
 
-		private NPCSpeciesType meowscarada = NPCSpeciesType.MEOWSCARADA;
+		private NPCSpeciesType meowscarada = NPCSpeciesType.MEOW_SCARADA;
 
-		private Meowscarada_LFS_ConverterToAnimatorController LFSMeowscarada_AnimatorCCA;
-		private Meowscarada_LFS_AnimatorMovementController LFSMeowscarada_AnimatorCMA;
+		private Meowscarada_LFS_ConverterAnimatorController LFSMeowscarada_AnimatorCCA;
+		private Meowscarada_LFS_MovementAnimatorController LFSMeowscarada_AnimatorCMA;
 		private Meowscarada_LFS_IdleAnimatorController LFSMeowscarada_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeMeowscarada_ConvertToAnimatorController()
 		{
-			LFSMeowscarada_AnimatorCCA.MEOW_LFS_ConverterToAnimatorController();
+			LFSMeowscarada_AnimatorCCA.MEOW_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeMeowscarada_MovementAnimatorController()
 		{

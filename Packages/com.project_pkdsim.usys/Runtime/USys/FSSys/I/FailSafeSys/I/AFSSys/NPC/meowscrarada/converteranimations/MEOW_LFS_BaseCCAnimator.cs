@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Meowscarada.converteranimations
 {
-	public class Meowscarada_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Meowscarada_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private MEOW_LFS_SittingTo Meowscarada_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private MEOW_LFS_IdleTo Meowscarada_LFS_idleto;
 
-		public void MEOW_LFS_ConverterToAnimatorController()
+		public void MEOW_LFS_ConverterAnimatorController()
 		{
 			Meowscarada_LFS_walkingto.MEOW_LFS_WalkingToController();
 

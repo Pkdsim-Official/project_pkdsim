@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.movementbasedanimations
 {
-	public class Jolteon_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Jolteon_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private JT_LFS_Jumping Jolteon_MBA_Jumping;
 		

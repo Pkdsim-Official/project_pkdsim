@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Running
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Running
 {
-	public class ESParent_Running : MonoBehaviour 
+	public class ESParentDad_Running : MonoBehaviour 
 	{
-		public void ESParent_RunningController() 
+		public void ESParentDad_RunningController() 
 		{
 			
 		}

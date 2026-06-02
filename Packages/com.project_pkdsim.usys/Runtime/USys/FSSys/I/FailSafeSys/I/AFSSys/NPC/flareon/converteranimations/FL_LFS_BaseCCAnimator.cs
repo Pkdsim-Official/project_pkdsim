@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Flareon.converteranimations
 {
-	public class Flareon_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Flareon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private FL_LFS_SittingTo Flareon_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private FL_LFS_IdleTo Flareon_LFS_idleto;
 
-		public void FL_LFS_ConverterToAnimatorController()
+		public void FL_LFS_ConverterAnimatorController()
 		{
 			Flareon_LFS_walkingto.FL_LFS_WalkingToController();
 

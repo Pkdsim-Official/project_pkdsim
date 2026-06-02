@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Mom.converteranimations
 {
-	public class PheromosaParentMom_ConverterToAnimatorController : MonoBehaviour 
+	public class PheromosaParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PHSittingTo Pheromosasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Mom.converteranimations
 		
 		private PHIdleTo Pheromosaidleto;
 
-		public void PH_ConverterToAnimatorController()
+		public void PH_ConverterAnimatorController()
 		{
 			Pheromosawalkingto.PHWalkingToController();
 

@@ -1,0 +1,35 @@
+namespace project_pkdsim.Generics.PLAYER.Species.Type
+{
+    public enum PlayerSpeciesType {
+        ESPEON,
+        FLAREON,
+        GLACEON,
+        JOLTEON,
+        LEAFEON,
+        SYLVEON,
+        UMBREON,
+        VAPOREON,
+        NOIVERN,
+        ABSOL,
+        BLAZIKEN,
+        GARDEVOIR,
+        BEEDRILL,
+        BRAIXEN,
+        CINDERACE,
+        DELPHOX,
+        DRAGAPULT,
+        FROSTLASS,
+        GARCHOMP,
+        HATTERENE,
+        LOPUNNY,
+        LUCARIO,
+        LUNALA,
+        MEOWSCARADA,
+        PHEROMOSA,
+        PRIMARINA,
+        ZOROARK,
+        SALAZZLE,
+        TSAREENA,
+        VESPIQUEN
+    }
+}

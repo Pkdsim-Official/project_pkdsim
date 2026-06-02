@@ -1,20 +1,20 @@
 using UnityEngine;
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.SittingTo
 {
-	public class LE_SittingTo : MonoBehaviour 
+	public class LEParent_SittingTo : MonoBehaviour 
 	{
 		
-		public void LE_SittingToController()
+		public void LEParent_SittingToController()
 		{
-			// Load_LE_SittingToRun();
-			// Load_LE_SittingToWalk();
+			// Load_LEParent_SittingToRun();
+			// Load_LEParent_SittingToWalk();
 		}
-		private void Load_LE_SittingToStanding()
+		private void Load_LEParent_SittingToStanding()
 		{
 			
 		}
-		private void Load_LE_SittingToWalking()
+		private void Load_LEParent_SittingToWalking()
 		{
 			
 		}

@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Espeon.Mom.movementbasedanimations.Running
 {
-	public class ESParent_Running : MonoBehaviour 
+	public class ESParentMom_Running : MonoBehaviour 
 	{
-		public void ESParent_RunningController() 
+		public void ESParentMom_RunningController() 
 		{
 			
 		}

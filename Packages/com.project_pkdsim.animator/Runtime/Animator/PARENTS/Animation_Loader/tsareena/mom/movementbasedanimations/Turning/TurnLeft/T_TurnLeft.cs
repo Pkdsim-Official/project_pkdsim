@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.movementbasedanimations.Turning.TurnLeft
 {
-	public class TParent_TurnLeft : MonoBehaviour 
+	public class TParentMom_TurnLeft : MonoBehaviour 
 	{
-		public void TParent_TurnLeftController()
+		public void TParentMom_TurnLeftController()
 		{
 			
 		}

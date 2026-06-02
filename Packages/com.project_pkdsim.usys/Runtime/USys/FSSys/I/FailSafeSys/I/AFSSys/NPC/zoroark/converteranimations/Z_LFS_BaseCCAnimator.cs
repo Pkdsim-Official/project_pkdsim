@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Zoroark.converteranimations
 {
-	public class Zoroark_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Zoroark_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private Z_LFS_SittingTo Zoroark_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private Z_LFS_IdleTo Zoroark_LFS_idleto;
 
-		public void Z_LFS_ConverterToAnimatorController()
+		public void Z_LFS_ConverterAnimatorController()
 		{
 			Zoroark_LFS_walkingto.Z_LFS_WalkingToController();
 

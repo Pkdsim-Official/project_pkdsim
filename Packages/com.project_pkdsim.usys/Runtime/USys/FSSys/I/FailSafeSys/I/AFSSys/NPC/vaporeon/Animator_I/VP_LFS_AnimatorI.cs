@@ -13,9 +13,9 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType vaporeon = NPCSpeciesType.VAPOREON;
 
-		private Vaporeon_LFS_AnimatorConverterController LFSVaporeon_AnimatorCCA;
-		private Vaporeon_LFS_AnimatorMovementController LFSVaporeon_AnimatorCMA;
-		private Vaporeon_LFS_AnimatorIdleController LFSVaporeon_AnimatorICA;
+		private Vaporeon_LFS_ConverterAnimatorController LFSVaporeon_AnimatorCCA;
+		private Vaporeon_LFS_MovementAnimatorController LFSVaporeon_AnimatorCMA;
+		private Vaporeon_LFS_IdleAnimatorController LFSVaporeon_AnimatorICA;
 
 		public void LoadFailSafeVaporeon_AnimatorController()
 		{

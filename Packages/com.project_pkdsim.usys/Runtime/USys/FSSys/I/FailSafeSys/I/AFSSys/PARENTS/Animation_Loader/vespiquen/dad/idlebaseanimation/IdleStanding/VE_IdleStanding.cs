@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.idlebaseanimation.IdleStanding
 {
-	public class VEIdleStanding : MonoBehaviour 
+	public class VEParentDad_IdleStanding : MonoBehaviour 
 	{
 		public Animator Vespiquen_Animator;
-		public void VEIdleStandingController()
+		public void VEParentDad_IdleStandingController()
 		{
 			// Assign the idle animation clip
 			Vespiquen_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

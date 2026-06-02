@@ -7,25 +7,25 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.movementbasedanimations
 {
-	public class JolteonParent_AnimatorMovementController : MonoBehaviour 
+	public class JolteonParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private JTParent_Jumping JT_MBA_Jumping;
+		private JTParentMom_Jumping JTParentMom_MBA_Jumping;
 		
-		private JTParent_Running JT_MBA_Running;
+		private JTParentMom_Running JTParentMom_MBA_Running;
 
-		private JTParent_Turning JT_MBA_Turning;
+		private JTParentMom_Turning JTParentMom_MBA_Turning;
 
-		private JTParent_Strafing JT_MBA_Strafe;
+		private JTParentMom_Strafing JTParentMom_MBA_Strafe;
 
-		public void JT_MovementAnimatorController()
+		public void JTParentMom_MovementAnimatorController()
 		{
-			JT_MBA_Running.JTParent_RunningController();
+			JTParentMom_MBA_Running.JTParentMom_RunningController();
 
-			JT_MBA_Jumping.JTParent_JumpingController();
+			JTParentMom_MBA_Jumping.JTParentMom_JumpingController();
 
-			JT_MBA_Turning.JTParent_TurningController();	
+			JTParentMom_MBA_Turning.JTParentMom_TurningController();	
 
-			JT_MBA_Strafe.JTParent_StrafingController();
+			JTParentMom_MBA_Strafe.JTParentMom_StrafingController();
 		}
 	}
 }

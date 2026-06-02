@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class VESittingToStanding : MonoBehaviour 
+	public class VEParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void VESittingToStandingController()
+		public void VEParentDad_SittingToStandingController()
 		{
 			
 		}

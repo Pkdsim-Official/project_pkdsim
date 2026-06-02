@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations
 {
-	public class DragapultParent_AnimatorMovementController : MonoBehaviour 
+	public class DragapultParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private DRParent_Jumping DR_MBA_Jumping;
+		private DRParentDad_Parent_Jumping DRParentDad_MBA_Jumping;
 		
-		private DRParent_Running DR_MBA_Running;
+		private DRParentDad_Parent_Running DRParentDad_MBA_Running;
 
 
-		private DRParent_Turning DR_MBA_Turning;
+		private DRParentDad_Parent_Turning DRParentDad_MBA_Turning;
 
-		private DRParent_Strafing DR_MBA_Strafe;
+		private DRParentDad_Parent_Strafing DRParentDad_MBA_Strafe;
 
-		public void DRMovementAnimatorController()
+		public void DRParentDad_MovementAnimatorController()
 		{
-			DR_MBA_Running.DRParent_RunningController();
+			DRParentDad_MBA_Running.DRParentDad_Parent_RunningController();
 
-			DR_MBA_Jumping.DRParent_JumpingController();
+			DRParentDad_MBA_Jumping.DRParentDad_Parent_JumpingController();
 
-			DR_MBA_Turning.DRParent_TurningController();	
+			DRParentDad_MBA_Turning.DRParentDad_Parent_TurningController();	
 
-			DR_MBA_Strafe.DRParent_StrafingController();
+			DRParentDad_MBA_Strafe.DRParentDad_Parent_StrafingController();
 		}
 	}
 }

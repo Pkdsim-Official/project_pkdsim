@@ -1,0 +1,13 @@
+{
+  "name": "project_pkdsim.USys.TABSys.TabManagerSys",
+  "rootNamespace": "project_pkdsim.USys.TABSys.Modules.TabManagerSys",
+  "references": 
+  [
+    "project_pkdsim.USys.LOSys.LOVESys",
+    "project_pkdsim.USys.AUSys.AUDIOSys.MusicSys",
+    "project_pkdsim.USys.UTPSys.HTPSys",
+    "project_pkdsim.Pkpedia",
+
+    "Unity.TextMeshPro"
+  ]
+}

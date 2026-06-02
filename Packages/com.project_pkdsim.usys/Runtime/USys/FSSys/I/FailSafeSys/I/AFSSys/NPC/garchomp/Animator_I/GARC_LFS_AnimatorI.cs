@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType garchomp = NPCSpeciesType.GARCHOMP;
 
-		private Garchomp_LFS_ConverterToAnimatorController LFSGarchomp_AnimatorCCA;
-		private Garchomp_LFS_AnimatorMovementController LFSGarchomp_AnimatorCMA;
+		private Garchomp_LFS_ConverterAnimatorController LFSGarchomp_AnimatorCCA;
+		private Garchomp_LFS_MovementAnimatorController LFSGarchomp_AnimatorCMA;
 		private Garchomp_LFS_IdleAnimatorController LFSGarchomp_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeGarchomp_ConvertToAnimatorController()
 		{
-			LFSGarchomp_AnimatorCCA.GARC_LFS_ConverterToAnimatorController();
+			LFSGarchomp_AnimatorCCA.GARC_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeGarchomp_MovementAnimatorController()
 		{

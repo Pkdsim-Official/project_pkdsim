@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Jumping
 {
-	public class LOParent_Jumping : MonoBehaviour 
+	public class LOParentDad_Jumping : MonoBehaviour 
 	{
-		public void LOParent_JumpingController() 
+		public void LOParentDad_JumpingController() 
 		{
 			
 		}

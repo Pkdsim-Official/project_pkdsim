@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.Animator_I
 		public Animator SalazzleParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private SalazzleParentMom_ConverterToAnimatorController SalazzleParentMom_AnimatorCCA;
-		private SalazzleParent_AnimatorMovementController SalazzleParentMom_AnimatorCMA;
+		private SalazzleParentMom_ConverterAnimatorController SalazzleParentMom_AnimatorCCA;
+		private SalazzLEParentMom_MovementAnimatorController SalazzleParentMom_AnimatorCMA;
 		private SalazzleParentMom_IdleAnimatorController SalazzleParentMom_AnimatorICA;
 
 		public void LoadFailSafeSalazzleParentMom_AnimatorController()
@@ -22,7 +22,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.Animator_I
 		}
 		private void LoadFailSafeSalazzleParentMom_ConvertToAnimatorController()
 		{
-			SalazzleParentMom_AnimatorCCA.SA_ConverterToAnimatorController();
+			SalazzleParentMom_AnimatorCCA.SA_ConverterAnimatorController();
 		}
 		private void LoadFailSafeSalazzleParentMom_MovementAnimatorController()
 		{

@@ -4,16 +4,16 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.idlebaseanimation
 {
-	public class FlareonParentMom_AnimatorIdleController : MonoBehaviour 
+	public class FlareonParentMom_IdleAnimatorController : MonoBehaviour 
 	{
-		private FL_IdleStanding FL_idlestanding;
+		private FLParentMom_IdleStanding FLParentMom_idlestanding;
 		
-		private FL_IdleSitting FL_idlesitting;
+		private FLParentMom_IdleSitting FLParentMom_idlesitting;
 		
-		private void FL_Base_IdleAnimatorController()
+		public void FLParentMom_IdleAnimatorController()
 		{
-			FL_idlestanding.FL_IdleStandingController();
-			FL_idlesitting.FL_IdleSittingController();	
+			FLParentMom_idlestanding.FLParentMom_IdleStandingController();
+			FLParentMom_idlesitting.FLParentMom_IdleSittingController();	
 		}
 	}
 }

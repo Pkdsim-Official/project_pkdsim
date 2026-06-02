@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class HATWalkingToStanding : MonoBehaviour 
+	public class HAT_WalkingToStanding : MonoBehaviour 
 	{
-		public void HATWalkingToStandingController() 
+		public void HAT_WalkingToStandingController() 
 		{
 			
 		}

@@ -4,13 +4,13 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Strafing
 {
-	public class MEOWParent_Strafing : MonoBehaviour 
+	public class MEOW_Parent_Strafing : MonoBehaviour 
 	{
 		private MEOW_StrafeLeft MEOW_strafeleft;
 		
 		private MEOW_StrafeRight MEOW_straferight;
 
-		public void MEOWParent_StrafingController()
+		public void MEOW_Parent_StrafingController()
 		{
 			if (MEOW_strafeleft == null)
 			{

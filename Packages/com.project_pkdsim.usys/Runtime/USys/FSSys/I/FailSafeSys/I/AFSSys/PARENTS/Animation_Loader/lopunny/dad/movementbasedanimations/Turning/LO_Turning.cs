@@ -1,35 +1,35 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Turning
 {
-	public class LOParent_Turning : MonoBehaviour	
+	public class LOParentDad_Turning : MonoBehaviour	
 	{
-		private LOParent_TurnLeft LOParent_TurnLeft;
-		private LOParent_TurnRight LOParent_TurnRight;
+		private LOParentDad_TurnLeft LOParentDad_TurnLeft;
+		private LOParentDad_TurnRight LOParentDad_TurnRight;
 
-		public void LOParent_TurningController()
+		public void LOParentDad_TurningController()
 		{
-			if (LOParent_TurnLeft == null)
+			if (LOParentDad_TurnLeft == null)
 			{
-				Load_LOParent_TurnLeft();
+				Load_LOParentDad_TurnLeft();
 			}
 
-			if (LOParent_TurnRight == null)
+			if (LOParentDad_TurnRight == null)
 			{
-				Load_LOParent_TurnRight();
+				Load_LOParentDad_TurnRight();
 			}
 			
 		}
-		private void Load_LOParent_TurnRight()
+		private void Load_LOParentDad_TurnRight()
 		{
-			LOParent_TurnRight.LOParent_TurnRightController();
+			LOParentDad_TurnRight.LOParentDad_TurnRightController();
 		}
 		
-		private void Load_LOParent_TurnLeft()
+		private void Load_LOParentDad_TurnLeft()
 		{
-			LOParent_TurnLeft.LOParent_TurnLeftController();
+			LOParentDad_TurnLeft.LOParentDad_TurnLeftController();
 		}
 	}
 }

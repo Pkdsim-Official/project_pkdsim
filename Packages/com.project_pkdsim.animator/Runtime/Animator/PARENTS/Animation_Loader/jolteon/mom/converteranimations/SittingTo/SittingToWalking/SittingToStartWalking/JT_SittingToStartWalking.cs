@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class JT_SittingToStartWalking : MonoBehaviour 
+	public class JTParentMom_SittingToStartWalking : MonoBehaviour 
 	{
 
 	}

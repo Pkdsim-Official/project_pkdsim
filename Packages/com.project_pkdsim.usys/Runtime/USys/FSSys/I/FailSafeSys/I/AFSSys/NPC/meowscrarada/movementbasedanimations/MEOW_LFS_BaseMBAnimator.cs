@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Meowscarada.movementbasedanimations
 {
-	public class Meowscarada_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Meowscarada_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private MEOW_LFS_Jumping Meowscarada_MBA_Jumping;
 		

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.converteranimations
 {
-	public class JolteonParent_ConverterAnimatorController : MonoBehaviour 
+	public class JolteonParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private JT_SittingTo JolteonParent_sittingto;
+		private JTParentDad_SittingTo JolteonParentDad_sittingto;
 		
-		private JT_WalkingTo JolteonParent_walkingto;
+		private JTParentDad_WalkingTo JolteonParentDad_walkingto;
 		
-		private JT_IdleTo JolteonParent_idleto;
+		private JTParentDad_IdleTo JolteonParentDad_idleto;
 
-		private void JT_Base_IdleAnimatorController()
+		public void JTParentDad_ConverterAnimatorController()
 		{
-			JolteonParent_walkingto.JT_WalkingToController();
+			JolteonParentDad_walkingto.JTParentDad_WalkingToController();
 
-			JolteonParent_idleto.JT_IdleToController();
+			JolteonParentDad_idleto.JTParentDad_IdleToController();
 			
-			JolteonParent_sittingto.JT_SittingToController();	
+			JolteonParentDad_sittingto.JTParentDad_SittingToController();	
 		}
 	}
 }

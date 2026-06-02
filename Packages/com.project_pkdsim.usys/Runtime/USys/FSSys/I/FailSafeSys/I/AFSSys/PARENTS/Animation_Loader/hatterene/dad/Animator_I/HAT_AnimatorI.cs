@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.Animator_I
 {
-	public class LFS_HattereneFailSafe : MonoBehaviour 
+	public class HattereneParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Hatterene_Animator;
+		public Animator HattereneParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Hatterene_ConverterToAnimatorController LFSHatterene_AnimatorCCA;
-		private HattereneParent_AnimatorMovementController LFSHatterene_AnimatorCMA;
-		private Hatterene_IdleAnimatorController LFSHatterene_AnimatorICA;
+		private HattereneParentDad_ConverterAnimatorController HattereneParentDad_AnimatorCCA;
+		private HattereneParentDad_MovementAnimatorController HattereneParentDad_AnimatorCMA;
+		private HattereneParentDad_IdleAnimatorController HattereneParentDad_AnimatorICA;
 
 
-		public void LoadFailSafeHatterene_AnimatorController()
+		public void LoadFailSafeHattereneParentDad_AnimatorController()
 		{
-			LoadFailSafeHatterene_ConvertToAnimatorController();
-			LoadFailSafeHatterene_MovementAnimatorController();
-			LoadFailSafeHatterene_IdleAnimatorController();
+			LoadFailSafeHattereneParentDad_ConvertToAnimatorController();
+			LoadFailSafeHattereneParentDad_MovementAnimatorController();
+			LoadFailSafeHattereneParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeHatterene_ConvertToAnimatorController()
+		private void LoadFailSafeHattereneParentDad_ConvertToAnimatorController()
 		{
-			LFSHatterene_AnimatorCCA.HAT_ConverterToAnimatorController();
+			HattereneParentDad_AnimatorCCA.HATParentDad_ConverterAnimatorController();
 		}
-		private void LoadFailSafeHatterene_MovementAnimatorController()
+		private void LoadFailSafeHattereneParentDad_MovementAnimatorController()
 		{
-			LFSHatterene_AnimatorCMA.HATMovementAnimatorController();
+			HattereneParentDad_AnimatorCMA.HATParentDad_MovementAnimatorController();
 		}
-		private void LoadFailSafeHatterene_IdleAnimatorController()
+		private void LoadFailSafeHattereneParentDad_IdleAnimatorController()
 		{
-			LFSHatterene_AnimatorICA.HAT_IdleAnimatorController();
+			HattereneParentDad_AnimatorICA.HATParentDad_IdleAnimatorController();
 		}
 	}
 }

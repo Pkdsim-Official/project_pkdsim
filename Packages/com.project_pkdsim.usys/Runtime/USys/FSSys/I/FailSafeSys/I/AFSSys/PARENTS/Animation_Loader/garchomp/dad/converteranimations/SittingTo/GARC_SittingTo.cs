@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.SittingTo
 {
-	public class GARC_SittingTo : MonoBehaviour 
+	public class GARCParentDad_SittingTo : MonoBehaviour 
 	{
-		private GARC_SittingToStartWalking GarchompSittingToStartWalking;
-		private GARC_SittingToStanding GarchompSittingToStanding;
-		public void GARC_SittingToController()
+		private GARCParentDad_SittingToStartWalking GarchompSittingToStartWalking;
+		private GARCParentDad_SittingToStanding GarchompSittingToStanding;
+		public void GARCParentDad_SittingToController()
 		{
-			GARC_SittingToStartWalking();
-			GARC_SittingToStanding();
+			GARCParentDad_SittingToStartWalking();
+			GARCParentDad_SittingToStanding();
 		}
-		private void GARC_SittingToStartWalking()
+		private void GARCParentDad_SittingToStartWalking()
 		{
-			GarchompSittingToStartWalking.GARC_SittingToStartWalkingController();
+			GarchompSittingToStartWalking.GARCParentDad_SittingToStartWalkingController();
 		}
-		private void GARC_SittingToStanding()
+		private void GARCParentDad_SittingToStanding()
 		{
-			GarchompSittingToStanding.GARC_SittingToStandingController();
+			GarchompSittingToStanding.GARCParentDad_SittingToStandingController();
 		}
 	}
 }

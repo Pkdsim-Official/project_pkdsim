@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.idlebaseanimation.IdleSitting
 {
-	public class LUNAIdleSitting : MonoBehaviour 
+	public class LUNAParentDad_IdleSitting : MonoBehaviour 
 	{
-		private Animator Flareon_Animator;
-		public void LUNAIdleSittingController()
+		private Animator FlareonParentDad_Animator;
+		public void LUNAParentDad_IdleSittingController()
 		{
-			Flareon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Flareon_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			FlareonParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			FlareonParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

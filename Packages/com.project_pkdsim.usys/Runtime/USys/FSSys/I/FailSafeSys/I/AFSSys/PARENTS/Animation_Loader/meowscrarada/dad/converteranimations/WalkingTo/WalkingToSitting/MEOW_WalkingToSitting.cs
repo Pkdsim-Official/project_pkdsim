@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class MEOWWalkingToSitting : MonoBehaviour 
+	public class MEOWParentDad_WalkingToSitting : MonoBehaviour 
 	{
-		public void MEOWWalkingToSittingController() 
+		public void MEOWParentDad_WalkingToSittingController() 
 		{
 			
 		}

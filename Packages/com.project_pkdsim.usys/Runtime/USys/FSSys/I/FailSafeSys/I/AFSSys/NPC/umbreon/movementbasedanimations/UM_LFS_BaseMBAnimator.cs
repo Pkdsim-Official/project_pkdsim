@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.movementbasedanimations
 {
-	public class Umbreon_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Umbreon_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private UM_LFS_Jumping Umbreon_MBA_Jumping;
 		

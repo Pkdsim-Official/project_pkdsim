@@ -2,5 +2,8 @@
 "name": "project_pkdsim.USys.AUSys.AUDIOSys",
   "rootNamespace": "project_pkdsim.USys.AUSys.AUDIOSys",
   "references": [
+    "project_pkdsim.USys.AUSys.AUDIOSys.MusicSys",
+    "project_pkdsim.USys.AUSys.AUDIOSys.SFXSys",
+    "project_pkdsim.USys.AUSys.AUDIOSys.VoiceActorsSys"
   ]
 }

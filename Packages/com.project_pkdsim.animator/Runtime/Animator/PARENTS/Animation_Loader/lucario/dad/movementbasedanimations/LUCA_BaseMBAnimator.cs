@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.movementbasedanimations
 {
-	public class LucarioParent_AnimatorMovementController : MonoBehaviour 
+	public class LucarioParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private LUCAParent_Jumping Lucario_MBA_Jumping;
 		

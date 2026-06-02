@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class LUNA_StrafeRight : MonoBehaviour
+	public class LUNAParentDadDad_StrafeRight : MonoBehaviour
 	{
-		public void LUNA_StrafeRightController() 
+		public void LUNAParentDadDad_StrafeRightController() 
 		{
 			
 		}

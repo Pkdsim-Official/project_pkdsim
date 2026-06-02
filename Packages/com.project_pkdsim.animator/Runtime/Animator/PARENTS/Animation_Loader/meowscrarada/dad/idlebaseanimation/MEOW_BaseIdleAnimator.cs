@@ -6,22 +6,22 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.idlebaseanimation
 {
 	public class Meowscarada_IdleAnimatorController : MonoBehaviour 
 	{
-		private MEOWIdleStanding Meowscaradaidlestanding;
+		private MEOW_IdleStanding Meowscaradaidlestanding;
 		
-		private MEOWIdleSitting Meowscaradaidlesitting;
+		private MEOW_IdleSitting Meowscaradaidlesitting;
 		
 		public void	MEOW_IdleAnimatorController()
 		{
-			MEOWIdleStandingAnimatorController();
-			MEOWIdleSittingAnimatorController();
+			MEOW_IdleStandingAnimatorController();
+			MEOW_IdleSittingAnimatorController();
 		}
-		private void MEOWIdleStandingAnimatorController()
+		private void MEOW_IdleStandingAnimatorController()
 		{
-			Meowscaradaidlestanding.MEOWIdleStandingController();
+			Meowscaradaidlestanding.MEOW_IdleStandingController();
 		}
-		private void MEOWIdleSittingAnimatorController()
+		private void MEOW_IdleSittingAnimatorController()
 		{
-			Meowscaradaidlesitting.MEOWIdleSittingController();
+			Meowscaradaidlesitting.MEOW_IdleSittingController();
 		}
 	}
 }

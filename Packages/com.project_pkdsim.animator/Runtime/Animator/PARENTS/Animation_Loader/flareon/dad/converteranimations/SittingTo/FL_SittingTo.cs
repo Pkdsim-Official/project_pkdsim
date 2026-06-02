@@ -1,24 +1,24 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.SittingTo.SittingToStanding;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.SittingTo
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.converteranimations.SittingTo
 {
-	public class FL_SittingTo : MonoBehaviour 
+	public class FLParentDad_SittingTo : MonoBehaviour 
 	{
-		private FL_SittingToStartWalking sittingToStartWalking;
-		private FL_SittingToStanding sittingToStanding;
+		private FLParentDad_SittingToStartWalking sittingToStartWalking;
+		private FLParentDad_SittingToStanding sittingToStanding;
 		
-		public void FL_SittingToController()
+		public void FLParentDad_SittingToController()
 		{
-			// Load_FL_SittingToRun();
-			// Load_FL_SittingToWalk();
+			// Load_FLParentDad_SittingToRun();
+			// Load_FLParentDad_SittingToWalk();
 		}
-		private void Load_FL_SittingToStanding()
+		private void Load_FLParentDad_SittingToStanding()
 		{
 			
 		}
-		private void Load_FL_SittingToWalking()
+		private void Load_FLParentDad_SittingToWalking()
 		{
 			
 		}

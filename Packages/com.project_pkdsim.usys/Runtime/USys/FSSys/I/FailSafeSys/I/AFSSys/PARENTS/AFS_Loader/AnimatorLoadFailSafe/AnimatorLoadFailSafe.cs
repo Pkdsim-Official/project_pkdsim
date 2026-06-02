@@ -25,7 +25,7 @@
 // using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.PARENTS.Zoroark.Animator_I;
 // using UnityEngine;
 
-// namespace project_pkdsim.ANIMATOR.PARENTS.AFS_Loader.AnimatorLoadFailSafe
+// namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.AFS_Loader.AnimatorLoadFailSafe
 // {
 //     public class Animator_LoadFailSafe
 //     {

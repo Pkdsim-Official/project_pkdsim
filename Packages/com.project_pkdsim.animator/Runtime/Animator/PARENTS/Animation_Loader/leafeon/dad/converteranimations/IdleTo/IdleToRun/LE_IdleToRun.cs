@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class LE_IdleToRun : MonoBehaviour 
+	public class LEParentDad_IdleToRun : MonoBehaviour 
 	{
-		
+		public void LEParentDad_IdleToRunController()
+		{
+			
+		}
 	}
 }

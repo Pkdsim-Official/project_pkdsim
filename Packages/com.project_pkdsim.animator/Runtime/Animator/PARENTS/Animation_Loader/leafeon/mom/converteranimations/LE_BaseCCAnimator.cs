@@ -4,23 +4,23 @@ using  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.SittingTo
 using UnityEngine;
 
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations
 {
-	public class Leafeon_ConverterToAnimatorController : MonoBehaviour 
+	public class LeafeonParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
-		private LE_SittingTo Leafeon_sittingto;
+		private LEParent_SittingTo LeafeonParentMom_sittingto;
 		
-		private LE_WalkingTo Leafeon_walkingto;
+		private LEParent_WalkingTo LeafeonParentMom_walkingto;
 		
-		private LE_IdleTo Leafeon_idleto;
+		private LEParent_IdleTo LeafeonParentMom_idleto;
 
-		private void LE_Base_IdleAnimatorController()
+		private void LEParent_IdleAnimatorController()
 		{
-			Leafeon_walkingto.LE_WalkingToController();
+			LeafeonParentMom_walkingto.LEParent_WalkingToController();
 
-			Leafeon_idleto.LE_IdleToController();
+			LeafeonParentMom_idleto.LEParent_IdleToController();
 			
-			Leafeon_sittingto.LE_SittingToController();	
+			LeafeonParentMom_sittingto.LEParent_SittingToController();	
 		}
 	}
 }

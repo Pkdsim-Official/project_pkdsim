@@ -1,0 +1,25 @@
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.Mom.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.Mom.converteranimations.SittingTo.SittingToStanding;
+using UnityEngine;
+
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.Mom.converteranimations.SittingTo
+{
+	public class C_SittingTo : MonoBehaviour 
+	{
+		private C_SittingToStartWalking CinderaceSittingToStartWalking;
+		private C_SittingToStanding CinderaceSittingToStanding;
+		public void C_SittingToController()
+		{
+			C_SittingToStartWalking();
+			C_SittingToStanding();
+		}
+		private void C_SittingToStartWalking()
+		{
+			CinderaceSittingToStartWalking.C_SittingToStartWalkingController();
+		}
+		private void C_SittingToStanding()
+		{
+			CinderaceSittingToStanding.C_SittingToStandingController();
+		}
+	}
+}

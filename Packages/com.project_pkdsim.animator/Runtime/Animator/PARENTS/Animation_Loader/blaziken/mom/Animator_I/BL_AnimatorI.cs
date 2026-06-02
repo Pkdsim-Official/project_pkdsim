@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.Animator_I
 		public Animator BlazikenParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private BlazikenParentMom_ConverterToAnimatorController BlazikenParentMom_AnimatorCCA;
-		private BlazikenParentMom_AnimatorMovementController BlazikenParentMom_AnimatorCMA;
+		private BlazikenParentMom_ConverterAnimatorController BlazikenParentMom_AnimatorCCA;
+		private BlazikenParentMom_MovementAnimatorController BlazikenParentMom_AnimatorCMA;
 		private BlazikenParentMom_IdleAnimatorController BlazikenParentMom_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.Animator_I
 		}
 		private void LoadFailSafeBlazikenParentMom_ConvertToAnimatorController()
 		{
-			BlazikenParentMom_AnimatorCCA.BL_ConverterToAnimatorController();
+			BlazikenParentMom_AnimatorCCA.BL_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBlazikenParentMom_MovementAnimatorController()
 		{

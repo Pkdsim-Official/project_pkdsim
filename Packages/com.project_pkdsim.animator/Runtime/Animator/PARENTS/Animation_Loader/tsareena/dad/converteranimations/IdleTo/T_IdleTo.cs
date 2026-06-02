@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.IdleTo
 {
-	public class TIdleTo : MonoBehaviour 
+	public class TParentDad_IdleTo : MonoBehaviour 
 	{
-		private TIdleToRun TsareenaIdleToRun;
-		private TIdleToWalk TsareenaIdleToWalk;
-		public void T_IdleToController()
+		private TParentDad_IdleToRun TsareenaIdleToRun;
+		private TParentDad_IdleToWalk TsareenaIdleToWalk;
+		public void TParentDad_IdleToController()
 		{
-			Load_TidleToRun();
-			Load_TidleToWalk();
+			Load_TParentDad_IdleToRun();
+			Load_TParentDad_IdleToWalk();
 		}
-		private void Load_TidleToRun()
+		private void Load_TParentDad_IdleToRun()
 		{
-			TsareenaIdleToRun.TIdleToRunController();
+			TsareenaIdleToRun.TParentDad_IdleToRunController();
 		}
-		private void Load_TidleToWalk()
+		private void Load_TParentDad_IdleToWalk()
 		{
-			TsareenaIdleToWalk.TIdleToWalkController();
+			TsareenaIdleToWalk.TParentDad_IdleToWalkController();
 		}
 	}
 }

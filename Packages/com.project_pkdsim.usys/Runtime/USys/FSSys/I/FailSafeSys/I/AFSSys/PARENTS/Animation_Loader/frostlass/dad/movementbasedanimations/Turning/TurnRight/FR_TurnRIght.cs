@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning.TurnRight
 {
     public class FRParent_TurnRight : MonoBehaviour 
     {

@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation.IdleStanding
 {
-	public class JT_IdleStanding : MonoBehaviour 
+	public class JTParentDad_IdleStanding : MonoBehaviour 
 	{
-		public Animator Jolteon_Animator;
-		public void JT_IdleStandingController()
+		public Animator JolteonParentDad_Animator;
+		public void JTParentDad_IdleStandingController()
 		{
-			Jolteon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Jolteon_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			JolteonParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			JolteonParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

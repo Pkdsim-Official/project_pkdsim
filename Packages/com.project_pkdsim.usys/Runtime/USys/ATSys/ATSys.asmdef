@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.ATSys",
+  "rootNamespace": "project_pkdsim.USys.ATSys",
+  "references": 
+  [
+    "project_pkdsim.USys.ATSys.AnimatedTexturesSys"
+  ]
+}

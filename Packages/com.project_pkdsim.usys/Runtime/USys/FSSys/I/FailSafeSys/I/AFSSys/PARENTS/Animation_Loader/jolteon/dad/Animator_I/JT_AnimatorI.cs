@@ -1,35 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.Animator_I
 {
-	public class JT_AnimatorI : MonoBehaviour 
+	public class JolteonParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Jolteon_Animator;
+		public Animator JolteonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Jolteon_ConverterAnimatorController Jolteon_AnimatorCCA;
-		private JolteonParent_AnimatorMovementController Jolteon_AnimatorCMA;
-		private Jolteon_AnimatorIdleController Jolteon_AnimatorICA;
+		private JolteonParentDad_ConverterAnimatorController JolteonParentDad_AnimatorCCA;
+		private JolteonParentDad_MovementAnimatorController JolteonParentDad_AnimatorCMA;
+		private JolteonParentDad_IdleAnimatorController JolteonParentDad_AnimatorICA;
 
-		private void Jolteon_AnimatorController()
+		public void LoadFailSafeJolteonParentDad_AnimatorController()
 		{
-			Jolteon_Animator = gameObject.GetComponent<Animator>();
-			Jolteon_Animator.runtimeAnimatorController = someController;
+			JolteonParentDad_ConvertToAnimatorController();
+			JolteonParentDad_MovementAnimatorController();
+			JolteonParentDad_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
+		private void JolteonParentDad_ConvertToAnimatorController()
 		{
-
+			JolteonParentDad_AnimatorCCA.JTParentDad_ConverterAnimatorController();
 		}
-		private void MovementAnimatorController()
+		private void JolteonParentDad_MovementAnimatorController()
 		{
-			
+			JolteonParentDad_AnimatorCMA.JTParentDad_MovementAnimatorController();	
 		}
-		private void _IdleAnimatorController()
+		private void JolteonParentDad_IdleAnimatorController()
 		{
-			
+			JolteonParentDad_AnimatorICA.JTParentDad_IdleAnimatorController();
 		}
 	}
 }

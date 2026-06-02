@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.movementbasedanimations
 {
-	public class Hatterene_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Hatterene_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private HAT_LFS_Jumping Hatterene_MBA_Jumping;
 		

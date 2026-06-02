@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Tsareena.movementbasedanimations
 {
-	public class Tsareena_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Tsareena_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private T_LFS_Jumping Tsareena_MBA_Jumping;
 		

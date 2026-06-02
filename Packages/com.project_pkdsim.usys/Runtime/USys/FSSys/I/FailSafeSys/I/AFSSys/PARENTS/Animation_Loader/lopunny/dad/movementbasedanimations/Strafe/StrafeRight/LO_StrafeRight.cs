@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class LO_StrafeRight : MonoBehaviour
+	public class LOParentDad_StrafeRight : MonoBehaviour
 	{
-		public void LO_StrafeRightController() 
+		public void LOParentDad_StrafeRightController() 
 		{
 			
 		}

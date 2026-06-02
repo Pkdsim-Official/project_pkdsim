@@ -1,24 +1,24 @@
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.Parents.Espeon.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.converteranimations.IdleTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.idlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Dad.idlebaseanimation
 {
-	public class Espeon_AnimatorConverterController : MonoBehaviour 
+	public class EspeonParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private ES_IdleTo Espeon_idleto;
+		private ES_IdleTo EspeonParentDad_idleto;
 		
-		private ES_WalkingTo Espeon_walkingto;
+		private ES_WalkingTo EspeonParentDad_walkingto;
 
-		private ES_SittingTo Espeon_sittingto;
-		private void Espeon_Base_IdleAnimatorController()
+		private ES_SittingTo EspeonParentDad_sittingto;
+		public void ESParentDad_ConverterAnimatorController()
 		{
-			Espeon_walkingto.ES_WalkingToController();
+			EspeonParentDad_walkingto.ES_WalkingToController();
 
-			Espeon_idleto.ES_IdleToController();
+			EspeonParentDad_idleto.ES_IdleToController();
 			
-			Espeon_sittingto.ES_SittingToController();
+			EspeonParentDad_sittingto.ES_SittingToController();
 		}
 	}
 }

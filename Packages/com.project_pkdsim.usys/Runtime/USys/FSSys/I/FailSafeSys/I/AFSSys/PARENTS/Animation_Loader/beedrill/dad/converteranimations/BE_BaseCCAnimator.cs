@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Dad.converteranimations
 {
-	public class Beedrill_ConverterToAnimatorController : MonoBehaviour 
+	public class BeedrillParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private BE_SittingTo BeedrillSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Beedrill.converteranimations
 		
 		private BE_IdleTo BeedrillIdleto;
 
-		public void BE_ConverterToAnimatorController()
+		public void BE_ConverterAnimatorController()
 		{
 			BeedrillWalkingto.BE_WalkingToController();
 

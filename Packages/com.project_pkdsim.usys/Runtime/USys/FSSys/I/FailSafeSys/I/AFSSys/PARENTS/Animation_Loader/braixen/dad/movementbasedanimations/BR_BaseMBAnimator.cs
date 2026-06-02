@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations
 {
-	public class BraixenParent_AnimatorMovementController : MonoBehaviour 
+	public class BraixenParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private BRParent_Jumping BR_MBA_Jumping;
 		

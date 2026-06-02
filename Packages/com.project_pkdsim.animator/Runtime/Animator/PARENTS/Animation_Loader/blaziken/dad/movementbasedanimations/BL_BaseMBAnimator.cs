@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Dad.movementbasedanimations
 {
-	public class BlazikenParentDad_AnimatorMovementController : MonoBehaviour 
+	public class BlazikenParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private BLParent_Jumping BL_MBA_Jumping;
 		

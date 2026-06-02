@@ -1,4 +1,9 @@
 { 
   "name": "project_pkdsim.Editor.Runtime", 
-  "rootNamespace": "project_pkdsim.Editor" 
+  "rootNamespace": "project_pkdsim.Editor",
+  "references": [
+    "Unity.Services.Core",
+    "Unity.Services.Authentication",
+    "Unity.Services.CloudSave"
+  ]
 }

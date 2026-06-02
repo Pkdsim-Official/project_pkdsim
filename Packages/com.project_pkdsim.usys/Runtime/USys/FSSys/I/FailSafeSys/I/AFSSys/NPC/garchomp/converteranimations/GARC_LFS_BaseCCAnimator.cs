@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Garchomp.converteranimations
 {
-	public class Garchomp_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Garchomp_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private GARC_LFS_SittingTo Garchomp_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private GARC_LFS_IdleTo Garchomp_LFS_idleto;
 
-		public void GARC_LFS_ConverterToAnimatorController()
+		public void GARC_LFS_ConverterAnimatorController()
 		{
 			Garchomp_LFS_walkingto.GARC_LFS_WalkingToController();
 

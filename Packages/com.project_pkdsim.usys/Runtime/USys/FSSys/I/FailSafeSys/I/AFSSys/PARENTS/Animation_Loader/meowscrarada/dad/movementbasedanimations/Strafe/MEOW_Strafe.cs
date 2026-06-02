@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Strafing
 {
-	public class MEOWParent_Strafing : MonoBehaviour 
+	public class MEOWParentDad_Parent_Strafing : MonoBehaviour 
 	{
-		private MEOW_StrafeLeft MEOW_strafeleft;
+		private MEOWParentDad_StrafeLeft MEOWParentDad_strafeleft;
 		
-		private MEOW_StrafeRight MEOW_straferight;
+		private MEOWParentDad_StrafeRight MEOWParentDad_straferight;
 
-		public void MEOWParent_StrafingController()
+		public void MEOWParentDad_Parent_StrafingController()
 		{
-			if (MEOW_strafeleft == null)
+			if (MEOWParentDad_strafeleft == null)
 			{
-				Load_MEOW_StrafeLeft();
+				Load_MEOWParentDad_StrafeLeft();
 			}
-			if (MEOW_straferight == null)
+			if (MEOWParentDad_straferight == null)
 			{
-				Load_MEOW_StrafeRight();
+				Load_MEOWParentDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_MEOW_StrafeRight()
+		private void Load_MEOWParentDad_StrafeRight()
 		{
-			MEOW_straferight.MEOW_StrafeRightController();
+			MEOWParentDad_straferight.MEOWParentDad_StrafeRightController();
 		}
 		
-		private void Load_MEOW_StrafeLeft()
+		private void Load_MEOWParentDad_StrafeLeft()
 		{
-			MEOW_strafeleft.MEOW_StrafeLeftController();
+			MEOWParentDad_strafeleft.MEOWParentDad_StrafeLeftController();
 		}
 	}
 }

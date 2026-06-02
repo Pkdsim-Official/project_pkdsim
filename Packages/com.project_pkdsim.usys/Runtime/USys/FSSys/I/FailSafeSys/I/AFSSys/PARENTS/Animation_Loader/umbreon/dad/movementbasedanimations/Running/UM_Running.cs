@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Running
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Running
 {
-	public class UMParent_Running : MonoBehaviour 
+	public class UMParentDad_Running : MonoBehaviour 
 	{
-		public void UMParent_RunningController()	
+		public void UMParentDad_RunningController()	
 		{
 			
 		}

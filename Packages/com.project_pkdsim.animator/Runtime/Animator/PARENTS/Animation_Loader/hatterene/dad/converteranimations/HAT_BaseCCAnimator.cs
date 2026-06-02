@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations
 {
-	public class Hatterene_ConverterToAnimatorController : MonoBehaviour 
+	public class Hatterene_ConverterAnimatorController : MonoBehaviour 
 	{
-		private HATSittingTo HattereneSittingto;
+		private HAT_SittingTo HattereneSittingto;
 		
-		private HATWalkingTo HattereneWalkingto;
+		private HAT_WalkingTo HattereneWalkingto;
 		
-		private HATIdleTo HattereneIdleto;
+		private HAT_IdleTo HattereneIdleto;
 
-		public void HAT_ConverterToAnimatorController()
+		public void HAT_ConverterAnimatorController()
 		{
-			HattereneWalkingto.HATWalkingToController();
+			HattereneWalkingto.HAT_WalkingToController();
 
 			HattereneIdleto.HAT_IdleToController();
 			
-			HattereneSittingto.HATSittingToController();	
+			HattereneSittingto.HAT_SittingToController();	
 		}
 	}
 }

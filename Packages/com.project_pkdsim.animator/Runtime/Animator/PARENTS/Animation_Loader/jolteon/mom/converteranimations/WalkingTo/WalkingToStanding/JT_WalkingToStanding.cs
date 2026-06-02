@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class JT_WalkingToStanding : MonoBehaviour 
+	public class JTParentMom_WalkingToStanding : MonoBehaviour 
 	{
 
 	}

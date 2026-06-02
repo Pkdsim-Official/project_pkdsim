@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.TABSys",
+  "rootNamespace": "project_pkdsim.USys.TABSys",
+  "references": 
+  [
+    "project_pkdsim.USys.TABSys.TabManagerSys"
+  ]
+}

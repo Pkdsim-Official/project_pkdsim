@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing.StrafeLeft
 {
-	public class HAT_StrafeLeft : MonoBehaviour 
+	public class HATParentDad_StrafeLeft : MonoBehaviour 
 	{
-		public void HAT_StrafeLeftController() 
+		public void HATParentDad_StrafeLeftController() 
 		{
 			
 		}

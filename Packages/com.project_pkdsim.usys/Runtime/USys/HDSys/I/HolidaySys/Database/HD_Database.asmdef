@@ -1,0 +1,9 @@
+{
+  "name": "project_pkdsim.USys.HDSys.HolidaySys.Database",
+  "rootNamespace": "project_pkdsim.USys.HDSys.HolidaySys.Database",
+  "references": [
+    "project_pkdsim.USys.HDSys.HolidaySys.Database.HDataSys.HolidayDatabase",
+    "Unity.Addressables",
+    "Unity.ResourceManager"
+  ]
+}

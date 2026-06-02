@@ -1,0 +1,26 @@
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Mom.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Mom.converteranimations.IdleTo.IdleToWalk;
+using UnityEngine;
+
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Mom.converteranimations.IdleTo
+{
+	public class BE_IdleTo : MonoBehaviour 
+	{
+		private BE_IdleToRun BeedrillIdleToRun;
+		private BE_IdleToWalk BeedrillIdleToWalk;
+
+		public void BE_IdleToController()
+		{
+			Load_BE_idleToRun();
+			Load_BE_idleToWalk();
+		}
+		private void Load_BE_idleToRun()
+		{
+			BeedrillIdleToRun.BE_IdleToRunController();
+		}
+		private void Load_BE_idleToWalk()
+		{
+			BeedrillIdleToWalk.BE_IdleToWalkController();
+		}
+	}
+}

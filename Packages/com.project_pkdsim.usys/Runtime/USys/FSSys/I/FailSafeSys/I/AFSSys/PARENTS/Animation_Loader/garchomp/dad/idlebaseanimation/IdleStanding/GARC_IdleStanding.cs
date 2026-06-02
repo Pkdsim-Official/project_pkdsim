@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation.IdleStanding
 {
-	public class GARC_IdleStanding : MonoBehaviour 
+	public class GARCParentDad_IdleStanding : MonoBehaviour 
 	{
 		public Animator Garchomp_Animator;
-		public void GARC_IdleStandingController()
+		public void GARCParentDad_IdleStandingController()
 		{
 			// Assign the idle animation clip
 			Garchomp_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

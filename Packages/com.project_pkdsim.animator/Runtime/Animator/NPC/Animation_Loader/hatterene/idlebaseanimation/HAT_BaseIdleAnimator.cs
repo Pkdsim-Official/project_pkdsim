@@ -6,22 +6,22 @@ namespace project_pkdsim.ANIMATOR.NPC.Hatterene.idlebaseanimation
 {
 	public class Hatterene_IdleAnimatorController : MonoBehaviour 
 	{
-		private HATIdleStanding HATidlestanding;
+		private HAT_IdleStanding HAT_idlestanding;
 		
-		private HAT_IdleSitting HATidlesitting;
+		private HAT_IdleSitting HAT_idlesitting;
 		
 		public void	HAT_IdleAnimatorController()
 		{
-			HATIdleStandingAnimatorController();
+			HAT_IdleStandingAnimatorController();
 			HAT_IdleSittingAnimatorController();
 		}
-		private void HATIdleStandingAnimatorController()
+		private void HAT_IdleStandingAnimatorController()
 		{
-			HATidlestanding.HATIdleStandingController();
+			HAT_idlestanding.HAT_IdleStandingController();
 		}
 		private void HAT_IdleSittingAnimatorController()
 		{
-			HATidlesitting.HAT_IdleSittingController();
+			HAT_idlesitting.HAT_IdleSittingController();
 		}
 	}
 }

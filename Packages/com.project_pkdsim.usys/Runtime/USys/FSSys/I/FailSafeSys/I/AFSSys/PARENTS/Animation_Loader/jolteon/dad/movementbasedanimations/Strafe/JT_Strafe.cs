@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Strafing
 {
-	public class JTParent_Strafing : MonoBehaviour 
+	public class JTParentDad_Strafing : MonoBehaviour 
 	{
-		public void JTParent_StrafingController() 
+		public void JTParentDad_StrafingController() 
 		{
 
 		}

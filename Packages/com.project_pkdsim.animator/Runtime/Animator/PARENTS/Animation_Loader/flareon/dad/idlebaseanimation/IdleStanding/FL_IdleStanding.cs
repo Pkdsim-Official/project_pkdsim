@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation.IdleStanding
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.idlebaseanimation.IdleStanding
 {
-	public class FL_IdleStanding : MonoBehaviour 
+	public class FLParentDad_IdleStanding : MonoBehaviour 
 	{
 		public Animator FlareonParentDad_Animator;
-		public void FL_IdleStandingController()
+		public void FLParentDad_IdleStandingController()
 		{
 			// Assign the idle animation clip
 			FlareonParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Lopunny.movementbasedanimations
 {
-	public class Lopunny_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Lopunny_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private LO_LFS_Jumping Lopunny_MBA_Jumping;
 		

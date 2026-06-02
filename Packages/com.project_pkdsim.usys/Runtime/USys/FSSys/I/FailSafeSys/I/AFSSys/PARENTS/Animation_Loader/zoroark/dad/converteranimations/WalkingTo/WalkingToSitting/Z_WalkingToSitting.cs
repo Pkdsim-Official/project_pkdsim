@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
 	public class ZParentDad_WalkingToSitting : MonoBehaviour 
 	{

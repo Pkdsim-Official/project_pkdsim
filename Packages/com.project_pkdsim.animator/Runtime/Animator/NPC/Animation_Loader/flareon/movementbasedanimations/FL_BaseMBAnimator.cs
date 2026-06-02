@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Flareon.movementbasedanimations
 {
-	public class Flareon_AnimatorMovementController : MonoBehaviour 
+	public class Flareon_MovementAnimatorController : MonoBehaviour 
 	{
 		private FL_Jumping FL_MBA_Jumping;
 		

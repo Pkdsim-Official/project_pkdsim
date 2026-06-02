@@ -1,6 +1,6 @@
-using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.Mom.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.Mom.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Noivern.Dad.Mom.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Mom.idlebaseanimation;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Noivern.Mom.converteranimations;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.Animator_I
@@ -8,8 +8,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.Animator_I
 	{
 		public Animator NoivernParentMom_Animator;
 		public RuntimeAnimatorController someController;
-		private NoivernParentMom_ConverterToAnimatorController NoivernParentMom_AnimatorCCA;
-		private NoivernParentMom_AnimatorMovementController NoivernParentMom_AnimatorCMA;
+		private NoivernParentMom_ConverterAnimatorController NoivernParentMom_AnimatorCCA;
+		private NoivernParentMom_MovementAnimatorController NoivernParentMom_AnimatorCMA;
 		private NoivernParentMom_IdleAnimatorController NoivernParentMom_AnimatorICA;
 
 		public void LoadFailSafeNoivernParentMom_AnimatorController()
@@ -20,7 +20,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.Animator_I
 		}
 		private void LoadFailSafeNoivernParentMom_ConvertToAnimatorController()
 		{
-			NoivernParentMom_AnimatorCCA.NOI_ConverterToAnimatorController();
+			NoivernParentMom_AnimatorCCA.NOI_ConverterAnimatorController();
 		}
 		private void LoadFailSafeNoivernParentMom_MovementAnimatorController()
 		{

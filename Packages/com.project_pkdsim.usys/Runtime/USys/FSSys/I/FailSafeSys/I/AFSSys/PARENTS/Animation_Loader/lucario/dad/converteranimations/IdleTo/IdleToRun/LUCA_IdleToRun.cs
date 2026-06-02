@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lucario.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class LUCAIdleToRun : MonoBehaviour 
+	public class LUCAParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void LUCAIdleToRunController() 
+		public void LUCAParentDad_IdleToRunController() 
 		{
 			
 		}

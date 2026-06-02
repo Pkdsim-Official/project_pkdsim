@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lucario.Dad.idlebaseanimation.IdleStanding
 {
-	public class LUCAIdleStanding : MonoBehaviour 
+	public class LUCAParentDad_IdleStanding : MonoBehaviour 
 	{
 		public Animator Lucario_Animator;
-		public void LUCAIdleStandingController()
+		public void LUCAParentDad_IdleStandingController()
 		{
 			// Assign the idle animation clip
 			Lucario_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

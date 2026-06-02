@@ -2,7 +2,7 @@ using project_pkdsim.USys.DSys.Modules.DialogueSys.Modules.Load_Negative_Dialogu
 using project_pkdsim.USys.DSys.Modules.DialogueSys.Modules.Load_Neutral_Dialogue;
 using project_pkdsim.USys.DSys.Modules.DialogueSys.Modules.Load_Positive_Dialogue;
 using project_pkdsim.USys.DSys.Modules.DialogueSys.Modules.Load_Immune_Dialogue;
-using project_pkdsim.USys.LoveSys.Modules.LoveScripts.AITEMS.Base.Affection_Score;
+using project_pkdsim.USys.LOSys.Modules.LoveSys.Modules.LoveScripts.AITEMS.Base.Affection_Score;
 using TMPro;
 using UnityEngine;
 

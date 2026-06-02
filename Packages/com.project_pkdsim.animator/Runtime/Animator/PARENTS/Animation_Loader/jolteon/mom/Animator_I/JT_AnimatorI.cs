@@ -5,19 +5,19 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.Animator_I
 {
-	public class JT_AnimatorI : MonoBehaviour 
+	public class JTParentMom_AnimatorI : MonoBehaviour 
 	{
-		public Animator JolteonParent_Animator;
+		public Animator JolteonParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private JolteonParent_ConverterAnimatorController JolteonParent_AnimatorCCA;
-		private JolteonParent_AnimatorMovementController JolteonParent_AnimatorCMA;
-		private JolteonParent_AnimatorIdleController JolteonParent_AnimatorICA;
+		private JolteonParentMom_ConverterAnimatorController JolteonParentMom_AnimatorCCA;
+		private JolteonParentMom_MovementAnimatorController JolteonParentMom_AnimatorCMA;
+		private JolteonParentMom_IdleAnimatorController JolteonParentMom_AnimatorICA;
 
-		private void JolteonParent_AnimatorController()
+		private void JolteonParentMom_AnimatorController()
 		{
-			JolteonParent_Animator = gameObject.GetComponent<Animator>();
-			JolteonParent_Animator.runtimeAnimatorController = someController;
+			JolteonParentMom_Animator = gameObject.GetComponent<Animator>();
+			JolteonParentMom_Animator.runtimeAnimatorController = someController;
 		}
 		private void ConvertToAnimatorController()
 		{

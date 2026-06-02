@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.idlebaseanimation.IdleSitting
 {
-	public class TIdleSitting : MonoBehaviour 
+	public class TParentDad_IdleSitting : MonoBehaviour 
 	{
-		private Animator Tsareena_Animator;
-		public void TIdleSittingController()
+		private Animator TsareenaParentDad_Animator;
+		public void TParentDad_IdleSittingController()
 		{
-			Tsareena_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Tsareena_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			TsareenaParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			TsareenaParentDad_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

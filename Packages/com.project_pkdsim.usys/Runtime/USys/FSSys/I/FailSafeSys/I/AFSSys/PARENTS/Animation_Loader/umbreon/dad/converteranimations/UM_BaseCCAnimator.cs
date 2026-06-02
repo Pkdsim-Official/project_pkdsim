@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.WalkingTo;
-using project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations.IdleTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations
 {
-	public class Umbreon_AnimatorBaseConverterController : MonoBehaviour 
+	public class UmbreonParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private UM_SittingTo Umbreon_sittingto;
+		private UMParentDad_SittingTo UmbreonParentDad_sittingto;
 		
-		private UM_WalkingTo Umbreon_walkingto;
+		private UMParentDad_WalkingTo UmbreonParentDad_walkingto;
 		
-		private UM_IdleTo Umbreon_idleto;
+		private UMParentDad_IdleTo UmbreonParentDad_idleto;
 
-		private void UM_Base_IdleAnimatorController()
+		public void UMParentDad_ConverterAnimatorController()
 		{
-			Umbreon_walkingto.UM_WalkingToController();
+			UmbreonParentDad_walkingto.UMParentDad_WalkingToController();
 
-			Umbreon_idleto.UM_IdleToController();
+			UmbreonParentDad_idleto.UMParentDad_IdleToController();
 			
-			Umbreon_sittingto.UM_SittingToController();	
+			UmbreonParentDad_sittingto.UMParentDad_SittingToController();	
 		}
 	}
 }

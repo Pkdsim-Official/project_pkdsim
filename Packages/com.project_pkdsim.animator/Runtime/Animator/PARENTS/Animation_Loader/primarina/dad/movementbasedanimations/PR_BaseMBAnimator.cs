@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Primarina.Dad.movementbasedanimations
 {
-	public class PrimarinaParentDad_AnimatorMovementController : MonoBehaviour 
+	public class PrimarinaParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private PRParent_Jumping PrimarinaParentDad_MBA_Jumping;
 		

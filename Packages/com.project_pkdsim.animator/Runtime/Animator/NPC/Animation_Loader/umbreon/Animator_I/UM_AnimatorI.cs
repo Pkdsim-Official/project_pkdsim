@@ -11,9 +11,9 @@ namespace project_pkdsim.ANIMATOR.NPC.Umbreon.Animator_I
 		public Animator Umbreon_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Umbreon_AnimatorBaseConverterController Umbreon_AnimatorCCA;
-		private Umbreon_AnimatorMovementController Umbreon_AnimatorCMA;
-		private Umbreon_AnimatorIdleController Umbreon_AnimatorICA;
+		private Umbreon_ConverterAnimatorController Umbreon_AnimatorCCA;
+		private Umbreon_MovementAnimatorController Umbreon_AnimatorCMA;
+		private Umbreon_IdleAnimatorController Umbreon_AnimatorICA;
 
 		public void Umbreon_AnimatorController()
 		{

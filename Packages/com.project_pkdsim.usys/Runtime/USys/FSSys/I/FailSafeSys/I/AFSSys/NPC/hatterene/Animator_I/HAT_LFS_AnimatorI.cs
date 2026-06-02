@@ -11,10 +11,10 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		public Animator Hatterene_Animator;
 		public RuntimeAnimatorController someController;
 
-		private NPCSpeciesType hatterene = NPCSpeciesType.HATTERENE;
+		private NPCSpeciesType hatterene = NPCSpeciesType.HAT_TERENE;
 
-		private Hatterene_LFS_ConverterToAnimatorController LFSHatterene_AnimatorCCA;
-		private Hatterene_LFS_AnimatorMovementController LFSHatterene_AnimatorCMA;
+		private Hatterene_LFS_ConverterAnimatorController LFSHatterene_AnimatorCCA;
+		private Hatterene_LFS_MovementAnimatorController LFSHatterene_AnimatorCMA;
 		private Hatterene_LFS_IdleAnimatorController LFSHatterene_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeHatterene_ConvertToAnimatorController()
 		{
-			LFSHatterene_AnimatorCCA.HAT_LFS_ConverterToAnimatorController();
+			LFSHatterene_AnimatorCCA.HAT_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeHatterene_MovementAnimatorController()
 		{

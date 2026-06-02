@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Jumping
 {
-	public class GARCParent_Jumping : MonoBehaviour 
+	public class GARCParentDad_Jumping : MonoBehaviour 
 	{
-		public void GARCParent_JumpingController() 
+		public void GARCParentDad_JumpingController() 
 		{
 			
 		}

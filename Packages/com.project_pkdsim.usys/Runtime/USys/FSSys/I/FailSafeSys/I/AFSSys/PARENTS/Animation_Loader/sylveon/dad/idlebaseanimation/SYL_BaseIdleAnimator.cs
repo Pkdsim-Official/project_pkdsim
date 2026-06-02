@@ -1,19 +1,19 @@
-using project_pkdsim.ANIMATOR.Parents.Sylveon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.idlebaseanimation
 {
-	public class Sylveon_IdleAnimatorController : MonoBehaviour 
+	public class SylveonParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private SYL_IdleStanding SYL_idlestanding;
+		private SYLParentDad_IdleStanding SYLParentDad_idlestanding;
 		
-		private SYL_IdleSitting SYL_idlesitting;
+		private SYLParentDad_IdleSitting SYLParentDad_idlesitting;
 
-		private void SYL_Base_IdleAnimatorController()
+		public void SYLParentDad_IdleAnimatorController()
 		{
-			SYL_idlestanding.SYL_IdleStandingController();
-			SYL_idlesitting.SYL_IdleSittingController();	
+			SYLParentDad_idlestanding.SYLParentDad_IdleStandingController();
+			SYLParentDad_idlesitting.SYLParentDad_IdleSittingController();	
 		}
 	}
 }

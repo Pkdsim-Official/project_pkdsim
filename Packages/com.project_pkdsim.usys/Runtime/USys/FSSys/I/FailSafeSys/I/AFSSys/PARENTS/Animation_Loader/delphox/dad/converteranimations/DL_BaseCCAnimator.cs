@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations
 {
-	public class Delphox_ConverterToAnimatorController : MonoBehaviour 
+	public class DelphoxParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private DLSittingTo DelphoxSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations
 		
 		private DL_IdleTo DelphoxIdleto;
 
-		public void DL_ConverterToAnimatorController()
+		public void DL_ConverterAnimatorController()
 		{
 			DelphoxWalkingto.DLWalkingToController();
 

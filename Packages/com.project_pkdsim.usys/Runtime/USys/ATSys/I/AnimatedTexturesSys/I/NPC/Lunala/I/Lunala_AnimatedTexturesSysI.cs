@@ -1,7 +1,7 @@
-using project_pkdsim.USys.AnimatedTexturesSys.NPC.Lunala.Modules.Stars;
+using project_pkdsim.USys.ATSys.Modules.AnimatedTexturesSys.NPC.Lunala.Modules.Stars;
 using UnityEngine;
 
-namespace project_pkdsim.USys.AnimatedTexturesSys.NPC.Lunala.Modules
+namespace project_pkdsim.USys.ATSys.Modules.AnimatedTexturesSys.NPC.Lunala.Modules
 {
 	public class Lunala_AnimatedTexturesSysI : MonoBehaviour 
 	{

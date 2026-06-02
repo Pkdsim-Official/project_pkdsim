@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.PLAYER.movementbasedanimations
 {
-	public class Player_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Player_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private PL_LFS_Jumping PL_MBA_Jumping;
 		

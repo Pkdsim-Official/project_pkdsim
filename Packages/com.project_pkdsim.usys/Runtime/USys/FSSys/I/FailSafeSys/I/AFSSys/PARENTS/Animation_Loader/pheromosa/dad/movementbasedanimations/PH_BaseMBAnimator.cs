@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations
 {
-	public class PheromosaParent_AnimatorMovementController : MonoBehaviour 
+	public class PheromosaParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private PHParent_Jumping Pheromosa_MBA_Jumping;
+		private PHParent_Jumping PheromosaParentDad_MBA_Jumping;
 		
-		private PHParent_Running Pheromosa_MBA_Running;
+		private PHParent_Running PheromosaParentDad_MBA_Running;
 
 
-		private PHParent_Turning Pheromosa_MBA_Turning;
+		private PHParent_Turning PheromosaParentDad_MBA_Turning;
 
-		private PHParent_Strafing Pheromosa_MBA_Strafe;
+		private PHParent_Strafing PheromosaParentDad_MBA_Strafe;
 
 		public void PHMovementAnimatorController()
 		{
-			Pheromosa_MBA_Running.PHParent_RunningController();
+			PheromosaParentDad_MBA_Running.PHParent_RunningController();
 
-			Pheromosa_MBA_Jumping.PHParent_JumpingController();
+			PheromosaParentDad_MBA_Jumping.PHParent_JumpingController();
 
-			Pheromosa_MBA_Turning.PHParent_TurningController();	
+			PheromosaParentDad_MBA_Turning.PHParent_TurningController();	
 
-			Pheromosa_MBA_Strafe.PHParent_StrafingController();
+			PheromosaParentDad_MBA_Strafe.PHParent_StrafingController();
 		}
 	}
 }

@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Strafing
 {
-	public class LOParent_Strafing : MonoBehaviour 
+	public class LOParentDad_Strafing : MonoBehaviour 
 	{
-		private LO_StrafeLeft LO_strafeleft;
+		private LOParentDad_StrafeLeft LOParentDad_strafeleft;
 		
-		private LO_StrafeRight LO_straferight;
+		private LOParentDad_StrafeRight LOParentDad_straferight;
 
-		public void LOParent_StrafingController()
+		public void LOParentDad_StrafingController()
 		{
-			if (LO_strafeleft == null)
+			if (LOParentDad_strafeleft == null)
 			{
-				Load_LO_StrafeLeft();
+				Load_LOParentDad_StrafeLeft();
 			}
-			if (LO_straferight == null)
+			if (LOParentDad_straferight == null)
 			{
-				Load_LO_StrafeRight();
+				Load_LOParentDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_LO_StrafeRight()
+		private void Load_LOParentDad_StrafeRight()
 		{
-			LO_straferight.LO_StrafeRightController();
+			LOParentDad_straferight.LOParentDad_StrafeRightController();
 		}
 		
-		private void Load_LO_StrafeLeft()
+		private void Load_LOParentDad_StrafeLeft()
 		{
-			LO_strafeleft.LO_StrafeLeftController();
+			LOParentDad_strafeleft.LOParentDad_StrafeLeftController();
 		}
 	}
 }

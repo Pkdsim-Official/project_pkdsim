@@ -3,5 +3,7 @@
 	"rootNamespace": "project_pkdsim.USys.DSys.DialogueSys",
 	"references": 
 	[
+		"Unity.TextMeshPro",
+		"project_pkdsim.USys.LOSys.LOVESys"
 	]
 }

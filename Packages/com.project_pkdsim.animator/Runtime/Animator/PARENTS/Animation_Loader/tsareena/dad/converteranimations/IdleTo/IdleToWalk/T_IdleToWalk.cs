@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class TIdleToWalk : MonoBehaviour 
+	public class TParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void TIdleToWalkController() 
+		public void TParentDad_IdleToWalkController() 
 		{
 			
 		}

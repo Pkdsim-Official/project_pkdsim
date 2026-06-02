@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class VP_SittingToStanding : MonoBehaviour 
+	public class VPParentDad_SittingToStanding : MonoBehaviour 
 	{
 
 	}

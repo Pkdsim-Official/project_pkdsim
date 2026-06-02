@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadconverteranimations.WalkingTo
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.converteranimations.WalkingTo
 {
 	public class FR_WalkingTo : MonoBehaviour 
 	{

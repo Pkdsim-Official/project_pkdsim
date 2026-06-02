@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.idlebaseanimation
 {
-	public class Espeon_LFS_AnimatorIdleController : MonoBehaviour 
+	public class Espeon_LFS_IdleAnimatorController : MonoBehaviour 
 	{
 		private ES_LFS_IdleStanding Espeon_LFS_idlestanding;
 		

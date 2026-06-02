@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.SittingTo.SittingToStartWalking
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.SittingTo.SittingToStartWalking
 {
-	public class VESittingToStartWalking : MonoBehaviour 
+	public class VEParentDad_SittingToStartWalking : MonoBehaviour 
 	{
-		public void VESittingToStartWalkingController() 
+		public void VEParentDad_SittingToStartWalkingController() 
 		{
 	
 		}

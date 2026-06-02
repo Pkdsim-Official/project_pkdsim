@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class JT_IdleToWalk : MonoBehaviour 
+	public class JTParentDad_IdleToWalk : MonoBehaviour 
 	{
-		
+		public void JTParentDad_IdleToWalkController() 
+		{
+	
+		}
 	}
 }

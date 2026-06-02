@@ -1,9 +1,9 @@
-using project_pkdsim.USys.SceneManagerSys.HOUSES.NPC;
-using project_pkdsim.USys.SceneManagerSys.HOUSES.PLAYER;
+using project_pkdsim.USys.SCMSys.Modules.SceneManagerSys.HOUSES.NPC;
+using project_pkdsim.USys.SCMSys.Modules.SceneManagerSys.HOUSES.PLAYER;
 
-namespace project_pkdsim.USys.SceneManagerSys.Modules
+namespace project_pkdsim.USys.SCMSys.Modules.SceneManagerSys.Modules
 {
-    public class SCMSysI
+    public class SceneManagementSysI
     {
         protected SCMSys_NPC_Houses SCMSys_NPC_Houses;
         protected SCMSys_Player_House_I SCMSys_Player_House;

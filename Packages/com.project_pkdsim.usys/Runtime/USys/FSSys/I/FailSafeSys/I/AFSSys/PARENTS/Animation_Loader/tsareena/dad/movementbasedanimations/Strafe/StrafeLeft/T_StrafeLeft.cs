@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class T_StrafeLeft : MonoBehaviour 
 	{

@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class SYL_StrafeRight : MonoBehaviour
+	public class SYLParentDad_StrafeRight : MonoBehaviour
 	{
 
 	}

@@ -1,35 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.Animator_I
 {
-	public class VAPOR_AnimatorI : MonoBehaviour 
+	public class VaporeonParentDad_FailSafe : MonoBehaviour 
 	{
 		public Animator Vaporeon_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Vaporeon_ConverterToAnimatorController Vaporeon_AnimatorCCA;
-		private VaporeonParent_AnimatorMovementController Vaporeon_AnimatorCMA;
-		private Vaporeon_IdleAnimatorController Vaporeon_AnimatorICA;
+		private VaporeonParentDad_ConverterAnimatorController Vaporeon_AnimatorCCA;
+		private VaporeonParentDad_MovementAnimatorController Vaporeon_AnimatorCMA;
+		private VaporeonParentDad_IdleAnimatorController Vaporeon_AnimatorICA;
 		
-		private void Vaporeon_AnimatorController()
+		public void LoadFailSafeVaporeonParentDad_AnimatorController()
 		{
-			Vaporeon_Animator = gameObject.GetComponent<Animator>();
-			Vaporeon_Animator.runtimeAnimatorController = someController;
+			VaporeonParentDad_ConvertToAnimatorController();
+			VaporeonParentDad_MovementAnimatorController();
+			VaporeonParentDad_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
+		private void VaporeonParentDad_ConvertToAnimatorController()
 		{
-
+			Vaporeon_AnimatorCCA.VPParentDad_ConverterAnimatorController();
 		}
-		private void MovementAnimatorController()
+		private void VaporeonParentDad_MovementAnimatorController()
 		{
-			
+			Vaporeon_AnimatorCMA.VPParentDad_MovementAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void VaporeonParentDad_IdleAnimatorController()
 		{
-			
+			Vaporeon_AnimatorICA.VPParentDad_IdleAnimatorController();
 		}
 	}
 }

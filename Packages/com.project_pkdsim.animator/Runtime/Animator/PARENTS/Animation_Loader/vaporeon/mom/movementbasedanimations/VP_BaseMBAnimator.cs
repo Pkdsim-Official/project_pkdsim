@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Mom.movementbasedanimations
 {
-	public class VaporeonParent_AnimatorMovementController : MonoBehaviour 
+	public class VaporeonParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private VPParent_Jumping VP_MBA_Jumping;
 		
@@ -16,7 +16,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Mom.movementbasedanimations
 
 		private VPParent_Strafing VP_MBA_Strafe;
 
-		private void VP_Base_IdleAnimatorController()
+		private void VPParent_IdleAnimatorController()
 		{
 			VP_MBA_Running.VPParent_RunningController();
 

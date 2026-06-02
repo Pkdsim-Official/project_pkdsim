@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Mom.Animator_I
 		public Animator Beedrill_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Beedrill_ConverterToAnimatorController Beedrill_AnimatorCCA;
-		private BeedrillParent_AnimatorMovementController Beedrill_AnimatorCMA;
+		private Beedrill_ConverterAnimatorController Beedrill_AnimatorCCA;
+		private BeedrillParent_MovementAnimatorController Beedrill_AnimatorCMA;
 		private Beedrill_IdleAnimatorController Beedrill_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Mom.Animator_I
 		}
 		private void LoadFailSafeBeedrill_ConvertToAnimatorController()
 		{
-			Beedrill_AnimatorCCA.BE_ConverterToAnimatorController();
+			Beedrill_AnimatorCCA.BE_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBeedrill_MovementAnimatorController()
 		{

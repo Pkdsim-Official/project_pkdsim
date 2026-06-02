@@ -1,13 +1,12 @@
-using project_pkdsim.USys.TabChangeManagerSys.Modules;
+using project_pkdsim.USys.TCMSys.Modules.TabChangeManagerSys.Modules;
 
-namespace project_pkdsim.USys.TabChangeManagerSys
+namespace project_pkdsim.USys.TCMSys.Modules.TabChangeManagerSys
 {
-	public class TABChangeManagerSys : TCMSysI
+	public class TABChangeManageSys : TABChangeManageSysI
 	{
 		public void TCMSysI() 
 		{
-			LNG();
-			LSG();
+			TCMSys_I();
 		}
 	}
 }

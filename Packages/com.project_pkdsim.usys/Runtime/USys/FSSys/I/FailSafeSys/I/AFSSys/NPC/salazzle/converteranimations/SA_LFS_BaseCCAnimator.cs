@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Salazzle.converteranimations
 {
-	public class Salazzle_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Salazzle_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private SA_LFS_SittingTo Salazzle_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private SA_LFS_IdleTo Salazzle_LFS_idleto;
 
-		public void SA_LFS_ConverterToAnimatorController()
+		public void SA_LFS_ConverterAnimatorController()
 		{
 			Salazzle_LFS_walkingto.SA_LFS_WalkingToController();
 

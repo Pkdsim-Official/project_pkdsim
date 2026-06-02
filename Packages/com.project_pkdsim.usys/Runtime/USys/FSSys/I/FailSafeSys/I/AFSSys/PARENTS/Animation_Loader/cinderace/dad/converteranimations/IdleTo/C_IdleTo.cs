@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo
 {
 	public class C_IdleTo : MonoBehaviour 
 	{

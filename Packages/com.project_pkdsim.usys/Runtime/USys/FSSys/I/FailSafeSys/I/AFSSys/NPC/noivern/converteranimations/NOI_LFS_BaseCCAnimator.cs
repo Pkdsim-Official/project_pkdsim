@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Noivern.converteranimations
 {
-	public class Noivern_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Noivern_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private NOI_LFS_SittingTo Noivern_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private NOI_LFS_IdleTo Noivern_LFS_idleto;
 
-		public void NOI_LFS_ConverterToAnimatorController()
+		public void NOI_LFS_ConverterAnimatorController()
 		{
 			Noivern_LFS_walkingto.NOI_LFS_WalkingToController();
 

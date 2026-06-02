@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.movementbasedanimations.Running
 {
-	public class TParent_Running : MonoBehaviour 
+	public class TParentMom_Running : MonoBehaviour 
 	{
-		public void TParent_RunningController() 
+		public void TParentMom_RunningController() 
 		{
 			
 		}

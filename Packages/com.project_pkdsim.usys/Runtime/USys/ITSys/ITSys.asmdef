@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.ITSys",
+  "rootNamespace": "project_pkdsim.USys.ITSys",
+  "references": 
+  [
+    "project_pkdsim.USys.ITSys.ITEMSSys"
+  ]
+}

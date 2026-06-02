@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Espeon.idlebaseanimation
 {
-	public class Espeon_AnimatorConverterController : MonoBehaviour 
+	public class Espeon_ConverterAnimatorController : MonoBehaviour 
 	{
 		private ES_IdleTo EspeonIdleto;
 		

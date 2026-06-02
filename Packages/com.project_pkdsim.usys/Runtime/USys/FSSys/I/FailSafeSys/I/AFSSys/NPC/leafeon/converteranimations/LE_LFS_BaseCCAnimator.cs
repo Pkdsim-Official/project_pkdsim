@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.converteranimations
 {
-	public class Leafeon_LFS_AnimatorBaseConverterController : MonoBehaviour 
+	public class Leafeon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private LE_LFS_IdleTo Leafeon_LFS_idleTo;
 		

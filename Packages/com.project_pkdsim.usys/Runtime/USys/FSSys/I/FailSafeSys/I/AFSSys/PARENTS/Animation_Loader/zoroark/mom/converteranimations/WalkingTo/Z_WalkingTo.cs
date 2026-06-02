@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Mom.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Mom.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Mom.converteranimations.WalkingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Mom.converteranimations.WalkingTo
 {
 	public class ZParentMom_WalkingTo : MonoBehaviour 
 	{

@@ -1,7 +1,7 @@
-using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules.Shared.LoadIDs.Modules.Necklace;
+using project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.STORESys.Modules.Shared.LoadIDs.Modules.Necklace;
 using UnityEngine;
 
-namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules.Shared.LoadIDs
+namespace project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.STORESys.Modules.Shared.LoadIDs
 {
 	public class LoadIDs : MonoBehaviour 
 	{

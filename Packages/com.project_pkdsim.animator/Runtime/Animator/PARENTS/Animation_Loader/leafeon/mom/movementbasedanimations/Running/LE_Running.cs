@@ -1,13 +1,13 @@
 using UnityEngine;
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Running
 {
-	public class LEParent_Running : MonoBehaviour 
+	public class LEParentMom_Running : MonoBehaviour 
 	{
-		public void LEParent_RunningController()
+		public void LEParentMom_RunningController()
 		{
-			// Leafeon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			// Leafeon_Animator.Play("Parent_Running");         // Start in the Idle animation state
+			// LeafeonParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			// LeafeonParentMom_Animator.Play("Parent_Running");         // Start in the Idle animation state
 		}
 	}
 }

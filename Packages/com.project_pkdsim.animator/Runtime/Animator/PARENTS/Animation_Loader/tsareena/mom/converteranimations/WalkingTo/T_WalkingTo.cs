@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations.WalkingTo.WalkingToStanding;
 using project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations.WalkingTo.WalkingToSitting;
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations.WalkingTo
 {
-	public class TWalkingTo : MonoBehaviour 
+	public class TParentMom_WalkingTo : MonoBehaviour 
 	{
-		private TWalkingToSitting TsareenaWalkingToSitting;
-		private TWalkingToStanding TsareenaWalkingToStanding;
-		public void TWalkingToController()
+		private TParentMom_WalkingToSitting TsareenaWalkingToSitting;
+		private TParentMom_WalkingToStanding TsareenaWalkingToStanding;
+		public void TParentMom_WalkingToController()
 		{
-			TWalkingToSitting();
-			TWalkingToStanding();
+			TParentMom_WalkingToSitting();
+			TParentMom_WalkingToStanding();
 		}
-		private void TWalkingToSitting()
+		private void TParentMom_WalkingToSitting()
 		{
-			TsareenaWalkingToSitting.TWalkingToSittingController();
+			TsareenaWalkingToSitting.TParentMom_WalkingToSittingController();
 		}
-		private void TWalkingToStanding()
+		private void TParentMom_WalkingToStanding()
 		{
-			TsareenaWalkingToStanding.TWalkingToStandingController();
+			TsareenaWalkingToStanding.TParentMom_WalkingToStandingController();
 		}
 	}
 }

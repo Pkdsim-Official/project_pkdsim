@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations
 {
-	public class Frostlass_ConverterToAnimatorController : MonoBehaviour 
+	public class Frostlass_ConverterAnimatorController : MonoBehaviour 
 	{
 		private FR_SittingTo FrostlassSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.converteranimations
 		
 		private FR_IdleTo FrostlassIdleto;
 
-		public void FR_ConverterToAnimatorController()
+		public void FR_ConverterAnimatorController()
 		{
 			FrostlassWalkingto.FR_WalkingToController();
 

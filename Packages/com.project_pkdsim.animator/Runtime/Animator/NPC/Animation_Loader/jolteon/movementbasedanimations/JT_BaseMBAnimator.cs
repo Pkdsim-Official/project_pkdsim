@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Jolteon.movementbasedanimations
 {
-	public class Jolteon_AnimatorMovementController : MonoBehaviour 
+	public class Jolteon_MovementAnimatorController : MonoBehaviour 
 	{
 		private JT_Jumping JT_MBA_Jumping;
 		

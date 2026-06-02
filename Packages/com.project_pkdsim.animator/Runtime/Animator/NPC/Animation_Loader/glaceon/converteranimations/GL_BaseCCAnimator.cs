@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Glaceon.converteranimations
 {
-	public class Glaceon_AnimatorControllerCoverterAnimator : MonoBehaviour 
+	public class Glaceon_ConverterAnimatorController : MonoBehaviour 
 	{
 		private GL_IdleTo GlaceonIdleto;
 		

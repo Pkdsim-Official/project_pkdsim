@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class FLParent_TurnRight : MonoBehaviour 
+    public class FLParentDad_TurnRight : MonoBehaviour 
     {
-        public void FLParent_TurnRightController()
+        public void FLParentDad_TurnRightController()
         {
 
         }

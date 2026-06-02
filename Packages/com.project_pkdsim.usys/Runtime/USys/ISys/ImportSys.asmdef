@@ -3,14 +3,20 @@
   "rootNamespace": "project_pkdsim.USys.ImportSys",
   "references": [
     "project_pkdsim.USys.FSSys",
-    "project_pkdsim.USys.ITEMSSys",
-    "project_pkdsim.USys.LOVESys",
+    "project_pkdsim.USys.ITSys",
+    "project_pkdsim.USys.LOSys",
     "project_pkdsim.USys.HDSys",
     "project_pkdsim.USys.DSys",
     "project_pkdsim.USys.AUSys",
     "project_pkdsim.USys.MOSys",
     "project_pkdsim.USys.SBSys",
-    "project_pkdsim.USys.UTPSys"
-    
+    "project_pkdsim.USys.UTPSys",
+    "project_pkdsim.USys.SCMSys",
+    "project_pkdsim.USys.TABSys",
+    "project_pkdsim.USys.ADSys",
+    "project_pkdsim.USys.ATSys",
+    "project_pkdsim.USys.TCMSys",
+    "project_pkdsim.USys.AISys",
+    "project_pkdsim.USys.UPSSys"
   ]
 }

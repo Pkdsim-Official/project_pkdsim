@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations.Turning.TurnLeft
 {
 	public class PHParent_TurnLeft : MonoBehaviour 
 	{

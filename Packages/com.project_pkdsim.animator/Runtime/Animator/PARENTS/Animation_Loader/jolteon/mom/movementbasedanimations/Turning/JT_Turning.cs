@@ -5,31 +5,31 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.movementbasedanimations.Turning
 {
-	public class JTParent_Turning : MonoBehaviour	
+	public class JTParentMom_Turning : MonoBehaviour	
 	{
-		private JTParent_TurnLeft JTParent_TurnLeft;
-		private JTParent_TurnRight JTParent_TurnRight;
+		private JTParentMom_TurnLeft JTParentMom_TurnLeft;
+		private JTParentMom_TurnRight JTParentMom_TurnRight;
 
-		public void JTParent_TurningController()
+		public void JTParentMom_TurningController()
 		{
-			if (JTParent_TurnLeft == null)
+			if (JTParentMom_TurnLeft == null)
 			{
-				Load_JTParent_TurnLeft();
+				Load_JTParentMom_TurnLeft();
 			}
-			if (JTParent_TurnRight == null)
+			if (JTParentMom_TurnRight == null)
 			{
-				Load_JTParent_TurnRight();
+				Load_JTParentMom_TurnRight();
 			}
 		}
 
-		private void Load_JTParent_TurnRight()
+		private void Load_JTParentMom_TurnRight()
 		{
-			JTParent_TurnRight.JTParent_TurnRightController();
+			JTParentMom_TurnRight.JTParentMom_TurnRightController();
 		}
 		
-		private void Load_JTParent_TurnLeft()
+		private void Load_JTParentMom_TurnLeft()
 		{
-			JTParent_TurnLeft.JTParent_TurnLeftController();
+			JTParentMom_TurnLeft.JTParentMom_TurnLeftController();
 		}
 	}
 }

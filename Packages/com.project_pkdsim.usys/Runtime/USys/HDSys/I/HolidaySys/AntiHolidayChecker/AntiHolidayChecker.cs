@@ -1,6 +1,6 @@
-using project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules;
+using project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.AntiHolidayChecker.Modules;
 
-namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker
+namespace project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.AntiHolidayChecker
 {
 	public class AntiHolidayCheatChecker : AntiHolidayCheckI 
 	{

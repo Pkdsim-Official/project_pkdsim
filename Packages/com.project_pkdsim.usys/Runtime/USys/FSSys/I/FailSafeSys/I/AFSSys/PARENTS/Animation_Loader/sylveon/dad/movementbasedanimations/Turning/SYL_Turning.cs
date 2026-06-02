@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations.Turning
 {
-	public class SYLParent_Turning : MonoBehaviour 
+	public class SYLParentDad_Turning : MonoBehaviour 
 	{
-		private SYLParent_TurnLeft SYLParent_TurnLeft;
-		private SYLParent_TurnRight SYLParent_TurnRight;
+		private SYLParentDad_TurnLeft SYLParentDad_TurnLeft;
+		private SYLParentDad_TurnRight SYLParentDad_TurnRight;
 
-		public void SYLParent_TurningController()
+		public void SYLParentDad_TurningController()
 		{
-			if (SYLParent_TurnLeft == null)
+			if (SYLParentDad_TurnLeft == null)
 			{
-				Load_SYLParent_TurnLeft();
+				Load_SYLParentDad_TurnLeft();
 			}
-			if (SYLParent_TurnRight == null)
+			if (SYLParentDad_TurnRight == null)
 			{
-				Load_SYLParent_TurnRight();
+				Load_SYLParentDad_TurnRight();
 			}
 		}
 
-		private void Load_SYLParent_TurnRight()
+		private void Load_SYLParentDad_TurnRight()
 		{
-			SYLParent_TurnRight.SYLParent_TurnRightController();
+			SYLParentDad_TurnRight.SYLParentDad_TurnRightController();
 		}
 		
-		private void Load_SYLParent_TurnLeft()
+		private void Load_SYLParentDad_TurnLeft()
 		{
-			SYLParent_TurnLeft.SYLParent_TurnLeftController();
+			SYLParentDad_TurnLeft.SYLParentDad_TurnLeftController();
 		}
 
 	}

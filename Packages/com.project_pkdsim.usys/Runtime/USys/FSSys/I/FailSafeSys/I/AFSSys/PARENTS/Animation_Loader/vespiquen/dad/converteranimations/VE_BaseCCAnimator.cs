@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations
 {
-	public class Vespiquen_ConverterToAnimatorController : MonoBehaviour 
+	public class VespiquenParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private VESittingTo Vespiquensittingto;
+		private VEParentDad_SittingTo Vespiquensittingto;
 		
-		private VEWalkingTo Vespiquenwalkingto;
+		private VEParentDad_WalkingTo Vespiquenwalkingto;
 		
-		private VEIdleTo Vespiquenidleto;
+		private VEParentDad_IdleTo Vespiquenidleto;
 
-		public void VE_ConverterToAnimatorController()
+		public void VEParentDad_ConverterAnimatorController()
 		{
-			Vespiquenwalkingto.VEWalkingToController();
+			Vespiquenwalkingto.VEParentDad_WalkingToController();
 
-			Vespiquenidleto.VE_IdleToController();
+			Vespiquenidleto.VEParentDad_IdleToController();
 			
-			Vespiquensittingto.VESittingToController();	
+			Vespiquensittingto.VEParentDad_SittingToController();	
 		}
 	}
 }

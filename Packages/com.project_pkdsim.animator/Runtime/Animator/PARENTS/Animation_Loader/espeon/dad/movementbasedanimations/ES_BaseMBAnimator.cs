@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations
 {
-	public class EspeonParent_AnimatorMovementController : MonoBehaviour 
+	public class EspeonParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private ESParent_Jumping ES_MBA_Jumping;
+		private ESParentDad_Jumping ES_MBA_Jumping;
 		
-		private ESParent_Running ES_MBA_Running;
+		private ESParentDad_Running ES_MBA_Running;
 
-		private ESParent_Turning ES_MBA_Turning;
+		private ESParentDad_Turning ES_MBA_Turning;
 
-		private ESParent_Strafing ES_MBA_Strafe;
+		private ESParentDad_Strafing ES_MBA_Strafe;
 
-		private void ES_Base_IdleAnimatorController()
+		public void ESParentDad_MovementAnimatorController()
 		{
-			ES_MBA_Running.ESParent_RunningController();
+			ES_MBA_Running.ESParentDad_RunningController();
 
-			ES_MBA_Jumping.ESParent_JumpingController();
+			ES_MBA_Jumping.ESParentDad_JumpingController();
 
-			ES_MBA_Turning.ESParent_TurningController();	
+			ES_MBA_Turning.ESParentDad_TurningController();	
 
-			ES_MBA_Strafe.ESParent_StrafingController();
+			ES_MBA_Strafe.ESParentDad_StrafingController();
 		}
 	}
 }

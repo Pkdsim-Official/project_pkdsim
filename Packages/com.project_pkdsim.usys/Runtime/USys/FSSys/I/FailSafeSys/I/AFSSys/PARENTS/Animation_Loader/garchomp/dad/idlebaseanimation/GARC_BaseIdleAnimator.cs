@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation
 {
-	public class Garchomp_IdleAnimatorController : MonoBehaviour 
+	public class GarchompParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private GARC_IdleStanding Garchompidlestanding;
+		private GARCParentDad_IdleStanding Garchompidlestanding;
 		
-		private GARC_IdleSitting Garchompidlesitting;
+		private GARCParentDad_IdleSitting Garchompidlesitting;
 		
-		public void	GARC_IdleAnimatorController()
+		public void	GARCParentDad_IdleAnimatorController()
 		{
-			GARC_IdleStandingAnimatorController();
-			GARC_IdleSittingAnimatorController();
+			GARCParentDad_IdleStandingAnimatorController();
+			GARCParentDad_IdleSittingAnimatorController();
 		}
-		private void GARC_IdleStandingAnimatorController()
+		private void GARCParentDad_IdleStandingAnimatorController()
 		{
-			Garchompidlestanding.GARC_IdleStandingController();
+			Garchompidlestanding.GARCParentDad_IdleStandingController();
 		}
-		private void GARC_IdleSittingAnimatorController()
+		private void GARCParentDad_IdleSittingAnimatorController()
 		{
-			Garchompidlesitting.GARC_IdleSittingController();
+			Garchompidlesitting.GARCParentDad_IdleSittingController();
 		}
 	}
 }

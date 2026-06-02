@@ -2,22 +2,22 @@ using  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.IdleTo.Id
 using  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.IdleTo
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.IdleTo
 {
-	public class LE_IdleTo : MonoBehaviour 
+	public class LEParent_IdleTo : MonoBehaviour 
 	{
-		private LE_IdleToRun IdleToRun;
-		private LE_IdleToWalk IdleToWalk;
-		public void LE_IdleToController()
+		private LEParent_IdleToRun IdleToRun;
+		private LEParent_IdleToWalk IdleToWalk;
+		public void LEParent_IdleToController()
 		{
-			// Load_LE_idleToRun();
-			// Load_LE_idleToWalk();
+			// Load_LEParent_idleToRun();
+			// Load_LEParent_idleToWalk();
 		}
-		private void Load_LE_idleToRun()
+		private void Load_LEParent_idleToRun()
 		{
 			
 		}
-		private void Load_LE_idleToWalk()
+		private void Load_LEParent_idleToWalk()
 		{
 			
 		}

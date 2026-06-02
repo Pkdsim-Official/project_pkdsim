@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.converteranimations.SittingTo.SittingToStanding
 {
-	public class HATSittingToStanding : MonoBehaviour 
+	public class HAT_SittingToStanding : MonoBehaviour 
 	{
-		public void HATSittingToStandingController()
+		public void HAT_SittingToStandingController()
 		{
 			
 		}

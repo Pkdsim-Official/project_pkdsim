@@ -1,10 +1,9 @@
-using project_pkdsim.USys.UnityPlayerSaveSys;
+using project_pkdsim.USys.UPSSys.Modules;
 
-namespace project_pkdsim.USys.UnityPlayerSaveSys
+namespace project_pkdsim.USys.UPSSys
 {
-	public class UPSSys : UnityPlayerSaveFIleSys
+	public class UPSaveSys : UPSSysI
 	{
-
 		public void UPSSysI() 
 		{
 			UPSSys_I();

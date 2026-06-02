@@ -2,13 +2,13 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.idlebaseanimation.IdleStanding
 {
-	public class JT_IdleStanding : MonoBehaviour 
+	public class JTParentMom_IdleStanding : MonoBehaviour 
 	{
-		public Animator JolteonParent_Animator;
-		public void JT_IdleStandingController()
+		public Animator JolteonParentMom_Animator;
+		public void JTParentMom_IdleStandingController()
 		{
-			JolteonParent_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			JolteonParent_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			JolteonParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			JolteonParentMom_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Mom.Animator_I
 		public Animator Meowscarada_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Meowscarada_ConverterToAnimatorController Meowscarada_AnimatorCCA;
-		private MeowscaradaParent_AnimatorMovementController Meowscarada_AnimatorCMA;
+		private Meowscarada_ConverterAnimatorController Meowscarada_AnimatorCCA;
+		private MeowscaradaParent_MovementAnimatorController Meowscarada_AnimatorCMA;
 		private Meowscarada_IdleAnimatorController Meowscarada_AnimatorICA;
 
 
@@ -23,11 +23,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Mom.Animator_I
 		}
 		private void LoadFailSafeMeowscarada_ConvertToAnimatorController()
 		{
-			Meowscarada_AnimatorCCA.MEOW_ConverterToAnimatorController();
+			Meowscarada_AnimatorCCA.MEOW_ConverterAnimatorController();
 		}
 		private void LoadFailSafeMeowscarada_MovementAnimatorController()
 		{
-			Meowscarada_AnimatorCMA.MEOWMovementAnimatorController();
+			Meowscarada_AnimatorCMA.MEOW_MovementAnimatorController();
 		}
 		private void LoadFailSafeMeowscarada_IdleAnimatorController()
 		{

@@ -4,14 +4,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.idlebaseanimation
 {
-	public class Glaceon_AnimatorIdleController : MonoBehaviour 
+	public class Glaceon_IdleAnimatorController : MonoBehaviour 
 	{
 		private GL_IdleStanding Glaceon_idlestanding;
 		
 		private GL_IdleSitting Glaceon_idlesitting;
 			
 
-		private void GL_Base_IdleAnimatorController()
+		private void GLParent_IdleAnimatorController()
 		{
 			Glaceon_idlestanding.GL_IdleStandingController();
 			Glaceon_idlesitting.GL_IdleSittingController();	

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Tsareena.converteranimations
 {
-	public class Tsareena_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Tsareena_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private T_LFS_SittingTo Tsareena_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private T_LFS_IdleTo Tsareena_LFS_idleto;
 
-		public void T_LFS_ConverterToAnimatorController()
+		public void T_LFS_ConverterAnimatorController()
 		{
 			Tsareena_LFS_walkingto.T_LFS_WalkingToController();
 

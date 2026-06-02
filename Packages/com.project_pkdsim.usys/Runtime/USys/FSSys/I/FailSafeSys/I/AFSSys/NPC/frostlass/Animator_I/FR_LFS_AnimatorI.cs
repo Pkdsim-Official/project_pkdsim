@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType frostlass = NPCSpeciesType.FROSTLASS;
 
-		private Frostlass_LFS_ConverterToAnimatorController LFSFrostlass_AnimatorCCA;
-		private Frostlass_LFS_AnimatorMovementController LFSFrostlass_AnimatorCMA;
+		private Frostlass_LFS_ConverterAnimatorController LFSFrostlass_AnimatorCCA;
+		private Frostlass_LFS_MovementAnimatorController LFSFrostlass_AnimatorCMA;
 		private Frostlass_LFS_IdleAnimatorController LFSFrostlass_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeFrostlass_ConvertToAnimatorController()
 		{
-			LFSFrostlass_AnimatorCCA.FR_LFS_ConverterToAnimatorController();
+			LFSFrostlass_AnimatorCCA.FR_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeFrostlass_MovementAnimatorController()
 		{

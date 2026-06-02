@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.WalkingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.converteranimations.WalkingTo
 {
-	public class DRWalkingTo : MonoBehaviour 
+	public class DRParentDad_WalkingTo : MonoBehaviour 
 	{
-		private DRWalkingToSitting DragapultWalkingToSitting;
-		private DRWalkingToStanding DragapultWalkingToStanding;
-		public void DRWalkingToController()
+		private DRParentDad_WalkingToSitting DragapultWalkingToSitting;
+		private DRParentDad_WalkingToStanding DragapultWalkingToStanding;
+		public void DRParentDad_WalkingToController()
 		{
-			DRWalkingToStartWalking();
-			DRWalkingToStanding();
+			DRParentDad_WalkingToStartWalking();
+			DRParentDad_WalkingToStanding();
 		}
-		private void DRWalkingToStartWalking()
+		private void DRParentDad_WalkingToStartWalking()
 		{
-			DragapultWalkingToSitting.DRWalkingToSittingController();
+			DragapultWalkingToSitting.DRParentDad_WalkingToSittingController();
 		}
-		private void DRWalkingToStanding()
+		private void DRParentDad_WalkingToStanding()
 		{
-			DragapultWalkingToStanding.DRWalkingToStandingController();
+			DragapultWalkingToStanding.DRParentDad_WalkingToStandingController();
 		}
 	}
 }

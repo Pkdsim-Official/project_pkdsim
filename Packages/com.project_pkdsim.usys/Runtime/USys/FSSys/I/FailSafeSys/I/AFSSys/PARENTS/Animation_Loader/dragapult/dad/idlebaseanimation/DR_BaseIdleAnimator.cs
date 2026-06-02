@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.idlebaseanimation
 {
-	public class Dragapult_IdleAnimatorController : MonoBehaviour 
+	public class DragapultParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private DRIdleStanding Dragapultidlestanding;
+		private DRParentDad_IdleStanding Dragapultidlestanding;
 		
-		private DRIdleSitting Dragapultidlesitting;
+		private DRParentDad_IdleSitting Dragapultidlesitting;
 		
-		public void	DR_IdleAnimatorController()
+		public void	DRParentDad_IdleAnimatorController()
 		{
-			DRIdleStandingAnimatorController();
-			DRIdleSittingAnimatorController();
+			DRParentDad_IdleStandingAnimatorController();
+			DRParentDad_IdleSittingAnimatorController();
 		}
-		private void DRIdleStandingAnimatorController()
+		private void DRParentDad_IdleStandingAnimatorController()
 		{
-			Dragapultidlestanding.DRIdleStandingController();
+			Dragapultidlestanding.DRParentDad_IdleStandingController();
 		}
-		private void DRIdleSittingAnimatorController()
+		private void DRParentDad_IdleSittingAnimatorController()
 		{
-			Dragapultidlesitting.DRIdleSittingController();
+			Dragapultidlesitting.DRParentDad_IdleSittingController();
 		}
 	}
 }

@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType zoroark = NPCSpeciesType.ZOROARK;
 
-		private Zoroark_LFS_ConverterToAnimatorController LFSZoroark_AnimatorCCA;
-		private Zoroark_LFS_AnimatorMovementController LFSZoroark_AnimatorCMA;
+		private Zoroark_LFS_ConverterAnimatorController LFSZoroark_AnimatorCCA;
+		private Zoroark_LFS_MovementAnimatorController LFSZoroark_AnimatorCMA;
 		private Zoroark_LFS_IdleAnimatorController LFSZoroark_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeZoroark_ConvertToAnimatorController()
 		{
-			LFSZoroark_AnimatorCCA.Z_LFS_ConverterToAnimatorController();
+			LFSZoroark_AnimatorCCA.Z_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeZoroark_MovementAnimatorController()
 		{

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations
 {
-	public class GlaceonParent_AnimatorMovementController : MonoBehaviour 
+	public class GlaceonParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private GLParent_Jumping GL_MBA_Jumping;
 		
@@ -16,7 +16,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Mom.movementbasedanimations
 
 		private GL_Strafe GL_MBA_Strafe;
 
-		private void GL_Base_IdleAnimatorController()
+		private void GLParent_IdleAnimatorController()
 		{
 			GL_MBA_Running.GLParent_RunningController();
 

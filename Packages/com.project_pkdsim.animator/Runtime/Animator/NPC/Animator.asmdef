@@ -3,5 +3,7 @@
   "rootNamespace": "project_pkdsim.ANIMATOR.Npc",
   "references": 
   [
+    "project_pkdsim.Generics",
+    "project_pkdsim.USys.FSSys.AFSys"
   ]
 } 

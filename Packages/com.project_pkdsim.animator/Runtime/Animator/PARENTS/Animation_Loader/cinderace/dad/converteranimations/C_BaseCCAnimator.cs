@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations
 {
-	public class CinderaceParentDad_ConverterToAnimatorController : MonoBehaviour 
+	public class CinderaceParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private C_SittingTo CinderaceSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations
 		
 		private C_IdleTo CinderaceIdleto;
 
-		public void C_ConverterToAnimatorController()
+		public void C_ConverterAnimatorController()
 		{
 			CinderaceWalkingto.C_WalkingToController();
 

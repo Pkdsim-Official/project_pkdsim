@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations
 {
-	public class Meowscarada_ConverterToAnimatorController : MonoBehaviour 
+	public class Meowscarada_ConverterAnimatorController : MonoBehaviour 
 	{
 		private MEOW_SittingTo Meowscaradasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.converteranimations
 		
 		private MEOW_IdleTo Meowscaradaidleto;
 
-		public void MEOW_ConverterToAnimatorController()
+		public void MEOW_ConverterAnimatorController()
 		{
 			Meowscaradawalkingto.MEOW_WalkingToController();
 

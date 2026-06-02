@@ -1,26 +1,26 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.converteranimations.IdleTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations.IdleTo
 {
-	public class VEIdleTo : MonoBehaviour 
+	public class VEParentDad_IdleTo : MonoBehaviour 
 	{
-		private VEIdleToRun VespiquenIdleToRun;
-		private VEIdleToWalk VespiquenIdleToWalk;
+		private VEParentDad_IdleToRun VespiquenIdleToRun;
+		private VEParentDad_IdleToWalk VespiquenIdleToWalk;
 
-		public void VE_IdleToController()
+		public void VEParentDad_IdleToController()
 		{
-			Load_VEidleToRun();
-			Load_VEidleToWalk();
+			Load_VEParentDad_idleToRun();
+			Load_VEParentDad_idleToWalk();
 		}
-		private void Load_VEidleToRun()
+		private void Load_VEParentDad_idleToRun()
 		{
-			VespiquenIdleToRun.VEIdleToRunController();
+			VespiquenIdleToRun.VEParentDad_IdleToRunController();
 		}
-		private void Load_VEidleToWalk()
+		private void Load_VEParentDad_idleToWalk()
 		{
-			VespiquenIdleToWalk.VEIdleToWalkController();
+			VespiquenIdleToWalk.VEParentDad_IdleToWalkController();
 		}
 	}
 }

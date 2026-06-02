@@ -1,0 +1,38 @@
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Mom.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Mom.movementbasedanimations.Strafing.StrafeRight;
+using UnityEngine;
+
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Mom.movementbasedanimations.Strafing
+{
+	public class BLParent_Strafing : MonoBehaviour 
+	{
+		private BL_StrafeLeft BL_strafeleft;
+		
+		private BL_StrafeRight BL_straferight;
+
+		public void BLParent_StrafingController()
+		{
+			if (BL_strafeleft == null)
+			{
+				BL_strafeleft = GetComponent<BL_StrafeLeft>();
+				Load_BL_StrafeLeft();
+			}
+			if (BL_straferight == null)
+			{
+				BL_straferight = GetComponent<BL_StrafeRight>();
+				Load_BL_StrafeRight();
+			}
+			
+
+		}
+		private void Load_BL_StrafeRight()
+		{
+			BL_straferight.BL_StrafeRightController();
+		}
+		
+		private void Load_BL_StrafeLeft()
+		{
+			BL_strafeleft.BL_StrafeLeftController();
+		}
+	}
+}

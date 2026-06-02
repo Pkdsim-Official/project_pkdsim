@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.Animator_I
 {
-	public class GL_AnimatorI : MonoBehaviour 
+	public class GlaceonParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Glaceon_Animator;
+		public Animator GlaceonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Glaceon_AnimatorControllerCoverterAnimator Glaceon_AnimatorCCA;
-		private GlaceonParent_AnimatorMovementController Glaceon_AnimatorCMA;
-		private Glaceon_AnimatorIdleController Glaceon_AnimatorICA;
+		private GlaceonParentDad_ConverterAnimatorController GlaceonParentDad_AnimatorCCA;
+		private GlaceonParentDad_MovementAnimatorController GlaceonParentDad_AnimatorCMA;
+		private GlaceonParentDad_IdleAnimatorController GlaceonParentDad_AnimatorICA;
 
-
-		private void Glaceon_AnimatorController()
+		public void LoadFailSafeGlaceonParentDad_AnimatorController()
 		{
-			Glaceon_Animator = gameObject.GetComponent<Animator>();
-			Glaceon_Animator.runtimeAnimatorController = someController;
+			GlaceonParentDad_ConvertToAnimatorController();
+			GlaceonParentDad_MovementAnimatorController();
+			GlaceonParentDad_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
+		private void  GlaceonParentDad_ConvertToAnimatorController()
 		{
-
+			GlaceonParentDad_AnimatorCCA.GLParentDad_ConverterAnimatorController();
 		}
-		private void MovementAnimatorController()
+		private void GlaceonParentDad_MovementAnimatorController()
 		{
-			
+			GlaceonParentDad_AnimatorCMA.GLParentDad_MovementAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void GlaceonParentDad_IdleAnimatorController()
 		{
-			
+			GlaceonParentDad_AnimatorICA.GLParentDad_IdleAnimatorController();
 		}
 	}
 }

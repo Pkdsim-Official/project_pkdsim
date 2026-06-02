@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.converteranimations
 {
-	public class Dragapult_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Dragapult_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private DR_LFS_SittingTo Dragapult_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private DR_LFS_IdleTo Dragapult_LFS_idleto;
 
-		public void DR_LFS_ConverterToAnimatorController()
+		public void DR_LFS_ConverterAnimatorController()
 		{
 			Dragapult_LFS_walkingto.DR_LFS_WalkingToController();
 

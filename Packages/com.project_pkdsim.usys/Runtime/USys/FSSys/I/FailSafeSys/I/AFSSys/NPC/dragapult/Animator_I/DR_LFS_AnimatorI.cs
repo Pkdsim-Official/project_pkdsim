@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType dragapult = NPCSpeciesType.DRAGAPULT;
 
-		private Dragapult_LFS_ConverterToAnimatorController LFSDragapult_AnimatorCCA;
-		private Dragapult_LFS_AnimatorMovementController LFSDragapult_AnimatorCMA;
+		private Dragapult_LFS_ConverterAnimatorController LFSDragapult_AnimatorCCA;
+		private Dragapult_LFS_MovementAnimatorController LFSDragapult_AnimatorCMA;
 		private Dragapult_LFS_IdleAnimatorController LFSDragapult_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeDragapult_ConvertToAnimatorController()
 		{
-			LFSDragapult_AnimatorCCA.DR_LFS_ConverterToAnimatorController();
+			LFSDragapult_AnimatorCCA.DR_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeDragapult_MovementAnimatorController()
 		{

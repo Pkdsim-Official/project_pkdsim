@@ -13,20 +13,20 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Mom.movementbasedanimations.T
 		{
 			if (SAParent_TurnLeft != null)
 			{
-				Load_TParent_TurnLeft();
+				Load_SAParentDad_TurnLeft();
 			}
 
 			if (SAParent_TurnRight != null)
 			{
-				Load_TParent_TurnRight();
+				Load_SAParentDad_TurnRight();
 			}
 		}
-		private void Load_TParent_TurnRight()
+		private void Load_SAParentDad_TurnRight()
 		{
 			SAParent_TurnRight.SAParent_TurnRightController();
 		}
 		
-		private void Load_TParent_TurnLeft()
+		private void Load_SAParentDad_TurnLeft()
 		{
 			SAParent_TurnLeft.SAParent_TurnLeftController();
 		}

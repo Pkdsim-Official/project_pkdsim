@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Strafing.StrafeLeft
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Strafing.StrafeLeft
 {
 	public class GARC_StrafeLeft : MonoBehaviour 
 	{

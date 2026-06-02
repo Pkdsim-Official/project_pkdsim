@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.converteranimations.SittingTo
 {
-	public class LOSittingTo : MonoBehaviour 
+	public class LOParentDad_SittingTo : MonoBehaviour 
 	{
-		private LOSittingToStartWalking LopunnysittingToStartWalking;
-		private LOSittingToStanding LopunnysittingToStanding;
-		public void LOSittingToController()
+		private LOParentDad_SittingToStartWalking LopunnysittingToStartWalking;
+		private LOParentDad_SittingToStanding LopunnysittingToStanding;
+		public void LOParentDad_SittingToController()
 		{
-			LOSittingToStartWalking();
-			LOSittingToStanding();
+			LOParentDad_SittingToStartWalking();
+			LOParentDad_SittingToStanding();
 		}
-		private void LOSittingToStartWalking()
+		private void LOParentDad_SittingToStartWalking()
 		{
-			LopunnysittingToStartWalking.LOSittingToStartWalkingController();
+			LopunnysittingToStartWalking.LOParentDad_SittingToStartWalkingController();
 		}
-		private void LOSittingToStanding()
+		private void LOParentDad_SittingToStanding()
 		{
-			LopunnysittingToStanding.LOSittingToStandingController();
+			LopunnysittingToStanding.LOParentDad_SittingToStandingController();
 		}
 
 	}

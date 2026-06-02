@@ -4,21 +4,21 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.IdleTo
 {
-	public class JT_IdleTo : MonoBehaviour 
+	public class JTParentMom_IdleTo : MonoBehaviour 
 	{
-		private JT_IdleToRun IdleToRun;
-		private JT_IdleToWalk IdleToWalk;
+		private JTParentMom_IdleToRun IdleToRun;
+		private JTParentMom_IdleToWalk IdleToWalk;
 		
-		public void JT_IdleToController()
+		public void JTParentMom_IdleToController()
 		{
-			// Load_JT_idleToRun();
-			// Load_JT_idleToWalk();
+			// Load_JTParentMom_idleToRun();
+			// Load_JTParentMom_idleToWalk();
 		}
-		private void Load_JT_idleToRun()
+		private void Load_JTParentMom_idleToRun()
 		{
 			
 		}
-		private void Load_JT_idleToWalk()
+		private void Load_JTParentMom_idleToWalk()
 		{
 			
 		}

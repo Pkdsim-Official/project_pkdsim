@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.movementbasedanimations
 {
-	public class Vaporeon_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Vaporeon_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private VP_LFS_Jumping VP_MBA_Jumping;
 		

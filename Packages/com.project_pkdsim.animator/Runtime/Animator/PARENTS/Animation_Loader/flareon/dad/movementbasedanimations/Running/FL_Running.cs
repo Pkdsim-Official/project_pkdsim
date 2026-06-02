@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Running
 {
-	public class FLParent_Running : MonoBehaviour 
+	public class FLParentDad_Running : MonoBehaviour 
 	{
-		public void FLParent_RunningController() 
+		public void FLParentDad_RunningController() 
 		{
 			
 		}

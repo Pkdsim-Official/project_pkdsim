@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.idlebaseanimation.IdleSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Dad.idlebaseanimation.IdleSitting
 {
-	public class LE_IdleSitting : MonoBehaviour 
+	public class LEParentDad_IdleSitting : MonoBehaviour 
 	{
-		public Animator Leafeon_Animator;
-		public void LE_IdleSittingController()
+		public Animator LeafeonParentDad_Animator;
+		public void LEParentDad_IdleSittingController()
 		{
-			Leafeon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Leafeon_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			LeafeonParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			LeafeonParentDad_Animator.Play("IdleParentDad_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

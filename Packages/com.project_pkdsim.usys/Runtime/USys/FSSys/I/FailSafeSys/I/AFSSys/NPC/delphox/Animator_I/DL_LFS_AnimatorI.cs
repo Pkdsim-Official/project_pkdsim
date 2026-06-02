@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType delphox = NPCSpeciesType.DELPHOX;
 
-		private Delphox_LFS_ConverterToAnimatorController LFSDelphox_AnimatorCCA;
-		private Delphox_LFS_AnimatorMovementController LFSDelphox_AnimatorCMA;
+		private Delphox_LFS_ConverterAnimatorController LFSDelphox_AnimatorCCA;
+		private Delphox_LFS_MovementAnimatorController LFSDelphox_AnimatorCMA;
 		private Delphox_LFS_IdleAnimatorController LFSDelphox_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeDelphox_ConvertToAnimatorController()
 		{
-			LFSDelphox_AnimatorCCA.DL_LFS_ConverterToAnimatorController();
+			LFSDelphox_AnimatorCCA.DL_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeDelphox_MovementAnimatorController()
 		{

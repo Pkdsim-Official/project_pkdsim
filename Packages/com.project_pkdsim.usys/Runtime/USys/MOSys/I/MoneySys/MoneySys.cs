@@ -1,8 +1,8 @@
-using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules;
+using project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules;
 
-namespace project_pkdsim.USys.MOSys.Modules.MoneySys
+namespace project_pkdsim.USys.MOSys.Modules.MONEYSys
 {
-	public class MOSys : MoneySysI 
+	public class MoneySys : MoneySysI 
 	{
 		public void MoneySysI() 
 		{

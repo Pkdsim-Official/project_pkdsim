@@ -1,15 +1,15 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.idlebaseanimation.IdleStanding
 {
-	public class HATIdleStanding : MonoBehaviour 
+	public class HATParentDad_IdleStanding : MonoBehaviour 
 	{
-		public Animator Hatterene_Animator;
-		public void HATIdleStandingController()
+		public Animator HattereneParentDad_Animator;
+		public void HATParentDad_IdleStandingController()
 		{
 			// Assign the idle animation clip
-			Hatterene_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Hatterene_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			HattereneParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			HattereneParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

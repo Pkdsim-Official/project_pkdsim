@@ -1,19 +1,19 @@
-using project_pkdsim.ANIMATOR.Parents.Leafeon.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Dad.idlebaseanimation
 {
-	public class Leafeon_IdleAnimatorController : MonoBehaviour 
+	public class LeafeonParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private LE_IdleStanding LE_idlestanding;
+		private LEParentDad_IdleStanding LEParentDad_idlestanding;
 		
-		private LE_IdleSitting LE_idlesitting;
+		private LEParentDad_IdleSitting LEParentDad_idlesitting;
 
-		private void LE_Base_IdleAnimatorController()
+		public void LEParentDad_IdleAnimatorController()
 		{
-			LE_idlestanding.LE_IdleStandingController();
-			LE_idlesitting.LE_IdleSittingController();	
+			LEParentDad_idlestanding.LEParentDad_IdleStandingController();
+			LEParentDad_idlesitting.LEParentDad_IdleSittingController();	
 		}
 	}
 }

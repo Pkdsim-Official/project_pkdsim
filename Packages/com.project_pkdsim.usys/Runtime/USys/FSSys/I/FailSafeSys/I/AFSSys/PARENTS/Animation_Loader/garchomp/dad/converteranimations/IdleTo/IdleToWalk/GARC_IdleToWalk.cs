@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class GARC_IdleToWalk : MonoBehaviour 
+	public class GARCParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void GARC_IdleToWalkController() 
+		public void GARCParentDad_IdleToWalkController() 
 		{
 			
 		}

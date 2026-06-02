@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType beedrill = NPCSpeciesType.BEEDRILL;
 
-		private Beedrill_LFS_ConverterToAnimatorController LFSBeedrill_AnimatorCCA;
-		private Beedrill_LFS_AnimatorMovementController LFSBeedrill_AnimatorCMA;
+		private Beedrill_LFS_ConverterAnimatorController LFSBeedrill_AnimatorCCA;
+		private Beedrill_LFS_MovementAnimatorController LFSBeedrill_AnimatorCMA;
 		private Beedrill_LFS_IdleAnimatorController LFSBeedrill_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeBeedrill_ConvertToAnimatorController()
 		{
-			LFSBeedrill_AnimatorCCA.BE_LFS_ConverterToAnimatorController();
+			LFSBeedrill_AnimatorCCA.BE_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBeedrill_MovementAnimatorController()
 		{

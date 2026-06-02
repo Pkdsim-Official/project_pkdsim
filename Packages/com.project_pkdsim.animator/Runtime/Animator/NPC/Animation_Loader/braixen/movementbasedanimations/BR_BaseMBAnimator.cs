@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Braixen.movementbasedanimations
 {
-	public class Braixen_AnimatorMovementController : MonoBehaviour 
+	public class Braixen_MovementAnimatorController : MonoBehaviour 
 	{
 		private BR_Jumping BR_MBA_Jumping;
 		

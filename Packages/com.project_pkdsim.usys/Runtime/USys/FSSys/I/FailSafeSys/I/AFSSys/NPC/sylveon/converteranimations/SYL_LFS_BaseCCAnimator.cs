@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.converteranimations
 {
-	public class Sylveon_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Sylveon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private SYL_LFS_SittingTo Sylveon_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private SYL_LFS_IdleTo Sylveon_LFS_idleto;
 
-		public void SYL_LFS_ConverterToAnimatorController()
+		public void SYL_LFS_ConverterAnimatorController()
 		{
 			Sylveon_LFS_walkingto.SYL_LFS_WalkingToController();
 

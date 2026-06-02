@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Pheromosa.converteranimations
 {
-	public class Pheromosa_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Pheromosa_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PH_LFS_SittingTo Pheromosa_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private PH_LFS_IdleTo Pheromosa_LFS_idleto;
 
-		public void PH_LFS_ConverterToAnimatorController()
+		public void PH_LFS_ConverterAnimatorController()
 		{
 			Pheromosa_LFS_walkingto.PH_LFS_WalkingToController();
 

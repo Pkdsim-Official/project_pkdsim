@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Strafing
 {
-	public class DRParent_Strafing : MonoBehaviour 
+	public class DRParentDad_Parent_Strafing : MonoBehaviour 
 	{
-		private DR_StrafeLeft DR_strafeleft;
+		private DRParentDad_StrafeLeft DRParentDad_strafeleft;
 		
-		private DR_StrafeRight DR_straferight;
+		private DRParentDad_StrafeRight DRParentDad_straferight;
 
-		public void DRParent_StrafingController()
+		public void DRParentDad_Parent_StrafingController()
 		{
-			if (DR_strafeleft == null)
+			if (DRParentDad_strafeleft == null)
 			{
-				Load_DR_StrafeLeft();
+				Load_DRParentDad_StrafeLeft();
 			}
-			if (DR_straferight == null)
+			if (DRParentDad_straferight == null)
 			{
-				Load_DR_StrafeRight();
+				Load_DRParentDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_DR_StrafeRight()
+		private void Load_DRParentDad_StrafeRight()
 		{
-			DR_straferight.DR_StrafeRightController();
+			DRParentDad_straferight.DRParentDad_StrafeRightController();
 		}
 		
-		private void Load_DR_StrafeLeft()
+		private void Load_DRParentDad_StrafeLeft()
 		{
-			DR_strafeleft.DR_StrafeLeftController();
+			DRParentDad_strafeleft.DRParentDad_StrafeLeftController();
 		}
 	}
 }

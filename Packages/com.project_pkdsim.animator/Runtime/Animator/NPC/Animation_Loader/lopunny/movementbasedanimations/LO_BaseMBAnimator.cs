@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Lopunny.movementbasedanimations
 {
-	public class Lopunny_AnimatorMovementController : MonoBehaviour 
+	public class Lopunny_MovementAnimatorController : MonoBehaviour 
 	{
 		private LO_Jumping Lopunny_MBA_Jumping;
 		

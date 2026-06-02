@@ -1,38 +1,38 @@
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Strafing
 {
-	public class VEParent_Strafing : MonoBehaviour 
+	public class VEParentDad_Strafing : MonoBehaviour 
 	{
-		private VE_StrafeLeft VE_strafeleft;
+		private VEParentMom_StrafeLeft VEParentMom_strafeleft;
 		
-		private VE_StrafeRight VE_straferight;
+		private VEParentMom_StrafeRight VEParentMom_straferight;
 
-		public void VEParent_StrafingController()
+		public void VEParentDad_StrafingController()
 		{
-			if (VE_strafeleft == null)
+			if (VEParentMom_strafeleft == null)
 			{
-				VE_strafeleft = GetComponent<VE_StrafeLeft>();
-				Load_VE_StrafeLeft();
+				VEParentMom_strafeleft = GetComponent<VEParentMom_StrafeLeft>();
+				Load_VEParentMom_StrafeLeft();
 			}
-			if (VE_straferight == null)
+			if (VEParentMom_straferight == null)
 			{
-				VE_straferight = GetComponent<VE_StrafeRight>();
-				Load_VE_StrafeRight();
+				VEParentMom_straferight = GetComponent<VEParentMom_StrafeRight>();
+				Load_VEParentMom_StrafeRight();
 			}
 			
 
 		}
-		private void Load_VE_StrafeRight()
+		private void Load_VEParentMom_StrafeRight()
 		{
-			VE_straferight.VE_StrafeRightController();
+			VEParentMom_straferight.VEParentMom_StrafeRightController();
 		}
 		
-		private void Load_VE_StrafeLeft()
+		private void Load_VEParentMom_StrafeLeft()
 		{
-			VE_strafeleft.VE_StrafeLeftController();
+			VEParentMom_strafeleft.VEParentMom_StrafeLeftController();
 		}
 	}
 }

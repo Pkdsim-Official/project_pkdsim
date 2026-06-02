@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations
 {
-	public class Vaporeon_ConverterToAnimatorController : MonoBehaviour 
+	public class Vaporeon_ConverterAnimatorController : MonoBehaviour 
 	{
 		private VP_SittingTo Vaporeon_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.Dad.converteranimations
 		
 		private VP_IdleTo Vaporeon_idleto;
 
-		private void VP_Base_IdleAnimatorController()
+		private void VPParent_IdleAnimatorController()
 		{
 			Vaporeon_walkingto.VP_WalkingToController();
 

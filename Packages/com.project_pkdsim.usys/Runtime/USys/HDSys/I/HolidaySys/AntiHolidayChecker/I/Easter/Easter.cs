@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules.Easter
+namespace project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.AntiHolidayChecker.Modules.Easter
 {
 	public class Easter_AHDSys_IAssetsLoader : MonoBehaviour
 	{

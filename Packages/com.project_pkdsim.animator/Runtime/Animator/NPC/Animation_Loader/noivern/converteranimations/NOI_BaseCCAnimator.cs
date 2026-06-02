@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations
 {
-	public class Noivern_ConverterToAnimatorController : MonoBehaviour 
+	public class Noivern_ConverterAnimatorController : MonoBehaviour 
 	{
 		private NOI_SittingTo Noivernsittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Noivern.converteranimations
 		
 		private NOI_IdleTo Noivernidleto;
 
-		public void NOI_ConverterToAnimatorController()
+		public void NOI_ConverterAnimatorController()
 		{
 			Noivernwalkingto.NOI_WalkingToController();
 

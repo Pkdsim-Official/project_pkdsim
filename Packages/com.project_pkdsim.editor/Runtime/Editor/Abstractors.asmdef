@@ -1,9 +1,0 @@
-{ 
-  "name": "project_pkdsim.Editor", 
-  "rootNamespace": "project_pkdsim.Editor",
-  "references": [
-    "project_pkdsim.core",
-    "project_pkdsim.Generics",
-    "Unity.Addressables.Editor"
-  ]
-} 

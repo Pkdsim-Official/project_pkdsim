@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.converteranimations
 {
-	public class Umbreon_LFS_AnimatorConverterController : MonoBehaviour 
+	public class Umbreon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private UM_LFS_IdleTo Umbreon_LFS_idleTo;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private UM_LFS_SittingTo Umbreon_LFS_SittingTo;
 
-		public void UM_LFS_ConverterToAnimatorController()
+		public void UM_LFS_ConverterAnimatorController()
 		{
 			Umbreon_LFS_idleTo.UM_LFS_IdleToController();
 			Umbreon_LFS_WalkingTo.UM_LFS_WalkingToController();	

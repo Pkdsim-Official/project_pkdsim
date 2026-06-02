@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class LOWalkingToSitting : MonoBehaviour 
+	public class LOParentDad_WalkingToSitting : MonoBehaviour 
 	{
-		public void LOWalkingToSittingController() 
+		public void LOParentDad_WalkingToSittingController() 
 		{
 			
 		}

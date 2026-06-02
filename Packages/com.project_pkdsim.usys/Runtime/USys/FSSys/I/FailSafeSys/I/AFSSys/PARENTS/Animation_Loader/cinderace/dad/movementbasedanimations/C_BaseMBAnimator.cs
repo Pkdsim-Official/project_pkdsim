@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations
 {
-	public class CinderaceParent_AnimatorMovementController : MonoBehaviour 
+	public class CinderaceParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private CParent_Jumping C_MBA_Jumping;
 		

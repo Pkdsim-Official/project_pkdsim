@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class DRIdleToWalk : MonoBehaviour 
+	public class DRParentDad_IdleToWalk : MonoBehaviour 
 	{
-		public void DRIdleToWalkController() 
+		public void DRParentDad_IdleToWalkController() 
 		{
 			
 		}

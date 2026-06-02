@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations
 {
-	public class Pheromosa_ConverterToAnimatorController : MonoBehaviour 
+	public class Pheromosa_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PH_SittingTo Pheromosasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Pheromosa.converteranimations
 		
 		private PH_IdleTo Pheromosaidleto;
 
-		public void PH_ConverterToAnimatorController()
+		public void PH_ConverterAnimatorController()
 		{
 			Pheromosawalkingto.PH_WalkingToController();
 

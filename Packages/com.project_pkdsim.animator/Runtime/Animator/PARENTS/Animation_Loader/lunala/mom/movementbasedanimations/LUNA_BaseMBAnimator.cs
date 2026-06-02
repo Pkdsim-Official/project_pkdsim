@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Lunala.Mom.movementbasedanimations
 {
-	public class LunalaParent_AnimatorMovementController : MonoBehaviour 
+	public class LunalaParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private LUNAParent_Jumping Lunala_MBA_Jumping;
 		

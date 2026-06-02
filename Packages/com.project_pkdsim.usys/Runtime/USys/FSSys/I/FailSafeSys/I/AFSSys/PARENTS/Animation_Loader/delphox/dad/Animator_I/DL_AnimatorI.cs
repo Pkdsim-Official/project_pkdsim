@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Delphox.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Delphox.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Delphox.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Delphox.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.Animator_I
 {
-	public class LFS_DelphoxFailSafe : MonoBehaviour 
+	public class DelphoxParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Delphox_Animator;
+		public Animator DelphoxParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Delphox_ConverterToAnimatorController LFSDelphox_AnimatorCCA;
-		private DelphoxParent_AnimatorMovementController LFSDelphox_AnimatorCMA;
-		private Delphox_IdleAnimatorController LFSDelphox_AnimatorICA;
+		private DelphoxParentDad_ConverterAnimatorController DelphoxParentDad_AnimatorCCA;
+		private DelphoxParentDad_MovementAnimatorController DelphoxParentDad_AnimatorCMA;
+		private DelphoxParentDad_IdleAnimatorController DelphoxParentDad_AnimatorICA;
 
 
-		public void LoadFailSafeDelphox_AnimatorController()
+		public void LoadFailSafeDelphoxParentDad_AnimatorController()
 		{
-			LoadFailSafeDelphox_ConvertToAnimatorController();
-			LoadFailSafeDelphox_MovementAnimatorController();
-			LoadFailSafeDelphox_IdleAnimatorController();
+			LoadFailSafeDelphoxParentDad_ConvertToAnimatorController();
+			LoadFailSafeDelphoxParentDad_MovementAnimatorController();
+			LoadFailSafeDelphoxParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeDelphox_ConvertToAnimatorController()
+		private void LoadFailSafeDelphoxParentDad_ConvertToAnimatorController()
 		{
-			LFSDelphox_AnimatorCCA.DL_ConverterToAnimatorController();
+			DelphoxParentDad_AnimatorCCA.DL_ConverterAnimatorController();
 		}
-		private void LoadFailSafeDelphox_MovementAnimatorController()
+		private void LoadFailSafeDelphoxParentDad_MovementAnimatorController()
 		{
-			LFSDelphox_AnimatorCMA.DLMovementAnimatorController();
+			DelphoxParentDad_AnimatorCMA.DLMovementAnimatorController();
 		}
-		private void LoadFailSafeDelphox_IdleAnimatorController()
+		private void LoadFailSafeDelphoxParentDad_IdleAnimatorController()
 		{
-			LFSDelphox_AnimatorICA.DL_IdleAnimatorController();
+			DelphoxParentDad_AnimatorICA.DL_IdleAnimatorController();
 		}
 	}
 }

@@ -1,38 +1,38 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Strafing
 {
-	public class LUNAParent_Strafing : MonoBehaviour 
+	public class LUNAParentDad_Strafing : MonoBehaviour 
 	{
-		private LUNA_StrafeLeft LUNA_strafeleft;
+		private LUNAParentDadDad_StrafeLeft LUNAParentDadDad_strafeleft;
 		
-		private LUNA_StrafeRight LUNA_straferight;
+		private LUNAParentDadDad_StrafeRight LUNAParentDadDad_straferight;
 
-		public void LUNAParent_StrafingController()
+		public void LUNAParentDad_StrafingController()
 		{
-			if (LUNA_strafeleft == null)
+			if (LUNAParentDadDad_strafeleft == null)
 			{
-				LUNA_strafeleft = GetComponent<LUNA_StrafeLeft>();
-				Load_LUNA_StrafeLeft();
+				LUNAParentDadDad_strafeleft = GetComponent<LUNAParentDadDad_StrafeLeft>();
+				Load_LUNAParentDadDad_StrafeLeft();
 			}
-			if (LUNA_straferight == null)
+			if (LUNAParentDadDad_straferight == null)
 			{
-				LUNA_straferight = GetComponent<LUNA_StrafeRight>();
-				Load_LUNA_StrafeRight();
+				LUNAParentDadDad_straferight = GetComponent<LUNAParentDadDad_StrafeRight>();
+				Load_LUNAParentDadDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_LUNA_StrafeRight()
+		private void Load_LUNAParentDadDad_StrafeRight()
 		{
-			LUNA_straferight.LUNA_StrafeRightController();
+			LUNAParentDadDad_straferight.LUNAParentDadDad_StrafeRightController();
 		}
 		
-		private void Load_LUNA_StrafeLeft()
+		private void Load_LUNAParentDadDad_StrafeLeft()
 		{
-			LUNA_strafeleft.LUNA_StrafeLeftController();
+			LUNAParentDadDad_strafeleft.LUNAParentDadDad_StrafeLeftController();
 		}
 	}
 }

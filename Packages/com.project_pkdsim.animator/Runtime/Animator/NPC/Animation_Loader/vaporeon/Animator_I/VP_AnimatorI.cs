@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Vaporeon.Animator_I
 		public Animator Vaporeon_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Vaporeon_ConverterToAnimatorController Vaporeon_AnimatorCCA;
-		private Vaporeon_AnimatorMovementController Vaporeon_AnimatorCMA;
+		private Vaporeon_ConverterAnimatorController Vaporeon_AnimatorCCA;
+		private Vaporeon_MovementAnimatorController Vaporeon_AnimatorCMA;
 		private Vaporeon_IdleAnimatorController Vaporeon_AnimatorICA;
 		
 		private void Vaporeon_AnimatorController()

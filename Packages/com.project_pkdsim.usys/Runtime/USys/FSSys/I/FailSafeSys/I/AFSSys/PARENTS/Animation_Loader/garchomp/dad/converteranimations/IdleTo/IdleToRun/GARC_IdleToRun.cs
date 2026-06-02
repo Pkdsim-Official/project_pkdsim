@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class GARC_IdleToRun : MonoBehaviour 
+	public class GARCParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void GARC_IdleToRunController() 
+		public void GARCParentDad_IdleToRunController() 
 		{
 			
 		}

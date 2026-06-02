@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Blaziken.converteranimations
 {
-	public class Blaziken_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Blaziken_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private BL_LFS_SittingTo Blaziken_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private BL_LFS_IdleTo Blaziken_LFS_idleto;
 
-		public void BL_LFS_ConverterToAnimatorController()
+		public void BL_LFS_ConverterAnimatorController()
 		{
 			Blaziken_LFS_walkingto.BL_LFS_WalkingToController();
 

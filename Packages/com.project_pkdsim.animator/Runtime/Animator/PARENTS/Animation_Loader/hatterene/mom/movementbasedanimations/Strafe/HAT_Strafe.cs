@@ -4,13 +4,13 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Strafing
 {
-	public class HATParent_Strafing : MonoBehaviour 
+	public class HAT_Parent_Strafing : MonoBehaviour 
 	{
 		private HAT_StrafeLeft HAT_strafeleft;
 		
 		private HAT_StrafeRight HAT_straferight;
 
-		public void HATParent_StrafingController()
+		public void HAT_Parent_StrafingController()
 		{
 			if (HAT_strafeleft == null)
 			{

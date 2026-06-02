@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Jumping
 {
-	public class HATParent_Jumping : MonoBehaviour 
+	public class HATParentDad_Jumping : MonoBehaviour 
 	{
-		public void HATParent_JumpingController() 
+		public void HATParentDad_JumpingController() 
 		{
 			
 		}

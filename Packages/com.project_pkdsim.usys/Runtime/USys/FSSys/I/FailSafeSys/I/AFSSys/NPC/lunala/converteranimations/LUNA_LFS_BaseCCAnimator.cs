@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Lunala.converteranimations
 {
-	public class Lunala_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Lunala_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private LUNA_LFS_SittingTo Lunala_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private LUNA_LFS_IdleTo Lunala_LFS_idleto;
 
-		public void LUNA_LFS_ConverterToAnimatorController()
+		public void LUNA_LFS_ConverterAnimatorController()
 		{
 			Lunala_LFS_walkingto.LUNA_LFS_WalkingToController();
 

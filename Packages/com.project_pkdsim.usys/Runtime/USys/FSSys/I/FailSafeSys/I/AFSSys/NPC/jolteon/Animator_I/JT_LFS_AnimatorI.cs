@@ -13,9 +13,9 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType jolteon = NPCSpeciesType.JOLTEON;
 
-		private Jolteon_LFS_AnimatorControllerCoverterAnimator LFSJolteon_AnimatorCCA;
-		private Jolteon_LFS_AnimatorMovementController LFSJolteon_AnimatorCMA;
-		private Jolteon_LFS_AnimatorIdleController LFSJolteon_AnimatorICA;
+		private Jolteon_LFS_ConverterAnimatorController LFSJolteon_AnimatorCCA;
+		private Jolteon_LFS_MovementAnimatorController LFSJolteon_AnimatorCMA;
+		private Jolteon_LFS_IdleAnimatorController LFSJolteon_AnimatorICA;
 
 		public void LoadFailSafeJolteon_AnimatorController()
 		{

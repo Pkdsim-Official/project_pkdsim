@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Beedrill.Dad.movementbasedanimations
 {
-	public class BeedrillParent_AnimatorMovementController : MonoBehaviour 
+	public class BeedrillParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private BEParent_Jumping Beedrill_MBA_Jumping;
 		

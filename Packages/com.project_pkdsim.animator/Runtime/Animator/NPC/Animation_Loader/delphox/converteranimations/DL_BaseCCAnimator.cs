@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations
 {
-	public class Delphox_ConverterToAnimatorController : MonoBehaviour 
+	public class Delphox_ConverterAnimatorController : MonoBehaviour 
 	{
 		private DL_SittingTo DelphoxSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Delphox.converteranimations
 		
 		private DL_IdleTo DelphoxIdleto;
 
-		public void DL_ConverterToAnimatorController()
+		public void DL_ConverterAnimatorController()
 		{
 			DelphoxWalkingto.DL_WalkingToController();
 

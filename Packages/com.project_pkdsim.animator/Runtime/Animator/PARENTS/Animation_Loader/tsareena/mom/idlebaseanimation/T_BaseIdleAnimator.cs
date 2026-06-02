@@ -4,24 +4,24 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.idlebaseanimation
 {
-	public class Tsareena_IdleAnimatorController : MonoBehaviour 
+	public class TsareenaParentMom_IdleAnimatorController : MonoBehaviour 
 	{
-		private TIdleStanding Tidlestanding;
+		private TParentMom_IdleStanding Tidlestanding;
 		
-		private TIdleSitting Tidlesitting;
+		private TParentMom_IdleSitting Tidlesitting;
 		
-		public void	T_IdleAnimatorController()
+		public void	TParentMom_IdleAnimatorController()
 		{
-			TIdleStandingAnimatorController();
-			TIdleSittingAnimatorController();
+			TParentMom_IdleStandingAnimatorController();
+			TParentMom_IdleSittingAnimatorController();
 		}
-		private void TIdleStandingAnimatorController()
+		private void TParentMom_IdleStandingAnimatorController()
 		{
-			Tidlestanding.TIdleStandingController();
+			Tidlestanding.TParentMom_IdleStandingController();
 		}
-		private void TIdleSittingAnimatorController()
+		private void TParentMom_IdleSittingAnimatorController()
 		{
-			Tidlesitting.TIdleSittingController();
+			Tidlesitting.TParentMom_IdleSittingController();
 		}
 	}
 }

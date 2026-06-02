@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.converteranimations
 {
-	public class BlazikenParentMom_ConverterToAnimatorController : MonoBehaviour 
+	public class BlazikenParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
 		private BL_SittingTo BlazikenSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Blaziken.Mom.converteranimations
 		
 		private BL_IdleTo BlazikenIdleto;
 
-		public void BL_ConverterToAnimatorController()
+		public void BL_ConverterAnimatorController()
 		{
 			BlazikenWalkingto.BL_WalkingToController();
 

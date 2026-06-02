@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class LUNAParent_TurnRight : MonoBehaviour 
+    public class LUNAParentDad_TurnRight : MonoBehaviour 
     {
-        public void LUNAParent_TurnRightController()
+        public void LUNAParentDad_TurnRightController()
         {
 
         }

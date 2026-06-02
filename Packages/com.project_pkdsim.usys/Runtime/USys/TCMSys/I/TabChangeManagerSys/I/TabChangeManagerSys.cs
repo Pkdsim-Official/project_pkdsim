@@ -1,11 +1,11 @@
-using project_pkdsim.USys.TabChangeManagerSys.Modules.LoadNewGame;
-using project_pkdsim.USys.TabChangeManagerSys.Modules.LoadSavedGame;
-using project_pkdsim.USys.TabChangeManagerSys.Modules.QuitSavedGame;
+using project_pkdsim.USys.TCMSys.Modules.TabChangeManagerSys.Modules.LoadNewGame;
+using project_pkdsim.USys.TCMSys.Modules.TabChangeManagerSys.Modules.LoadSavedGame;
+using project_pkdsim.USys.TCMSys.Modules.TabChangeManagerSys.Modules.QuitSavedGame;
 using UnityEngine;
 
-namespace project_pkdsim.USys.TabChangeManagerSys.Modules
+namespace project_pkdsim.USys.TCMSys.Modules.TabChangeManagerSys.Modules
 {
-    public class TCMSysI : MonoBehaviour
+    public class TABChangeManageSysI : MonoBehaviour
     {
         protected LoadNGame loadNewGame;
         protected LoadSGame loadSavedGame;
@@ -24,6 +24,13 @@ namespace project_pkdsim.USys.TabChangeManagerSys.Modules
         public void LQG()
         {
             loadQuitGame.LoadQuitGameI();
+        }
+
+        public void TCMSys_I()
+        {
+            LQG();
+            LSG();
+            LNG();
         }
     }
 }

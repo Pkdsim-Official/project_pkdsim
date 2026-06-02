@@ -4,11 +4,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Espeon.Mom.idlebaseanimation.IdleSitti
 {
 	public class ES_IdleSitting : MonoBehaviour 
 	{
-		public Animator Espeon_Animator;
+		public Animator EspeonParentMom_Animator;
 		public void ES_IdleSittingController()
 		{
-			Espeon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Espeon_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
+			EspeonParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			EspeonParentMom_Animator.Play("Idle_Sitting");         // Start in the Idle animation state
 		}
 	}
 }

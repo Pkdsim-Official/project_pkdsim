@@ -1,14 +1,18 @@
+using project_pkdsim.ANIMATOR.Parents.Espeon.Mom.movementbasedanimations;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Mom.converteranimations;
+using project_pkdsim.ANIMATOR.Parents.Espeon.Mom.idlebaseanimation;
+
 using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Espeon.Mom.Animator_I
 {
 	public class ES_AnimatorI : MonoBehaviour 
 	{
-		public Animator Espeon_Animator;
+		public Animator EspeonParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private EspeonParentMom_ConverterToAnimatorController EspeonParentMom_AnimatorCCA;
-		private EspeonParentMom_AnimatorMovementController EspeonParentMom_AnimatorCMA;
+		private EspeonParentMom_ConverterAnimatorController EspeonParentMom_AnimatorCCA;
+		private EspeonParentMom_MovementAnimatorController EspeonParentMom_AnimatorCMA;
 		private EspeonParentMom_IdleAnimatorController EspeonParentMom_AnimatorICA;
 
 
@@ -20,15 +24,15 @@ namespace project_pkdsim.ANIMATOR.Parents.Espeon.Mom.Animator_I
 		}
 		private void LoadFailSafeEspeonParentMom_ConvertToAnimatorController()
 		{
-			EspeonParentMom_AnimatorCCA.C_ConverterToAnimatorController();
+			EspeonParentMom_AnimatorCCA.ESParentMom_ConverterAnimatorController();
 		}
 		private void LoadFailSafeEspeonParentMom_MovementAnimatorController()
 		{
-			EspeonParentMom_AnimatorCMA.CMovementAnimatorController();
+			EspeonParentMom_AnimatorCMA.ESParentMom_MovementAnimatorController();
 		}
 		private void LoadFailSafeEspeonParentMom_IdleAnimatorController()
 		{
-			EspeonParentMom_AnimatorICA.C_IdleAnimatorController();
+			EspeonParentMom_AnimatorICA.ESParentMom_IdleAnimatorController();
 		}
 	}
 }

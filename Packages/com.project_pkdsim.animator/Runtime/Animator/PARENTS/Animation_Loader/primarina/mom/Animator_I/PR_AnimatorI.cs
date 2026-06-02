@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Primarina.Mom.Animator_I
 		public Animator PrimarinaParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private PrimarinaParentMom_ConverterToAnimatorController PrimarinaParentMom_AnimatorCCA;
-		private PrimarinaParentMom_AnimatorMovementController PrimarinaParentMom_AnimatorCMA;
+		private PrimarinaParentMom_ConverterAnimatorController PrimarinaParentMom_AnimatorCCA;
+		private PrimarinaParentMom_MovementAnimatorController PrimarinaParentMom_AnimatorCMA;
 		private PrimarinaParentMom_IdleAnimatorController PrimarinaParentMom_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Primarina.Mom.Animator_I
 		}
 		private void LoadFailSafePrimarinaParentMom_ConvertToAnimatorController()
 		{
-			PrimarinaParentMom_AnimatorCCA.PR_ConverterToAnimatorController();
+			PrimarinaParentMom_AnimatorCCA.PR_ConverterAnimatorController();
 		}
 		private void LoadFailSafePrimarinaParentMom_MovementAnimatorController()
 		{

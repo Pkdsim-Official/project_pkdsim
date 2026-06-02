@@ -4,31 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.movementbasedanimations.Turning
 {
-	public class FLParent_Turning : MonoBehaviour	
+	public class FLParentMom_Turning : MonoBehaviour	
 	{
-		private FLParent_TurnLeft FLParent_TurnLeft;
-		private FLParent_TurnRight FLParent_TurnRight;
+		private FLParentMom_TurnLeft FLParentMom_TurnLeft;
+		private FLParentMom_TurnRight FLParentMom_TurnRight;
 
-		public void FLParent_TurningController()
+		public void FLParentMom_TurningController()
 		{
-			if (FLParent_TurnLeft == null)
+			if (FLParentMom_TurnLeft == null)
 			{
-				Load_FLParent_TurnLeft();
+				Load_FLParentMom_TurnLeft();
 			}
-			if (FLParent_TurnRight == null)
+			if (FLParentMom_TurnRight == null)
 			{
-				Load_FLParent_TurnRight();
+				Load_FLParentMom_TurnRight();
 			}
 		}
 
-		private void Load_FLParent_TurnRight()
+		private void Load_FLParentMom_TurnRight()
 		{
-			FLParent_TurnRight.FLParent_TurnRightController();
+			FLParentMom_TurnRight.FLParentMom_TurnRightController();
 		}
 		
-		private void Load_FLParent_TurnLeft()
+		private void Load_FLParentMom_TurnLeft()
 		{
-			FLParent_TurnLeft.FLParent_TurnLeftController();
+			FLParentMom_TurnLeft.FLParentMom_TurnLeftController();
 		}
 	}
 }

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.WalkingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations.WalkingTo
 {
-	public class UM_WalkingTo : MonoBehaviour 
+	public class UMParentDad_WalkingTo : MonoBehaviour 
 	{
-		public void UM_WalkingToController()
+		public void UMParentDad_WalkingToController()
 		{
 			
 		}

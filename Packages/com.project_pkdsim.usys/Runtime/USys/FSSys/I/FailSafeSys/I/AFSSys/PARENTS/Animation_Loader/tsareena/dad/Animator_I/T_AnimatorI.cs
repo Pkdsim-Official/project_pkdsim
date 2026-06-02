@@ -1,37 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Tsareena.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Tsareena.Dad.Animator_I
 {
-	public class LFS_TsareenaFailSafe : MonoBehaviour 
+	public class TsareenaParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Tsareena_Animator;
+		public Animator TsareenaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Tsareena_ConverterToAnimatorController LFSTsareena_AnimatorCCA;
-		private TsareenaParent_AnimatorMovementController LFSTsareena_AnimatorCMA;
-		private Tsareena_IdleAnimatorController LFSTsareena_AnimatorICA;
+		private TsareenaParentDad_ConverterAnimatorController TsareenaParentDad_AnimatorCCA;
+		private TsareenaParentDad_MovementAnimatorController TsareenaParentDad_AnimatorCMA;
+		private TsareenaParentDad_IdleAnimatorController TsareenaParentDad_AnimatorICA;
 
-
-		public void LoadFailSafeTsareena_AnimatorController()
+		public void LoadFailSafeTsareenaParentDad_AnimatorController()
 		{
-			LoadFailSafeTsareena_ConvertToAnimatorController();
-			LoadFailSafeTsareena_MovementAnimatorController();
-			LoadFailSafeTsareena_IdleAnimatorController();
+			LoadFailSafeTsareenaParentDad_ConvertToAnimatorController();
+			LoadFailSafeTsareenaParentDad_MovementAnimatorController();
+			LoadFailSafeTsareenaParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeTsareena_ConvertToAnimatorController()
+		private void LoadFailSafeTsareenaParentDad_ConvertToAnimatorController()
 		{
-			LFSTsareena_AnimatorCCA.T_ConverterToAnimatorController();
+			TsareenaParentDad_AnimatorCCA.TParentDad_ConverterAnimatorController();
 		}
-		private void LoadFailSafeTsareena_MovementAnimatorController()
+		private void LoadFailSafeTsareenaParentDad_MovementAnimatorController()
 		{
-			LFSTsareena_AnimatorCMA.TMovementAnimatorController();
+			TsareenaParentDad_AnimatorCMA.TParentDad_MovementAnimatorController();
 		}
-		private void LoadFailSafeTsareena_IdleAnimatorController()
+		private void LoadFailSafeTsareenaParentDad_IdleAnimatorController()
 		{
-			LFSTsareena_AnimatorICA.T_IdleAnimatorController();
+			TsareenaParentDad_AnimatorICA.TParentDad_IdleAnimatorController();
 		}
 	}
 }

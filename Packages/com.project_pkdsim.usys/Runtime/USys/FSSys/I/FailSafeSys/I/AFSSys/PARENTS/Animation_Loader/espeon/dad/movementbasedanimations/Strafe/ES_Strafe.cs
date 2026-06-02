@@ -1,16 +1,16 @@
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Strafing
 {
-	public class ESParent_Strafing : MonoBehaviour 
+	public class ESParentDad_Strafing : MonoBehaviour 
 	{
 		private ES_StrafeLeft ES_strafeleft;
 		
 		private ES_StrafeRight ES_straferight;
 
-		public void ESParent_StrafingController()
+		public void ESParentDad_StrafingController()
 		{
 			if (ES_strafeleft == null)
 			{

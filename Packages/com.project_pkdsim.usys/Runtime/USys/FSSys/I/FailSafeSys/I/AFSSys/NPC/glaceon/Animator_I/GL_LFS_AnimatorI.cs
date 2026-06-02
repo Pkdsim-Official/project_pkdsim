@@ -14,7 +14,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType glaceon = NPCSpeciesType.GLACEON;
 
-		private Glaceon_LFS_ConverterToAnimatorController LFSGlaceon_AnimatorCCA;
+		private Glaceon_LFS_ConverterAnimatorController LFSGlaceon_AnimatorCCA;
 		private GLaceon_LFS_MovementBasedAnimatorController LFSGlaceon_AnimatorCMA;
 		private Glaceon_LFS_IdleAnimatorController LFSGlaceon_AnimatorICA;
 

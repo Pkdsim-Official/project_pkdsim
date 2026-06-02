@@ -1,19 +1,19 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.WalkingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.converteranimations.WalkingTo
 {
-	public class GL_WalkingTo : MonoBehaviour 
+	public class GLParentDad_WalkingTo : MonoBehaviour 
 	{
-		public void GL_WalkingToController()
+		public void GLParentDad_WalkingToController()
 		{
-			// Load_GL_WalkingToStanding();
-			// Load_GL_WalkingToWSitting();
+			// Load_GLParentDad_WalkingToStanding();
+			// Load_GLParentDad_WalkingToWSitting();
 		}
-		private void Load_GL_WalkingToStanding()
+		private void Load_GLParentDad_WalkingToStanding()
 		{
 			
 		}
-		private void Load_GL_WalkingToWSitting()
+		private void Load_GLParentDad_WalkingToWSitting()
 		{
 			
 		}

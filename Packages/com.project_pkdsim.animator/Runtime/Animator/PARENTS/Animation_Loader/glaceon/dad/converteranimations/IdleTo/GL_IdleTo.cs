@@ -10,14 +10,14 @@ namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations.IdleTo
 		private GL_IdleToWalk IdleToWalk;
 		public void GL_IdleToController()
 		{
-			// Load_JT_IdleToStanding();
-			// Load_JT_IdleToWSitting();
+			// Load_GLParentDad_IdleToStanding();
+			// Load_GLParentDad_IdleToWSitting();
 		}
-		private void Load_JT_IdleToParent_Running()
+		private void Load_GLParentDad_IdleToParent_Running()
 		{
 			
 		}
-		private void Load_JT_IdleToWWalking()
+		private void Load_GLParentDad_IdleToWWalking()
 		{
 			
 		}

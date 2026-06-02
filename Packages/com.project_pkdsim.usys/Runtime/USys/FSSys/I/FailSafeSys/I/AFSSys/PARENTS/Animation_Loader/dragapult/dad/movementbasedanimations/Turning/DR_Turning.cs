@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Turning
 {
-	public class DRParent_Turning : MonoBehaviour	
+	public class DRParentDad_Parent_Turning : MonoBehaviour	
 	{
-		private DRParent_TurnLeft DRParent_TurnLeft;
-		private DRParent_TurnRight DRParent_TurnRight;
+		private DRParentDad_Parent_TurnLeft DRParentDad_Parent_TurnLeft;
+		private DRParentDad_Parent_TurnRight DRParentDad_Parent_TurnRight;
 
-		public void DRParent_TurningController()
+		public void DRParentDad_Parent_TurningController()
 		{
-			if (DRParent_TurnLeft == null)
+			if (DRParentDad_Parent_TurnLeft == null)
 			{
-				Load_DRParent_TurnLeft();
+				Load_DRParentDad_Parent_TurnLeft();
 			}
-			if (DRParent_TurnRight == null)
+			if (DRParentDad_Parent_TurnRight == null)
 			{
-				Load_DRParent_TurnRight();
+				Load_DRParentDad_Parent_TurnRight();
 			}
 		}
 
-		private void Load_DRParent_TurnRight()
+		private void Load_DRParentDad_Parent_TurnRight()
 		{
-			DRParent_TurnRight.DRParent_TurnRightController();
+			DRParentDad_Parent_TurnRight.DRParentDad_Parent_TurnRightController();
 		}
 		
-		private void Load_DRParent_TurnLeft()
+		private void Load_DRParentDad_Parent_TurnLeft()
 		{
-			DRParent_TurnLeft.DRParent_TurnLeftController();
+			DRParentDad_Parent_TurnLeft.DRParentDad_Parent_TurnLeftController();
 		}
 	}
 }

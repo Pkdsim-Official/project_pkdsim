@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Flareon
 {
-	public class FL_Animator : MonoBehaviour 
+	public class FLParent_Animator : MonoBehaviour 
 	{
 		public Animator Flareon_Animator;
 		public RuntimeAnimatorController someController;

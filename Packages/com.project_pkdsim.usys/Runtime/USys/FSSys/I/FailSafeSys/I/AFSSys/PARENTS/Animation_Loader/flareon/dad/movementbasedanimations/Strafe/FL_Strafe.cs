@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Strafing
 {
-	public class FLParent_Strafing : MonoBehaviour 
+	public class FLParentDad_Strafing : MonoBehaviour 
 	{
-		public void FLParent_StrafingController() 
+		public void FLParentDad_StrafingController() 
 		{
 			
 		}

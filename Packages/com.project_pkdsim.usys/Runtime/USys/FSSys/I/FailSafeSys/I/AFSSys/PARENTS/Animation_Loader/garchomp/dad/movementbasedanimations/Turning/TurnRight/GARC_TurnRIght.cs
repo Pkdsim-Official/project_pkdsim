@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class GARCParent_TurnRight : MonoBehaviour 
+    public class GARCParentDad_TurnRight : MonoBehaviour 
     {
-        public void GARCParent_TurnRightController()
+        public void GARCParentDad_TurnRightController()
         {
 
         }

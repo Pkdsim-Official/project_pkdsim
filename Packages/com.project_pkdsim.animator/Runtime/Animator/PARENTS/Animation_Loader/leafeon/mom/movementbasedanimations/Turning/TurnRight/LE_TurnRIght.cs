@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Turning.TurnRight
 {
-    public class LEParent_TurnRight : MonoBehaviour 
+    public class LEParentMom_TurnRight : MonoBehaviour 
     {
-        public void LEParent_TurnRightController()
+        public void LEParentMom_TurnRightController()
         {
 
         }

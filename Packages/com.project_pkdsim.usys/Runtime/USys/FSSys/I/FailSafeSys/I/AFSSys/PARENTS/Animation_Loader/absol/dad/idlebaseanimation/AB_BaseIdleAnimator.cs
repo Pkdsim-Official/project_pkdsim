@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.idlebaseanimation
 {
-	public class Absol_IdleAnimatorController : MonoBehaviour 
+	public class AbsolParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private ABIdleStanding Absolidlestanding;
 		
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation
 			ABIdleStandingAnimatorController();
 			ABIdleSittingAnimatorController();
 		}
-		private void ABIdleStandingAnimatorController()
+		public void ABIdleStandingAnimatorController()
 		{
 			Absolidlestanding.ABIdleStandingController();
 		}
-		private void ABIdleSittingAnimatorController()
+		public void ABIdleSittingAnimatorController()
 		{
 			Absolidlesitting.ABIdleSittingController();
 		}

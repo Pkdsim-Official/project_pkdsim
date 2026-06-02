@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class GL_IdleToRun : MonoBehaviour 
+	public class GLParentDad_IdleToRun : MonoBehaviour 
 	{
 		
 	}

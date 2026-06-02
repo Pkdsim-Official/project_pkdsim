@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.Mom.converteranimations.IdleTo.IdleToRun
 {
-	public class MEOWIdleToRun : MonoBehaviour 
+	public class MEOW_IdleToRun : MonoBehaviour 
 	{
-		public void MEOWIdleToRunController() 
+		public void MEOW_IdleToRunController() 
 		{
 			
 		}

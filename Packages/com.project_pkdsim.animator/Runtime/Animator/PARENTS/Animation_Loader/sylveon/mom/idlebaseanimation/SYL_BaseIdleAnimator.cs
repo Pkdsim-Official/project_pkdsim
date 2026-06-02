@@ -10,7 +10,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Mom.idlebaseanimation
 		
 		private SYL_IdleSitting SYL_idlesitting;
 
-		private void SYL_Base_IdleAnimatorController()
+		private void SYLParent_IdleAnimatorController()
 		{
 			SYL_idlestanding.SYL_IdleStandingController();
 			SYL_idlesitting.SYL_IdleSittingController();	

@@ -1,7 +1,7 @@
-using project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker;
+using project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.AntiHolidayChecker;
 using UnityEngine;
 
-namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules
+namespace project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.DataBase.Modules
 {
 	public class HolidaySysI : MonoBehaviour 
 	{

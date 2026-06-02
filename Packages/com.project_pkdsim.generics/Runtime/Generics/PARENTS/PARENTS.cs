@@ -1,11 +1,11 @@
-using project_pkdsim.Generics.Parents.Type.Gender;
-using project_pkdsim.Generics.Parents.Type.Species;
+using project_pkdsim.Generics.Parents.Gender;
+using project_pkdsim.Generics.Parents.Species;
 
 namespace  project_pkdsim.Generics.Parents
 {
-    public interface IPARENTS
+    public interface IParent
     {
-        ParentsGenderType ParentsType { get; }
-        ParentsSpeciesType ParentsSpecies { get; }
+        IParentGender ParentsGender { get; }
+        IParentSpecies ParentsSpecies { get; }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Salazzle.Dad.idlebaseanimation
 {
-	public class SlazzleParentDad_IdleAnimatorController : MonoBehaviour 
+	public class SalazzleParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private SA_IdleStanding SA_idlestanding;
 		

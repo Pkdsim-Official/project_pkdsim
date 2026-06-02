@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Glaceon.idlebaseanimation
 {
-	public class Glaceon_AnimatorIdleController : MonoBehaviour 
+	public class Glaceon_IdleAnimatorController : MonoBehaviour 
 	{
 		private GL_IdleStanding Glaceon_idlestanding;
 		

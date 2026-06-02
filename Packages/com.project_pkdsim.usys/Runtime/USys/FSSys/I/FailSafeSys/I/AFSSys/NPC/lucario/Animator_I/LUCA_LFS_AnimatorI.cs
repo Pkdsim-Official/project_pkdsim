@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType lucario = NPCSpeciesType.LUCARIO;
 
-		private Lucario_LFS_ConverterToAnimatorController LFSLucario_AnimatorCCA;
-		private Lucario_LFS_AnimatorMovementController LFSLucario_AnimatorCMA;
+		private Lucario_LFS_ConverterAnimatorController LFSLucario_AnimatorCCA;
+		private Lucario_LFS_MovementAnimatorController LFSLucario_AnimatorCMA;
 		private Lucario_LFS_IdleAnimatorController LFSLucario_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeLucario_ConvertToAnimatorController()
 		{
-			LFSLucario_AnimatorCCA.LUCA_LFS_ConverterToAnimatorController();
+			LFSLucario_AnimatorCCA.LUCA_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeLucario_MovementAnimatorController()
 		{

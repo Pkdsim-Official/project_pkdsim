@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations
 {
-	public class Meowscarada_AnimatorMovementController : MonoBehaviour 
+	public class Meowscarada_MovementAnimatorController : MonoBehaviour 
 	{
 		private MEOW_Jumping Meowscarada_MBA_Jumping;
 		
@@ -17,7 +17,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.movementbasedanimations
 
 		private MEOW_Strafing Meowscarada_MBA_Strafe;
 
-		public void MEOWMovementAnimatorController()
+		public void MEOW_MovementAnimatorController()
 		{
 			Meowscarada_MBA_Running.MEOW_RunningController();
 

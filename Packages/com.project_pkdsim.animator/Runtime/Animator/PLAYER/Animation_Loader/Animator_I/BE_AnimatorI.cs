@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Player.Animator_I
 		public Animator Player_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Player_ConverterToAnimatorController LFSPlayer_AnimatorCCA;
-		private Player_AnimatorMovementController LFSPlayer_AnimatorCMA;
+		private Player_ConverterAnimatorController LFSPlayer_AnimatorCCA;
+		private Player_MovementAnimatorController LFSPlayer_AnimatorCMA;
 		private Player_IdleAnimatorController LFSPlayer_AnimatorICA;
 
 		public void LoadFailSafePlayer_AnimatorController()
@@ -22,7 +22,7 @@ namespace project_pkdsim.ANIMATOR.Player.Animator_I
 		}
 		private void LoadFailSafePlayer_ConvertToAnimatorController()
 		{
-			LFSPlayer_AnimatorCCA.PL_ConverterToAnimatorController();
+			LFSPlayer_AnimatorCCA.PL_ConverterAnimatorController();
 		}
 		private void LoadFailSafePlayer_MovementAnimatorController()
 		{

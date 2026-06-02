@@ -1,35 +1,35 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Turning
 {
-	public class LUNAParent_Turning : MonoBehaviour	
+	public class LUNAParentDad_Turning : MonoBehaviour	
 	{
-		private LUNAParent_TurnLeft LUNAParent_TurnLeft;
-		private LUNAParent_TurnRight LUNAParent_TurnRight;
+		private LUNAParentDad_TurnLeft LUNAParentDad_TurnLeft;
+		private LUNAParentDad_TurnRight LUNAParentDad_TurnRight;
 
-		public void LUNAParent_TurningController()
+		public void LUNAParentDad_TurningController()
 		{
-			if (LUNAParent_TurnLeft == null)
+			if (LUNAParentDad_TurnLeft == null)
 			{
-				Load_LUNAParent_TurnLeft();
+				Load_LUNAParentDad_TurnLeft();
 			}
 
-			if (LUNAParent_TurnRight == null)
+			if (LUNAParentDad_TurnRight == null)
 			{
-				Load_LUNAParent_TurnRight();
+				Load_LUNAParentDad_TurnRight();
 			}
 		}
 
-		private void Load_LUNAParent_TurnRight()
+		private void Load_LUNAParentDad_TurnRight()
 		{
-			LUNAParent_TurnRight.LUNAParent_TurnRightController();
+			LUNAParentDad_TurnRight.LUNAParentDad_TurnRightController();
 		}
 		
-		private void Load_LUNAParent_TurnLeft()
+		private void Load_LUNAParentDad_TurnLeft()
 		{
-			LUNAParent_TurnLeft.LUNAParent_TurnLeftController();
+			LUNAParentDad_TurnLeft.LUNAParentDad_TurnLeftController();
 		}
 	}
 }

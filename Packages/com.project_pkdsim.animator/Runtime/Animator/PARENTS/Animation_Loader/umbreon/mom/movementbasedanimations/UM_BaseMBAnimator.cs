@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Umbreon.Mom.movementbasedanimations
 {
-	public class UmbreonParent_AnimatorMovementController : MonoBehaviour 
+	public class UmbreonParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private UMParent_Jumping UM_MBA_Jumping;
 		

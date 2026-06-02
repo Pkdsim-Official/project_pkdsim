@@ -1,0 +1,15 @@
+using UnityEngine;
+
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Beedrill.Mom.idlebaseanimation.IdleStanding
+{
+	public class BE_IdleStanding : MonoBehaviour 
+	{
+		public Animator BeedrillParentMom_Animator;
+		public void BE_IdleStandingController()
+		{
+			// Assign the idle animation clip
+			BeedrillParentMom_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			BeedrillParentMom_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+		}
+	}
+}

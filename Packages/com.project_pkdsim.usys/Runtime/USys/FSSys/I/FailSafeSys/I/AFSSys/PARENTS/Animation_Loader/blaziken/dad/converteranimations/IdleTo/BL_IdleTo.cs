@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Blaziken.converteranimations.IdleTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Blaziken.Dad.converteranimations.IdleTo
 {
 	public class BL_IdleTo : MonoBehaviour 
 	{

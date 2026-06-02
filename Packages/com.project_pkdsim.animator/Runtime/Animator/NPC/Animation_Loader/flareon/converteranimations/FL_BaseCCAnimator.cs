@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Flareon.converteranimations
 {
-	public class Flareon_AnimatorConverterController : MonoBehaviour 
+	public class Flareon_ConverterAnimatorController : MonoBehaviour 
 	{
 		private FL_IdleTo FlareonIdleto;
 		

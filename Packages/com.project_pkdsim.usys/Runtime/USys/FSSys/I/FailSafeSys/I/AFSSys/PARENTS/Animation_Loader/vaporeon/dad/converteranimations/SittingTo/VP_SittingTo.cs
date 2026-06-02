@@ -1,20 +1,20 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.converteranimations.SittingTo
 {
-	public class VP_SittingTo : MonoBehaviour 
+	public class VPParentDad_SittingTo : MonoBehaviour 
 	{
 		
-		public void VP_SittingToController()
+		public void VPParentDad_SittingToController()
 		{
-			// Load_VP_SittingToRun();
-			// Load_VP_SittingToWalk();
+			// Load_VPParentDad_SittingToRun();
+			// Load_VPParentDad_SittingToWalk();
 		}
-		private void Load_VP_SittingToRun()
+		private void Load_VPParentDad_SittingToRun()
 		{
 			
 		}
-		private void Load_VP_SittingToWalk()
+		private void Load_VPParentDad_SittingToWalk()
 		{
 			
 		}

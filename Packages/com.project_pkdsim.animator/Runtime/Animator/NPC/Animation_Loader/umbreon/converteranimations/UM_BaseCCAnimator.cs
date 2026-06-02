@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations
 {
-	public class Umbreon_AnimatorBaseConverterController : MonoBehaviour 
+	public class Umbreon_ConverterAnimatorController : MonoBehaviour 
 	{
 		private UM_SittingTo UmbreonSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Umbreon.converteranimations
 		
 		private UM_IdleTo UmbreonIdleto;
 
-		private void UM_Base_IdleAnimatorController()
+		private void UMParentMom_IdleAnimatorController()
 		{
 			UmbreonWalkingto.UM_WalkingToController();
 

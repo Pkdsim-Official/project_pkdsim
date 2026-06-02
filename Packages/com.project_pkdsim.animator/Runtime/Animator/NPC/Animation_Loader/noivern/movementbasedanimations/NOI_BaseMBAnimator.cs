@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Noivern.movementbasedanimations
 {
-	public class Noivern_AnimatorMovementController : MonoBehaviour 
+	public class Noivern_MovementAnimatorController : MonoBehaviour 
 	{
 		private NOI_Jumping Noivern_MBA_Jumping;
 		

@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations
 {
-	public class Pheromosa_ConverterToAnimatorController : MonoBehaviour 
+	public class PheromosaParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PHSittingTo Pheromosasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations
 		
 		private PHIdleTo Pheromosaidleto;
 
-		public void PH_ConverterToAnimatorController()
+		public void PH_ConverterAnimatorController()
 		{
 			Pheromosawalkingto.PHWalkingToController();
 

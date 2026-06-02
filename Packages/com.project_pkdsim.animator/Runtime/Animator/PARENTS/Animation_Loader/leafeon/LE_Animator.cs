@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon
+namespace project_pkdsim.ANIMATOR.Parents.Espeo
 {
-	public class LE_Animator : MonoBehaviour 
+	public class LEParent_Animator : MonoBehaviour 
 	{
 		public Animator Leafeon_Animator;
 		public RuntimeAnimatorController someController;

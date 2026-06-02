@@ -1,0 +1,9 @@
+{
+  "name": "project_pkdsim.USys.UPSSys.UnityPlayerSaveSys",
+  "rootNamespace": "project_pkdsim.USys.UPSSys.Modules.UnityPlayerSaveSys",
+  "references": 
+  [
+    "project_pkdsim.USys.LOSys.LOVESys",
+    "project_pkdsim.USys.ITSys.ITEMSSys"
+  ]
+}

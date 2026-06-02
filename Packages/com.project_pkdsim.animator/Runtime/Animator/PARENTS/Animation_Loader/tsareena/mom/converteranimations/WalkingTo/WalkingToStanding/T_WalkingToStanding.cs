@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.WalkingTo.WalkingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations.WalkingTo.WalkingToStanding
 {
-	public class TWalkingToStanding : MonoBehaviour 
+	public class TParentMom_WalkingToStanding : MonoBehaviour 
 	{
-		public void TWalkingToStandingController() 
+		public void TParentMom_WalkingToStandingController() 
 		{
 			
 		}

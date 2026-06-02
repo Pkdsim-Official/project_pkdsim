@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations
 {
-	public class MeowscaradaParent_AnimatorMovementController : MonoBehaviour 
+	public class MeowscaradaParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private MEOWParent_Jumping Meowscarada_MBA_Jumping;
+		private MEOWParentDad_Parent_Jumping MeowscaradaParentDad_MBA_Jumping;
 		
-		private MEOWParent_Running Meowscarada_MBA_Running;
+		private MEOWParentDad_Parent_Running MeowscaradaParentDad_MBA_Running;
 
 
-		private MEOWParent_Turning Meowscarada_MBA_Turning;
+		private MEOWParentDad_Parent_Turning MeowscaradaParentDad_MBA_Turning;
 
-		private MEOWParent_Strafing Meowscarada_MBA_Strafe;
+		private MEOWParentDad_Parent_Strafing MeowscaradaParentDad_MBA_Strafe;
 
-		public void MEOWMovementAnimatorController()
+		public void MEOWParentDad_MovementAnimatorController()
 		{
-			Meowscarada_MBA_Running.MEOWParent_RunningController();
+			MeowscaradaParentDad_MBA_Running.MEOWParentDad_Parent_RunningController();
 
-			Meowscarada_MBA_Jumping.MEOWParent_JumpingController();
+			MeowscaradaParentDad_MBA_Jumping.MEOWParentDad_Parent_JumpingController();
 
-			Meowscarada_MBA_Turning.MEOWParent_TurningController();	
+			MeowscaradaParentDad_MBA_Turning.MEOWParentDad_Parent_TurningController();	
 
-			Meowscarada_MBA_Strafe.MEOWParent_StrafingController();
+			MeowscaradaParentDad_MBA_Strafe.MEOWParentDad_Parent_StrafingController();
 		}
 	}
 }

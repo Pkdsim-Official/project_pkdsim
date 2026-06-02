@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeon.movementbasedanimations.Turning.TurnLeft
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Espeon.Dad.movementbasedanimations.Turning.TurnLeft
 {
-	public class ESParent_TurnLeft : MonoBehaviour 
+	public class ESParentDad_TurnLeft : MonoBehaviour 
 	{
-		public void ESParent_TurningLeftController()
+		public void ESParentDad_TurningLeftController()
 		{
 			
 		}

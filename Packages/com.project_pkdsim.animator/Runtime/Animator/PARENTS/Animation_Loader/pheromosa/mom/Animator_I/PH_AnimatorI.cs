@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Mom.Animator_I
 		public Animator PheromosaParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private PheromosaParentMom_ConverterToAnimatorController PheromosaParentMom_AnimatorCCA;
-		private PheromosaParentMom_AnimatorMovementController PheromosaParentMom_AnimatorCMA;
+		private PheromosaParentMom_ConverterAnimatorController PheromosaParentMom_AnimatorCCA;
+		private PheromosaParentMom_MovementAnimatorController PheromosaParentMom_AnimatorCMA;
 		private PheromosaParentMom_IdleAnimatorController PheromosaParentMom_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Mom.Animator_I
 		}
 		private void LoadFailSafePheromosaParentMom_ConvertToAnimatorController()
 		{
-			PheromosaParentMom_AnimatorCCA.PH_ConverterToAnimatorController();
+			PheromosaParentMom_AnimatorCCA.PH_ConverterAnimatorController();
 		}
 		private void LoadFailSafePheromosaParentMom_MovementAnimatorController()
 		{

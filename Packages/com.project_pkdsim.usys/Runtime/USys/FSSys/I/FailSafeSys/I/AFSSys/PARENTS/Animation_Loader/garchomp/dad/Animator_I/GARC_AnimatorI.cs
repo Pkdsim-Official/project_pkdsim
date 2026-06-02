@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.Animator_I
 {
-	public class LFS_GarchompFailSafe : MonoBehaviour 
+	public class GarchompParentDad_FailSafe : MonoBehaviour 
 	{
 		public Animator Garchomp_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Garchomp_ConverterToAnimatorController LFSGarchomp_AnimatorCCA;
-		private GarchompParent_AnimatorMovementController LFSGarchomp_AnimatorCMA;
-		private Garchomp_IdleAnimatorController LFSGarchomp_AnimatorICA;
+		private GarchompParentDad_ConverterAnimatorController Garchomp_AnimatorCCA;
+		private GarchompParentDad_MovementAnimatorController Garchomp_AnimatorCMA;
+		private GarchompParentDad_IdleAnimatorController Garchomp_AnimatorICA;
 
 
-		public void LoadFailSafeGarchomp_AnimatorController()
+		public void LoadFailSafeGarchompParentDad_AnimatorController()
 		{
-			LoadFailSafeGarchomp_ConvertToAnimatorController();
-			LoadFailSafeGarchomp_MovementAnimatorController();
-			LoadFailSafeGarchomp_IdleAnimatorController();
+			LoadFailSafeGarchompParentDad_ConvertToAnimatorController();
+			LoadFailSafeGarchompParentDad_MovementAnimatorController();
+			LoadFailSafeGarchompParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeGarchomp_ConvertToAnimatorController()
+		private void LoadFailSafeGarchompParentDad_ConvertToAnimatorController()
 		{
-			LFSGarchomp_AnimatorCCA.GARC_ConverterToAnimatorController();
+			Garchomp_AnimatorCCA.GARCParentDad_ConverterAnimatorController();
 		}
-		private void LoadFailSafeGarchomp_MovementAnimatorController()
+		private void LoadFailSafeGarchompParentDad_MovementAnimatorController()
 		{
-			LFSGarchomp_AnimatorCMA.GARCMovementAnimatorController();
+			Garchomp_AnimatorCMA.GARCParentDad_MovementAnimatorController();
 		}
-		private void LoadFailSafeGarchomp_IdleAnimatorController()
+		private void LoadFailSafeGarchompParentDad_IdleAnimatorController()
 		{
-			LFSGarchomp_AnimatorICA.GARC_IdleAnimatorController();
+			Garchomp_AnimatorICA.GARCParentDad_IdleAnimatorController();
 		}
 	}
 }

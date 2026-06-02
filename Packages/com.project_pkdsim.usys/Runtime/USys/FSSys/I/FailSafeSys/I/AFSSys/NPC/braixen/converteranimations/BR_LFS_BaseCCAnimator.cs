@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Braixen.converteranimations
 {
-	public class Braixen_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Braixen_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private BR_LFS_SittingTo Braixen_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private BR_LFS_IdleTo Braixen_LFS_idleto;
 
-		public void BR_LFS_ConverterToAnimatorController()
+		public void BR_LFS_ConverterAnimatorController()
 		{
 			Braixen_LFS_walkingto.BR_LFS_WalkingToController();
 

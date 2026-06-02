@@ -1,9 +1,13 @@
-public class Generics
+namespace project_pkdsim.Generics
 {
-    public enum GenericsType
+    public class Generics
     {
-        NPC,
-        ANIMATOR,
-        PARENTS
+        public enum GenericsType
+        {
+            NPC,
+            ANIMATOR,
+            PARENTS,
+            USYS
+        }
     }
 }

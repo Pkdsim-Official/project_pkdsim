@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType vespiquen = NPCSpeciesType.VESPIQUEN;
 
-		private Vespiquen_LFS_ConverterToAnimatorController LFSVespiquen_AnimatorCCA;
-		private Vespiquen_LFS_AnimatorMovementController LFSVespiquen_AnimatorCMA;
+		private Vespiquen_LFS_ConverterAnimatorController LFSVespiquen_AnimatorCCA;
+		private Vespiquen_LFS_MovementAnimatorController LFSVespiquen_AnimatorCMA;
 		private Vespiquen_LFS_IdleAnimatorController LFSVespiquen_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
 		{
-			LFSVespiquen_AnimatorCCA.VE_LFS_ConverterToAnimatorController();
+			LFSVespiquen_AnimatorCCA.VE_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeVespiquen_MovementAnimatorController()
 		{

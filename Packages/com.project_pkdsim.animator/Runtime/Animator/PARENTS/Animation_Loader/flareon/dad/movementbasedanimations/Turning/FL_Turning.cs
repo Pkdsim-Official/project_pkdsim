@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Turning
 {
-	public class FLParent_Turning : MonoBehaviour	
+	public class FLParentDad_Turning : MonoBehaviour	
 	{
-		private FLParent_TurnLeft FLParent_TurnLeft;
-		private FLParent_TurnRight FLParent_TurnRight;
+		private FLParentDad_TurnLeft FLParentDad_TurnLeft;
+		private FLParentDad_TurnRight FLParentDad_TurnRight;
 
-		public void FLParent_TurningController()
+		public void FLParentDad_TurningController()
 		{
-			if (FLParent_TurnLeft == null)
+			if (FLParentDad_TurnLeft == null)
 			{
-				Load_FLParent_TurnLeft();
+				Load_FLParentDad_TurnLeft();
 			}
-			if (FLParent_TurnRight == null)
+			if (FLParentDad_TurnRight == null)
 			{
-				Load_FLParent_TurnRight();
+				Load_FLParentDad_TurnRight();
 			}
 		}
 
-		private void Load_FLParent_TurnRight()
+		private void Load_FLParentDad_TurnRight()
 		{
-			FLParent_TurnRight.FLParent_TurnRightController();
+			FLParentDad_TurnRight.FLParentDad_TurnRightController();
 		}
 		
-		private void Load_FLParent_TurnLeft()
+		private void Load_FLParentDad_TurnLeft()
 		{
-			FLParent_TurnLeft.FLParent_TurnLeftController();
+			FLParentDad_TurnLeft.FLParentDad_TurnLeftController();
 		}
 	}
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Jolteon.converteranimations
 {
-	public class Jolteon_LFS_AnimatorControllerCoverterAnimator : MonoBehaviour 
+	public class Jolteon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private JT_LFS_SittingTo Jolteon_LFS_sittingto;
 		

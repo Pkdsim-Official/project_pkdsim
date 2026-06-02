@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Delphox.Animator_I
 		public Animator DelphoxParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private DelphoxParentDad_ConverterToAnimatorController DelphoxParentDad_AnimatorCCA;
-		private DelphoxParentDad_AnimatorMovementController DelphoxParentDad_AnimatorCMA;
+		private DelphoxParentDad_ConverterAnimatorController DelphoxParentDad_AnimatorCCA;
+		private DelphoxParentDad_MovementAnimatorController DelphoxParentDad_AnimatorCMA;
 		private DelphoxParentDad_IdleAnimatorController DelphoxParentDad_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Delphox.Animator_I
 		}
 		private void LoadFailSafeDelphoxParentDad_ConvertToAnimatorController()
 		{
-			DelphoxParentDad_AnimatorCCA.DL_ConverterToAnimatorController();
+			DelphoxParentDad_AnimatorCCA.DL_ConverterAnimatorController();
 		}
 		private void LoadFailSafeDelphoxParentDad_MovementAnimatorController()
 		{

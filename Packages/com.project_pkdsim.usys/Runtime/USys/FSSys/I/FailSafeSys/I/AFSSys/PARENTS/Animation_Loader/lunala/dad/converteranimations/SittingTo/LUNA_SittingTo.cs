@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.SittingTo.SittingToStartWalking;
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.converteranimations.SittingTo.SittingToStartWalking;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.converteranimations.SittingTo.SittingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.converteranimations.SittingTo
 {
-	public class LUNASittingTo : MonoBehaviour 
+	public class LUNAParentDad_SittingTo : MonoBehaviour 
 	{
-		private LUNASittingToStartWalking LunalasittingToStartWalking;
-		private LUNASittingToStanding LunalasittingToStanding;
-		public void LUNASittingToController()
+		private LUNAParentDad_SittingToStartWalking LunalasittingToStartWalking;
+		private LUNAParentDad_SittingToStanding LunalasittingToStanding;
+		public void LUNAParentDad_SittingToController()
 		{
-			LUNASittingToStartWalking();
-			LUNASittingToStanding();
+			LUNAParentDad_SittingToStartWalking();
+			LUNAParentDad_SittingToStanding();
 		}
-		private void LUNASittingToStartWalking()
+		private void LUNAParentDad_SittingToStartWalking()
 		{
-			LunalasittingToStartWalking.LUNASittingToStartWalkingController();
+			LunalasittingToStartWalking.LUNAParentDad_SittingToStartWalkingController();
 		}
-		private void LUNASittingToStanding()
+		private void LUNAParentDad_SittingToStanding()
 		{
-			LunalasittingToStanding.LUNASittingToStandingController();
+			LunalasittingToStanding.LUNAParentDad_SittingToStandingController();
 		}
 
 	}

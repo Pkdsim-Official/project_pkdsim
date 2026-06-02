@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vaporeon.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vaporeon.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class VP_StrafeRight : MonoBehaviour
+	public class VPParentDad_StrafeRight : MonoBehaviour
 	{
-		public void VP_StrafeRightController() 
+		public void VPParentDad_StrafeRightController() 
 		{
 	
 		}

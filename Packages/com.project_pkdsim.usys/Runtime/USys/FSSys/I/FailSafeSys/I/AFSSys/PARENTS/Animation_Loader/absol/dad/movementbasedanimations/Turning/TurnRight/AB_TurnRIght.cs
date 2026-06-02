@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class ABParent_TurnRight : MonoBehaviour 
+    public class ABParentDad_TurnRight : MonoBehaviour 
     {
-        public void ABParent_TurnRightController()
+        public void ABParentDad_TurnRightController()
         {
 
         }

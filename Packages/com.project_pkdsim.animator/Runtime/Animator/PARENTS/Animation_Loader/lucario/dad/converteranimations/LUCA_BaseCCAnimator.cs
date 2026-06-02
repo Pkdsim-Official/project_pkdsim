@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations
 {
-	public class Lucario_ConverterToAnimatorController : MonoBehaviour 
+	public class Lucario_ConverterAnimatorController : MonoBehaviour 
 	{
 		private LUCASittingTo Lucariosittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.converteranimations
 		
 		private LUCAIdleTo Lucarioidleto;
 
-		public void LUCA_ConverterToAnimatorController()
+		public void LUCA_ConverterAnimatorController()
 		{
 			Lucariowalkingto.LUCAWalkingToController();
 

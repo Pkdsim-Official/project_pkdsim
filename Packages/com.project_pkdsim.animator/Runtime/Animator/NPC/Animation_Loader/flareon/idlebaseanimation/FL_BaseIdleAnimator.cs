@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Flareon.idlebaseanimation
 {
-	public class Flareon_AnimatorIdleController : MonoBehaviour 
+	public class Flareon_IdleAnimatorController : MonoBehaviour 
 	{
 		private FL_IdleStanding FL_idlestanding;
 		

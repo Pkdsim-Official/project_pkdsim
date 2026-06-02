@@ -4,31 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Espeon.Mom.movementbasedanimations.Turning
 {
-	public class ESParent_Turning : MonoBehaviour	
+	public class ESParentMom_Turning : MonoBehaviour	
 	{
-		private ESParent_TurnLeft ESParent_TurnLeft;
-		private ESParent_TurnRight ESParent_TurnRight;
+		private ESParentMom_TurnLeft ESParentMom_TurnLeft;
+		private ESParentMom_TurnRight ESParentMom_TurnRight;
 
-		public void ESParent_TurningController()
+		public void ESParentMom_TurningController()
 		{
-			if (ESParent_TurnLeft == null)
+			if (ESParentMom_TurnLeft == null)
 			{
-				Load_ESParent_TurningLeft();
+				Load_ESParentMom_TurningLeft();
 			}
-			if (ESParent_TurnRight == null)
+			if (ESParentMom_TurnRight == null)
 			{
-				Load_ESParent_TurningRight();
+				Load_ESParentMom_TurningRight();
 			}
 		}
 
-		private void Load_ESParent_TurningRight()
+		private void Load_ESParentMom_TurningRight()
 		{
-			ESParent_TurnRight.ESParent_TurningRightController();
+			ESParentMom_TurnRight.ESParentMom_TurningRightController();
 		}
 		
-		private void Load_ESParent_TurningLeft()
+		private void Load_ESParentMom_TurningLeft()
 		{
-			ESParent_TurnLeft.ESParent_TurningLeftController();
+			ESParentMom_TurnLeft.ESParentMom_TurningLeftController();
 		}
 	}
 }

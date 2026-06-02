@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations
 {
-	public class Gardevoir_ConverterToAnimatorController : MonoBehaviour 
+	public class Gardevoir_ConverterAnimatorController : MonoBehaviour 
 	{
 		private GARD_SittingTo GardevoirSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.converteranimations
 		
 		private GARD_IdleTo GardevoirIdleto;
 
-		public void GARD_ConverterToAnimatorController()
+		public void GARD_ConverterAnimatorController()
 		{
 			GardevoirWalkingto.GARD_WalkingToController();
 

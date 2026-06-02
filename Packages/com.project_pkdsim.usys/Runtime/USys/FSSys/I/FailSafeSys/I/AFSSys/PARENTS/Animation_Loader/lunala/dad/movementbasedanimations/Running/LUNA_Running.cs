@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations.Running
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations.Running
 {
-	public class LUNAParent_Running : MonoBehaviour 
+	public class LUNAParentDad_Running : MonoBehaviour 
 	{
-		public void LUNAParent_RunningController() 
+		public void LUNAParentDad_RunningController() 
 		{
 			
 		}

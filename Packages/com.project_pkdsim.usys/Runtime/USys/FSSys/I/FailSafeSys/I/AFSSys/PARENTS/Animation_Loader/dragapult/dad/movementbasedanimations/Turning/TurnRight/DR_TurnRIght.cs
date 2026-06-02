@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Turning.TurnRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Turning.TurnRight
 {
-    public class DRParent_TurnRight : MonoBehaviour 
+    public class DRParentDad_Parent_TurnRight : MonoBehaviour 
     {
-        public void DRParent_TurnRightController()
+        public void DRParentDad_Parent_TurnRightController()
         {
 
         }

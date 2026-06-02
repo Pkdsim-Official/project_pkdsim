@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.movementbasedanimations
 {
-	public class SalazzleParent_AnimatorMovementController : MonoBehaviour 
+	public class SalazzleParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private SAParent_Jumping SA_MBA_Jumping;
 		

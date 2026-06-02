@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.Animator_I
 		public Animator Zoroark_Animator;
 		public RuntimeAnimatorController someController;
 
-		private ZoroarkParentDad_ConverterToAnimatorController Zoroark_AnimatorCCA;
-		private ZoroarkParentDad_AnimatorMovementController Zoroark_AnimatorCMA;
+		private ZoroarkParentDad_ConverterAnimatorController Zoroark_AnimatorCCA;
+		private ZoroarkParentDad_MovementAnimatorController Zoroark_AnimatorCMA;
 		private ZoroarkParentDad_IdleAnimatorController Zoroark_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.Animator_I
 		}
 		private void LoadFailSafeZoroark_ConvertToAnimatorController()
 		{
-			Zoroark_AnimatorCCA.ZParentDad_ConverterToAnimatorController();
+			Zoroark_AnimatorCCA.ZParentDad_ConverterAnimatorController();
 		}
 		private void LoadFailSafeZoroark_MovementAnimatorController()
 		{

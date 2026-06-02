@@ -4,31 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.movementbasedanimations.Turning
 {
-	public class HATParent_Turning : MonoBehaviour	
+	public class HAT_Parent_Turning : MonoBehaviour	
 	{
-		private HATParent_TurnLeft HATParent_TurnLeft;
-		private HATParent_TurnRight HATParent_TurnRight;
+		private HAT_Parent_TurnLeft HAT_Parent_TurnLeft;
+		private HAT_Parent_TurnRight HAT_Parent_TurnRight;
 
-		public void HATParent_TurningController()
+		public void HAT_Parent_TurningController()
 		{
-			if (HATParent_TurnLeft == null)
+			if (HAT_Parent_TurnLeft == null)
 			{
-				Load_HATParent_TurnLeft();
+				Load_HAT_Parent_TurnLeft();
 			}
-			if (HATParent_TurnRight == null)
+			if (HAT_Parent_TurnRight == null)
 			{
-				Load_HATParent_TurnRight();
+				Load_HAT_Parent_TurnRight();
 			}
 		}
 
-		private void Load_HATParent_TurnRight()
+		private void Load_HAT_Parent_TurnRight()
 		{
-			HATParent_TurnRight.HATParent_TurnRightController();
+			HAT_Parent_TurnRight.HAT_Parent_TurnRightController();
 		}
 		
-		private void Load_HATParent_TurnLeft()
+		private void Load_HAT_Parent_TurnLeft()
 		{
-			HATParent_TurnLeft.HATParent_TurnLeftController();
+			HAT_Parent_TurnLeft.HAT_Parent_TurnLeftController();
 		}
 	}
 }

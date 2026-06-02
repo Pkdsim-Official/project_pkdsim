@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.movementbasedanimations
 {
-	public class NoivernParentMom_AnimatorMovementController : MonoBehaviour 
+	public class NoivernParentMom_MovementAnimatorController : MonoBehaviour 
 	{
 		private NOIParent_Jumping NoivernParentMom_MBA_Jumping;
 		

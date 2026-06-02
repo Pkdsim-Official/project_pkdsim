@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Dad.movementbasedanimations.Jumping
 {
-	public class FLParent_Jumping : MonoBehaviour 
+	public class FLParentDad_Jumping : MonoBehaviour 
 	{
 		
-		public void FLParent_JumpingController() 
+		public void FLParentDad_JumpingController() 
 		{
 			
 		}

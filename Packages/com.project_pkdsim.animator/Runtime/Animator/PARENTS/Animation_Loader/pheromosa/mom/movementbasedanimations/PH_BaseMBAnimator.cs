@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Mom.movementbasedanimations
 {
-	public class PheromosaParentMom_AnimatorMovementController : MonoBehaviour 
+	public class PheromosaParentMom_MovementAnimatorController : MonoBehaviour 
 	{
 		private PHParent_Jumping PheromosaParentMom_MBA_Jumping;
 		

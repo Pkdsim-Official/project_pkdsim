@@ -1,0 +1,11 @@
+{
+"name": "project_pkdsim.USys.MOSys.MoneySys.PriceSys",
+  "rootNamespace": "project_pkdsim.USys.MOSys.MoneySys.PriceSys",
+  "references": [
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+
+    "project_pkdsim.USys.HDSys.HolidaySys.Database",
+    "project_pkdsim.USys.ITSys.ITEMSSys"
+  ]
+}

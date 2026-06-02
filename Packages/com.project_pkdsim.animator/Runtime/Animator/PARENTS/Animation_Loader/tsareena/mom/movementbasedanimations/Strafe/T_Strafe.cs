@@ -4,13 +4,13 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.movementbasedanimations.Strafing
 {
-	public class TParent_Strafing : MonoBehaviour 
+	public class TParentMom_Strafing : MonoBehaviour 
 	{
 		private T_StrafeLeft T_strafeleft;
 		
 		private T_StrafeRight T_straferight;
 
-		public void TParent_StrafingController()
+		public void TParentMom_StrafingController()
 		{
 			if (T_strafeleft == null)
 			{

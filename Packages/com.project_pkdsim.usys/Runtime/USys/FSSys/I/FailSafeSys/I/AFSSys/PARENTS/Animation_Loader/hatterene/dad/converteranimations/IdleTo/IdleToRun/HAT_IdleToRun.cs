@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class HATIdleToRun : MonoBehaviour 
+	public class HATParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void HATIdleToRunController() 
+		public void HATParentDad_IdleToRunController() 
 		{
 			
 		}

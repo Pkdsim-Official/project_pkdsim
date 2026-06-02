@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Running
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Running
 {
-	public class TParent_Running : MonoBehaviour 
+	public class TParentDad_Running : MonoBehaviour 
 	{
-		public void TParent_RunningController() 
+		public void TParentDad_RunningController() 
 		{
 			
 		}

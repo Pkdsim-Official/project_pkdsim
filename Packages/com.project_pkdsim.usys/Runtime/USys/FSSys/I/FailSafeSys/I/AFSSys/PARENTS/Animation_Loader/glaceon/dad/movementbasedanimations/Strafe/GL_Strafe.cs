@@ -1,19 +1,19 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Glaceon.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Dad.movementbasedanimations.Strafing
 {
-	public class GL_Strafe : MonoBehaviour 
+	public class GLParentDad_Strafe : MonoBehaviour 
 	{
-		private Animator Glaceon_Animator;
-		public void GLParent_StrafingController()
+		private Animator GlaceonParentDad_Animator;
+		public void GLParentDad_StrafingController()
 		{
 
 		}
-		private void GL_StrafeLeftController()	
+		private void GLParentDad_StrafeLeftController()	
 		{
 			
 		}
-		private void GL_StrafeRightController()	
+		private void GLParentDad_StrafeRightController()	
 		{
 			
 		}

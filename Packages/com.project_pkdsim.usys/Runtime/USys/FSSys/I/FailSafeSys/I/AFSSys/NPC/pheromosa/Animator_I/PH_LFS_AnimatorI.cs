@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType pheromosa = NPCSpeciesType.PHEROMOSA;
 
-		private Pheromosa_LFS_ConverterToAnimatorController LFSPheromosa_AnimatorCCA;
-		private Pheromosa_LFS_AnimatorMovementController LFSPheromosa_AnimatorCMA;
+		private Pheromosa_LFS_ConverterAnimatorController LFSPheromosa_AnimatorCCA;
+		private Pheromosa_LFS_MovementAnimatorController LFSPheromosa_AnimatorCMA;
 		private Pheromosa_LFS_IdleAnimatorController LFSPheromosa_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafePheromosa_ConvertToAnimatorController()
 		{
-			LFSPheromosa_AnimatorCCA.PH_LFS_ConverterToAnimatorController();
+			LFSPheromosa_AnimatorCCA.PH_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafePheromosa_MovementAnimatorController()
 		{

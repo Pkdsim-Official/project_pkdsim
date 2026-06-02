@@ -1,8 +1,8 @@
 {
   "name": "project_pkdsim.USys.HDSys.HolidaySys",
   "rootNamespace": "project_pkdsim.USys.HDSys.HolidaySys",
-  "references": 
-  [
-    "project_pkdsim.USys.MOSys.MoneySys"
+  "references": [
+    "project_pkdsim.USys.HDSys.HolidaySys.AntiHolidayChecker",
+    "project_pkdsim.USys.HDSys.HolidaySys.Database"
   ]
 }

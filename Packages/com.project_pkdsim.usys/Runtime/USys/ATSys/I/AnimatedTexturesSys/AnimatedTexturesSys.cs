@@ -1,10 +1,10 @@
-using project_pkdsim.USys.AnimatedTexturesSys.Modules;
+using project_pkdsim.USys.ATSys.Modules.AnimatedTexturesSys.Modules;
 
-namespace project_pkdsim.USys.AnimatedTexturesSys
+namespace project_pkdsim.USys.ATSys.Modules.AnimatedTexturesSys
 {
-	public class ATSys : ATSys_AnimatedTextureSysI 
+	public class AnimatedTextureSys : AnimatedTextureSysI 
 	{
-		public void ATSysI() 
+		public void AnimatedTextureSysI() 
 		{
 			AnimatedTextureSysI();
 		}

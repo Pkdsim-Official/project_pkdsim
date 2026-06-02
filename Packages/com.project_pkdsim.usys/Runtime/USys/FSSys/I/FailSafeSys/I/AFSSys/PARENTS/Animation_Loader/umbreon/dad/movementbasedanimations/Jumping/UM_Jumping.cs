@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.movementbasedanimations.Jumping
 {
-	public class UMParent_Jumping : MonoBehaviour 
+	public class UMParentDad_Jumping : MonoBehaviour 
 	{
 		
-		public void UMParent_JumpingController() 
+		public void UMParentDad_JumpingController() 
 		{
 			
 		}

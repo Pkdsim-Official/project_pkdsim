@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Garchomp.Mom.movementbasedanimations
 {
-	public class GarchompParent_AnimatorMovementController : MonoBehaviour 
+	public class GarchompParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private GARCParent_Jumping Garchomp_MBA_Jumping;
 		

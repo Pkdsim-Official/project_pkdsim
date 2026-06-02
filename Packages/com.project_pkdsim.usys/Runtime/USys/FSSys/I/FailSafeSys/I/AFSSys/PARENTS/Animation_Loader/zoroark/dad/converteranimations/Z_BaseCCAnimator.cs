@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.converteranimations
 {
-	public class ZoroarkParentDad_ConverterToAnimatorController : MonoBehaviour 
+	public class ZoroarkParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private ZParentDad_SittingTo ZoroarkSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.converteranimations
 		
 		private ZParentDad_IdleTo ZoroarkIdleto;
 
-		public void ZParentDad_ConverterToAnimatorController()
+		public void ZParentDad_ConverterAnimatorController()
 		{
 			ZoroarkWalkingto.ZParentDad_WalkingToController();
 

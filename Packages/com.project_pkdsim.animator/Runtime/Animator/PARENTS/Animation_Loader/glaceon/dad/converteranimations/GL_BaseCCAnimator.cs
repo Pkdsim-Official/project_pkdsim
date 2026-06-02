@@ -5,14 +5,14 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Glaceon.Dad.converteranimations
 {
-	public class Glaceon_AnimatorControllerCoverterAnimator : MonoBehaviour 
+	public class Glaceon_ConverterAnimatorController : MonoBehaviour 
 	{
 		private GL_IdleTo Glaceon_idleto;
 		
 		private GL_WalkingTo Glaceon_walkingto;
 
 		private GL_SittingTo Glaceon_sittingto;
-		private void Glaceon_Base_IdleAnimatorController()
+		private void GlaceonParent_IdleAnimatorController()
 		{
 			Glaceon_walkingto.GL_WalkingToController();
 

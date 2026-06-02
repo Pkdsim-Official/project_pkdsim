@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Braixen.Mom.Animator_I
 		public Animator BraixenParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private BraixenParentMom_ConverterToAnimatorController BraixenParentMom_AnimatorCCA;
-		private BraixenParentMom_AnimatorMovementController BraixenParentMom_AnimatorCMA;
+		private BraixenParentMom_ConverterAnimatorController BraixenParentMom_AnimatorCCA;
+		private BraixenParentMom_MovementAnimatorController BraixenParentMom_AnimatorCMA;
 		private BraixenParentMom_IdleAnimatorController BraixenParentMom_AnimatorICA;
 
 		public void LoadFailSafeBraixenParentMom_AnimatorController()
@@ -22,7 +22,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Braixen.Mom.Animator_I
 		}
 		private void LoadFailSafeBraixenParentMom_ConvertToAnimatorController()
 		{
-			BraixenParentMom_AnimatorCCA.BR_ConverterToAnimatorController();
+			BraixenParentMom_AnimatorCCA.BR_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBraixenParentMom_MovementAnimatorController()
 		{

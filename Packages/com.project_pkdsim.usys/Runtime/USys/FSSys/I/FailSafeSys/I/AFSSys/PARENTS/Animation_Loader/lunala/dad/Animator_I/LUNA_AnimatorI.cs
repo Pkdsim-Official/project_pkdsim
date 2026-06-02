@@ -1,37 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Lunala.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Lunala.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.Animator_I
 {
-	public class LFS_LunalaFailSafe : MonoBehaviour 
+	public class LunalaParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Lunala_Animator;
+		public Animator LunalaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Lunala_ConverterToAnimatorController LFSLunala_AnimatorCCA;
-		private LunalaParent_AnimatorMovementController LFSLunala_AnimatorCMA;
-		private Lunala_IdleAnimatorController LFSLunala_AnimatorICA;
+		private LunalaParentDad_ConverterAnimatorController LunalaParentDad_AnimatorCCA;
+		private LunalaParentDad_MovementAnimatorController LunalaParentDad_AnimatorCMA;
+		private LunalaParentDad_IdleAnimatorController LunalaParentDad_AnimatorICA;
 
-
-		public void LoadFailSafeLunala_AnimatorController()
+		public void LoadFailSafeLunalaParentDad_AnimatorController()
 		{
-			LoadFailSafeLunala_ConvertToAnimatorController();
-			LoadFailSafeLunala_MovementAnimatorController();
-			LoadFailSafeLunala_IdleAnimatorController();
+			LoadFailSafeLunalaParentDad_ConvertToAnimatorController();
+			LoadFailSafeLunalaParentDad_MovementAnimatorController();
+			LoadFailSafeLunalaParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeLunala_ConvertToAnimatorController()
+		private void LoadFailSafeLunalaParentDad_ConvertToAnimatorController()
 		{
-			LFSLunala_AnimatorCCA.LUNA_ConverterToAnimatorController();
+			LunalaParentDad_AnimatorCCA.LUNAParentDad_ConverterAnimatorController();
 		}
-		private void LoadFailSafeLunala_MovementAnimatorController()
+		private void LoadFailSafeLunalaParentDad_MovementAnimatorController()
 		{
-			LFSLunala_AnimatorCMA.LUNAMovementAnimatorController();
+			LunalaParentDad_AnimatorCMA.LUNAParentDad_MovementAnimatorController();
 		}
-		private void LoadFailSafeLunala_IdleAnimatorController()
+		private void LoadFailSafeLunalaParentDad_IdleAnimatorController()
 		{
-			LFSLunala_AnimatorICA.LUNA_IdleAnimatorController();
+			LunalaParentDad_AnimatorICA.LUNAParentDad_IdleAnimatorController();
 		}
 	}
 }

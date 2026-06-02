@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.converteranimations
 {
-	public class Salazzle_ConverterToAnimatorController : MonoBehaviour 
+	public class SalazzleParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private SA_SittingTo Salazzle_sittingto;
+		private SA_SittingTo sittingto;
 		
-		private SA_WalkingTo Salazzle_walkingto;
+		private SA_WalkingTo walkingto;
 		
-		private SA_IdleTo Salazzle_idleto;
+		private SA_IdleTo idleto;
 
-		public void SA_ConverterToAnimatorController()
+		public void SA_ConverterAnimatorController()
 		{
-			Salazzle_walkingto.SA_WalkingToController();
+			walkingto.SA_WalkingToController();
 
-			Salazzle_idleto.SA_IdleToController();
+			idleto.SA_IdleToController();
 			
-			Salazzle_sittingto.SA_SittingToController();	
+			sittingto.SA_SittingToController();	
 		}
 	}
 }

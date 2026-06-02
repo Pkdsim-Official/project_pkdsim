@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Zoroark.Dad.movementbasedanimations
 {
-	public class ZoroarkParentDad_AnimatorMovementController : MonoBehaviour 
+	public class ZoroarkParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private ZParentDad_Jumping ZoroarkParentDad_MBA_Jumping;
 		

@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType blaziken = NPCSpeciesType.BLAZIKEN;
 
-		private Blaziken_LFS_ConverterToAnimatorController LFSBlaziken_AnimatorCCA;
-		private Blaziken_LFS_AnimatorMovementController LFSBlaziken_AnimatorCMA;
+		private Blaziken_LFS_ConverterAnimatorController LFSBlaziken_AnimatorCCA;
+		private Blaziken_LFS_MovementAnimatorController LFSBlaziken_AnimatorCMA;
 		private Blaziken_LFS_IdleAnimatorController LFSBlaziken_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeBlaziken_ConvertToAnimatorController()
 		{
-			LFSBlaziken_AnimatorCCA.BL_LFS_ConverterToAnimatorController();
+			LFSBlaziken_AnimatorCCA.BL_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBlaziken_MovementAnimatorController()
 		{

@@ -2,7 +2,7 @@ using project_pkdsim.USys.FSSys.Modules;
 
 namespace project_pkdsim.USys.FSSys
 {
-	public class FSSys : FSSysI
+	public class FSys : FSSysI
 	{
 		public void FSSysI()
         {

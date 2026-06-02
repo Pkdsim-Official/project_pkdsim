@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Espeon.converteranimations
 {
-	public class Espeon_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Espeon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private ES_LFS_SittingTo Espeon_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private ES_LFS_IdleTo Espeon_LFS_idleto;
 
-		public void ES_LFS_ConverterToAnimatorController()
+		public void ES_LFS_ConverterAnimatorController()
 		{
 			Espeon_LFS_walkingto.ES_LFS_WalkingToController();
 

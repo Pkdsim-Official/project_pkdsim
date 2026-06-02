@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Dad.converteranimations.IdleTo.IdleToWalk
 {
-	public class LE_IdleToWalk : MonoBehaviour 
+	public class LEParentDad_IdleToWalk : MonoBehaviour 
 	{
-		
+		public void LEParentDad_IdleToWalkController() 
+		{
+			
+		}
 	}
 }

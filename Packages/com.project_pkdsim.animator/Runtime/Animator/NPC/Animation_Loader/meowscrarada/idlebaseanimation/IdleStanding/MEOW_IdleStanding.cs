@@ -2,10 +2,10 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Meowscarada.idlebaseanimation.IdleStanding
 {
-	public class MEOWIdleStanding : MonoBehaviour 
+	public class MEOW_IdleStanding : MonoBehaviour 
 	{
 		public Animator Meowscarada_Animator;
-		public void MEOWIdleStandingController()
+		public void MEOW_IdleStandingController()
 		{
 			// Assign the idle animation clip
 			Meowscarada_Animator.SetFloat("Speed", 0f); // Initialize speed to 0

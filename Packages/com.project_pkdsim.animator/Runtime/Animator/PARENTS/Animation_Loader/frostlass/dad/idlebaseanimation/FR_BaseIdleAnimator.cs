@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadidlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadidlebaseanimation.IdleStanding;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.Dadidlebaseanimation
+namespace project_pkdsim.ANIMATOR.Parents.Frostlass.Dad.idlebaseanimation
 {
 	public class FrostlassParentDad_IdleAnimatorController : MonoBehaviour 
 	{

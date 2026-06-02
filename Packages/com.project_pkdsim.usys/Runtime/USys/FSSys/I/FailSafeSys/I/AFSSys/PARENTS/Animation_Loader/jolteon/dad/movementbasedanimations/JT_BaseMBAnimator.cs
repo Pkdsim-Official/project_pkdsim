@@ -1,31 +1,31 @@
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Turning;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations.Running;
 using UnityEngine;
 
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations
 {
-	public class JolteonParent_AnimatorMovementController : MonoBehaviour 
+	public class JolteonParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private JTParent_Jumping JT_MBA_Jumping;
+		private JTParentDad_Jumping JT_MBA_Jumping;
 		
-		private JTParent_Running JT_MBA_Running;
+		private JTParentDad_Running JT_MBA_Running;
 
-		private JTParent_Turning JT_MBA_Turning;
+		private JTParentDad_Turning JT_MBA_Turning;
 
-		private JTParent_Strafing JT_MBA_Strafe;
+		private JTParentDad_Strafing JT_MBA_Strafe;
 
-		public void JT_MovementAnimatorController()
+		public void JTParentDad_MovementAnimatorController()
 		{
-			JT_MBA_Running.JTParent_RunningController();
+			JT_MBA_Running.JTParentDad_RunningController();
 
-			JT_MBA_Jumping.JTParent_JumpingController();
+			JT_MBA_Jumping.JTParentDad_JumpingController();
 
-			JT_MBA_Turning.JTParent_TurningController();	
+			JT_MBA_Turning.JTParentDad_TurningController();	
 
-			JT_MBA_Strafe.JTParent_StrafingController();
+			JT_MBA_Strafe.JTParentDad_StrafingController();
 		}
 	}
 }

@@ -1,13 +1,13 @@
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.IdleTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Salazzle.Dad.converteranimations.IdleTo
 {
 	public class SA_IdleTo : MonoBehaviour 
 	{
-		private SA_IdleToRun Salazzle_IdleToRun;
-		private SA_IdleToWalk Salazzle_IdleToWalk;
+		private SA_IdleToRun IdleToRun;
+		private SA_IdleToWalk IdleToWalk;
 		public void SA_IdleToController()
 		{
 			SA_IdleToRun();
@@ -15,11 +15,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Salazzle.converteranimations.IdleTo
 		}
 		private void SA_IdleToRun()
 		{
-			Salazzle_IdleToRun.SA_IdleToRunController();
+			IdleToRun.SA_IdleToRunController();
 		}
 		private void SA_IdleToWalk()
 		{
-			Salazzle_IdleToWalk.SA_IdleToWalkController();
+			IdleToWalk.SA_IdleToWalkController();
 		}
 	}
 }

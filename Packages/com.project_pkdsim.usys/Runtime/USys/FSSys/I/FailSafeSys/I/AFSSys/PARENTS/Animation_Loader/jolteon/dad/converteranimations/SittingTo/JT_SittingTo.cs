@@ -1,20 +1,25 @@
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations.SittingTo.SittingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations.SittingTo.SittingToStartWalking;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Jolteon.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations.SittingTo
 {
-	public class JT_SittingTo : MonoBehaviour 
+	public class JTParentDad_SittingTo : MonoBehaviour 
 	{
-		public void JT_SittingToController()
+		private JTParentDad_SittingToStartWalking JTParentDad_SittingToStartWalking;
+		private JTParentDad_SittingToStanding JTParentDad_SittingToStanding;
+		public void JTParentDad_SittingToController()
 		{
-			
+			Load_JTParentDad_SittingToStartWalking();
+			Load_JTParentDad_SittingToStanding();
 		}
-		private void Load_JT_SittingToStartWalking()
+		private void Load_JTParentDad_SittingToStartWalking()
 		{
-			
+			JTParentDad_SittingToStartWalking.JTParentDad_SittingToStartWalkingController();
 		}
-		private void Load_JT_SittingToStanding()
+		private void Load_JTParentDad_SittingToStanding()
 		{
-			
+			JTParentDad_SittingToStanding.JTParentDad_SittingToStandingController();
 		}
 	}
 }

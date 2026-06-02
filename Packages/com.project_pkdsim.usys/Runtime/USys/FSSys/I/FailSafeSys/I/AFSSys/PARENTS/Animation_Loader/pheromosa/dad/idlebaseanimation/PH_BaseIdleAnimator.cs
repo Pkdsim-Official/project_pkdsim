@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation
 {
-	public class Pheromosa_IdleAnimatorController : MonoBehaviour 
+	public class PheromosaParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private PHIdleStanding PHidlestanding;
 		

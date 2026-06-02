@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class DRSittingToStanding : MonoBehaviour 
+	public class DRParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void DRSittingToStandingController()
+		public void DRParentDad_SittingToStandingController()
 		{
 			
 		}

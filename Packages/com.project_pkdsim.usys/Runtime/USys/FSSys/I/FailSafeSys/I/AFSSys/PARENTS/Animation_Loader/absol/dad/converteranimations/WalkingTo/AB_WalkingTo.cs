@@ -1,8 +1,8 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.WalkingTo.WalkingToSitting;
-using project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.WalkingTo.WalkingToStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.converteranimations.WalkingTo.WalkingToSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.converteranimations.WalkingTo.WalkingToStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.WalkingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.converteranimations.WalkingTo
 {
 	public class AB_WalkingTo : MonoBehaviour 
 	{
@@ -13,11 +13,11 @@ namespace project_pkdsim.ANIMATOR.Parents.Absol.converteranimations.WalkingTo
 			AB_WalkingToStartWalking();
 			AB_WalkingToStanding();
 		}
-		private void AB_WalkingToStartWalking()
+		public void AB_WalkingToStartWalking()
 		{
 			AbsolWalkingToSitting.AB_WalkingToSittingController();
 		}
-		private void AB_WalkingToStanding()
+		public void AB_WalkingToStanding()
 		{
 			AbsolWalkingToStanding.AB_WalkingToStandingController();
 		}

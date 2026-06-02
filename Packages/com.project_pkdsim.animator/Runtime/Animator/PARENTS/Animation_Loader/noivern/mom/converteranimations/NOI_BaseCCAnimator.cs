@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.converteranimations
 {
-	public class NoivernParentMom_ConverterToAnimatorController : MonoBehaviour 
+	public class NoivernParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
 		private NOISittingTo Noivernsittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Noivern.Mom.converteranimations
 		
 		private NOIIdleTo Noivernidleto;
 
-		public void NOI_ConverterToAnimatorController()
+		public void NOI_ConverterAnimatorController()
 		{
 			Noivernwalkingto.NOIWalkingToController();
 

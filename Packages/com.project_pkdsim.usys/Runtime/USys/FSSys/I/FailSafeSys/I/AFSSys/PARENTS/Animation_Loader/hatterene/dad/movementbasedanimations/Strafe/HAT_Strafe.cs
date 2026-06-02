@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing.StrafeLeft;
-using project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing.StrafeRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing.StrafeLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing.StrafeRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Hatterene.movementbasedanimations.Strafing
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Hatterene.Dad.movementbasedanimations.Strafing
 {
-	public class HATParent_Strafing : MonoBehaviour 
+	public class HATParentDad_Strafing : MonoBehaviour 
 	{
-		private HAT_StrafeLeft HAT_strafeleft;
+		private HATParentDad_StrafeLeft HATParentDad_strafeleft;
 		
-		private HAT_StrafeRight HAT_straferight;
+		private HATParentDad_StrafeRight HATParentDad_straferight;
 
-		public void HATParent_StrafingController()
+		public void HATParentDad_StrafingController()
 		{
-			if (HAT_strafeleft == null)
+			if (HATParentDad_strafeleft == null)
 			{
-				Load_HAT_StrafeLeft();
+				Load_HATParentDad_StrafeLeft();
 			}
-			if (HAT_straferight == null)
+			if (HATParentDad_straferight == null)
 			{
-				Load_HAT_StrafeRight();
+				Load_HATParentDad_StrafeRight();
 			}
 			
 
 		}
-		private void Load_HAT_StrafeRight()
+		private void Load_HATParentDad_StrafeRight()
 		{
-			HAT_straferight.HAT_StrafeRightController();
+			HATParentDad_straferight.HATParentDad_StrafeRightController();
 		}
 		
-		private void Load_HAT_StrafeLeft()
+		private void Load_HATParentDad_StrafeLeft()
 		{
-			HAT_strafeleft.HAT_StrafeLeftController();
+			HATParentDad_strafeleft.HATParentDad_StrafeLeftController();
 		}
 	}
 }

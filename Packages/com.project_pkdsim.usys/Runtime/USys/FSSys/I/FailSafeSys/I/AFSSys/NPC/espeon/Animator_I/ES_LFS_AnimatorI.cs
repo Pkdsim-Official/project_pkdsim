@@ -10,9 +10,9 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private NPCSpeciesType espeon = NPCSpeciesType.ESPEON;
 
-		private Espeon_LFS_ConverterToAnimatorController LFSEspeon_AnimatorCCA;
-		private Espeon_LFS_AnimatorMovementController LFSEspeon_AnimatorCMA;
-		private Espeon_LFS_AnimatorIdleController LFSEspeon_AnimatorICA;
+		private Espeon_LFS_ConverterAnimatorController LFSEspeon_AnimatorCCA;
+		private Espeon_LFS_MovementAnimatorController LFSEspeon_AnimatorCMA;
+		private Espeon_LFS_IdleAnimatorController LFSEspeon_AnimatorICA;
 
 		public void LoadFailSafeEspeon_AnimatorController()
 		{
@@ -22,7 +22,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeEspeon_ConvertToAnimatorController()
 		{
-			LFSEspeon_AnimatorCCA.ES_LFS_ConverterToAnimatorController();
+			LFSEspeon_AnimatorCCA.ES_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeEspeon_MovementAnimatorController()
 		{

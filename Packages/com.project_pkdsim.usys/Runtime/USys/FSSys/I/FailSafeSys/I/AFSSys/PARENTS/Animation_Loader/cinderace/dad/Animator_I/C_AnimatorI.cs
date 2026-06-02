@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.Animator_I
 {
-	public class LFS_CinderaceFailSafe : MonoBehaviour 
+	public class CinderaceParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Cinderace_Animator;
+		public Animator CinderaceParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Cinderace_ConverterToAnimatorController LFSCinderace_AnimatorCCA;
-		private CinderaceParent_AnimatorMovementController LFSCinderace_AnimatorCMA;
-		private Cinderace_IdleAnimatorController LFSCinderace_AnimatorICA;
+		private CinderaceParentDad_ConverterAnimatorController CinderaceParentDad_AnimatorCCA;
+		private CinderaceParentDad_MovementAnimatorController CinderaceParentDad_AnimatorCMA;
+		private CinderaceParentDad_IdleAnimatorController CinderaceParentDad_AnimatorICA;
 
 
-		public void LoadFailSafeCinderace_AnimatorController()
+		public void LoadFailSafeCinderaceParentDad_AnimatorController()
 		{
-			LoadFailSafeCinderace_ConvertToAnimatorController();
-			LoadFailSafeCinderace_MovementAnimatorController();
-			LoadFailSafeCinderace_IdleAnimatorController();
+			LoadFailSafeCinderaceParentDad_ConvertToAnimatorController();
+			LoadFailSafeCinderaceParentDad_MovementAnimatorController();
+			LoadFailSafeCinderaceParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeCinderace_ConvertToAnimatorController()
+		private void LoadFailSafeCinderaceParentDad_ConvertToAnimatorController()
 		{
-			LFSCinderace_AnimatorCCA.C_ConverterToAnimatorController();
+			CinderaceParentDad_AnimatorCCA.C_ConverterAnimatorController();
 		}
-		private void LoadFailSafeCinderace_MovementAnimatorController()
+		private void LoadFailSafeCinderaceParentDad_MovementAnimatorController()
 		{
-			LFSCinderace_AnimatorCMA.CMovementAnimatorController();
+			CinderaceParentDad_AnimatorCMA.CMovementAnimatorController();
 		}
-		private void LoadFailSafeCinderace_IdleAnimatorController()
+		private void LoadFailSafeCinderaceParentDad_IdleAnimatorController()
 		{
-			LFSCinderace_AnimatorICA.C_IdleAnimatorController();
+			CinderaceParentDad_AnimatorICA.C_IdleAnimatorController();
 		}
 	}
 }

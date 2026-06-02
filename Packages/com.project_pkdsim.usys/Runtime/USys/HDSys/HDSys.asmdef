@@ -3,6 +3,6 @@
   "rootNamespace": "project_pkdsim.USys.HDSys",
   "references": 
   [
-    "project_pkdsim.USys.MOSys.MoneySys"
+    "project_pkdsim.USys.HDSys.HolidaySys"
   ]
 }

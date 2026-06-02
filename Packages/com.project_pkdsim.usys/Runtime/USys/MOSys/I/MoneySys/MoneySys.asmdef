@@ -2,6 +2,8 @@
 "name": "project_pkdsim.USys.MOSys.MoneySys",
   "rootNamespace": "project_pkdsim.USys.MOSys.MoneySys",
   "references": [
-    "project_pkdsim.USys.LOVESys"
+    "project_pkdsim.USys.MOSys.MoneySys.PriceSys",
+    "project_pkdsim.USys.MOSys.MoneySys.StockSys",
+    "project_pkdsim.USys.MOSys.MoneySys.StoreSys"
   ]
 }

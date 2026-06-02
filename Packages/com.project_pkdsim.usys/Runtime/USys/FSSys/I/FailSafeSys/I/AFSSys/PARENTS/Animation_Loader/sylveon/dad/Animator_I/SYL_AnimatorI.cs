@@ -1,36 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Sylveon.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.movementbasedanimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.Animator_I
 {
-	public class SYL_AnimatorI : MonoBehaviour 
+	public class SylveonParentDad_FailSafe : MonoBehaviour 
 	{
 		public Animator Sylveon_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Sylveon_ConverterToAnimatorController LFSSylveon_AnimatorCCA;
-		private SylveonParent_AnimatorMovementController LFSSylveon_AnimatorCMA;
-		private Sylveon_IdleAnimatorController LFSSylveon_AnimatorICA;
+		private SylveonParentDad_ConverterAnimatorController Sylveon_AnimatorCCA;
+		private SylveonParentDad_MovementAnimatorController Sylveon_AnimatorCMA;
+		private SylveonParentDad_IdleAnimatorController Sylveon_AnimatorICA;
 
-
-		private void Sylveon_AnimatorController()
+		public void LoadFailSafeSylveonParentDad_AnimatorController()
 		{
-			Sylveon_Animator = gameObject.GetComponent<Animator>();
-			Sylveon_Animator.runtimeAnimatorController = someController;
+			SylveonParentDad_ConvertToAnimatorController();
+			SylveonParentDad_MovementAnimatorController();
+			SylveonParentDad_IdleAnimatorController();
 		}
-		private void ConvertToAnimatorController()
+		private void SylveonParentDad_ConvertToAnimatorController()
 		{
-
+			Sylveon_AnimatorCCA.SYLParentDad_ConverterAnimatorController();
 		}
-		private void MovementAnimatorController()
+		private void SylveonParentDad_MovementAnimatorController()
 		{
-			
+			Sylveon_AnimatorCMA.SYLParentDad_MovementAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void SylveonParentDad_IdleAnimatorController()
 		{
-			
+			Sylveon_AnimatorICA.SYLParentDad_IdleAnimatorController();
 		}
 	}
 }

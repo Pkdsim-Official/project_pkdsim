@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType noivern = NPCSpeciesType.NOIVERN;
 
-		private Noivern_LFS_ConverterToAnimatorController LFSNoivern_AnimatorCCA;
-		private Noivern_LFS_AnimatorMovementController LFSNoivern_AnimatorCMA;
+		private Noivern_LFS_ConverterAnimatorController LFSNoivern_AnimatorCCA;
+		private Noivern_LFS_MovementAnimatorController LFSNoivern_AnimatorCMA;
 		private Noivern_LFS_IdleAnimatorController LFSNoivern_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeNoivern_ConvertToAnimatorController()
 		{
-			LFSNoivern_AnimatorCCA.NOI_LFS_ConverterToAnimatorController();
+			LFSNoivern_AnimatorCCA.NOI_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeNoivern_MovementAnimatorController()
 		{

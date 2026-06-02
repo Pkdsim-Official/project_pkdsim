@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules.Buy
+namespace project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.STORESys.Modules.Buy
 {
 	public class BuyItem : MonoBehaviour 
 	{

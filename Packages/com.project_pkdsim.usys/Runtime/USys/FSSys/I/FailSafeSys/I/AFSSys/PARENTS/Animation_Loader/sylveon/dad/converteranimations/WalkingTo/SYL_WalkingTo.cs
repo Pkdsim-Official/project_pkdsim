@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Sylveon.converteranimations.WalkingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Sylveon.Dad.converteranimations.WalkingTo
 {
-	public class SYL_WalkingTo : MonoBehaviour 
+	public class SYLParentDad_WalkingTo : MonoBehaviour 
 	{
-		public void SYL_WalkingToController() 
+		public void SYLParentDad_WalkingToController() 
 		{
 			
 		}

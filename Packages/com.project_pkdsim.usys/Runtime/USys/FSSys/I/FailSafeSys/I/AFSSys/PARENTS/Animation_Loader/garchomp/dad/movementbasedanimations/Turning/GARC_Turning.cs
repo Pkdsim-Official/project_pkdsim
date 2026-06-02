@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.movementbasedanimations.Turning
 {
-	public class GARCParent_Turning : MonoBehaviour	
+	public class GARCParentDad_Turning : MonoBehaviour	
 	{
-		private GARCParent_TurnLeft GARCParent_TurnLeft;
-		private GARCParent_TurnRight GARCParent_TurnRight;
+		private GARCParentDad_TurnLeft GARCParentDad_TurnLeft;
+		private GARCParentDad_TurnRight GARCParentDad_TurnRight;
 
-		public void GARCParent_TurningController()
+		public void GARCParentDad_TurningController()
 		{
-			if (GARCParent_TurnLeft == null)
+			if (GARCParentDad_TurnLeft == null)
 			{
-				Load_GARCParent_TurnLeft();
+				Load_GARCParentDad_TurnLeft();
 			}
-			if (GARCParent_TurnRight == null)
+			if (GARCParentDad_TurnRight == null)
 			{
-				Load_GARCParent_TurnRight();
+				Load_GARCParentDad_TurnRight();
 			}
 		}
 
-		private void Load_GARCParent_TurnRight()
+		private void Load_GARCParentDad_TurnRight()
 		{
-			GARCParent_TurnRight.GARCParent_TurnRightController();
+			GARCParentDad_TurnRight.GARCParentDad_TurnRightController();
 		}
 		
-		private void Load_GARCParent_TurnLeft()
+		private void Load_GARCParentDad_TurnLeft()
 		{
-			GARCParent_TurnLeft.GARCParent_TurnLeftController();
+			GARCParentDad_TurnLeft.GARCParentDad_TurnLeftController();
 		}
 	}
 }

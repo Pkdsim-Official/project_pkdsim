@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Absol.movementbasedanimations
 {
-	public class Absol_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Absol_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private AB_LFS_Jumping AB_MBA_Jumping;
 		

@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations.Jumping
 {
-	public class DRParent_Jumping : MonoBehaviour 
+	public class DRParentDad_Parent_Jumping : MonoBehaviour 
 	{
-		public void DRParent_JumpingController() 
+		public void DRParentDad_Parent_JumpingController() 
 		{
 			
 		}

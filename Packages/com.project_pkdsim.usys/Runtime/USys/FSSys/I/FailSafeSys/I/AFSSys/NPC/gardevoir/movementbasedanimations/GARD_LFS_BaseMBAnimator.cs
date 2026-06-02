@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Gardevoir.movementbasedanimations
 {
-	public class Gardevoir_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Gardevoir_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private GARD_LFS_Jumping Gardevoir_MBA_Jumping;
 		

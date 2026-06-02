@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Primarina.movementbasedanimations
 {
-	public class Primarina_AnimatorMovementController : MonoBehaviour 
+	public class Primarina_MovementAnimatorController : MonoBehaviour 
 	{
 		private PR_Jumping Primarina_MBA_Jumping;
 		

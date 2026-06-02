@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.AISys",
+  "rootNamespace": "project_pkdsim.USys.AISys",
+  "references": 
+  [
+    "project_pkdsim.USys.AISys.AIRSys"
+  ]
+}

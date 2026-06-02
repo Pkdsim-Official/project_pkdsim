@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class TSittingToStanding : MonoBehaviour 
+	public class TParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void TSittingToStandingController()
+		public void TParentDad_SittingToStandingController()
 		{
 			
 		}

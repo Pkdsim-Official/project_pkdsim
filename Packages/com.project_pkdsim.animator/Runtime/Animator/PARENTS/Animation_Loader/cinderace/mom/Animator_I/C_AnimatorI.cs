@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Mom.Mom.Animator_I
 		public Animator CinderaceParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private CinderaceParentMom_ConverterToAnimatorController CinderaceParentMom_AnimatorCCA;
-		private CinderaceParentMom_AnimatorMovementController CinderaceParentMom_AnimatorCMA;
+		private CinderaceParentMom_ConverterAnimatorController CinderaceParentMom_AnimatorCCA;
+		private CinderaceParentMom_MovementAnimatorController CinderaceParentMom_AnimatorCMA;
 		private CinderaceParentMom_IdleAnimatorController CinderaceParentMom_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Cinderace.Mom.Mom.Animator_I
 		}
 		private void LoadFailSafeCinderaceParentMom_ConvertToAnimatorController()
 		{
-			CinderaceParentMom_AnimatorCCA.C_ConverterToAnimatorController();
+			CinderaceParentMom_AnimatorCCA.C_ConverterAnimatorController();
 		}
 		private void LoadFailSafeCinderaceParentMom_MovementAnimatorController()
 		{

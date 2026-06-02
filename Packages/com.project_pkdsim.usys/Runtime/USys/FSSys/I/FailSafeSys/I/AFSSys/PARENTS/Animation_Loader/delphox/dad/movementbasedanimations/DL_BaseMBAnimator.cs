@@ -1,12 +1,12 @@
-using project_pkdsim.ANIMATOR.Parents.Delphox.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Delphox.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Delphox.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Delphox.movementbasedanimations.Turning;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.movementbasedanimations.Jumping;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.movementbasedanimations.Running;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.movementbasedanimations.Strafing;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Delphox.movementbasedanimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Delphox.movementbasedanimations
 {
-	public class DelphoxParent_AnimatorMovementController : MonoBehaviour 
+	public class DelphoxParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private DLParent_Jumping DL_MBA_Jumping;
 		

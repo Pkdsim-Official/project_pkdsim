@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Lunala.movementbasedanimations
 {
-	public class Lunala_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Lunala_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private LUNA_LFS_Jumping Lunala_MBA_Jumping;
 		

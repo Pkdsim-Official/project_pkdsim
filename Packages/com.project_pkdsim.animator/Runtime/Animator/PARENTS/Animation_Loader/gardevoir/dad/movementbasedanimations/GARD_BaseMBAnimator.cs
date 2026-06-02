@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Gardevoir.Dad.movementbasedanimations
 {
-	public class GardevoirParent_AnimatorMovementController : MonoBehaviour 
+	public class GardevoirParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private GARDParent_Jumping Gardevoir_MBA_Jumping;
 		

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.converteranimations
 {
-	public class DelphoxParentMom_ConverterToAnimatorController : MonoBehaviour 
+	public class DelphoxParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
 		private DRSittingTo DragapultSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Dragapult.Mom.converteranimations
 		
 		private DRIdleTo DragapultIdleto;
 
-		public void DR_ConverterToAnimatorController()
+		public void DR_ConverterAnimatorController()
 		{
 			DragapultWalkingto.DRWalkingToController();
 

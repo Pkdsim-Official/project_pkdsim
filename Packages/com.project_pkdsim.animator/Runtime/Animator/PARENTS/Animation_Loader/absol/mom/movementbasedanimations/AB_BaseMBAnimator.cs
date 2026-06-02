@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Absol.Mom.movementbasedanimations
 {
-	public class AbsolParent_AnimatorMovementController : MonoBehaviour 
+	public class AbsolParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private ABParent_Jumping AB_MBA_Jumping;
 		

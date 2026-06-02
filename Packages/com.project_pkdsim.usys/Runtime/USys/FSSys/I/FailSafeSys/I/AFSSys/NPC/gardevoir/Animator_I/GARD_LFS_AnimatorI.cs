@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType gardevoir = NPCSpeciesType.GARDEVOIR;
 
-		private Gardevoir_LFS_ConverterToAnimatorController LFSGardevoir_AnimatorCCA;
-		private Gardevoir_LFS_AnimatorMovementController LFSGardevoir_AnimatorCMA;
+		private Gardevoir_LFS_ConverterAnimatorController LFSGardevoir_AnimatorCCA;
+		private Gardevoir_LFS_MovementAnimatorController LFSGardevoir_AnimatorCMA;
 		private Gardevoir_LFS_IdleAnimatorController LFSGardevoir_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeGardevoir_ConvertToAnimatorController()
 		{
-			LFSGardevoir_AnimatorCCA.GARD_LFS_ConverterToAnimatorController();
+			LFSGardevoir_AnimatorCCA.GARD_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeGardevoir_MovementAnimatorController()
 		{

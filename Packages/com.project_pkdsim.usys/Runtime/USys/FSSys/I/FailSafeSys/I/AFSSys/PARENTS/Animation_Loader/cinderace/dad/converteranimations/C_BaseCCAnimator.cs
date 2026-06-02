@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.converteranimations
 {
-	public class Cinderace_ConverterToAnimatorController : MonoBehaviour 
+	public class CinderaceParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private C_SittingTo CinderaceSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Cinderace.converteranimations
 		
 		private C_IdleTo CinderaceIdleto;
 
-		public void C_ConverterToAnimatorController()
+		public void C_ConverterAnimatorController()
 		{
 			CinderaceWalkingto.C_WalkingToController();
 

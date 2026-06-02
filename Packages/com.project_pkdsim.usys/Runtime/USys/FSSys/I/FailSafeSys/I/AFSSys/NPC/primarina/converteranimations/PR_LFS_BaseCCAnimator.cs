@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Primarina.converteranimations
 {
-	public class Primarina_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Primarina_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PR_LFS_SittingTo Primarina_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private PR_LFS_IdleTo Primarina_LFS_idleto;
 
-		public void PR_LFS_ConverterToAnimatorController()
+		public void PR_LFS_ConverterAnimatorController()
 		{
 			Primarina_LFS_walkingto.PR_LFS_WalkingToController();
 

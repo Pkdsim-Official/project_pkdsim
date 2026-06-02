@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations
 {
-	public class Primarina_ConverterToAnimatorController : MonoBehaviour 
+	public class Primarina_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PR_SittingTo Primarinasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Primarina.converteranimations
 		
 		private PR_IdleTo Primarinaidleto;
 
-		public void PR_ConverterToAnimatorController()
+		public void PR_ConverterAnimatorController()
 		{
 			Primarinawalkingto.PR_WalkingToController();
 

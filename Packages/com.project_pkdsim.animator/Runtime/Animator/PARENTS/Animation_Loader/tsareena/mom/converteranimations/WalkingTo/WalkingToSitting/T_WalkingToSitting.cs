@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class TWalkingToSitting : MonoBehaviour 
+	public class TParentMom_WalkingToSitting : MonoBehaviour 
 	{
-		public void TWalkingToSittingController() 
+		public void TParentMom_WalkingToSittingController() 
 		{
 			
 		}

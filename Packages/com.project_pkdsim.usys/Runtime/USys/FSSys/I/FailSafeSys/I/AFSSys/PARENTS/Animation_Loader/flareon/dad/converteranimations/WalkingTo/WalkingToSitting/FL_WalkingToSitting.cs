@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Flareon.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Flareon.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class FL_WalkingToSitting : MonoBehaviour 
+	public class FLParentDad_WalkingToSitting : MonoBehaviour 
 	{
 
 	}

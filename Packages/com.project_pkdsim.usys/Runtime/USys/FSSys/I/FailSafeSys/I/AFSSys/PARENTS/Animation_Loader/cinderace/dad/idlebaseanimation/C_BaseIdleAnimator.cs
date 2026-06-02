@@ -1,10 +1,10 @@
-using project_pkdsim.ANIMATOR.Parents.Cinderace.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Cinderace.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Cinderace.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Cinderace.idlebaseanimation
 {
-	public class Cinderace_IdleAnimatorController : MonoBehaviour 
+	public class CinderaceParentDad_IdleAnimatorController : MonoBehaviour 
 	{
 		private C_IdleStanding C_Idlestanding;
 		

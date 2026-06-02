@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType lopunny = NPCSpeciesType.LOPUNNY;
 
-		private Lopunny_LFS_ConverterToAnimatorController LFSLopunny_AnimatorCCA;
-		private Lopunny_LFS_AnimatorMovementController LFSLopunny_AnimatorCMA;
+		private Lopunny_LFS_ConverterAnimatorController LFSLopunny_AnimatorCCA;
+		private Lopunny_LFS_MovementAnimatorController LFSLopunny_AnimatorCMA;
 		private Lopunny_LFS_IdleAnimatorController LFSLopunny_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeLopunny_ConvertToAnimatorController()
 		{
-			LFSLopunny_AnimatorCCA.LO_LFS_ConverterToAnimatorController();
+			LFSLopunny_AnimatorCCA.LO_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeLopunny_MovementAnimatorController()
 		{

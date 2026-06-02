@@ -1,12 +1,12 @@
-using project_pkdsim.USys.AnimatedTexturesSys.NPC.Modules;
+using project_pkdsim.USys.ATSys.Modules.AnimatedTexturesSys.NPC.Modules;
 using UnityEngine;
 
-namespace project_pkdsim.USys.AnimatedTexturesSys.Modules
+namespace project_pkdsim.USys.ATSys.Modules.AnimatedTexturesSys.Modules
 {
-	public class ATSys_AnimatedTextureSysI : MonoBehaviour 
+	public class AnimatedTextureSysI : MonoBehaviour 
 	{
 		private NPC_ATSysI NPC_ATSysI;
-		public void AnimatedTextureSysI() 
+		public void AnimatedTextureSys_I() 
 		{
 			GetNPC_AnimatedTextureSys_I();
 		}

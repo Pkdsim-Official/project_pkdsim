@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.Animator_I
 		public Animator Lucario_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Lucario_ConverterToAnimatorController Lucario_AnimatorCCA;
-		private LucarioParent_AnimatorMovementController Lucario_AnimatorCMA;
+		private Lucario_ConverterAnimatorController Lucario_AnimatorCCA;
+		private LucarioParent_MovementAnimatorController Lucario_AnimatorCMA;
 		private Lucario_IdleAnimatorController Lucario_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Lucario.Dad.Animator_I
 		}
 		private void LoadFailSafeLucario_ConvertToAnimatorController()
 		{
-			Lucario_AnimatorCCA.LUCA_ConverterToAnimatorController();
+			Lucario_AnimatorCCA.LUCA_ConverterAnimatorController();
 		}
 		private void LoadFailSafeLucario_MovementAnimatorController()
 		{

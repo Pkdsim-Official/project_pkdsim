@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType tsareena = NPCSpeciesType.TSAREENA;
 
-		private Tsareena_LFS_ConverterToAnimatorController LFSTsareena_AnimatorCCA;
-		private Tsareena_LFS_AnimatorMovementController LFSTsareena_AnimatorCMA;
+		private Tsareena_LFS_ConverterAnimatorController LFSTsareena_AnimatorCCA;
+		private Tsareena_LFS_MovementAnimatorController LFSTsareena_AnimatorCMA;
 		private Tsareena_LFS_IdleAnimatorController LFSTsareena_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeTsareena_ConvertToAnimatorController()
 		{
-			LFSTsareena_AnimatorCCA.T_LFS_ConverterToAnimatorController();
+			LFSTsareena_AnimatorCCA.T_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeTsareena_MovementAnimatorController()
 		{

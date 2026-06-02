@@ -1,30 +1,30 @@
-using project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Strafing;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Jumping;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Running;
-using project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations.Turning;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Strafing;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Jumping;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Running;
+using project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations.Turning;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.movementbasedanimations
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Dad.movementbasedanimations
 {
-	public class LeafeonParent_AnimatorMovementController : MonoBehaviour 
+	public class LeafeonParentDad_MovementAnimatorController : MonoBehaviour 
 	{
-		private LEParent_Jumping LE_MBA_Jumping;
+		private LEParentDad_Jumping LEParent_MBA_Jumping;
 		
-		private LEParent_Running LE_MBA_Running;
+		private LEParentDad_Running LEParent_MBA_Running;
 
-		private LEParent_Turning LE_MBA_Turning;
+		private LEParentDad_Turning LEParent_MBA_Turning;
 
-		private LEParent_Strafing LE_MBA_Strafe;
+		private LEParentDad_Strafing LEParent_MBA_Strafe;
 
-		private void LE_MovementAnimatorController()
+		public void LEParentDad_MovementAnimatorController()
 		{
-			LE_MBA_Running.LEParent_RunningController();
+			LEParent_MBA_Running.LEParentDad_RunningController();
 
-			LE_MBA_Jumping.LEParent_JumpingController();
+			LEParent_MBA_Jumping.LEParentDad_JumpingController();
 
-			LE_MBA_Turning.LEParent_TurningController();	
+			LEParent_MBA_Turning.LEParentDad_TurningController();	
 
-			LE_MBA_Strafe.LEParent_StrafingController();
+			LEParent_MBA_Strafe.LEParentDad_StrafingController();
 		}
 	}
 }

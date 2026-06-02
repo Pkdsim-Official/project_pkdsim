@@ -2,33 +2,33 @@ using  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Turni
 using  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Turning
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations.Turning
 {
-	public class LEParent_Turning : MonoBehaviour	
+	public class LEParentMom_Turning : MonoBehaviour	
 	{
-		private LEParent_TurnLeft LEParent_TurnLeft;
-		private LEParent_TurnRight LEParent_TurnRight;
+		private LEParentMom_TurnLeft LEParentMom_TurnLeft;
+		private LEParentMom_TurnRight LEParentMom_TurnRight;
 
-		public void LEParent_TurningController()
+		public void LEParentMom_TurningController()
 		{
-			if (LEParent_TurnLeft == null)
+			if (LEParentMom_TurnLeft == null)
 			{
-				Load_LEParent_TurnLeft();
+				Load_LEParentMom_TurnLeft();
 			}
-			if (LEParent_TurnRight == null)
+			if (LEParentMom_TurnRight == null)
 			{
-				Load_LEParent_TurnRight();
+				Load_LEParentMom_TurnRight();
 			}
 		}
 
-		private void Load_LEParent_TurnRight()
+		private void Load_LEParentMom_TurnRight()
 		{
-			LEParent_TurnRight.LEParent_TurnRightController();
+			LEParentMom_TurnRight.LEParentMom_TurnRightController();
 		}
 		
-		private void Load_LEParent_TurnLeft()
+		private void Load_LEParentMom_TurnLeft()
 		{
-			LEParent_TurnLeft.LEParent_TurnLeftController();
+			LEParentMom_TurnLeft.LEParentMom_TurnLeftController();
 		}
 	}
 }

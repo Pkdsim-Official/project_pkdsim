@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.converteranimations
 {
-	public class Vaporeon_LFS_AnimatorConverterController : MonoBehaviour 
+	public class Vaporeon_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private VP_LFS_SittingTo Vaporeon_LFS_sittingto;
 		

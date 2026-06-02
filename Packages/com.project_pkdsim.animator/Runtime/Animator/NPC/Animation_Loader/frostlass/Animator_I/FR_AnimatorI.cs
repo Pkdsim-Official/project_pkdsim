@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.Animator_I
 		public Animator Frostlass_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Frostlass_ConverterToAnimatorController LFSFrostlass_AnimatorCCA;
-		private Frostlass_AnimatorMovementController LFSFrostlass_AnimatorCMA;
+		private Frostlass_ConverterAnimatorController LFSFrostlass_AnimatorCCA;
+		private Frostlass_MovementAnimatorController LFSFrostlass_AnimatorCMA;
 		private Frostlass_IdleAnimatorController LFSFrostlass_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Frostlass.Animator_I
 		}
 		private void LoadFailSafeFrostlass_ConvertToAnimatorController()
 		{
-			LFSFrostlass_AnimatorCCA.FR_ConverterToAnimatorController();
+			LFSFrostlass_AnimatorCCA.FR_ConverterAnimatorController();
 		}
 		private void LoadFailSafeFrostlass_MovementAnimatorController()
 		{

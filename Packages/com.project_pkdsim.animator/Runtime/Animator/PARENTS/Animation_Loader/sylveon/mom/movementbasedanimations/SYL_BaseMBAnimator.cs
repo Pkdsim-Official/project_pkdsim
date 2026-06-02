@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Sylveon.Mom.movementbasedanimations
 {
-	public class SylveonParent_AnimatorMovementController : MonoBehaviour 
+	public class SylveonParent_MovementAnimatorController : MonoBehaviour 
 	{
 		private SYLParent_Jumping Sylveon_MBA_Jumping;
 		

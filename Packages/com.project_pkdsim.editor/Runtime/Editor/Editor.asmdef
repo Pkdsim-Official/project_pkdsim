@@ -1,0 +1,12 @@
+{ 
+  "name": "project_pkdsim.Editor", 
+  "rootNamespace": "project_pkdsim.Editor",
+  "references": [
+    "project_pkdsim.Generics",
+    "Unity.Addressables.Editor",
+    "Unity.Services.Core",
+    "Unity.Services.Authentication",
+    "Unity.Services.CloudSave"
+
+  ]
+} 

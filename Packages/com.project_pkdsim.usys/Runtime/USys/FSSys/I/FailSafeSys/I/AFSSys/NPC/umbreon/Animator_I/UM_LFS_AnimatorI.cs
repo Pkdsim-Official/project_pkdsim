@@ -13,9 +13,9 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private NPCSpeciesType umbreon = NPCSpeciesType.UMBREON;
 
-		private Umbreon_LFS_AnimatorConverterController LFSUmbreon_AnimatorCCA;
-		private Umbreon_LFS_AnimatorMovementController LFSUmbreon_AnimatorCMA;
-		private Umbreon_LFS_AnimatorIdleController LFSUmbreon_AnimatorICA;
+		private Umbreon_LFS_ConverterAnimatorController LFSUmbreon_AnimatorCCA;
+		private Umbreon_LFS_MovementAnimatorController LFSUmbreon_AnimatorCMA;
+		private Umbreon_LFS_IdleAnimatorController LFSUmbreon_AnimatorICA;
 
 		public void LoadFailSafeUmbreon_AnimatorController()
 		{
@@ -25,7 +25,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeUmbreon_ConvertToAnimatorController()
 		{
-			LFSUmbreon_AnimatorCCA.UM_LFS_ConverterToAnimatorController();
+			LFSUmbreon_AnimatorCCA.UM_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeUmbreon_MovementAnimatorController()
 		{

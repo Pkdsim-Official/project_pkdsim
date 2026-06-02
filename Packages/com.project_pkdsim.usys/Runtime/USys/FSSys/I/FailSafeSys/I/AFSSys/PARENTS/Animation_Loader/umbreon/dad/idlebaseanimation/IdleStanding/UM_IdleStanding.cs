@@ -1,15 +1,15 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.idlebaseanimation.IdleStanding
 {
-	public class UM_IdleStanding : MonoBehaviour 
+	public class UMParentDad_IdleStanding : MonoBehaviour 
 	{
-		public Animator Umbreon_Animator;
+		public Animator UmbreonParentDad_Animator;
 
-		public void UM_IdleStandingController()
+		public void UMParentDad_IdleStandingController()
 		{
-			Umbreon_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Umbreon_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			UmbreonParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			UmbreonParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

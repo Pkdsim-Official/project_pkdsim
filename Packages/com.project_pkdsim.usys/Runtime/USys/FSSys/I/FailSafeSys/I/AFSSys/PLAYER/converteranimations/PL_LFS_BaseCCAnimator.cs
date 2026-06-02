@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.PLAYER.converteranimations
 {
-	public class Player_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Player_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PL_LFS_SittingTo Player_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private PL_LFS_IdleTo Player_LFS_idleto;
 
-		public void PL_LFS_ConverterToAnimatorController()
+		public void PL_LFS_ConverterAnimatorController()
 		{
 			Player_LFS_walkingto.PL_LFS_WalkingToController();
 

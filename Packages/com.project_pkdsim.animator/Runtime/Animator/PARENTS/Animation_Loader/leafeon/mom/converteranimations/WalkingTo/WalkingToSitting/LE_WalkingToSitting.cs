@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class LE_WalkingToSitting : MonoBehaviour 
+	public class LEParent_WalkingToSitting : MonoBehaviour 
 	{
 
 	}

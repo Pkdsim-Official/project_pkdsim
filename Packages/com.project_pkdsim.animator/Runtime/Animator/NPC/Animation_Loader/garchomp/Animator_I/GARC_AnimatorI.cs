@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.Animator_I
 		public Animator Garchomp_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Garchomp_ConverterToAnimatorController LFSGarchomp_AnimatorCCA;
-		private Garchomp_AnimatorMovementController LFSGarchomp_AnimatorCMA;
+		private Garchomp_ConverterAnimatorController LFSGarchomp_AnimatorCCA;
+		private Garchomp_MovementAnimatorController LFSGarchomp_AnimatorCMA;
 		private Garchomp_IdleAnimatorController LFSGarchomp_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Garchomp.Animator_I
 		}
 		private void LoadFailSafeGarchomp_ConvertToAnimatorController()
 		{
-			LFSGarchomp_AnimatorCCA.GARC_ConverterToAnimatorController();
+			LFSGarchomp_AnimatorCCA.GARC_ConverterAnimatorController();
 		}
 		private void LoadFailSafeGarchomp_MovementAnimatorController()
 		{

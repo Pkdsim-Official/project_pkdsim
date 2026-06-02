@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Delphox.movementbasedanimations
 {
-	public class Delphox_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Delphox_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private DL_LFS_Jumping DL_MBA_Jumping;
 		

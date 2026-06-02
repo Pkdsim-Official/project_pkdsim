@@ -1,27 +1,27 @@
-using project_pkdsim.ANIMATOR.Parents.Lunala.idlebaseanimation.IdleSitting;
-using project_pkdsim.ANIMATOR.Parents.Lunala.idlebaseanimation.IdleStanding;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.idlebaseanimation.IdleSitting;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.idlebaseanimation.IdleStanding;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lunala.idlebaseanimation
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lunala.Dad.idlebaseanimation
 {
-	public class Lunala_IdleAnimatorController : MonoBehaviour 
+	public class LunalaParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private LUNAIdleStanding Lunalaidlestanding;
+		private LUNAParentDad_IdleStanding Lunalaidlestanding;
 		
-		private LUNAIdleSitting Lunalaidlesitting;
+		private LUNAParentDad_IdleSitting Lunalaidlesitting;
 		
-		public void	LUNA_IdleAnimatorController()
+		public void	LUNAParentDad_IdleAnimatorController()
 		{
-			LUNAIdleStandingAnimatorController();
-			LUNAIdleSittingAnimatorController();
+			LUNAParentDad_IdleStandingAnimatorController();
+			LUNAParentDad_IdleSittingAnimatorController();
 		}
-		private void LUNAIdleStandingAnimatorController()
+		private void LUNAParentDad_IdleStandingAnimatorController()
 		{
-			Lunalaidlestanding.LUNAIdleStandingController();
+			Lunalaidlestanding.LUNAParentDad_IdleStandingController();
 		}
-		private void LUNAIdleSittingAnimatorController()
+		private void LUNAParentDad_IdleSittingAnimatorController()
 		{
-			Lunalaidlesitting.LUNAIdleSittingController();
+			Lunalaidlesitting.LUNAParentDad_IdleSittingController();
 		}
 	}
 }

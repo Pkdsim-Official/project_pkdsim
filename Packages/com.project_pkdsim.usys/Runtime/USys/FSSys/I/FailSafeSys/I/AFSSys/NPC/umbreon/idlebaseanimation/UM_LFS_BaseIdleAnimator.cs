@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Umbreon.idlebaseanimations
 {
-	public class Umbreon_LFS_AnimatorIdleController : MonoBehaviour 
+	public class Umbreon_LFS_IdleAnimatorController : MonoBehaviour 
 	{
 		private UM_LFS_IdleStanding UM_idlestanding;
 		

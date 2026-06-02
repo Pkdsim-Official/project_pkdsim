@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType primarina = NPCSpeciesType.PRIMARINA;
 
-		private Primarina_LFS_ConverterToAnimatorController LFSPrimarina_AnimatorCCA;
-		private Primarina_LFS_AnimatorMovementController LFSPrimarina_AnimatorCMA;
+		private Primarina_LFS_ConverterAnimatorController LFSPrimarina_AnimatorCCA;
+		private Primarina_LFS_MovementAnimatorController LFSPrimarina_AnimatorCMA;
 		private Primarina_LFS_IdleAnimatorController LFSPrimarina_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafePrimarina_ConvertToAnimatorController()
 		{
-			LFSPrimarina_AnimatorCCA.PR_LFS_ConverterToAnimatorController();
+			LFSPrimarina_AnimatorCCA.PR_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafePrimarina_MovementAnimatorController()
 		{

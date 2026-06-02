@@ -4,31 +4,31 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.movementbasedanimations.Turning
 {
-	public class TParent_Turning : MonoBehaviour	
+	public class TParentMom_Turning : MonoBehaviour	
 	{
-		private TParent_TurnLeft TParent_TurnLeft;
-		private TParent_TurnRight TParent_TurnRight;
+		private TParentMom_TurnLeft TParentMom_TurnLeft;
+		private TParentMom_TurnRight TParentMom_TurnRight;
 
-		public void TParent_TurningController()
+		public void TParentMom_TurningController()
 		{
-			if (TParent_TurnLeft != null)
+			if (TParentMom_TurnLeft != null)
 			{
-				Load_TParent_TurnLeft();
+				Load_TParentMom_TurnLeft();
 			}
 
-			if (TParent_TurnRight != null)
+			if (TParentMom_TurnRight != null)
 			{
-				Load_TParent_TurnRight();
+				Load_TParentMom_TurnRight();
 			}
 		}
-		private void Load_TParent_TurnRight()
+		private void Load_TParentMom_TurnRight()
 		{
-			TParent_TurnRight.TParent_TurnRightController();
+			TParentMom_TurnRight.TParentMom_TurnRightController();
 		}
 		
-		private void Load_TParent_TurnLeft()
+		private void Load_TParentMom_TurnLeft()
 		{
-			TParent_TurnLeft.TParent_TurnLeftController();
+			TParentMom_TurnLeft.TParentMom_TurnLeftController();
 		}
 	}
 }

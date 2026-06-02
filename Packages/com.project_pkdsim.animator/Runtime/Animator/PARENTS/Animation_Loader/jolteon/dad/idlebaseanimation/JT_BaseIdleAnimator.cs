@@ -4,16 +4,16 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation
 {
-	public class JolteonParent_AnimatorIdleController : MonoBehaviour 
+	public class JolteonParentDad_IdleAnimatorController : MonoBehaviour 
 	{
-		private JT_IdleStanding JT_idlestanding;
+		private JTParentDad_IdleStanding JTParentDad_idlestanding;
 		
-		private JT_IdleSitting JT_idlesitting;
+		private JTParentDad_IdleSitting JTParentDad_idlesitting;
 
-		private void JT_Base_IdleAnimatorController()
+		public void JTParentDad_IdleAnimatorController()
 		{
-			JT_idlestanding.JT_IdleStandingController();
-			JT_idlesitting.JT_IdleSittingController();	
+			JTParentDad_idlestanding.JTParentDad_IdleStandingController();
+			JTParentDad_idlesitting.JTParentDad_IdleSittingController();	
 		}
 	}
 }

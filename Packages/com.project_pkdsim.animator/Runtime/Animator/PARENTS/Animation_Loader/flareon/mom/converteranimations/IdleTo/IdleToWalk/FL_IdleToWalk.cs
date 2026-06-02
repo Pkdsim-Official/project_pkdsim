@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.espeon.converteranimations.IdleTo.IdleToWalk
+namespace project_pkdsim.ANIMATOR.Parents.Flareon.Mom.converteranimations.IdleTo.IdleToWalk
 {
-	public class ES_IdleToWalk : MonoBehaviour 
+	public class FLParentMom_IdleToWalk : MonoBehaviour 
 	{
-		
+		public void FLParentMom_IdleToWalkController()
+		{
+			
+		}
 	}
 }

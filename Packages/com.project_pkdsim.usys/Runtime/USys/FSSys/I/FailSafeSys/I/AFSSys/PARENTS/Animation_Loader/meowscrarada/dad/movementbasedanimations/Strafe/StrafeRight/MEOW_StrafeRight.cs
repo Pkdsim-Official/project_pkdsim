@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Strafing.StrafeRight
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Strafing.StrafeRight
 {
-	public class MEOW_StrafeRight : MonoBehaviour
+	public class MEOWParentDad_StrafeRight : MonoBehaviour
 	{
-		public void MEOW_StrafeRightController() 
+		public void MEOWParentDad_StrafeRightController() 
 		{
 			
 		}

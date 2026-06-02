@@ -3,21 +3,21 @@ using  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.converteranimations;
 using  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.idlebaseanimation;
 using UnityEngine;
 
-namespace  project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.Animator_I
+namespace project_pkdsim.ANIMATOR.Parents.Leafeon.Mom.Animator_I
 {
-	public class LE_AnimatorI : MonoBehaviour 
+	public class LEParent_AnimatorI : MonoBehaviour 
 	{
-		public Animator Leafeon_Animator;
+		public Animator LeafeonParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Leafeon_ConverterToAnimatorController Leafeon_AnimatorCCA;
-		private LeafeonParent_AnimatorMovementController Leafeon_AnimatorCMA;
-		private Leafeon_IdleAnimatorController  Leafeon_AnimatorICA;
+		private LeafeonParentMom_ConverterAnimatorController LeafeonParentMom_AnimatorCCA;
+		private LeafeonParentMom_MovementAnimatorController LeafeonParentMom_AnimatorCMA;
+		private LeafeonParentMom_IdleAnimatorController  LeafeonParentMom_AnimatorICA;
 
-		private void Leafeon_AnimatorController()
+		private void LeafeonParentMom_AnimatorController()
 		{
-			Leafeon_Animator = gameObject.GetComponent<Animator>();
-			Leafeon_Animator.runtimeAnimatorController = someController;
+			LeafeonParentMom_Animator = gameObject.GetComponent<Animator>();
+			LeafeonParentMom_Animator.runtimeAnimatorController = someController;
 		}
 		private void ConvertToAnimatorController()
 		{

@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.LOSys",
+  "rootNamespace": "project_pkdsim.USys.LOSys",
+  "references": 
+  [
+    "project_pkdsim.USys.LOSys.LOVESys"
+  ]
+}

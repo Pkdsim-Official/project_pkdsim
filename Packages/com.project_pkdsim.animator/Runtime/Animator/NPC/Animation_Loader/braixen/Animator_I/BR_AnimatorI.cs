@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.Animator_I
 		public Animator Braixen_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Braixen_ConverterToAnimatorController LFSBraixen_AnimatorCCA;
-		private Braixen_AnimatorMovementController LFSBraixen_AnimatorCMA;
+		private Braixen_ConverterAnimatorController LFSBraixen_AnimatorCCA;
+		private Braixen_MovementAnimatorController LFSBraixen_AnimatorCMA;
 		private Braixen_IdleAnimatorController LFSBraixen_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.Animator_I
 		}
 		private void LoadFailSafeBraixen_ConvertToAnimatorController()
 		{
-			LFSBraixen_AnimatorCCA.BR_ConverterToAnimatorController();
+			LFSBraixen_AnimatorCCA.BR_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBraixen_MovementAnimatorController()
 		{

@@ -5,21 +5,21 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations
 {
-	public class Tsareena_ConverterToAnimatorController : MonoBehaviour 
+	public class TsareenaParentMom_ConverterAnimatorController : MonoBehaviour 
 	{
-		private TSittingTo Tsareenasittingto;
+		private TParentMom_SittingTo Tsareenasittingto;
 		
-		private TWalkingTo Tsareenawalkingto;
+		private TParentMom_WalkingTo Tsareenawalkingto;
 		
-		private TIdleTo Tsareenaidleto;
+		private TParentMom_IdleTo Tsareenaidleto;
 
-		public void T_ConverterToAnimatorController()
+		public void TParentMom_ConverterAnimatorController()
 		{
-			Tsareenawalkingto.TWalkingToController();
+			Tsareenawalkingto.TParentMom_WalkingToController();
 
-			Tsareenaidleto.T_IdleToController();
+			Tsareenaidleto.TParentMom_IdleToController();
 			
-			Tsareenasittingto.TSittingToController();	
+			Tsareenasittingto.TParentMom_SittingToController();	
 		}
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "name": "project_pkdsim.USys.UPSSys",
+  "rootNamespace": "project_pkdsim.USys.UPSSys",
+  "references": 
+  [
+    "project_pkdsim.USys.UPSSys.UnityPlayerSaveSys"
+  ]
+}

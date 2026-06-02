@@ -1,45 +1,56 @@
-using project_pkdsim.USys.DSys;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys;
+using project_pkdsim.USys.AUSys;
+using project_pkdsim.USys.ADSys;
+using project_pkdsim.USys.FSSys;
+using project_pkdsim.USys.SCMSys;
 using project_pkdsim.USys.SBSys;
+using project_pkdsim.USys.LOSys;
+using project_pkdsim.USys.ITSys;
+using project_pkdsim.USys.TABSys;
+using project_pkdsim.USys.UPSSys;
 using project_pkdsim.USys.UTPSys;
+using project_pkdsim.USys.AISys;
+using project_pkdsim.USys.HDSys;
+using project_pkdsim.USys.MOSys;
+using project_pkdsim.USys.DSys;
+using project_pkdsim.USys.TCMSys;
+using project_pkdsim.USys.ATSys;
 using UnityEngine;
-
 
 namespace project_pkdsim.USys.ImportSys
 {
     public class USysI : MonoBehaviour
     {
-        private AIRSys AIRoutesSys;
+        private AIISys aiiSys;
 
-        private HDSys HolidaySys;
+        private HDSSys hdsSys;
 
-        private ITEMSys ItemsSys;
+        private ITSSys itSys;
 
-        private LOVERSys LoveSys;
+        private LOSSys loSys;
 
-        private UPSSys UnityPlayerSaveSys;
+        private UPSaveSys upsSys;
 
-        private TCMSys TabChangeManagerSys;
+        private TabCMSys tcmsSys;
 
-        private TABSys TabSys;
+        private TABSSys tabsSys;
 
-        private SCMSys SceneManagerSys;
+        private SceneSys sceneManagerSys;
 
-        private UTSys UnityTeleporterSys;
+        private UTSys unityTeleporterSys;
 
-        private MOSys MoneySys;
+        private MOSSys moneySys;
 
-        private DLSys DialSys;
+        private DLSys dialogueSys;
 
-        private AUSys AudioSys;
+        private AUISys audioSys;
 
-        private ADATSys AntiDateAndTimeSys;
+        private ADISys antiDateAndTimeSys;
 
-        private ATSys AnimatedTexturesSys;
+        private AnimatedTSys animatedTexturesSys;
 
-        private SBOSys SkyBoxSys;
+        private SBOSys skyBoxSys;
 
-        private FSSys FailSafeSys;
+        private FSys failSafeSys;
 
         private void LoadUSys()
         {
@@ -51,78 +62,78 @@ namespace project_pkdsim.USys.ImportSys
             LoadTCMSys();
             LoadTABSys();
             LoadSCMSys();
-            LoadMoneySys();
+            LoadMOSys();
             LoadHTPSys();
-            LoadDialogueSys();
-            LoadAudioSys();
-            LoadADATSys();
+            LoadDSys();
+            LoadAUSys();
+            LoadADSys();
             LoadATSys();
             LoadSBSys();
             LoadFSSys();
         }
         private void LoadAIRSys()
         {
-            AIRoutesSys.AIRoutesSysI();
+            aiiSys.AIISysI();
         }
         private void LoadHDSys()
         {
-            HolidaySys.HDSysI();
+            hdsSys.HDSysI();
         }
         private void LoadITEMSSys()
         {
-            ItemsSys.ITEMSSysI();
+            itSys.ITSysI();
         }
         private void LoadLOVESys()
         {
-            LoveSys.LoveSysI();
+            loSys.LOSysI();
         }
         private void LoadUPSSys()
         {
-            UnityPlayerSaveSys.UPSSysI();
+            upsSys.UPSSysI();
         }
         private void LoadTCMSys()
         {
-            TabChangeManagerSys.TCMSysI();
+            tcmsSys.TCMSysI();
         }
         private void LoadTABSys()
         {
-            TabSys.TABSysI();
+            tabsSys.TABSSysI();
         }
         private void LoadSCMSys()
         {
-            SceneManagerSys.SCMSysI();
+            sceneManagerSys.SCMSysI();
         }
         private void LoadHTPSys()
         {
-            UnityTeleporterSys.UTPSysI();
+            unityTeleporterSys.UTPSysI();
         }
-        private void LoadMoneySys()
+        private void LoadMOSys()
         {
-            MoneySys.MoneySysI();
+            moneySys.MOSysI();
         }
-        private void LoadDialogueSys()
+        private void LoadDSys()
         {
-            DialogueSys.DialogueSysI();
+            dialogueSys.DSysI();
         }
-        private void LoadAudioSys()
+        private void LoadAUSys()
         {
-            AudioSys.AudioSysI();
+            audioSys.AUSysI();
         }
-        private void LoadADATSys()
+        private void LoadADSys()
         {
-            AntiDateAndTimeSys.ADATSysI();
+            antiDateAndTimeSys.ADSysI();
         }
         private void LoadATSys()
         {
-            AnimatedTexturesSys.ATSysI();
+            animatedTexturesSys.ATSysI();
         }
         private void LoadSBSys()
         {
-            SkyBoxSys.SBSysI();
+            skyBoxSys.SBSysI();
         }
         private void LoadFSSys()
         {
-            FailSafeSys.FSSysI();
+            failSafeSys.FSSysI();
         }
     }
 }

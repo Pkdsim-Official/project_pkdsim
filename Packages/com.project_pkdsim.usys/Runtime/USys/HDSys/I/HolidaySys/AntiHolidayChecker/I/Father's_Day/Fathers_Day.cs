@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules.AntiHolidayChecker.Modules.Fathers_Day
+namespace project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.AntiHolidayChecker.Modules.Fathers_Day
 {
 	public class Fathers_Day_AHDSys_IAssetsLoader : MonoBehaviour
 	{

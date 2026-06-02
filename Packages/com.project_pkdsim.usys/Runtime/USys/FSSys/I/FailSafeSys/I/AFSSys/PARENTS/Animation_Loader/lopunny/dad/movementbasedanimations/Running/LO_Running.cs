@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.movementbasedanimations.Running
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.movementbasedanimations.Running
 {
-	public class LOParent_Running : MonoBehaviour 
+	public class LOParentDad_Running : MonoBehaviour 
 	{
-		public void LOParent_RunningController() 
+		public void LOParentDad_RunningController() 
 		{
 			
 		}

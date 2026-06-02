@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Player.converteranimations
 {
-	public class Player_ConverterToAnimatorController : MonoBehaviour 
+	public class Player_ConverterAnimatorController : MonoBehaviour 
 	{
 		private Player_SittingTo Player_Sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Player.converteranimations
 		
 		private Player_IdleTo PlayerIdleto;
 
-		public void PL_ConverterToAnimatorController()
+		public void PL_ConverterAnimatorController()
 		{
 			Player_Walkingto.Player_WalkingToController();
 

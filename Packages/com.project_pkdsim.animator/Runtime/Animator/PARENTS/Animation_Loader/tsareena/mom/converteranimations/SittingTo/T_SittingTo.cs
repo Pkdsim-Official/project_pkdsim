@@ -4,22 +4,22 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.converteranimations.SittingTo
 {
-	public class TSittingTo : MonoBehaviour 
+	public class TParentMom_SittingTo : MonoBehaviour 
 	{
-		private TSittingToStartWalking TsareenasittingToStartWalking;
-		private TSittingToStanding TsareenasittingToStanding;
-		public void TSittingToController()
+		private TParentMom_SittingToStartWalking TsareenasittingToStartWalking;
+		private TParentMom_SittingToStanding TsareenasittingToStanding;
+		public void TParentMom_SittingToController()
 		{
-			TSittingToStartWalking();
-			TSittingToStanding();
+			TParentMom_SittingToStartWalking();
+			TParentMom_SittingToStanding();
 		}
-		private void TSittingToStartWalking()
+		private void TParentMom_SittingToStartWalking()
 		{
-			TsareenasittingToStartWalking.TSittingToStartWalkingController();
+			TsareenasittingToStartWalking.TParentMom_SittingToStartWalkingController();
 		}
-		private void TSittingToStanding()
+		private void TParentMom_SittingToStanding()
 		{
-			TsareenasittingToStanding.TSittingToStandingController();
+			TsareenasittingToStanding.TParentMom_SittingToStandingController();
 		}
 
 	}

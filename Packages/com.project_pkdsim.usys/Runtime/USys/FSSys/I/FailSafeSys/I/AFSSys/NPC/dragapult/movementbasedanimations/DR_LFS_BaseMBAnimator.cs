@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Dragapult.movementbasedanimations
 {
-	public class Dragapult_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Dragapult_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private DR_LFS_Jumping DR_MBA_Jumping;
 		

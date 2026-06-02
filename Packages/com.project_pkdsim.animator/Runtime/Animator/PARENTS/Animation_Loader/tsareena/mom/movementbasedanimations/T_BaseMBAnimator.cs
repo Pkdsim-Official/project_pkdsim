@@ -6,26 +6,26 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.movementbasedanimations
 {
-	public class TsareenaParent_AnimatorMovementController : MonoBehaviour 
+	public class TsareenaParentMom_MovementAnimatorController : MonoBehaviour 
 	{
-		private TParent_Jumping Tsareena_MBA_Jumping;
+		private TParentMom_Jumping TsareenaParentMom_MBA_Jumping;
 		
-		private TParent_Running Tsareena_MBA_Running;
+		private TParentMom_Running TsareenaParentMom_MBA_Running;
 
 
-		private TParent_Turning Tsareena_MBA_Turning;
+		private TParentMom_Turning TsareenaParentMom_MBA_Turning;
 
-		private TParent_Strafing Tsareena_MBA_Strafe;
+		private TParentMom_Strafing TsareenaParentMom_MBA_Strafe;
 
-		public void TMovementAnimatorController()
+		public void TParentMom_MovementAnimatorController()
 		{
-			Tsareena_MBA_Running.TParent_RunningController();
+			TsareenaParentMom_MBA_Running.TParentMom_RunningController();
 
-			Tsareena_MBA_Jumping.TParent_JumpingController();
+			TsareenaParentMom_MBA_Jumping.TParentMom_JumpingController();
 
-			Tsareena_MBA_Turning.TParent_TurningController();	
+			TsareenaParentMom_MBA_Turning.TParentMom_TurningController();	
 
-			Tsareena_MBA_Strafe.TParent_StrafingController();
+			TsareenaParentMom_MBA_Strafe.TParentMom_StrafingController();
 		}
 	}
 }

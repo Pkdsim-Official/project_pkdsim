@@ -1,6 +1,6 @@
-using project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys.Modules;
+using project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.STORESys.Modules;
 
-namespace project_pkdsim.USys.MOSys.Modules.MoneySys.Modules.STORESys
+namespace project_pkdsim.USys.MOSys.Modules.MONEYSys.Modules.STORESys
 {
 	public class StoreSys : STORESysI 
 	{

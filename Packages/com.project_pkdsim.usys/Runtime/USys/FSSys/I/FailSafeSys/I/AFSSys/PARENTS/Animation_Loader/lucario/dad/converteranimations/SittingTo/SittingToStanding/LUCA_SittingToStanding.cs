@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.SittingTo.SittingToStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lucario.Dad.converteranimations.SittingTo.SittingToStanding
 {
-	public class LUCASittingToStanding : MonoBehaviour 
+	public class LUCAParentDad_SittingToStanding : MonoBehaviour 
 	{
-		public void LUCASittingToStandingController()
+		public void LUCAParentDad_SittingToStandingController()
 		{
 			
 		}

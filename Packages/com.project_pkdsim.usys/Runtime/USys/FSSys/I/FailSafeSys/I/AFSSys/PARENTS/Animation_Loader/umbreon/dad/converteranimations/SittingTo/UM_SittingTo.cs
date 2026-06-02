@@ -1,20 +1,20 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Umbreon.converteranimations.SittingTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Umbreon.Dad.converteranimations.SittingTo
 {
-	public class UM_SittingTo : MonoBehaviour 
+	public class UMParentDad_SittingTo : MonoBehaviour 
 	{
 		
-		public void UM_SittingToController()
+		public void UMParentDad_SittingToController()
 		{
-			// Load_UM_SittingToRun();
-			// Load_UM_SittingToWalk();
+			// Load_UMParentDad_SittingToRun();
+			// Load_UMParentDad_SittingToWalk();
 		}
-		private void Load_UM_SittingToRun()
+		private void Load_UMParentDad_SittingToRun()
 		{
 			
 		}
-		private void Load_UM_SittingToWalk()
+		private void Load_UMParentDad_SittingToWalk()
 		{
 			
 		}

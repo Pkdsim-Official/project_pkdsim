@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lopunny.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lopunny.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class LOIdleToRun : MonoBehaviour 
+	public class LOParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void LOIdleToRunController() 
+		public void LOParentDad_IdleToRunController() 
 		{
 			
 		}

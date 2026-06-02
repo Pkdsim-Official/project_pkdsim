@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.movementbasedanimations.Jumping
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.movementbasedanimations.Jumping
 {
-	public class TParent_Jumping : MonoBehaviour 
+	public class TParentDad_Jumping : MonoBehaviour 
 	{
-		public void TParent_JumpingController() 
+		public void TParentDad_JumpingController() 
 		{
 			
 		}

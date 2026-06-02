@@ -2,17 +2,17 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Mom.converteranimations.SittingTo
 {
-	public class JT_SittingTo : MonoBehaviour 
+	public class JTParentMom_SittingTo : MonoBehaviour 
 	{
-		public void JT_SittingToController()
+		public void JTParentMom_SittingToController()
 		{
 			
 		}
-		private void Load_JT_SittingToStartWalking()
+		private void Load_JTParentMom_SittingToStartWalking()
 		{
 			
 		}
-		private void Load_JT_SittingToStanding()
+		private void Load_JTParentMom_SittingToStanding()
 		{
 			
 		}

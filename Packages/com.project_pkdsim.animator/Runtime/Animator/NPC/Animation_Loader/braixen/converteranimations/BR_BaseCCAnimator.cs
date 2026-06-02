@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations
 {
-	public class Braixen_ConverterToAnimatorController : MonoBehaviour 
+	public class Braixen_ConverterAnimatorController : MonoBehaviour 
 	{
 		private BR_SittingTo BraixenSittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Braixen.converteranimations
 		
 		private BR_IdleTo BraixenIdleto;
 
-		public void BR_ConverterToAnimatorController()
+		public void BR_ConverterAnimatorController()
 		{
 			BraixenWalkingto.BR_WalkingToController();
 

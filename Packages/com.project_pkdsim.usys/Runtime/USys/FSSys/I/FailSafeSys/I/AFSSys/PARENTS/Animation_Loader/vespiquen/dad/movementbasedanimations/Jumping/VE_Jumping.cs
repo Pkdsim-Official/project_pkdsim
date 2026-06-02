@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Vespiquen.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations.Jumping
 {
-	public class VEParent_Jumping : MonoBehaviour 
+	public class VEParentDad_Jumping : MonoBehaviour 
 	{
-		public void VEParent_JumpingController() 
+		public void VEParentDad_JumpingController() 
 		{
 			
 		}

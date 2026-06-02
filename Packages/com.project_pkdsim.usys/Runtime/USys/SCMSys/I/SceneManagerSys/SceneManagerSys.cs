@@ -1,15 +1,15 @@
-using project_pkdsim.USys.SceneManagerSys.Modules;
+using project_pkdsim.USys.SCMSys.Modules.SceneManagerSys.Modules;
 using UnityEngine.SceneManagement;
 
-namespace project_pkdsim.USys.SceneManagerSys
+namespace project_pkdsim.USys.SCMSys.Modules.SceneManagerSys
 {
-    public class SCMSys : SCMSysI
+    public class SceneManagementSys : SceneManagementSysI
     {
         public void LoadScene(string project_pkdsim)
         {
             SceneManager.LoadScene(project_pkdsim);
         }
-        public void SCMSysI()
+        public void SceneManagementSysI()
         {
             LoadScene("project_pkdsim");
         }

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Hatterene.converteranimations
 {
-	public class Hatterene_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Hatterene_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private HAT_LFS_SittingTo Hatterene_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private HAT_LFS_IdleTo Hatterene_LFS_idleto;
 
-		public void HAT_LFS_ConverterToAnimatorController()
+		public void HAT_LFS_ConverterAnimatorController()
 		{
 			Hatterene_LFS_walkingto.HAT_LFS_WalkingToController();
 

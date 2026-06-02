@@ -1,11 +1,11 @@
-using project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Primarina.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Primarina.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Primarina.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Primarina.Dad.converteranimations
 {
-	public class Primarina_ConverterToAnimatorController : MonoBehaviour 
+	public class PrimarinaParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
 		private PRSittingTo Primarinasittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.ANIMATOR.Parents.Primarina.converteranimations
 		
 		private PRIdleTo Primarinaidleto;
 
-		public void PR_ConverterToAnimatorController()
+		public void PR_ConverterAnimatorController()
 		{
 			Primarinawalkingto.PRWalkingToController();
 

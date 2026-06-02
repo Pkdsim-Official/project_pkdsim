@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.converteranimations.IdleTo.IdleToRun
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.converteranimations.IdleTo.IdleToRun
 {
-	public class MEOWIdleToRun : MonoBehaviour 
+	public class MEOWParentDad_IdleToRun : MonoBehaviour 
 	{
-		public void MEOWIdleToRunController() 
+		public void MEOWParentDad_IdleToRunController() 
 		{
 			
 		}

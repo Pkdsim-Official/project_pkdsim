@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Leafeon.idlebaseanimations
 {
-	public class  Leafeon_LFS_AnimatorIdleController  : MonoBehaviour 
+	public class  Leafeon_LFS_IdleAnimatorController  : MonoBehaviour 
 	{
 		private LE_LFS_IdleStanding LE_LFS_idlestanding;
 		

@@ -1,37 +1,37 @@
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Pheromosa.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Pheromosa.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Pheromosa.Dad.Animator_I
 {
-	public class LFS_PheromosaFailSafe : MonoBehaviour 
+	public class PheromosaParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Pheromosa_Animator;
+		public Animator PheromosaParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Pheromosa_ConverterToAnimatorController LFSPheromosa_AnimatorCCA;
-		private PheromosaParent_AnimatorMovementController LFSPheromosa_AnimatorCMA;
-		private Pheromosa_IdleAnimatorController LFSPheromosa_AnimatorICA;
+		private PheromosaParentDad_ConverterAnimatorController PheromosaParentDad_AnimatorCCA;
+		private PheromosaParentDad_MovementAnimatorController PheromosaParentDad_AnimatorCMA;
+		private PheromosaParentDad_IdleAnimatorController PheromosaParentDad_AnimatorICA;
 
 
-		public void LoadFailSafePheromosa_AnimatorController()
+		public void LoadFailSafePheromosaParentDad_AnimatorController()
 		{
-			LoadFailSafePheromosa_ConvertToAnimatorController();
-			LoadFailSafePheromosa_MovementAnimatorController();
-			LoadFailSafePheromosa_IdleAnimatorController();
+			LoadFailSafePheromosaParentDad_ConvertToAnimatorController();
+			LoadFailSafePheromosaParentDad_MovementAnimatorController();
+			LoadFailSafePheromosaParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafePheromosa_ConvertToAnimatorController()
+		private void LoadFailSafePheromosaParentDad_ConvertToAnimatorController()
 		{
-			LFSPheromosa_AnimatorCCA.PH_ConverterToAnimatorController();
+			PheromosaParentDad_AnimatorCCA.PH_ConverterAnimatorController();
 		}
-		private void LoadFailSafePheromosa_MovementAnimatorController()
+		private void LoadFailSafePheromosaParentDad_MovementAnimatorController()
 		{
-			LFSPheromosa_AnimatorCMA.PHMovementAnimatorController();
+			PheromosaParentDad_AnimatorCMA.PHMovementAnimatorController();
 		}
-		private void LoadFailSafePheromosa_IdleAnimatorController()
+		private void LoadFailSafePheromosaParentDad_IdleAnimatorController()
 		{
-			LFSPheromosa_AnimatorICA.PH_IdleAnimatorController();
+			PheromosaParentDad_AnimatorICA.PH_IdleAnimatorController();
 		}
 	}
 }

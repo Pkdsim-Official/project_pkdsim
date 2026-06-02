@@ -1,37 +1,36 @@
-using project_pkdsim.ANIMATOR.Parents.Braixen.idlebaseanimation;
-using project_pkdsim.ANIMATOR.Parents.Braixen.movementbasedanimations;
-using project_pkdsim.ANIMATOR.Parents.Braixen.converteranimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.idlebaseanimation;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.movementbasedanimations;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.converteranimations;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Braixen.Animator_I
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Braixen.Dad.Animator_I
 {
-	public class LFS_BraixenFailSafe : MonoBehaviour 
+	public class BraixenParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Braixen_Animator;
+		public Animator BraixenParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Braixen_ConverterToAnimatorController LFSBraixen_AnimatorCCA;
-		private BraixenParent_AnimatorMovementController LFSBraixen_AnimatorCMA;
-		private Braixen_IdleAnimatorController LFSBraixen_AnimatorICA;
+		private BraixenParentDad_ConverterAnimatorController BraixenParentDad_AnimatorCCA;
+		private BraixenParentDad_MovementAnimatorController BraixenParentDad_AnimatorCMA;
+		private BraixenParentDad_IdleAnimatorController BraixenParentDad_AnimatorICA;
 
-
-		public void LoadFailSafeBraixen_AnimatorController()
+		public void LoadFailSafeBraixenParentDad_AnimatorController()
 		{
-			LoadFailSafeBraixen_ConvertToAnimatorController();
-			LoadFailSafeBraixen_MovementAnimatorController();
-			LoadFailSafeBraixen_IdleAnimatorController();
+			LoadFailSafeBraixenParentDad_ConvertToAnimatorController();
+			LoadFailSafeBraixenParentDad_MovementAnimatorController();
+			LoadFailSafeBraixenParentDad_IdleAnimatorController();
 		}
-		private void LoadFailSafeBraixen_ConvertToAnimatorController()
+		private void LoadFailSafeBraixenParentDad_ConvertToAnimatorController()
 		{
-			LFSBraixen_AnimatorCCA.BR_ConverterToAnimatorController();
+			BraixenParentDad_AnimatorCCA.BR_ConverterAnimatorController();
 		}
-		private void LoadFailSafeBraixen_MovementAnimatorController()
+		private void LoadFailSafeBraixenParentDad_MovementAnimatorController()
 		{
-			LFSBraixen_AnimatorCMA.BRMovementAnimatorController();
+			BraixenParentDad_AnimatorCMA.BRMovementAnimatorController();
 		}
-		private void LoadFailSafeBraixen_IdleAnimatorController()
+		private void LoadFailSafeBraixenParentDad_IdleAnimatorController()
 		{
-			LFSBraixen_AnimatorICA.BR_IdleAnimatorController();
+			BraixenParentDad_AnimatorICA.BR_IdleAnimatorController();
 		}
 	}
 }

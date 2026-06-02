@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Hatterene.Mom.converteranimations.IdleTo.IdleToRun
 {
-	public class HATIdleToRun : MonoBehaviour 
+	public class HAT_IdleToRun : MonoBehaviour 
 	{
-		public void HATIdleToRunController() 
+		public void HAT_IdleToRunController() 
 		{
 			
 		}

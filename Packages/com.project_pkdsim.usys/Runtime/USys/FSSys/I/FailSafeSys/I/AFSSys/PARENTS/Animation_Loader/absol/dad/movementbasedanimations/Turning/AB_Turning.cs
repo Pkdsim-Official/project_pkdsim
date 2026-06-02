@@ -1,34 +1,34 @@
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning.TurnLeft;
-using project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning.TurnRight;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning.TurnLeft;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning.TurnRight;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.movementbasedanimations.Turning
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.movementbasedanimations.Turning
 {
-	public class ABParent_Turning : MonoBehaviour	
+	public class ABParentDad_Turning : MonoBehaviour	
 	{
-		private ABParent_TurnLeft ABParent_TurnLeft;
-		private ABParent_TurnRight ABParent_TurnRight;
+		private ABParentDad_TurnLeft ABParentDad_TurnLeft;
+		private ABParentDad_TurnRight ABParentDad_TurnRight;
 
-		public void ABParent_TurningController()
+		public void ABParentDad_TurningController()
 		{
-			if (ABParent_TurnLeft == null)
+			if (ABParentDad_TurnLeft == null)
 			{
-				Load_ABParent_TurnLeft();
+				Load_ABParentDad_TurnLeft();
 			}
-			if (ABParent_TurnRight == null)
+			if (ABParentDad_TurnRight == null)
 			{
-				Load_ABParent_TurnRight();
+				Load_ABParentDad_TurnRight();
 			}
 		}
 
-		private void Load_ABParent_TurnRight()
+		private void Load_ABParentDad_TurnRight()
 		{
-			ABParent_TurnRight.ABParent_TurnRightController();
+			ABParentDad_TurnRight.ABParentDad_TurnRightController();
 		}
 		
-		private void Load_ABParent_TurnLeft()
+		private void Load_ABParentDad_TurnLeft()
 		{
-			ABParent_TurnLeft.ABParent_TurnLeftController();
+			ABParentDad_TurnLeft.ABParentDad_TurnLeftController();
 		}
 	}
 }

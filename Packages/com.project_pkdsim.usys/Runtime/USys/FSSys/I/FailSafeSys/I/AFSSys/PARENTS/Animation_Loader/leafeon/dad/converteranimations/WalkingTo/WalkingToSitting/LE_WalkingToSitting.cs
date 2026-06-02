@@ -1,9 +1,12 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Leafeon.converteranimations.WalkingTo.WalkingToSitting
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Dad.converteranimations.WalkingTo.WalkingToSitting
 {
-	public class LE_WalkingToSitting : MonoBehaviour 
+	public class LEParentDad_WalkingToSitting : MonoBehaviour 
 	{
-
+		public void LEParentDad_WalkingToSittingController() 
+		{
+			
+		}
 	}
 }

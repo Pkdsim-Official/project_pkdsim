@@ -5,31 +5,31 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Jolteon.Dad.Animator_I
 {
-	public class JT_AnimatorI : MonoBehaviour 
+	public class GLParentDad_AnimatorI : MonoBehaviour 
 	{
-		public Animator JolteonParent_Animator;
+		public Animator JolteonParentDad_Animator;
 		public RuntimeAnimatorController someController;
 
-		private JolteonParent_ConverterAnimatorController JolteonParent_AnimatorCCA;
-		private JolteonParent_AnimatorMovementController JolteonParent_AnimatorCMA;
-		private JolteonParent_AnimatorIdleController JolteonParent_AnimatorICA;
+		private JolteonParentDad_ConverterAnimatorController JolteonParentDad_AnimatorCCA;
+		private JolteonParentDad_MovementAnimatorController JolteonParentDad_AnimatorCMA;
+		private JolteonParentDad_IdleAnimatorController JolteonParentDad_AnimatorICA;
 
-		private void JolteonParent_AnimatorController()
+		private void JolteonParentDad_AnimatorController()
 		{
-			JolteonParent_Animator = gameObject.GetComponent<Animator>();
-			JolteonParent_Animator.runtimeAnimatorController = someController;
+			JolteonParentDad_Animator = gameObject.GetComponent<Animator>();
+			JolteonParentDad_Animator.runtimeAnimatorController = someController;
 		}
 		private void ConvertToAnimatorController()
 		{
-
+			JolteonParentDad_AnimatorCCA.JTParentDad_ConverterAnimatorController();
 		}
 		private void MovementAnimatorController()
 		{
-			
+			JolteonParentDad_AnimatorCMA.JTParentDad_MovementAnimatorController();
 		}
-		private void _IdleAnimatorController()
+		private void JolteonParentDad_IdleAnimatorController()
 		{
-			
+			JolteonParentDad_AnimatorICA.JTParentDad_IdleAnimatorController();
 		}
 	}
 }

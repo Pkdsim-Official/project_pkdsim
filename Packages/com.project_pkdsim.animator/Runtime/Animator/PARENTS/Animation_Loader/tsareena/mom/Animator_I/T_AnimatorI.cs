@@ -7,31 +7,30 @@ namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Mom.Animator_I
 {
 	public class TsareenaFailSafe : MonoBehaviour 
 	{
-		public Animator Tsareena_Animator;
+		public Animator TsareenaParentMom_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Tsareena_ConverterToAnimatorController Tsareena_AnimatorCCA;
-		private TsareenaParent_AnimatorMovementController Tsareena_AnimatorCMA;
-		private Tsareena_IdleAnimatorController Tsareena_AnimatorICA;
+		private TsareenaParentMom_ConverterAnimatorController TsareenaParentMom_AnimatorCCA;
+		private TsareenaParentMom_MovementAnimatorController TsareenaParentMom_AnimatorCMA;
+		private TsareenaParentMom_IdleAnimatorController TsareenaParentMom_AnimatorICA;
 
-
-		public void LoadFailSafeTsareena_AnimatorController()
+		public void LoadFailSafeTsareenaParentMom_AnimatorController()
 		{
-			LoadFailSafeTsareena_ConvertToAnimatorController();
-			LoadFailSafeTsareena_MovementAnimatorController();
-			LoadFailSafeTsareena_IdleAnimatorController();
+			LoadFailSafeTsareenaParentMom_ConvertToAnimatorController();
+			LoadFailSafeTsareenaParentMom_MovementAnimatorController();
+			LoadFailSafeTsareenaParentMom_IdleAnimatorController();
 		}
-		private void LoadFailSafeTsareena_ConvertToAnimatorController()
+		private void LoadFailSafeTsareenaParentMom_ConvertToAnimatorController()
 		{
-			Tsareena_AnimatorCCA.T_ConverterToAnimatorController();
+			TsareenaParentMom_AnimatorCCA.TParentMom_ConverterAnimatorController();
 		}
-		private void LoadFailSafeTsareena_MovementAnimatorController()
+		private void LoadFailSafeTsareenaParentMom_MovementAnimatorController()
 		{
-			Tsareena_AnimatorCMA.TMovementAnimatorController();
+			TsareenaParentMom_AnimatorCMA.TParentMom_MovementAnimatorController();
 		}
-		private void LoadFailSafeTsareena_IdleAnimatorController()
+		private void LoadFailSafeTsareenaParentMom_IdleAnimatorController()
 		{
-			Tsareena_AnimatorICA.T_IdleAnimatorController();
+			TsareenaParentMom_AnimatorICA.TParentMom_IdleAnimatorController();
 		}
 	}
 }

@@ -1,12 +1,12 @@
-using project_pkdsim.USys.HDSys.Modules.HolidaySys.Modules;
+using project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.DataBase.Modules;
 
-namespace project_pkdsim.USys.HDSys.Modules.HolidaySys
+namespace project_pkdsim.USys.HDSys.Modules.HOLIDAYSys.Modules.DataBase
 {
     public class HolidaySys : HolidaySysI
     {
-        public void HolidaySys_I()
+        public void HolidaySysI()
         {
-            
+            HolidaySysI();
         }
     }
 }

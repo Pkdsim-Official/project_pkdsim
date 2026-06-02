@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Absol.converteranimations
 {
-	public class Absol_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Absol_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private AB_LFS_SittingTo Absol_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private AB_LFS_IdleTo Absol_LFS_idleto;
 
-		public void AB_LFS_ConverterToAnimatorController()
+		public void AB_LFS_ConverterAnimatorController()
 		{
 			Absol_LFS_walkingto.AB_LFS_WalkingToController();
 

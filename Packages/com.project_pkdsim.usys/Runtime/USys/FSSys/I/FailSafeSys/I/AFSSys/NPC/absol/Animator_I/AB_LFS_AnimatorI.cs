@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType absol = NPCSpeciesType.ABSOL;
 
-		private Absol_LFS_ConverterToAnimatorController LFSAbsol_AnimatorCCA;
-		private Absol_LFS_AnimatorMovementController LFSAbsol_AnimatorCMA;
+		private Absol_LFS_ConverterAnimatorController LFSAbsol_AnimatorCCA;
+		private Absol_LFS_MovementAnimatorController LFSAbsol_AnimatorCMA;
 		private Absol_LFS_IdleAnimatorController LFSAbsol_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeAbsol_ConvertToAnimatorController()
 		{
-			LFSAbsol_AnimatorCCA.AB_LFS_ConverterToAnimatorController();
+			LFSAbsol_AnimatorCCA.AB_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeAbsol_MovementAnimatorController()
 		{

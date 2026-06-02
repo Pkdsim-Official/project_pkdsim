@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations.WalkingTo;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.IdleTo;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.SittingTo;
+using project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Tsareena.converteranimations
+namespace project_pkdsim.ANIMATOR.Parents.Tsareena.Dad.converteranimations
 {
-	public class Tsareena_ConverterToAnimatorController : MonoBehaviour 
+	public class TsareenaParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private TSittingTo Tsareenasittingto;
+		private TParentDad_SittingTo Tsareenasittingto;
 		
-		private TWalkingTo Tsareenawalkingto;
+		private TParentDad_WalkingTo Tsareenawalkingto;
 		
-		private TIdleTo Tsareenaidleto;
+		private TParentDad_IdleTo Tsareenaidleto;
 
-		public void T_ConverterToAnimatorController()
+		public void TParentDad_ConverterAnimatorController()
 		{
-			Tsareenawalkingto.TWalkingToController();
+			Tsareenawalkingto.TParentDad_WalkingToController();
 
-			Tsareenaidleto.T_IdleToController();
+			Tsareenaidleto.TParentDad_IdleToController();
 			
-			Tsareenasittingto.TSittingToController();	
+			Tsareenasittingto.TParentDad_SittingToController();	
 		}
 	}
 }

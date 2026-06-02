@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.IdleTo;
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.SittingTo;
-using project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations.WalkingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lucario.Dad.converteranimations.IdleTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lucario.Dad.converteranimations.SittingTo;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lucario.Dad.converteranimations.WalkingTo;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Lucario.converteranimations
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Lucario.Dad.converteranimations
 {
-	public class Lucario_ConverterToAnimatorController : MonoBehaviour 
+	public class LucarioParentDad_ConverterAnimatorController : MonoBehaviour 
 	{
-		private LUCASittingTo Lucariosittingto;
+		private LUCAParentDad_SittingTo Lucariosittingto;
 		
-		private LUCAWalkingTo Lucariowalkingto;
+		private LUCAParentDad_WalkingTo Lucariowalkingto;
 		
-		private LUCAIdleTo Lucarioidleto;
+		private LUCAParentDad_IdleTo Lucarioidleto;
 
-		public void LUCA_ConverterToAnimatorController()
+		public void LUCAParentDad_ConverterAnimatorController()
 		{
-			Lucariowalkingto.LUCAWalkingToController();
+			Lucariowalkingto.LUCAParentDad_WalkingToController();
 
-			Lucarioidleto.LUCA_IdleToController();
+			Lucarioidleto.LUCAParentDad_IdleToController();
 			
-			Lucariosittingto.LUCASittingToController();	
+			Lucariosittingto.LUCAParentDad_SittingToController();	
 		}
 	}
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Vaporeon.idlebaseanimation
 {
-	public class Vaporeon_LFS_AnimatorIdleController : MonoBehaviour 
+	public class Vaporeon_LFS_IdleAnimatorController : MonoBehaviour 
 	{
 		private VP_LFS_IdleStanding VP_LFS_idlestanding;
 		

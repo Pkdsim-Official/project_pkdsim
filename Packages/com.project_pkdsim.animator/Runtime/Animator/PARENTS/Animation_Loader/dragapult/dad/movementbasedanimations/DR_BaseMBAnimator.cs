@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.ANIMATOR.Parents.Dragapult.movementbasedanimations
 {
-	public class DelphoxParentDad_AnimatorMovementController : MonoBehaviour 
+	public class DelphoxParentDad_MovementAnimatorController : MonoBehaviour 
 	{
 		private DRParent_Jumping DR_MBA_Jumping;
 		

@@ -10,8 +10,8 @@ namespace project_pkdsim.ANIMATOR.NPC.Blaziken.Animator_I
 		public Animator Blaziken_Animator;
 		public RuntimeAnimatorController someController;
 
-		private Blaziken_ConverterToAnimatorController LFSBlaziken_AnimatorCCA;
-		private Blaziken_AnimatorMovementController LFSBlaziken_AnimatorCMA;
+		private Blaziken_ConverterAnimatorController LFSBlaziken_AnimatorCCA;
+		private Blaziken_MovementAnimatorController LFSBlaziken_AnimatorCMA;
 		private Blaziken_IdleAnimatorController LFSBlaziken_AnimatorICA;
 
 
@@ -23,7 +23,7 @@ namespace project_pkdsim.ANIMATOR.NPC.Blaziken.Animator_I
 		}
 		private void LoadFailSafeBlaziken_ConvertToAnimatorController()
 		{
-			LFSBlaziken_AnimatorCCA.BL_ConverterToAnimatorController();
+			LFSBlaziken_AnimatorCCA.BL_ConverterAnimatorController();
 		}
 		private void LoadFailSafeBlaziken_MovementAnimatorController()
 		{

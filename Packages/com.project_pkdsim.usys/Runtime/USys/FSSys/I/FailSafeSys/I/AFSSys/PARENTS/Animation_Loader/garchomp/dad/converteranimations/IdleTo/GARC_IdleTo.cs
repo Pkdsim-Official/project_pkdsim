@@ -1,25 +1,25 @@
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo.IdleToRun;
-using project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo.IdleToWalk;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo.IdleToRun;
+using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo.IdleToWalk;
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Garchomp.converteranimations.IdleTo
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Garchomp.Dad.converteranimations.IdleTo
 {
-	public class GARC_IdleTo : MonoBehaviour 
+	public class GARCParentDad_IdleTo : MonoBehaviour 
 	{
-		private GARC_IdleToRun GarchompIdleToRun;
-		private GARC_IdleToWalk GarchompIdleToWalk;
-		public void GARC_IdleToController()
+		private GARCParentDad_IdleToRun GarchompIdleToRun;
+		private GARCParentDad_IdleToWalk GarchompIdleToWalk;
+		public void GARCParentDad_IdleToController()
 		{
-			Load_GARC_IdleToRun();
-			Load_GARC_IdleToWalk();
+			Load_GARCParentDad_IdleToRun();
+			Load_GARCParentDad_IdleToWalk();
 		}
-		private void Load_GARC_IdleToRun()
+		private void Load_GARCParentDad_IdleToRun()
 		{
-			GarchompIdleToRun.GARC_IdleToRunController();
+			GarchompIdleToRun.GARCParentDad_IdleToRunController();
 		}
-		private void Load_GARC_IdleToWalk()
+		private void Load_GARCParentDad_IdleToWalk()
 		{
-			GarchompIdleToWalk.GARC_IdleToWalkController();
+			GarchompIdleToWalk.GARCParentDad_IdleToWalkController();
 		}
 	}
 }

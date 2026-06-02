@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Meowscarada.movementbasedanimations.Jumping
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Dad.movementbasedanimations.Jumping
 {
-	public class MEOWParent_Jumping : MonoBehaviour 
+	public class MEOWParentDad_Parent_Jumping : MonoBehaviour 
 	{
-		public void MEOWParent_JumpingController() 
+		public void MEOWParentDad_Parent_JumpingController() 
 		{
 			
 		}

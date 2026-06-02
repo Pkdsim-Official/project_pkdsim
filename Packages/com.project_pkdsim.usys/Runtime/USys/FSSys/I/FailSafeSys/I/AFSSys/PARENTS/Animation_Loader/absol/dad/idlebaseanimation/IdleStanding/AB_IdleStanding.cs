@@ -1,15 +1,15 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Absol.idlebaseanimation.IdleStanding
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Absol.Dad.idlebaseanimation.IdleStanding
 {
 	public class ABIdleStanding : MonoBehaviour 
 	{
-		public Animator Absol_Animator;
+		public Animator AbsolParentDad_Animator;
 		public void ABIdleStandingController()
 		{
 			// Assign the idle animation clip
-			Absol_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
-			Absol_Animator.Play("Idle_Standing");         // Start in the Idle animation state
+			AbsolParentDad_Animator.SetFloat("Speed", 0f); // Initialize speed to 0
+			AbsolParentDad_Animator.Play("Idle_Standing");         // Start in the Idle animation state
 		}
 	}
 }

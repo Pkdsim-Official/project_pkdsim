@@ -13,8 +13,8 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType salazzle = NPCSpeciesType.SALAZZLE;
 
-		private Salazzle_LFS_ConverterToAnimatorController LFSSalazzle_AnimatorCCA;
-		private Salazzle_LFS_AnimatorMovementController LFSSalazzle_AnimatorCMA;
+		private Salazzle_LFS_ConverterAnimatorController LFSSalazzle_AnimatorCCA;
+		private Salazzle_LFS_MovementAnimatorController LFSSalazzle_AnimatorCMA;
 		private Salazzle_LFS_IdleAnimatorController LFSSalazzle_AnimatorICA;
 
 
@@ -26,7 +26,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		}
 		private void LoadFailSafeSalazzle_ConvertToAnimatorController()
 		{
-			LFSSalazzle_AnimatorCCA.SA_LFS_ConverterToAnimatorController();
+			LFSSalazzle_AnimatorCCA.SA_LFS_ConverterAnimatorController();
 		}
 		private void LoadFailSafeSalazzle_MovementAnimatorController()
 		{

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Beedrill.converteranimations
 {
-	public class Beedrill_LFS_ConverterToAnimatorController : MonoBehaviour 
+	public class Beedrill_LFS_ConverterAnimatorController : MonoBehaviour 
 	{
 		private BE_LFS_SittingTo Beedrill_LFS_sittingto;
 		
@@ -13,7 +13,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		
 		private BE_LFS_IdleTo Beedrill_LFS_idleto;
 
-		public void BE_LFS_ConverterToAnimatorController()
+		public void BE_LFS_ConverterAnimatorController()
 		{
 			Beedrill_LFS_walkingto.BE_LFS_WalkingToController();
 

@@ -13,9 +13,9 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 
 		private NPCSpeciesType leafeon = NPCSpeciesType.LEAFEON;
 
-		private Leafeon_LFS_AnimatorBaseConverterController LFSLeafeon_AnimatorCCA;
-		private Leafeon_LFS_AnimatorMovementController LFSLeafeon_AnimatorCMA;
-		private Leafeon_LFS_AnimatorIdleController LFSLeafeon_AnimatorICA;
+		private Leafeon_LFS_ConverterAnimatorController LFSLeafeon_AnimatorCCA;
+		private Leafeon_LFS_MovementAnimatorController LFSLeafeon_AnimatorCMA;
+		private Leafeon_LFS_IdleAnimatorController LFSLeafeon_AnimatorICA;
 
 		public void LoadFailSafeLeafeon_AnimatorController()
 		{

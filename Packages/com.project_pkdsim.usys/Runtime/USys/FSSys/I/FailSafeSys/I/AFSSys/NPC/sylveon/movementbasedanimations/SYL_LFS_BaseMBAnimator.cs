@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.NPC.Sylveon.movementbasedanimations
 {
-	public class Sylveon_LFS_AnimatorMovementController : MonoBehaviour 
+	public class Sylveon_LFS_MovementAnimatorController : MonoBehaviour 
 	{
 		private SYL_LFS_Jumping Sylveon_MBA_Jumping;
 		
