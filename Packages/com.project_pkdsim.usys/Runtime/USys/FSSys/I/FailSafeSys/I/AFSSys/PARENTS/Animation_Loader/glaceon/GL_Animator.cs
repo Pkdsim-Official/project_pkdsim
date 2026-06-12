@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private GlaceonParentDad_FailSafe GlaceonParentDad_FailSafe;
 		private GlaceonParentMom_FailSafe GlaceonParentMom_FailSafe;
-		public void Load_GlaceonParentsFailSafe()
+		public void LoadFailSafeGlaceonParents_AnimatorController()
 		{
-			Load_GlaceonParentDad_FailSafe();
-			Load_GlaceonParentMom_FailSafe();	
+			LoadFailSafe_GlaceonParentDad_FailSafe();
+			LoadFailSafe_GlaceonParentMom_FailSafe();	
 		}
-		private void Load_GlaceonParentDad_FailSafe()
+		private void LoadFailSafe_GlaceonParentDad_FailSafe()
 		{
-			GlaceonParentDad_FailSafe.LoadFailSafeGlaceonParentDad_AnimatorController();
+			// GlaceonParentDad_FailSafe.LoadFailSafeGlaceonParentDad_AnimatorController();
 		}
-		private void Load_GlaceonParentMom_FailSafe()
+		private void LoadFailSafe_GlaceonParentMom_FailSafe()
 		{
-			GlaceonParentMom_FailSafe.LoadFailSafeGlaceonParentMom_AnimatorController();
+			// GlaceonParentMom_FailSafe.LoadFailSafeGlaceonParentMom_AnimatorController();
 		}
 	}
 }

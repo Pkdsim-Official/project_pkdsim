@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private BlazikenParentDad_FailSafe BlazikenParentDad_FailSafe;
 		private BlazikenParentMom_FailSafe BlazikenParentMom_FailSafe;
-		public void Load_BlazikenParentsFailSafe()
+		public void LoadFailSafeBlazikenParents_AnimatorController()
 		{
-			Load_BlazikenParentDad_FailSafe();
-			Load_BlazikenParentMom_FailSafe();	
+			LoadFailSafe_BlazikenParentDad_FailSafe();
+			LoadFailSafe_BlazikenParentMom_FailSafe();	
 		}
-		private void Load_BlazikenParentDad_FailSafe()
+		private void LoadFailSafe_BlazikenParentDad_FailSafe()
 		{
-			BlazikenParentDad_FailSafe.LoadFailSafeBlazikenParentDad_AnimatorController();
+			// BlazikenParentDad_FailSafe.LoadFailSafeBlazikenParentDad_AnimatorController();
 		}
-		private void Load_BlazikenParentMom_FailSafe()
+		private void LoadFailSafe_BlazikenParentMom_FailSafe()
 		{
-			BlazikenParentMom_FailSafe.LoadFailSafeBlazikenParentMom_AnimatorController();
+			// BlazikenParentMom_FailSafe.LoadFailSafeBlazikenParentMom_AnimatorController();
 		}
 	}
 }

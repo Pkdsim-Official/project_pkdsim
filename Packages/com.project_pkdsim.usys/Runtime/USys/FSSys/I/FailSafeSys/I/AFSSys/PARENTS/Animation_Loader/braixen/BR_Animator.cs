@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private BraixenParentDad_FailSafe BraixenParentDad_FailSafe;
 		private BraixenParentMom_FailSafe BraixenParentMom_FailSafe;
-		public void Load_BraixenParentsFailSafe()
+		public void LoadFailSafeBraixenParents_AnimatorController()
 		{
-			Load_BraixenParentDad_FailSafe();
-			Load_BraixenParentMom_FailSafe();	
+			LoadFailSafe_BraixenParentDad_FailSafe();
+			LoadFailSafe_BraixenParentMom_FailSafe();	
 		}
-		private void Load_BraixenParentDad_FailSafe()
+		private void LoadFailSafe_BraixenParentDad_FailSafe()
 		{
-			BraixenParentDad_FailSafe.LoadFailSafeBraixenParentDad_AnimatorController();
+			// BraixenParentDad_FailSafe.LoadFailSafeBraixenParentDad_AnimatorController();
 		}
-		private void Load_BraixenParentMom_FailSafe()
+		private void LoadFailSafe_BraixenParentMom_FailSafe()
 		{
-			BraixenParentMom_FailSafe.LoadFailSafeBraixenParentMom_AnimatorController();
+			// BraixenParentMom_FailSafe.LoadFailSafeBraixenParentMom_AnimatorController();
 		}
 	}
 }

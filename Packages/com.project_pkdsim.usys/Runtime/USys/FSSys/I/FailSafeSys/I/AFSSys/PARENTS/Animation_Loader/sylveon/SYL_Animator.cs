@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private SylveonParentDad_FailSafe SylveonParentDad_FailSafe;
 		private SylveonParentMom_FailSafe SylveonParentMom_FailSafe;
-		public void Load_SylveonParentsFailSafe()
+		public void LoadFailSafeSylveonParents_AnimatorController()
 		{
-			Load_SylveonParentDad_FailSafe();
-			Load_SylveonParentMom_FailSafe();	
+			LoadFailSafe_SylveonParentDad_FailSafe();
+			LoadFailSafe_SylveonParentMom_FailSafe();	
 		}
-		private void Load_SylveonParentDad_FailSafe()
+		private void LoadFailSafe_SylveonParentDad_FailSafe()
 		{
-			SylveonParentDad_FailSafe.LoadFailSafeSylveonParentDad_AnimatorController();
+			// SylveonParentDad_FailSafe.LoadFailSafeSylveonParentDad_AnimatorController();
 		}
-		private void Load_SylveonParentMom_FailSafe()
+		private void LoadFailSafe_SylveonParentMom_FailSafe()
 		{
-			SylveonParentMom_FailSafe.LoadFailSafeSylveonParentMom_AnimatorController();
+			// SylveonParentMom_FailSafe.LoadFailSafeSylveonParentMom_AnimatorController();
 		}
 	}
 }

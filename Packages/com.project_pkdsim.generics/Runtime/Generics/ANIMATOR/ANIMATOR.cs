@@ -1,8 +1,21 @@
-namespace project_pkdsim.Generics.Animators
+using project_pkdsim.Generics.ANIMATOR.Type.Model;
+using project_pkdsim.Generics.ANIMATOR.Type.General;
+
+namespace project_pkdsim.Generics.ANIMATOR
 {
     public interface IAnimator
     {
-        void Play(string animationName);
-        void Stop();
+        public IModelAnimator modelAnimator { get; }
+        public IGeneralAnimator generalAnimator { get; }
+    }
+
+    public interface IModelAnimators
+    {
+        public abstract IModelAnimator animatorModel { get; }
+    }
+
+    public interface IGeneralAnimators
+    {
+        public abstract IGeneralAnimator animatorGeneral { get; }
     }
 }

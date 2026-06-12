@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private GarchompParentDad_FailSafe GarchompParentDad_FailSafe;
 		private GarchompParentMom_FailSafe GarchompParentMom_FailSafe;
-		public void Load_GarchompParentsFailSafe()
+		public void LoadFailSafeGarchompParents_AnimatorController()
 		{
-			Load_GarchompParentDad_FailSafe();
-			Load_GarchompParentMom_FailSafe();	
+			LoadFailSafe_GarchompParentDad_FailSafe();
+			LoadFailSafe_GarchompParentMom_FailSafe();	
 		}
-		private void Load_GarchompParentDad_FailSafe()
+		private void LoadFailSafe_GarchompParentDad_FailSafe()
 		{
-			GarchompParentDad_FailSafe.LoadFailSafeGarchompParentDad_AnimatorController();
+			// GarchompParentDad_FailSafe.LoadFailSafeGarchompParentDad_AnimatorController();
 		}
-		private void Load_GarchompParentMom_FailSafe()
+		private void LoadFailSafe_GarchompParentMom_FailSafe()
 		{
-			GarchompParentMom_FailSafe.LoadFailSafeGarchompParentMom_AnimatorController();
+			// GarchompParentMom_FailSafe.LoadFailSafeGarchompParentMom_AnimatorController();
 		}
 
 	}

@@ -60,7 +60,7 @@ namespace project_pkdsim.ANIMATOR.NPC.AFS_Loader.AnimatorLoadFailSafe
             Debug.Log("Animator is Loading FailSafe");
             LoadFailSafe_AnimatorControllers();
         }
-        private void LoadFailSafe_AnimatorControllers()
+        public void LoadFailSafe_AnimatorControllers()
         {
             LeafeonFailSafeAnimator();
             GlaceonFailSafeAnimator();

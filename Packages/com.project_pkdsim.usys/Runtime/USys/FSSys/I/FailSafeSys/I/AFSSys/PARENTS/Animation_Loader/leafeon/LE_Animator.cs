@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private LeafeonParentDad_FailSafe LeafeonParentDad_FailSafe;
 		private LeafeonParentMom_FailSafe LeafeonParentMom_FailSafe;
-		public void Load_LeafeonParentsFailSafe()
+		public void LoadFailSafeLeafeonParents_AnimatorController()
 		{
-			Load_LeafeonParentDad_FailSafe();
-			Load_LeafeonParentMom_FailSafe();	
+			LoadFailSafe_LeafeonParentDad_FailSafe();
+			LoadFailSafe_LeafeonParentMom_FailSafe();	
 		}
-		private void Load_LeafeonParentDad_FailSafe()
+		private void LoadFailSafe_LeafeonParentDad_FailSafe()
 		{
-			LeafeonParentDad_FailSafe.LoadFailSafeLeafeonParentDad_AnimatorController();
+			// LeafeonParentDad_FailSafe.LoadFailSafeLeafeonParentDad_AnimatorController();
 		}
-		private void Load_LeafeonParentMom_FailSafe()
+		private void LoadFailSafe_LeafeonParentMom_FailSafe()
 		{
-			LeafeonParentMom_FailSafe.LoadFailSafeLeafeonParentMom_AnimatorController();
+			// LeafeonParentMom_FailSafe.LoadFailSafeLeafeonParentMom_AnimatorController();
 		}
 	}
 }

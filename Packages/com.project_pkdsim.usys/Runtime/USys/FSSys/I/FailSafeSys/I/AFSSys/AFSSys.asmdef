@@ -3,6 +3,7 @@
   "rootNamespace": "project_pkdsim.USys.FSSys.AntiFailSafeSys",
   "references": 
   [
-
+    "project_pkdsim.USys.FSSys.AntiFailSafeSys.Npc",
+    "project_pkdsim.USys.FSSys.AntiFailSafeSys.Parents"
   ]
 }

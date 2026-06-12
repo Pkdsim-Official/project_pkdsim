@@ -5,6 +5,7 @@
   [
     "project_pkdsim.USys.FSSys.AntiFailSafeSys.Parents",
     "project_pkdsim.USys.FSSys.AntiFailSafeSys.Npc",
-    "project_pkdsim.USys.FSSys.AntiFailSafeSys.Player"
+    "project_pkdsim.USys.FSSys.AntiFailSafeSys.Player",
+    "project_pkdsim.Abstractors"
   ]
 }

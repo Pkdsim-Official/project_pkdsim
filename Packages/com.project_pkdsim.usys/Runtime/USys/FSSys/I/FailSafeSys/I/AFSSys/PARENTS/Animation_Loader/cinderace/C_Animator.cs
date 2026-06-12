@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private CinderaceParentDad_FailSafe CinderaceParentDad_FailSafe;
 		private CinderaceParentMom_FailSafe CinderaceParentMom_FailSafe;
-		public void Load_CinderaceParentsFailSafe()
+		public void LoadFailSafeCinderaceParents_AnimatorController()
 		{
-			Load_CinderaceParentDad_FailSafe();
-			Load_CinderaceParentMom_FailSafe();
+			LoadFailSafe_CinderaceParentDad_FailSafe();
+			LoadFailSafe_CinderaceParentMom_FailSafe();
 		}
-		private void Load_CinderaceParentDad_FailSafe()
+		private void LoadFailSafe_CinderaceParentDad_FailSafe()
 		{
-			CinderaceParentDad_FailSafe.LoadFailSafeCinderaceParentDad_AnimatorController();
+			// CinderaceParentDad_FailSafe.LoadFailSafeCinderaceParentDad_AnimatorController();
 		}
-		private void Load_CinderaceParentMom_FailSafe()
+		private void LoadFailSafe_CinderaceParentMom_FailSafe()
 		{
-			CinderaceParentMom_FailSafe.LoadFailSafeCinderaceParentMom_AnimatorController();
+			// CinderaceParentMom_FailSafe.LoadFailSafeCinderaceParentMom_AnimatorController();
 		}
 	}
 }

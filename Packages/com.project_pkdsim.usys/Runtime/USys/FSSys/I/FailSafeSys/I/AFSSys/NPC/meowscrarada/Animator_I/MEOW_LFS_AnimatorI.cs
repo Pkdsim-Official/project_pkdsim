@@ -11,7 +11,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 		public Animator Meowscarada_Animator;
 		public RuntimeAnimatorController someController;
 
-		private NPCSpeciesType meowscarada = NPCSpeciesType.MEOW_SCARADA;
+		private NPCSpeciesType meowscarada = NPCSpeciesType.MEOWSCARADA;
 
 		private Meowscarada_LFS_ConverterAnimatorController LFSMeowscarada_AnimatorCCA;
 		private Meowscarada_LFS_MovementAnimatorController LFSMeowscarada_AnimatorCMA;

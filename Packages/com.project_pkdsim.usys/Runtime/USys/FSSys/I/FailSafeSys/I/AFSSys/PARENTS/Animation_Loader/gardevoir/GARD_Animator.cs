@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private GardevoirParentDad_FailSafe GardevoirParentDad_FailSafe;
 		private GardevoirParentMom_FailSafe GardevoirParentMom_FailSafe;
-		public void Load_GardevoirParentsFailSafe()
+		public void LoadFailSafeGardevoirParents_AnimatorController()
 		{
-			Load_GardevoirParentDad_FailSafe();
-			Load_GardevoirParentMom_FailSafe();	
+			LoadFailSafe_GardevoirParentDad_FailSafe();
+			LoadFailSafe_GardevoirParentMom_FailSafe();	
 		}
-		private void Load_GardevoirParentDad_FailSafe()
+		private void LoadFailSafe_GardevoirParentDad_FailSafe()
 		{
-			GardevoirParentDad_FailSafe.LoadFailSafeGardevoirParentDad_AnimatorController();
+			// GardevoirParentDad_FailSafe.LoadFailSafeGardevoirParentDad_AnimatorController();
 		}
-		private void Load_GardevoirParentMom_FailSafe()
+		private void LoadFailSafe_GardevoirParentMom_FailSafe()
 		{
-			GardevoirParentMom_FailSafe.LoadFailSafeGardevoirParentMom_AnimatorController();
+			// GardevoirParentMom_FailSafe.LoadFailSafeGardevoirParentMom_AnimatorController();
 		}	
 	}
 }

@@ -8,18 +8,21 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private BeedrillParentDad_FailSafe BeedrillParentDad_FailSafe;
 		private BeedrillParentMom_FailSafe BeedrillParentMom_FailSafe;
-		public void Load_BeedrillParentsFailSafe()
+
+		public void LoadFailSafeBeedrillParents_AnimatorController()
 		{
-			Load_BeedrillParentDad_FailSafe();
-			Load_BeedrillParentMom_FailSafe();	
+			LoadFailSafe_BeedrillParentDad_FailSafe();
+			LoadFailSafe_BeedrillParentMom_FailSafe();	
 		}
-		private void Load_BeedrillParentDad_FailSafe()
+
+		private void LoadFailSafe_BeedrillParentDad_FailSafe()
 		{
-			BeedrillParentDad_FailSafe.LoadFailSafeBeedrillParentDad_AnimatorController();
+			// BeedrillParentDad_FailSafe.LoadFailSafeBeedrillParentDad_AnimatorController();
 		}
-		private void Load_BeedrillParentMom_FailSafe()
+
+		private void LoadFailSafe_BeedrillParentMom_FailSafe()
 		{
-			BeedrillParentMom_FailSafe.LoadFailSafeBeedrillParentMom_AnimatorController();
+			// BeedrillParentMom_FailSafe.LoadFailSafeBeedrillParentMom_AnimatorController();
 		}
 	}
 }

@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private VaporeonParentDad_FailSafe VaporeonParentDad_FailSafe;
 		private VaporeonParentMom_FailSafe VaporeonParentMom_FailSafe;
-		public void Load_VaporeonParentsFailSafe()
+		public void LoadFailSafeVaporeonParents_AnimatorController()
 		{
-			Load_VaporeonParentDad_FailSafe();
-			Load_VaporeonParentMom_FailSafe();	
+			LoadFailSafe_VaporeonParentDad_FailSafe();
+			LoadFailSafe_VaporeonParentMom_FailSafe();	
 		}
-		private void Load_VaporeonParentDad_FailSafe()
+		private void LoadFailSafe_VaporeonParentDad_FailSafe()
 		{
-			VaporeonParentDad_FailSafe.LoadFailSafeVaporeonParentDad_AnimatorController();
+			// VaporeonParentDad_FailSafe.LoadFailSafeVaporeonParentDad_AnimatorController();
 		}
-		private void Load_VaporeonParentMom_FailSafe()
+		private void LoadFailSafe_VaporeonParentMom_FailSafe()
 		{
-			VaporeonParentMom_FailSafe.LoadFailSafeVaporeonParentMom_AnimatorController();
+			// VaporeonParentMom_FailSafe.LoadFailSafeVaporeonParentMom_AnimatorController();
 		}
 	}
 }

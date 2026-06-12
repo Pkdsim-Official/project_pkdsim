@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace project_pkdsim.ANIMATOR.Parents.Espeo
+namespace project_pkdsim.ANIMATOR.Parents.Espeon
 {
 	public class LEParent_Animator : MonoBehaviour 
 	{

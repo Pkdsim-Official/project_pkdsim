@@ -4,7 +4,7 @@
   "references": 
   [
     "project_pkdsim.Generics",
-
+    "project_pkdsim.Abstractors",
     "Unity.Addressables"
   ]
 }

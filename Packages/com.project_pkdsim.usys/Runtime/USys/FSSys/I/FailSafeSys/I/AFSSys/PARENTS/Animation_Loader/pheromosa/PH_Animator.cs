@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private PheromosaParentDad_FailSafe PheromosaParentDad_FailSafe;
 		private PheromosaParentMom_FailSafe PheromosaParentMom_FailSafe;
-		public void Load_PheromosaParentsFailSafe()
+		public void LoadFailSafePheromosaParents_AnimatorController()
 		{
-			Load_PheromosaParentDad_FailSafe();
-			Load_PheromosaParentMom_FailSafe();	
+			LoadFailSafe_PheromosaParentDad_FailSafe();
+			LoadFailSafe_PheromosaParentMom_FailSafe();	
 		}
-		private void Load_PheromosaParentDad_FailSafe()
+		private void LoadFailSafe_PheromosaParentDad_FailSafe()
 		{
-			PheromosaParentDad_FailSafe.LoadFailSafePheromosaParentDad_AnimatorController();
+			// PheromosaParentDad_FailSafe.LoadFailSafePheromosaParentDad_AnimatorController();
 		}
-		private void Load_PheromosaParentMom_FailSafe()
+		private void LoadFailSafe_PheromosaParentMom_FailSafe()
 		{
-			PheromosaParentMom_FailSafe.LoadFailSafePheromosaParentMom_AnimatorController();
+			// PheromosaParentMom_FailSafe.LoadFailSafePheromosaParentMom_AnimatorController();
 		}	
 	}
 }

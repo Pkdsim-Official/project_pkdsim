@@ -1,36 +1,35 @@
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Mom.idlebaseanimation;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Mom.movementbasedanimations;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Mom.converteranimations;
 using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Meowscarada.Mom.Animator_I
 {
 	public class MeowscaradaParentMom_FailSafe : MonoBehaviour 
 	{
-		public Animator MeowscaradaParentMom_Animator;
-		public RuntimeAnimatorController someController;
+		// pre interface
 
-		private MeowscaradaParentMom_ConverterAnimatorController MeowscaradaParentMom_AnimatorCCA;
-		private MeowscaradaParentMom_MovementAnimatorController MeowscaradaParentMom_AnimatorCMA;
-		private MeowscaradaParentMom_IdleAnimatorController MeowscaradaParentMom_AnimatorICA;
+		// public Animator MeowscaradaParentMom_Animator;
+		// public RuntimeAnimatorController someController;
 
-		public void LoadFailSafeMeowscaradaParentMom_AnimatorController()
-		{
-			LoadFailSafeMeowscaradaParentMom_ConvertToAnimatorController();
-			LoadFailSafeMeowscaradaParentMom_MovementAnimatorController();
-			LoadFailSafeMeowscaradaParentMom_IdleAnimatorController();
-		}
-		private void LoadFailSafeMeowscaradaParentMom_ConvertToAnimatorController()
-		{
-			MeowscaradaParentMom_AnimatorCCA.MEOWParentMom_ConverterAnimatorController();
-		}
-		private void LoadFailSafeMeowscaradaParentMom_MovementAnimatorController()
-		{
-			MeowscaradaParentMom_AnimatorCMA.MEOWParentMom_MovementAnimatorController();
-		}
-		private void LoadFailSafeMeowscaradaParentMom_IdleAnimatorController()
-		{
-			MeowscaradaParentMom_AnimatorICA.MEOWParentMom_IdleAnimatorController();
-		}
+		// private MeowscaradaParentMom_ConverterAnimatorController MeowscaradaParentMom_AnimatorCCA;
+		// private MeowscaradaParentMom_MovementAnimatorController MeowscaradaParentMom_AnimatorCMA;
+		// private MeowscaradaParentMom_IdleAnimatorController MeowscaradaParentMom_AnimatorICA;
+
+		// public void LoadFailSafeMeowscaradaParentMom_AnimatorController()
+		// {
+		// 	LoadFailSafeMeowscaradaParentMom_ConvertToAnimatorController();
+		// 	LoadFailSafeMeowscaradaParentMom_MovementAnimatorController();
+		// 	LoadFailSafeMeowscaradaParentMom_IdleAnimatorController();
+		// }
+		// private void LoadFailSafeMeowscaradaParentMom_ConvertToAnimatorController()
+		// {
+		// 	MeowscaradaParentMom_AnimatorCCA.MEOWParentMom_ConverterAnimatorController();
+		// }
+		// private void LoadFailSafeMeowscaradaParentMom_MovementAnimatorController()
+		// {
+		// 	MeowscaradaParentMom_AnimatorCMA.MEOWParentMom_MovementAnimatorController();
+		// }
+		// private void LoadFailSafeMeowscaradaParentMom_IdleAnimatorController()
+		// {
+		// 	MeowscaradaParentMom_AnimatorICA.MEOWParentMom_IdleAnimatorController();
+		// }
 	}
 }

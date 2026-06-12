@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private DragapultParentDad_FailSafe DragapultParentDad_FailSafe;
 		private DragapultParentMom_FailSafe DragapultParentMom_FailSafe;
-		public void Load_DragapultParentsFailSafe()
+		public void LoadFailSafeDragapultParents_AnimatorController()
 		{
-			Load_DragapultParentDad_FailSafe();
-			Load_DragapultParentMom_FailSafe();	
+			LoadFailSafe_DragapultParentDad_FailSafe();
+			LoadFailSafe_DragapultParentMom_FailSafe();	
 		}
-		private void Load_DragapultParentDad_FailSafe()
+		private void LoadFailSafe_DragapultParentDad_FailSafe()
 		{
-			DragapultParentDad_FailSafe.LoadFailSafeDragapultParentDad_AnimatorController();
+			// DragapultParentDad_FailSafe.LoadFailSafeDragapultParentDad_AnimatorController();
 		}
-		private void Load_DragapultParentMom_FailSafe()
+		private void LoadFailSafe_DragapultParentMom_FailSafe()
 		{
-			DragapultParentMom_FailSafe.LoadFailSafeDragapultParentMom_AnimatorController();
+			// DragapultParentMom_FailSafe.LoadFailSafeDragapultParentMom_AnimatorController();
 		}
 	}
 }

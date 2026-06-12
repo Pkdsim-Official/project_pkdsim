@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private FrostlassParentDad_FailSafe FrostlassParentDad_FailSafe;
 		private FrostlassParentMom_FailSafe FrostlassParentMom_FailSafe;
-		public void Load_FrostlassParentsFailSafe()
+		public void LoadFailSafeFrostlassParents_AnimatorController()
 		{
-			Load_FrostlassParentDad_FailSafe();
-			Load_FrostlassParentMom_FailSafe();	
+			LoadFailSafe_FrostlassParentDad_FailSafe();
+			LoadFailSafe_FrostlassParentMom_FailSafe();	
 		}
-		private void Load_FrostlassParentDad_FailSafe()
+		private void LoadFailSafe_FrostlassParentDad_FailSafe()
 		{
-			FrostlassParentDad_FailSafe.LoadFailSafeFrostlassParentDad_AnimatorController();
+			// FrostlassParentDad_FailSafe.LoadFailSafeFrostlassParentDad_AnimatorController();
 		}
-		private void Load_FrostlassParentMom_FailSafe()
+		private void LoadFailSafe_FrostlassParentMom_FailSafe()
 		{
-			FrostlassParentMom_FailSafe.LoadFailSafeFrostlassParentMom_AnimatorController();
+			// FrostlassParentMom_FailSafe.LoadFailSafeFrostlassParentMom_AnimatorController();
 		}
 	}
 }

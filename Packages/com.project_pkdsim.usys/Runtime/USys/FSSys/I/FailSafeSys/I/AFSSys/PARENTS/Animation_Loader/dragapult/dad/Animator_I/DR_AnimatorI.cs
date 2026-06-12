@@ -1,36 +1,35 @@
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.idlebaseanimation;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.movementbasedanimations;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.converteranimations;
 using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Dragapult.Dad.Animator_I
 {
 	public class DragapultParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator DragapultParentDad_Animator;
-		public RuntimeAnimatorController someController;
+		// pre interface
 
-		private DragapultParentDad_ConverterAnimatorController DragapultParentDad_AnimatorCCA;
-		private DragapultParentDad_MovementAnimatorController DragapultParentDad_AnimatorCMA;
-		private DragapultParentDad_IdleAnimatorController DragapultParentDad_AnimatorICA;
+		// public Animator DragapultParentDad_Animator;
+		// public RuntimeAnimatorController someController;
 
-		public void LoadFailSafeDragapultParentDad_AnimatorController()
-		{
-			LoadFailSafeDragapultParentDad_ConvertToAnimatorController();
-			LoadFailSafeDragapultParentDad_MovementAnimatorController();
-			LoadFailSafeDragapultParentDad_IdleAnimatorController();
-		}
-		private void LoadFailSafeDragapultParentDad_ConvertToAnimatorController()
-		{
-			DragapultParentDad_AnimatorCCA.DRParentDad_ConverterAnimatorController();
-		}
-		private void LoadFailSafeDragapultParentDad_MovementAnimatorController()
-		{
-			DragapultParentDad_AnimatorCMA.DRParentDad_MovementAnimatorController();
-		}
-		private void LoadFailSafeDragapultParentDad_IdleAnimatorController()
-		{
-			DragapultParentDad_AnimatorICA.DRParentDad_IdleAnimatorController();
-		}
+		// private DragapultParentDad_ConverterAnimatorController DragapultParentDad_AnimatorCCA;
+		// private DragapultParentDad_MovementAnimatorController DragapultParentDad_AnimatorCMA;
+		// private DragapultParentDad_IdleAnimatorController DragapultParentDad_AnimatorICA;
+
+		// public void LoadFailSafeDragapultParentDad_AnimatorController()
+		// {
+		// 	LoadFailSafeDragapultParentDad_ConvertToAnimatorController();
+		// 	LoadFailSafeDragapultParentDad_MovementAnimatorController();
+		// 	LoadFailSafeDragapultParentDad_IdleAnimatorController();
+		// }
+		// private void LoadFailSafeDragapultParentDad_ConvertToAnimatorController()
+		// {
+		// 	DragapultParentDad_AnimatorCCA.DRParentDad_ConverterAnimatorController();
+		// }
+		// private void LoadFailSafeDragapultParentDad_MovementAnimatorController()
+		// {
+		// 	DragapultParentDad_AnimatorCMA.DRParentDad_MovementAnimatorController();
+		// }
+		// private void LoadFailSafeDragapultParentDad_IdleAnimatorController()
+		// {
+		// 	DragapultParentDad_AnimatorICA.DRParentDad_IdleAnimatorController();
+		// }
 	}
 }

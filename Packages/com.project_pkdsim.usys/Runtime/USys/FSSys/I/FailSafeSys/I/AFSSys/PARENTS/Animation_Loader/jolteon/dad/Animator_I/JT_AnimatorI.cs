@@ -1,36 +1,35 @@
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.converteranimations;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.idlebaseanimation;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.movementbasedanimations;
 using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Jolteon.Dad.Animator_I
 {
 	public class JolteonParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator JolteonParentDad_Animator;
-		public RuntimeAnimatorController someController;
+		// pre interface
 
-		private JolteonParentDad_ConverterAnimatorController JolteonParentDad_AnimatorCCA;
-		private JolteonParentDad_MovementAnimatorController JolteonParentDad_AnimatorCMA;
-		private JolteonParentDad_IdleAnimatorController JolteonParentDad_AnimatorICA;
+		// public Animator JolteonParentDad_Animator;
+		// public RuntimeAnimatorController someController;
 
-		public void LoadFailSafeJolteonParentDad_AnimatorController()
-		{
-			JolteonParentDad_ConvertToAnimatorController();
-			JolteonParentDad_MovementAnimatorController();
-			JolteonParentDad_IdleAnimatorController();
-		}
-		private void JolteonParentDad_ConvertToAnimatorController()
-		{
-			JolteonParentDad_AnimatorCCA.JTParentDad_ConverterAnimatorController();
-		}
-		private void JolteonParentDad_MovementAnimatorController()
-		{
-			JolteonParentDad_AnimatorCMA.JTParentDad_MovementAnimatorController();	
-		}
-		private void JolteonParentDad_IdleAnimatorController()
-		{
-			JolteonParentDad_AnimatorICA.JTParentDad_IdleAnimatorController();
-		}
+		// private JolteonParentDad_ConverterAnimatorController JolteonParentDad_AnimatorCCA;
+		// private JolteonParentDad_MovementAnimatorController JolteonParentDad_AnimatorCMA;
+		// private JolteonParentDad_IdleAnimatorController JolteonParentDad_AnimatorICA;
+
+		// public void LoadFailSafeJolteonParentDad_AnimatorController()
+		// {
+		// 	JolteonParentDad_ConvertToAnimatorController();
+		// 	JolteonParentDad_MovementAnimatorController();
+		// 	JolteonParentDad_IdleAnimatorController();
+		// }
+		// private void JolteonParentDad_ConvertToAnimatorController()
+		// {
+		// 	JolteonParentDad_AnimatorCCA.JTParentDad_ConverterAnimatorController();
+		// }
+		// private void JolteonParentDad_MovementAnimatorController()
+		// {
+		// 	JolteonParentDad_AnimatorCMA.JTParentDad_MovementAnimatorController();	
+		// }
+		// private void JolteonParentDad_IdleAnimatorController()
+		// {
+		// 	JolteonParentDad_AnimatorICA.JTParentDad_IdleAnimatorController();
+		// }
 	}
 }

@@ -35,34 +35,6 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 {
     public class NPC_LFSAnimatorLoader : MonoBehaviour
     {
-
-        RuntimeAnimatorController LFS_GlaceonFailSafeAnimator;
-        RuntimeAnimatorController LFS_LeafeonFailSafeAnimator;
-        RuntimeAnimatorController LFS_JolteonFailSafeAnimator;
-        RuntimeAnimatorController LFS_EspeonFailSafeAnimator;
-        RuntimeAnimatorController LFS_SylveonFailSafeAnimator;
-        RuntimeAnimatorController LFS_VaporeonFailSafeAnimator;
-        RuntimeAnimatorController LFS_UmbreonFailSafeAnimator;
-        RuntimeAnimatorController LFS_FlareonFailSafeAnimator;
-        RuntimeAnimatorController LFS_NoivernFailSafeAnimator;
-        RuntimeAnimatorController LFS_AbsolFailSafeAnimator;
-        RuntimeAnimatorController LFS_BeedrillFailSafeAnimator;
-        RuntimeAnimatorController LFS_BraixenFailSafeAnimator;
-        RuntimeAnimatorController LFS_CinderaceFailSafeAnimator;
-        RuntimeAnimatorController LFS_DelphoxFailSafeAnimator;
-        RuntimeAnimatorController LFS_DragapultFailSafeAnimator;
-        RuntimeAnimatorController LFS_FrostlassFailSafeAnimator;
-        RuntimeAnimatorController LFS_GarchompFailSafeAnimator;
-        RuntimeAnimatorController LFS_HattereneFailSafeAnimator;
-        RuntimeAnimatorController LFS_LopunnyFailSafeAnimator;
-        RuntimeAnimatorController LFS_LucarioFailSafeAnimator;
-        RuntimeAnimatorController LFS_LunalaFailSafeAnimator;
-        RuntimeAnimatorController LFS_MeowscaradaFailSafeAnimator;
-        RuntimeAnimatorController LFS_PheromosaFailSafeAnimator;
-        RuntimeAnimatorController LFS_PrimarinaFailSafeAnimator;
-        RuntimeAnimatorController LFS_ZoroarkFailSafeAnimator;
-        RuntimeAnimatorController LFS_GardevoirFailSafeAnimator;
-        RuntimeAnimatorController LFS_BlazikenFailSafeAnimator;
         private LFS_GlaceonFailSafe GlaceonFailSafeAnimator;
         private LFS_LeafeonFailSafe LeafeonFailSafeAnimator;
         private LFS_JolteonFailSafe JolteonFailSafeAnimator;
@@ -95,7 +67,7 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
         {
             
         };
-        private void NPC_LoadFailSafeSAnimator()
+        public void NPC_LoadFailSafeSAnimator()
         {
             VaporeonFailSafeAnimator.LoadFailSafeVaporeon_AnimatorController();
             FlareonFailSafeAnimator.LoadFailSafeFlareon_AnimatorController();    

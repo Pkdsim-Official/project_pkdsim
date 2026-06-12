@@ -26,9 +26,9 @@ using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.
 using UnityEngine;
 
 
-namespace project_pkdsim.ANIMATOR.Parents.AFS_Loader.AnimatorLoad_
+namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents
 {
-    public class AnimatorParents_Load_
+    public class AnimatorParents_LoadFailSafe
     {
         private LFS_EspeonParentsFailSafe LFS_EspeonParentsFailSafeAnimator;
         private LFS_FlareonParentsFailSafe LFS_FlareonParentsFailSafeAnimator;
@@ -59,9 +59,9 @@ namespace project_pkdsim.ANIMATOR.Parents.AFS_Loader.AnimatorLoad_
         public void FailSafe()
         {
             Debug.Log("Animator is Loading FailSafe");
-            Load_Parents();
+            LoadFailSafeParents();
         }
-        private void Load_Parents()
+        private void LoadFailSafeParents()
         {
             LeafeonParentsFailSafeAnimator();
             GlaceonParentsFailSafeAnimator();
@@ -91,103 +91,103 @@ namespace project_pkdsim.ANIMATOR.Parents.AFS_Loader.AnimatorLoad_
         }
         private void LeafeonParentsFailSafeAnimator()
         {
-            LFS_LeafeonParentsFailSafeAnimator.Load_LeafeonParentsFailSafe();
+            LFS_LeafeonParentsFailSafeAnimator.LoadFailSafeLeafeonParents_AnimatorController();
         }
         private void GlaceonParentsFailSafeAnimator()
         {
-            LFS_GlaceonParentsFailSafeAnimator.Load_GlaceonParentsFailSafe();
+            LFS_GlaceonParentsFailSafeAnimator.LoadFailSafeGlaceonParents_AnimatorController();
         }
         private void JolteonParentsFailSafeAnimator()
         {
-            LFS_JolteonParentsFailSafeAnimator.Load_JolteonParentsFailSafe();
+            LFS_JolteonParentsFailSafeAnimator.LoadFailSafeJolteonParents_AnimatorController();
         }
         private void EspeonParentsFailSafeAnimator()
         {
-            LFS_EspeonParentsFailSafeAnimator.Load_EspeonParentsFailSafe();
+            LFS_EspeonParentsFailSafeAnimator.LoadFailSafeEspeonParents_AnimatorController();
         }
         private void SylveonParentsFailSafeAnimator()
         {
-            LFS_SylveonParentsFailSafeAnimator.Load_SylveonParentsFailSafe();
+            LFS_SylveonParentsFailSafeAnimator.LoadFailSafeSylveonParents_AnimatorController();
         }
         private void VaporeonParentsFailSafeAnimator()
         {
-            LFS_VaporeonParentsFailSafeAnimator.Load_VaporeonParentsFailSafe();
+            LFS_VaporeonParentsFailSafeAnimator.LoadFailSafeVaporeonParents_AnimatorController();
         }
         private void UmbreonParentsFailSafeAnimator()
         {
-            LFS_UmbreonParentsFailSafeAnimator.Load_UmbreonParentsFailSafe();
+            LFS_UmbreonParentsFailSafeAnimator.LoadFailSafeUmbreonParents_AnimatorController();
         }
         private void FlareonParentsFailSafeAnimator()
         {
-            LFS_FlareonParentsFailSafeAnimator.Load_FlareonParentsFailSafe();
+            LFS_FlareonParentsFailSafeAnimator.LoadFailSafeFlareonParents_AnimatorController();
         }
         private void NoivernParentsFailSafeAnimator()
         {
-            LFS_NoivernParentsFailSafeAnimator.Load_NoivernParentsFailSafe();
+            LFS_NoivernParentsFailSafeAnimator.LoadFailSafeNoivernParents_AnimatorController();
         }
         private void AbsolParentsFailSafeAnimator()
         {
-            LFS_AbsolParentsFailSafeAnimator.Load_AbsolParentsFailSafe();
+            LFS_AbsolParentsFailSafeAnimator.LoadFailSafeAbsolParents_AnimatorController();
         }
         private void BeedrillParentsFailSafeAnimator()
         {
-            LFS_BeedrillParentsFailSafeAnimator.Load_BeedrillParentsFailSafe();
+            LFS_BeedrillParentsFailSafeAnimator.LoadFailSafeBeedrillParents_AnimatorController();
         }
         private void BraixenParentsFailSafeAnimator()
         {
-            LFS_BraixenParentsFailSafeAnimator.Load_BraixenParentsFailSafe();
+            LFS_BraixenParentsFailSafeAnimator.LoadFailSafeBraixenParents_AnimatorController();
         }
         private void CinderaceParentsFailSafeAnimator()
         {
-            LFS_CinderaceParentsFailSafeAnimator.Load_CinderaceParentsFailSafe();
+            LFS_CinderaceParentsFailSafeAnimator.LoadFailSafeCinderaceParents_AnimatorController();
         }
         private void DelphoxParentsFailSafeAnimator()
         {
-            LFS_DelphoxParentsFailSafeAnimator.Load_DelphoxParentsFailSafe();
+            LFS_DelphoxParentsFailSafeAnimator.LoadFailSafeDelphoxParents_AnimatorController();
         }
         private void DragapultParentsFailSafeAnimator()
         {
-            LFS_DragapultParentsFailSafeAnimator.Load_DragapultParentsFailSafe();
+            LFS_DragapultParentsFailSafeAnimator.LoadFailSafeDragapultParents_AnimatorController();
         }
         private void FrostlassParentsFailSafeAnimator()
         {
-            LFS_FrostlassParentsFailSafeAnimator.Load_FrostlassParentsFailSafe();
+            LFS_FrostlassParentsFailSafeAnimator.LoadFailSafeFrostlassParents_AnimatorController();
         }
         private void GarchompParentsFailSafeAnimator()
         {
-            LFS_GarchompParentsFailSafeAnimator.Load_GarchompParentsFailSafe();
+            LFS_GarchompParentsFailSafeAnimator.LoadFailSafeGarchompParents_AnimatorController();
         }
         private void HattereneParentsFailSafeAnimator()
         {
-            LFS_HattereneParentsFailSafeAnimator.Load_HattereneParentsFailSafe();
+            LFS_HattereneParentsFailSafeAnimator.LoadFailSafeHattereneParents_AnimatorController();
         }
         private void LopunnyParentsFailSafeAnimator()
         {
-            LFS_LopunnyParentsFailSafeAnimator.Load_LopunnyParentsFailSafe();
+            LFS_LopunnyParentsFailSafeAnimator.LoadFailSafeLopunnyParents_AnimatorController();
         }
         private void LucarioParentsFailSafeAnimator()
         {
-            LFS_LucarioParentsFailSafeAnimator.Load_LucarioParentsFailSafe();
+            LFS_LucarioParentsFailSafeAnimator.LoadFailSafeLucarioParents_AnimatorController();
         }
         private void LunalaParentsFailSafeAnimator()
         {
-            LFS_LunalaParentsFailSafeAnimator.Load_LunalaParentsFailSafe();
+            LFS_LunalaParentsFailSafeAnimator.LoadFailSafeLunalaParents_AnimatorController();
         }
         private void MeowscaradaParentsFailSafeAnimator()
         {
-            LFS_MeowscaradaParentsFailSafeAnimator.Load_MeowscaradaParentsFailSafe();
+            LFS_MeowscaradaParentsFailSafeAnimator.LoadFailSafeMeowscaradaParents_AnimatorController();
         }
         private void PheromosaParentsFailSafeAnimator()
         {
-            LFS_PheromosaParentsFailSafeAnimator.Load_PheromosaParentsFailSafe();
+            LFS_PheromosaParentsFailSafeAnimator.LoadFailSafePheromosaParents_AnimatorController();
         }
         private void PrimarinaParentsFailSafeAnimator()
         {
-            LFS_PrimarinaParentsFailSafeAnimator.Load_PrimarinaParentsFailSafe();
+            LFS_PrimarinaParentsFailSafeAnimator.LoadFailSafePrimarinaParents_AnimatorController();
         }
         private void ZoroarkParentsFailSafeAnimator()
         {
-            LFS_ZoroarkParentsFailSafeAnimator.Load_ZoroarkParentsFailSafe();
+            LFS_ZoroarkParentsFailSafeAnimator.LoadFailSafeZoroarkParents_AnimatorController();
         }
     }
 }

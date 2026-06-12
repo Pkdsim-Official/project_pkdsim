@@ -1,9 +1,0 @@
-using UnityEngine;
-
-namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Glaceon.Mom.converteranimations.WalkingTo.WalkingToStanding
-{
-	public class GLParentMom_WalkingToStanding : MonoBehaviour 
-	{
-
-	}
-}

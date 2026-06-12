@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private TsareenaParentDad_FailSafe TsareenaParentDad_FailSafe;
 		private TsareenaParentMom_FailSafe TsareenaParentMom_FailSafe;
-		public void Load_TsareenaParentsFailSafe()
+		public void LoadFailSafeTsareenaParents_AnimatorController()
 		{
-			Load_TsareenaParentDad_FailSafe();
-			Load_TsareenaParentMom_FailSafe();	
+			LoadFailSafe_TsareenaParentDad_FailSafe();
+			LoadFailSafe_TsareenaParentMom_FailSafe();	
 		}
-		private void Load_TsareenaParentDad_FailSafe()
+		private void LoadFailSafe_TsareenaParentDad_FailSafe()
 		{
-			TsareenaParentDad_FailSafe.LoadFailSafeTsareenaParentDad_AnimatorController();
+			// TsareenaParentDad_FailSafe.LoadFailSafeTsareenaParentDad_AnimatorController();
 		}
-		private void Load_TsareenaParentMom_FailSafe()
+		private void LoadFailSafe_TsareenaParentMom_FailSafe()
 		{
-			TsareenaParentMom_FailSafe.LoadFailSafeTsareenaParentMom_AnimatorController();
+			// TsareenaParentMom_FailSafe.LoadFailSafeTsareenaParentMom_AnimatorController();
 		}
 	}
 }

@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private NoivernParentDad_FailSafe NoivernParentDad_FailSafe;
 		private NoivernParentMom_FailSafe NoivernParentMom_FailSafe;
-		public void Load_NoivernParentsFailSafe()
+		public void LoadFailSafeNoivernParents_AnimatorController()
 		{
-			Load_NoivernParentDad_FailSafe();
-			Load_NoivernParentMom_FailSafe();	
+			LoadFailSafe_NoivernParentDad_FailSafe();
+			LoadFailSafe_NoivernParentMom_FailSafe();	
 		}
-		private void Load_NoivernParentDad_FailSafe()
+		private void LoadFailSafe_NoivernParentDad_FailSafe()
 		{
-			NoivernParentDad_FailSafe.LoadFailSafeNoivernParentDad_AnimatorController();
+			// NoivernParentDad_FailSafe.LoadFailSafeNoivernParentDad_AnimatorController();
 		}
-		private void Load_NoivernParentMom_FailSafe()
+		private void LoadFailSafe_NoivernParentMom_FailSafe()
 		{
-			NoivernParentMom_FailSafe.LoadFailSafeNoivernParentMom_AnimatorController();
+			// NoivernParentMom_FailSafe.LoadFailSafeNoivernParentMom_AnimatorController();
 		}
 	}
 }

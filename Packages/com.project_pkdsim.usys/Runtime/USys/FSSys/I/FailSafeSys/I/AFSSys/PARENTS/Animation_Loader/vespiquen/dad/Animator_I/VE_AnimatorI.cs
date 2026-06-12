@@ -1,36 +1,35 @@
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.idlebaseanimation;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.movementbasedanimations;
-using project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.converteranimations;
 using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Vespiquen.Dad.Animator_I
 {
 	public class VespiquenParentDad_FailSafe : MonoBehaviour 
 	{
-		public Animator Vespiquen_Animator;
-		public RuntimeAnimatorController someController;
+		// pre interface
 
-		private VespiquenParentDad_ConverterAnimatorController Vespiquen_AnimatorCCA;
-		private VespiquenParentDad_MovementAnimatorController Vespiquen_AnimatorCMA;
-		private VespiquenParentDad_IdleAnimatorController Vespiquen_AnimatorICA;
+		// public Animator Vespiquen_Animator;
+		// public RuntimeAnimatorController someController;
 
-		public void LoadFailSafeVespiquenParentDad_AnimatorController()
-		{
-			LoadFailSafeVespiquen_ConvertToAnimatorController();
-			LoadFailSafeVespiquen_MovementAnimatorController();
-			LoadFailSafeVespiquen_IdleAnimatorController();
-		}
-		private void LoadFailSafeVespiquen_ConvertToAnimatorController()
-		{
-			Vespiquen_AnimatorCCA.VEParentDad_ConverterAnimatorController();
-		}
-		private void LoadFailSafeVespiquen_MovementAnimatorController()
-		{
-			Vespiquen_AnimatorCMA.VEParentDad_MovementAnimatorController();
-		}
-		private void LoadFailSafeVespiquen_IdleAnimatorController()
-		{
-			Vespiquen_AnimatorICA.VEParentDad_IdleAnimatorController();
-		}
+		// private VespiquenParentDad_ConverterAnimatorController Vespiquen_AnimatorCCA;
+		// private VespiquenParentDad_MovementAnimatorController Vespiquen_AnimatorCMA;
+		// private VespiquenParentDad_IdleAnimatorController Vespiquen_AnimatorICA;
+
+		// public void LoadFailSafeVespiquenParentDad_AnimatorController()
+		// {
+		// 	LoadFailSafeVespiquen_ConvertToAnimatorController();
+		// 	LoadFailSafeVespiquen_MovementAnimatorController();
+		// 	LoadFailSafeVespiquen_IdleAnimatorController();
+		// }
+		// private void LoadFailSafeVespiquen_ConvertToAnimatorController()
+		// {
+		// 	Vespiquen_AnimatorCCA.VEParentDad_ConverterAnimatorController();
+		// }
+		// private void LoadFailSafeVespiquen_MovementAnimatorController()
+		// {
+		// 	Vespiquen_AnimatorCMA.VEParentDad_MovementAnimatorController();
+		// }
+		// private void LoadFailSafeVespiquen_IdleAnimatorController()
+		// {
+		// 	Vespiquen_AnimatorICA.VEParentDad_IdleAnimatorController();
+		// }
 	}
 }

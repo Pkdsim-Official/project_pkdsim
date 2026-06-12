@@ -1,36 +1,35 @@
-using  project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Mom.movementbasedanimations;
-using  project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Mom.converteranimations;
-using  project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Mom.idlebaseanimation;
 using UnityEngine;
 
 namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafeSys.ANIMATOR.Parents.Leafeon.Mom.Animator_I
 {
 	public class LeafeonParentMom_FailSafe : MonoBehaviour 
 	{
-		public Animator LeafeonParentMom_Animator;
-		public RuntimeAnimatorController someController;
+		// pre interface
 
-		private LeafeonParentMom_ConverterAnimatorController LeafeonParentMom_AnimatorCCA;
-		private LeafeonParentMom_MovementAnimatorController LeafeonParentMom_AnimatorCMA;
-		private LeafeonParentMom_IdleAnimatorController  LeafeonParentMom_AnimatorICA;
+		// public Animator LeafeonParentMom_Animator;
+		// public RuntimeAnimatorController someController;
 
-		public void LoadFailSafeLeafeonParentMom_AnimatorController()
-		{
-			LeafeonParentMom_ConvertToAnimatorController();
-			LeafeonParentMom_MovementAnimatorController();
-			LeafeonParentMom_IdleAnimatorController();	
-		}
-		private void  LeafeonParentMom_ConvertToAnimatorController()
-		{
+		// private LeafeonParentMom_ConverterAnimatorController LeafeonParentMom_AnimatorCCA;
+		// private LeafeonParentMom_MovementAnimatorController LeafeonParentMom_AnimatorCMA;
+		// private LeafeonParentMom_IdleAnimatorController  LeafeonParentMom_AnimatorICA;
 
-		}
-		private void LeafeonParentMom_MovementAnimatorController()
-		{
-			
-		}
-		private void LeafeonParentMom_IdleAnimatorController()
-		{
-			
-		}
+		// public void LoadFailSafeLeafeonParentMom_AnimatorController()
+		// {
+		// 	LeafeonParentMom_ConvertToAnimatorController();
+		// 	LeafeonParentMom_MovementAnimatorController();
+		// 	LeafeonParentMom_IdleAnimatorController();	
+		// }
+		// private void LeafeonParentMom_ConvertToAnimatorController()
+		// {
+		// 	LeafeonParentMom_AnimatorCCA.JTParentMom_ConverterAnimatorController();
+		// }
+		// private void LeafeonParentMom_MovementAnimatorController()
+		// {
+		// 	LeafeonParentMom_AnimatorCMA.JTParentMom_MovementAnimatorController();
+		// }
+		// private void LeafeonParentMom_IdleAnimatorController()
+		// {
+		// 	LeafeonParentMom_AnimatorICA.JTParentMom_IdleAnimatorController();
+		// }
 	}
 }

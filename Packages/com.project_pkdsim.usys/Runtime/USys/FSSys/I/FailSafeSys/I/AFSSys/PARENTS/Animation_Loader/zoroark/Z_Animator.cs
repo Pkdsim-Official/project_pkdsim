@@ -8,18 +8,18 @@ namespace project_pkdsim.USys.FSSys.Modules.FailSafeSys.Modules.AnimatorFailSafe
 	{
 		private ZoroarkParentDad_FailSafe ZoroarkParentDad_FailSafe;
 		private ZoroarkParentMom_FailSafe ZoroarkParentMom_FailSafe;
-		public void Load_ZoroarkParentsFailSafe()
+		public void LoadFailSafeZoroarkParents_AnimatorController()
 		{
-			Load_ZoroarkParentDad_FailSafe();
-			Load_ZoroarkParentMom_FailSafe();	
+			LoadFailSafe_ZoroarkParentDad_FailSafe();
+			LoadFailSafe_ZoroarkParentMom_FailSafe();	
 		}
-		private void Load_ZoroarkParentDad_FailSafe()
+		private void LoadFailSafe_ZoroarkParentDad_FailSafe()
 		{
-			ZoroarkParentDad_FailSafe.LoadFailSafeZoroarkParentDad_AnimatorController();
+			// ZoroarkParentDad_FailSafe.LoadFailSafeZoroarkParentDad_AnimatorController();
 		}
-		private void Load_ZoroarkParentMom_FailSafe()
+		private void LoadFailSafe_ZoroarkParentMom_FailSafe()
 		{
-			ZoroarkParentMom_FailSafe.LoadFailSafeZoroarkParentMom_AnimatorController();
+			// ZoroarkParentMom_FailSafe.LoadFailSafeZoroarkParentMom_AnimatorController();
 		}
 	}
 }
