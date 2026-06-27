@@ -1,0 +1,46 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../PKDSIM/UnityAssets/PKDSIM/Assets",
+          "files": [ "**/*.cs" ],
+          "exclude": [
+            "**/Library/**",
+            "**/Samples/**",
+            "**/Plugins/**",
+            "**/TutorialInfo/**",
+            "**/Fantasy Skybox*/**"
+          ]
+        }
+      ],
+      "dest": "api",
+      "namespaceLayout": "nested",
+      "filter": "filterConfig.yml",
+      "allowCompilationErrors": true
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.{md,yml}" ],
+        "exclude": [ "_site/**", "obj/**", "filterConfig.yml", "docfx.json" ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [ "images/**", "ci/**" ]
+      }
+    ],
+    "output": "_site",
+    "template": [ "default", "modern" ],
+    "globalMetadata": {
+      "_appName": "PKDSIM",
+      "_appTitle": "PKDSIM Documentation",
+      "_enableSearch": true,
+      "_disableContribution": true,
+      "_appFooter": "PKDSIM &mdash; project_pkdsim documentation"
+    },
+    "postProcessors": [ "ExtractSearchIndex" ]
+  }
+}

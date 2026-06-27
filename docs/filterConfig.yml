@@ -1,0 +1,10 @@
+apiRules:
+  # Only document the project's own code (everything lives under the
+  # project_pkdsim.* namespace). This drops third-party / engine symbols that
+  # leak in through unresolved references when compiling loose .cs files.
+  - include:
+      uidRegex: ^project_pkdsim
+      type: Namespace
+  - exclude:
+      uidRegex: .*
+      type: Namespace
