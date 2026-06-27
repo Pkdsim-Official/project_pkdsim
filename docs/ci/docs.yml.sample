@@ -1,0 +1,77 @@
+# GitHub Actions workflow for building & publishing the PKDSIM docs.
+#
+# To enable: copy this file to .github/workflows/docs.yml
+#   mkdir -p .github/workflows
+#   cp docs/ci/docs.yml.sample .github/workflows/docs.yml
+#
+# (It ships as a .sample because adding workflow files requires the `workflow`
+#  OAuth scope.) For Pages publishing, enable Settings -> Pages -> Source:
+# "GitHub Actions" in the repository.
+
+name: Docs
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - '.gitmodules'
+      - '.github/workflows/docs.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '.gitmodules'
+      - '.github/workflows/docs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: docs-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Best effort: the C# API reference is generated from this submodule.
+      # If it is private/unavailable in CI the build still produces the
+      # hand-written articles.
+      - name: Check out UnityAssets submodule
+        continue-on-error: true
+        run: git submodule update --init --depth 1 PKDSIM/UnityAssets
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Install DocFX
+        run: dotnet tool install -g docfx
+
+      - name: Build docs
+        run: docfx docs/docfx.json
+
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/_site
+
+  # Publishes to GitHub Pages on pushes to main. Requires Pages to be enabled
+  # for the repository (Settings -> Pages -> Source: GitHub Actions).
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
