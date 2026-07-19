@@ -1,3 +1,7 @@
 [submodule "PKDSIM/UnityAssets"]
 	path = PKDSIM/UnityAssets
-	url = https://github.com/Pkdsim-Official/Unity_Assets
+	url = https://github.com/Pkdsim-Official/Unity_Assets.git
+
+[submodule "PKDSIM/UnityPackages"]
+	path = PKDSIM/UnityPackages
+	url = https://github.com/Pkdsim-Official/Unity_Packages.git
