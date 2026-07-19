@@ -21,6 +21,16 @@ points at the [`Pkdsim-Official/Unity_Assets`](https://github.com/Pkdsim-Officia
 repository. Inside the submodule the project root is `PKDSIM/`, with source under
 `PKDSIM/Assets/`.
 
+> **Which snapshot this API reference reflects.** The generated API reference is
+> built from whatever commit the `PKDSIM/UnityAssets` submodule is currently
+> pinned to &mdash; at time of writing that is `9434810`, the **`NMaster`-style
+> flat `Assets/` layout**. The project is maintained as several parallel variants
+> (flat `Assets/`, split `Assets/Scripts/`, and a `UPackage` Packages layout), and
+> namespaces differ between them (e.g. `AntiHolidayCheckI` is declared as
+> `project_pkdsim.Assets.USys.AntiHolidayCheck.I` here, but is reorganised under
+> `HDSys` on the `UPackage` variant). If the generated namespaces don't match the
+> branch you're working on, repoint the submodule at that variant and rebuild.
+
 ## Where the code lives
 
 All first-party C# is namespaced under `project_pkdsim.*` and is found in two
